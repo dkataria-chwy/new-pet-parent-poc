@@ -19,24 +19,6 @@ interface ProductSectionProps {
   onSectionDecision: (decision: boolean) => void
 }
 
-// Simple Badge component since we didn't create it yet
-const SimpleBadge = ({ children, variant = "default", className = "" }: { 
-  children: React.ReactNode, 
-  variant?: "default" | "secondary" | "ai",
-  className?: string 
-}) => (
-  <span className={cn(
-    "inline-flex items-center px-2 py-1 rounded-full text-xs font-medium",
-    {
-      "bg-blue-100 text-blue-800": variant === "default",
-      "bg-gray-100 text-gray-800": variant === "secondary",
-      "bg-purple-100 text-purple-800": variant === "ai",
-    },
-    className
-  )}>
-    {children}
-  </span>
-)
 
 export function ProductSection({ 
   title, 
@@ -65,10 +47,10 @@ export function ProductSection({
           <div className="flex items-start justify-between">
             <h4 className="font-semibold text-gray-900 leading-tight">{item.title}</h4>
             {item.isAIGenerated && (
-              <SimpleBadge variant="ai" className="flex items-center space-x-1 ml-2">
+              <Badge className="flex items-center space-x-1 ml-2 bg-purple-100 text-purple-800">
                 <Sparkles className="h-3 w-3" />
                 <span>AI</span>
-              </SimpleBadge>
+              </Badge>
             )}
           </div>
           
@@ -81,9 +63,9 @@ export function ProductSection({
         {item.tags.length > 0 && (
           <div className="flex flex-wrap gap-1">
             {item.tags.map((tag, index) => (
-              <SimpleBadge key={index} variant="secondary">
+              <Badge key={index} variant="secondary">
                 {tag}
-              </SimpleBadge>
+              </Badge>
             ))}
           </div>
         )}

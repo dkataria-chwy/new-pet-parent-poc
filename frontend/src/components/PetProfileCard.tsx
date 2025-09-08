@@ -10,17 +10,6 @@ interface PetProfileCardProps {
   journey: JourneyState
 }
 
-// Simple Badge component since we didn't create it yet
-const SimpleBadge = ({ children, variant = "default" }: { children: React.ReactNode, variant?: "default" | "secondary" }) => (
-  <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium ${
-    variant === "secondary" 
-      ? "bg-gray-100 text-gray-800" 
-      : "bg-blue-100 text-blue-800"
-  }`}>
-    {children}
-  </span>
-)
-
 export function PetProfileCard({ pet, journey }: PetProfileCardProps) {
   const getAgeGroup = (ageMonths: number) => {
     if (ageMonths <= 12) return "Puppy/Kitten"
@@ -91,12 +80,12 @@ export function PetProfileCard({ pet, journey }: PetProfileCardProps) {
         </div>
         <CardTitle className="text-2xl font-bold">{pet.name}</CardTitle>
         <div className="flex justify-center space-x-2">
-          <SimpleBadge variant="secondary">
+          <Badge variant="secondary">
             {pet.species === 'dog' ? 'Dog' : 'Cat'}
-          </SimpleBadge>
-          <SimpleBadge>
+          </Badge>
+          <Badge>
             {pet.breed}
-          </SimpleBadge>
+          </Badge>
         </div>
       </CardHeader>
       
@@ -180,18 +169,18 @@ export function PetProfileCard({ pet, journey }: PetProfileCardProps) {
               {pet.activityLevel && (
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-600">Activity Level</span>
-                  <SimpleBadge variant={pet.activityLevel === 'high' ? 'default' : 'secondary'}>
+                  <Badge variant={pet.activityLevel === 'high' ? 'default' : 'secondary'}>
                     {pet.activityLevel.charAt(0).toUpperCase() + pet.activityLevel.slice(1)}
-                  </SimpleBadge>
+                  </Badge>
                 </div>
               )}
               
               {pet.chewStrength && (
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-600">Chew Strength</span>
-                  <SimpleBadge variant={pet.chewStrength === 'strong' ? 'default' : 'secondary'}>
+                  <Badge variant={pet.chewStrength === 'strong' ? 'default' : 'secondary'}>
                     {pet.chewStrength.charAt(0).toUpperCase() + pet.chewStrength.slice(1)}
-                  </SimpleBadge>
+                  </Badge>
                 </div>
               )}
             </div>
@@ -207,9 +196,9 @@ export function PetProfileCard({ pet, journey }: PetProfileCardProps) {
                 {pet.householdType && (
                   <div className="flex items-center justify-between">
                     <span className="text-sm text-gray-600">Home Type</span>
-                    <SimpleBadge variant="secondary">
+                    <Badge variant="secondary">
                       {pet.householdType.charAt(0).toUpperCase() + pet.householdType.slice(1)}
-                    </SimpleBadge>
+                    </Badge>
                   </div>
                 )}
                 
@@ -242,9 +231,9 @@ export function PetProfileCard({ pet, journey }: PetProfileCardProps) {
               {pet.budgetBand && (
                 <div className="flex items-center justify-between">
                   <span className="text-sm text-gray-600">Budget Range</span>
-                  <SimpleBadge variant="default">
+                  <Badge variant="default">
                     {pet.budgetBand.charAt(0).toUpperCase() + pet.budgetBand.slice(1)}
-                  </SimpleBadge>
+                  </Badge>
                 </div>
               )}
               
