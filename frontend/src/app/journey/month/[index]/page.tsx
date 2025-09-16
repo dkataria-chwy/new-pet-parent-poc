@@ -9,6 +9,7 @@ import { ProductSection } from "@/components/ProductSection"
 import { AIRecommendationBox } from "@/components/AIRecommendationBox"
 import { MonthRecap } from "@/components/MonthRecap"
 import { LoadingSpinner } from "@/components/LoadingSpinner"
+import { PetProfileUpdateModal } from "@/components/PetProfileUpdateModal"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { ChevronLeft } from "lucide-react"
@@ -33,14 +34,19 @@ export default function MonthDetail() {
     getItemDecision,
     getSectionDecision,
     completeMonth,
-    setDogPosition
+    setDogPosition,
+    setPet
   } = useAppStore()
 
   const [localRecommendations, setLocalRecommendations] = useState(currentMonthRecommendations)
   const [showCompletionAnimation, setShowCompletionAnimation] = useState(false)
   const [isCompleting, setIsCompleting] = useState(false)
   const [showAllergiesPopup, setShowAllergiesPopup] = useState(false)
+  const [showUpdateModal, setShowUpdateModal] = useState(false)
   const isDecisionInProgress = useRef(false)
+
+  // Check if this checkpoint/month is completed (read-only)
+  const isCheckpointCompleted = journey ? journey.current > (monthIndex + 1) : false
 
   useEffect(() => {
     // Redirect if no pet/journey or invalid month
@@ -96,43 +102,107 @@ export default function MonthDetail() {
     }
   }
 
-  const handleItemDecision = (section: string, itemId: string, decision: boolean) => {
-    if (!journey) return
+  const handleItemDecision = async (section: string, itemId: string, decision: boolean) => {
+    // Disable interactions for completed checkpoints
+    if (!journey || isCheckpointCompleted) return
     
     // Mark that we're making a decision to prevent useEffect from triggering
     isDecisionInProgress.current = true
     
-    makeDecision(monthIndex, section, itemId, decision)
+    try {
+      // Update local store first
+      makeDecision(monthIndex, section, itemId, decision)
+      
+      // Send decision to backend
+      await api.updateJourneyState("setDecision", {
+        journeyId: journey.id,
+        monthIdx: monthIndex,
+        section,
+        itemId,
+        value: decision
+      })
+      
+      console.log(`✅ Decision saved: ${section}/${itemId}: ${decision}`)
+    } catch (error) {
+      console.error('Failed to save decision:', error)
+      setError('Failed to save decision')
+      
+      // Log error event
+      if (journey) {
+        try {
+          await api.trackEvent("decision_save_failed", journey.id, {
+            monthIdx: monthIndex,
+            section,
+            itemId,
+            error: error instanceof Error ? error.message : 'Unknown error'
+          })
+        } catch (logError) {
+          console.warn('Failed to log error event:', logError)
+        }
+      }
+    }
     
     // Reset the flag after a short delay
     setTimeout(() => {
       isDecisionInProgress.current = false
     }, 100)
-    
-    // Update backend - we'll need to update the API to handle individual items
-    // For now, keeping it simple
-    console.log(`Decision for ${section}/${itemId}: ${decision}`)
   }
 
-  const handleSectionDecision = (section: string, decision: boolean) => {
-    if (!journey) return
+  const handleSectionDecision = async (section: string, decision: boolean) => {
+    // Disable interactions for completed checkpoints
+    if (!journey || isCheckpointCompleted) return
     
     // Mark that we're making a decision to prevent useEffect from triggering
     isDecisionInProgress.current = true
     
-    makeAllDecisions(monthIndex, section, decision)
+    try {
+      // Update local store first
+      makeAllDecisions(monthIndex, section, decision)
+      
+      // Send all individual item decisions to backend
+      if (localRecommendations) {
+        const sectionItems = localRecommendations[section as keyof typeof localRecommendations]
+        if (Array.isArray(sectionItems)) {
+          for (const item of sectionItems) {
+            await api.updateJourneyState("setDecision", {
+              journeyId: journey.id,
+              monthIdx: monthIndex,
+              section,
+              itemId: item.id,
+              value: decision
+            })
+          }
+        }
+      }
+      
+      console.log(`✅ Section decision saved: ${section} = ${decision} for all items`)
+    } catch (error) {
+      console.error('Failed to save section decision:', error)
+      setError('Failed to save section decision')
+      
+      // Log error event
+      if (journey) {
+        try {
+          await api.trackEvent("section_decision_save_failed", journey.id, {
+            monthIdx: monthIndex,
+            section,
+            error: error instanceof Error ? error.message : 'Unknown error'
+          })
+        } catch (logError) {
+          console.warn('Failed to log error event:', logError)
+        }
+      }
+    }
     
     // Reset the flag after a short delay
     setTimeout(() => {
       isDecisionInProgress.current = false
     }, 100)
-    
-    // Update backend
-    console.log(`Section decision for ${section}: ${decision}`)
   }
 
   const handleCompleteMonth = async () => {
-    if (!journey || isCompleting) return
+    // Disable completion for completed checkpoints
+    if (!journey || isCompleting || isCheckpointCompleted) return
 
     try {
       setIsCompleting(true)
@@ -171,12 +241,8 @@ export default function MonthDetail() {
       setShowCompletionAnimation(false)
       await new Promise(resolve => setTimeout(resolve, 600)) // Increased to match CSS transition duration
       
-      // Step 7: Navigate to next month or journey overview
-      if (monthIndex + 1 < journey.totalMonths) {
-        router.push(`/journey/month/${monthIndex + 1}`)
-      } else {
-        router.push('/journey')
-      }
+      // Step 7: Show pet profile update modal
+      setShowUpdateModal(true)
       
     } catch (error) {
       console.error('Failed to complete month:', error)
@@ -204,6 +270,27 @@ export default function MonthDetail() {
     })
 
     setLocalRecommendations(updatedRecs)
+  }
+
+  const handleUpdateModalClose = () => {
+    setShowUpdateModal(false)
+    // Navigate to next month or journey overview
+    if (journey && monthIndex + 1 < journey.totalMonths) {
+      router.push(`/journey/month/${monthIndex + 1}`)
+    } else {
+      router.push('/journey')
+    }
+  }
+
+  const handlePetUpdate = (updatedPet: any) => {
+    try {
+      if (updatedPet) {
+        setPet(updatedPet)
+      }
+    } catch (e) {
+      console.warn('Failed to set pet from update, continuing:', e)
+    }
+    handleUpdateModalClose()
   }
 
   if (isLoading) {
@@ -338,6 +425,7 @@ export default function MonthDetail() {
                 getSectionDecision={getSectionDecision}
                 onItemDecision={(itemId, decision) => handleItemDecision('subscriptions', itemId, decision)}
                 onSectionDecision={(decision) => handleSectionDecision('subscriptions', decision)}
+                isReadOnly={isCheckpointCompleted}
               />
             )}
 
@@ -353,6 +441,7 @@ export default function MonthDetail() {
                 getSectionDecision={getSectionDecision}
                 onItemDecision={(itemId, decision) => handleItemDecision('bundles', itemId, decision)}
                 onSectionDecision={(decision) => handleSectionDecision('bundles', decision)}
+                isReadOnly={isCheckpointCompleted}
               />
             )}
 
@@ -368,6 +457,7 @@ export default function MonthDetail() {
                 getSectionDecision={getSectionDecision}
                 onItemDecision={(itemId, decision) => handleItemDecision('singles', itemId, decision)}
                 onSectionDecision={(decision) => handleSectionDecision('singles', decision)}
+                isReadOnly={isCheckpointCompleted}
               />
             )}
 
@@ -379,16 +469,26 @@ export default function MonthDetail() {
                 <CardContent className="pt-6">
                   <div className="text-center space-y-4">
                     <div>
-                      <h3 className="font-semibold text-lg">Ready for the next month?</h3>
-                      <p className="text-gray-600">You've made all your selections for this month.</p>
+                      <h3 className="font-semibold text-lg">
+                        {isCheckpointCompleted ? "Month Already Completed" : "Ready for the next month?"}
+                      </h3>
+                      <p className="text-gray-600">
+                        {isCheckpointCompleted 
+                          ? "This month has been completed. You can view the recap but cannot make changes." 
+                          : "You've made all your selections for this month."
+                        }
+                      </p>
                     </div>
                     <Button
                       onClick={handleCompleteMonth}
-                      disabled={isLoading}
+                      disabled={isLoading || isCheckpointCompleted}
                       size="lg"
-                      className="bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700"
+                      className={cn(
+                        "bg-gradient-to-r from-purple-600 to-blue-600 hover:from-purple-700 hover:to-blue-700",
+                        isCheckpointCompleted && "opacity-50 cursor-not-allowed"
+                      )}
                     >
-                      {isLoading ? "Completing..." : "Complete Month & Continue"}
+                      {isLoading ? "Completing..." : isCheckpointCompleted ? "Month Completed" : "Complete Month & Continue"}
                     </Button>
                   </div>
                 </CardContent>
@@ -613,6 +713,17 @@ export default function MonthDetail() {
           </div>
         </div>
       </div>
+
+      {/* Pet Profile Update Modal */}
+      {pet && (
+        <PetProfileUpdateModal
+          isOpen={showUpdateModal}
+          onClose={handleUpdateModalClose}
+          pet={pet}
+          monthIndex={monthIndex}
+          onUpdate={handlePetUpdate}
+        />
+      )}
     </div>
   )
 }

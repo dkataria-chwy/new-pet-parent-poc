@@ -133,6 +133,26 @@ export function CheckpointStrip({ compact = false, focusedCheckpoint }: Checkpoi
     // Only allow clicking if checkpoint is unlocked (current or previous)
     if (checkpointIndex > journey.current) return
 
+    // Log navigation event
+    try {
+      await fetch('http://localhost:8000/events', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          type: "checkpoint_navigation",
+          journeyId: journey.id,
+          meta: {
+            fromCheckpoint: journey.current,
+            toCheckpoint: checkpointIndex,
+            navigationDirection: checkpointIndex > journey.current ? "forward" : "backward",
+            isRevisit: checkpointIndex < journey.current
+          }
+        })
+      })
+    } catch (error) {
+      console.warn('Failed to log navigation event:', error)
+    }
+
     if (checkpointIndex === journey.current && hasStarted) {
       // Open the current month
       router.push(`/journey/month/${monthIndex}`)

@@ -1,5 +1,5 @@
 from typing import Optional, Dict, List, Any
-from pydantic import BaseModel
+from pydantic import BaseModel, Field
 from enum import Enum
 
 class Species(str, Enum):
@@ -91,13 +91,14 @@ class JourneyState(BaseModel):
     petId: str
     current: int
     totalMonths: int
-    decisions: Dict[str, Dict[str, bool]]  # monthIdx -> section -> decision
+    decisions: Dict[str, Dict[str, Any]]  # monthIdx -> section -> (bool | Dict[itemId, bool])
 
 class UpdateJourneyStateRequest(BaseModel):
     action: str
     journeyId: Optional[str] = None
     monthIdx: Optional[int] = None
     section: Optional[str] = None
+    itemId: Optional[str] = None  # For individual item decisions
     value: Optional[bool] = None
 
 class RecommendationItem(BaseModel):
@@ -124,6 +125,44 @@ class AIRecommendationRequest(BaseModel):
 class AIRecommendationResponse(BaseModel):
     summary: str
     items: List[Dict[str, Any]]
+
+# Checkpoint validation models
+class CheckpointValidationRequest(BaseModel):
+    petId: str
+    monthIndex: int
+    currentData: Dict[str, Any]
+    previousData: Dict[str, Any]
+
+class AIFollowUp(BaseModel):
+    field: str
+    question: str
+    explanation: str
+    suggestedValue: Optional[str] = None
+
+class CheckpointValidationResponse(BaseModel):
+    hasAnomalies: bool
+    followUps: List[AIFollowUp]
+    confidence: str
+
+# Structured output models for AI validation
+class AIValidationFollowUp(BaseModel):
+    """Structured follow-up for AI validation output."""
+    field: str = Field(description="Field name: weightLbs, heightAtShoulderInches, chewStrength, or activityLevel")
+    question: str = Field(description="Short, friendly clarification question")
+    explanation: str = Field(description="1 sentence, pet-centric reason for the question")
+    suggestedValue: Optional[str] = Field(default=None, description="Optional corrected value if confident")
+
+class AIValidationOutput(BaseModel):
+    """Structured output for AI checkpoint validation."""
+    hasAnomalies: bool = Field(description="Whether any anomalies or contradictions were detected")
+    followUps: List[AIValidationFollowUp] = Field(description="List of follow-up questions for detected issues")
+    confidence: str = Field(description="Confidence level: high, medium, or low")
+
+class CheckpointCommitRequest(BaseModel):
+    petId: str
+    monthIndex: int
+    checkpointData: Dict[str, Any]
+    petUpdates: Dict[str, Any]
 
 class EventRequest(BaseModel):
     type: str

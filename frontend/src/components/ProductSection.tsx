@@ -17,6 +17,7 @@ interface ProductSectionProps {
   getSectionDecision: (monthIdx: number, section: string) => boolean | undefined
   onItemDecision: (itemId: string, decision: boolean) => void
   onSectionDecision: (decision: boolean) => void
+  isReadOnly?: boolean
 }
 
 
@@ -29,7 +30,8 @@ export function ProductSection({
   getItemDecision, 
   getSectionDecision, 
   onItemDecision, 
-  onSectionDecision 
+  onSectionDecision,
+  isReadOnly = false
 }: ProductSectionProps) {
   if (!items.length) return null
 
@@ -94,14 +96,16 @@ export function ProductSection({
             type="button"
             variant={itemDecision === true ? "default" : "outline"}
             size="sm"
+            disabled={isReadOnly}
             onClick={(e) => {
               e.preventDefault()
               e.stopPropagation()
-              onItemDecision(item.id, true)
+              if (!isReadOnly) onItemDecision(item.id, true)
             }}
             className={cn(
               "flex-1 flex items-center justify-center space-x-1",
-              itemDecision === true && "bg-green-600 hover:bg-green-700 text-white"
+              itemDecision === true && "bg-green-600 hover:bg-green-700 text-white",
+              isReadOnly && "opacity-50 cursor-not-allowed"
             )}
           >
             <Check className="h-3 w-3" />
@@ -112,14 +116,16 @@ export function ProductSection({
             type="button"
             variant={itemDecision === false ? "default" : "outline"}
             size="sm"
+            disabled={isReadOnly}
             onClick={(e) => {
               e.preventDefault()
               e.stopPropagation()
-              onItemDecision(item.id, false)
+              if (!isReadOnly) onItemDecision(item.id, false)
             }}
             className={cn(
               "flex-1 flex items-center justify-center space-x-1",
-              itemDecision === false && "bg-red-600 hover:bg-red-700 text-white"
+              itemDecision === false && "bg-red-600 hover:bg-red-700 text-white",
+              isReadOnly && "opacity-50 cursor-not-allowed"
             )}
           >
             <X className="h-3 w-3" />
@@ -148,8 +154,17 @@ export function ProductSection({
       <CardHeader className="pb-4">
         <div className="flex items-center justify-between">
           <div>
-            <CardTitle className="text-xl font-bold text-gray-900">{title}</CardTitle>
-            <p className="text-gray-600 mt-1">{subtitle}</p>
+            <div className="flex items-center space-x-2">
+              <CardTitle className="text-xl font-bold text-gray-900">{title}</CardTitle>
+              {isReadOnly && (
+                <Badge variant="secondary" className="text-xs">
+                  Completed
+                </Badge>
+              )}
+            </div>
+            <p className="text-gray-600 mt-1">
+              {isReadOnly ? "This month has been completed. View-only mode." : subtitle}
+            </p>
           </div>
           
           {/* Section-Level Decision Buttons */}
@@ -158,14 +173,16 @@ export function ProductSection({
               type="button"
               variant={sectionDecision === true ? "default" : "outline"}
               size="sm"
+              disabled={isReadOnly}
               onClick={(e) => {
                 e.preventDefault()
                 e.stopPropagation()
-                onSectionDecision(true)
+                if (!isReadOnly) onSectionDecision(true)
               }}
               className={cn(
                 "flex items-center space-x-2",
-                sectionDecision === true && "bg-green-600 hover:bg-green-700 text-white"
+                sectionDecision === true && "bg-green-600 hover:bg-green-700 text-white",
+                isReadOnly && "opacity-50 cursor-not-allowed"
               )}
             >
               <Check className="h-4 w-4" />
@@ -176,14 +193,16 @@ export function ProductSection({
               type="button"
               variant={sectionDecision === false ? "default" : "outline"}
               size="sm"
+              disabled={isReadOnly}
               onClick={(e) => {
                 e.preventDefault()
                 e.stopPropagation()
-                onSectionDecision(false)
+                if (!isReadOnly) onSectionDecision(false)
               }}
               className={cn(
                 "flex items-center space-x-2",
-                sectionDecision === false && "bg-red-600 hover:bg-red-700 text-white"
+                sectionDecision === false && "bg-red-600 hover:bg-red-700 text-white",
+                isReadOnly && "opacity-50 cursor-not-allowed"
               )}
             >
               <X className="h-4 w-4" />

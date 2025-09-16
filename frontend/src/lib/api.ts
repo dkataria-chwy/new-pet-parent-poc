@@ -74,4 +74,13 @@ export const api = {
       body: JSON.stringify({ type, journeyId, meta }),
     })
   },
+
+  // Generic POST method
+  post: async <T = any>(endpoint: string, data: any): Promise<{ data: T }> => {
+    const result = await apiCall<T>(endpoint, {
+      method: 'POST',
+      body: JSON.stringify(data),
+    })
+    return { data: result }
+  },
 }

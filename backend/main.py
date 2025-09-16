@@ -1,21 +1,25 @@
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from project root .env FIRST (before any imports that need them)
+load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
-import os
 import httpx
-from dotenv import load_dotenv
 from fastapi.middleware.cors import CORSMiddleware
 from typing import Optional
 from models import (
     CreatePetRequest, Pet, CreateJourneyRequest, JourneyState,
     UpdateJourneyStateRequest, MonthRecommendations,
     AIRecommendationRequest, AIRecommendationResponse,
-    EventRequest
+    EventRequest, CheckpointValidationRequest, CheckpointValidationResponse, 
+    CheckpointCommitRequest
 )
 from database import db
 from recommendation_policy import recommendation_policy
-
-# Load environment variables from project root .env (prototype)
-load_dotenv(os.path.join(os.path.dirname(__file__), '..', '.env'))
+from checkpoint_validator import checkpoint_validator
+from image_service import image_service, GenerateImageRequest
 
 app = FastAPI(title="Chewy Journey API", version="1.0.0")
 
@@ -78,7 +82,18 @@ async def update_journey_state(request: UpdateJourneyStateRequest):
             month_key = str(request.monthIdx)
             if month_key not in journey.decisions:
                 journey.decisions[month_key] = {}
-            journey.decisions[month_key][request.section] = request.value
+            
+            # Handle individual item decisions vs section-level decisions
+            if request.itemId:
+                # Individual item decision
+                if request.section not in journey.decisions[month_key]:
+                    journey.decisions[month_key][request.section] = {}
+                journey.decisions[month_key][request.section][request.itemId] = request.value
+                print(f"📝 Individual decision: Month {month_key}, {request.section}/{request.itemId} = {request.value}")
+            else:
+                # Section-level decision (legacy support)
+                journey.decisions[month_key][request.section] = request.value
+                print(f"📝 Section decision: Month {month_key}, {request.section} = {request.value}")
             
             updated_journey = db.update_journey(journey)
             
@@ -86,6 +101,7 @@ async def update_journey_state(request: UpdateJourneyStateRequest):
             db.log_event("decision_made", journey.id, {
                 "monthIdx": request.monthIdx,
                 "section": request.section,
+                "itemId": request.itemId,
                 "value": request.value
             })
             
@@ -218,59 +234,123 @@ async def log_event(request: EventRequest):
 @app.get("/health")
 async def health_check():
     return {"status": "healthy"}
-class GenerateImageRequest(BaseModel):
-    name: str
-    species: str
-    breed: str | None = None
-    ageMonths: int | None = None
-    appearance: str | None = None
-
-
 @app.post("/generate-image")
-async def generate_image(req: GenerateImageRequest):
-    """Generate a pet portrait (prototype - returns base64, no storage)."""
-    ENABLE = os.getenv("ENABLE_AI_IMAGE", "true").lower() == "true"
-    OPENAI_KEY = os.getenv("OPENAI_API_KEY")
-
-    if not ENABLE:
-        raise HTTPException(status_code=503, detail="Image generation disabled")
-    if not OPENAI_KEY:
-        raise HTTPException(status_code=500, detail="Missing OpenAI API key")
-
-    # Build prompt using only pet-specific fields (keep defaults for style/pose)
-    prompt = (
-        f"Photorealistic portrait of a {req.ageMonths or 'young'}-month-old "
-        f"{(req.breed + ' ') if req.breed else ''}{req.species} named {req.name}. "
-        f"{(req.appearance + ' ') if req.appearance else ''}Sitting three-quarter view facing right, "
-        "soft studio lighting, high detail, shallow depth of field, pastel background, 3:2 aspect ratio. "
-        "No text or watermark."
-    )
-
+async def generate_image(request: GenerateImageRequest):
+    """Generate a pet portrait using AI service."""
     try:
-        async with httpx.AsyncClient(timeout=60.0) as client:
-            resp = await client.post(
-                "https://api.openai.com/v1/images/generations",
-                headers={
-                    "Authorization": f"Bearer {OPENAI_KEY}",
-                    "Content-Type": "application/json"
-                },
-                json={
-                    "model": "gpt-image-1",
-                    "prompt": prompt,
-                    "size": "1024x1024"
-                }
-            )
-        if resp.status_code != 200:
-            raise HTTPException(status_code=502, detail=f"Image API failed: {resp.text}")
-
-        data = resp.json()
-        b64 = data["data"][0]["b64_json"]
-        return {"b64": b64, "mime": "image/png"}
-    except HTTPException:
+        result = await image_service.generate_pet_image(request)
+        
+        # Log image generation event
+        db.log_event("image_generated", f"pet_{request.name}", {
+            "species": request.species,
+            "breed": request.breed,
+            "ageMonths": getattr(request, 'ageMonths', None),
+            "appearance": getattr(request, 'appearance', None),
+            "success": True
+        })
+        
+        return result
+    except Exception as e:
+        # Log failed image generation
+        db.log_event("image_generation_failed", f"pet_{request.name}", {
+            "species": request.species,
+            "breed": request.breed,
+            "error": str(e)
+        })
         raise
+
+@app.post("/checkpoint/validate", response_model=CheckpointValidationResponse)
+async def validate_checkpoint(request: CheckpointValidationRequest):
+    """Validate checkpoint data and generate smart follow-ups."""
+    try:
+        print("🟦 /checkpoint/validate payload:", {
+            "petId": request.petId,
+            "monthIndex": request.monthIndex,
+            "currentData": request.currentData,
+            "previousData": request.previousData,
+        })
+        pet = db.get_pet(request.petId)
+        if not pet:
+            raise HTTPException(status_code=404, detail="Pet not found")
+        
+        # Calculate days elapsed (simplified - using 30 days for now)
+        days_elapsed = 30
+        
+        validation_result = checkpoint_validator.validate_checkpoint_data(
+            pet=pet,
+            current_data=request.currentData,
+            previous_data=request.previousData,
+            days_elapsed=days_elapsed
+        )
+        print("🟩 /checkpoint/validate result:", validation_result.model_dump())
+        return validation_result
+        
+    except Exception as e:
+        print("🟥 /checkpoint/validate error:", str(e))
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/checkpoint/commit")
+async def commit_checkpoint(request: CheckpointCommitRequest):
+    """Save checkpoint data and update pet profile."""
+    try:
+        # Get existing pet for previous data
+        pet = db.get_pet(request.petId)
+        if not pet:
+            raise HTTPException(status_code=404, detail="Pet not found")
+        
+        # Capture previous data for history tracking
+        previous_data = {
+            "weightLbs": pet.weightLbs,
+            "heightAtShoulderInches": pet.heightAtShoulderInches,
+            "chewStrength": pet.chewStrength,
+            "activityLevel": pet.activityLevel,
+        }
+        
+        # Persist pet updates when provided
+        updated_pet = None
+        if request.petUpdates:
+            try:
+                updated_pet = db.update_pet(request.petId, request.petUpdates)
+            except Exception as pe:
+                print("🟥 Failed to persist pet updates:", pe)
+        
+        # Record complete history entry for this checkpoint
+        current_data = request.petUpdates if request.petUpdates else previous_data
+        history_id = db.record_pet_history(
+            pet_id=request.petId,
+            checkpoint_month=request.monthIndex,
+            journey_id=None,  # Could link to journey if needed
+            current_data=current_data,
+            previous_data=previous_data,
+            health_issues=request.checkpointData.get("healthIssues"),
+            product_returns=request.checkpointData.get("productReturns"),
+            ai_warnings=request.checkpointData.get("aiWarnings"),  # Now included from frontend
+            user_responses=request.checkpointData.get("userResponses")  # Now included from frontend
+        )
+        
+        # Log the checkpoint data as an event (keeping existing analytics)
+        db.log_event("checkpoint_completed", f"pet_{request.petId}", {
+            "monthIndex": request.monthIndex,
+            "checkpointData": request.checkpointData,
+            "petUpdates": request.petUpdates,
+            "historyId": history_id
+        })
+        
+        print(f"🟩 Checkpoint committed: Pet {request.petId}, Month {request.monthIndex}, History {history_id}")
+        
+        return {"status": "success", "message": "Checkpoint data saved successfully", "pet": updated_pet.model_dump() if updated_pet else None, "historyId": history_id}
+        
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.get("/pet/{pet_id}/history")
+async def get_pet_history(pet_id: str):
+    """Get the complete change history for a pet."""
+    try:
+        history = db.get_pet_history(pet_id)
+        return {"petId": pet_id, "history": history}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
 
 if __name__ == "__main__":
     import uvicorn

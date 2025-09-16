@@ -5,3 +5,5 @@ sqlalchemy==2.0.43
 pytest==8.4.1
 pytest-asyncio==1.1.0
 httpx==0.28.1
+openai==1.107.0
+python-dotenv==1.1.1

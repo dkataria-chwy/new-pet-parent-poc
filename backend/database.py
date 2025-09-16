@@ -64,6 +64,31 @@ class Database:
             )
         """)
         
+        # Create pet_history table for tracking changes
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS pet_history (
+                id TEXT PRIMARY KEY,
+                pet_id TEXT NOT NULL,
+                checkpoint_month INTEGER NOT NULL,
+                journey_id TEXT,
+                -- Core pet data at this checkpoint
+                weight_lbs REAL,
+                height_at_shoulder_inches REAL,
+                chew_strength TEXT,
+                activity_level TEXT,
+                -- Checkpoint-specific data
+                health_issues TEXT,
+                product_returns TEXT,
+                -- Change tracking
+                changes_made TEXT,  -- JSON of what fields changed
+                ai_warnings_shown TEXT,  -- JSON of AI warnings shown to user
+                user_responses TEXT,  -- JSON of how user responded to warnings
+                -- Timestamps
+                created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+                FOREIGN KEY (pet_id) REFERENCES pets (id)
+            )
+        """)
+        
         conn.commit()
         conn.close()
     
@@ -195,6 +220,55 @@ class Database:
             decisions=json.loads(row[4])
         )
     
+    def update_pet(self, pet_id: str, updates: Dict[str, Any]) -> Optional[Pet]:
+        """Update provided, non-null pet fields and return the updated pet."""
+        if not updates:
+            return self.get_pet(pet_id)
+        
+        # Map camelCase API fields to DB column names
+        field_map = {
+            "name": "name",
+            "species": "species",
+            "breed": "breed",
+            "ageMonths": "age_months",
+            "gender": "gender",
+            "householdType": "household_type",
+            "yardAccess": "yard_access",
+            "zipCode": "zip_code",
+            "weightLbs": "weight_lbs",
+            "heightAtShoulderInches": "height_at_shoulder_inches",
+            "chewStrength": "chew_strength",
+            "activityLevel": "activity_level",
+            "allergies": "allergies",
+            "about": "about",
+            "appearance": "appearance",
+            "budgetBand": "budget_band",
+            "brandPreferences": "brand_preferences",
+        }
+        
+        set_parts: List[str] = []
+        values: List[Any] = []
+        for key, col in field_map.items():
+            if key in updates and updates[key] is not None:
+                value = updates[key]
+                # Unwrap enums
+                if hasattr(value, "value"):
+                    value = value.value
+                set_parts.append(f"{col} = ?")
+                values.append(value)
+        
+        if not set_parts:
+            return self.get_pet(pet_id)
+        
+        values.append(pet_id)
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        cursor.execute(f"UPDATE pets SET {', '.join(set_parts)} WHERE id = ?", values)
+        conn.commit()
+        conn.close()
+        
+        return self.get_pet(pet_id)
+    
     def update_journey(self, journey: JourneyState) -> JourneyState:
         """Update a journey in the database."""
         conn = sqlite3.connect(self.db_path)
@@ -211,6 +285,99 @@ class Database:
         
         return journey
     
+    def record_pet_history(
+        self, 
+        pet_id: str, 
+        checkpoint_month: int, 
+        journey_id: Optional[str] = None,
+        current_data: Optional[Dict[str, Any]] = None,
+        previous_data: Optional[Dict[str, Any]] = None,
+        health_issues: Optional[str] = None,
+        product_returns: Optional[str] = None,
+        ai_warnings: Optional[List[Dict[str, Any]]] = None,
+        user_responses: Optional[Dict[str, Any]] = None
+    ) -> str:
+        """Record a pet history entry for this checkpoint."""
+        history_id = str(uuid.uuid4())
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        # Calculate what changed
+        changes_made = {}
+        if current_data and previous_data:
+            for key in ["weightLbs", "heightAtShoulderInches", "chewStrength", "activityLevel"]:
+                current_val = current_data.get(key)
+                previous_val = previous_data.get(key)
+                if current_val != previous_val:
+                    changes_made[key] = {
+                        "from": previous_val,
+                        "to": current_val
+                    }
+        
+        cursor.execute("""
+            INSERT INTO pet_history (
+                id, pet_id, checkpoint_month, journey_id,
+                weight_lbs, height_at_shoulder_inches, chew_strength, activity_level,
+                health_issues, product_returns,
+                changes_made, ai_warnings_shown, user_responses
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+        """, (
+            history_id, pet_id, checkpoint_month, journey_id,
+            current_data.get("weightLbs") if current_data else None,
+            current_data.get("heightAtShoulderInches") if current_data else None,
+            current_data.get("chewStrength") if current_data else None,
+            current_data.get("activityLevel") if current_data else None,
+            health_issues,
+            product_returns,
+            json.dumps(changes_made) if changes_made else None,
+            json.dumps(ai_warnings) if ai_warnings else None,
+            json.dumps(user_responses) if user_responses else None
+        ))
+        
+        conn.commit()
+        conn.close()
+        return history_id
+    
+    def get_pet_history(self, pet_id: str) -> List[Dict[str, Any]]:
+        """Get the complete history of changes for a pet."""
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            SELECT * FROM pet_history 
+            WHERE pet_id = ? 
+            ORDER BY checkpoint_month ASC, created_at ASC
+        """, (pet_id,))
+        
+        rows = cursor.fetchall()
+        conn.close()
+        
+        if not rows:
+            return []
+        
+        # Column names for reference
+        columns = [
+            "id", "pet_id", "checkpoint_month", "journey_id",
+            "weight_lbs", "height_at_shoulder_inches", "chew_strength", "activity_level",
+            "health_issues", "product_returns",
+            "changes_made", "ai_warnings_shown", "user_responses", "created_at"
+        ]
+        
+        history = []
+        for row in rows:
+            entry = dict(zip(columns, row))
+            # Parse JSON fields
+            for json_field in ["changes_made", "ai_warnings_shown", "user_responses"]:
+                if entry[json_field]:
+                    try:
+                        entry[json_field] = json.loads(entry[json_field])
+                    except:
+                        entry[json_field] = None
+            history.append(entry)
+        
+        return history
+
     def log_event(self, event_type: str, journey_id: str, meta: Optional[Dict[str, Any]] = None):
         """Log an event for analytics."""
         event_id = str(uuid.uuid4())
