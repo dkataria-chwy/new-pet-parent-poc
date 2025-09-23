@@ -1,0 +1,160 @@
+{
+  "nowIso": "2025-09-23T09:18:41.985230-07:00",
+  "pet_profile_json": {
+    "species": "dog",
+    "breed": "Golden Retriever",
+    "age_months": 3,
+    "weight_lb": null,
+    "sex_neuter": null,
+    "chew_strength": "light",
+    "activity": "high",
+    "allergies": [
+      "chicken"
+    ],
+    "sensitivities": [],
+    "house_type": "apartment",
+    "yard": "no_yard",
+    "zip": "90210",
+    "brand_bias": [
+      "Nestle"
+    ],
+    "budget_band": "moderate"
+  },
+  "user_profile_json": {},
+  "order_history_json": [
+    {
+      "month": 0,
+      "decisions": [
+        {
+          "item_type": "product",
+          "item_id": "sub_puppy_food_1",
+          "accepted": true,
+          "category": "subscriptions"
+        },
+        {
+          "item_type": "product",
+          "item_id": "sub_dog_treats_1",
+          "accepted": true,
+          "category": "subscriptions"
+        },
+        {
+          "item_type": "product",
+          "item_id": "sub_puppy_vitamins_1",
+          "accepted": true,
+          "category": "subscriptions"
+        },
+        {
+          "item_type": "product",
+          "item_id": "bundle_dental_1",
+          "accepted": true,
+          "category": "bundles"
+        },
+        {
+          "item_type": "product",
+          "item_id": "bundle_grooming_1",
+          "accepted": true,
+          "category": "bundles"
+        },
+        {
+          "item_type": "product",
+          "item_id": "bundle_puppy_starter_1",
+          "accepted": true,
+          "category": "bundles"
+        },
+        {
+          "item_type": "product",
+          "item_id": "single_toy_1",
+          "accepted": false,
+          "category": "singles"
+        },
+        {
+          "item_type": "product",
+          "item_id": "single_treat_1",
+          "accepted": false,
+          "category": "singles"
+        },
+        {
+          "item_type": "product",
+          "item_id": "single_chew_toy_1",
+          "accepted": false,
+          "category": "singles"
+        }
+      ],
+      "summary": {
+        "accepted": [
+          "bundle_dental_1",
+          "bundle_grooming_1",
+          "bundle_puppy_starter_1",
+          "sub_dog_treats_1",
+          "sub_puppy_food_1",
+          "sub_puppy_vitamins_1"
+        ],
+        "skipped": [
+          "single_chew_toy_1",
+          "single_toy_1",
+          "single_treat_1"
+        ]
+      }
+    }
+  ],
+  "weather_json": {
+    "alerts": [],
+    "daily": [
+      {
+        "date": "2025-09-23",
+        "max_f": 86.0,
+        "min_f": 66.0,
+        "max_c": 30.0,
+        "min_c": 18.9
+      },
+      {
+        "date": "2025-09-24",
+        "max_f": 80.0,
+        "min_f": 63.0,
+        "max_c": 26.7,
+        "min_c": 17.2
+      },
+      {
+        "date": "2025-09-25",
+        "max_f": 76.0,
+        "min_f": 63.0,
+        "max_c": 24.4,
+        "min_c": 17.2
+      },
+      {
+        "date": "2025-09-26",
+        "max_f": 75.0,
+        "min_f": 62.0,
+        "max_c": 23.9,
+        "min_c": 16.7
+      },
+      {
+        "date": "2025-09-27",
+        "max_f": 76.0,
+        "min_f": 62.0,
+        "max_c": 24.4,
+        "min_c": 16.7
+      },
+      {
+        "date": "2025-09-28",
+        "max_f": 78.0,
+        "min_f": 63.0,
+        "max_c": 25.6,
+        "min_c": 17.2
+      },
+      {
+        "date": "2025-09-29",
+        "max_f": 81.0,
+        "min_f": 65.0,
+        "max_c": 27.2,
+        "min_c": 18.3
+      }
+    ]
+  },
+  "calendar_json": {
+    "events": []
+  },
+  "catalog_filters_json": {
+    "pc1": "Dog"
+  }
+}

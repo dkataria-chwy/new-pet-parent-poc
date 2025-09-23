@@ -1,0 +1,139 @@
+{
+  "journey": {
+    "id": "42083dcd-18b0-48d6-872a-791ac1b83206",
+    "petId": "00a9ec20-36c1-4b1b-88bc-c1ae34b31a2f",
+    "monthIdx": 3,
+    "decisions": {
+      "0": {
+        "subscriptions": {
+          "sub_puppy_food_1": true,
+          "sub_dog_treats_1": true,
+          "sub_puppy_vitamins_1": true
+        },
+        "bundles": {
+          "bundle_dental_1": true,
+          "bundle_grooming_1": true,
+          "bundle_puppy_starter_1": true
+        },
+        "singles": {
+          "single_toy_1": false,
+          "single_treat_1": false,
+          "single_chew_toy_1": false
+        }
+      }
+    },
+    "prevMonthSummary": {
+      "accepted": [],
+      "skipped": []
+    }
+  },
+  "pet": {
+    "id": "00a9ec20-36c1-4b1b-88bc-c1ae34b31a2f",
+    "name": "Bruno",
+    "species": "dog",
+    "breed": "Golden Retriever",
+    "ageMonths": 3,
+    "gender": "female",
+    "activityLevel": "high",
+    "chewStrength": "light",
+    "allergies": "chicken",
+    "about": "Very energetic",
+    "appearance": "3 months old pup with golden fur and loves to wear his father's blue glasses",
+    "zipCode": "90210",
+    "budgetBand": "moderate",
+    "householdType": "apartment",
+    "yardAccess": "no_yard",
+    "brandPreferences": "Nestle"
+  },
+  "calendar": {
+    "window": {
+      "start": "2025-09-01",
+      "end": "2025-10-01",
+      "tz": "America/Los_Angeles",
+      "month_start": "2025-09-01"
+    },
+    "location": {
+      "zip": "90210",
+      "state": null
+    },
+    "events": [],
+    "generated_at": "2025-09-23 09:27:55.410190-07:00"
+  },
+  "weather": {
+    "location": {
+      "zip": "90210",
+      "state": null
+    },
+    "current": {
+      "temperature_f": 73.4,
+      "temperature_c": 23.0,
+      "conditions": "Mostly Clear",
+      "humidity": 73.461696749353,
+      "wind_speed_mph": 0.0
+    },
+    "forecast": [
+      {
+        "date": "2025-09-23",
+        "high_f": 90.0,
+        "low_f": 66.0,
+        "high_c": 32.2,
+        "low_c": 18.9,
+        "conditions": "Mostly Sunny"
+      },
+      {
+        "date": "2025-09-24",
+        "high_f": 80.0,
+        "low_f": 63.0,
+        "high_c": 26.7,
+        "low_c": 17.2,
+        "conditions": "Mostly Sunny"
+      },
+      {
+        "date": "2025-09-25",
+        "high_f": 76.0,
+        "low_f": 63.0,
+        "high_c": 24.4,
+        "low_c": 17.2,
+        "conditions": "Patchy Fog then Mostly Sunny"
+      },
+      {
+        "date": "2025-09-26",
+        "high_f": 75.0,
+        "low_f": 62.0,
+        "high_c": 23.9,
+        "low_c": 16.7,
+        "conditions": "Patchy Fog then Mostly Sunny"
+      },
+      {
+        "date": "2025-09-27",
+        "high_f": 76.0,
+        "low_f": 62.0,
+        "high_c": 24.4,
+        "low_c": 16.7,
+        "conditions": "Patchy Fog then Mostly Sunny"
+      },
+      {
+        "date": "2025-09-28",
+        "high_f": 78.0,
+        "low_f": 63.0,
+        "high_c": 25.6,
+        "low_c": 17.2,
+        "conditions": "Patchy Fog then Mostly Sunny"
+      },
+      {
+        "date": "2025-09-29",
+        "high_f": 81.0,
+        "low_f": 65.0,
+        "high_c": 27.2,
+        "low_c": 18.3,
+        "conditions": "Patchy Fog then Mostly Sunny"
+      }
+    ],
+    "triggers": [],
+    "raw": {
+      "provider": "nws"
+    },
+    "generated_at": "2025-09-23 09:27:58.523753-07:00"
+  },
+  "nowIso": "2025-09-23T09:27:58.523832-07:00"
+}
