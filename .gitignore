@@ -32,4 +32,10 @@ frontend/.vite/
 # Generated images/uploads (prototype)
 public/uploads/
 
+# Embeddings artifacts
+backend/embeddings_pipeline/artifacts/
+
+# Large data files
+product embeddings table.csv
+
 

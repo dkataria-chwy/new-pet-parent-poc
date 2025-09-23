@@ -1,0 +1,832 @@
+PRODUCT_CATEGORY_LEVEL1,PRODUCT_CATEGORY_LEVEL2,PRODUCT_CATEGORY_LEVEL3,PRODUCT_MERCH_CLASSIFICATION1,PRODUCT_MERCH_CLASSIFICATION2,PRODUCT_MERCH_CLASSIFICATION3,PRODUCT_MERCH_CLASSIFICATION4
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Nail Clipper, Grinder & Accessories",Nail Clippers
+Dog,Food,Wet Food,Science,Science Food,Wet Food,
+Dog,Health & Wellness,Medications,Healthcare,Over the Counter,"Hip, Joint & Pain Care",
+Dog,Food,Dry Food,Science,Science Food,Dry Food,
+Dog,Leashes & Collars,Collars,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Leashes, Collars, & Harnesses"
+Cat,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Nail Clipper, Grinder & Accessories",Nail Care Accessories
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Hair Removal
+Dog,"Beds, Crates & Gear",Strollers & Bicycle Trailers,Hard Goods,Containment & Gear,Gear,Strollers & Bicycle Trailers
+Dog,Dog Apparel,Outdoor Apparel,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Pillow Beds
+Dog,"Beds, Crates & Gear",Pools,Hard Goods,Containment & Gear,Gear,Pools
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Other Supplements,
+Dog,Health & Wellness,Medications,Healthcare,Over the Counter,Other,
+Dog,Health & Wellness,Supplies & Devices,Healthcare,Over the Counter,Wound Care,
+Dog,Training,Cameras,Hard Goods,Technology,Cameras,Treat Dispensing Cameras
+Dog,Food,Dry Food,Dog Consumables,Dog Food,Dry Food,Premium Natural
+Dog,Waste Management,Poop Bags,Hard Goods,Waste Management,Poop Bags,Poop Bags
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Stress & Anxiety Management,
+Cat,Bowls & Feeders,Placemats,Hard Goods,Bowls & Feeders,Storage & Accessories,Placemats
+Cat,Treats,Catnip & Pet Grass,Consumables,Core Treats,Catnip & Pet Grass,
+Cat,Toys,Toys,Hard Goods,Toys,Chew Toys,Dental Chew Toys
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Laser Toys
+Cat,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Ear Cleaners
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Brushes & Combs,Combs
+Dog,Treats,Jerky Treats,Dog Consumables,Dog Treats,Indulgent,Jerky
+Dog,Leashes & Collars,Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,Standard Pattern/Graphic Collars
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Football Fetch Toys
+Dog,Grooming,Creams & Rinses,Healthcare,Over the Counter,Eye & Ear Care,
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Kidney Care,
+Cat,Health & Wellness,Vitamins & Supplements,,,,
+Dog,Health & Wellness,"Recovery Cones, Collars & Apparel",Healthcare,Over the Counter,"Wheelchairs, Wraps, & Splints",
+Dog,Prescription Treats,Soft & Chewy Treats,Healthcare,Prescription Food & Treats,Digestive Care,
+Cat,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Shampoos & Conditioners
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Clipper Cleaners & Parts
+Dog,Dog Apparel,Outdoor Apparel,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Dog,Leashes & Collars,Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Standard Pattern & Graphic Harnesses
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Naturals,Premium
+Dog,Treats,Bones,Consumables,Core Treats,Natural & Long Lasting Treats,
+Cat,Food,Wet Food,Premium,Pantry,Wet Food,
+Dog,Treats,Biscuits & Crunchy Treats,Consumables,Core Treats,Indulgent Treats,
+Dog,Dog Apparel,Shirts & Dresses,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Dental Supplements,
+Dog,Treats,Soft & Chewy Treats,Dog Consumables,Dog Treats,Pill Wraps,Pill Wraps
+Cat,Food,Wet Food,,,,
+Dog,Bowls & Feeders,Bowls & Diners,,,,
+Dog,Toys,Toys,Hard Goods,Toys,Puppy Toys,Other Puppy Toys
+Cat,Health & Wellness,Medications,Healthcare,Flea & Tick,Oral Treatments,
+Dog,Waste Management,Potty Pads & Diapers,,,,
+Dog,Prescription Treats,Dental & Hard Chews,Healthcare,Prescription Food & Treats,Dental Care,
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,Nursing Kits & Supplies,
+Dog,"Beds, Crates & Gear",Car Accessories,,,,
+Dog,Grooming,Creams & Rinses,Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Ear Cleaners
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Household,Cleaners,Brooms & Cleaning Supplies
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Hide & Seek Puzzle Toys
+Cat,Health & Wellness,Dental Care,Healthcare,Over the Counter,Toothpaste & Gels,
+Dog,"Beds, Crates & Gear",Doors,Hard Goods,Containment & Gear,Gear,Door Accessories
+Dog,Treats,Lickable Treats,Dog Consumables,Dog Treats,Pill Wraps,Pill Wraps
+Dog,Health & Wellness,Stress & Anxiety,Healthcare,Over the Counter,Calming Diffuser Refills,
+Dog,Leashes & Collars,Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,Martingale Collars
+Dog,Training,Cameras,Hard Goods,Technology,Cameras,Camera Accessories
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,"Hip, Joint & Pain Care",
+Dog,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Deshedding Tools
+Dog,Bowls & Feeders,Filters,Hard Goods,Technology,Consumables & Accessories,Filters
+Cat,Food,Dehydrated Food,Cat Consumables,Cat Food,Emerging Formats,Dehydrated
+Dog,Waste Management,Poop Bag Dispensers,,,,
+Cat,Treats,Jerky Treats,Consumables,Core Treats,Jerky Treats,
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Bowls & Feeders,Bowls & Diners,Basic Plastic & Other Bowls
+Dog,Prescription Treats,Biscuits & Crunchy Treats,Healthcare,Prescription Food & Treats,"Allergy, Sensitivities & Respiratory Care",
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Wave Scratchers
+Cat,Toys,Toys,Hard Goods,Toys,Fetch Toys,Specialty Balls
+Dog,Treats,Soft & Chewy Treats,Dog Consumables,Dog Treats,Indulgent,Soft & Chewy
+Cat,Food,Dry Food,Cat Consumables,Cat Food,Dry Food,Value
+Dog,Food,Wet Food,Dog Consumables,Dog Food,Wet Food,Core Natural
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Blankets
+Cat,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Elevated Bowls
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Electronic Teasers
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Dental Care,
+Dog,Health & Wellness,Diabetic Testing,Healthcare,Over the Counter,Diabetic Care,
+Dog,"Beds, Crates & Gear",Doors,Hard Goods,Containment & Gear,Containment,Metal Crates
+Cat,Food,Wet Food Toppings,Cat Consumables,Cat Food,Toppers,Wet Food Toppers
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Treat Dispensing Toys
+Dog,Leashes & Collars,Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Leashes & Harnesses
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Stress & Anxiety Management,
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Urinary Care,
+Cat,Food,Wet Food Toppings,Premium,Pantry,Wet Food Toppings,
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Eye & Ear Care,
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Heart & Liver Care,
+Dog,Training,Repellents,Hard Goods,Home Goods,Pet Proofing,Cat Tape
+Dog,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Wire Pens
+Dog,Treats,Natural Chews,Dog Consumables,Dog Treats,Long Lasting,Natural Chews
+Dog,Food,Dry Food,Dog Consumables,Dog Food,Dry Food,Core Natural
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Digestive Care,
+Dog,Cleaning,Deodorizers,Hard Goods,Technology,Air Purifiers & Filters,Air Purifier Filters
+Dog,"Beds, Crates & Gear",Crates,Hard Goods,Containment & Gear,Containment,Wooden Crates
+Cat,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Plastic & Other Fountains
+Cat,Treats,Lickable Treats,Consumables,Core Treats,Lickable Treats,
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Eye & Ear Care,
+Cat,Food,Dehydrated Food,Cat Consumables,Cat Food,Emerging Formats,Air Dried
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Bowls & Feeders,Feeders & Waterers,Waterers
+Cat,Leashes & Collars,Leashes & Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Standard Solid Harnesses
+Cat,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Ceramic Fountains
+Dog,Food,Dry Food,,,,
+Dog,"Beds, Crates & Gear",X- Outdoor Gear,,,,
+Cat,Litter & Accessories,Waste Disposal,Hard Goods,Litter Accessories,Liners,Pads
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Clipper Cleaners & Parts
+Dog,Training,Cameras,Hard Goods,Technology,Monitoring & Containment,Cameras & Accessories
+Cat,"Beds, Crates & Gear",Outdoor Gear & Apparel,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Dog,Leashes & Collars,Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,LED & Reflective Collars
+Cat,Food,Freeze Dried Food,Cat Consumables,Cat Food,Emerging Formats,Freeze Dried
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Skin & Coat Care,
+Dog,"Beds, Crates & Gear",Crate Accessories,Hard Goods,Containment & Gear,Containment,Crate Pans & Accessories
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Multivitamins,
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Technology,Floorcare,Upright Vacuums
+Cat,Training,Repellents,Hard Goods,Home Goods,Pet Proofing,Repellents
+Dog,Cleaning,Deodorizers,Hard Goods,Waste Management,Deodorizers,Dog Deodorizers
+Dog,Food,Freeze-Dried & Dehydrated Food Toppings,,,,
+Dog,Grooming,Brushes & Combs,,,,
+Cat,Bowls & Feeders,Bowls & Diners,,,,
+Dog,Treats,Biscuits & Crunchy Treats,Dog Consumables,Dog Treats,Indulgent,Biscuits & Crunchy
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Accessories,Grooming Kits
+Dog,Food,Frozen Dog Food,Dog Consumables,Dog Food,Emerging Formats,Fresh Food
+Dog,Dog Apparel,Coats,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Dog,Leashes & Collars,Tie Outs,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Tie-Outs
+Dog,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Slicker Brushes
+Dog,Dog Apparel,Costumes,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Cat,Cleaning,Cleaners & Stain Removers,Hard Goods,Household,Cleaners,Cleaners & Stain Removers
+Cat,Toys,Toys,Hard Goods,Toys,Fetch Toys,Football Fetch Toys
+Dog,Waste Management,Poop Bag Dispensers,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Treats & Accessories
+Dog,Toys,Toys,Hard Goods,Toys,Puppy Toys,Puppy & Kitten Rope Toys
+Cat,Health & Wellness,Medications,Healthcare,Over the Counter,"Allergy, Sensitivities & Respiratory Care",
+Cat,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Hair Removal
+Dog,Food,Wet Food,Dog Consumables,Dog Food,Wet Food,Premium Natural
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Clumping Clay,Mainstream
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Bolster Beds
+Dog,Food,Wet Food,Premium,Pantry,Wet Food,
+Dog,Flea & Tick,Shampoos,Healthcare,Flea & Tick,Shampoos,
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Basic Plastic & Other Bowls
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Bone Fetch Toys
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Equipment,Grooming Tables
+Dog,Food,Dry Food,Consumables,Core Food,Value,
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Non-Clumping Clay,Mainstream
+Cat,Bowls & Feeders,Storage & Accessories,Hard Goods,Bowls & Feeders,Storage & Accessories,Cleaning & Accessories
+Cat,Food,Wet Food,Science,Science Food,Wet Food,
+Dog,Training,Fence Systems & Accessories,Hard Goods,Technology,Electronic Containment,In Ground Fences
+Dog,"Beds, Crates & Gear",Crates,Hard Goods,Containment & Gear,Containment,Kennels
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Bowls & Feeders,Feeders & Waterers,Feeders
+Dog,"Beds, Crates & Gear",Carriers,Hard Goods,Containment & Gear,Containment,Kennels
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Household,Cleaners,Cleaners & Stain Removers
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Naturals,Mainstream
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Bolster Beds - Other
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,"Allergy, Sensitivities & Respiratory Care",
+Dog,Dog Apparel,Coats,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Apparel
+Dog,Bowls & Feeders,Pumps,Hard Goods,Technology,Consumables & Accessories,Pumps
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Household,Lawn Care & Outdoor,Ice Melt
+Cat,Cleaning,Deodorizers,Hard Goods,Household,Fragrances & Deodorizers,Odor Eliminators
+Dog,Grooming,Creams & Rinses,Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Shampoos & Conditioners
+Dog,Treats,Dental Treats,,,,
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Brain & Epilepsy Care,
+Dog,Treats,Dehydrated Treats,,,,
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Waste Management,Cleaners & Stain Removes,"Detergents, Carpet Cleaners & Disenfectants"
+Dog,Prescription Food,Fresh Food,Healthcare,Prescription Food & Treats,Heart & Liver Care,
+Cat,Prescription Food,Wet Food,,,,
+Dog,"Beds, Crates & Gear",Crate Accessories,,,,
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Food & Puzzle Toys
+Dog,Toys,Toys,Hard Goods,Toys,Plush Toys,Durable Plush Toys
+Dog,Bowls & Feeders,Storage & Accessories,Hard Goods,Bowls & Feeders,Storage & Accessories,Toy Bins
+Dog,Leashes & Collars,Muzzles & Head Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,Muzzles & Head Collars
+Dog,Food,Wet Food,Consumables,Core Food,Value,
+Dog,Flea & Tick,Flea Combs & Tick Removers,Healthcare,Flea & Tick,Flea Combs & Tick Removers,
+Dog,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Kennels
+Cat,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Nail Clipper, Grinder & Accessories",Nail Clippers
+Cat,Food,Dry Food,,,,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Accessories,Towels & Bath Mats
+Cat,Food,Frozen Cat Food,Cat Consumables,Cat Food,Emerging Formats,Fresh Food
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Stress & Anxiety Management,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Accessories,Tables & Tub Accessories
+Dog,Food,Dry Food,Dog Consumables,Dog Food,Dry Food,Mainstream
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Household,Cleaners,"Detergents, Carpet Cleaners, & Disinfectants"
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,"Allergy, Sensitivities & Respiratory Care",
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Launchers
+Cat,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Wire Pens
+Dog,Food,Wet Food Toppings,Consumables,Core Food,Balanced Nutrition,
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Herding Balls
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Household,Lawn Care & Outdoor,Lawn Treatments
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Sofa Beds
+Cat,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Other Rope & Tug Toys
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Recovery & Dehydration,
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Household,Cleaners,Brooms & Cleaning Supplies
+Cat,Food,Wet Food,Cat Consumables,Cat Food,Wet Food,Mainstream
+Dog,Leashes & Collars,Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,Standard Leather Collars
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Grooming Wipes
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Digestive Care,
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,Eye & Ear Care,
+Dog,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Plastic Pens
+Dog,Waste Management,Poop Scoopers,Hard Goods,Waste Management,Poop Scoopers,Poop Scoopers
+Cat,"Beds, Crates & Gear",Outdoor Gear & Apparel,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Dog,Training,Fence Systems & Accessories,Hard Goods,Technology,Bark Control & Remote Training,Remote Trainers
+Dog,Toys,Toys,Hard Goods,Toys,Puppy Toys,Puppy & Kitten Plush Toys
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Heart & Liver Care,
+Cat,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Cat Bowls
+Dog,Food,Dry Food Toppings,Dog Consumables,Dog Food,Toppers,Dry Food Toppers
+Dog,Leashes & Collars,ID Tags & Accessories,Hard Goods,Personalized & Gifting,Personalized ID Tags,Silicone ID Tags
+Dog,"Beds, Crates & Gear",Carriers,Hard Goods,Containment & Gear,Containment,Plastic Carriers 
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Litter Box Enclosures
+Cat,Leashes & Collars,ID Tags & Accessories,Hard Goods,"Leashes, Collars & Harnesses",Collars,ID Tags & Accessories
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Brain & Epilepsy Care,
+Dog,Food,Wet Food Toppings,Consumables,Core Food,Natural,
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Weight Management,
+Dog,Training,Repellents,Hard Goods,Home Goods,Pet Proofing,"Door, Window & Screen Protectors"
+Dog,Treats,Jerky Treats,,,,
+Cat,Health & Wellness,Dental Care,Healthcare,Over the Counter,Toothbrushes,
+Cat,"Beds, Crates & Gear",Doors,Hard Goods,Containment & Gear,Containment,Metal Crates
+Dog,"Beds, Crates & Gear",Furniture Covers,Hard Goods,Home Goods,Pet Proofing,Dig Deterrents
+Cat,Health & Wellness,Medications,Healthcare,Over the Counter,"Hip, Joint & Pain Care",
+Dog,Flea & Tick,"Powders, Sprays & Wipes",Healthcare,Flea & Tick,"Powders, Sprays & Wipes",
+Dog,"Beds, Crates & Gear",Car Accessories,Hard Goods,Containment & Gear,Gear,Other Car Accessories
+Dog,Treats,Dental Treats,Dog Consumables,Dog Treats,Dental,Dental
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Nail Clipper, Grinder & Accessories",Nail Care Accessories
+Dog,Food,Dry Food,Consumables,Core Food,Science Diet,
+Cat,Treats,Soft & Chewy Treats,Consumables,Core Treats,Soft & Chewy Treats,
+Dog,Treats,Dental Treats,Consumables,Core Treats,Dental Treats,
+Dog,Toys,Toys,Hard Goods,Toys,Chew Toys,Dental Chew Toys
+Dog,Dog Apparel,Boots & Socks,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Leashes & Harnesses
+Dog,Toys,Toys,Hard Goods,Toys,Subscription Boxes & Variety Packs,Variety Pack Toys
+Dog,Toys,Toys,Hard Goods,Toys,Chew Toys,Rubber Chew Toys
+Cat,Health & Wellness,Stress & Anxiety,Hard Goods,Technology,Calming Devices,Calming Devices
+Dog,Treats,Lickable Treats,Consumables,Core Treats,Indulgent Treats,
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Spring Toys
+Cat,Litter & Accessories,Mats,Hard Goods,Litter Accessories,Liners,Pads
+Cat,Bowls & Feeders,Filters,,,,
+Cat,Litter & Accessories,Liners,Hard Goods,Litter Accessories,Liners,Disposable Liners
+Dog,"Beds, Crates & Gear",Furniture Covers,Hard Goods,Home Goods,Pet Proofing,"Door, Window & Screen Protectors"
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Scratcher Cat Houses
+Cat,Cleaning,Deodorizers,Hard Goods,Litter Accessories,Litter Deodorizers,Cat Litter Deodorizers
+Cat,Litter & Accessories,Mats,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Treats & Accessories
+Cat,Litter & Accessories,Filters,Hard Goods,Litter Accessories,Filters,Litter Box Filters
+Cat,Cleaning,Deodorizers,Hard Goods,Household,Fragrances & Deodorizers,Candles & Fragrances
+Cat,Litter & Accessories,Filters,Consumables,Litter,Filters,
+Cat,Prescription Treats,Crunchy Treats,Healthcare,Prescription Food & Treats,"Allergy, Sensitivities & Respiratory Care",
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,Recovery & Dehydration,
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Digestive Care,
+Dog,Leashes & Collars,ID Tags & Accessories,Hard Goods,"Leashes, Collars & Harnesses",Collars,ID Tags & Accessories
+Cat,Treats,Freeze Dried Treats,Cat Consumables,Cat Treats,Freeze Dried & Dehydrated,Freeze Dried & Dehydrated
+Dog,"Beds, Crates & Gear",Gates,Hard Goods,Containment & Gear,Containment,Metal Gates
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Automatic Feeders
+Cat,Litter & Accessories,Litter,Consumables,Litter,Litter,
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Skin & Coat Care,
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Electronic Launchers
+Dog,Health & Wellness,Stress & Anxiety Refills,Healthcare,Over the Counter,Calming Diffuser Refills,
+Cat,Health & Wellness,First Aid,Healthcare,Over the Counter,Wound Care,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Brushes & Combs,Slicker Brushes
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Ear Cleaners
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Aging Care,
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Kidney Care,
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,Wound Care,
+Dog,Leashes & Collars,ID Tags & Accessories,Hard Goods,Personalized & Gifting,Personalized ID Tags,Stainless Steel ID Tags
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,"Play Tunnels, Tents & Sacks"
+Dog,Waste Management,Waste Disposal,Hard Goods,Waste Management,Waste Disposal,Waste Disposal
+Cat,Health & Wellness,Dental Care,Healthcare,Over the Counter,Dental Water Additives,
+Cat,Litter & Accessories,Liners,Consumables,Litter,Liners,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Equipment,Shower Attachments & Hoses
+Cat,Bowls & Feeders,Placemats,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Bowls & Placemats
+Cat,Toys,Toys,Hard Goods,Toys,Fetch Toys,Fetch Stick Toys
+Dog,Waste Management,Potty Pads & Diapers,Hard Goods,Waste Management,Potty Pads & Diapers,Dog Litter
+Dog,Grooming,Grooming Tools,,,,
+Dog,Dog Apparel,Boots & Socks,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Cat,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Rope Plush Toys
+Dog,Treats,Antlers,Dog Consumables,Dog Treats,Long Lasting,Antlers
+Cat,Food,Wet Food,Cat Consumables,Cat Food,Wet Food,Core Natural
+Dog,Health & Wellness,Test Kits,Healthcare,Over the Counter,Diabetic Care,
+Dog,Dog Apparel,Coats,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Cat,Flea & Tick,"Powders, Sprays & Wipes",Healthcare,Flea & Tick,"Powders, Sprays & Wipes",
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Brushes & Combs,Deshedding Tools
+Dog,Dog Apparel,Outdoor Apparel,,,,
+Cat,"Beds, Crates & Gear",Furniture,,,,
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Weight Management,
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Dental Care,
+Cat,Flea & Tick,Flea Combs & Tick Removers,Healthcare,Flea & Tick,Flea Combs & Tick Removers,
+Dog,Food,Dry Food,Dog Consumables,Dog Food,Emerging Formats,Air Dried
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Thyroid Care,
+Cat,Bowls & Feeders,Feeders & Waterers,Hard Goods,Bowls & Feeders,Feeders & Waterers,Waterers
+Dog,Treats,Antlers,Consumables,Core Treats,Natural & Long Lasting Treats,
+Dog,Toys,Toys,Hard Goods,Toys,Water Toys,Water Toys
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Heart & Liver Care,
+Dog,Food,Freeze Dried Food,Premium,Pantry,Freeze-Dried Food,
+Dog,"Beds, Crates & Gear",Steps & Ramps,Hard Goods,Containment & Gear,Gear,Wooden Steps & Ramps
+Dog,"Beds, Crates & Gear",Doors,Hard Goods,Technology,Electronic Containment,Doors & Accessories
+Dog,Bowls & Feeders,Storage & Accessories,Hard Goods,Bowls & Feeders,Storage & Accessories,Cleaning & Accessories
+Cat,Treats,Crunchy Treats,Cat Consumables,Cat Treats,Dental,Dental
+Cat,Toys,Toys,,,,
+Dog,Cleaning,Cleaners & Stain Removers,,,,
+Dog,"Beds, Crates & Gear",Gates,,,,
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,"Allergy, Sensitivities & Respiratory Care",
+Cat,Grooming,Creams & Rinses,Hard Goods,Beauty & Grooming,Eye & Ear Grooming,"Eye Creams, Drops and Rinses"
+Dog,Training,Fence Systems & Accessories,Hard Goods,Technology,Electronic Containment,Wireless Fences
+Dog,Health & Wellness,"Recovery Cones, Collars & Apparel",Healthcare,Over the Counter,"Recovery Cones, Collars, & Apparel",
+Dog,Dog Apparel,Apparel Accessories,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Apparel
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Technology,Floorcare,Stick Vacuums
+Dog,"Beds, Crates & Gear",Doors,Hard Goods,Home Goods,Pet Proofing,"Door, Window & Screen Protectors"
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Clumping Clay,Value
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Hanging Scratchers
+Cat,Grooming,Creams & Rinses,Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Ear Cleaners
+Cat,Prescription Treats,Crunchy Treats,Healthcare,Prescription Food & Treats,Weight Management,
+Cat,Flea & Tick,Oral Treatments,Healthcare,Flea & Tick,Oral Treatments,
+Cat,Health & Wellness,Dental Care,Healthcare,Over the Counter,"Dental Sprays, Foams & Wipes",
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Urinary Care,
+Cat,Food,Wet Food,Cat Consumables,Cat Food,Wet Food,Premium Natural
+Cat,Food,Dry Food,Cat Consumables,Cat Food,Dry Food,Core Natural
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Urinary & Kidney Care,
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,"Allergy, Sensitivities & Respiratory Care",
+Dog,Toys,Toys,Hard Goods,Toys,Chew Toys,Durable Chew Toys
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,Grooming Accessories,Groomer Accessories
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Scratchers
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,Grooming Equipment,Grooming Tables
+Dog,Health & Wellness,Dental Care,Healthcare,Over the Counter,Toothpaste & Gels,
+Dog,Dog Apparel,Jerseys,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Cat,Treats,Dehydrated Treats,Cat Consumables,Cat Treats,Freeze Dried & Dehydrated,Freeze Dried & Dehydrated
+Cat,Food,Wet Food Toppings,,,,
+Dog,Training,Potty Training,,,,
+Dog,Grooming,Shampoos & Conditioners,,,,
+Cat,Food,Dry Food Toppings,Cat Consumables,Cat Food,Toppers,Dry Food Toppers
+Cat,Bowls & Feeders,Storage & Accessories,Hard Goods,Bowls & Feeders,Storage & Accessories,Toy Bins
+Cat,Food,Dry Food,Science,Science Food,Dry Food,
+Dog,Waste Management,Potty Pads & Diapers,Hard Goods,Waste Management,Potty Pads & Diapers,Male Wraps
+Dog,Dog Apparel,Pajamas,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Dog,Bowls & Feeders,Placemats,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Bowls & Placemats
+Cat,Toys,Toys,Hard Goods,Toys,Fetch Toys,Tennis Balls
+Cat,Litter & Accessories,Waste Disposal,Hard Goods,Litter Accessories,Waste Disposal,Litter Scoops
+Dog,Dog Apparel,Sweaters & Hoodies,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Apparel
+Dog,Leashes & Collars,Collars,,,,
+Cat,Health & Wellness,"Recovery Cones, Collars & Apparel",Healthcare,Over the Counter,"Recovery Cones, Collars, & Apparel",
+Dog,Dog Apparel,Pajamas,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Cat,Litter & Accessories,Waste Disposal,Consumables,Litter,Waste Disposal,
+Dog,Leashes & Collars,Harnesses,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Leashes, Collars, & Harnesses"
+Cat,Bowls & Feeders,Feeders & Waterers,Hard Goods,Bowls & Feeders,Feeders & Waterers,Feeders
+Cat,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Ear Wipes
+Cat,Food,Dry Food,Cat Consumables,Cat Food,Dry Food,Premium Natural
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Standard-Solid Leashes
+Dog,Food,Wet Food,Dog Consumables,Dog Food,Wet Food,Value
+Dog,Toys,Toys,Hard Goods,Toys,Chew Toys,Nylon Chew Toys
+Dog,Leashes & Collars,Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Car Safety Harness
+Cat,Food,Wet Food,Consumables,Core Food,Wet Food,
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Sofa Beds
+Cat,Food,Dry Food,Premium,Pantry,Dry Food,
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,"Hip, Joint & Pain Care",
+Dog,"Beds, Crates & Gear",Doors,Hard Goods,Containment & Gear,Gear,Doors
+Dog,"Beds, Crates & Gear",Carriers,,,,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Brushes & Combs,Curry Brushes
+Dog,Bowls & Feeders,Storage & Accessories,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Bowls & Placemats
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Maze Toys
+Dog,Health & Wellness,Medications,,,,
+Cat,Bowls & Feeders,Feeders & Waterers,,,,
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Thyroid Care,
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Multivitamins,
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Elevated Bowls
+Dog,Treats,Rawhide,Consumables,Core Treats,Natural & Long Lasting Treats,
+Dog,Training,Bark Control & Remote Training,Hard Goods,Technology,Bark Control & Remote Training,Remote Trainers
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Urinary Care,
+Cat,Toys,Toys,Hard Goods,Toys,Chew Toys,Other Chew Toys
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Systems,Ultra Premium
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Bowls & Placemats
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Waste Management,Cleaners & Stain Removes,Dog Cleaners & Stain Removers
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Heart & Liver Care,
+Cat,Cleaning,Cleaners & Stain Removers,Hard Goods,Household,Cleaners,"Detergents, Carpet Cleaners, & Disinfectants"
+Dog,Treats,Dehydrated Treats,Dog Consumables,Dog Treats,Pill Wraps,Pill Wraps
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,"Allergy, Sensitivities & Respiratory Care",
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,Skin & Coat Care,
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Plastic & Other Fountains
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Elevated & Outdoor Beds
+Dog,Flea & Tick,Collars,Healthcare,Flea & Tick,Collars,
+Cat,Litter & Accessories,Mats,Hard Goods,Litter Accessories,Mats,Litter Mats
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Cat Trees - 60-69 inches
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Weight Management,
+Dog,Health & Wellness,Medications,Healthcare,Over the Counter,Digestive Care,
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Other Furniture
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Technology,Floorcare,Canister Vacuums
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Premium Scratchers
+Dog,"Beds, Crates & Gear",Crates,,,,
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Oncology Care,
+Dog,Health & Wellness,Medications,Healthcare,Over the Counter,Wound Care,
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Brain & Epilepsy Care,
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Crystal,Value
+Dog,Dog Apparel,Coats,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Skin & Coat Grooming,"Sprays, Foams & Fragrances"
+Dog,"Beds, Crates & Gear",Steps & Ramps,Hard Goods,Containment & Gear,Gear,Metal & Other Steps & Ramps
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Double Leashes
+Dog,Food,Wet Food,Consumables,Core Food,Natural,
+Cat,Treats,Crunchy Treats,Consumables,Core Treats,Biscuits & Crunchy Treats,
+Cat,Treats,Freeze Dried Treats,Consumables,Core Treats,Freeze-Dried Treats,
+Dog,Waste Management,Poop Bags,,,,
+Cat,Flea & Tick,Collars,Healthcare,Flea & Tick,Collars,
+Cat,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Slow Feeders
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Bowls & Feeders,Storage & Accessories,Food & Treat Storage
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Blankets
+Dog,Treats,Rawhide,,,,
+Cat,Food,Freeze Dried Food,,,,
+Dog,Treats,Bully Sticks,,,,
+Cat,Grooming,Grooming Tools,,,,
+Dog,Health & Wellness,Stress & Anxiety,Healthcare,Over the Counter,Calming Apparel,
+Cat,Toys,Toys,Hard Goods,Toys,Plush Toys,Basic Cat Plush Toys
+Cat,Treats,Dental Treats,Cat Consumables,Cat Treats,Dental,Dental
+Dog,Leashes & Collars,ID Tags & Accessories,Hard Goods,Personalized & Gifting,Personalized ID Tags,Enameled & Coated ID Tags
+Cat,Litter & Accessories,Litter Boxes,Hard Goods,Technology,Automation Products,Automatic Litter Boxes
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Technology,Floorcare,Robotic Vacuums
+Cat,Flea & Tick,Spot Treatments,Healthcare,Flea & Tick,Spot Treatments,
+Cat,Health & Wellness,Test Kits,Healthcare,Over the Counter,Test Kits,
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Over the Counter,Nursing Kits & Supplies,
+Dog,Health & Wellness,Stress & Anxiety,Hard Goods,Technology,Calming Devices,Calming Devices
+Dog,Training,Repellents,Hard Goods,Home Goods,Pet Proofing,Child Locks
+Dog,Grooming,Shampoos & Conditioners,Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Shampoos & Conditioners
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Cat Trees - Over 70 inches
+Cat,Leashes & Collars,Collars,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Leashes, Collars, & Harnesses"
+Dog,Dog Apparel,Outdoor Apparel,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Dog,Dog Apparel,Apparel Accessories,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Dog,Dog Apparel,Shirts & Dresses,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Apparel
+Cat,Litter & Accessories,Liners,Hard Goods,Litter Accessories,Liners,Reusable Liners
+Cat,Litter & Accessories,Litter Boxes,Hard Goods,Litter Accessories,Litter Boxes,Disposable Litter Boxes
+Cat,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Combs
+Dog,Health & Wellness,Medications,Healthcare,Over the Counter,Skin & Coat Care,
+Dog,Dog Apparel,Apparel Accessories,,,,
+Cat,Toys,Toys,Hard Goods,Toys,Plush Toys,Basic Plush Toys
+Cat,Treats,Soft & Chewy Treats,Cat Consumables,Cat Treats,Dental,Dental
+Dog,Prescription Treats,Soft & Chewy Treats,Healthcare,Prescription Food & Treats,Kidney Care,
+Cat,Health & Wellness,"Recovery Cones, Collars & Apparel",,,,
+Dog,"Beds, Crates & Gear",Crate Mats,Hard Goods,Containment & Gear,Containment,Crate Mats
+Cat,Treats,Crunchy Treats,Cat Consumables,Cat Treats,Biscuits & Crunchy,Biscuits & Crunchy
+Dog,Leashes & Collars,Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,LED & Reflective Harnesses
+Dog,Leashes & Collars,Leashes,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Leashes, Collars, & Harnesses"
+Dog,Grooming,Creams & Rinses,Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Creams & Paw Care
+Dog,"Beds, Crates & Gear",Doors,Hard Goods,Containment & Gear,Gear,Sliding Doors
+Dog,Training,Bark Control & Remote Training,Hard Goods,Technology,Bark Control & Remote Training,Remote Trainer Replacements
+Dog,Leashes & Collars,Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,Standard Solid Color Collars
+Cat,Food,Dry Food,Cat Consumables,Cat Food,Dry Food,Mainstream
+Dog,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Ball & Weave Rope Toys
+Dog,Health & Wellness,Dental Care,Healthcare,Over the Counter,Dental Kits,
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Teasers & Wands
+Cat,"Beds, Crates & Gear",Doors,Hard Goods,Technology,Electronic Containment,Doors & Accessories
+Cat,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Hair Clippers
+Dog,Prescription Treats,Biscuits & Crunchy Treats,Healthcare,Prescription Food & Treats,Weight Management,
+Dog,Cleaning,Deodorizers,Hard Goods,Household,Fragrances & Deodorizers,Odor Eliminators
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Digestive Care,
+Dog,Leashes & Collars,Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,No Pull Harnesses
+Dog,Waste Management,Poop Bag Dispensers,Hard Goods,Waste Management,Poop Bag Dispensers,Poop Bag Dispensers
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Other Supplements,
+Dog,Health & Wellness,Vitamins & Supplements,,,,
+Dog,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Curry Brushes
+Cat,Toys,Toys,Hard Goods,Toys,Subscription Boxes & Variety Packs,Variety Pack Toys
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Laser Toys
+Dog,Dog Apparel,Jerseys,,,,
+Cat,Cleaning,Cleaners & Stain Removers,Hard Goods,Waste Management,Cleaners & Stain Removes,Cat Cleaners & Stain Removers
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Diabetic Care,
+Dog,Grooming,Shampoos & Conditioners,Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Ear Cleaners
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Oncology Care,
+Dog,Dog Apparel,Boots & Socks,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Dog,Health & Wellness,Test Kits,Healthcare,Over the Counter,Test Kits,
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Naturals,Ultra Premium
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Dental Supplements,
+Cat,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Slicker Brushes
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Other Electronic Toys
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Heart & Liver Care,
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Other Scratcher Toys
+Dog,Bowls & Feeders,Placemats,,,,
+Dog,Grooming,Grooming Tools,Healthcare,Over the Counter,Medicated Shampoos & Conditioners,
+Cat,Prescription Food,Dry Food,,,,
+Dog,Cleaning,Deodorizers,Hard Goods,Household,Fragrances & Deodorizers,Candles & Fragrances
+Dog,Toys,Toys,Hard Goods,Toys,Chew Toys,Other Chew Toys
+Dog,Health & Wellness,Handicap & Injury Support,Healthcare,Over the Counter,"Wheelchairs, Wraps, & Splints",
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Hands-Free Leashes
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Electronic Teasers
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Cat Condos
+Cat,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Automatic Feeders
+Dog,Leashes & Collars,Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,Prong Pinch Collars
+Cat,Health & Wellness,Stress & Anxiety,Healthcare,Over the Counter,Calming Diffusers & Sprays,
+Dog,Cleaning,Deodorizers,,,,
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Water Bottles
+Cat,Food,Dry Food,Consumables,Core Food,Dry Food,
+Dog,Bowls & Feeders,Placemats,Hard Goods,Bowls & Feeders,Storage & Accessories,Placemats
+Dog,Health & Wellness,Dental Care,Healthcare,Health & Wellness,Dental Chews,
+Dog,Toys,Toys,Hard Goods,Toys,Chew Toys,Natural Chew Toys
+Dog,Health & Wellness,Stress & Anxiety,Healthcare,Over the Counter,Calming Diffusers & Sprays,
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Treat Dispensing Toys
+Cat,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Grooming Wipes
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Clumping Clay,Ultra Premium
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,Grooming Accessories,Tables & Tub Accessories
+Dog,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Tug Toys
+Cat,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,"Gloves, Rakes & Blades"
+Dog,"Beds, Crates & Gear",Furniture Covers,,,,
+Cat,"Beds, Crates & Gear",Beds,,,,
+Cat,Treats,Lickable Treats,Cat Consumables,Cat Treats,Lickable,Lickable
+Dog,"Beds, Crates & Gear",Crate Mats,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Beds, Crates, & Gear"
+Dog,Training,Sport Training,Hard Goods,"Leashes, Collars & Harnesses",Training & Outdoor,Sport Training
+Cat,Toys,Toys,Hard Goods,Toys,Plush Toys,Cat Prey Toys
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Crystal,Mainstream
+Cat,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Kennels
+Cat,Leashes & Collars,ID Tags & Accessories,Hard Goods,Personalized & Gifting,Personalized ID Tags,Silicone ID Tags
+Dog,Grooming,"Sprays, Foams & Wipes",Healthcare,Over the Counter,Eye & Ear Care,
+Cat,Bowls & Feeders,Feeders & Waterers,Hard Goods,Bowls & Feeders,Storage & Accessories,Food & Treat Storage
+Cat,Grooming,"Sprays, Foams & Wipes",,,,
+Dog,Treats,Lickable Treats,Dog Consumables,Dog Treats,Indulgent,Lickable
+Dog,Food,Freeze-Dried & Dehydrated Food Toppings,Premium,Pantry,Freeze-Dried & Dehydrated Food Toppings,
+Dog,Grooming,Shampoos & Conditioners,Healthcare,Over the Counter,Medicated Shampoos & Conditioners,
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,Grooming Accessories,Towels & Bath Mats
+Dog,Training,Bark Control & Remote Training,Hard Goods,Technology,Consumables & Accessories,Batteries
+Cat,Health & Wellness,First Aid,Healthcare,Flea & Tick,Spot Treatments,
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Mid Tier Scratcher Toys
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Cat Trees - Under 30 inches
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Weight Management,
+Dog,Treats,Dehydrated Treats,Consumables,Core Treats,Indulgent Treats,
+Dog,Food,Wet Food,Consumables,Core Food,Balanced Nutrition,
+Cat,Leashes & Collars,Leashes & Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Leashes & Harnesses
+Cat,Leashes & Collars,ID Tags & Accessories,Hard Goods,Personalized & Gifting,Personalized ID Tags,Stainless Steel ID Tags
+Cat,Treats,Lickable Treats,,,,
+Dog,Grooming,Shampoos & Conditioners,Healthcare,Over the Counter,Skin & Coat Care,
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Stress & Anxiety Management,
+Dog,"Beds, Crates & Gear",Steps & Ramps,Hard Goods,Containment & Gear,Gear,Plastic Steps & Ramps
+Cat,Leashes & Collars,Leashes & Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Standard Pattern & Graphic Harnesses
+Dog,Treats,Bully Sticks,Dog Consumables,Dog Treats,Long Lasting,Bully Sticks
+Dog,Dog Apparel,Sweaters & Hoodies,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,"Allergy, Sensitivities & Respiratory Care",
+Cat,Leashes & Collars,Leashes & Harnesses,,,,
+Dog,Health & Wellness,First Aid,,,,
+Dog,Treats,Lickable Treats,,,,
+Cat,Prescription Treats,Crunchy Treats,Healthcare,Prescription Food & Treats,Digestive Care,
+Dog,Toys,Toys,Hard Goods,Toys,Puppy Toys,Puppy & Kitten Interactive Toys
+Cat,Toys,Toys,Hard Goods,Toys,Chew Toys,Durable Chew Toys
+Cat,Health & Wellness,First Aid,Healthcare,Over the Counter,Eye & Ear Care,
+Dog,Treats,Biscuits & Crunchy Treats,Dog Consumables,Dog Treats,Pill Wraps,Pill Wraps
+Dog,Bowls & Feeders,Feeders & Waterers,,,,
+Dog,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Combs
+Dog,Treats,Freeze Dried Treats,Dog Consumables,Dog Treats,Indulgent,Freeze Dried & Dehydrated
+Dog,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Other Pens
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Beds, Crates, & Gear"
+Dog,Food,Dry Food,Premium,Pantry,Dry Food,
+Dog,Training,Potty Training,Hard Goods,"Leashes, Collars & Harnesses",Training & Outdoor,Potty Training
+Dog,Training,Bark Control & Remote Training,Hard Goods,Technology,Bark Control & Remote Training,GPS
+Dog,"Beds, Crates & Gear",Pens,,,,
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Window Perches
+Dog,Cleaning,Deodorizers,Hard Goods,Technology,Air Purifiers & Filters,Air Purifiers
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,"Hip, Joint & Pain Care",
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Ball & Feather Toys
+Cat,Leashes & Collars,Collars,,,,
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Diabetic Care,
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Oncology Care,
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Basic Flat Scratchers
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Crystal,Ultra Premium
+Cat,Bowls & Feeders,Filters,Hard Goods,Technology,Consumables & Accessories,Filters
+Dog,Food,Wet Food,Dog Consumables,Dog Food,Wet Food,Mainstream
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Interactive Scratchers
+Dog,Health & Wellness,Dental Care,Healthcare,Over the Counter,"Dental Sprays, Foams & Wipes",
+Dog,Health & Wellness,Medications,Healthcare,Over the Counter,"Allergy, Sensitivities & Respiratory Care",
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Hair Removal
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Shampoos & Conditioners
+Dog,"Beds, Crates & Gear",Crates,Hard Goods,Containment & Gear,Containment,Metal Crates
+Dog,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,"Gloves, Rakes & Blades"
+Dog,Treats,Hard Chews,Dog Consumables,Dog Treats,Long Lasting,Hard Chews
+Dog,Treats,Natural Chews,Consumables,Core Treats,Natural & Long Lasting Treats,
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Covered Beds
+Dog,"Beds, Crates & Gear",Crates,Hard Goods,Containment & Gear,Containment,Other Crates
+Dog,Health & Wellness,Dental Care,Healthcare,Over the Counter,Dental Water Additives,
+Cat,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Steel Fountains
+Dog,Treats,Soft & Chewy Treats,,,,
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,Pill Administration,
+Cat,Food,Freeze-Dried & Dehydrated Food Toppings,Premium,Pantry,Freeze-Dried & Dehydrated Food Toppings,
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Recovery & Dehydration,
+Cat,Treats,Catnip & Pet Grass,,,,
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,LED & Reflective Leashes
+Dog,Waste Management,Potty Pads & Diapers,Hard Goods,Waste Management,Potty Pads & Diapers,Diapers
+Dog,Dog Apparel,Shirts & Dresses,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Technology,Floorcare,Steam & Carpet Cleaners
+Dog,Training,Fence Systems & Accessories,Hard Goods,Technology,Electronic Containment,GPS Fences
+Cat,Litter & Accessories,Waste Disposal,Hard Goods,Litter Accessories,Waste Disposal,Bags & Refills
+Dog,Health & Wellness,Supplies & Devices,Healthcare,Over the Counter,Nursing Kits & Supplies,
+Cat,Health & Wellness,Stress & Anxiety Refills,Healthcare,Over the Counter,Calming Diffuser Refills,
+Dog,Training,Bark Control & Remote Training,,,,
+Cat,Grooming,Creams & Rinses,Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Creams & Paw Care
+Cat,Toys,Toys,Hard Goods,Toys,Chew Toys,Natural Chew Toys
+Cat,Treats,Jerky Treats,Cat Consumables,Cat Treats,Jerky,Jerky
+Dog,Cleaning,Deodorizers,Hard Goods,Household,Lawn Care & Outdoor,Lawn Treatments
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Systems,Mainstream
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,"Allergy, Sensitivities & Respiratory Care",
+Dog,Health & Wellness,Medications,Healthcare,Over the Counter,Eye & Ear Care,
+Dog,Food,Dehydrated Food,,,,
+Cat,Training,Repellents,Hard Goods,Home Goods,Pet Proofing,"Door, Window & Screen Protectors"
+Dog,"Beds, Crates & Gear",Gates,Hard Goods,Containment & Gear,Containment,Wooden & Other Gates
+Dog,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Basic Rope Toys
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Standard-Leather Leashes
+Cat,Leashes & Collars,Collars,Hard Goods,"Leashes, Collars & Harnesses",Collars,Cat collars
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Basic Ceramic Bowls
+Dog,Treats,Jerky Treats,Consumables,Core Treats,Indulgent Treats,
+Dog,"Beds, Crates & Gear",Crate Accessories,Hard Goods,Containment & Gear,Containment,Crate Covers
+Dog,Training,Repellents,Hard Goods,Home Goods,Pet Proofing,Repellents
+Cat,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Other Pens
+Cat,Health & Wellness,Stress & Anxiety,Healthcare,Over the Counter,Calming Diffuser Refills,
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Tear Stain Removers
+Cat,Litter & Accessories,Mats,Consumables,Litter,Mats,
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Technology,Floorcare,Hand Vacuums
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Scratch & Roll Toys
+Dog,"Beds, Crates & Gear",Doors,Hard Goods,Home Goods,Pet Proofing,Child Locks
+Dog,Training,Cameras,,,,
+Cat,Toys,Toys,Hard Goods,Toys,Fetch Toys,Launchers
+Dog,Treats,Jerky Treats,Dog Consumables,Dog Treats,Pill Wraps,Pill Wraps
+Dog,Waste Management,Waste Disposal,,,,
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Hide & Seek Puzzle Toys
+Cat,Treats,Catnip & Pet Grass,Cat Consumables,Cat Treats,Catnip & Pet Grass,Pet Grass
+Dog,Grooming,"Sprays, Foams & Wipes",Healthcare,Over the Counter,Skin & Coat Care,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Brushes & Combs,"Gloves, Rakes & Blades"
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Kidney Care,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Shampoos & Conditioners
+Dog,"Beds, Crates & Gear",Crate Accessories,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Beds, Crates, & Gear"
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Naturals,Value
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Step-In Scratchers
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Aging Care,
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,"Play Tunnels, Tents & Sacks"
+Dog,Dog Apparel,Costumes,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Urinary & Kidney Care,
+Dog,Food,Dry Food,Consumables,Core Food,Balanced Nutrition,
+Dog,Dog Apparel,Costumes,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Cat,Food,Freeze-Dried & Dehydrated Food Toppings,Cat Consumables,Cat Food,Emerging Formats,Freeze Dried
+Cat,"Beds, Crates & Gear",Pens,Hard Goods,Containment & Gear,Containment,Plastic Pens
+Dog,Dog Apparel,Jerseys,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Cat,Food,Dry Food Toppings,Consumables,Core Food,Dry Food Toppings,
+Cat,Bowls & Feeders,Pumps,,,,
+Dog,Food,Wet Food Toppings,Dog Consumables,Dog Food,Toppers,Wet Food Toppers
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Nail Clipper, Grinder & Accessories",Nail Grinders
+Dog,Treats,Hard Chews,Consumables,Core Treats,Natural & Long Lasting Treats,
+Cat,Treats,Catnip & Pet Grass,Cat Consumables,Cat Treats,Catnip & Pet Grass,Catnip
+Dog,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,TPR Rope Toys
+Dog,Food,Dehydrated Food,Dog Consumables,Dog Food,Emerging Formats,Dehydrated
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Chaser & Swatting Toys
+Dog,Health & Wellness,Medications,Healthcare,Flea & Tick,Spot Treatments,
+Cat,Bowls & Feeders,Storage & Accessories,Hard Goods,Bowls & Feeders,Storage & Accessories,Food & Treat Storage
+Dog,Grooming,Creams & Rinses,Hard Goods,Beauty & Grooming,Eye & Ear Grooming,"Eye Creams, Drops and Rinses"
+Cat,Litter & Accessories,Litter Boxes,,,,
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Oncology Care,
+Dog,Flea & Tick,"Powders, Sprays & Wipes",,,,
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Teasers & Wands
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Covered Beds
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Other Electronic Toys
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Urinary Care,
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Kidney Care,
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Diabetic Care,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Clipper Blades
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Food & Puzzle Toys
+Dog,"Beds, Crates & Gear",Beds,,,,
+Cat,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Skin & Coat Grooming,"Sprays, Foams & Fragrances"
+Dog,"Beds, Crates & Gear",Crate Mats,,,,
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Aging Care,
+Dog,Food,Frozen Dog Food,,,,
+Dog,Food,Wet Food Toppings,,,,
+Dog,Training,Bark Control & Remote Training,Hard Goods,Technology,Consumables & Accessories,Bark Collar Accessories
+Dog,Food,Dry Food,Consumables,Core Food,Natural,
+Cat,Toys,Toys,Hard Goods,Toys,Plush Toys,Cat Kicker Toys
+Cat,Food,Freeze Dried Food,Premium,Pantry,Freeze-Dried Food,
+Dog,Leashes & Collars,Muzzles & Head Collars,,,,
+Cat,Health & Wellness,Dental Care,Healthcare,Over the Counter,Dental Kits,
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,"Hip, Joint & Pain Care",
+Cat,Training,Repellents,Hard Goods,Home Goods,Pet Proofing,Cat Tape
+Cat,Cleaning,Deodorizers,Hard Goods,Waste Management,Deodorizers,Cat Non-Litter Deodorizers
+Dog,Bowls & Feeders,Storage & Accessories,,,,
+Cat,Health & Wellness,Medications,Healthcare,Over the Counter,Wound Care,
+Dog,Dog Apparel,Outdoor Apparel,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Apparel
+Cat,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Accessories,Grooming Kits
+Dog,Toys,Toys,Hard Goods,Toys,Plush Toys,Basic Plush Toys
+Dog,Dog Apparel,Jerseys,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Apparel
+Dog,Dog Apparel,Apparel Accessories,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Cat Trees - Real Wood
+Dog,Dog Apparel,Pajamas,Hard Goods,Apparel,Apparel,Micro Season Apparel
+Dog,Training,Fence Systems & Accessories,Hard Goods,Technology,Consumables & Accessories,Fence Accessories
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Accessories,Groomer Accessories
+Dog,Cleaning,Deodorizers,Hard Goods,Waste Management,Potty Pads & Diapers,Potty Pads & Grass Potties
+Dog,Grooming,"Sprays, Foams & Wipes",,,,
+Dog,Food,Dehydrated Food,Premium,Pantry,Dehydrated Food,
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Other Fetch Toys
+Dog,"Beds, Crates & Gear",Steps & Ramps,,,,
+Cat,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Lick Mats
+Dog,"Beds, Crates & Gear",Doors,,,,
+Dog,Dog Apparel,Sweaters & Hoodies,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Pillow Beds
+Dog,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Animal & Figure Rope Toys
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Slip-Lead Leashes
+Dog,Treats,Natural Chews,,,,
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Crystal,Premium
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Ear Wipes
+Dog,Food,Freeze-Dried & Dehydrated Food Toppings,Dog Consumables,Dog Food,Emerging Formats,Freeze Dried
+Cat,Litter & Accessories,Waste Disposal,Hard Goods,Litter Accessories,Waste Disposal,Disposal Systems
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Accessories,Grooming Gloves
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Aging Care,
+Dog,"Beds, Crates & Gear",Furniture Covers,Hard Goods,Home Goods,Pet Proofing,Cable Protectors
+Dog,Prescription Food,Fresh Food,Healthcare,Prescription Food & Treats,Kidney Care,
+Dog,Treats,Natural Chews,Dog Consumables,Dog Treats,Pill Wraps,Pill Wraps
+Dog,Cleaning,Cleaners & Stain Removers,Hard Goods,Waste Management,Cleaners & Stain Removes,Lawn Treatments
+Dog,"Beds, Crates & Gear",Carriers,Hard Goods,Containment & Gear,Containment,Fabric & Other Carriers
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Bolster Beds
+Dog,Treats,Soft & Chewy Treats,Consumables,Core Treats,Indulgent Treats,
+Dog,Training,Cameras,Hard Goods,Technology,Cameras,Cameras
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Wall Shelves
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Grooming Equipment,Dryers
+Cat,Health & Wellness,Stress & Anxiety,Healthcare,Over the Counter,Calming Apparel,
+Dog,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Shampoos & Conditioners
+Dog,Dog Apparel,Sweaters & Hoodies,,,,
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Flyer Toys
+Dog,Leashes & Collars,Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Standard Solid Harnesses
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Basic Steel Bowls
+Dog,"Beds, Crates & Gear",Car Accessories,Hard Goods,Containment & Gear,Gear,Seat Covers
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Hair Clippers
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Nursing Kits & Supplies,
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Ceramic Fountains
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Digestive Care,
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,"Nail Clipper, Grinder & Accessories",Nail Care Accessories
+Dog,Treats,Bully Sticks,Consumables,Core Treats,Natural & Long Lasting Treats,
+Dog,Grooming,"Sprays, Foams & Wipes",Healthcare,Over the Counter,Medicated Shampoos & Conditioners,
+Dog,Food,Wet Food,,,,
+Cat,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,"Hip, Joint & Pain Care",
+Dog,Prescription Treats,Biscuits & Crunchy Treats,Healthcare,Prescription Food & Treats,Urinary Care,
+Dog,Bowls & Feeders,Storage & Accessories,Hard Goods,Bowls & Feeders,Storage & Accessories,Food & Treat Storage
+Cat,Food,Wet Food,Cat Consumables,Cat Food,Wet Food,Value
+Dog,Flea & Tick,Spot Treatments,Healthcare,Flea & Tick,Spot Treatments,
+Dog,Food,Dry Food,Dog Consumables,Dog Food,Dry Food,Value
+Dog,Leashes & Collars,Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,Standard Leather Harnesses
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Weight Management,
+Cat,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Deshedding Tools
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Scratcher Refills
+Cat,Cleaning,Cleaners & Stain Removers,Hard Goods,Waste Management,Cleaners & Stain Removes,"Detergents, Carpet Cleaners & Disenfectants"
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Bolster Beds - Other
+Dog,Toys,Toys,Hard Goods,Toys,Interactive Toys,Chaser & Swatting Toys
+Cat,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Basic Rope Toys
+Cat,Bowls & Feeders,Bowls & Diners,Hard Goods,Personalized & Gifting,Personalized Pet Products,Personalized Bowls & Placemats
+Dog,"Beds, Crates & Gear",Furniture Covers,Hard Goods,Beds & Furniture,Furniture,Furniture Covers
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Beds & Furniture,Furniture,Cat Trees - 31-59 inches
+Dog,Treats,Dehydrated Treats,Dog Consumables,Dog Treats,Indulgent,Freeze Dried & Dehydrated
+Dog,"Beds, Crates & Gear",Crates,Hard Goods,Containment & Gear,Containment,Dog & Cat Houses
+Cat,Litter & Accessories,Litter Boxes,Hard Goods,Litter Accessories,Litter Boxes,Core Litter Boxes
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Specialty Balls
+Cat,Leashes & Collars,Leashes & Harnesses,Hard Goods,"Leashes, Collars & Harnesses",Harnesses,LED & Reflective Harnesses
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Retractable Leashes
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Fetch Stick Toys
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Orthopedic Beds
+Dog,Food,Dry Food Toppings,Consumables,Core Food,Natural,
+Cat,Health & Wellness,Medications,Healthcare,Over the Counter,Other,
+Dog,Toys,Toys,Hard Goods,Toys,Fetch Toys,Tennis Balls
+Cat,"Beds, Crates & Gear",Furniture,Hard Goods,Containment & Gear,Containment,Dog & Cat Houses
+Cat,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Digestive Care,
+Cat,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Curry Brushes
+Dog,"Beds, Crates & Gear",Carriers,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Beds, Crates, & Gear"
+Dog,Training,Bark Control & Remote Training,Hard Goods,Technology,Bark Control & Remote Training,Bark Collars
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,Grooming Equipment,Shower Attachments & Hoses
+Dog,Bowls & Feeders,Feeders & Waterers,Hard Goods,Technology,Automation Products,Steel Fountains
+Dog,"Beds, Crates & Gear",Crates,Hard Goods,Containment & Gear,Containment,Plastic Crates
+Dog,Prescription Food,Dry Food,Healthcare,Prescription Food & Treats,Heart & Liver Care,
+Dog,Health & Wellness,Medications,Healthcare,Flea & Tick,Oral Treatments,
+Dog,Food,Freeze Dried Food,,,,
+Cat,Litter & Accessories,Liners,Hard Goods,Litter Accessories,Liners,Pads
+Dog,Toys,Toys,Hard Goods,Toys,Plush Toys,Stuffing Free Plush Toys
+Dog,Food,Freeze Dried Food,Dog Consumables,Dog Food,Emerging Formats,Freeze Dried
+Dog,Dog Apparel,Shirts & Dresses,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Dog,Toys,Toys,Hard Goods,Toys,Plush Toys,Other Plush Toys
+Dog,Food,Wet Food,Consumables,Core Food,Science Diet,
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Elevated & Outdoor Beds
+Dog,Waste Management,Potty Pads & Diapers,Hard Goods,Waste Management,Potty Pads & Diapers,Potty Pad Holders
+Dog,"Beds, Crates & Gear",Gates,Hard Goods,Containment & Gear,Containment,Plastic Gates
+Dog,Toys,Toys,,,,
+Dog,Prescription Food,Wet Food,Healthcare,Prescription Food & Treats,Diabetic Care,
+Cat,Treats,Dehydrated Treats,Consumables,Core Treats,Dehydrated Treats,
+Cat,Flea & Tick,Shampoos,Healthcare,Flea & Tick,Shampoos,
+Dog,Prescription Treats,Biscuits & Crunchy Treats,Healthcare,Prescription Food & Treats,Digestive Care,
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,"Clippers, Blades and Shears",Shears
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Slow Feeders
+Dog,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Rope Plush Toys
+Dog,Flea & Tick,Oral Treatments,Healthcare,Flea & Tick,Oral Treatments,
+Dog,Toys,Toys,Hard Goods,Toys,Puppy Toys,Puppy & Kitten Teething Toys
+Cat,Health & Wellness,Medications,Healthcare,Over the Counter,Digestive Care,
+Cat,Health & Wellness,Dental Care,Healthcare,Health & Wellness,Dental Chews,
+Dog,Toys,Toys,Hard Goods,Toys,Plush Toys,Ball Plush Toys
+Cat,Toys,Toys,Hard Goods,Toys,Treat Dispensing Toys,Other Treat Dispensing Toys
+Cat,Treats,Freeze Dried Treats,,,,
+Cat,Litter & Accessories,Litter Boxes,Hard Goods,Litter Accessories,Waste Disposal,Bags & Refills
+Dog,Treats,Freeze Dried Treats,Consumables,Core Treats,Indulgent Treats,
+Dog,Leashes & Collars,Harnesses,,,,
+Dog,Bowls & Feeders,Bowls & Diners,Hard Goods,Bowls & Feeders,Bowls & Diners,Lick Mats
+Dog,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Bristle & Pin Brushes
+Cat,Food,Wet Food Toppings,Consumables,Core Food,Wet Food Toppings,
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Eye & Ear Grooming,Eye Wipes
+Dog,Treats,Biscuits & Crunchy Treats,,,,
+Dog,"Beds, Crates & Gear",Car Accessories,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Beds, Crates, & Gear"
+Cat,Toys,Toys,Hard Goods,Toys,Scratcher Toys,Interactive Scratcher Toys
+Cat,Grooming,"Sprays, Foams & Wipes",Healthcare,Over the Counter,Skin & Coat Care,
+Dog,Treats,Bones,Dog Consumables,Dog Treats,Long Lasting,Bones
+Dog,Grooming,Towels & Accessories,Hard Goods,Beauty & Grooming,Grooming Accessories,Grooming Gloves
+Dog,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Weight Management,
+Dog,Health & Wellness,First Aid,Healthcare,Over the Counter,Medical Equipment,
+Dog,Leashes & Collars,Leashes,,,,
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Track Toys
+Cat,"Beds, Crates & Gear",Doors,Hard Goods,Containment & Gear,Gear,Doors
+Dog,Grooming,Grooming Tools,Hard Goods,Beauty & Grooming,Brushes & Combs,Bristle & Pin Brushes
+Cat,Food,Dehydrated Food,Premium,Pantry,Dehydrated Food,
+Dog,Grooming,"Sprays, Foams & Wipes",Hard Goods,Beauty & Grooming,Eye & Ear Grooming,"Eye Creams, Drops and Rinses"
+Cat,Health & Wellness,First Aid,Healthcare,Over the Counter,"Allergy, Sensitivities & Respiratory Care",
+Dog,"Beds, Crates & Gear",Beds,Hard Goods,Beds & Furniture,Beds,Orthopedic Beds
+Dog,Treats,Rawhide,Dog Consumables,Dog Treats,Long Lasting,Rawhide
+Cat,Treats,Soft & Chewy Treats,Cat Consumables,Cat Treats,Soft & Chewy,Soft & Chewy
+Dog,Leashes & Collars,Leashes,Hard Goods,"Leashes, Collars & Harnesses",Leashes,Standard-Pattern-Graphic Leashes
+Dog,Food,Dehydrated Food,Dog Consumables,Dog Food,Emerging Formats,Air Dried
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Over the Counter,Nursing Kits & Supplies,
+Cat,Litter & Accessories,Litter Boxes,Consumables,Litter,Litter Boxes,
+Cat,Grooming,Brushes & Combs,Hard Goods,Beauty & Grooming,Brushes & Combs,Bristle & Pin Brushes
+Cat,Litter & Accessories,Litter,Cat Consumables,Litter,Clumping Clay,Premium
+Dog,Cleaning,Vacuums & Steam Cleaners,Hard Goods,Technology,Consumables & Accessories,Floorcare Accessories
+Dog,Toys,Toys,Hard Goods,Toys,Rope & Tug Toys,Other Rope & Tug Toys
+Cat,"Beds, Crates & Gear",Beds,Hard Goods,Personalized & Gifting,Personalized Pet Products,"Personalized Beds, Crates, & Gear"
+Dog,Treats,Bones,,,,
+Dog,Grooming,Creams & Rinses,Healthcare,Over the Counter,Skin & Coat Care,
+Dog,Treats,Freeze Dried Treats,,,,
+Cat,Grooming,Brushes & Combs,,,,
+Cat,Prescription Treats,Crunchy Treats,Healthcare,Prescription Food & Treats,Urinary Care,
+Cat,Health & Wellness,Dental Care,,,,
+Cat,Litter & Accessories,Waste Disposal,,,,
+Dog,Waste Management,Potty Pads & Diapers,Hard Goods,Waste Management,Potty Pads & Diapers,Potty Pads & Grass Potties
+Dog,Dog Apparel,Apparel Accessories,Hard Goods,Apparel,Apparel,Evergreen Apparel
+Dog,Dog Apparel,Sweaters & Hoodies,Hard Goods,Apparel,Apparel,Seasonal Apparel
+Cat,Grooming,Shampoos & Conditioners,Hard Goods,Beauty & Grooming,Skin & Coat Grooming,Shampoos & Conditioners
+Dog,Health & Wellness,Dental Care,Healthcare,Over the Counter,Toothbrushes,
+Cat,Health & Wellness,Vitamins & Supplements,Healthcare,Health & Wellness,Nursing Kits & Supplies,
+Cat,Toys,Toys,Hard Goods,Toys,Interactive Toys,Other Interactive Toys
+Dog,Food,Fresh Dog Food,Science,Science Food,Fresh Food,
+Dog,Treats,Hard Chews,,,,
+Cat,Bowls & Feeders,Pumps,Hard Goods,Technology,Consumables & Accessories,Pumps
+Cat,Litter & Accessories,Litter,,,,
+Cat,Litter & Accessories,Mats,,,,
+Cat,Prescription Treats,Crunchy Treats,Healthcare,Prescription Food & Treats,Stress & Anxiety Management,
+Cat,Leashes & Collars,ID Tags & Accessories,Hard Goods,Personalized & Gifting,Personalized ID Tags,Enameled & Coated ID Tags
