@@ -17,9 +17,6 @@ Compose multi-slot retrieval queries for pet products.
 #### user_profile (optional)
 {{user_profile_json}}
 
-#### order_history (optional)
-<!-- {{order_history_json}} -->
-
 #### weather_context
 {{weather_json}}
 
