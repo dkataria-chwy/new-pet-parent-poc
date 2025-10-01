@@ -5,8 +5,10 @@ from datetime import datetime
 from zoneinfo import ZoneInfo
 
 from database import db
-from tools.calendar_tool import get_calendar_context
-from tools.weather_tool import get_weather_context
+# from tools.calendar_tool import get_calendar_context  # Original version
+from tools.csv_calendar_tool import get_csv_calendar_context  # CSV version
+# from tools.weather_tool import get_weather_context  # NWS API version
+from tools.csv_weather_tool import get_csv_weather_context  # CSV version
 
 
 def _summarize_prev_month_decisions(journey: Any, month_idx: int) -> Dict[str, Any]:
@@ -44,9 +46,20 @@ def build_generation_context(journey_id: str, month_idx: int, tz: str = "America
     # Calendar: start at month start per tool default; days_ahead 30
     calendar = None
     try:
-        calendar = get_calendar_context(
+        # Original calendar tool (commented out)
+        # calendar = get_calendar_context(
+        #     zip_code=pet.zipCode or "00000",
+        #     start_date=None,
+        #     days_ahead=30,
+        #     tz=tz,
+        #     include_optional=True,
+        # )
+        
+        # CSV calendar tool (active) - use current date instead of month start
+        current_date = datetime.now(ZoneInfo(tz)).date().isoformat()
+        calendar = get_csv_calendar_context(
             zip_code=pet.zipCode or "00000",
-            start_date=None,
+            start_date=current_date,
             days_ahead=30,
             tz=tz,
             include_optional=True,
@@ -57,7 +70,15 @@ def build_generation_context(journey_id: str, month_idx: int, tz: str = "America
     # Weather: 7-day forecast + alerts, may be empty
     weather = None
     try:
-        weather = get_weather_context(
+        # NWS API version (commented out)
+        # weather = get_weather_context(
+        #     zip_code=pet.zipCode or "00000",
+        #     days_ahead=7,
+        #     tz=tz,
+        # )
+        
+        # CSV version (active)
+        weather = get_csv_weather_context(
             zip_code=pet.zipCode or "00000",
             days_ahead=7,
             tz=tz,
@@ -79,13 +100,15 @@ def build_generation_context(journey_id: str, month_idx: int, tz: str = "America
         "name": pet.name,
         "species": getattr(pet.species, "value", pet.species),
         "breed": pet.breed,
-        "ageMonths": pet.ageMonths,
+        "ageMonths": pet.ageMonths + month_idx,
         "gender": getattr(pet.gender, "value", pet.gender) if pet.gender else None,
+        "weightLbs": pet.weightLbs,
+        "heightAtShoulderInches": pet.heightAtShoulderInches,
         "activityLevel": getattr(pet.activityLevel, "value", pet.activityLevel) if pet.activityLevel else None,
         "chewStrength": getattr(pet.chewStrength, "value", pet.chewStrength) if pet.chewStrength else None,
         "allergies": pet.allergies,
         "about": pet.about,
-        "appearance": pet.appearance,
+        # "appearance": pet.appearance,
         **parent_profile,
     }
 

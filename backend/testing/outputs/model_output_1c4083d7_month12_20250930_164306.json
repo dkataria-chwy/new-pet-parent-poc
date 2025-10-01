@@ -1,0 +1,359 @@
+{
+  "slots": [
+    {
+      "slot_id": "Food_Nutrition_Dry_Kibble_001",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "rationale": "Primary complete food lane for a 17-month-old, medium-weight Pug with high activity; kibble shaped for short-muzzle comfort and medium-size pieces.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; dry-kibble; small-bites; brachycephalic-shape; medium-size; calorie-dense; digestible; probiotic; joint-support; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"dry kibble\" OR \"dry-kibble\") AND (\"small-bites\" OR \"small bites\") AND (\"brachycephalic\" OR \"short-nose\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug",
+          "explicit: age_months: 17",
+          "explicit: weight_lb: 40.0",
+          "explicit: chew_strength: strong",
+          "explicit: activity: high",
+          "explicit: brand_bias: Mars",
+          "inferred: lifestage: adult (17 months -> adult stage for diet selection)"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Food_Nutrition_Wet_Canned_002",
+      "top_family": "Food/Nutrition",
+      "family": "Wet Canned",
+      "rationale": "Heat alert and high activity support adding wet food/toppers for hydration and palatability; small-portion packaging for medium-size adult dog.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; wet-canned; pate; high-moisture; small-portions; toppers; medium-size; palatable; digestive-support; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"wet canned\" OR \"wet-canned\" OR \"wet food\" OR \"toppers\") AND (\"high moisture\" OR \"hydration\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: age_months: 17",
+          "explicit: activity: high",
+          "explicit: weight_lb: 40.0"
+        ],
+        "calendar": [],
+        "weather": [
+          "explicit: excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Treats_VOHC_Dental_Chews_003",
+      "top_family": "Treats",
+      "family": "VOHC Dental Chews",
+      "rationale": "Daily dental baseline for adults; select VOHC-approved, durable chews because AJ is a strong chewer; exclude rawhide and duck due to allergy/safety.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; adult; vohc-dental-chews; durable; dental; medium-size; enzymatic-benefit; strong-chewer; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"VOHC\" OR \"vohc\") AND (\"dental chew\" OR \"dental chews\" OR \"dental-treat\") AND (\"durable\" OR \"long-lasting\") NOT duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 25,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: chew_strength: strong",
+          "explicit: age_months: 17",
+          "explicit: breed: Pug",
+          "explicit: brand_bias: Mars"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Toys_Chews_Chew_Toys_004",
+      "top_family": "Toys/Chews",
+      "family": "Chew Toys",
+      "rationale": "High-energy, strong-chewing Pug needs durable interactive toys; avoids rawhide and duck-containing chew mixes.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "chew-toys; dog; adult; durable-nylon; natural-rubber; interactive; extra-durable; medium-size; strong-chewer; fetch-friendly; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"chew toy\" OR \"chew-toy\" OR \"durable toy\") AND (\"nylon\" OR \"rubber\") AND (\"strong chewer\" OR \"power chewer\") NOT rawhide NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: chew_strength: strong",
+          "explicit: activity: high",
+          "explicit: breed: Pug"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Leashes_Collars_Harness_and_Leash_005",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "rationale": "Pugs benefit from chest harnesses to reduce tracheal stress; reflective feature recommended due to hunting season and outdoor evening walks.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "harness-leash; dog; adult; no-pull; chest-harness; step-in; breathable-mesh; reflective; medium-size; brachycephalic-friendly; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"chest harness\" OR \"step-in harness\" OR \"no-pull harness\") AND (\"reflective\" OR \"reflective trim\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 25,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug",
+          "explicit: weight_lb: 40.0",
+          "explicit: activity: high"
+        ],
+        "calendar": [
+          "explicit: hunting_season_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Gear_Travel_Beds_006",
+      "top_family": "Gear/Travel",
+      "family": "Beds",
+      "rationale": "Excessive heat warning: Pug (brachycephalic) benefits from cooling, low-profile mats that allow easier breathing while resting.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "beds; dog; adult; cooling-mat; low-profile; medium-size; washable; non-slip; breathable-surface; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"cooling mat\" OR \"cooling pad\" OR \"cooling bed\") AND (\"low-profile\" OR \"low profile\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug",
+          "explicit: age_months: 17"
+        ],
+        "calendar": [],
+        "weather": [
+          "explicit: excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Food_Nutrition_Bowls_and_Diners_007",
+      "top_family": "Food/Nutrition",
+      "family": "Bowls & Diners",
+      "rationale": "Heat alert and active lifestyle: portable hydration on outings plus a stable bowl at home; medium capacity fits 40 lb dog.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "bowls-diners; dog; adult; collapsible-bowl; travel; silicone; leakproof; medium-capacity; non-tip; dishwasher-safe; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"collapsible bowl\" OR \"travel bowl\") AND (\"silicone\" OR \"foldable\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 25,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: activity: high",
+          "explicit: weight_lb: 40.0"
+        ],
+        "calendar": [],
+        "weather": [
+          "explicit: excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Grooming_Hygiene_Deshedding_008",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brush & Enzymatic Paste",
+      "rationale": "Calendar indicates fall shedding season; deshedding tools reduce loose hair in apartment living and help allergy season management.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "brush-enzymatic-paste; dog; adult; grooming-tools; deshedding; short-hair; rubber-glove; undercoat-rake; apartment-friendly; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"deshedding\" OR \"de-shedding\" OR \"undercoat rake\" OR \"grooming glove\") AND (\"short hair\" OR \"short-hair\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 25,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug",
+          "explicit: house_type: apartment"
+        ],
+        "calendar": [
+          "explicit: shedding_season_fall_2025",
+          "explicit: allergy_season_fall_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Grooming_Hygiene_Dental_Brushes_009",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brush & Enzymatic Paste",
+      "rationale": "Dental baseline for adults: toothbrush and enzymatic toothpaste sized for short-snouted medium dog to complement VOHC chews.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "brush-enzymatic-paste; dog; adult; finger-brush; small-head-toothbrush; enzymatic-toothpaste; vohc-friendly; daily-use; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"enzymatic toothpaste\" OR \"enzyme toothpaste\") AND (\"finger brush\" OR \"finger-brush\" OR \"small head toothbrush\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 25,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: age_months: 17",
+          "explicit: breed: Pug"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Health_Wellness_Calming_Aids_010",
+      "top_family": "Health & Wellness",
+      "family": "Calming Aids",
+      "rationale": "Calendar events (leaf blower season, hunting season, allergy season) increase noise/stress risk in apartment settings; calming aids recommended.",
+      "musts": [
+        "species:Dog",
+        "lifestage:adult",
+        "size:medium",
+        "breed:Pug"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "calming-aids; dog; adult; pheromone-diffuser; calming-chews; l-theanine; portable; apartment-friendly; noise-anxiety; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"pheromone\" OR \"calming chews\" OR \"L-theanine\") AND (\"noise\" OR \"anxiety\" OR \"calming\") NOT duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 25,
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "explicit: house_type: apartment",
+          "explicit: activity: high"
+        ],
+        "calendar": [
+          "explicit: leaf_blower_season_fall_2025",
+          "explicit: hunting_season_2025",
+          "explicit: allergy_season_fall_2025"
+        ],
+        "weather": []
+      }
+    }
+  ],
+  "safety": {
+    "enforce_allergens": true,
+    "species_lock": true
+  },
+  "fusion": {
+    "strategy": "rrf",
+    "k": 60
+  }
+}

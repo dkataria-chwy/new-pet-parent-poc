@@ -17,11 +17,12 @@ def _pet_to_profiles(pet: Dict[str, Any]) -> Dict[str, Any]:
         "breed": pet.get("breed"),
         "age_months": pet.get("ageMonths"),
         "weight_lb": pet.get("weightLbs"),
-        "sex_neuter": None,  # not tracked in current DB
+        "height_inches": pet.get("heightAtShoulderInches"),
+        "gender": pet.get("gender"),
         "chew_strength": pet.get("chewStrength"),
         "activity": pet.get("activityLevel"),
         "allergies": _split_csv(pet.get("allergies")),
-        "sensitivities": [],  # not tracked
+        "about": pet.get("about"),  # Rich behavioral description
         "house_type": pet.get("householdType"),
         "yard": pet.get("yardAccess"),
         "zip": pet.get("zipCode"),

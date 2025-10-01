@@ -49,7 +49,7 @@ def main():
     pipeline = EmbeddingsPipeline(
         artifacts_dir="./artifacts",
         batch_size=100,  # Efficient batch size for OpenAI API
-        max_text_length=2000  # Good balance of detail vs token usage
+        max_text_length=3000  # Good balance of detail vs token usage
     )
     
     # Run the complete pipeline

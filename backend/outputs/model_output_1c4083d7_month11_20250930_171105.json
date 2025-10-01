@@ -1,0 +1,456 @@
+{
+  "slots": [
+    {
+      "slot_id": "Food/Nutrition_Dry_Kibble_001",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "rationale": "Adult small-breed complete nutrition; small-bites shape for short muzzle; high activity needs nutrient density; avoids Duck in negatives.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; dry-kibble; small-bites; high-protein; probiotics; omega-3; joint-support-glucosamine; kibble-shape-brachycephalic; moderate-calorie; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"dry kibble\" OR \"dry-food\" OR \"dry-kibble\") AND (\"small-bites\" OR \"small bites\") AND (DHA OR probiotics OR glucosamine) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 16",
+          "explicit: chew_strength: strong",
+          "explicit: activity: high",
+          "explicit: allergies: [Duck]"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Food/Nutrition_Wet_Food_Toppings_002",
+      "top_family": "Food/Nutrition",
+      "family": "Wet Food Toppings",
+      "rationale": "Excessive heat alert increases need for hydration support and palatable toppers; single-serve wet toppers for adult small dog.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; wet-food-toppings; single-serve; hydration-support; pate-toppers; small-portion; easily-digestible; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"wet food\" OR \"wet-food\" OR \"toppers\") AND (\"single-serve\" OR \"single serve\") AND (hydration OR topper) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 24,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 16"
+        ],
+        "calendar": [],
+        "weather": [
+          "explicit: excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Treats_Training_Treats_003",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "rationale": "High-activity young adult benefits from small-bite, high-value training treats for exercise and training; avoid Duck ingredient.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; training-treats; small-bites; high-value; soft-texture; calorie-controlled; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"training treats\" OR \"training-treats\" OR \"training treat\") AND (\"small bites\" OR \"small-bites\") AND (soft OR high-value) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 28,
+      "evidence": {
+        "pet_profile": [
+          "explicit: activity: high",
+          "explicit: age_months: 16"
+        ],
+        "calendar": [
+          "inferred:seasonal_training: added for routine-adjustment and indoor enrichment during fall equinox"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Toys/Chews_Toys_Chews_004",
+      "top_family": "Toys/Chews",
+      "family": "Toys/Chews",
+      "rationale": "Very energetic, strong chewer needs durable interactive and fetch toys sized for a small-stature dog; avoid rawhide-like items.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed",
+        "chew_strength:strong"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; toys-chews; small-size; durable; natural-rubber; nylon-chew; heavy-duty; fetch-toy; interactive; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"durable toy\" OR \"heavy-duty\" OR \"nylon chew\" OR \"rubber chew\" OR \"fetch toy\") AND (small OR \"small-size\") NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: chew_strength: strong",
+          "explicit: activity: high",
+          "explicit: about: AJ is very energetic and very strong."
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Treats_VOHC_Dental_Chews_005",
+      "top_family": "Treats",
+      "family": "VOHC Dental Chews",
+      "rationale": "Daily dental support recommended for adult dogs; VOHC chews sized for small-breed; strong chewer requires appropriately tough dental chew.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; vohc-dental-chews; small-size; tartar-control; breath-freshening; long-lasting; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"VOHC\" OR \"dental chews\" OR \"dental chew\") AND (\"small\" OR \"small-size\") AND (tartar OR breath) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 24,
+      "evidence": {
+        "pet_profile": [
+          "explicit: age_months: 16",
+          "explicit: chew_strength: strong"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Grooming/Hygiene_Brush_Enzymatic_Paste_006",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brush & Enzymatic Paste",
+      "rationale": "Adult dental care baseline: enzymatic toothpaste and small toothbrush/finger-brush sized for brachycephalic short-muzzle.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; brush-enzymatic-paste; small-toothbrush; finger-brush; enzymatic-toothpaste; daily-dental; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"enzymatic toothpaste\" OR \"toothpaste\" OR \"finger brush\" OR \"tooth brush\") AND (small OR \"small toothbrush\") NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 20,
+      "evidence": {
+        "pet_profile": [
+          "explicit: age_months: 16"
+        ],
+        "calendar": [
+          "inferred:dental_baseline: adult baseline dental care recommended"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Grooming/Hygiene_Grooming_Tools_007",
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Tools",
+      "rationale": "Fall shedding season active; pug short coat but seasonal shedding benefits from deshedding tools and rubber curry brushes sized for small dogs.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; grooming-tools; deshedding-tool; rubber-curry; short-coat; small-size; fur-control; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (deshedding OR \"deshedding tool\" OR \"slicker brush\" OR \"rubber curry\") AND (short OR \"short coat\" OR small) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 22,
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug"
+        ],
+        "calendar": [
+          "explicit: shedding_season_fall_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Grooming/Hygiene_Shampoos_008",
+      "top_family": "Grooming/Hygiene",
+      "family": "Shampoos & Conditioners",
+      "rationale": "Allergy season active; gentle, hypoallergenic or oatmeal shampoos for skin comfort after outdoor play; small-dog sizing.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; shampoos-conditioners; hypoallergenic; oatmeal; sensitive-skin; small-dog; rinse-easy; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (hypoallergenic OR oatmeal OR \"sensitive skin\" OR shampoo) AND (small OR \"small dog\") NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 20,
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug"
+        ],
+        "calendar": [
+          "explicit: allergy_season_fall_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Health & Wellness_Calming_Aids_009",
+      "top_family": "Health & Wellness",
+      "family": "Calming Aids",
+      "rationale": "Multiple seasonal events (leaf blower, hunting) flagged as stress-inducing; provide calming options sized for adult small dogs.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; calming-aids; small-dog-dosage; pheromone-diffuser; chewable-calming; L-theanine; travel-calming; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (calming OR \"calming aid\" OR pheromone OR \"L-theanine\" OR \"chewable calming\") AND (small OR \"small dog\") NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 20,
+      "evidence": {
+        "pet_profile": [
+          "explicit: age_months: 16"
+        ],
+        "calendar": [
+          "explicit: leaf_blower_season_2025",
+          "explicit: hunting_season_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Apparel_Outdoor_Apparel_010",
+      "top_family": "Apparel",
+      "family": "Outdoor Apparel",
+      "rationale": "Excessive heat alert and brachycephalic breed -> cooling vest sized for small-breed to reduce heat stress during outdoor play.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; outdoor-apparel; cooling-vest; small-breed-size; breathable-mesh; reflective-strips; quick-dry; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"cooling vest\" OR \"cooling-vest\" OR \"cooling apparel\") AND (small OR \"small-breed\") AND (breathable OR mesh) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 20,
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug",
+          "explicit: age_months: 16"
+        ],
+        "calendar": [],
+        "weather": [
+          "explicit: excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Gear/Travel_Beds_011",
+      "top_family": "Gear/Travel",
+      "family": "Beds",
+      "rationale": "Cooling mat/bed option for apartment use during heat; small-size washable mat for a small adult dog.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; beds; cooling-mat; washable; non-slip; small-size; low-profile; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"cooling mat\" OR \"cooling-mat\" OR \"cooling bed\") AND (small OR \"small-size\" OR low-profile) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 20,
+      "evidence": {
+        "pet_profile": [
+          "explicit: house_type: apartment"
+        ],
+        "calendar": [],
+        "weather": [
+          "explicit: excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Leashes/Collars_Harness_Leash_012",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "rationale": "Short-muzzled breed benefits from harness over neck collars; high-activity, strong dog needs no-pull, durable small-breed harness with reflective safety for hunting season.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed",
+        "chew_strength:strong"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; harness-leash; no-pull-harness; small-breed-fit; padded-chest; reflective; durable-webbing; quick-release; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (\"no-pull harness\" OR \"harness\" OR \"no pull\") AND (small OR \"small-breed\") AND (reflective OR padded) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 26,
+      "evidence": {
+        "pet_profile": [
+          "explicit: breed: Pug",
+          "explicit: chew_strength: strong",
+          "explicit: activity: high"
+        ],
+        "calendar": [
+          "explicit: hunting_season_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Health & Wellness_Supplements_013",
+      "top_family": "Health & Wellness",
+      "family": "Supplements",
+      "rationale": "Support for skin/coat and digestive health during allergy season; small-dog dosing and probiotic or skin-support supplements considered.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; supplements; probiotic; skin-support; omega-3; small-dog-dosage; joint-maintenance-low-dose; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (probiotic OR \"skin support\" OR omega-3 OR supplement) AND (small OR \"small dog\") NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 20,
+      "evidence": {
+        "pet_profile": [
+          "explicit: allergies: [Duck]"
+        ],
+        "calendar": [
+          "explicit: allergy_season_fall_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Toys/Chews_Puzzle_Toys_014",
+      "top_family": "Toys/Chews",
+      "family": "Toys/Chews",
+      "rationale": "Indoor enrichment for high-energy dog during schedule shifts and fall equinox; small-size interactive puzzle feeders and treat-dispensing toys.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; toys-chews; puzzle-toy; treat-dispensing; interactive; small-size; durable; slow-reward; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (puzzle OR \"puzzle toy\" OR \"treat dispensing\" OR \"treat-dispensing\") AND (small OR \"small size\") NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 24,
+      "evidence": {
+        "pet_profile": [
+          "explicit: activity: high"
+        ],
+        "calendar": [
+          "explicit: fall_equinox_2025",
+          "explicit: school_bell_schedule_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Cleaning_Sprays_Foams_Wipes_015",
+      "top_family": "Cleaning",
+      "family": "Sprays/Foams/Wipes",
+      "rationale": "Apartment living benefits from enzymatic cleaners and odor removers for indoor accidents or soil tracked in from yard play.",
+      "musts": [
+        "species:dog",
+        "lifestage:adult",
+        "size:small-breed"
+      ],
+      "negatives": [
+        "Duck"
+      ],
+      "embedding_query": "dog; adult; sprays-foams-wipes; enzymatic-cleaner; odor-remover; stain-remover; quick-action; small-pack; mars",
+      "bm25_query": "\"dog\" AND \"adult\" AND (enzymatic OR \"stain remover\" OR \"odor remover\") AND (spray OR wipe) NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 20,
+      "evidence": {
+        "pet_profile": [
+          "explicit: house_type: apartment",
+          "explicit: yard: large_yard"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    }
+  ],
+  "safety": {
+    "enforce_allergens": true,
+    "species_lock": true
+  },
+  "fusion": {
+    "strategy": "rrf",
+    "k": 60
+  }
+}

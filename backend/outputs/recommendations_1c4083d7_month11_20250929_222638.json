@@ -1,0 +1,2907 @@
+{
+  "pet_id": "1c4083d7",
+  "month": 11,
+  "timestamp": "2025-09-29T22:26:38.087147",
+  "processed_slots": 10,
+  "total_unique_products": 281,
+  "results": [
+    {
+      "slot_id": "Food/Nutrition_001",
+      "top_family": "Food/Nutrition",
+      "rationale": "16-month-old pug (adult) with high activity and strong chewing; needs small-bite adult kibble portioned for a compact/muscled small-medium dog; avoid Duck protein due to allergy; user brand bias acana.",
+      "count": 27,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "259580",
+          "name": "ACANA Red Meat & Grains Beef Pork & Lamb Wholesome Grains Dry Dog Food, 22.5-lb bag",
+          "similarity": 0.6968
+        },
+        {
+          "rank": 2,
+          "sku": "259579",
+          "name": "ACANA Red Meat & Grains Beef Pork & Lamb Wholesome Grains Dry Dog Food, 4-lb bag",
+          "similarity": 0.6962
+        },
+        {
+          "rank": 3,
+          "sku": "267893",
+          "name": "ACANA Wholesome Grains Small Breed Real Chicken Eggs & Turkey Dry Dog Food, 4-lb bag",
+          "similarity": 0.6824
+        },
+        {
+          "rank": 4,
+          "sku": "267894",
+          "name": "ACANA Wholesome Grains Small Breed Real Chicken Eggs & Turkey Dry Dog Food, 11.5-lb bag",
+          "similarity": 0.6813
+        },
+        {
+          "rank": 5,
+          "sku": "93458",
+          "name": "ACANA Red Meat Grain-Free Dry Dog Food, 4.5-lb bag",
+          "similarity": 0.6731
+        },
+        {
+          "rank": 6,
+          "sku": "1992526",
+          "name": "ACANA Red Meat Grain-Free Dry Dog Food, 32-lb bag",
+          "similarity": 0.6711
+        },
+        {
+          "rank": 7,
+          "sku": "93459",
+          "name": "ACANA Red Meat Grain-Free Dry Dog Food, 13-lb bag",
+          "similarity": 0.6703
+        },
+        {
+          "rank": 8,
+          "sku": "93460",
+          "name": "ACANA Red Meat Grain-Free Dry Dog Food, 25-lb bag",
+          "similarity": 0.6696
+        },
+        {
+          "rank": 9,
+          "sku": "979758",
+          "name": "ACANA Premium Beef & Lamb Chunks in Bone Broth Variety Pack Grain-Free Wet Dog Food, 12.8-oz can, case of 6",
+          "similarity": 0.6682
+        },
+        {
+          "rank": 10,
+          "sku": "822694",
+          "name": "ACANA Wholesome Large Breed Adult Grains Dry Dog Food, 22.5-lb bag",
+          "similarity": 0.6666
+        },
+        {
+          "rank": 11,
+          "sku": "741286",
+          "name": "ACANA Premium Chunks Lamb in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12",
+          "similarity": 0.662
+        },
+        {
+          "rank": 12,
+          "sku": "267891",
+          "name": "ACANA Wholesome Grains Puppy Real Chicken Eggs &Turkey Dry Dog Food, 11.5-lb bag",
+          "similarity": 0.6583
+        },
+        {
+          "rank": 13,
+          "sku": "822678",
+          "name": "ACANA Wholesome Grains Puppy Real Chicken Eggs &Turkey Dry Dog Food, 22.5-lb bag",
+          "similarity": 0.6582
+        },
+        {
+          "rank": 14,
+          "sku": "267890",
+          "name": "ACANA Wholesome Grains Puppy Real Chicken Eggs &Turkey Dry Dog Food, 4-lb bag",
+          "similarity": 0.6581
+        },
+        {
+          "rank": 17,
+          "sku": "259564",
+          "name": "ACANA Puppy Grain-Free Dry Dog Food, 4.5-lb bag",
+          "similarity": 0.6537
+        },
+        {
+          "rank": 18,
+          "sku": "741254",
+          "name": "ACANA Premium Chunks Beef in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12",
+          "similarity": 0.6535
+        },
+        {
+          "rank": 19,
+          "sku": "259565",
+          "name": "ACANA Puppy Grain-Free Dry Dog Food, 13-lb bag",
+          "similarity": 0.6532
+        },
+        {
+          "rank": 20,
+          "sku": "259566",
+          "name": "ACANA Puppy Grain-Free Dry Dog Food, 25-lb bag",
+          "similarity": 0.6519
+        },
+        {
+          "rank": 21,
+          "sku": "259529",
+          "name": "ACANA Singles Limited Ingredient Lamb & Apple Grain-Free High-Protein Dry Dog Food, 4.5-lb bag",
+          "similarity": 0.6508
+        },
+        {
+          "rank": 22,
+          "sku": "259531",
+          "name": "ACANA Singles Limited Ingredient Lamb & Apple Grain-Free High-Protein Dry Dog Food, 22.5-lb bag",
+          "similarity": 0.6504
+        },
+        {
+          "rank": 23,
+          "sku": "259530",
+          "name": "ACANA Singles Limited Ingredient Lamb & Apple Grain-Free High-Protein Dry Dog Food, 13-lb bag",
+          "similarity": 0.6495
+        },
+        {
+          "rank": 24,
+          "sku": "259576",
+          "name": "ACANA Limited Ingredient Lamb & Pumpkin Wholesome Grains Dry Dog Food, 4-lb bag",
+          "similarity": 0.6486
+        },
+        {
+          "rank": 25,
+          "sku": "259577",
+          "name": "ACANA Limited Ingredient Lamb & Pumpkin Wholesome Grains Dry Dog Food, 22.5-lb bag",
+          "similarity": 0.648
+        },
+        {
+          "rank": 26,
+          "sku": "259526",
+          "name": "ACANA Singles Limited Ingredient Beef & Pumpkin Grain-Free High-Protein Dry Dog Food, 13-lb bag",
+          "similarity": 0.6475
+        },
+        {
+          "rank": 27,
+          "sku": "259525",
+          "name": "ACANA Singles Limited Ingredient Beef & Pumpkin Grain-Free High-Protein Dry Dog Food, 4.5-lb bag",
+          "similarity": 0.6475
+        },
+        {
+          "rank": 28,
+          "sku": "259527",
+          "name": "ACANA Singles Limited Ingredient Beef & Pumpkin Grain-Free High-Protein Dry Dog Food, 22.5-lb bag",
+          "similarity": 0.6472
+        },
+        {
+          "rank": 29,
+          "sku": "741302",
+          "name": "ACANA Premium Chunks Pork in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12",
+          "similarity": 0.642
+        }
+      ]
+    },
+    {
+      "slot_id": "Treats_001",
+      "top_family": "Treats",
+      "rationale": "High-activity adult dog in training/routine; small soft, low-calorie high-value treats suitable for repeated reward; exclude Duck and rawhide for allergy and safety.",
+      "count": 19,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "260878",
+          "name": "ACANA Singles Beef & Pumpkin Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 1.25-oz bag",
+          "similarity": 0.6892
+        },
+        {
+          "rank": 2,
+          "sku": "260879",
+          "name": "ACANA Singles Beef & Pumpkin Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 3.25-oz bag",
+          "similarity": 0.6872
+        },
+        {
+          "rank": 3,
+          "sku": "99267",
+          "name": "ACANA Singles Lamb & Apple Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 1.25-oz bag",
+          "similarity": 0.6821
+        },
+        {
+          "rank": 4,
+          "sku": "99268",
+          "name": "ACANA Singles Lamb & Apple Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 3.25-oz bag",
+          "similarity": 0.6808
+        },
+        {
+          "rank": 7,
+          "sku": "841446",
+          "name": "ACANA Chewy Beef with Hip & Joint Support Strips Dog Treats, 4-oz bag",
+          "similarity": 0.6467
+        },
+        {
+          "rank": 8,
+          "sku": "841462",
+          "name": "ACANA Chewy Salmon with Skin, Coat, & Digestive Support Strips Dog Treats, 4-oz bag",
+          "similarity": 0.6464
+        },
+        {
+          "rank": 9,
+          "sku": "841430",
+          "name": "ACANA Chewy Chicken with Immune System Support Strips Dog Treats, 4-oz bag",
+          "similarity": 0.6233
+        },
+        {
+          "rank": 10,
+          "sku": "1478950",
+          "name": "Healthybud Chicken Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag",
+          "similarity": 0.6191
+        },
+        {
+          "rank": 11,
+          "sku": "1322398",
+          "name": "Bocce's Bakery Puppy Bac'n Nutty Training Bites Peanut Butter Limited-Ingredient-Diet Soft & Chewy Dog Treats, 3-oz bag",
+          "similarity": 0.616
+        },
+        {
+          "rank": 13,
+          "sku": "992678",
+          "name": "Healthybud Beef Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag",
+          "similarity": 0.6077
+        },
+        {
+          "rank": 14,
+          "sku": "1478966",
+          "name": "Healthybud Salmon Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag",
+          "similarity": 0.6066
+        },
+        {
+          "rank": 19,
+          "sku": "741222",
+          "name": "ACANA Ranch-Raised Beef Morsels Grain-Free High-Protein Freeze-Dried Dog Food & Topper, 8-oz bag",
+          "similarity": 0.6009
+        },
+        {
+          "rank": 24,
+          "sku": "1108014",
+          "name": "Raw Paws Peanut Butter Chicken-Free Adult Soft & Chewy Training Dog Treats, 6-oz bag",
+          "similarity": 0.5963
+        },
+        {
+          "rank": 25,
+          "sku": "741158",
+          "name": "ACANA Free-Run Chicken Morsels Grain-Free High-Protein Freeze-Dried Dog Food & Topper, 8-oz bag",
+          "similarity": 0.5956
+        },
+        {
+          "rank": 26,
+          "sku": "986646",
+          "name": "PureBites Mini Trainers Salmon Raw Freeze-Dried Dog Treats, 1.7-oz bag",
+          "similarity": 0.5945
+        },
+        {
+          "rank": 27,
+          "sku": "612822",
+          "name": "Zesty Paws All-in-One Bacon Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 8-oz bag",
+          "similarity": 0.5927
+        },
+        {
+          "rank": 28,
+          "sku": "749526",
+          "name": "Zesty Paws All-in-One Bacon Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 12-oz bag",
+          "similarity": 0.5915
+        },
+        {
+          "rank": 29,
+          "sku": "1670782",
+          "name": "Inaba Churu Fun Bites Chicken with Pumpkin Grain-Free Soft & Chewy Dog Treats, 0.42-oz, pack of 8",
+          "similarity": 0.5915
+        },
+        {
+          "rank": 30,
+          "sku": "259529",
+          "name": "ACANA Singles Limited Ingredient Lamb & Apple Grain-Free High-Protein Dry Dog Food, 4.5-lb bag",
+          "similarity": 0.5905
+        }
+      ]
+    },
+    {
+      "slot_id": "Toys/Chews_001",
+      "top_family": "Toys/Chews",
+      "rationale": "AJ is a very energetic, strong-chewing adult dog; needs durable small-medium chew toys (rubber/nylon) and fetch-safe items sized for compact build; exclude rawhide and Duck (allergy not product ingredient).",
+      "count": 29,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1280950",
+          "name": "BARK Acornucopia Treat Dispensing Tough Dog Chew Toy, Brown",
+          "similarity": 0.6004
+        },
+        {
+          "rank": 2,
+          "sku": "1682886",
+          "name": "allforpaws Xtra-R-Xtra-R Octo Dog Chew Toy, Green",
+          "similarity": 0.5961
+        },
+        {
+          "rank": 3,
+          "sku": "1427742",
+          "name": "Chew King by Mammoth Dog Fetch Ball Extremely Durable Natural Rubber Tough Dog Chew Toy, Blue, 3-in",
+          "similarity": 0.5957
+        },
+        {
+          "rank": 4,
+          "sku": "1180982",
+          "name": "BARK Chew-Dogh Super Chewer Tough Squeaky Treat Dispensing Dog Toy, Medium/Large",
+          "similarity": 0.5955
+        },
+        {
+          "rank": 5,
+          "sku": "1427838",
+          "name": "Chew King by Mammoth Dog Fetch Ball Extremely Durable Natural Rubber Tough Dog Chew Toy, Blue, 4-in",
+          "similarity": 0.594
+        },
+        {
+          "rank": 6,
+          "sku": "90303",
+          "name": "Ethical Pet Play Strong Rubber Bone Tough Dog Chew Toy, 5.5-in",
+          "similarity": 0.5897
+        },
+        {
+          "rank": 7,
+          "sku": "90302",
+          "name": "Ethical Pet Play Strong Rubber Bone Tough Dog Chew Toy, 4.5-in",
+          "similarity": 0.5885
+        },
+        {
+          "rank": 8,
+          "sku": "1180974",
+          "name": "BARK Chew-Dogh Super Chewer Tough Squeaky Treat Dispensing Dog Toy, Small",
+          "similarity": 0.5881
+        },
+        {
+          "rank": 9,
+          "sku": "1206726",
+          "name": "Nylabone Strong Rubber Allergen-Free Peanut Butter Flavor Tough Dog Treat Toy, Brown, Medium/Wolf",
+          "similarity": 0.5864
+        },
+        {
+          "rank": 10,
+          "sku": "1376622",
+          "name": "Frisco Fetch Rubber Bone with Rope Dog Toy, Medium/Large",
+          "similarity": 0.5789
+        },
+        {
+          "rank": 11,
+          "sku": "856150",
+          "name": "Earth Rated Rubber Fetch Chew Dog Toy, Small",
+          "similarity": 0.5766
+        },
+        {
+          "rank": 13,
+          "sku": "1427614",
+          "name": "Chew King by Mammoth Premium Bacon Flavored Extremely Durable Natural Rubber Tough Treat Dog Chew Toy, Orange, Medium",
+          "similarity": 0.5753
+        },
+        {
+          "rank": 14,
+          "sku": "90299",
+          "name": "Ethical Pet Play Strong Rubber Ball Tough Dog Chew Toy, 3.25-in",
+          "similarity": 0.5746
+        },
+        {
+          "rank": 15,
+          "sku": "1894182",
+          "name": "Benebone Rubber Bone Dog Chew Toy, Green, Medium",
+          "similarity": 0.5742
+        },
+        {
+          "rank": 16,
+          "sku": "1750406",
+          "name": "Yomp FetchFlyer MAX Tough Dog Chew Toy, Purple, Beef Flavor",
+          "similarity": 0.5742
+        },
+        {
+          "rank": 17,
+          "sku": "90306",
+          "name": "Ethical Pet Play Strong Rubber S-shaped Tough Dog Chew Toy, 12-in",
+          "similarity": 0.5736
+        },
+        {
+          "rank": 18,
+          "sku": "90300",
+          "name": "Ethical Pet Play Strong Rubber Ball Tough Dog Chew Toy, 3.75-in",
+          "similarity": 0.5731
+        },
+        {
+          "rank": 19,
+          "sku": "90316",
+          "name": "Ethical Pet Play Strong Ball & Rope Tough Dog Chew Toy, 3.75-in",
+          "similarity": 0.5731
+        },
+        {
+          "rank": 20,
+          "sku": "1427806",
+          "name": "Chew King by Mammoth Fetch Ball Tough Dog Chew Toy, Blue",
+          "similarity": 0.5722
+        },
+        {
+          "rank": 21,
+          "sku": "1427854",
+          "name": "Chew King by Mammoth Supreme Fetch Ball Extremely Durable Natural Rubber Dog Chew Toy, Yellow, 2.5-in",
+          "similarity": 0.5718
+        },
+        {
+          "rank": 22,
+          "sku": "145546",
+          "name": "Ruff Dawg, Dawg Nut Tough Dog Chew Toy, Color Varies, X-Large",
+          "similarity": 0.5716
+        },
+        {
+          "rank": 23,
+          "sku": "1863414",
+          "name": "Zanies Toughstructables Boomerang Toss Dog Chew Toy",
+          "similarity": 0.5716
+        },
+        {
+          "rank": 24,
+          "sku": "195443",
+          "name": "Nylabone Power Play Rubber Fetch-a-Bounce Dog Toy, Small",
+          "similarity": 0.5702
+        },
+        {
+          "rank": 25,
+          "sku": "90308",
+          "name": "Ethical Pet Play Strong Rubber Trident Tough Dog Chew Toy, 6-in",
+          "similarity": 0.5699
+        },
+        {
+          "rank": 26,
+          "sku": "1427870",
+          "name": "Chew King by Mammoth Premium Collection Extremely Durable Natural Rubber Fillable Tough Treat Dog Chew Toy, Blue, Medium",
+          "similarity": 0.5693
+        },
+        {
+          "rank": 27,
+          "sku": "1729326",
+          "name": "BARK Fozziwig Factory Prop Chicken Tough Dog Chew Toy, Medium",
+          "similarity": 0.5682
+        },
+        {
+          "rank": 28,
+          "sku": "1376638",
+          "name": "Frisco Fetch Tough Textured Rubber Ball Dog Toy, Medium",
+          "similarity": 0.5681
+        },
+        {
+          "rank": 29,
+          "sku": "1427622",
+          "name": "Chew King by Mammoth Premium Bacon Flavored Extremely Durable Natural Rubber Tough Treat Dog Chew Toy, Orange, Large",
+          "similarity": 0.568
+        },
+        {
+          "rank": 30,
+          "sku": "1427630",
+          "name": "Chew King by Mammoth Premium Bacon Flavored Extremely Durable Natural Rubber Tough Treat Dog Chew Toy, Orange, X-Large",
+          "similarity": 0.5677
+        }
+      ]
+    },
+    {
+      "slot_id": "Toys/Chews_002",
+      "top_family": "Toys/Chews",
+      "rationale": "Apartment-living but high activity: puzzle and treat-dispensing toys give mental enrichment and reduce boredom when owner schedule changes (school-year/fall transitions); size small-medium for pug.",
+      "count": 30,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1542374",
+          "name": "allforpaws Interactives Dog Sokudo Treat Dispensing Dog Puzzle Toy, Green",
+          "similarity": 0.5983
+        },
+        {
+          "rank": 2,
+          "sku": "2084174",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, All Breed Sizes",
+          "similarity": 0.5981
+        },
+        {
+          "rank": 3,
+          "sku": "2084166",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Blue, All Breed Sizes",
+          "similarity": 0.5974
+        },
+        {
+          "rank": 4,
+          "sku": "2149718",
+          "name": "KADTC Adventurer 5 In 1 Puzzle Dog Toy, Green",
+          "similarity": 0.5967
+        },
+        {
+          "rank": 5,
+          "sku": "2084142",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, Medium",
+          "similarity": 0.5954
+        },
+        {
+          "rank": 6,
+          "sku": "2149798",
+          "name": "KADTC Diner 2 In 1 Puzzle Dog Toy, Yellow",
+          "similarity": 0.5936
+        },
+        {
+          "rank": 7,
+          "sku": "1542438",
+          "name": "allforpaws Interactives Dog Sokudo Starter Treat Dispensing Dog Puzzle Toy, Green",
+          "similarity": 0.5927
+        },
+        {
+          "rank": 8,
+          "sku": "2084158",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Pink, All Breed Sizes",
+          "similarity": 0.5925
+        },
+        {
+          "rank": 9,
+          "sku": "1000069619",
+          "name": "Frisco 3-in-1 Interactive Puzzle Dog Toy, Advanced",
+          "similarity": 0.5889
+        },
+        {
+          "rank": 10,
+          "sku": "1542358",
+          "name": "allforpaws Interactives Fetch N Treat Dog Puzzle Toy, White",
+          "similarity": 0.5888
+        },
+        {
+          "rank": 11,
+          "sku": "2028862",
+          "name": "PawsPik Interactive Treat Dispensing Puzzle Dog Toy, Light Blue",
+          "similarity": 0.5868
+        },
+        {
+          "rank": 12,
+          "sku": "2277734",
+          "name": "Potaroma Dog Puzzle Feeder Toy, Interactive IQ Training, Electronic Treat Dispenser, Automatic Rechargeable with Remote for Food Dispensing, All Breeds, 280ml Capacity, Multi-colors",
+          "similarity": 0.5864
+        },
+        {
+          "rank": 13,
+          "sku": "2149774",
+          "name": "KADTC Bistro 2 In 1 Puzzle Dog Toy, Green",
+          "similarity": 0.5863
+        },
+        {
+          "rank": 14,
+          "sku": "2149974",
+          "name": "KADTC Paw Beginner Puzzle Dog Toy, Pink",
+          "similarity": 0.5829
+        },
+        {
+          "rank": 15,
+          "sku": "2149782",
+          "name": "KADTC Bistro 2 In 1 Puzzle Dog Toy, Blue",
+          "similarity": 0.5793
+        },
+        {
+          "rank": 16,
+          "sku": "1280598",
+          "name": "KADTC Granary Puzzle Dog Feeder Toy, Blue/Orange",
+          "similarity": 0.5789
+        },
+        {
+          "rank": 17,
+          "sku": "1211550",
+          "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Auburn",
+          "similarity": 0.5776
+        },
+        {
+          "rank": 18,
+          "sku": "2149862",
+          "name": "KADTC Agic Cube 2 In 1 Puzzle Dog Toy, Green",
+          "similarity": 0.5741
+        },
+        {
+          "rank": 19,
+          "sku": "66288",
+          "name": "Omega Paw Tricky Treat Ball Dog Toy, Medium",
+          "similarity": 0.5724
+        },
+        {
+          "rank": 20,
+          "sku": "1000059791",
+          "name": "Nina Ottosson by Outward Hound Smart Orange Interactive Treat Puzzle Dog Toy",
+          "similarity": 0.5721
+        },
+        {
+          "rank": 21,
+          "sku": "1213646",
+          "name": "Pets First Treat Dispensing Dog Puzzle Toy, Auburn",
+          "similarity": 0.571
+        },
+        {
+          "rank": 22,
+          "sku": "1211694",
+          "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Indianapolis",
+          "similarity": 0.5709
+        },
+        {
+          "rank": 23,
+          "sku": "1214182",
+          "name": "Pets First Treat Dispensing Dog Puzzle Toy, Virginia",
+          "similarity": 0.5705
+        },
+        {
+          "rank": 24,
+          "sku": "1211686",
+          "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Indiana",
+          "similarity": 0.5699
+        },
+        {
+          "rank": 25,
+          "sku": "2149830",
+          "name": "KADTC Puzzle Bowl Puzzle Dog Toy, Blue",
+          "similarity": 0.5692
+        },
+        {
+          "rank": 26,
+          "sku": "1212118",
+          "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Wisconsin",
+          "similarity": 0.5691
+        },
+        {
+          "rank": 27,
+          "sku": "1211654",
+          "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Georgia",
+          "similarity": 0.5689
+        },
+        {
+          "rank": 28,
+          "sku": "173296",
+          "name": "Arf Pets Memory & Training Activity Dog Treat Dispenser",
+          "similarity": 0.568
+        },
+        {
+          "rank": 29,
+          "sku": "1774750",
+          "name": "Brightkins Kanoodle Puzzle Dog Toy, Small",
+          "similarity": 0.5675
+        },
+        {
+          "rank": 30,
+          "sku": "1211990",
+          "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, South Carolina",
+          "similarity": 0.5672
+        }
+      ]
+    },
+    {
+      "slot_id": "Health & Wellness_001",
+      "top_family": "Health & Wellness",
+      "rationale": "Strong chewer with adult dentition benefits from VOHC dental chews plus brushing aids to control tartar and breath; choose size-appropriate dental chews and brushes; avoid rawhide and Duck ingredients.",
+      "count": 27,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "48740",
+          "name": "Royal Canin Veterinary Diet Adult Dental Medium & Large Breed Dry Dog Food, 7.7-lb bag",
+          "similarity": 0.6225
+        },
+        {
+          "rank": 2,
+          "sku": "73707",
+          "name": "Royal Canin Veterinary Diet Adult Dental Medium & Large Breed Dry Dog Food, 17.6-lb bag",
+          "similarity": 0.6217
+        },
+        {
+          "rank": 3,
+          "sku": "48815",
+          "name": "Royal Canin Veterinary Diet Adult Dental Small Breed Dry Dog Food, 8.8-lb bag",
+          "similarity": 0.6161
+        },
+        {
+          "rank": 4,
+          "sku": "754206",
+          "name": "Ark Naturals Protection+ Brushless Toothpaste Medium Dental Dog Treats, 60 count",
+          "similarity": 0.6135
+        },
+        {
+          "rank": 5,
+          "sku": "754190",
+          "name": "Ark Naturals Protection+ Brushless Toothpaste Small Dental Dog Treats, 60 count",
+          "similarity": 0.6057
+        },
+        {
+          "rank": 6,
+          "sku": "277496",
+          "name": "Ark Naturals Brushless Toothpaste Protection+ Medium Dental Dog Treats, 18-oz bag, count varies",
+          "similarity": 0.6057
+        },
+        {
+          "rank": 8,
+          "sku": "1000101077",
+          "name": "Royal Canin Canine Care Nutrition Small Dental Care Dry Dog Food, 1.36-kg bag",
+          "similarity": 0.6025
+        },
+        {
+          "rank": 9,
+          "sku": "1000027998",
+          "name": "Royal Canin Canine Care Nutrition Small Dental Care Dry Dog Food, 7.72-kg bag",
+          "similarity": 0.5989
+        },
+        {
+          "rank": 10,
+          "sku": "277495",
+          "name": "Ark Naturals Brushless Toothpaste Protection+ Small Dental Dog Treats, 12-oz bag, count varies",
+          "similarity": 0.5989
+        },
+        {
+          "rank": 11,
+          "sku": "812654",
+          "name": "Ark Naturals Fortify Brushless Toothpaste Small Dental Dog Treats, 12-oz bag",
+          "similarity": 0.5983
+        },
+        {
+          "rank": 12,
+          "sku": "1267158",
+          "name": "Ultimate Pet Nutrition Canine Fresh All-Natural Grain-Free Pork Adult Dental Dog Chews, Small, 30 count",
+          "similarity": 0.5963
+        },
+        {
+          "rank": 14,
+          "sku": "1000028014",
+          "name": "Royal Canin Canine Care Nutrition Medium Dental Care Dry Dog Food, 12.712-kg bag",
+          "similarity": 0.5955
+        },
+        {
+          "rank": 15,
+          "sku": "60770",
+          "name": "Ark Naturals Brushless Toothpaste Medium Dental Dog Treats, 18-oz bag",
+          "similarity": 0.5951
+        },
+        {
+          "rank": 16,
+          "sku": "192002",
+          "name": "Royal Canin Canine Care Nutrition Medium Dental Care Dry Dog Food, 28-lb bag",
+          "similarity": 0.595
+        },
+        {
+          "rank": 18,
+          "sku": "277497",
+          "name": "Ark Naturals Protection+ Brushless Toothpaste Large Dental Dog Treats, 18-oz bag, count varies",
+          "similarity": 0.593
+        },
+        {
+          "rank": 19,
+          "sku": "191999",
+          "name": "Royal Canin Canine Care Nutrition Small Dental Care Dry Dog Food, 17-lb bag",
+          "similarity": 0.5918
+        },
+        {
+          "rank": 20,
+          "sku": "156940",
+          "name": "Ark Naturals Brushless Toothpaste Medium Dental Dog Treats, 54-oz box",
+          "similarity": 0.5917
+        },
+        {
+          "rank": 21,
+          "sku": "1399614",
+          "name": "American Kennel Club Treats AKC 10 Piece Dentacare Filled Bone Dental Dog Chew Treats, 15.8-oz bag",
+          "similarity": 0.5914
+        },
+        {
+          "rank": 22,
+          "sku": "812622",
+          "name": "Ark Naturals Soft Brushless Toothpaste Small Dental Dog Treats, 12-oz bag",
+          "similarity": 0.5902
+        },
+        {
+          "rank": 23,
+          "sku": "1492686",
+          "name": "Paw Ready BrushMate Toothbrush, Medium Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Medium & Large Dogs, 70-gram bottle",
+          "similarity": 0.5901
+        },
+        {
+          "rank": 24,
+          "sku": "1381974",
+          "name": "Ark Naturals Brushless Toothpaste Small Dental Dog Treat, 0.54-oz",
+          "similarity": 0.5891
+        },
+        {
+          "rank": 25,
+          "sku": "1492670",
+          "name": "Paw Ready BrushMate Toothbrush, Small Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Small Dogs & Cats, 70-gram bottle",
+          "similarity": 0.5891
+        },
+        {
+          "rank": 26,
+          "sku": "754222",
+          "name": "Ark Naturals Protection+ Brushless Toothpaste Large Dental Dog Treats, 40 count",
+          "similarity": 0.589
+        },
+        {
+          "rank": 27,
+          "sku": "641638",
+          "name": "Ark Naturals Soft Shield Protection+ Brushless Toothpaste Small Dental Dog Treats, 12-oz bag",
+          "similarity": 0.5871
+        },
+        {
+          "rank": 28,
+          "sku": "277494",
+          "name": "Ark Naturals Brushless Toothpaste Protection+ Mini Dental Dog Treats, 4-oz bag, count varies",
+          "similarity": 0.5861
+        },
+        {
+          "rank": 29,
+          "sku": "60769",
+          "name": "Ark Naturals Brushless Toothpaste Small Dental Dog Treats, 12-oz bag, count varies",
+          "similarity": 0.5856
+        },
+        {
+          "rank": 30,
+          "sku": "535534",
+          "name": "ProDen Plaqueoff System Holistic Oral Care Support Adult Dental Dog Treats, 6-oz bag, count varies",
+          "similarity": 0.5855
+        }
+      ]
+    },
+    {
+      "slot_id": "Grooming/Hygiene_001",
+      "top_family": "Grooming/Hygiene",
+      "rationale": "Pug breed has short coat and current calendar shows fall shedding season; deshedding tools, grooming gloves, and vacuum attachments reduce hair in apartment and help allergy season management.",
+      "count": 30,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "613454",
+          "name": "SunGrow Undercoat Deshedding Brush for Short Haired Dog & Cat Shedding Control & Grooming Tool",
+          "similarity": 0.6081
+        },
+        {
+          "rank": 2,
+          "sku": "2318486",
+          "name": "aumuca Dog & Cat Deshedding & Dematting Undercoat Rake, White",
+          "similarity": 0.5986
+        },
+        {
+          "rank": 3,
+          "sku": "243245",
+          "name": "FURminator Short Hair Dog Deshedding Tool, Green, Small",
+          "similarity": 0.5887
+        },
+        {
+          "rank": 4,
+          "sku": "725486",
+          "name": "Andis Deshedding Dog Tool",
+          "similarity": 0.5884
+        },
+        {
+          "rank": 5,
+          "sku": "1000025742",
+          "name": "FURminator Short Hair deShedding Dog Tool, Large",
+          "similarity": 0.5868
+        },
+        {
+          "rank": 6,
+          "sku": "1506174",
+          "name": "PetKORE GroomRaker Dog Deshedding Tool, Green, Small",
+          "similarity": 0.5847
+        },
+        {
+          "rank": 7,
+          "sku": "1506190",
+          "name": "PetKORE GroomRaker Dog Deshedding Tool, Green, Large",
+          "similarity": 0.5843
+        },
+        {
+          "rank": 8,
+          "sku": "1506182",
+          "name": "PetKORE GroomRaker Dog Deshedding Tool, Green, Medium",
+          "similarity": 0.5839
+        },
+        {
+          "rank": 9,
+          "sku": "243247",
+          "name": "FURminator Short Hair Dog Deshedding Tool, Blue, Large",
+          "similarity": 0.5823
+        },
+        {
+          "rank": 10,
+          "sku": "243246",
+          "name": "FURminator Short Hair Dog Deshedding Tool, Orange, Medium",
+          "similarity": 0.5821
+        },
+        {
+          "rank": 11,
+          "sku": "1461270",
+          "name": "Andis Compact Dog & Cat Deshedding Tool",
+          "similarity": 0.5816
+        },
+        {
+          "rank": 12,
+          "sku": "1000020398",
+          "name": "Wahl Dog Deshedder Tool",
+          "similarity": 0.5811
+        },
+        {
+          "rank": 13,
+          "sku": "1000025790",
+          "name": "FURminator Long Hair deShedding Dog Tool, Medium",
+          "similarity": 0.5803
+        },
+        {
+          "rank": 14,
+          "sku": "243249",
+          "name": "FURminator Long Hair Dog Deshedding Tool, Green, Small",
+          "similarity": 0.5741
+        },
+        {
+          "rank": 15,
+          "sku": "320056",
+          "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Green",
+          "similarity": 0.5691
+        },
+        {
+          "rank": 16,
+          "sku": "80916",
+          "name": "JW Pet Dog Deshedding Tool",
+          "similarity": 0.5691
+        },
+        {
+          "rank": 17,
+          "sku": "243250",
+          "name": "FURminator Long Hair Dog Deshedding Tool, Orange, Medium",
+          "similarity": 0.5677
+        },
+        {
+          "rank": 18,
+          "sku": "320059",
+          "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Blue",
+          "similarity": 0.5669
+        },
+        {
+          "rank": 19,
+          "sku": "320057",
+          "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Orange",
+          "similarity": 0.5669
+        },
+        {
+          "rank": 20,
+          "sku": "1568958",
+          "name": "Andis Compact Pet Deshedding Tool",
+          "similarity": 0.5639
+        },
+        {
+          "rank": 21,
+          "sku": "320058",
+          "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Pink",
+          "similarity": 0.5639
+        },
+        {
+          "rank": 22,
+          "sku": "320120",
+          "name": "Pet Life Flex Series 2-in-1 Dual-Sided Grooming Undercoat Dog & Cat Rake & Deshedding Tool, Green",
+          "similarity": 0.5638
+        },
+        {
+          "rank": 23,
+          "sku": "2487254",
+          "name": "Pawward 3-in-1 Dual Sided Dog & Cat Grooming Kit with Dematting Rake Rotating Pins Undercoat Remover & Mist Spray",
+          "similarity": 0.5629
+        },
+        {
+          "rank": 24,
+          "sku": "243251",
+          "name": "FURminator Long Hair Dog Deshedding Tool, Blue, Large",
+          "similarity": 0.5628
+        },
+        {
+          "rank": 25,
+          "sku": "1093062",
+          "name": "Max Power Planet Dual Sided Undercoat Rake Dog & Cat Deshedding Tool, Blue",
+          "similarity": 0.5621
+        },
+        {
+          "rank": 26,
+          "sku": "1093070",
+          "name": "Max Power Planet Dual Sided Undercoat Rake Dog & Cat Deshedding Tool, Black",
+          "similarity": 0.5603
+        },
+        {
+          "rank": 27,
+          "sku": "1569006",
+          "name": "Andis Fine-Tooth Pet Deshedding Rake",
+          "similarity": 0.5603
+        },
+        {
+          "rank": 28,
+          "sku": "1093078",
+          "name": "Max Power Planet Dual Sided Undercoat Rake Dog & Cat Deshedding Tool, Pink",
+          "similarity": 0.56
+        },
+        {
+          "rank": 29,
+          "sku": "316273",
+          "name": "Warren London Short Hair Deshedding Dog Brush, Small",
+          "similarity": 0.5542
+        },
+        {
+          "rank": 30,
+          "sku": "206890",
+          "name": "Frisco Deshedding Cat & Dog Brush, Large, Short to Medium Hair",
+          "similarity": 0.5538
+        }
+      ]
+    },
+    {
+      "slot_id": "Health & Wellness_002",
+      "top_family": "Health & Wellness",
+      "rationale": "Owner's calendar shows fall allergy season; apartment-living pug with seasonal allergies benefits from HEPA air purifiers, hypoallergenic bedding, and grooming to reduce allergens indoors; avoid Duck-related product materials (listed as allergy).",
+      "count": 30,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "192872",
+          "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, White",
+          "similarity": 0.5872
+        },
+        {
+          "rank": 2,
+          "sku": "192873",
+          "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, Black",
+          "similarity": 0.5837
+        },
+        {
+          "rank": 3,
+          "sku": "192875",
+          "name": "Rabbit Air MinusA2 Allergy SPA-780N WIFI Control Pet Allergy Air Purifier, White",
+          "similarity": 0.5771
+        },
+        {
+          "rank": 4,
+          "sku": "234046",
+          "name": "Honeywell HPA100 Series Medium Room HEPA Air Purifier Pre-filter, 4 count",
+          "similarity": 0.5764
+        },
+        {
+          "rank": 5,
+          "sku": "234048",
+          "name": "Honeywell HPA200 Series Large Room HEPA Air Purifier Pre-filter, 4 count",
+          "similarity": 0.573
+        },
+        {
+          "rank": 6,
+          "sku": "234050",
+          "name": "Honeywell HPA300 Series Extra-Large Room HEPA Air Purifier Pre-filter, 4 count",
+          "similarity": 0.5676
+        },
+        {
+          "rank": 7,
+          "sku": "234035",
+          "name": "Honeywell HPA300 Series HEPA Extra-Large Room Air Purifier, White",
+          "similarity": 0.5666
+        },
+        {
+          "rank": 8,
+          "sku": "1597862",
+          "name": "Blueair ComfortPure 3-in-1 Air Purifier, Large, White/Grey",
+          "similarity": 0.5652
+        },
+        {
+          "rank": 9,
+          "sku": "327314",
+          "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 1 count",
+          "similarity": 0.5615
+        },
+        {
+          "rank": 10,
+          "sku": "230460",
+          "name": "LEVOIT Core P350-P Pet Care Air Purifier",
+          "similarity": 0.5604
+        },
+        {
+          "rank": 11,
+          "sku": "327316",
+          "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 4 count",
+          "similarity": 0.5585
+        },
+        {
+          "rank": 12,
+          "sku": "327317",
+          "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 6 count",
+          "similarity": 0.5575
+        },
+        {
+          "rank": 13,
+          "sku": "327118",
+          "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Honeywell HPA100 Series Air Purifiers, 5 count",
+          "similarity": 0.5565
+        },
+        {
+          "rank": 14,
+          "sku": "327120",
+          "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Honeywell HPA200 Series Air Purifiers, 6 count",
+          "similarity": 0.5556
+        },
+        {
+          "rank": 15,
+          "sku": "327122",
+          "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Honeywell HPA300 Series Air Purifiers, 7 count",
+          "similarity": 0.5554
+        },
+        {
+          "rank": 16,
+          "sku": "327315",
+          "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 2 count",
+          "similarity": 0.5544
+        },
+        {
+          "rank": 17,
+          "sku": "1685038",
+          "name": "Dupray Bloom Air Purifier",
+          "similarity": 0.5538
+        },
+        {
+          "rank": 18,
+          "sku": "2049390",
+          "name": "Dreo Macro Max S Smart Air Purifier",
+          "similarity": 0.5532
+        },
+        {
+          "rank": 19,
+          "sku": "317916",
+          "name": "Lasko HEPA Filter DreamMode Premium Tower Air Purifier",
+          "similarity": 0.5529
+        },
+        {
+          "rank": 20,
+          "sku": "230446",
+          "name": "LEVOIT Smart True Air Purifier",
+          "similarity": 0.5516
+        },
+        {
+          "rank": 21,
+          "sku": "1499454",
+          "name": "Rabbit Air Pet Allergy MinusA2 Replacement Filter Kit",
+          "similarity": 0.5504
+        },
+        {
+          "rank": 22,
+          "sku": "1943486",
+          "name": "IRIS WOOZOO True HEPA 500284 Air Purifier",
+          "similarity": 0.55
+        },
+        {
+          "rank": 23,
+          "sku": "1348510",
+          "name": "Shark Air Purifier MAX with True HEPA, Grey",
+          "similarity": 0.5499
+        },
+        {
+          "rank": 24,
+          "sku": "1351270",
+          "name": "Shark Air Purifier 6-Fan Anti-Allergen NANOSEAL Filter with true HEPA & Advanced Odor Lock, Gray Frame",
+          "similarity": 0.5498
+        },
+        {
+          "rank": 25,
+          "sku": "1913774",
+          "name": "Shark Air Purifier 4-Fan Anti-Allergen NANOSEAL Filter with True HEPA",
+          "similarity": 0.5497
+        },
+        {
+          "rank": 26,
+          "sku": "327319",
+          "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Coway AP-1512HH Series Air Purifiers, 5 count",
+          "similarity": 0.5487
+        },
+        {
+          "rank": 27,
+          "sku": "2049398",
+          "name": "Dreo Macro-414 Tabletop Air Purifier",
+          "similarity": 0.5472
+        },
+        {
+          "rank": 28,
+          "sku": "327115",
+          "name": "Breathe Naturally Replacement HEPA Filter \"R\" for Honeywell HPA100 Series Air Purifiers, 3 count",
+          "similarity": 0.5444
+        },
+        {
+          "rank": 29,
+          "sku": "1516094",
+          "name": "LEVOIT EverestAir Smart Pet Air Purifier, White",
+          "similarity": 0.5436
+        },
+        {
+          "rank": 30,
+          "sku": "327113",
+          "name": "Breathe Naturally Replacement HEPA Filter \"R\" for Honeywell HPA100 Series Air Purifiers, 1 count",
+          "similarity": 0.5432
+        }
+      ]
+    },
+    {
+      "slot_id": "Leashes/Collars_001",
+      "top_family": "Leashes/Collars",
+      "rationale": "High-activity dog with access to large yard and hunting season active in calendar; recommend front-clip no-pull harness and reflective leash for safety during walks/hunting-season visibility; size small-medium and secure fit for brachycephalic build.",
+      "count": 30,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "346592",
+          "name": "EliteField Padded Reflective No Pull Dog Harness, Orange, Small: 15 to 28-in chest",
+          "similarity": 0.6133
+        },
+        {
+          "rank": 2,
+          "sku": "346600",
+          "name": "EliteField Padded Reflective No Pull Dog Harness, Red, Small: 15 to 28-in chest",
+          "similarity": 0.6112
+        },
+        {
+          "rank": 3,
+          "sku": "764598",
+          "name": "Canada Pooch Everything Dog Harness, Reflective Mesh, Small",
+          "similarity": 0.6058
+        },
+        {
+          "rank": 4,
+          "sku": "346580",
+          "name": "EliteField Padded Reflective No Pull Dog Harness, Black, Small: 15 to 28-in chest",
+          "similarity": 0.6056
+        },
+        {
+          "rank": 5,
+          "sku": "1652390",
+          "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, Small",
+          "similarity": 0.6051
+        },
+        {
+          "rank": 6,
+          "sku": "346588",
+          "name": "EliteField Padded Reflective No Pull Dog Harness, Green, Small: 15 to 28-in chest",
+          "similarity": 0.6045
+        },
+        {
+          "rank": 7,
+          "sku": "346584",
+          "name": "EliteField Padded Reflective No Pull Dog Harness, Blue, Small: 15 to 28-in chest",
+          "similarity": 0.6039
+        },
+        {
+          "rank": 8,
+          "sku": "1652414",
+          "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, X-Large",
+          "similarity": 0.6037
+        },
+        {
+          "rank": 9,
+          "sku": "764206",
+          "name": "Canada Pooch Complete Control Dog Harness, Red, Small",
+          "similarity": 0.6023
+        },
+        {
+          "rank": 10,
+          "sku": "1603214",
+          "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Blue, X-Small:: 13-19 inches",
+          "similarity": 0.602
+        },
+        {
+          "rank": 11,
+          "sku": "1652398",
+          "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, Medium",
+          "similarity": 0.6019
+        },
+        {
+          "rank": 12,
+          "sku": "1652358",
+          "name": "Canada Pooch Everything No Pull Dog Harness, Neon Pink, Small",
+          "similarity": 0.6013
+        },
+        {
+          "rank": 13,
+          "sku": "346596",
+          "name": "EliteField Padded Reflective No Pull Dog Harness, Purple, Small: 15 to 28-in chest",
+          "similarity": 0.6012
+        },
+        {
+          "rank": 14,
+          "sku": "1652406",
+          "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, Large",
+          "similarity": 0.6009
+        },
+        {
+          "rank": 15,
+          "sku": "1098414",
+          "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Blue, Small/Medium: 19 to 24-in chest",
+          "similarity": 0.6005
+        },
+        {
+          "rank": 16,
+          "sku": "764606",
+          "name": "Canada Pooch Everything Dog Harness, Reflective Mesh, Medium",
+          "similarity": 0.6004
+        },
+        {
+          "rank": 17,
+          "sku": "764614",
+          "name": "Canada Pooch Everything Dog Harness, Reflective Mesh, Large",
+          "similarity": 0.5991
+        },
+        {
+          "rank": 18,
+          "sku": "1603222",
+          "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Green, X-Small:: 13-19 inches",
+          "similarity": 0.5989
+        },
+        {
+          "rank": 19,
+          "sku": "1652382",
+          "name": "Canada Pooch Everything No Pull Dog Harness, Neon Pink, X-Large",
+          "similarity": 0.5986
+        },
+        {
+          "rank": 20,
+          "sku": "1490030",
+          "name": "Awoo Roam No Pull Dog Harness, Mauve, Small: 16 to 24-in chest",
+          "similarity": 0.5986
+        },
+        {
+          "rank": 21,
+          "sku": "888494",
+          "name": "Awoo Roam No Pull Dog Harness, Spice, X-Small",
+          "similarity": 0.598
+        },
+        {
+          "rank": 22,
+          "sku": "764222",
+          "name": "Canada Pooch Complete Control Dog Harness, Red, Large",
+          "similarity": 0.5975
+        },
+        {
+          "rank": 23,
+          "sku": "363679",
+          "name": "Awoo Roam No Pull Dog Harness, Spice, Small: 16 to 24-in chest",
+          "similarity": 0.5973
+        },
+        {
+          "rank": 24,
+          "sku": "363670",
+          "name": "Awoo Roam No Pull Dog Harness, Olive, Small: 16 to 24-in chest",
+          "similarity": 0.5972
+        },
+        {
+          "rank": 25,
+          "sku": "764214",
+          "name": "Canada Pooch Complete Control Dog Harness, Red, Medium",
+          "similarity": 0.5971
+        },
+        {
+          "rank": 26,
+          "sku": "1098390",
+          "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Black, Small/Medium: 19 to 24-in chest",
+          "similarity": 0.5969
+        },
+        {
+          "rank": 27,
+          "sku": "764166",
+          "name": "Canada Pooch Complete Control Dog Harness, Black, Small",
+          "similarity": 0.5968
+        },
+        {
+          "rank": 28,
+          "sku": "346593",
+          "name": "EliteField Padded Reflective No Pull Dog Harness, Orange, Medium: 18 to 33-in chest",
+          "similarity": 0.5965
+        },
+        {
+          "rank": 29,
+          "sku": "1098430",
+          "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Blue, Large: 30 to 42-in chest",
+          "similarity": 0.5964
+        },
+        {
+          "rank": 30,
+          "sku": "363680",
+          "name": "Awoo Roam No Pull Dog Harness, Spice, Medium: 18.5 to 29-in chest",
+          "similarity": 0.5963
+        }
+      ]
+    },
+    {
+      "slot_id": "Health & Wellness_003",
+      "top_family": "Health & Wellness",
+      "rationale": "Calendar indicates multiple stress-inducing events (leaf blower season, hunting season, World Rabies Day/vet visits); apartment-living pug may be noise-sensitive\u2014offer anxiety vests, pheromone diffusers, and vet-visit calming options sized for small-medium adult dogs.",
+      "count": 30,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "56055",
+          "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, Medium",
+          "similarity": 0.67
+        },
+        {
+          "rank": 2,
+          "sku": "99317",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, Medium",
+          "similarity": 0.6689
+        },
+        {
+          "rank": 3,
+          "sku": "56053",
+          "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, X-Small",
+          "similarity": 0.6667
+        },
+        {
+          "rank": 4,
+          "sku": "99315",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, X-Small",
+          "similarity": 0.665
+        },
+        {
+          "rank": 5,
+          "sku": "56054",
+          "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, Small",
+          "similarity": 0.6646
+        },
+        {
+          "rank": 6,
+          "sku": "99311",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, Medium",
+          "similarity": 0.6643
+        },
+        {
+          "rank": 7,
+          "sku": "99319",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, X-Large",
+          "similarity": 0.6632
+        },
+        {
+          "rank": 8,
+          "sku": "564966",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Medium",
+          "similarity": 0.6622
+        },
+        {
+          "rank": 9,
+          "sku": "56057",
+          "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, X-Large",
+          "similarity": 0.6612
+        },
+        {
+          "rank": 10,
+          "sku": "99316",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, Small",
+          "similarity": 0.6605
+        },
+        {
+          "rank": 11,
+          "sku": "99313",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, X-Large",
+          "similarity": 0.6593
+        },
+        {
+          "rank": 12,
+          "sku": "99309",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, X-Small",
+          "similarity": 0.6592
+        },
+        {
+          "rank": 13,
+          "sku": "56052",
+          "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, XX-Small",
+          "similarity": 0.6579
+        },
+        {
+          "rank": 14,
+          "sku": "564958",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Small",
+          "similarity": 0.6578
+        },
+        {
+          "rank": 15,
+          "sku": "99318",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, Large",
+          "similarity": 0.6572
+        },
+        {
+          "rank": 16,
+          "sku": "564974",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Large",
+          "similarity": 0.6566
+        },
+        {
+          "rank": 17,
+          "sku": "564950",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Small",
+          "similarity": 0.6563
+        },
+        {
+          "rank": 18,
+          "sku": "99310",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, Small",
+          "similarity": 0.6552
+        },
+        {
+          "rank": 19,
+          "sku": "564982",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Large",
+          "similarity": 0.6548
+        },
+        {
+          "rank": 20,
+          "sku": "123366",
+          "name": "ZenPet Anxiety Vest for Dogs, Medium",
+          "similarity": 0.6544
+        },
+        {
+          "rank": 21,
+          "sku": "56058",
+          "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, XX-Large",
+          "similarity": 0.6541
+        },
+        {
+          "rank": 22,
+          "sku": "99312",
+          "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, Large",
+          "similarity": 0.6536
+        },
+        {
+          "rank": 23,
+          "sku": "56056",
+          "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, Large",
+          "similarity": 0.6534
+        },
+        {
+          "rank": 24,
+          "sku": "123365",
+          "name": "ZenPet Anxiety Vest for Dogs, Small",
+          "similarity": 0.6506
+        },
+        {
+          "rank": 25,
+          "sku": "123364",
+          "name": "ZenPet Anxiety Vest for Dogs, X-Small",
+          "similarity": 0.6463
+        },
+        {
+          "rank": 26,
+          "sku": "123368",
+          "name": "ZenPet Anxiety Vest for Dogs, X-Large",
+          "similarity": 0.6441
+        },
+        {
+          "rank": 27,
+          "sku": "299090",
+          "name": "Assisi Animal Health Calmer Canine Convenience Dog Vest, Medium",
+          "similarity": 0.6439
+        },
+        {
+          "rank": 28,
+          "sku": "123367",
+          "name": "ZenPet Anxiety Vest for Dogs, Large",
+          "similarity": 0.6432
+        },
+        {
+          "rank": 29,
+          "sku": "123369",
+          "name": "ZenPet Anxiety Vest for Dogs, XX-Large",
+          "similarity": 0.6423
+        },
+        {
+          "rank": 30,
+          "sku": "299088",
+          "name": "Assisi Animal Health Calmer Canine Convenience Dog Vest, X-Small",
+          "similarity": 0.64
+        }
+      ]
+    },
+    {
+      "slot_id": "Gear/Travel_001",
+      "top_family": "Gear/Travel",
+      "rationale": "Weather context includes an excessive heat warning; brachycephalic pug is heat-sensitive\u2014cooling mats, vests, and portable fans for apartment use recommended; size small-medium and breathable materials; avoid Duck references in product descriptors.",
+      "count": 30,
+      "products": [
+        {
+          "rank": 1,
+          "sku": "138812",
+          "name": "Canada Pooch Cooling Dog Vest, 18",
+          "similarity": 0.5978
+        },
+        {
+          "rank": 2,
+          "sku": "138814",
+          "name": "Canada Pooch Cooling Dog Vest, 22",
+          "similarity": 0.5969
+        },
+        {
+          "rank": 3,
+          "sku": "138813",
+          "name": "Canada Pooch Cooling Dog Vest, 20",
+          "similarity": 0.5966
+        },
+        {
+          "rank": 4,
+          "sku": "138810",
+          "name": "Canada Pooch Cooling Dog Vest, 14",
+          "similarity": 0.5966
+        },
+        {
+          "rank": 5,
+          "sku": "138816",
+          "name": "Canada Pooch Cooling Dog Vest, 26",
+          "similarity": 0.5956
+        },
+        {
+          "rank": 6,
+          "sku": "138815",
+          "name": "Canada Pooch Cooling Dog Vest, 24",
+          "similarity": 0.5953
+        },
+        {
+          "rank": 7,
+          "sku": "138811",
+          "name": "Canada Pooch Cooling Dog Vest, 16",
+          "similarity": 0.5953
+        },
+        {
+          "rank": 8,
+          "sku": "138809",
+          "name": "Canada Pooch Cooling Dog Vest, 12",
+          "similarity": 0.5947
+        },
+        {
+          "rank": 9,
+          "sku": "1691230",
+          "name": "allforpaws Chill Out Fresh Breeze Cooling Dog Bed, Medium",
+          "similarity": 0.5903
+        },
+        {
+          "rank": 10,
+          "sku": "1691214",
+          "name": "allforpaws Chill Out Orange Cooling Mat Dog Bed",
+          "similarity": 0.5868
+        },
+        {
+          "rank": 11,
+          "sku": "1715958",
+          "name": "allforpaws Chill Out Papaya Cooling Mat Dog Bed, Blue",
+          "similarity": 0.5855
+        },
+        {
+          "rank": 12,
+          "sku": "258142",
+          "name": "Canada Pooch Cooling Dog Vest, Rainbow, 18",
+          "similarity": 0.5852
+        },
+        {
+          "rank": 13,
+          "sku": "258141",
+          "name": "Canada Pooch Cooling Dog Vest, Rainbow, 16",
+          "similarity": 0.5835
+        },
+        {
+          "rank": 14,
+          "sku": "258140",
+          "name": "Canada Pooch Cooling Dog Vest, Rainbow, 14",
+          "similarity": 0.583
+        },
+        {
+          "rank": 15,
+          "sku": "258143",
+          "name": "Canada Pooch Cooling Dog Vest, Rainbow, 20",
+          "similarity": 0.5821
+        },
+        {
+          "rank": 16,
+          "sku": "758566",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 18",
+          "similarity": 0.5821
+        },
+        {
+          "rank": 17,
+          "sku": "258146",
+          "name": "Canada Pooch Cooling Dog Vest, Rainbow, 26",
+          "similarity": 0.5814
+        },
+        {
+          "rank": 18,
+          "sku": "758574",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 20",
+          "similarity": 0.581
+        },
+        {
+          "rank": 19,
+          "sku": "758550",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 14",
+          "similarity": 0.5804
+        },
+        {
+          "rank": 20,
+          "sku": "758590",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 24",
+          "similarity": 0.5794
+        },
+        {
+          "rank": 21,
+          "sku": "758558",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 16",
+          "similarity": 0.5783
+        },
+        {
+          "rank": 22,
+          "sku": "1467550",
+          "name": "Canada Pooch Cooling Dog Vest, Watermelon, 22",
+          "similarity": 0.5776
+        },
+        {
+          "rank": 23,
+          "sku": "1467606",
+          "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Medium/Large",
+          "similarity": 0.577
+        },
+        {
+          "rank": 24,
+          "sku": "1467598",
+          "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Small/Medium",
+          "similarity": 0.5755
+        },
+        {
+          "rank": 25,
+          "sku": "1691206",
+          "name": "allforpaws Chill Out Kiwi Cooling Mat Dog Bed",
+          "similarity": 0.5733
+        },
+        {
+          "rank": 26,
+          "sku": "258159",
+          "name": "Canada Pooch Cooling Dog Vest, Tie Dye, 28",
+          "similarity": 0.5731
+        },
+        {
+          "rank": 27,
+          "sku": "258153",
+          "name": "Canada Pooch Cooling Dog Vest, Tie Dye, 16",
+          "similarity": 0.5712
+        },
+        {
+          "rank": 28,
+          "sku": "1467590",
+          "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Small",
+          "similarity": 0.5707
+        },
+        {
+          "rank": 29,
+          "sku": "1467622",
+          "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, X-large",
+          "similarity": 0.5702
+        },
+        {
+          "rank": 30,
+          "sku": "1467614",
+          "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Large",
+          "similarity": 0.5677
+        }
+      ]
+    }
+  ],
+  "all_products": [
+    {
+      "sku": "259580",
+      "name": "ACANA Red Meat & Grains Beef Pork & Lamb Wholesome Grains Dry Dog Food, 22.5-lb bag"
+    },
+    {
+      "sku": "259579",
+      "name": "ACANA Red Meat & Grains Beef Pork & Lamb Wholesome Grains Dry Dog Food, 4-lb bag"
+    },
+    {
+      "sku": "267893",
+      "name": "ACANA Wholesome Grains Small Breed Real Chicken Eggs & Turkey Dry Dog Food, 4-lb bag"
+    },
+    {
+      "sku": "267894",
+      "name": "ACANA Wholesome Grains Small Breed Real Chicken Eggs & Turkey Dry Dog Food, 11.5-lb bag"
+    },
+    {
+      "sku": "93458",
+      "name": "ACANA Red Meat Grain-Free Dry Dog Food, 4.5-lb bag"
+    },
+    {
+      "sku": "1992526",
+      "name": "ACANA Red Meat Grain-Free Dry Dog Food, 32-lb bag"
+    },
+    {
+      "sku": "93459",
+      "name": "ACANA Red Meat Grain-Free Dry Dog Food, 13-lb bag"
+    },
+    {
+      "sku": "93460",
+      "name": "ACANA Red Meat Grain-Free Dry Dog Food, 25-lb bag"
+    },
+    {
+      "sku": "979758",
+      "name": "ACANA Premium Beef & Lamb Chunks in Bone Broth Variety Pack Grain-Free Wet Dog Food, 12.8-oz can, case of 6"
+    },
+    {
+      "sku": "822694",
+      "name": "ACANA Wholesome Large Breed Adult Grains Dry Dog Food, 22.5-lb bag"
+    },
+    {
+      "sku": "741286",
+      "name": "ACANA Premium Chunks Lamb in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12"
+    },
+    {
+      "sku": "267891",
+      "name": "ACANA Wholesome Grains Puppy Real Chicken Eggs &Turkey Dry Dog Food, 11.5-lb bag"
+    },
+    {
+      "sku": "822678",
+      "name": "ACANA Wholesome Grains Puppy Real Chicken Eggs &Turkey Dry Dog Food, 22.5-lb bag"
+    },
+    {
+      "sku": "267890",
+      "name": "ACANA Wholesome Grains Puppy Real Chicken Eggs &Turkey Dry Dog Food, 4-lb bag"
+    },
+    {
+      "sku": "259564",
+      "name": "ACANA Puppy Grain-Free Dry Dog Food, 4.5-lb bag"
+    },
+    {
+      "sku": "741254",
+      "name": "ACANA Premium Chunks Beef in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12"
+    },
+    {
+      "sku": "259565",
+      "name": "ACANA Puppy Grain-Free Dry Dog Food, 13-lb bag"
+    },
+    {
+      "sku": "259566",
+      "name": "ACANA Puppy Grain-Free Dry Dog Food, 25-lb bag"
+    },
+    {
+      "sku": "259529",
+      "name": "ACANA Singles Limited Ingredient Lamb & Apple Grain-Free High-Protein Dry Dog Food, 4.5-lb bag"
+    },
+    {
+      "sku": "259531",
+      "name": "ACANA Singles Limited Ingredient Lamb & Apple Grain-Free High-Protein Dry Dog Food, 22.5-lb bag"
+    },
+    {
+      "sku": "259530",
+      "name": "ACANA Singles Limited Ingredient Lamb & Apple Grain-Free High-Protein Dry Dog Food, 13-lb bag"
+    },
+    {
+      "sku": "259576",
+      "name": "ACANA Limited Ingredient Lamb & Pumpkin Wholesome Grains Dry Dog Food, 4-lb bag"
+    },
+    {
+      "sku": "259577",
+      "name": "ACANA Limited Ingredient Lamb & Pumpkin Wholesome Grains Dry Dog Food, 22.5-lb bag"
+    },
+    {
+      "sku": "259526",
+      "name": "ACANA Singles Limited Ingredient Beef & Pumpkin Grain-Free High-Protein Dry Dog Food, 13-lb bag"
+    },
+    {
+      "sku": "259525",
+      "name": "ACANA Singles Limited Ingredient Beef & Pumpkin Grain-Free High-Protein Dry Dog Food, 4.5-lb bag"
+    },
+    {
+      "sku": "259527",
+      "name": "ACANA Singles Limited Ingredient Beef & Pumpkin Grain-Free High-Protein Dry Dog Food, 22.5-lb bag"
+    },
+    {
+      "sku": "741302",
+      "name": "ACANA Premium Chunks Pork in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12"
+    },
+    {
+      "sku": "260878",
+      "name": "ACANA Singles Beef & Pumpkin Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 1.25-oz bag"
+    },
+    {
+      "sku": "260879",
+      "name": "ACANA Singles Beef & Pumpkin Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 3.25-oz bag"
+    },
+    {
+      "sku": "99267",
+      "name": "ACANA Singles Lamb & Apple Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 1.25-oz bag"
+    },
+    {
+      "sku": "99268",
+      "name": "ACANA Singles Lamb & Apple Grain-Free Limited Ingredients & Freeze-Dried Dog Treats, 3.25-oz bag"
+    },
+    {
+      "sku": "841446",
+      "name": "ACANA Chewy Beef with Hip & Joint Support Strips Dog Treats, 4-oz bag"
+    },
+    {
+      "sku": "841462",
+      "name": "ACANA Chewy Salmon with Skin, Coat, & Digestive Support Strips Dog Treats, 4-oz bag"
+    },
+    {
+      "sku": "841430",
+      "name": "ACANA Chewy Chicken with Immune System Support Strips Dog Treats, 4-oz bag"
+    },
+    {
+      "sku": "1478950",
+      "name": "Healthybud Chicken Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag"
+    },
+    {
+      "sku": "1322398",
+      "name": "Bocce's Bakery Puppy Bac'n Nutty Training Bites Peanut Butter Limited-Ingredient-Diet Soft & Chewy Dog Treats, 3-oz bag"
+    },
+    {
+      "sku": "992678",
+      "name": "Healthybud Beef Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag"
+    },
+    {
+      "sku": "1478966",
+      "name": "Healthybud Salmon Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag"
+    },
+    {
+      "sku": "741222",
+      "name": "ACANA Ranch-Raised Beef Morsels Grain-Free High-Protein Freeze-Dried Dog Food & Topper, 8-oz bag"
+    },
+    {
+      "sku": "1108014",
+      "name": "Raw Paws Peanut Butter Chicken-Free Adult Soft & Chewy Training Dog Treats, 6-oz bag"
+    },
+    {
+      "sku": "741158",
+      "name": "ACANA Free-Run Chicken Morsels Grain-Free High-Protein Freeze-Dried Dog Food & Topper, 8-oz bag"
+    },
+    {
+      "sku": "986646",
+      "name": "PureBites Mini Trainers Salmon Raw Freeze-Dried Dog Treats, 1.7-oz bag"
+    },
+    {
+      "sku": "612822",
+      "name": "Zesty Paws All-in-One Bacon Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 8-oz bag"
+    },
+    {
+      "sku": "749526",
+      "name": "Zesty Paws All-in-One Bacon Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 12-oz bag"
+    },
+    {
+      "sku": "1670782",
+      "name": "Inaba Churu Fun Bites Chicken with Pumpkin Grain-Free Soft & Chewy Dog Treats, 0.42-oz, pack of 8"
+    },
+    {
+      "sku": "1280950",
+      "name": "BARK Acornucopia Treat Dispensing Tough Dog Chew Toy, Brown"
+    },
+    {
+      "sku": "1682886",
+      "name": "allforpaws Xtra-R-Xtra-R Octo Dog Chew Toy, Green"
+    },
+    {
+      "sku": "1427742",
+      "name": "Chew King by Mammoth Dog Fetch Ball Extremely Durable Natural Rubber Tough Dog Chew Toy, Blue, 3-in"
+    },
+    {
+      "sku": "1180982",
+      "name": "BARK Chew-Dogh Super Chewer Tough Squeaky Treat Dispensing Dog Toy, Medium/Large"
+    },
+    {
+      "sku": "1427838",
+      "name": "Chew King by Mammoth Dog Fetch Ball Extremely Durable Natural Rubber Tough Dog Chew Toy, Blue, 4-in"
+    },
+    {
+      "sku": "90303",
+      "name": "Ethical Pet Play Strong Rubber Bone Tough Dog Chew Toy, 5.5-in"
+    },
+    {
+      "sku": "90302",
+      "name": "Ethical Pet Play Strong Rubber Bone Tough Dog Chew Toy, 4.5-in"
+    },
+    {
+      "sku": "1180974",
+      "name": "BARK Chew-Dogh Super Chewer Tough Squeaky Treat Dispensing Dog Toy, Small"
+    },
+    {
+      "sku": "1206726",
+      "name": "Nylabone Strong Rubber Allergen-Free Peanut Butter Flavor Tough Dog Treat Toy, Brown, Medium/Wolf"
+    },
+    {
+      "sku": "1376622",
+      "name": "Frisco Fetch Rubber Bone with Rope Dog Toy, Medium/Large"
+    },
+    {
+      "sku": "856150",
+      "name": "Earth Rated Rubber Fetch Chew Dog Toy, Small"
+    },
+    {
+      "sku": "1427614",
+      "name": "Chew King by Mammoth Premium Bacon Flavored Extremely Durable Natural Rubber Tough Treat Dog Chew Toy, Orange, Medium"
+    },
+    {
+      "sku": "90299",
+      "name": "Ethical Pet Play Strong Rubber Ball Tough Dog Chew Toy, 3.25-in"
+    },
+    {
+      "sku": "1894182",
+      "name": "Benebone Rubber Bone Dog Chew Toy, Green, Medium"
+    },
+    {
+      "sku": "1750406",
+      "name": "Yomp FetchFlyer MAX Tough Dog Chew Toy, Purple, Beef Flavor"
+    },
+    {
+      "sku": "90306",
+      "name": "Ethical Pet Play Strong Rubber S-shaped Tough Dog Chew Toy, 12-in"
+    },
+    {
+      "sku": "90300",
+      "name": "Ethical Pet Play Strong Rubber Ball Tough Dog Chew Toy, 3.75-in"
+    },
+    {
+      "sku": "90316",
+      "name": "Ethical Pet Play Strong Ball & Rope Tough Dog Chew Toy, 3.75-in"
+    },
+    {
+      "sku": "1427806",
+      "name": "Chew King by Mammoth Fetch Ball Tough Dog Chew Toy, Blue"
+    },
+    {
+      "sku": "1427854",
+      "name": "Chew King by Mammoth Supreme Fetch Ball Extremely Durable Natural Rubber Dog Chew Toy, Yellow, 2.5-in"
+    },
+    {
+      "sku": "145546",
+      "name": "Ruff Dawg, Dawg Nut Tough Dog Chew Toy, Color Varies, X-Large"
+    },
+    {
+      "sku": "1863414",
+      "name": "Zanies Toughstructables Boomerang Toss Dog Chew Toy"
+    },
+    {
+      "sku": "195443",
+      "name": "Nylabone Power Play Rubber Fetch-a-Bounce Dog Toy, Small"
+    },
+    {
+      "sku": "90308",
+      "name": "Ethical Pet Play Strong Rubber Trident Tough Dog Chew Toy, 6-in"
+    },
+    {
+      "sku": "1427870",
+      "name": "Chew King by Mammoth Premium Collection Extremely Durable Natural Rubber Fillable Tough Treat Dog Chew Toy, Blue, Medium"
+    },
+    {
+      "sku": "1729326",
+      "name": "BARK Fozziwig Factory Prop Chicken Tough Dog Chew Toy, Medium"
+    },
+    {
+      "sku": "1376638",
+      "name": "Frisco Fetch Tough Textured Rubber Ball Dog Toy, Medium"
+    },
+    {
+      "sku": "1427622",
+      "name": "Chew King by Mammoth Premium Bacon Flavored Extremely Durable Natural Rubber Tough Treat Dog Chew Toy, Orange, Large"
+    },
+    {
+      "sku": "1427630",
+      "name": "Chew King by Mammoth Premium Bacon Flavored Extremely Durable Natural Rubber Tough Treat Dog Chew Toy, Orange, X-Large"
+    },
+    {
+      "sku": "1542374",
+      "name": "allforpaws Interactives Dog Sokudo Treat Dispensing Dog Puzzle Toy, Green"
+    },
+    {
+      "sku": "2084174",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, All Breed Sizes"
+    },
+    {
+      "sku": "2084166",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Blue, All Breed Sizes"
+    },
+    {
+      "sku": "2149718",
+      "name": "KADTC Adventurer 5 In 1 Puzzle Dog Toy, Green"
+    },
+    {
+      "sku": "2084142",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, Medium"
+    },
+    {
+      "sku": "2149798",
+      "name": "KADTC Diner 2 In 1 Puzzle Dog Toy, Yellow"
+    },
+    {
+      "sku": "1542438",
+      "name": "allforpaws Interactives Dog Sokudo Starter Treat Dispensing Dog Puzzle Toy, Green"
+    },
+    {
+      "sku": "2084158",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Pink, All Breed Sizes"
+    },
+    {
+      "sku": "1000069619",
+      "name": "Frisco 3-in-1 Interactive Puzzle Dog Toy, Advanced"
+    },
+    {
+      "sku": "1542358",
+      "name": "allforpaws Interactives Fetch N Treat Dog Puzzle Toy, White"
+    },
+    {
+      "sku": "2028862",
+      "name": "PawsPik Interactive Treat Dispensing Puzzle Dog Toy, Light Blue"
+    },
+    {
+      "sku": "2277734",
+      "name": "Potaroma Dog Puzzle Feeder Toy, Interactive IQ Training, Electronic Treat Dispenser, Automatic Rechargeable with Remote for Food Dispensing, All Breeds, 280ml Capacity, Multi-colors"
+    },
+    {
+      "sku": "2149774",
+      "name": "KADTC Bistro 2 In 1 Puzzle Dog Toy, Green"
+    },
+    {
+      "sku": "2149974",
+      "name": "KADTC Paw Beginner Puzzle Dog Toy, Pink"
+    },
+    {
+      "sku": "2149782",
+      "name": "KADTC Bistro 2 In 1 Puzzle Dog Toy, Blue"
+    },
+    {
+      "sku": "1280598",
+      "name": "KADTC Granary Puzzle Dog Feeder Toy, Blue/Orange"
+    },
+    {
+      "sku": "1211550",
+      "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Auburn"
+    },
+    {
+      "sku": "2149862",
+      "name": "KADTC Agic Cube 2 In 1 Puzzle Dog Toy, Green"
+    },
+    {
+      "sku": "66288",
+      "name": "Omega Paw Tricky Treat Ball Dog Toy, Medium"
+    },
+    {
+      "sku": "1000059791",
+      "name": "Nina Ottosson by Outward Hound Smart Orange Interactive Treat Puzzle Dog Toy"
+    },
+    {
+      "sku": "1213646",
+      "name": "Pets First Treat Dispensing Dog Puzzle Toy, Auburn"
+    },
+    {
+      "sku": "1211694",
+      "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Indianapolis"
+    },
+    {
+      "sku": "1214182",
+      "name": "Pets First Treat Dispensing Dog Puzzle Toy, Virginia"
+    },
+    {
+      "sku": "1211686",
+      "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Indiana"
+    },
+    {
+      "sku": "2149830",
+      "name": "KADTC Puzzle Bowl Puzzle Dog Toy, Blue"
+    },
+    {
+      "sku": "1212118",
+      "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Wisconsin"
+    },
+    {
+      "sku": "1211654",
+      "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, Georgia"
+    },
+    {
+      "sku": "173296",
+      "name": "Arf Pets Memory & Training Activity Dog Treat Dispenser"
+    },
+    {
+      "sku": "1774750",
+      "name": "Brightkins Kanoodle Puzzle Dog Toy, Small"
+    },
+    {
+      "sku": "1211990",
+      "name": "Pets First Large Treat Dispensing Dog Puzzle Toy, South Carolina"
+    },
+    {
+      "sku": "48740",
+      "name": "Royal Canin Veterinary Diet Adult Dental Medium & Large Breed Dry Dog Food, 7.7-lb bag"
+    },
+    {
+      "sku": "73707",
+      "name": "Royal Canin Veterinary Diet Adult Dental Medium & Large Breed Dry Dog Food, 17.6-lb bag"
+    },
+    {
+      "sku": "48815",
+      "name": "Royal Canin Veterinary Diet Adult Dental Small Breed Dry Dog Food, 8.8-lb bag"
+    },
+    {
+      "sku": "754206",
+      "name": "Ark Naturals Protection+ Brushless Toothpaste Medium Dental Dog Treats, 60 count"
+    },
+    {
+      "sku": "754190",
+      "name": "Ark Naturals Protection+ Brushless Toothpaste Small Dental Dog Treats, 60 count"
+    },
+    {
+      "sku": "277496",
+      "name": "Ark Naturals Brushless Toothpaste Protection+ Medium Dental Dog Treats, 18-oz bag, count varies"
+    },
+    {
+      "sku": "1000101077",
+      "name": "Royal Canin Canine Care Nutrition Small Dental Care Dry Dog Food, 1.36-kg bag"
+    },
+    {
+      "sku": "1000027998",
+      "name": "Royal Canin Canine Care Nutrition Small Dental Care Dry Dog Food, 7.72-kg bag"
+    },
+    {
+      "sku": "277495",
+      "name": "Ark Naturals Brushless Toothpaste Protection+ Small Dental Dog Treats, 12-oz bag, count varies"
+    },
+    {
+      "sku": "812654",
+      "name": "Ark Naturals Fortify Brushless Toothpaste Small Dental Dog Treats, 12-oz bag"
+    },
+    {
+      "sku": "1267158",
+      "name": "Ultimate Pet Nutrition Canine Fresh All-Natural Grain-Free Pork Adult Dental Dog Chews, Small, 30 count"
+    },
+    {
+      "sku": "1000028014",
+      "name": "Royal Canin Canine Care Nutrition Medium Dental Care Dry Dog Food, 12.712-kg bag"
+    },
+    {
+      "sku": "60770",
+      "name": "Ark Naturals Brushless Toothpaste Medium Dental Dog Treats, 18-oz bag"
+    },
+    {
+      "sku": "192002",
+      "name": "Royal Canin Canine Care Nutrition Medium Dental Care Dry Dog Food, 28-lb bag"
+    },
+    {
+      "sku": "277497",
+      "name": "Ark Naturals Protection+ Brushless Toothpaste Large Dental Dog Treats, 18-oz bag, count varies"
+    },
+    {
+      "sku": "191999",
+      "name": "Royal Canin Canine Care Nutrition Small Dental Care Dry Dog Food, 17-lb bag"
+    },
+    {
+      "sku": "156940",
+      "name": "Ark Naturals Brushless Toothpaste Medium Dental Dog Treats, 54-oz box"
+    },
+    {
+      "sku": "1399614",
+      "name": "American Kennel Club Treats AKC 10 Piece Dentacare Filled Bone Dental Dog Chew Treats, 15.8-oz bag"
+    },
+    {
+      "sku": "812622",
+      "name": "Ark Naturals Soft Brushless Toothpaste Small Dental Dog Treats, 12-oz bag"
+    },
+    {
+      "sku": "1492686",
+      "name": "Paw Ready BrushMate Toothbrush, Medium Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Medium & Large Dogs, 70-gram bottle"
+    },
+    {
+      "sku": "1381974",
+      "name": "Ark Naturals Brushless Toothpaste Small Dental Dog Treat, 0.54-oz"
+    },
+    {
+      "sku": "1492670",
+      "name": "Paw Ready BrushMate Toothbrush, Small Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Small Dogs & Cats, 70-gram bottle"
+    },
+    {
+      "sku": "754222",
+      "name": "Ark Naturals Protection+ Brushless Toothpaste Large Dental Dog Treats, 40 count"
+    },
+    {
+      "sku": "641638",
+      "name": "Ark Naturals Soft Shield Protection+ Brushless Toothpaste Small Dental Dog Treats, 12-oz bag"
+    },
+    {
+      "sku": "277494",
+      "name": "Ark Naturals Brushless Toothpaste Protection+ Mini Dental Dog Treats, 4-oz bag, count varies"
+    },
+    {
+      "sku": "60769",
+      "name": "Ark Naturals Brushless Toothpaste Small Dental Dog Treats, 12-oz bag, count varies"
+    },
+    {
+      "sku": "535534",
+      "name": "ProDen Plaqueoff System Holistic Oral Care Support Adult Dental Dog Treats, 6-oz bag, count varies"
+    },
+    {
+      "sku": "613454",
+      "name": "SunGrow Undercoat Deshedding Brush for Short Haired Dog & Cat Shedding Control & Grooming Tool"
+    },
+    {
+      "sku": "2318486",
+      "name": "aumuca Dog & Cat Deshedding & Dematting Undercoat Rake, White"
+    },
+    {
+      "sku": "243245",
+      "name": "FURminator Short Hair Dog Deshedding Tool, Green, Small"
+    },
+    {
+      "sku": "725486",
+      "name": "Andis Deshedding Dog Tool"
+    },
+    {
+      "sku": "1000025742",
+      "name": "FURminator Short Hair deShedding Dog Tool, Large"
+    },
+    {
+      "sku": "1506174",
+      "name": "PetKORE GroomRaker Dog Deshedding Tool, Green, Small"
+    },
+    {
+      "sku": "1506190",
+      "name": "PetKORE GroomRaker Dog Deshedding Tool, Green, Large"
+    },
+    {
+      "sku": "1506182",
+      "name": "PetKORE GroomRaker Dog Deshedding Tool, Green, Medium"
+    },
+    {
+      "sku": "243247",
+      "name": "FURminator Short Hair Dog Deshedding Tool, Blue, Large"
+    },
+    {
+      "sku": "243246",
+      "name": "FURminator Short Hair Dog Deshedding Tool, Orange, Medium"
+    },
+    {
+      "sku": "1461270",
+      "name": "Andis Compact Dog & Cat Deshedding Tool"
+    },
+    {
+      "sku": "1000020398",
+      "name": "Wahl Dog Deshedder Tool"
+    },
+    {
+      "sku": "1000025790",
+      "name": "FURminator Long Hair deShedding Dog Tool, Medium"
+    },
+    {
+      "sku": "243249",
+      "name": "FURminator Long Hair Dog Deshedding Tool, Green, Small"
+    },
+    {
+      "sku": "320056",
+      "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Green"
+    },
+    {
+      "sku": "80916",
+      "name": "JW Pet Dog Deshedding Tool"
+    },
+    {
+      "sku": "243250",
+      "name": "FURminator Long Hair Dog Deshedding Tool, Orange, Medium"
+    },
+    {
+      "sku": "320059",
+      "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Blue"
+    },
+    {
+      "sku": "320057",
+      "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Orange"
+    },
+    {
+      "sku": "1568958",
+      "name": "Andis Compact Pet Deshedding Tool"
+    },
+    {
+      "sku": "320058",
+      "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Pink"
+    },
+    {
+      "sku": "320120",
+      "name": "Pet Life Flex Series 2-in-1 Dual-Sided Grooming Undercoat Dog & Cat Rake & Deshedding Tool, Green"
+    },
+    {
+      "sku": "2487254",
+      "name": "Pawward 3-in-1 Dual Sided Dog & Cat Grooming Kit with Dematting Rake Rotating Pins Undercoat Remover & Mist Spray"
+    },
+    {
+      "sku": "243251",
+      "name": "FURminator Long Hair Dog Deshedding Tool, Blue, Large"
+    },
+    {
+      "sku": "1093062",
+      "name": "Max Power Planet Dual Sided Undercoat Rake Dog & Cat Deshedding Tool, Blue"
+    },
+    {
+      "sku": "1093070",
+      "name": "Max Power Planet Dual Sided Undercoat Rake Dog & Cat Deshedding Tool, Black"
+    },
+    {
+      "sku": "1569006",
+      "name": "Andis Fine-Tooth Pet Deshedding Rake"
+    },
+    {
+      "sku": "1093078",
+      "name": "Max Power Planet Dual Sided Undercoat Rake Dog & Cat Deshedding Tool, Pink"
+    },
+    {
+      "sku": "316273",
+      "name": "Warren London Short Hair Deshedding Dog Brush, Small"
+    },
+    {
+      "sku": "206890",
+      "name": "Frisco Deshedding Cat & Dog Brush, Large, Short to Medium Hair"
+    },
+    {
+      "sku": "192872",
+      "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, White"
+    },
+    {
+      "sku": "192873",
+      "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, Black"
+    },
+    {
+      "sku": "192875",
+      "name": "Rabbit Air MinusA2 Allergy SPA-780N WIFI Control Pet Allergy Air Purifier, White"
+    },
+    {
+      "sku": "234046",
+      "name": "Honeywell HPA100 Series Medium Room HEPA Air Purifier Pre-filter, 4 count"
+    },
+    {
+      "sku": "234048",
+      "name": "Honeywell HPA200 Series Large Room HEPA Air Purifier Pre-filter, 4 count"
+    },
+    {
+      "sku": "234050",
+      "name": "Honeywell HPA300 Series Extra-Large Room HEPA Air Purifier Pre-filter, 4 count"
+    },
+    {
+      "sku": "234035",
+      "name": "Honeywell HPA300 Series HEPA Extra-Large Room Air Purifier, White"
+    },
+    {
+      "sku": "1597862",
+      "name": "Blueair ComfortPure 3-in-1 Air Purifier, Large, White/Grey"
+    },
+    {
+      "sku": "327314",
+      "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 1 count"
+    },
+    {
+      "sku": "230460",
+      "name": "LEVOIT Core P350-P Pet Care Air Purifier"
+    },
+    {
+      "sku": "327316",
+      "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 4 count"
+    },
+    {
+      "sku": "327317",
+      "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 6 count"
+    },
+    {
+      "sku": "327118",
+      "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Honeywell HPA100 Series Air Purifiers, 5 count"
+    },
+    {
+      "sku": "327120",
+      "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Honeywell HPA200 Series Air Purifiers, 6 count"
+    },
+    {
+      "sku": "327122",
+      "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Honeywell HPA300 Series Air Purifiers, 7 count"
+    },
+    {
+      "sku": "327315",
+      "name": "Breathe Naturally Replacement HEPA Filter for Coway AP-1512HH Series Air Purifiers, 2 count"
+    },
+    {
+      "sku": "1685038",
+      "name": "Dupray Bloom Air Purifier"
+    },
+    {
+      "sku": "2049390",
+      "name": "Dreo Macro Max S Smart Air Purifier"
+    },
+    {
+      "sku": "317916",
+      "name": "Lasko HEPA Filter DreamMode Premium Tower Air Purifier"
+    },
+    {
+      "sku": "230446",
+      "name": "LEVOIT Smart True Air Purifier"
+    },
+    {
+      "sku": "1499454",
+      "name": "Rabbit Air Pet Allergy MinusA2 Replacement Filter Kit"
+    },
+    {
+      "sku": "1943486",
+      "name": "IRIS WOOZOO True HEPA 500284 Air Purifier"
+    },
+    {
+      "sku": "1348510",
+      "name": "Shark Air Purifier MAX with True HEPA, Grey"
+    },
+    {
+      "sku": "1351270",
+      "name": "Shark Air Purifier 6-Fan Anti-Allergen NANOSEAL Filter with true HEPA & Advanced Odor Lock, Gray Frame"
+    },
+    {
+      "sku": "1913774",
+      "name": "Shark Air Purifier 4-Fan Anti-Allergen NANOSEAL Filter with True HEPA"
+    },
+    {
+      "sku": "327319",
+      "name": "Breathe Naturally HEPA & Carbon Replacement Filters for Coway AP-1512HH Series Air Purifiers, 5 count"
+    },
+    {
+      "sku": "2049398",
+      "name": "Dreo Macro-414 Tabletop Air Purifier"
+    },
+    {
+      "sku": "327115",
+      "name": "Breathe Naturally Replacement HEPA Filter \"R\" for Honeywell HPA100 Series Air Purifiers, 3 count"
+    },
+    {
+      "sku": "1516094",
+      "name": "LEVOIT EverestAir Smart Pet Air Purifier, White"
+    },
+    {
+      "sku": "327113",
+      "name": "Breathe Naturally Replacement HEPA Filter \"R\" for Honeywell HPA100 Series Air Purifiers, 1 count"
+    },
+    {
+      "sku": "346592",
+      "name": "EliteField Padded Reflective No Pull Dog Harness, Orange, Small: 15 to 28-in chest"
+    },
+    {
+      "sku": "346600",
+      "name": "EliteField Padded Reflective No Pull Dog Harness, Red, Small: 15 to 28-in chest"
+    },
+    {
+      "sku": "764598",
+      "name": "Canada Pooch Everything Dog Harness, Reflective Mesh, Small"
+    },
+    {
+      "sku": "346580",
+      "name": "EliteField Padded Reflective No Pull Dog Harness, Black, Small: 15 to 28-in chest"
+    },
+    {
+      "sku": "1652390",
+      "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, Small"
+    },
+    {
+      "sku": "346588",
+      "name": "EliteField Padded Reflective No Pull Dog Harness, Green, Small: 15 to 28-in chest"
+    },
+    {
+      "sku": "346584",
+      "name": "EliteField Padded Reflective No Pull Dog Harness, Blue, Small: 15 to 28-in chest"
+    },
+    {
+      "sku": "1652414",
+      "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, X-Large"
+    },
+    {
+      "sku": "764206",
+      "name": "Canada Pooch Complete Control Dog Harness, Red, Small"
+    },
+    {
+      "sku": "1603214",
+      "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Blue, X-Small:: 13-19 inches"
+    },
+    {
+      "sku": "1652398",
+      "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, Medium"
+    },
+    {
+      "sku": "1652358",
+      "name": "Canada Pooch Everything No Pull Dog Harness, Neon Pink, Small"
+    },
+    {
+      "sku": "346596",
+      "name": "EliteField Padded Reflective No Pull Dog Harness, Purple, Small: 15 to 28-in chest"
+    },
+    {
+      "sku": "1652406",
+      "name": "Canada Pooch Everything No Pull Dog Harness, Neon Green, Large"
+    },
+    {
+      "sku": "1098414",
+      "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Blue, Small/Medium: 19 to 24-in chest"
+    },
+    {
+      "sku": "764606",
+      "name": "Canada Pooch Everything Dog Harness, Reflective Mesh, Medium"
+    },
+    {
+      "sku": "764614",
+      "name": "Canada Pooch Everything Dog Harness, Reflective Mesh, Large"
+    },
+    {
+      "sku": "1603222",
+      "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Green, X-Small:: 13-19 inches"
+    },
+    {
+      "sku": "1652382",
+      "name": "Canada Pooch Everything No Pull Dog Harness, Neon Pink, X-Large"
+    },
+    {
+      "sku": "1490030",
+      "name": "Awoo Roam No Pull Dog Harness, Mauve, Small: 16 to 24-in chest"
+    },
+    {
+      "sku": "888494",
+      "name": "Awoo Roam No Pull Dog Harness, Spice, X-Small"
+    },
+    {
+      "sku": "764222",
+      "name": "Canada Pooch Complete Control Dog Harness, Red, Large"
+    },
+    {
+      "sku": "363679",
+      "name": "Awoo Roam No Pull Dog Harness, Spice, Small: 16 to 24-in chest"
+    },
+    {
+      "sku": "363670",
+      "name": "Awoo Roam No Pull Dog Harness, Olive, Small: 16 to 24-in chest"
+    },
+    {
+      "sku": "764214",
+      "name": "Canada Pooch Complete Control Dog Harness, Red, Medium"
+    },
+    {
+      "sku": "1098390",
+      "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Black, Small/Medium: 19 to 24-in chest"
+    },
+    {
+      "sku": "764166",
+      "name": "Canada Pooch Complete Control Dog Harness, Black, Small"
+    },
+    {
+      "sku": "346593",
+      "name": "EliteField Padded Reflective No Pull Dog Harness, Orange, Medium: 18 to 33-in chest"
+    },
+    {
+      "sku": "1098430",
+      "name": "PetSafe Easy Walk Comfort Reflective No Pull Dog Harness, Blue, Large: 30 to 42-in chest"
+    },
+    {
+      "sku": "363680",
+      "name": "Awoo Roam No Pull Dog Harness, Spice, Medium: 18.5 to 29-in chest"
+    },
+    {
+      "sku": "56055",
+      "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, Medium"
+    },
+    {
+      "sku": "99317",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, Medium"
+    },
+    {
+      "sku": "56053",
+      "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, X-Small"
+    },
+    {
+      "sku": "99315",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, X-Small"
+    },
+    {
+      "sku": "56054",
+      "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, Small"
+    },
+    {
+      "sku": "99311",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, Medium"
+    },
+    {
+      "sku": "99319",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, X-Large"
+    },
+    {
+      "sku": "564966",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Medium"
+    },
+    {
+      "sku": "56057",
+      "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, X-Large"
+    },
+    {
+      "sku": "99316",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, Small"
+    },
+    {
+      "sku": "99313",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, X-Large"
+    },
+    {
+      "sku": "99309",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, X-Small"
+    },
+    {
+      "sku": "56052",
+      "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, XX-Small"
+    },
+    {
+      "sku": "564958",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Small"
+    },
+    {
+      "sku": "99318",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Blue, Large"
+    },
+    {
+      "sku": "564974",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Large"
+    },
+    {
+      "sku": "564950",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Small"
+    },
+    {
+      "sku": "99310",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, Small"
+    },
+    {
+      "sku": "564982",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Large"
+    },
+    {
+      "sku": "123366",
+      "name": "ZenPet Anxiety Vest for Dogs, Medium"
+    },
+    {
+      "sku": "56058",
+      "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, XX-Large"
+    },
+    {
+      "sku": "99312",
+      "name": "American Kennel Club AKC Anxiety Vest for Dogs, Pink, Large"
+    },
+    {
+      "sku": "56056",
+      "name": "ThunderShirt Classic Anxiety & Calming Vest for Dogs, Heather Grey, Large"
+    },
+    {
+      "sku": "123365",
+      "name": "ZenPet Anxiety Vest for Dogs, Small"
+    },
+    {
+      "sku": "123364",
+      "name": "ZenPet Anxiety Vest for Dogs, X-Small"
+    },
+    {
+      "sku": "123368",
+      "name": "ZenPet Anxiety Vest for Dogs, X-Large"
+    },
+    {
+      "sku": "299090",
+      "name": "Assisi Animal Health Calmer Canine Convenience Dog Vest, Medium"
+    },
+    {
+      "sku": "123367",
+      "name": "ZenPet Anxiety Vest for Dogs, Large"
+    },
+    {
+      "sku": "123369",
+      "name": "ZenPet Anxiety Vest for Dogs, XX-Large"
+    },
+    {
+      "sku": "299088",
+      "name": "Assisi Animal Health Calmer Canine Convenience Dog Vest, X-Small"
+    },
+    {
+      "sku": "138812",
+      "name": "Canada Pooch Cooling Dog Vest, 18"
+    },
+    {
+      "sku": "138814",
+      "name": "Canada Pooch Cooling Dog Vest, 22"
+    },
+    {
+      "sku": "138813",
+      "name": "Canada Pooch Cooling Dog Vest, 20"
+    },
+    {
+      "sku": "138810",
+      "name": "Canada Pooch Cooling Dog Vest, 14"
+    },
+    {
+      "sku": "138816",
+      "name": "Canada Pooch Cooling Dog Vest, 26"
+    },
+    {
+      "sku": "138815",
+      "name": "Canada Pooch Cooling Dog Vest, 24"
+    },
+    {
+      "sku": "138811",
+      "name": "Canada Pooch Cooling Dog Vest, 16"
+    },
+    {
+      "sku": "138809",
+      "name": "Canada Pooch Cooling Dog Vest, 12"
+    },
+    {
+      "sku": "1691230",
+      "name": "allforpaws Chill Out Fresh Breeze Cooling Dog Bed, Medium"
+    },
+    {
+      "sku": "1691214",
+      "name": "allforpaws Chill Out Orange Cooling Mat Dog Bed"
+    },
+    {
+      "sku": "1715958",
+      "name": "allforpaws Chill Out Papaya Cooling Mat Dog Bed, Blue"
+    },
+    {
+      "sku": "258142",
+      "name": "Canada Pooch Cooling Dog Vest, Rainbow, 18"
+    },
+    {
+      "sku": "258141",
+      "name": "Canada Pooch Cooling Dog Vest, Rainbow, 16"
+    },
+    {
+      "sku": "258140",
+      "name": "Canada Pooch Cooling Dog Vest, Rainbow, 14"
+    },
+    {
+      "sku": "258143",
+      "name": "Canada Pooch Cooling Dog Vest, Rainbow, 20"
+    },
+    {
+      "sku": "758566",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 18"
+    },
+    {
+      "sku": "258146",
+      "name": "Canada Pooch Cooling Dog Vest, Rainbow, 26"
+    },
+    {
+      "sku": "758574",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 20"
+    },
+    {
+      "sku": "758550",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 14"
+    },
+    {
+      "sku": "758590",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 24"
+    },
+    {
+      "sku": "758558",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 16"
+    },
+    {
+      "sku": "1467550",
+      "name": "Canada Pooch Cooling Dog Vest, Watermelon, 22"
+    },
+    {
+      "sku": "1467606",
+      "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Medium/Large"
+    },
+    {
+      "sku": "1467598",
+      "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Small/Medium"
+    },
+    {
+      "sku": "1691206",
+      "name": "allforpaws Chill Out Kiwi Cooling Mat Dog Bed"
+    },
+    {
+      "sku": "258159",
+      "name": "Canada Pooch Cooling Dog Vest, Tie Dye, 28"
+    },
+    {
+      "sku": "258153",
+      "name": "Canada Pooch Cooling Dog Vest, Tie Dye, 16"
+    },
+    {
+      "sku": "1467590",
+      "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Small"
+    },
+    {
+      "sku": "1467622",
+      "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, X-large"
+    },
+    {
+      "sku": "1467614",
+      "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Large"
+    }
+  ]
+}

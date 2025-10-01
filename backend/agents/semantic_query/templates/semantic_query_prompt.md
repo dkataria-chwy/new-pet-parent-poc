@@ -4,9 +4,10 @@ Compose multi-slot retrieval queries for pet products.
 - If an attribute is missing, omit it.
 - Keep the provided filters.pc1.
 - Maintain MUSTS (species, lifestage, size/variant, allergens) in every slot.
-- Use your pet-care domain knowledge non-exhaustively to anticipate what this pet typically needs this month (for its age/breed size/living context), and add any other justified needs beyond the examples, as long as they map to allowed families.
-- Weather: use alerts first; if none apply, use the 7-day forecast and the thresholds from the system message to decide whether to add cooling (heat) or winter_gear (freeze).
-- Calendar: use events only if within the event window or days_to_event ≤ 14 and confidence ≥ 0.6. Map slot_triggers_seed as described in the system message.
+- Use your pet‑care knowledge to pick ALL relevant semantic product types and variations this pet needs this month. Generate comprehensive coverage.
+- Calendar: use events only if within window or days_to_event ≤ 14 and confidence ≥ 0.6.
+- Embedding focus: each embedding_query is a semicolon‑separated facet bag; include only facets that add signal; avoid contradictions.
+- Brand preferences (if any): list in brand_bias and optionally add as a soft OR at the end of bm25_query. Only put brand in embedding_query if inputs mark it a must.
 
 ### Inputs
 
@@ -17,7 +18,7 @@ Compose multi-slot retrieval queries for pet products.
 {{user_profile_json}}
 
 #### order_history (optional)
-{{order_history_json}}
+<!-- {{order_history_json}} -->
 
 #### weather_context
 {{weather_json}}
@@ -28,16 +29,21 @@ Compose multi-slot retrieval queries for pet products.
 #### catalog_hard_filters
 {{catalog_filters_json}}
 
+#### Available Categories (prefer these, but custom values allowed for important pet needs)
+
+**top_family options:**
+{{top_family_enums}}
+
+**family options:**
+{{family_enums}}
+
 ### Constraints
 
-- 1–8 slots.
+- Produce as many slots as you think are truly relevant for this pet now…
 - Specify both top_family (department) and family (intent) per slot.
-- Families allowed for family: see schema enum.
-- embedding_query = 200–400 chars; grounded; include variant cues + lifestage + allergens (brand preferences only as preferences).
+- embedding_query = facet-bag format, max 300 chars; semicolon-separated facets only; focus on relevant semantic signals for this pet.
 - bm25_query = literal tokens with boolean ops; include negatives as needed (e.g., NOT rawhide).
 - filters must include pc1 exactly as provided.
-- Do not reference MC1–4 or PC2/PC3 unless provided by the caller.
-- If weather/calendar do not qualify, skip those slots.
 
 ### Output
 

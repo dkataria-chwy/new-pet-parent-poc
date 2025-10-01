@@ -1,0 +1,3 @@
+Delete from family enum in schema json
+// ,"Seasonal Essentials","Emergency Essentials",
+              // "Life Transition – New Adoption","Life Transition – Senior Care","Event/Travel Essentials"
