@@ -20,7 +20,8 @@ Options:
 - "gpt-4.1-2025-04-14" (fallback/alternative)
 - "auto" (try primary, then fallback on timeout)
 """
-MODEL_SELECTION = "gpt-4.1-2025-04-14"
+# MODEL_SELECTION = "gpt-4.1-2025-04-14"
+MODEL_SELECTION = "gpt-5-mini-2025-08-07"
 
 # Canonical model IDs
 MODEL_PRIMARY = "gpt-5-2025-08-07"
@@ -41,6 +42,82 @@ def _load_text(p: Path) -> str:
 def _load_schema() -> Dict[str, Any]:
     schema_path = TEMPLATES_DIR / "schema.json"
     return json.loads(_load_text(schema_path))
+
+
+def _create_relaxed_schema(original_schema: Dict[str, Any]) -> Dict[str, Any]:
+    """Create a relaxed schema that skips enum validation for top_family and family."""
+    import copy
+    relaxed_schema = copy.deepcopy(original_schema)
+    
+    try:
+        # Navigate to slots.items.properties
+        slot_props = relaxed_schema["properties"]["slots"]["items"]["properties"]
+        
+        # Remove enum constraints for top_family and family, keep them as strings
+        if "top_family" in slot_props and "enum" in slot_props["top_family"]:
+            slot_props["top_family"] = {"type": "string"}
+            
+        if "family" in slot_props and "enum" in slot_props["family"]:
+            slot_props["family"] = {"type": "string"}
+            
+    except KeyError as e:
+        _log(f"Warning: Could not relax schema structure: {e}")
+    
+    return relaxed_schema
+
+
+def _extract_schema_enums(schema: Dict[str, Any]) -> Dict[str, str]:
+    """Extract enum values from schema for template rendering."""
+    try:
+        slot_props = schema["properties"]["slots"]["items"]["properties"]
+        
+        # Extract top_family enums
+        top_family_enums = slot_props.get("top_family", {}).get("enum", [])
+        top_family_str = ", ".join(f'"{enum}"' for enum in top_family_enums)
+        
+        # Extract family enums
+        family_enums = slot_props.get("family", {}).get("enum", [])
+        # Format family enums in a more readable way (limit to avoid overwhelming)
+        family_str = ", ".join(f'"{enum}"' for enum in family_enums[:50])  # Show first 50
+        if len(family_enums) > 50:
+            family_str += f", ... and {len(family_enums) - 50} more"
+        
+        return {
+            "top_family_enums": top_family_str,
+            "family_enums": family_str
+        }
+    except Exception as e:
+        _log(f"Warning: Could not extract schema enums: {e}")
+        return {
+            "top_family_enums": "Schema enums not available",
+            "family_enums": "Schema enums not available"
+        }
+
+
+def _validate_enum_values(data: Dict[str, Any], original_schema: Dict[str, Any]) -> None:
+    """Log warnings for unknown enum values without failing validation."""
+    try:
+        # Extract valid enums from original schema
+        slot_props = original_schema["properties"]["slots"]["items"]["properties"]
+        valid_top_families = set(slot_props.get("top_family", {}).get("enum", []))
+        valid_families = set(slot_props.get("family", {}).get("enum", []))
+        
+        # Check each slot for unknown values
+        slots = data.get("slots", [])
+        for i, slot in enumerate(slots):
+            if isinstance(slot, dict):
+                top_family = slot.get("top_family")
+                family = slot.get("family")
+                slot_id = slot.get("slot_id", f"slot_{i}")
+                
+                if top_family and top_family not in valid_top_families:
+                    _log(f"⚠️  Unknown top_family '{top_family}' in {slot_id} (will be preserved)")
+                    
+                if family and family not in valid_families:
+                    _log(f"⚠️  Unknown family '{family}' in {slot_id} (will be preserved)")
+                    
+    except Exception as e:
+        _log(f"Warning: Could not validate enum values: {e}")
 
 
 def _normalize_output(data: Dict[str, Any]) -> Dict[str, Any]:
@@ -96,6 +173,49 @@ def _normalize_output(data: Dict[str, Any]) -> Dict[str, Any]:
 
 def _log(message: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {message}", file=sys.stderr, flush=True)
+
+
+def _build_correction_prompt(error_message: str, schema: Dict[str, Any]) -> str:
+    """Build a comprehensive correction prompt with context and examples."""
+    
+    # Extract enum values for guidance
+    slot_schema = schema.get("properties", {}).get("slots", {}).get("items", {}).get("properties", {})
+    top_family_enums = slot_schema.get("top_family", {}).get("enum", [])
+    
+    prompt = f"""Your JSON output failed validation with this error: {error_message}
+
+Please fix the JSON and return ONLY the corrected JSON. Common issues and fixes:
+
+**Required Fields (every slot must have):**
+- slot_id: string (e.g., "nutrition_001", "calming_002")
+- top_family: one of {top_family_enums[:8]}... (or custom value for important pet needs)
+- family: string describing the specific family
+- rationale: string explaining why this slot was generated
+- musts: array of strings (positive constraints only)
+- negatives: array of strings (MANDATORY - allergens and exclusions, can be empty [])
+- embedding_query: string max 300 chars (facet-bag format: "dog; puppy; dry-kibble; mars" etc. - NO allergen terms)
+- bm25_query: string (boolean search terms)
+- filters: object with pc1 field (species filter)
+- top_k: integer 20-40
+
+**Evidence Structure:**
+- evidence.pet_profile: array of strings
+- evidence.calendar: array of strings
+- evidence.weather: array of strings
+
+**Data Types:**
+- top_k must be integer, not string
+- Arrays must be [...], not single values
+- Use schema enum values when possible, but custom values are allowed for important pet needs
+
+**CRITICAL ALLERGEN RULE:**
+- NEVER put allergen terms (no-duck, chicken-free, grain-free) in embedding_query
+- ALL allergens MUST go in negatives field only
+- embedding_query should focus on positive product attributes + brands
+
+Return the corrected JSON now:"""
+    
+    return prompt
 
 
 def _save_output_and_history(journey_id: str, month_idx: int, result_data: Dict[str, Any]) -> None:
@@ -184,8 +304,14 @@ def compose_queries(
     _log("Loading and rendering prompts...")
     system_prompt = _load_text(TEMPLATES_DIR / "system_prompt.md")
     user_template = load_prompt(str(TEMPLATES_DIR / "semantic_query_prompt.md"))
+    original_schema = _load_schema()
+    
+    # Add schema enums to template variables
+    schema_enums = _extract_schema_enums(original_schema)
+    variables.update(schema_enums)
+    
     user_prompt = render_prompt(user_template, variables)
-    schema = _load_schema()
+    relaxed_schema = _create_relaxed_schema(original_schema)
 
     messages = [
         {"role": "system", "content": system_prompt},
@@ -231,19 +357,19 @@ def compose_queries(
     except Exception as e:
         raise RuntimeError(f"Model did not return JSON: {e}\n{text}")
 
-    # Validate against schema; if invalid, ask for corrected JSON once
+    # Validate against relaxed schema; if invalid, ask for corrected JSON once
     try:
         _log("Normalizing and validating output (pass 1)...")
         data = _normalize_output(data)
-        validate(instance=data, schema=schema)
+        validate(instance=data, schema=relaxed_schema)
+        _validate_enum_values(data, original_schema)  # Log warnings for unknown enums
         _log("Validation succeeded (pass 1).")
         _save_output_and_history(journey_id, month_idx, data)
         return data
     except ValidationError as ve:
         _log(f"Validation failed (pass 1): {ve.message}. Requesting correction...")
-        correction_prompt = (
-            f"Output failed schema: {ve.message}. Return corrected JSON only."
-        )
+        correction_prompt = _build_correction_prompt(ve.message, original_schema)  # Use original schema for guidance
+        _log(f"Correction prompt sent to LLM:\n{correction_prompt}")
         messages.append({"role": "assistant", "content": json.dumps(data)})
         messages.append({"role": "user", "content": correction_prompt})
         _log("Calling model for corrected JSON...")
@@ -252,10 +378,29 @@ def compose_queries(
         data2 = json.loads(text2)
         _log("Normalizing and validating output (pass 2)...")
         data2 = _normalize_output(data2)
-        validate(instance=data2, schema=schema)
-        _log("Validation succeeded (pass 2).")
-        _save_output_and_history(journey_id, month_idx, data2)
-        return data2
+        try:
+            validate(instance=data2, schema=relaxed_schema)
+            _validate_enum_values(data2, original_schema)  # Log warnings for unknown enums
+            _log("Validation succeeded (pass 2).")
+            _save_output_and_history(journey_id, month_idx, data2)
+            return data2
+        except ValidationError as ve2:
+            _log(f"Validation failed (pass 2): {ve2.message}. Final attempt...")
+            # Pass 3: Simple, direct correction
+            final_prompt = f"Your JSON still has errors: {ve2.message}\n\nFix this specific error and return ONLY valid JSON:"
+            _log(f"Final correction prompt: {final_prompt}")
+            messages.append({"role": "assistant", "content": json.dumps(data2)})
+            messages.append({"role": "user", "content": final_prompt})
+            resp3 = _create_with_selection(messages)
+            text3 = resp3.choices[0].message.content
+            data3 = json.loads(text3)
+            _log("Normalizing and validating output (pass 3)...")
+            data3 = _normalize_output(data3)
+            validate(instance=data3, schema=relaxed_schema)
+            _validate_enum_values(data3, original_schema)  # Log warnings for unknown enums
+            _log("Validation succeeded (pass 3).")
+            _save_output_and_history(journey_id, month_idx, data3)
+            return data3
 
 
 if __name__ == "__main__":
@@ -268,5 +413,3 @@ if __name__ == "__main__":
     month_idx = int(sys.argv[2])
     result = compose_queries(journey_id, month_idx)
     print(json.dumps(result, indent=2, ensure_ascii=False))
-
-

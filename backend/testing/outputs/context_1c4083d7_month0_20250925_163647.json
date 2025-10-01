@@ -1,0 +1,351 @@
+{
+  "journey": {
+    "id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+    "petId": "d3764777-be9e-455f-9133-c630f6218a07",
+    "monthIdx": 0,
+    "decisions": {
+      "0": {
+        "subscriptions": {
+          "sub_puppy_food_1": true,
+          "sub_dog_treats_1": true,
+          "sub_puppy_vitamins_1": true
+        }
+      }
+    },
+    "prevMonthSummary": {
+      "accepted": [],
+      "skipped": []
+    }
+  },
+  "pet": {
+    "id": "d3764777-be9e-455f-9133-c630f6218a07",
+    "name": "AJ",
+    "species": "dog",
+    "breed": "Pug",
+    "ageMonths": 5,
+    "gender": "male",
+    "weightLbs": 40.0,
+    "heightAtShoulderInches": 6.0,
+    "activityLevel": "high",
+    "chewStrength": "strong",
+    "allergies": "Duck",
+    "about": "AJ is very energetic and very strong.",
+    "zipCode": "98052",
+    "budgetBand": "moderate",
+    "householdType": "apartment",
+    "yardAccess": "large_yard",
+    "brandPreferences": "Mars"
+  },
+  "calendar": {
+    "window": {
+      "start": "2025-09-25",
+      "end": "2025-10-25",
+      "tz": "America/Los_Angeles",
+      "month_start": "2025-09-01"
+    },
+    "location": {
+      "zip": "98052",
+      "state": null
+    },
+    "events": [
+      {
+        "id": "flea_tick_season_start_2025",
+        "date": "2025-04-01",
+        "label": "Flea & Tick Season Start",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "stress_inducing",
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "flea_tick_prevention",
+          "grooming"
+        ],
+        "hints": "Parasite activity increases",
+        "window": {
+          "from": "2025-03-18",
+          "to": "2025-09-28"
+        },
+        "confidence": 0.85,
+        "rationale": "Parasite activity increases",
+        "days_to_event": -177,
+        "pet_impact": "negative"
+      },
+      {
+        "id": "construction_season_2025",
+        "date": "2025-04-01",
+        "label": "Construction Season",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "stress_inducing",
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "calming_noise",
+          "white_noise",
+          "anxiety_construction"
+        ],
+        "hints": "Road work and building projects increase",
+        "window": {
+          "from": "2025-01-01",
+          "to": "2025-09-28"
+        },
+        "confidence": 0.7,
+        "rationale": "Road work and building projects increase",
+        "days_to_event": -177,
+        "pet_impact": "negative"
+      },
+      {
+        "id": "school_bell_schedule_2025",
+        "date": "2025-08-25",
+        "label": "School Year Schedule",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "routine_adjustment",
+          "schedule_training"
+        ],
+        "hints": "Regular bell sounds and activity",
+        "window": {
+          "from": "2025-02-26",
+          "to": "2026-02-21"
+        },
+        "confidence": 0.7,
+        "rationale": "Regular bell sounds and activity",
+        "days_to_event": -31,
+        "pet_impact": "neutral"
+      },
+      {
+        "id": "shedding_season_fall_2025",
+        "date": "2025-09-01",
+        "label": "Fall Shedding Season",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "grooming",
+          "deshedding_tools"
+        ],
+        "hints": "Winter coat preparation shedding",
+        "window": {
+          "from": "2025-08-18",
+          "to": "2025-10-16"
+        },
+        "confidence": 0.85,
+        "rationale": "Winter coat preparation shedding",
+        "days_to_event": -24,
+        "pet_impact": "neutral"
+      },
+      {
+        "id": "allergy_season_fall_2025",
+        "date": "2025-09-01",
+        "label": "Fall Allergy Season",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "stress_inducing",
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "allergy_support",
+          "air_filter",
+          "grooming"
+        ],
+        "hints": "Ragweed and mold allergens",
+        "window": {
+          "from": "2025-08-02",
+          "to": "2025-10-31"
+        },
+        "confidence": 0.75,
+        "rationale": "Ragweed and mold allergens",
+        "days_to_event": -24,
+        "pet_impact": "negative"
+      },
+      {
+        "id": "fall_equinox_2025",
+        "date": "2025-09-22",
+        "label": "Fall Equinox",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "routine_adjustment",
+          "indoor_enrichment"
+        ],
+        "hints": "Daylight changes affect routines",
+        "window": {
+          "from": "2025-09-15",
+          "to": "2025-10-06"
+        },
+        "confidence": 0.6,
+        "rationale": "Daylight changes affect routines",
+        "days_to_event": -3,
+        "pet_impact": "neutral"
+      },
+      {
+        "id": "world_rabies_day_2025",
+        "date": "2025-09-28",
+        "label": "World Rabies Day",
+        "category": "pet_specific",
+        "pet_relevance_tags": [
+          "enriching",
+          "pet_focused"
+        ],
+        "slot_triggers_seed": [
+          "vet_visit_prep",
+          "calming"
+        ],
+        "hints": "Vaccination awareness and vet visits",
+        "window": {
+          "from": "2025-09-21",
+          "to": "2025-10-05"
+        },
+        "confidence": 0.65,
+        "rationale": "Vaccination awareness and vet visits",
+        "days_to_event": 3,
+        "pet_impact": "positive"
+      },
+      {
+        "id": "hunting_season_2025",
+        "date": "2025-10-01",
+        "label": "Hunting Season",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "stress_inducing",
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "calming_gunshots",
+          "reflective_gear",
+          "leash_safety"
+        ],
+        "hints": "Gunshot sounds in rural areas",
+        "window": {
+          "from": "2025-07-03",
+          "to": "2026-01-29"
+        },
+        "confidence": 0.65,
+        "rationale": "Gunshot sounds in rural areas",
+        "days_to_event": 6,
+        "pet_impact": "negative"
+      },
+      {
+        "id": "leaf_blower_season_2025",
+        "date": "2025-10-01",
+        "label": "Leaf Blower Season",
+        "category": "seasonal",
+        "pet_relevance_tags": [
+          "stress_inducing",
+          "seasonal_adjustment"
+        ],
+        "slot_triggers_seed": [
+          "calming_noise",
+          "anxiety_equipment"
+        ],
+        "hints": "Loud landscaping equipment use",
+        "window": {
+          "from": "2025-08-02",
+          "to": "2025-11-30"
+        },
+        "confidence": 0.75,
+        "rationale": "Loud landscaping equipment use",
+        "days_to_event": 6,
+        "pet_impact": "negative"
+      }
+    ],
+    "generated_at": "2025-09-25T16:36:47.436943-07:00"
+  },
+  "weather": {
+    "location": {
+      "zip": "98052",
+      "state": "WA"
+    },
+    "current": {
+      "temperature_f": 82.0,
+      "temperature_c": 27.8,
+      "conditions": "Clear",
+      "humidity": 50.0,
+      "wind_speed_mph": 5.0
+    },
+    "forecast": [
+      {
+        "date": "2025-09-25",
+        "high_f": 82.0,
+        "low_f": 72.0,
+        "high_c": 27.8,
+        "low_c": 22.200000000000003,
+        "conditions": "Clear"
+      },
+      {
+        "date": "2025-09-26",
+        "high_f": 62.0,
+        "low_f": 52.0,
+        "high_c": 16.7,
+        "low_c": 11.1,
+        "conditions": "Clear"
+      },
+      {
+        "date": "2025-09-27",
+        "high_f": 78.0,
+        "low_f": 68.0,
+        "high_c": 25.6,
+        "low_c": 20.0,
+        "conditions": "Clear"
+      },
+      {
+        "date": "2025-09-28",
+        "high_f": 68.0,
+        "low_f": 58.0,
+        "high_c": 20.0,
+        "low_c": 14.4,
+        "conditions": "Clear"
+      },
+      {
+        "date": "2025-09-29",
+        "high_f": 78.0,
+        "low_f": 68.0,
+        "high_c": 25.6,
+        "low_c": 20.0,
+        "conditions": "Clear"
+      },
+      {
+        "date": "2025-09-30",
+        "high_f": 84.0,
+        "low_f": 74.0,
+        "high_c": 28.9,
+        "low_c": 23.299999999999997,
+        "conditions": "Clear"
+      },
+      {
+        "date": "2025-10-01",
+        "high_f": 82.0,
+        "low_f": 72.0,
+        "high_c": 27.8,
+        "low_c": 22.200000000000003,
+        "conditions": "Clear"
+      }
+    ],
+    "triggers": [
+      {
+        "id": "csv_excessive_heat_warning",
+        "event": "excessive_heat_warning",
+        "urgency": "expected",
+        "severity": "moderate",
+        "certainty": "likely"
+      }
+    ],
+    "alerts": [
+      {
+        "event": "excessive_heat_warning"
+      }
+    ],
+    "raw": {
+      "provider": "csv"
+    },
+    "generated_at": "2025-09-25 16:36:47.573044-07:00"
+  },
+  "nowIso": "2025-09-25T16:36:47.573065-07:00"
+}

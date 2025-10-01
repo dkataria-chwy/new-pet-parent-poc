@@ -1,0 +1,327 @@
+{
+  "slots": [
+    {
+      "slot_id": "Gear_Travel_Beds_001",
+      "top_family": "Gear/Travel",
+      "family": "Beds",
+      "rationale": "excessive heat alert + apartment walks \u2192 portable low-profile cooling bed for an active puppy to relieve heat and stay comfortable indoors/outdoors",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; beds; cooling-mat; low-profile; washable-cover; non-slip; medium-size; heat-relief; portable; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (\"cooling mat\" OR \"cooling-mat\" OR \"cooling pad\") AND (\"low profile\" OR \"low-profile\") NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 8",
+          "explicit: weight_lb: 40.0"
+        ],
+        "calendar": [],
+        "weather": [
+          "excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Apparel_Outdoor_Apparel_002",
+      "top_family": "Apparel",
+      "family": "Outdoor Apparel",
+      "rationale": "excessive heat alert + high activity \u2192 lightweight breathable cooling vest for medium-size puppy for safe, cooler apartment walks",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; outdoor-apparel; cooling-vest; breathable; adjustable-medium; reflective; lightweight; heat-relief; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (\"cooling vest\" OR \"cooling-vest\") AND (breathable OR lightweight) AND (adjustable OR adjustable-medium) NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 8",
+          "explicit: chew_strength: strong",
+          "explicit: activity: high"
+        ],
+        "calendar": [],
+        "weather": [
+          "excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Food_Nutrition_Dry_Kibble_003",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "rationale": "puppy (growth) + high activity \u2192 medium-breed puppy dry kibble with higher calories, DHA and probiotics for development and energy",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; dry-kibble; medium-breed; medium-bites; high-energy; dha; probiotics; controlled-calcium; growth-formula; digestible; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (\"dry kibble\" OR \"dry-kibble\") AND (\"medium bites\" OR \"medium-bites\") AND DHA AND probiotics NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 8",
+          "explicit: weight_lb: 40.0",
+          "explicit: activity: high"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Food_Nutrition_Wet_Canned_004",
+      "top_family": "Food/Nutrition",
+      "family": "Wet Canned",
+      "rationale": "heat alert \u2192 higher-moisture wet food or toppers to support hydration and palatability for an active puppy",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; wet-canned; toppers; high-moisture; pate; gravy; medium-portion; enticement; palatability; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (\"wet canned\" OR \"wet-canned\") AND (toppers OR topper OR gravy OR pate) NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 8",
+          "explicit: activity: high"
+        ],
+        "calendar": [],
+        "weather": [
+          "excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Feeding_Bowls_Bowls_and_Diners_005",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "rationale": "heat alert + on-the-go hydration needs \u2192 stainless steel, non-tip and collapsible travel bowls for walks and yard time",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; bowls-diners; stainless-steel; non-tip; collapsible-travel; medium-capacity; easy-clean; portable-hydration; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (\"stainless steel bowl\" OR \"collapsible bowl\" OR \"travel bowl\") AND (non-tip OR non tip) NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 8"
+        ],
+        "calendar": [],
+        "weather": [
+          "excessive_heat_warning"
+        ]
+      }
+    },
+    {
+      "slot_id": "Leashes_Collars_Harness_006",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "rationale": "strong chewer + high activity + apartment walks + hunting/leaf-blower season \u2192 durable, adjustable padded harness with reflective features for control and safety",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; harness-leash; no-pull; reflective; adjustable-medium; padded; durable-buckles; apartment-walks; secure-fit; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (harness OR \"no-pull harness\" OR \"harness-leash\") AND (reflective OR \"reflective strips\") NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: chew_strength: strong",
+          "explicit: activity: high",
+          "explicit: house_type: apartment"
+        ],
+        "calendar": [
+          "hunting_season_2025",
+          "leaf_blower_season_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Toys_Chews_Toys_007",
+      "top_family": "Toys/Chews",
+      "family": "Toys",
+      "rationale": "very energetic and very strong puppy \u2192 durable rubber/nylon interactive chew and fetch toys sized for a medium puppy to satisfy chewing and exercise",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; toys; chew-toys; durable; rubber; kong-style; large-durable; heavy-chewers; interactive-fetch; non-toxic; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (\"durable chew\" OR \"chew toy\" OR \"kong\") AND (rubber OR nylon) NOT rawhide NOT Duck OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: chew_strength: strong",
+          "explicit: activity: high",
+          "explicit: about: AJ is very energetic and very strong."
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Health_Wellness_VOHC_Dental_Chews_008",
+      "top_family": "Health & Wellness",
+      "family": "VOHC Dental Chews",
+      "rationale": "dental baseline for puppy with strong chewing \u2192 VOHC-accepted dental chews sized for medium puppy to help control plaque and support oral care",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; vohc-dental-chews; medium-size; designed-strong-chewers; dental-plaque; breath-freshening; enzymatic; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (VOHC OR \"VOHC dental\" OR \"dental chews\") AND (medium OR \"medium size\") NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 8",
+          "explicit: chew_strength: strong"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Grooming_Hygiene_Brushes_009",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes & Combs",
+      "rationale": "fall shedding + allergy season + pug breed \u2192 deshedding brush and gentle bristle tools to reduce loose hair and indoor allergens in an apartment",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; brushes-combs; deshedding; short-hair; bristle-tool; shedding-season; gentle-on-skin; apartment-shedding; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (deshedding OR \"deshedding tool\" OR \"de-shedding\") AND (\"short hair\" OR \"short-hair\") NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: breed: Pug"
+        ],
+        "calendar": [
+          "shedding_season_fall_2025",
+          "allergy_season_fall_2025"
+        ],
+        "weather": []
+      }
+    },
+    {
+      "slot_id": "Health_Wellness_Brush_Enzymatic_Paste_010",
+      "top_family": "Health & Wellness",
+      "family": "Brush & Enzymatic Paste",
+      "rationale": "puppy dental care foundation \u2192 finger brush, soft bristle toothbrush and enzymatic toothpaste formulated for puppies",
+      "musts": [
+        "species:dog",
+        "lifestage:puppy",
+        "size:medium"
+      ],
+      "negatives": [
+        "Duck",
+        "rawhide"
+      ],
+      "embedding_query": "dog; puppy; brush-enzymatic-paste; finger-brush; soft-bristles; enzymatic-toothpaste; daily-use; puppy-safe; gentle-formula; mars",
+      "bm25_query": "\"dog\" AND \"puppy\" AND (\"enzymatic toothpaste\" OR \"enzymatic-toothpaste\") AND (\"finger brush\" OR \"soft brush\") NOT Duck NOT rawhide OR (Mars)",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 30,
+      "evidence": {
+        "pet_profile": [
+          "explicit: species: dog",
+          "explicit: age_months: 8"
+        ],
+        "calendar": [],
+        "weather": []
+      }
+    }
+  ],
+  "safety": {
+    "enforce_allergens": true,
+    "species_lock": true
+  },
+  "fusion": {
+    "strategy": "rrf",
+    "k": 60
+  }
+}

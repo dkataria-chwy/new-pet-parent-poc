@@ -1,0 +1,425 @@
+{
+  "slots": [
+    {
+      "top_family": "Food/Nutrition",
+      "family": "Puppy Dry Food (Duck-Free)",
+      "slot_id": "Food_Nutrition_001",
+      "rationale": "5-month-old dog with duck allergy needs balanced puppy kibble avoiding duck proteins.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 80,
+      "embedding_query": "dog; puppy; dry-kibble; all-breed; duck-free; dha; omega-3; probiotics",
+      "bm25_query": "dog puppy (\"dry kibble\" OR kibble) DHA probiotics NOT duck",
+      "musts": [
+        "dog",
+        "puppy",
+        "duck-free"
+      ],
+      "negatives": [
+        "duck"
+      ],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "allergies: Duck"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Treats",
+      "family": "Training Treats (Duck-Free)",
+      "slot_id": "Treats_001",
+      "rationale": "Young, energetic puppy needs soft, small training treats without duck allergens.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 70,
+      "embedding_query": "dog; puppy; training-treats; soft-moist; small-bites; duck-free; low-calorie",
+      "bm25_query": "dog puppy (\"training treats\" OR \"training bites\" OR \"soft treats\") NOT duck",
+      "musts": [
+        "dog",
+        "puppy",
+        "duck-free",
+        "small-bites"
+      ],
+      "negatives": [
+        "duck"
+      ],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "activity: high",
+          "allergies: Duck"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Toys/Chews",
+      "family": "Puppy Teething Chews (No Rawhide)",
+      "slot_id": "Toys_Chews_001",
+      "rationale": "Strong-chewing puppy needs durable, puppy-safe teething toys; avoid rawhide for safety.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 80,
+      "embedding_query": "dog; puppy; teething-chew; puppy-safe; strong-chewer; natural-rubber; textured; no-rawhide; large",
+      "bm25_query": "dog puppy (\"teething chew\" OR \"puppy chew\" OR \"teething toy\") (rubber OR \"natural rubber\") NOT rawhide large",
+      "musts": [
+        "dog",
+        "puppy",
+        "no-rawhide",
+        "large"
+      ],
+      "negatives": [
+        "rawhide"
+      ],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "chew_strength: strong",
+          "weight_lb: 40.0"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Toys/Chews",
+      "family": "Puzzle Feeders & Treat Dispensers",
+      "slot_id": "Toys_Chews_002",
+      "rationale": "High-activity puppy benefits from enrichment and slower feeding with durable puzzle toys sized appropriately.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 80,
+      "embedding_query": "dog; puppy; puzzle-feeder; treat-dispensing-toy; puppy-safe; durable; natural-rubber; strong-chewer; large",
+      "bm25_query": "dog puppy (\"puzzle toy\" OR \"treat dispensing\" OR \"food puzzle\") durable (rubber OR \"natural rubber\") large",
+      "musts": [
+        "dog",
+        "puppy",
+        "large"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "activity: high",
+          "chew_strength: strong",
+          "weight_lb: 40.0"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Health & Wellness",
+      "family": "Puppy Dental Care (VOHC, Duck-Free Chews)",
+      "slot_id": "Health_Wellness_001",
+      "rationale": "Puppy needs dental hygiene; select VOHC options and avoid duck in ingestible chews due to allergy.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 75,
+      "embedding_query": "dog; puppy; dental-care; VOHC; dental-chews; enzymatic-toothpaste; toothbrush; finger-brush; duck-free; no-rawhide; large",
+      "bm25_query": "dog puppy (VOHC OR enzymatic) (\"dental chew\" OR toothpaste OR toothbrush OR \"finger brush\") NOT rawhide NOT duck large",
+      "musts": [
+        "dog",
+        "puppy",
+        "duck-free",
+        "no-rawhide",
+        "large"
+      ],
+      "negatives": [
+        "rawhide",
+        "duck"
+      ],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "allergies: Duck",
+          "weight_lb: 40.0"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Flea & Tick",
+      "family": "Puppy Flea & Tick Prevention",
+      "slot_id": "Flea_Tick_001",
+      "rationale": "Active puppy needs age/weight-appropriate flea & tick protection; season is active now.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 70,
+      "embedding_query": "dog; puppy; flea-tick-prevention; oral-chew; topical-spot-on; fast-acting; large-dog",
+      "bm25_query": "dog puppy (flea AND tick) (chew OR tablet OR topical OR \"spot on\") \"large dog\"",
+      "musts": [
+        "dog",
+        "puppy",
+        "large-dog"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "weight_lb: 40.0"
+        ],
+        "weather": [],
+        "calendar": [
+          "flea_tick_season_start_2025"
+        ]
+      }
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Deshedding & Curry Tools",
+      "slot_id": "Grooming_Hygiene_001",
+      "rationale": "Short-coated pug puppy in fall shedding season benefits from gentle deshedding tools.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 60,
+      "embedding_query": "dog; puppy; short-coat; deshedding-brush; rubber-curry; grooming-glove; gentle",
+      "bm25_query": "dog puppy (deshedding OR \"rubber curry\" OR \"grooming glove\") \"short coat\"",
+      "musts": [
+        "dog",
+        "puppy",
+        "short-coat"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "breed: Pug",
+          "age_months: 5"
+        ],
+        "weather": [],
+        "calendar": [
+          "shedding_season_fall_2025"
+        ]
+      }
+    },
+    {
+      "top_family": "Leashes/Collars",
+      "family": "No-Pull Harness",
+      "slot_id": "Leashes_Collars_001",
+      "rationale": "Energetic, strong puppy needs front-clip no-pull control; size up for 40 lb body.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 70,
+      "embedding_query": "dog; puppy; harness; no-pull; front-clip; reflective; padded; adjustable; large",
+      "bm25_query": "dog puppy harness (\"no-pull\" OR \"front clip\") reflective padded adjustable large",
+      "musts": [
+        "dog",
+        "puppy",
+        "large"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "weight_lb: 40.0",
+          "activity: high",
+          "about: AJ is very energetic and very strong."
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Feeding/Bowls",
+      "family": "Flat-Face Slow Feeder Bowl",
+      "slot_id": "Feeding_Bowls_001",
+      "rationale": "Brachycephalic pug puppy benefits from shallow, flat-face bowl; slow feeder helps pace eating.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 60,
+      "embedding_query": "dog; puppy; flat-face-bowl; shallow-bowl; slow-feeder; non-slip; stainless-steel",
+      "bm25_query": "dog puppy (brachycephalic OR \"flat face\" OR \"shallow bowl\") (\"slow feeder\" OR bowl) stainless non-slip",
+      "musts": [
+        "dog",
+        "puppy",
+        "flat-face-bowl"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "breed: Pug",
+          "age_months: 5"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling Gear",
+      "slot_id": "Seasonal_Environment_001",
+      "rationale": "Excessive heat warning; active puppy needs cooling mat/vest and elevated cot for heat relief.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 70,
+      "embedding_query": "dog; puppy; cooling; cooling-mat; cooling-vest; cooling-bandana; elevated-cot; portable-water-bottle; large",
+      "bm25_query": "dog puppy (\"cooling mat\" OR \"cooling vest\" OR \"cooling bandana\" OR \"elevated cot\" OR \"cooling bed\")",
+      "musts": [
+        "dog",
+        "puppy",
+        "cooling"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "activity: high"
+        ],
+        "weather": [
+          "excessive_heat_warning"
+        ],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Litter/Waste",
+      "family": "Waste Bags & Dispensers",
+      "slot_id": "Litter_Waste_001",
+      "rationale": "Puppy owner needs steady supply of leak-proof waste bags for daily walks.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 60,
+      "embedding_query": "dog; puppy; poop-bags; waste-bags; dispenser; leak-proof; thick",
+      "bm25_query": "dog puppy (\"poop bags\" OR \"waste bags\") dispenser leak-proof",
+      "musts": [
+        "dog",
+        "puppy"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Training/Tech",
+      "family": "Clicker & Treat Pouch",
+      "slot_id": "Training_Tech_001",
+      "rationale": "High-energy puppy benefits from consistent training tools for walks and sessions.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 60,
+      "embedding_query": "dog; puppy; clicker; treat-pouch; belt-clip; washable; hands-free",
+      "bm25_query": "dog puppy (clicker OR \"training clicker\") (\"treat pouch\" OR bait OR \"treat bag\")",
+      "musts": [
+        "dog",
+        "puppy"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5",
+          "activity: high"
+        ],
+        "weather": [],
+        "calendar": []
+      }
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Hypoallergenic Grooming Wipes",
+      "slot_id": "Grooming_Hygiene_002",
+      "rationale": "During fall allergy season, gentle wipes help remove outdoor allergens after walks.",
+      "filters": {
+        "pc1": "Dog"
+      },
+      "top_k": 60,
+      "embedding_query": "dog; puppy; grooming-wipes; hypoallergenic; fragrance-free; paw-wipe; daily-use",
+      "bm25_query": "dog puppy (\"grooming wipes\" OR \"pet wipes\" OR \"paw wipes\") (hypoallergenic OR \"fragrance free\")",
+      "musts": [
+        "dog",
+        "puppy"
+      ],
+      "negatives": [],
+      "brand_bias": [
+        "Mars"
+      ],
+      "evidence": {
+        "pet_profile": [
+          "species: dog",
+          "age_months: 5"
+        ],
+        "weather": [],
+        "calendar": [
+          "allergy_season_fall_2025"
+        ]
+      }
+    }
+  ],
+  "safety": {
+    "enforce_allergens": true,
+    "species_lock": true
+  },
+  "fusion": {
+    "strategy": "rrf",
+    "k": 60
+  }
+}
