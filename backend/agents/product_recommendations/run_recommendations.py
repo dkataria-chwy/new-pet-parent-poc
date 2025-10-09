@@ -85,9 +85,9 @@ def main():
         base_name = '_'.join(base_parts).replace("model_output", "recommendations")
         output_filename = f"{base_name}_{timestamp}.json"
         
-        # Always save to backend/outputs/ directory
+        # Always save to backend/testing/outputs/ directory
         project_root = Path(__file__).parent.parent.parent.parent
-        output_path = project_root / "backend" / "outputs" / output_filename
+        output_path = project_root / "backend" / "testing" / "outputs" / output_filename
         
         # Save results
         with open(output_path, 'w') as f:

@@ -1,0 +1,304 @@
+{
+  "total_queries": 26,
+  "queries": [
+    {
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "dog; puppy; dry-kibble; small-to-medium; small-bite; compact-breed; controlled-calorie; higher-protein; moderate-fat; glucosamine; joint-friendly; brachycephalic-kibble-size; 4-15-lb; mars",
+      "bm25_query": "puppy dry kibble small bite weight management high protein glucosamine NOT Duck",
+      "top_k": 20,
+      "rationale": "AJ is 8 months (still juvenile), very energetic but weighs 40 lb (heavy for a Pug) and needs growth-appropriate nutrition while preventing excess weight. Small/short-muzzle breed benefits from kibble sized for easy pick-up. Avoid duck because of allergy. Portion-controlled, growth-stage formula is a life-essential right now.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Food/Nutrition",
+      "family": "Wet Canned",
+      "embedding_query": "dog; puppy; wet-canned; food-toppings; high-moisture; gravy-style; single-protein; turkey; beef; lamb; small-can; tray; mix-with-kibble; rotation; mars",
+      "bm25_query": "wet food topper turkey beef gravy small can NOT Duck",
+      "top_k": 20,
+      "rationale": "During excessive heat, extra dietary moisture helps hydration. As a picky or energetic puppy, AJ will also benefit from variety and added palatability when managing portions for weight control. Must avoid duck due to allergy.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Food/Nutrition",
+      "family": "Portion Tools",
+      "embedding_query": "dog; puppy; portion-tools; digital-kitchen-scale; ounces-grams; accurate-weighing; graduated-measuring-cup; easy-clean; compact-storage; mars",
+      "bm25_query": "digital kitchen scale measuring cup ounces grams NOT Duck",
+      "top_k": 15,
+      "rationale": "AJ’s weight (40 lb at 8 months) suggests careful portion control to prevent excess weight and support healthy growth. Accurate measuring is essential for managing calories during growth/weight correction.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "dog; puppy; training-treats; small; soft; pea-sized; low-calorie; high-value; strong-smelling; freeze-dried; single-protein; turkey; beef; easy-to-break; mars",
+      "bm25_query": "training treats small soft low calorie turkey NOT Duck",
+      "top_k": 20,
+      "rationale": "AJ is an energetic 8-month-old puppy requiring training and mental stimulation. Small training treats enable repeated reinforcement without excessive calories. Must avoid duck due to allergy.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Treats",
+      "family": "Dental (VOHC Chews)",
+      "embedding_query": "dog; puppy; dental-vohc; dental-chews; enzymatic; durable; aggressive-chewer-rated; appropriately-sized; rotate; mars",
+      "bm25_query": "dental chews vohc durable aggressive chewer NOT Duck",
+      "top_k": 15,
+      "rationale": "Dental care is standard for all dogs; AJ needs dental support now to prevent plaque/tartar as part of routine care. Select durable chews due to strong chew strength; avoid duck ingredients.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Wellness",
+      "family": "Hydration Gear (Bowls & Portable Water)",
+      "embedding_query": "dog; puppy; bowls-diners; feeders-waterers; stainless-steel; ceramic; non-tip; collapsible-silicone; portable-water-bottle; elevated-bowl; non-slip-mat; easy-clean; durable; mars",
+      "bm25_query": "stainless steel bowl collapsible water bottle elevated bowl NOT Duck",
+      "top_k": 20,
+      "rationale": "Excessive heat warning makes reliable access to fresh water essential. Portable water solutions are needed for yard/play and apartment outings. Elevated bowls can be more comfortable for short-muzzle dogs.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Wellness",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "dog; puppy; cooling-gear; evaporative-mat; gel-cooling-mat; cooling-vest; cooling-bandana; frozen-treat-molds; silicone-molds; portable-battery-fan; mars",
+      "bm25_query": "cooling mat cooling vest frozen treat mold fan NOT Duck",
+      "top_k": 20,
+      "rationale": "An active, brachycephalic Pug is heat-sensitive. With an excessive heat warning in effect, cooling solutions reduce heat stroke risk and improve comfort during hot spells. Frozen treats help hydration and enrichment.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Gear/Travel",
+      "family": "Harness & Leash",
+      "embedding_query": "dog; puppy; harness-leash; padded-front-clip-harness; minimize-tracheal-pressure; adjustable-straps; stocky-chest-fit; heavy-duty-leash; biothane; nylon; 4-6-ft; long-line-15-30-ft; reflective-striping; mars",
+      "bm25_query": "front clip harness padded biothane leash long line reflective NOT Duck",
+      "top_k": 20,
+      "rationale": "Brachycephalic breeds are at risk if pressure is applied to the neck — harnesses protect the airway. AJ’s strong pull and high activity require durable hardware. Reflective elements are useful during hunting/low-light seasons in the calendar.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Gear/Travel",
+      "family": "Car Accessories",
+      "embedding_query": "dog; puppy; car-accessories; crash-tested-car-harness; travel-crate; breathable-material; padded-straps; quick-release-buckles; secure-restraint; mars",
+      "bm25_query": "crash-tested car harness travel crate breathable NOT Duck",
+      "top_k": 15,
+      "rationale": "Travel and vet visits require secure car restraint. This is safety equipment to protect AJ during transport and aligns with routine vet calendars (e.g., World Rabies Day events prompting visits).",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Toys/Chews",
+      "family": "Chews (Bones & Bully)",
+      "embedding_query": "dog; puppy; chews-bones-bully; kong-style; solid-rubber; nylon-bones; heavy-duty; rope-alternatives; treat-dispensing; medium-size; mars",
+      "bm25_query": "durable kong rubber nylon chew toy treat dispensing NOT Duck",
+      "top_k": 20,
+      "rationale": "AJ is a very strong chewer and needs durable, safe outlets to satisfy chewing drive and prevent destruction of unsafe items. Chew toys also help teething/puppy oral needs.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "dog; puppy; puzzle-interactive-toys; treat-dispensing; snuffle-mat; slow-feeder; multiple-difficulty; durable; mars",
+      "bm25_query": "puzzle toys treat dispensing snuffle mat slow feeder NOT Duck",
+      "top_k": 18,
+      "rationale": "High-activity, intelligent puppies need mental enrichment to prevent boredom-related behaviors in an apartment setting (especially during times when outdoor access is limited by heat or rain). Also supports portion control and slow feeding.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Training & Behavior",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "dog; puppy; training-aids; clicker; treat-pouch; target-stick; long-line-15-30-ft; recall-practice; mars",
+      "bm25_query": "clicker treat pouch long line target stick NOT Duck",
+      "top_k": 15,
+      "rationale": "AJ is a puppy and in a school-year routine window; training tools support consistent training and schedule changes. Long line and pouch allow safe off-leash practice in the large yard.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "dog; puppy; calming-aids; pheromone-diffuser; anxiety-wrap; calming-vest; thunder-style; white-noise; sound-masking; mars",
+      "bm25_query": "pheromone diffuser anxiety wrap calming vest NOT Duck",
+      "top_k": 15,
+      "rationale": "Calendar lists leaf-blower and hunting seasons which can stress dogs. If AJ shows noise sensitivity (common in puppies), these non-medical tools provide comfort and reduce stress during noisy events.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "dog; puppy; brushes-combs-tools; deshedding-tool; furminator-style; short-bristle-brush; rubber-curry-mitt; lint-roller; pet-hair-vacuum-tool; mars",
+      "bm25_query": "deshedding tool furminator brush lint roller NOT Duck",
+      "top_k": 20,
+      "rationale": "Calendar indicates fall shedding season. Pugs shed heavily; deshedding tools reduce hair in the home, help skin health, and reduce allergen load. Important for apartment living and owner comfort.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Sprays/Foams/Wipes",
+      "embedding_query": "dog; puppy; grooming-wipes; facial-fold-wipes; tear-stain-wipes; pH-balanced; fragrance-free; travel-size; non-irritating; mars",
+      "bm25_query": "facial fold wipes tear stain wipes ph balanced NOT Duck",
+      "top_k": 15,
+      "rationale": "Brachycephalic breeds like Pugs have facial folds that trap moisture and debris; regular cleaning prevents irritation and infection. Eyes are also at risk; daily wipes are preventive care.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "dog; puppy; nail-care; scissor-trimmer; guillotine-trimmer; medium-size; styptic-powder; non-slip-grip; safety-guard; mars",
+      "bm25_query": "nail trimmer styptic powder non slip NOT Duck",
+      "top_k": 12,
+      "rationale": "Regular nail maintenance is standard care and important for an active puppy that runs in the yard; prevents nail breaks and discomfort.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Home Comfort",
+      "family": "Beds",
+      "embedding_query": "dog; puppy; beds; cooling-bed; elevated-bed; mesh-cot; cooling-crate-pad; breathable; moisture-wicking; machine-washable; mars",
+      "bm25_query": "cooling elevated bed crate pad breathable machine washable NOT Duck",
+      "top_k": 18,
+      "rationale": "Heat sensitivity combined with an excessive heat warning means AJ needs cool resting options inside the apartment. Elevated beds improve airflow and reduce overheating during rest.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Cleaning & Hygiene",
+      "family": "Poop Bags",
+      "embedding_query": "dog; puppy; poop-bags; dispensers; enzyme-cleaner; odor-stain-cleaner; scent-free; biodegradable; mars",
+      "bm25_query": "poop bags enzyme cleaner odor remover scent free NOT Duck",
+      "top_k": 15,
+      "rationale": "Basic sanitation for apartment and yard use is essential. Enzyme cleaners remove odors that can encourage repeat indoor marking during training or schedule changes.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Training & Housebreaking",
+      "family": "Potty Training Pads",
+      "embedding_query": "dog; puppy; potty-training-pads; indoor-potty-system; absorbent; attractant-spray; disposable; washable; mars",
+      "bm25_query": "training pads absorbent indoor potty attractant spray NOT Duck",
+      "top_k": 12,
+      "rationale": "AJ is a puppy and apartment living sometimes requires indoor potty solutions during schedule changes, bad weather, or training phases. These supplies support consistent housetraining.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Safety",
+      "family": "Boots & Socks",
+      "embedding_query": "dog; puppy; paw-protection; paw-wax; booties; breathable-booties; paw-first-aid-balm; easy-fit; stocky-paw-fit; mars",
+      "bm25_query": "paw wax booties paw balm NOT Duck",
+      "top_k": 12,
+      "rationale": "Excessive heat can heat pavement quickly and damage paw pads. With hot days forecasted, protection and first-aid options are proactive safety items.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Seasonal/Environment",
+      "family": "Air Quality",
+      "embedding_query": "dog; puppy; air-purifier; hepa; true-hepa; room-sized; quiet-operation; night-mode; mars",
+      "bm25_query": "HEPA air purifier room sized quiet NOT Duck",
+      "top_k": 12,
+      "rationale": "Calendar indicates fall allergy season; purifiers reduce environmental allergens that affect both pets and owners and can reduce AK’s skin/respiratory irritation risk.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Shampoos & Conditioners",
+      "embedding_query": "dog; puppy; shampoos-conditioners; hypoallergenic; fragrance-free; pH-balanced; puppy-shampoo; body-wipes; spot-cleaning; mars",
+      "bm25_query": "hypoallergenic puppy shampoo fragrance free wipes NOT Duck",
+      "top_k": 15,
+      "rationale": "Frequent baths during shedding season and after outdoor play can help reduce allergens and keep the coat healthy; gentle formulas reduce irritation.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Enrichment",
+      "family": "Toys (General)",
+      "embedding_query": "dog; puppy; toys-general; flirt-pole; ball-launcher; durable-balls; medium-size; avoid-small-choking-hazard; mars",
+      "bm25_query": "flirt pole ball launcher durable balls NOT Duck",
+      "top_k": 18,
+      "rationale": "AJ is very energetic and the yard permits vigorous outlets—these tools provide high-intensity exercise to burn energy and reduce destructive behavior in the apartment.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Monitoring & Tech",
+      "family": "Cameras & Activity Tech",
+      "embedding_query": "dog; puppy; activity-tech; activity-tracker; collar-monitor; steps-activity-rest; app-integration; trend-tracking; non-invasive; mars",
+      "bm25_query": "activity tracker collar monitor app NOT Duck",
+      "top_k": 12,
+      "rationale": "Given AJ’s high activity and elevated weight at 8 months, an activity tracker provides objective data to manage exercise and weight trajectories.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Safety",
+      "family": "Outdoor Apparel",
+      "embedding_query": "dog; puppy; visibility-gear; reflective-vest; light-up-attachments; high-visibility; reflective-strips; evening-walk-safety; mars",
+      "bm25_query": "reflective vest light up collar high visibility NOT Duck",
+      "top_k": 12,
+      "rationale": "Calendar indicates hunting season and leaf-blower/landscaping activity—visibility on walks is an important safety measure, especially in shared outdoor spaces.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "First Aid & Emergency",
+      "family": "First Aid",
+      "embedding_query": "dog; puppy; first-aid; first-aid-kit; bandages; saline-wash; tweezers; removal-tool; adhesive-tape; instruction-guide; compact; mars",
+      "bm25_query": "pet first aid kit bandages saline tweezers NOT Duck",
+      "top_k": 12,
+      "rationale": "Apartment + yard use and puppy play increase minor injury risk. A basic kit is prudent for immediate care prior to any veterinary care if needed.",
+      "negatives": [
+        "Duck"
+      ]
+    }
+  ],
+  "_metadata": {
+    "journey_id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+    "month_idx": 2,
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "testing/outputs/stage1_needs_1c4083d7_month3_20251001_205200.json",
+    "generated_at": "2025-10-01T20:55:37.432348",
+    "tokens": {
+      "prompt": 6886,
+      "completion": 7286,
+      "total": 14172
+    },
+    "elapsed_seconds": 0.0
+  }
+}

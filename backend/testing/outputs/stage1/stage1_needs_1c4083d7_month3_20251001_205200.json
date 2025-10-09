@@ -1,0 +1,423 @@
+{
+  "total_categories": 26,
+  "needs": [
+    {
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble (Puppy / Growth & Weight Management)",
+      "description": "Complete dry puppy formula appropriate for an 8-month-old, high-energy but overweight-prone Pug: nutrient-dense yet calorically managed kibble (puppy or growth-stage formula designed for compact breeds or small-to-medium, with controlled calories, higher protein for lean muscle, moderate fat, joint-friendly nutrients like glucosamine). Small-to-medium kibble size for brachycephalic mouth; avoid duck-based proteins. Packaging sizes: 4–15 lb bags to allow rotation and freshness. Prefer Mars-brand-compatible formulas if available (user brand bias).",
+      "rationale": "AJ is 8 months (still juvenile), very energetic but weighs 40 lb (heavy for a Pug) and needs growth-appropriate nutrition while preventing excess weight. Small/short-muzzle breed benefits from kibble sized for easy pick-up. Avoid duck because of allergy. Portion-controlled, growth-stage formula is a life-essential right now.",
+      "evidence": [
+        "age: 8 months",
+        "breed: Pug",
+        "weight_lb: 40.0",
+        "activity: high",
+        "allergies: [Duck]",
+        "standard: growth-stage nutrition for puppies"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Food/Nutrition",
+      "family": "Wet Canned / Food Toppers (Hydration & Palatability)",
+      "description": "High-moisture wet food or gravy-style toppers (chicken-free formulations) to mix with kibble for extra hydration and palatability. Single-protein options that do not contain duck (turkey, beef, lamb alternatives), available in small cans or trays for mixing and rotating.",
+      "rationale": "During excessive heat, extra dietary moisture helps hydration. As a picky or energetic puppy, AJ will also benefit from variety and added palatability when managing portions for weight control. Must avoid duck due to allergy.",
+      "evidence": [
+        "weather: excessive_heat_warning",
+        "age: 8 months",
+        "weight_lb: 40.0",
+        "allergies: [Duck]"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Food/Nutrition",
+      "family": "Portion Tools (Food Scale & Measuring Cup)",
+      "description": "Digital kitchen scale accurate to ounces/grams and a graduated measuring cup for dry kibble to precisely weigh and portion daily rations. Look for easy-clean surfaces and compact storage.",
+      "rationale": "AJ’s weight (40 lb at 8 months) suggests careful portion control to prevent excess weight and support healthy growth. Accurate measuring is essential for managing calories during growth/weight correction.",
+      "evidence": [
+        "age: 8 months",
+        "weight_lb: 40.0",
+        "standard: portion control for weight management"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Treats",
+      "family": "Training Treats (Small, High-Value, Chicken-Free)",
+      "description": "Small, soft training treats (pea-sized) formulated without duck or other allergens — high-value (strong-smelling/tasty) but low-calorie. Also include freeze-dried single-protein options (e.g., turkey, beef) that are easy to break into tiny pieces for repetition.",
+      "rationale": "AJ is an energetic 8-month-old puppy requiring training and mental stimulation. Small training treats enable repeated reinforcement without excessive calories. Must avoid duck due to allergy.",
+      "evidence": [
+        "age: 8 months",
+        "activity: high",
+        "chew_strength: strong",
+        "allergies: [Duck]",
+        "calendar: school_bell_schedule_2025 (routine/training emphasis)"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Treats",
+      "family": "Dental Chews (VOHC-style, Non-Duck)",
+      "description": "Veterinary Oral Health Council-style dental chews or enzymatic dental sticks/toys appropriate for strong chewers, formulated without duck. Choose appropriately sized chews rated for aggressive chewers; rotate chews to prevent rapid consumption.",
+      "rationale": "Dental care is standard for all dogs; AJ needs dental support now to prevent plaque/tartar as part of routine care. Select durable chews due to strong chew strength; avoid duck ingredients.",
+      "evidence": [
+        "age: 8 months",
+        "standard: dental care for all pets",
+        "chew_strength: strong",
+        "allergies: [Duck]"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Wellness",
+      "family": "Hydration Gear (Bowls & Portable Water)",
+      "description": "Large-capacity stainless steel or ceramic non-tip bowls for home plus collapsible silicone travel water bottle/cup for outings. Consider elevated bowls (slightly raised) sized to capacity needs and non-slip mats. Durable, easy-to-clean materials.",
+      "rationale": "Excessive heat warning makes reliable access to fresh water essential. Portable water solutions are needed for yard/play and apartment outings. Elevated bowls can be more comfortable for short-muzzle dogs.",
+      "evidence": [
+        "weather: excessive_heat_warning",
+        "breed: Pug",
+        "age: 8 months",
+        "activity: high",
+        "house_type: apartment",
+        "yard: large_yard"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Wellness",
+      "family": "Cooling Products (Mats, Bandanas, Frozen Treat Molds)",
+      "description": "Evaporative or gel cooling mat sized for medium dogs, cooling vest or bandanas, and silicone frozen-treat molds (for frozen peanut butter/toppers) to make cold, long-lasting enrichment treats. Portable battery fan for crate/area if needed.",
+      "rationale": "An active, brachycephalic Pug is heat-sensitive. With an excessive heat warning in effect, cooling solutions reduce heat stroke risk and improve comfort during hot spells. Frozen treats help hydration and enrichment.",
+      "evidence": [
+        "breed: Pug",
+        "age: 8 months",
+        "activity: high",
+        "weather: excessive_heat_warning"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Gear/Travel",
+      "family": "Harness & Leash (Padded Front-Clip Harness + Strong Leash)",
+      "description": "Padded, front-clip harness that minimizes tracheal pressure (no choke collars) sized for a 40 lb, stocky-chested pug (adjustable straps); heavy-duty 4–6 ft leash (biothane/nylon) and a longer 15–30 ft training line for recall practice in the yard. Include reflective striping for low-light/hunting season safety.",
+      "rationale": "Brachycephalic breeds are at risk if pressure is applied to the neck — harnesses protect the airway. AJ’s strong pull and high activity require durable hardware. Reflective elements are useful during hunting/low-light seasons in the calendar.",
+      "evidence": [
+        "breed: Pug",
+        "weight_lb: 40.0",
+        "chew_strength: strong",
+        "activity: high",
+        "calendar: hunting_season_2025",
+        "house_type: apartment",
+        "yard: large_yard"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Gear/Travel",
+      "family": "Car Safety (Crate or Seatbelt Harness)",
+      "description": "Crash-tested dog car harness sized for a 40 lb dog or a sturdy travel crate secured in vehicle; breathable materials, padded straps for comfort and restraint for short-muzzled breeds. Quick-release buckles for safety during emergencies.",
+      "rationale": "Travel and vet visits require secure car restraint. This is safety equipment to protect AJ during transport and aligns with routine vet calendars (e.g., World Rabies Day events prompting visits).",
+      "evidence": [
+        "age: 8 months",
+        "weight_lb: 40.0",
+        "breed: Pug",
+        "calendar: world_rabies_day_2025 (vet-visit prep)"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Toys/Chews",
+      "family": "Heavy-Duty Chew Toys (Rubber, Nylon, KONG-style)",
+      "description": "Very durable chew toys rated for strong chewers (solid rubber KONG Extreme-style, nylon bones rated for tough chewers, heavy-duty rope alternatives). Sizes appropriate for a medium/40 lb dog; avoid plush as sole option. Consider treat-dispensing versions for enrichment.",
+      "rationale": "AJ is a very strong chewer and needs durable, safe outlets to satisfy chewing drive and prevent destruction of unsafe items. Chew toys also help teething/puppy oral needs.",
+      "evidence": [
+        "chew_strength: strong",
+        "age: 8 months",
+        "activity: high",
+        "about: AJ is very energetic and very strong."
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Toys/Chews",
+      "family": "Interactive/Puzzle Toys",
+      "description": "Treat-dispensing puzzle feeders, snuffle mats, and durable interactive toys that slow feeding and provide mental stimulation. Multiple difficulty levels to increase challenge over time.",
+      "rationale": "High-activity, intelligent puppies need mental enrichment to prevent boredom-related behaviors in an apartment setting (especially during times when outdoor access is limited by heat or rain). Also supports portion control and slow feeding.",
+      "evidence": [
+        "activity: high",
+        "age: 8 months",
+        "house_type: apartment",
+        "calendar: pacific_northwest_rain_season_2025 (upcoming indoor needs)"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Training & Behavior",
+      "family": "Training Tools (Clicker, Treat Pouch, Long Line)",
+      "description": "Basic training kit: clicker, durable treat pouch, target stick, and long training line (15–30 ft) for recall/play in the yard. Use small, high-value, non-duck treats for reinforcement.",
+      "rationale": "AJ is a puppy and in a school-year routine window; training tools support consistent training and schedule changes. Long line and pouch allow safe off-leash practice in the large yard.",
+      "evidence": [
+        "age: 8 months",
+        "activity: high",
+        "house_type: apartment",
+        "yard: large_yard",
+        "calendar: school_bell_schedule_2025"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Wellness",
+      "family": "Calming Aids (Pheromone Diffuser & Anxiety Wrap)",
+      "description": "Adaptil-style pheromone diffuser for home, plus a properly fitted anxiety wrap or calming vest (e.g., thunder-style) and a white-noise machine or sound-masking device to reduce reactivity to leaf blowers, hunting-related noise, and other seasonal noises.",
+      "rationale": "Calendar lists leaf-blower and hunting seasons which can stress dogs. If AJ shows noise sensitivity (common in puppies), these non-medical tools provide comfort and reduce stress during noisy events.",
+      "evidence": [
+        "calendar: leaf_blower_season_2025",
+        "calendar: hunting_season_2025",
+        "age: 8 months",
+        "standard: behavior support for noise/stress"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Deshedding Tools & Brushes",
+      "description": "High-quality deshedding tool (e.g., FURminator-style), short-bristle brush, and rubber curry mitts to manage heavy seasonal shedding; include a lint roller or pet hair vacuum tool for apartment furniture.",
+      "rationale": "Calendar indicates fall shedding season. Pugs shed heavily; deshedding tools reduce hair in the home, help skin health, and reduce allergen load. Important for apartment living and owner comfort.",
+      "evidence": [
+        "calendar: shedding_season_fall_2025",
+        "breed: Pug",
+        "house_type: apartment",
+        "standard: seasonal grooming"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Facial Fold & Eye Care (Wipes & Cleanser)",
+      "description": "Gentle, pH-balanced facial fold wipes/cleanser and tear-stain wipes to clean skin folds and eyes daily; travel-sized packs for outings. Non-irritating, fragrance-free formulas.",
+      "rationale": "Brachycephalic breeds like Pugs have facial folds that trap moisture and debris; regular cleaning prevents irritation and infection. Eyes are also at risk; daily wipes are preventive care.",
+      "evidence": [
+        "breed: Pug",
+        "age: 8 months",
+        "standard: fold-care for brachycephalic breeds"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Nail Care (Trimmer & Styptic Powder)",
+      "description": "Scissor or guillotine-style nail trimmer sized for a medium dog and a styptic powder or pencil for quick stops. Non-slip grips and safety guard recommended for inexperienced groomers.",
+      "rationale": "Regular nail maintenance is standard care and important for an active puppy that runs in the yard; prevents nail breaks and discomfort.",
+      "evidence": [
+        "age: 8 months",
+        "activity: high",
+        "standard: routine grooming"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Home Comfort",
+      "family": "Bedding (Elevated/Cooling Bed & Breathable Crate Pad)",
+      "description": "Breathable, elevated cooling bed or mesh cot and a cooling crate pad for indoor rest; washable, moisture-wicking fabric to keep AJ comfortable in heat. Crate pad sized to chosen crate; machine-washable covers.",
+      "rationale": "Heat sensitivity combined with an excessive heat warning means AJ needs cool resting options inside the apartment. Elevated beds improve airflow and reduce overheating during rest.",
+      "evidence": [
+        "breed: Pug",
+        "weather: excessive_heat_warning",
+        "house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Cleaning & Hygiene",
+      "family": "Waste Management (Poop Bags & Enzyme Cleaners)",
+      "description": "Durable poop bags (biodegradable if preferred), dispensers for leash, and enzyme-based odor & stain cleaners for indoor accidents. Scent-free formulas recommended for sensitive noses.",
+      "rationale": "Basic sanitation for apartment and yard use is essential. Enzyme cleaners remove odors that can encourage repeat indoor marking during training or schedule changes.",
+      "evidence": [
+        "house_type: apartment",
+        "yard: large_yard",
+        "standard: waste management"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Training & Housebreaking",
+      "family": "Potty Training Supplies (Pads & Attractants)",
+      "description": "Absorbent training pads or indoor potty systems for apartments along with attractant sprays if house-training is in progress. Disposable and washable options for convenience.",
+      "rationale": "AJ is a puppy and apartment living sometimes requires indoor potty solutions during schedule changes, bad weather, or training phases. These supplies support consistent housetraining.",
+      "evidence": [
+        "age: 8 months",
+        "house_type: apartment",
+        "calendar: fall_equinox_2025 (routine adjustments/indoor time)"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Health & Safety",
+      "family": "Paw Protection (Wax/Booties & First-Aid Balm)",
+      "description": "Paw wax or light-protection booties for hot pavement days and a paw first-aid balm for minor abrasions. Choose breathable, easy-to-fit booties for short-muzzled, stocky paws.",
+      "rationale": "Excessive heat can heat pavement quickly and damage paw pads. With hot days forecasted, protection and first-aid options are proactive safety items.",
+      "evidence": [
+        "weather: excessive_heat_warning",
+        "age: 8 months",
+        "activity: high",
+        "standard: paw protection in heat"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Home Environment",
+      "family": "Air Quality (HEPA Air Purifier)",
+      "description": "Room-sized HEPA air purifier for the apartment living area to reduce pollen, dust, and dander during fall allergy season. Look for models with true HEPA and quiet operation for nighttime use.",
+      "rationale": "Calendar indicates fall allergy season; purifiers reduce environmental allergens that affect both pets and owners and can reduce AK’s skin/respiratory irritation risk.",
+      "evidence": [
+        "calendar: allergy_season_fall_2025",
+        "house_type: apartment",
+        "standard: air quality control during allergy season"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Grooming/Hygiene",
+      "family": "Hypoallergenic Puppy Shampoo & Wipes",
+      "description": "Gentle, fragrance-free puppy shampoo and body wipes for spot-cleaning. pH-balanced, hypoallergenic formulas safe for frequent use on sensitive skin.",
+      "rationale": "Frequent baths during shedding season and after outdoor play can help reduce allergens and keep the coat healthy; gentle formulas reduce irritation.",
+      "evidence": [
+        "calendar: shedding_season_fall_2025",
+        "calendar: allergy_season_fall_2025",
+        "age: 8 months",
+        "standard: grooming hygiene"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Enrichment",
+      "family": "High-Activity Toys (Flirt Pole / Ball Launcher)",
+      "description": "Flirt pole for controlled high-energy play and a durable ball launcher for long-distance fetch in the yard. Durable balls sized for a medium dog; avoid small balls that are a choking hazard.",
+      "rationale": "AJ is very energetic and the yard permits vigorous outlets—these tools provide high-intensity exercise to burn energy and reduce destructive behavior in the apartment.",
+      "evidence": [
+        "activity: high",
+        "about: AJ is very energetic and very strong.",
+        "yard: large_yard",
+        "house_type: apartment"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Monitoring & Tech",
+      "family": "Activity/Weight Tracker Collar",
+      "description": "Non-invasive activity monitor/collar that tracks steps, activity levels, and rest to help owners monitor exercise and adjust portions/activities to control weight. Integrates with phone apps for trend tracking.",
+      "rationale": "Given AJ’s high activity and elevated weight at 8 months, an activity tracker provides objective data to manage exercise and weight trajectories.",
+      "evidence": [
+        "age: 8 months",
+        "weight_lb: 40.0",
+        "activity: high",
+        "standard: monitoring to support weight management"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "Safety",
+      "family": "Reflective / Visibility Gear",
+      "description": "Reflective vest or light-up collar attachments for evening walks and during hunting season; high-visibility colors and reflective strips for low-light safety.",
+      "rationale": "Calendar indicates hunting season and leaf-blower/landscaping activity—visibility on walks is an important safety measure, especially in shared outdoor spaces.",
+      "evidence": [
+        "calendar: hunting_season_2025",
+        "calendar: leaf_blower_season_2025",
+        "house_type: apartment",
+        "yard: large_yard"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "top_family": "First Aid & Emergency",
+      "family": "Basic Pet First-Aid Kit (Non-Medicated Supplies)",
+      "description": "Compact pet first-aid kit with bandages, saline wound wash, tweezers/removal tool, adhesive tape, and instruction guide (no medications).",
+      "rationale": "Apartment + yard use and puppy play increase minor injury risk. A basic kit is prudent for immediate care prior to any veterinary care if needed.",
+      "evidence": [
+        "age: 8 months",
+        "house_type: apartment",
+        "yard: large_yard",
+        "standard: emergency preparedness"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    }
+  ]
+}

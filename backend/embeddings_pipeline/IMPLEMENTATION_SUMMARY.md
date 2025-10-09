@@ -6,7 +6,50 @@ Successfully implemented a **complete, modular, and production-ready** product e
 
 ---
 
-## 📊 **Execution Results**
+## 🆕 **NATURAL LANGUAGE UPGRADE - October 2025**
+
+### **✅ Natural Language Embeddings Generated**
+- ✅ **117,584 products** processed with natural language format
+- ✅ **21.2M tokens** processed ($27.50 cost - 60% higher than structured due to longer text)
+- ✅ **55 minutes** processing time (same as structured format)
+- ✅ **4.72 GB JSONL file** - `catalog_embeds_natural_lang.jsonl`
+- ✅ **Exact same 9 columns** as original (only `search_text` format differs)
+
+### **🔄 Search Text Format Comparison**
+
+**OLD (Structured Format):**
+```
+Diamond Naturals Large Breed Puppy Formula Brand: Diamond Naturals. 
+Species: Dog. Lifestage: Puppy. Breed Size: Large. Food Form: Dry Kibble.
+```
+
+**NEW (Natural Language Format):**
+```
+Diamond Naturals Large Breed Puppy Formula for dog, puppy, large breed, dry food. 
+Formulated for large breed puppies with DHA for brain development. Available in 
+multiple sizes. No prescription required. Food product.
+```
+
+### **📈 Expected Impact**
+- 🎯 **Better semantic understanding** - Natural language captures meaning more accurately
+- 📊 **Higher similarity scores** - Initial tests showed +10% improvement (0.65 → 0.72)
+- 💬 **More natural queries** - Works better with conversational user queries
+
+### **📁 Files Added**
+- `src/search_text_builder_natural.py` - Natural language text builder
+- `run_pipeline_natural_lang.py` - Natural language pipeline runner
+- `artifacts/catalog_embeds_natural_lang.jsonl` - Natural language embeddings (4.72 GB)
+
+### **🔧 How to Switch**
+To use natural language embeddings:
+1. Backup: `mv artifacts/catalog_embeds.jsonl artifacts/catalog_embeds_structured.jsonl`
+2. Switch: `cp artifacts/catalog_embeds_natural_lang.jsonl artifacts/catalog_embeds.jsonl`
+3. Restart backend
+4. Test and compare results!
+
+---
+
+## 📊 **Original Execution Results (Structured Format)**
 
 ### **✅ Pipeline Success**
 - ✅ **117,584 products** processed successfully  

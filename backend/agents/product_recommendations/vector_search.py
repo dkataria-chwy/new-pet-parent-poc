@@ -3,6 +3,7 @@ Vector search with species pre-filtering and cosine similarity.
 """
 
 import numpy as np
+import pandas as pd
 import openai
 import os
 import logging
@@ -173,32 +174,63 @@ class SpeciesAwareVectorSearch:
         # Cosine similarity search
         similarities = cosine_similarity(query_matrix, embeddings_matrix)[0]
         
-        # Get top-k indices
-        top_indices = np.argsort(similarities)[::-1][:top_k]
+        # Adaptive search: fetch enough products to get top_k unique parent SKUs
+        # Start with 2x top_k to account for duplicates, expand if needed
+        search_size = min(top_k * 2, len(similarities))
+        max_search_size = min(top_k * 5, len(similarities))  # Cap at 5x or total products
         
-        # Build results with brand boosting
+        seen_parent_skus = set()
         results = []
         brand_bias = slot.get("brand_bias", [])
         
-        for rank, idx in enumerate(top_indices, 1):
+        # Get all indices sorted by similarity
+        all_indices = np.argsort(similarities)[::-1]
+        
+        # Iterate through products until we have enough unique parent SKUs
+        for idx in all_indices[:max_search_size]:
             product_row = df.iloc[idx]
+            parent_sku = product_row.get('parent_product_part_number', '')
             
-            # Extract product name from search_text (everything before " Brand:")
+            # Skip if we've already seen this parent SKU
+            if parent_sku and parent_sku != "" and parent_sku in seen_parent_skus:
+                continue
+            
+            # Track this parent SKU
+            if parent_sku and parent_sku != "":
+                seen_parent_skus.add(parent_sku)
+            
+            # Use product_name column from embeddings (added via add_columns_to_embeddings.py)
+            product_name = product_row.get('product_name', None)
+            
+            # Fallback to extracting from search_text if product_name is missing
+            if not product_name or pd.isna(product_name):
+                search_text = product_row['search_text']
+                if ' Brand:' in search_text:
+                    product_name = search_text.split(' Brand:')[0].strip()
+                else:
+                    # Fallback: split on first period if Brand: not found
+                    product_name = search_text.split('.')[0].strip()
+            
+            # Extract additional product fields from embeddings
+            product_link = product_row.get('product_link', '')
+            product_price = product_row.get('product_price_current', None)
+            # Convert numpy bool to Python bool for JSON serialization
+            autoship_eligible = bool(product_row.get('product_autoship_save_eligible_flag', False))
+            
             search_text = product_row['search_text']
-            if ' Brand:' in search_text:
-                product_name = search_text.split(' Brand:')[0].strip()
-            else:
-                # Fallback: split on first period if Brand: not found
-                product_name = search_text.split('.')[0].strip()
             
             # Apply brand boosting
             base_similarity = float(similarities[idx])
             boosted_similarity = self._apply_brand_boost(search_text, brand_bias, base_similarity)
             
             result = {
-                'rank': rank,
+                'rank': len(results) + 1,  # Rank based on order added
                 'sku': product_row['product_part_number'],
+                'parentSKU': parent_sku,
                 'name': product_name,
+                'product_link': product_link,
+                'product_price_current': product_price,
+                'autoship_eligible': autoship_eligible,
                 'similarity': boosted_similarity,
                 'base_similarity': base_similarity,  # Keep original for debugging
                 'brand_boosted': boosted_similarity != base_similarity,
@@ -209,6 +241,12 @@ class SpeciesAwareVectorSearch:
                 }
             }
             results.append(result)
+            
+            # Stop once we have enough unique parent SKUs
+            if len(results) >= top_k:
+                break
+        
+        logger.info(f"Adaptive search: requested {top_k} unique products, found {len(results)} (scanned {min(len(all_indices), max_search_size)} candidates)")
         
         # Re-sort by boosted similarity if any boosts were applied
         if any(r['brand_boosted'] for r in results):

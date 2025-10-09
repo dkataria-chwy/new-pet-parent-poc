@@ -13,6 +13,7 @@ from models import (
     CreatePetRequest, Pet, CreateJourneyRequest, JourneyState,
     UpdateJourneyStateRequest, MonthRecommendations,
     AIRecommendationRequest, AIRecommendationResponse,
+    OnDemandRecommendationRequest, OnDemandRecommendationResponse,
     EventRequest, CheckpointValidationRequest, CheckpointValidationResponse, 
     CheckpointCommitRequest
 )
@@ -20,6 +21,12 @@ from database import db
 from recommendation_policy import recommendation_policy
 from checkpoint_validator import checkpoint_validator
 from image_service import image_service, GenerateImageRequest
+
+# Import on-demand recommendations
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent / "agents" / "on_demand_recommendations"))
+from api_handler import OnDemandRecommendationHandler
 
 app = FastAPI(title="Chewy Journey API", version="1.0.0")
 
@@ -32,6 +39,18 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
+# Initialize on-demand recommendations handler
+on_demand_handler = OnDemandRecommendationHandler()
+
+@app.on_event("startup")
+async def startup_event():
+    """Initialize services on startup."""
+    try:
+        stats = on_demand_handler.initialize()
+        print(f"✅ On-demand recommendations initialized with {stats['total_products']:,} products")
+    except Exception as e:
+        print(f"⚠️ Failed to initialize on-demand recommendations: {e}")
+
 @app.get("/")
 async def root():
     return {"message": "Chewy Journey API"}
@@ -42,6 +61,76 @@ async def create_pet(pet_data: CreatePetRequest):
     try:
         pet = db.create_pet(pet_data)
         return pet
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/pet/{pet_id}", response_model=Pet)
+async def get_pet(pet_id: str):
+    """Get a pet by ID."""
+    try:
+        pet = db.get_pet(pet_id)
+        if not pet:
+            raise HTTPException(status_code=404, detail="Pet not found")
+        return pet
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/journeys")
+async def get_all_journeys():
+    """Get all journeys with their pet information."""
+    try:
+        import sqlite3
+        conn = sqlite3.connect(db.db_path)
+        cursor = conn.cursor()
+        
+        # Get journeys with pet information
+        cursor.execute("""
+            SELECT 
+                j.id as journey_id,
+                j.pet_id,
+                j.current,
+                j.total_months,
+                p.name as pet_name,
+                p.species,
+                p.breed,
+                p.age_months
+            FROM journeys j
+            JOIN pets p ON j.pet_id = p.id
+            ORDER BY j.current DESC, p.name
+        """)
+        
+        rows = cursor.fetchall()
+        conn.close()
+        
+        journeys = []
+        for row in rows:
+            journeys.append({
+                "journey_id": row[0],
+                "pet_id": row[1],
+                "current_month": row[2],
+                "total_months": row[3],
+                "pet_name": row[4],
+                "species": row[5],
+                "breed": row[6],
+                "age_months": row[7]
+            })
+        
+        return {"journeys": journeys}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/journey/{journey_id}", response_model=JourneyState)
+async def get_journey(journey_id: str):
+    """Get a journey by ID."""
+    try:
+        journey = db.get_journey(journey_id)
+        if not journey:
+            raise HTTPException(status_code=404, detail="Journey not found")
+        return journey
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -220,6 +309,32 @@ async def get_ai_recommendations(request: AIRecommendationRequest):
         raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.post("/on-demand-recommendations", response_model=OnDemandRecommendationResponse)
+async def get_on_demand_recommendations(request: OnDemandRecommendationRequest):
+    """Get on-demand AI-powered product recommendations based on user query."""
+    try:
+        # Process the recommendation request
+        result = on_demand_handler.process_recommendation_request(
+            user_query=request.user_query,
+            journey_id=request.journey_id,
+            month_idx=request.month_idx,
+            top_k=request.top_k
+        )
+        
+        # Log the on-demand recommendation event
+        db.log_event("on_demand_recommendation", request.journey_id, {
+            "user_query": request.user_query,
+            "total_products": result["total_products"],
+            "pet_name": result["pet_name"]
+        })
+        
+        return OnDemandRecommendationResponse(**result)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to generate recommendations: {str(e)}")
 
 @app.post("/events")
 async def log_event(request: EventRequest):

@@ -8,9 +8,15 @@ from datetime import datetime
 from typing import Dict, List, Any
 from pathlib import Path
 
-from storage_loader import EmbeddingStorageLoader
-from vector_search import SpeciesAwareVectorSearch
-from filters import ProductFilters
+# Try relative imports first (when imported as module), fall back to absolute (when run directly)
+try:
+    from .storage_loader import EmbeddingStorageLoader
+    from .vector_search import SpeciesAwareVectorSearch
+    from .filters import ProductFilters
+except ImportError:
+    from storage_loader import EmbeddingStorageLoader
+    from vector_search import SpeciesAwareVectorSearch
+    from filters import ProductFilters
 
 logger = logging.getLogger(__name__)
 
@@ -153,15 +159,21 @@ class ProductRecommendationEngine:
             logger.warning(f"No products remaining after negatives filtering")
             return []
         
-        # 4. Sort by rank ascending and clean up results
-        results_sorted = sorted(results, key=lambda x: x["rank"])
+        # 4. Sort by similarity descending and clean up results
+        results_sorted = sorted(results, key=lambda x: x["similarity"], reverse=True)
+        
+        # Note: Parent SKU deduplication now happens in vector_search.py during adaptive search
         
         clean_results = []
-        for product in results_sorted:
+        for rank, product in enumerate(results_sorted, 1):
             clean_product = {
-                "rank": product["rank"],
+                "rank": rank,
                 "sku": product["sku"],
+                "parentSKU": product.get("parentSKU", ""),
                 "name": product["name"],
+                "product_link": product.get("product_link", ""),
+                "product_price_current": product.get("product_price_current", None),
+                "autoship_eligible": product.get("autoship_eligible", False),
                 "similarity": round(product["similarity"], 4)
             }
             clean_results.append(clean_product)

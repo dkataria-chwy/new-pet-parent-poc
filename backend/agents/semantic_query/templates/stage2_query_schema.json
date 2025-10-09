@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "properties": {
+    "total_queries": {
+      "type": "integer",
+      "description": "Total number of search queries generated"
+    },
+    "queries": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "top_family",
+          "family",
+          "embedding_query",
+          "bm25_query",
+          "top_k",
+          "rationale",
+          "negatives"
+        ],
+        "properties": {
+          "top_family": {
+            "type": "string",
+            "description": "Department-level category from Stage 1"
+          },
+          
+          "family": {
+            "type": "string",
+            "description": "Specific product family from Stage 1"
+          },
+          
+          "embedding_query": {
+            "type": "string",
+            "maxLength": 300,
+            "description": "Natural language query for vector search: concise descriptive sentences with species, lifestage, product category, and key attributes from Stage 1 description written as natural phrases"
+          },
+          
+          "bm25_query": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Keyword search query for lexical matching: precise boolean text with important terms from embedding_query"
+          },
+          
+          "top_k": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 50,
+            "description": "Number of results to retrieve from vector search. Varies by category: staples (3-5), supplements/treats (5-8), toys/enrichment (8-12), seasonal/niche (10-15)"
+          },
+          
+          "rationale": {
+            "type": "string",
+            "description": "Why this pet needs this (copied from Stage 1)"
+          },
+          
+          "negatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Allergens and safety exclusions (copied from Stage 1)"
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["total_queries", "queries"],
+  "additionalProperties": false
+}
+

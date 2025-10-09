@@ -39,10 +39,13 @@ export function CheckpointStrip({ compact = false, focusedCheckpoint }: Checkpoi
       // Only update if there's actually a mismatch AND we're not in the middle of animations
       const animationInProgress = isAnimating || dogIsRunning
       
-      // 🚨 SYNC COMPLETELY DISABLED 🚨
-      console.log('🚨 SYNC DISABLED - dogPosition:', dogPosition, 'journey.current:', journey.current)
-      console.log('🚨 NO SYNC WILL HAPPEN - ANIMATION HANDLES DOG POSITION')
-      // ABSOLUTELY NO SYNCING!
+      // Only sync when loading existing journeys (not during normal gameplay)
+      // This prevents interference with completion animations
+      const isInitialLoad = dogPosition === 0 && journey.current > 0
+      if (!animationInProgress && isInitialLoad && dogPosition !== journey.current) {
+        console.log('🔄 INITIAL LOAD SYNC: dogPosition:', dogPosition, '→', journey.current)
+        setDogPosition(journey.current)
+      }
     }
   }, [journey?.current, setDogPosition, compact, dogPosition])
 

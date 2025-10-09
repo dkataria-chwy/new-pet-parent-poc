@@ -1,0 +1,167 @@
+{
+  "type": "object",
+  "properties": {
+    "subscription_products": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "description": "Products recommended for recurring auto-ship subscription (exactly 15 items)",
+      "items": {
+        "type": "object",
+        "required": [
+          "slot_id",
+          "sku",
+          "product_name",
+          "product_link",
+          "product_price_current",
+          "autoship_eligible",
+          "top_family",
+          "bucket",
+          "subscription_rationale",
+          "estimated_frequency",
+          "personalized_note"
+        ],
+        "properties": {
+          "slot_id": {
+            "type": "integer",
+            "description": "Slot ID from the original recommendations"
+          },
+          
+          "sku": {
+            "type": "string",
+            "description": "Product SKU"
+          },
+          
+          "product_name": {
+            "type": "string",
+            "description": "Full product name"
+          },
+          
+          "product_link": {
+            "type": "string",
+            "description": "Product URL link"
+          },
+          
+          "product_price_current": {
+            "type": ["number", "null"],
+            "description": "Current product price"
+          },
+          
+          "autoship_eligible": {
+            "type": "boolean",
+            "description": "Whether product is eligible for autoship/subscription"
+          },
+          
+          "top_family": {
+            "type": "string",
+            "description": "Product category from recommendations"
+          },
+          
+          "bucket": {
+            "type": "string",
+            "enum": ["essentials", "nice_to_haves", "enrichment"],
+            "description": "Bucket from Stage 1 recommendations"
+          },
+          
+          "subscription_rationale": {
+            "type": "string",
+            "description": "Detailed explanation of WHY this product should be a subscription, including consumption rate calculation, frequency reasoning, and pet-specific factors"
+          },
+          
+          "estimated_frequency": {
+            "type": "string",
+            "description": "Estimated subscription frequency (e.g., 'Every 4 weeks', 'Every 2 weeks', 'Every 6 weeks')"
+          },
+          
+          "personalized_note": {
+            "type": "string",
+            "description": "Warm, personalized note for the pet parent explaining why THIS product is perfect for THEIR pet. Use pet's name, reference specific characteristics, focus on benefits. Conversational and friendly tone."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    
+    "one_time_products": {
+      "type": "array",
+      "minItems": 15,
+      "maxItems": 15,
+      "description": "Products recommended for one-time purchase (exactly 15 items)",
+      "items": {
+        "type": "object",
+        "required": [
+          "slot_id",
+          "sku",
+          "product_name",
+          "product_link",
+          "product_price_current",
+          "autoship_eligible",
+          "top_family",
+          "bucket",
+          "one_time_rationale",
+          "personalized_note"
+        ],
+        "properties": {
+          "slot_id": {
+            "type": "integer",
+            "description": "Slot ID from the original recommendations"
+          },
+          
+          "sku": {
+            "type": "string",
+            "description": "Product SKU"
+          },
+          
+          "product_name": {
+            "type": "string",
+            "description": "Full product name"
+          },
+          
+          "product_link": {
+            "type": "string",
+            "description": "Product URL link"
+          },
+          
+          "product_price_current": {
+            "type": ["number", "null"],
+            "description": "Current product price"
+          },
+          
+          "autoship_eligible": {
+            "type": "boolean",
+            "description": "Whether product is eligible for autoship/subscription"
+          },
+          
+          "top_family": {
+            "type": "string",
+            "description": "Product category from recommendations"
+          },
+          
+          "bucket": {
+            "type": "string",
+            "enum": ["essentials", "nice_to_haves", "enrichment"],
+            "description": "Bucket from Stage 1 recommendations"
+          },
+          
+          "one_time_rationale": {
+            "type": "string",
+            "description": "Detailed explanation of WHY this product should be a one-time purchase, including durability, seasonality, setup nature, or other factors"
+          },
+          
+          "personalized_note": {
+            "type": "string",
+            "description": "Warm, personalized note for the pet parent explaining why THIS product is perfect for THEIR pet. Use pet's name, reference specific characteristics, focus on benefits. Conversational and friendly tone."
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    
+    "overall_strategy": {
+      "type": "string",
+      "description": "Brief but comprehensive explanation (2-4 sentences) of the subscription vs. one-time strategy for THIS specific pet at THIS journey stage. Address: why these subscriptions make sense, why these one-time purchases, and how order history/season/consumption patterns informed your decisions."
+    }
+  },
+  "required": ["subscription_products", "one_time_products", "overall_strategy"],
+  "additionalProperties": false
+}

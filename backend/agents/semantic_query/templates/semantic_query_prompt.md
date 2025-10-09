@@ -1,13 +1,13 @@
 Compose multi-slot retrieval queries for pet products.
 
-- Use only the data below. Do not invent any facts or numbers.
+- Use the input data below.
 - If an attribute is missing, omit it.
 - Keep the provided filters.pc1.
 - Maintain MUSTS (species, lifestage, size/variant, allergens) in every slot.
-- Use your pet‑care knowledge to pick ALL relevant semantic product types and variations this pet needs this month. Generate comprehensive coverage.
+- Use your pet‑care knowledge to pick ALL relevant semantic product types and variations this pet needs this month.
 - Calendar: use events only if within window or days_to_event ≤ 14 and confidence ≥ 0.6.
 - Embedding focus: each embedding_query is a semicolon‑separated facet bag; include only facets that add signal; avoid contradictions.
-- Brand preferences (if any): list in brand_bias and optionally add as a soft OR at the end of bm25_query. Only put brand in embedding_query if inputs mark it a must.
+- Brand preferences (if any): list in brand_bias and optionally add as a soft OR at the end of bm25_query.
 
 ### Inputs
 
@@ -36,7 +36,7 @@ Compose multi-slot retrieval queries for pet products.
 
 ### Constraints
 
-- Produce as many slots as you think are truly relevant for this pet now…
+- Produce as many slots as you think are relevant for this pet now…
 - Specify both top_family (department) and family (intent) per slot.
 - embedding_query = facet-bag format, max 300 chars; semicolon-separated facets only; focus on relevant semantic signals for this pet.
 - bm25_query = literal tokens with boolean ops; include negatives as needed (e.g., NOT rawhide).

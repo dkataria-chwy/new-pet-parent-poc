@@ -47,7 +47,7 @@ def load_csv_data(csv_path: str) -> pd.DataFrame:
     logger.info(f"Loading CSV data from: {csv_path}")
     
     # Load only the columns we need
-    required_cols = ['PRODUCT_PART_NUMBER', 'PRODUCT_AUTOSHIP_SAVE_ELIGIBLE_FLAG', 'PARENT_PRODUCT_PART_NUMBER']
+    required_cols = ['PRODUCT_PART_NUMBER', 'PRODUCT_AUTOSHIP_SAVE_ELIGIBLE_FLAG', 'PARENT_PRODUCT_PART_NUMBER','PRODUCT_PRICE_CURRENT']
     
     try:
         df = pd.read_csv(csv_path, usecols=required_cols, dtype=str)
@@ -70,6 +70,7 @@ def merge_and_save(embeddings_dict: Dict[str, Dict], csv_df: pd.DataFrame, outpu
             'autoship_eligible': bool(pd.notna(row['PRODUCT_AUTOSHIP_SAVE_ELIGIBLE_FLAG']) and 
                                     str(row['PRODUCT_AUTOSHIP_SAVE_ELIGIBLE_FLAG']).lower() in ['true', '1', 'yes']),
             'parent_product_part_number': str(row['PARENT_PRODUCT_PART_NUMBER']) if pd.notna(row['PARENT_PRODUCT_PART_NUMBER']) else None
+            'product_price_current': str(row['PRODUCT_PRICE_CURRENT']) if pd.notna(row['PRODUCT_PRICE_CURRENT']) else None
         }
     
     logger.info(f"Created lookup for {len(csv_dict):,} CSV records")
@@ -88,11 +89,13 @@ def merge_and_save(embeddings_dict: Dict[str, Dict], csv_df: pd.DataFrame, outpu
                 csv_data = csv_dict[product_id]
                 enhanced_record['product_autoship_save_eligible_flag'] = csv_data['autoship_eligible']
                 enhanced_record['parent_product_part_number'] = csv_data['parent_product_part_number']
+                enhanced_record['product_price_current'] = csv_data['product_price_current']
                 matched_count += 1
             else:
                 # Set defaults for unmatched products
                 enhanced_record['product_autoship_save_eligible_flag'] = False
                 enhanced_record['parent_product_part_number'] = None
+                enhanced_record['product_price_current'] = None
                 unmatched_count += 1
             
             # Write enhanced record
@@ -137,6 +140,7 @@ def main():
         logger.info("📊 Added columns:")
         logger.info("   - product_autoship_save_eligible_flag (boolean)")
         logger.info("   - parent_product_part_number (string)")
+        logger.info("   - product_price_current (float)")
         logger.info("✅ Ready to use with recommendation engine!")
         
     except Exception as e:

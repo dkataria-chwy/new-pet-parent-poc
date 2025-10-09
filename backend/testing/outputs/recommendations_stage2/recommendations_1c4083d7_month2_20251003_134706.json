@@ -1,0 +1,4093 @@
+{
+  "pet_id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+  "month": 2,
+  "timestamp": "2025-10-03T13:47:06.171766",
+  "processed_slots": 26,
+  "total_unique_products": 346,
+  "results": [
+    {
+      "slot_id": 1,
+      "top_family": "Food/Nutrition",
+      "rationale": "",
+      "count": 20,
+      "actual_query": "Dog puppy dry kibble for large, active puppies; controlled calories for healthy growth and weight management, high-quality non-duck protein, glucosamine for developing joints, DHA for brain development, 4\u201330 lb bag sizes with clear feeding guidelines, Mars-brand or Mars-compatible options",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1000080239",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 7.72-kg bag",
+          "similarity": 0.6783
+        },
+        {
+          "rank": 2,
+          "sku": "1000080233",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 13.6-kg bag",
+          "similarity": 0.6759
+        },
+        {
+          "rank": 3,
+          "sku": "1000111481",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 1.81-kg bag",
+          "similarity": 0.6756
+        },
+        {
+          "rank": 4,
+          "sku": "1000027046",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 2.724-kg bag",
+          "similarity": 0.6754
+        },
+        {
+          "rank": 5,
+          "sku": "1000111541",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 18.14-kg bag",
+          "similarity": 0.6741
+        },
+        {
+          "rank": 6,
+          "sku": "774142",
+          "parentSKU": "49714",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 30-lb bag",
+          "similarity": 0.673
+        },
+        {
+          "rank": 7,
+          "sku": "1600078",
+          "parentSKU": "49714",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 40-lb bag",
+          "similarity": 0.6721
+        },
+        {
+          "rank": 8,
+          "sku": "1600086",
+          "parentSKU": "49714",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 4-lb bag",
+          "similarity": 0.6713
+        },
+        {
+          "rank": 9,
+          "sku": "821374",
+          "parentSKU": "49714",
+          "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 17-lb bag",
+          "similarity": 0.6686
+        },
+        {
+          "rank": 10,
+          "sku": "1000030062",
+          "parentSKU": "1000030054",
+          "name": "Iams Proactive Health Large Breed Puppy Chicken & Whole Grains Recipe Dry Dog Food, 6.8-kg bag",
+          "similarity": 0.6612
+        },
+        {
+          "rank": 11,
+          "sku": "1000030070",
+          "parentSKU": "1000030054",
+          "name": "Iams Proactive Health Large Breed Puppy Chicken & Whole Grains Recipe Dry Dog Food, 13.9-kg bag",
+          "similarity": 0.6599
+        },
+        {
+          "rank": 12,
+          "sku": "1000108319",
+          "parentSKU": "1000108193",
+          "name": "Eukanuba Puppy Large Breed Dry Dog Food, 13.61-kg bag",
+          "similarity": 0.6596
+        },
+        {
+          "rank": 13,
+          "sku": "552358",
+          "parentSKU": "45287",
+          "name": "Eukanuba Puppy Large Breed Dry Dog Food, 30-lb bag",
+          "similarity": 0.6577
+        },
+        {
+          "rank": 14,
+          "sku": "1000006286",
+          "parentSKU": "1000006278",
+          "name": "Purina Pro Plan Development Large Breed Chicken & Rice Formula Dry Dog Food, 8.16-kg bag",
+          "similarity": 0.6574
+        },
+        {
+          "rank": 15,
+          "sku": "1106150",
+          "parentSKU": "45287",
+          "name": "Eukanuba Puppy Large Breed Dry Dog Food, 40-lb bag",
+          "similarity": 0.6573
+        },
+        {
+          "rank": 16,
+          "sku": "552350",
+          "parentSKU": "45287",
+          "name": "Eukanuba Puppy Large Breed Dry Dog Food, 16-lb bag",
+          "similarity": 0.6568
+        },
+        {
+          "rank": 17,
+          "sku": "1000006294",
+          "parentSKU": "1000006278",
+          "name": "Purina Pro Plan Development Large Breed Chicken & Rice Formula Dry Dog Food, 15.4-kg bag",
+          "similarity": 0.6558
+        },
+        {
+          "rank": 18,
+          "sku": "49743",
+          "parentSKU": "49742",
+          "name": "Diamond Naturals Large Breed Puppy Formula Dry Dog Food, 6-lb bag",
+          "similarity": 0.6545
+        },
+        {
+          "rank": 19,
+          "sku": "49744",
+          "parentSKU": "49742",
+          "name": "Diamond Naturals Large Breed Puppy Formula Dry Dog Food, 20-lb bag",
+          "similarity": 0.6541
+        },
+        {
+          "rank": 20,
+          "sku": "1000026806",
+          "parentSKU": "1000026798",
+          "name": "Royal Canin Breed Health Nutrition Labrador Retriever Puppy Dry Dog Food, 13.62-kg bag",
+          "similarity": 0.6532
+        }
+      ]
+    },
+    {
+      "slot_id": 2,
+      "top_family": "Food/Nutrition",
+      "rationale": "",
+      "count": 3,
+      "actual_query": "Dog puppy wet canned food and wet toppers/gravy to add moisture and palatability; small cans/packets for portion control and mixing with kibble, puppy-safe ingredients, duck-free, supports hydration",
+      "products": [
+        {
+          "rank": 16,
+          "sku": "1823662",
+          "parentSKU": "1823638",
+          "name": "Weruva Puppy Chicken & Rice Formula in Gravy Wet Dog Food, 14-oz can, case of 10",
+          "similarity": 0.6153
+        },
+        {
+          "rank": 17,
+          "sku": "741334",
+          "parentSKU": "741326",
+          "name": "ACANA Premium Pate Puppy in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12",
+          "similarity": 0.6144
+        },
+        {
+          "rank": 19,
+          "sku": "265981",
+          "parentSKU": "215061",
+          "name": "Purina Puppy Chow Pate Real Beef & Chicken Wet Puppy Food Variety Pack, 5.5-oz can, case of 8",
+          "similarity": 0.6134
+        }
+      ]
+    },
+    {
+      "slot_id": 3,
+      "top_family": "Treats",
+      "rationale": "",
+      "count": 10,
+      "actual_query": "Dog puppy training treats: small, low-calorie, soft and easily breakable for frequent rewards; single-protein options (lamb, beef, salmon), pack sizes for repeated reinforcement, duck-free",
+      "products": [
+        {
+          "rank": 5,
+          "sku": "2266846",
+          "parentSKU": "2266830",
+          "name": "Pupford Beef Limited-Ingredient-Diet Adult Soft & Chewy Training Dog Treats, 10-oz bag",
+          "similarity": 0.6527
+        },
+        {
+          "rank": 6,
+          "sku": "2266838",
+          "parentSKU": "2266830",
+          "name": "Pupford Beef Limited-Ingredient-Diet Adult Soft & Chewy Training Dog Treats, 5-oz bag",
+          "similarity": 0.6523
+        },
+        {
+          "rank": 7,
+          "sku": "1522870",
+          "parentSKU": "1522846",
+          "name": "Pupford Chicken Soft & Chewy Training Dog Treats, 5-oz pouch",
+          "similarity": 0.6499
+        },
+        {
+          "rank": 8,
+          "sku": "728254",
+          "parentSKU": "728246",
+          "name": "Pet Botanics Training Rewards Soft & Chewy Puppy Peanut Butter Dog Treats, Mini, 4-oz bag",
+          "similarity": 0.6498
+        },
+        {
+          "rank": 9,
+          "sku": "1522878",
+          "parentSKU": "1522846",
+          "name": "Pupford Chicken Soft & Chewy Training Dog Treats, 10-oz pouch",
+          "similarity": 0.6498
+        },
+        {
+          "rank": 10,
+          "sku": "1478950",
+          "parentSKU": "1478942",
+          "name": "Healthybud Chicken Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag",
+          "similarity": 0.6452
+        },
+        {
+          "rank": 11,
+          "sku": "1374606",
+          "parentSKU": "1374598",
+          "name": "Cloud Star Tricky Trainers Lamb Puppy Soft & Chewy Dog Treats, 5-oz bag",
+          "similarity": 0.6438
+        },
+        {
+          "rank": 12,
+          "sku": "1601286",
+          "parentSKU": "1460262",
+          "name": "Zuke's Puppy Naturals Lamb Recipe Soft & Chewy Training Dog Treats, 3-oz pouch",
+          "similarity": 0.6412
+        },
+        {
+          "rank": 14,
+          "sku": "1478966",
+          "parentSKU": "1478958",
+          "name": "Healthybud Salmon Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag",
+          "similarity": 0.6386
+        },
+        {
+          "rank": 15,
+          "sku": "1460270",
+          "parentSKU": "1460262",
+          "name": "Zuke's Puppy Naturals Lamb Recipe Soft & Chewy Training Dog Treats, 5-oz pouch",
+          "similarity": 0.6381
+        }
+      ]
+    },
+    {
+      "slot_id": 4,
+      "top_family": "Feeding/Bowls",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy slow-feeding bowl and puzzle feeder sized for medium/large mouths to reduce gulping and extend meal time; dishwasher-safe, heavy base or suction to prevent tipping, BPA-free hard plastic or silicone, durable for strong chewers",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "2084054",
+          "parentSKU": "2084046",
+          "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Green",
+          "similarity": 0.7492
+        },
+        {
+          "rank": 2,
+          "sku": "2084070",
+          "parentSKU": "2084046",
+          "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Purple",
+          "similarity": 0.7434
+        },
+        {
+          "rank": 3,
+          "sku": "2084062",
+          "parentSKU": "2084046",
+          "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Yellow",
+          "similarity": 0.7405
+        },
+        {
+          "rank": 4,
+          "sku": "155648",
+          "parentSKU": "155646",
+          "name": "Frisco Non-Skid Slow Feeder Dog & Small Pet Bowl, Black, Medium: 4 cup",
+          "similarity": 0.7044
+        },
+        {
+          "rank": 5,
+          "sku": "2084126",
+          "parentSKU": "2084102",
+          "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Grey",
+          "similarity": 0.7009
+        },
+        {
+          "rank": 6,
+          "sku": "2084118",
+          "parentSKU": "2084102",
+          "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Green",
+          "similarity": 0.6986
+        },
+        {
+          "rank": 7,
+          "sku": "1554742",
+          "parentSKU": "1554726",
+          "name": "Outward Hound Fun Feeder Slo Bowl Non-Skid Plastic Slow Feeder Dog Bowl, Sage, Medium: 4-cup",
+          "similarity": 0.6974
+        },
+        {
+          "rank": 8,
+          "sku": "2084142",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, Medium",
+          "similarity": 0.6918
+        },
+        {
+          "rank": 9,
+          "sku": "2084110",
+          "parentSKU": "2084102",
+          "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Yellow",
+          "similarity": 0.6903
+        },
+        {
+          "rank": 10,
+          "sku": "2084166",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Blue, All Breed Sizes",
+          "similarity": 0.6799
+        },
+        {
+          "rank": 11,
+          "sku": "1554734",
+          "parentSKU": "1554726",
+          "name": "Outward Hound Fun Feeder Slo Bowl Non-Skid Plastic Slow Feeder Dog Bowl, Sage, Small: 2-cup",
+          "similarity": 0.6788
+        },
+        {
+          "rank": 12,
+          "sku": "85931",
+          "parentSKU": "71398",
+          "name": "Outward Hound Non-Skid Plastic Slow Feeder Interactive Dog Bowl, Teal, 2-cup",
+          "similarity": 0.6786
+        },
+        {
+          "rank": 13,
+          "sku": "1474142",
+          "parentSKU": "1474134",
+          "name": "Frisco Interactive Non -skid Plastic Slow Feeder Dog bowl, Blue/Green, 2 cup",
+          "similarity": 0.6783
+        },
+        {
+          "rank": 14,
+          "sku": "85930",
+          "parentSKU": "71398",
+          "name": "Outward Hound Non-Skid Plastic Slow Feeder Interactive Dog Bowl, Teal, 4-cup",
+          "similarity": 0.6783
+        },
+        {
+          "rank": 15,
+          "sku": "1516974",
+          "parentSKU": "1516958",
+          "name": "Palz&Co Paw Puzzle Non-skid Silicone Slow Feeding Dog & Cat Mat, Medium: Purple",
+          "similarity": 0.676
+        }
+      ]
+    },
+    {
+      "slot_id": 5,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 20,
+      "actual_query": "Dog puppy extra-durable chew toys: thick rubber or polyurethane rings, heavy-duty KONG-style toys, ballistic nylon chews sized for a pug's short muzzle; built for strong bite force and puppy-to-adult transition, avoid poultry-based treat-in-chew products",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "53356",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Blue, Medium",
+          "similarity": 0.6665
+        },
+        {
+          "rank": 2,
+          "sku": "354337",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Blue, Large",
+          "similarity": 0.6662
+        },
+        {
+          "rank": 3,
+          "sku": "354334",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Blue, Small",
+          "similarity": 0.6619
+        },
+        {
+          "rank": 4,
+          "sku": "354338",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Pink, Large",
+          "similarity": 0.6619
+        },
+        {
+          "rank": 5,
+          "sku": "354336",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Pink, Medium",
+          "similarity": 0.6599
+        },
+        {
+          "rank": 6,
+          "sku": "354335",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Pink, Small",
+          "similarity": 0.6546
+        },
+        {
+          "rank": 7,
+          "sku": "354332",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Blue, X-Small",
+          "similarity": 0.651
+        },
+        {
+          "rank": 8,
+          "sku": "354333",
+          "parentSKU": "53280",
+          "name": "KONG Puppy Chew Dog Toy, Pink, X-Small",
+          "similarity": 0.6459
+        },
+        {
+          "rank": 9,
+          "sku": "1675598",
+          "parentSKU": "1675590",
+          "name": "Pupford Bully Teething Rings Dog Chews, 3 count",
+          "similarity": 0.6313
+        },
+        {
+          "rank": 10,
+          "sku": "1675606",
+          "parentSKU": "1675590",
+          "name": "Pupford Bully Teething Rings Dog Chews, 8 count",
+          "similarity": 0.6305
+        },
+        {
+          "rank": 11,
+          "sku": "1000050593",
+          "parentSKU": "1000050587",
+          "name": "Nylabone Puppy Power Chew Puppy Teething Rings Dog Toy",
+          "similarity": 0.6298
+        },
+        {
+          "rank": 12,
+          "sku": "1000049117",
+          "parentSKU": "1000049105",
+          "name": "Nylabone Puppy Chew Ring Chicken Flavored Puppy Chew Dog Toy, Medium",
+          "similarity": 0.6261
+        },
+        {
+          "rank": 13,
+          "sku": "232505",
+          "parentSKU": "232504",
+          "name": "KONG Ring Dog Chew Toy, X-Large",
+          "similarity": 0.6252
+        },
+        {
+          "rank": 14,
+          "sku": "1000051943",
+          "parentSKU": "1000051937",
+          "name": "KONG Ring Chew Dog Toy",
+          "similarity": 0.6242
+        },
+        {
+          "rank": 15,
+          "sku": "1000049111",
+          "parentSKU": "1000049105",
+          "name": "Nylabone Puppy Chew Ring Chicken Flavored Puppy Chew Dog Toy, X-Small",
+          "similarity": 0.6229
+        },
+        {
+          "rank": 16,
+          "sku": "173930",
+          "parentSKU": "173929",
+          "name": "Monster K9 Dog Toys Indestructible Chew Ring, Durable Dog Toy for Aggressive Chewers",
+          "similarity": 0.6214
+        },
+        {
+          "rank": 17,
+          "sku": "150480",
+          "parentSKU": "150478",
+          "name": "KONG Puppy Tires Dog Toy, Color Varies, Medium/Large",
+          "similarity": 0.6202
+        },
+        {
+          "rank": 18,
+          "sku": "1000051121",
+          "parentSKU": "1000051097",
+          "name": "KONG Puppy Dog Toy, Color Varies, Large",
+          "similarity": 0.6122
+        },
+        {
+          "rank": 19,
+          "sku": "150479",
+          "parentSKU": "150478",
+          "name": "KONG Puppy Tires Dog Toy, Color Varies, Small",
+          "similarity": 0.6116
+        },
+        {
+          "rank": 20,
+          "sku": "1000051115",
+          "parentSKU": "1000051097",
+          "name": "KONG Puppy Dog Toy, Color Varies, Medium",
+          "similarity": 0.6114
+        }
+      ]
+    },
+    {
+      "slot_id": 6,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy interactive puzzle toys and foraging toys: non-destructible treat-dispensing puzzles and snuffle mats, durable plastic or fabric, washable, multiple difficulty levels for progressive enrichment",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "2084174",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, All Breed Sizes",
+          "similarity": 0.6948
+        },
+        {
+          "rank": 2,
+          "sku": "2084166",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Blue, All Breed Sizes",
+          "similarity": 0.6938
+        },
+        {
+          "rank": 3,
+          "sku": "2084142",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, Medium",
+          "similarity": 0.6898
+        },
+        {
+          "rank": 4,
+          "sku": "2084158",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Pink, All Breed Sizes",
+          "similarity": 0.6882
+        },
+        {
+          "rank": 5,
+          "sku": "1290686",
+          "parentSKU": "1290670",
+          "name": "TRIXIE Snuffle Mat Level 1 Enrichment Interactive Feeding Game Slow Feeder Foraging Training Dog Puzzle Toy, Green/Gray",
+          "similarity": 0.6752
+        },
+        {
+          "rank": 6,
+          "sku": "1542374",
+          "parentSKU": "1542366",
+          "name": "allforpaws Interactives Dog Sokudo Treat Dispensing Dog Puzzle Toy, Green",
+          "similarity": 0.6728
+        },
+        {
+          "rank": 7,
+          "sku": "2084150",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Pink, Large",
+          "similarity": 0.6728
+        },
+        {
+          "rank": 8,
+          "sku": "1000060031",
+          "parentSKU": "1000060025",
+          "name": "Nina Ottosson by Outward Hound MultiPuzzle Interactive Puzzle Treat Dog Toy",
+          "similarity": 0.6709
+        },
+        {
+          "rank": 9,
+          "sku": "1542438",
+          "parentSKU": "1542430",
+          "name": "allforpaws Interactives Dog Sokudo Starter Treat Dispensing Dog Puzzle Toy, Green",
+          "similarity": 0.6691
+        },
+        {
+          "rank": 10,
+          "sku": "2084190",
+          "parentSKU": "2084182",
+          "name": "PuzzleFeeder Dog Snuffle Mat, Green, Medium/Large",
+          "similarity": 0.6634
+        },
+        {
+          "rank": 11,
+          "sku": "2084198",
+          "parentSKU": "2084182",
+          "name": "PuzzleFeeder Dog Snuffle Mat, Green, All Breed Sizes",
+          "similarity": 0.6631
+        },
+        {
+          "rank": 12,
+          "sku": "1000059791",
+          "parentSKU": "1000059785",
+          "name": "Nina Ottosson by Outward Hound Smart Orange Interactive Treat Puzzle Dog Toy",
+          "similarity": 0.6613
+        },
+        {
+          "rank": 13,
+          "sku": "2028862",
+          "parentSKU": "2028846",
+          "name": "PawsPik Interactive Treat Dispensing Puzzle Dog Toy, Light Blue",
+          "similarity": 0.66
+        },
+        {
+          "rank": 14,
+          "sku": "226724",
+          "parentSKU": "226723",
+          "name": "Nina Ottosson by Outward Hound Multipuzzle Dog Toy, Green & Blue",
+          "similarity": 0.6599
+        },
+        {
+          "rank": 15,
+          "sku": "1290726",
+          "parentSKU": "1290718",
+          "name": "TRIXIE Snuffle & Seek Plate, Sniff Mat, Interactive Feeding Game, Slow Feeder, Level 1 Enrichment Dog & Cat Puzzle Toy, Blue",
+          "similarity": 0.6554
+        }
+      ]
+    },
+    {
+      "slot_id": 7,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy fetch and recall toys: durable balls and launchable toys sized for a pug's mouth but built to withstand strong power, rugged rubber balls, non-abrasive Chuck-It compatible options, indoor-soft and outdoor-durable varieties",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1000028590",
+          "parentSKU": "1000028582",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Small",
+          "similarity": 0.6458
+        },
+        {
+          "rank": 2,
+          "sku": "1000028606",
+          "parentSKU": "1000028582",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Medium",
+          "similarity": 0.6441
+        },
+        {
+          "rank": 3,
+          "sku": "64738",
+          "parentSKU": "64737",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Small",
+          "similarity": 0.6426
+        },
+        {
+          "rank": 4,
+          "sku": "53234",
+          "parentSKU": "53190",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Small, 2 pack",
+          "similarity": 0.6403
+        },
+        {
+          "rank": 5,
+          "sku": "64739",
+          "parentSKU": "64737",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Medium",
+          "similarity": 0.6386
+        },
+        {
+          "rank": 6,
+          "sku": "1030614",
+          "parentSKU": "53190",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Small, 4 pack",
+          "similarity": 0.6375
+        },
+        {
+          "rank": 7,
+          "sku": "53239",
+          "parentSKU": "80965",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Large",
+          "similarity": 0.6373
+        },
+        {
+          "rank": 8,
+          "sku": "53235",
+          "parentSKU": "53190",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack",
+          "similarity": 0.6363
+        },
+        {
+          "rank": 9,
+          "sku": "64740",
+          "parentSKU": "64737",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Large",
+          "similarity": 0.6356
+        },
+        {
+          "rank": 10,
+          "sku": "1030590",
+          "parentSKU": "80965",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, 2 count, Large",
+          "similarity": 0.632
+        },
+        {
+          "rank": 11,
+          "sku": "1000028550",
+          "parentSKU": "1000028542",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, 2 count, Small",
+          "similarity": 0.6234
+        },
+        {
+          "rank": 12,
+          "sku": "64771",
+          "parentSKU": "80965",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, X-Large",
+          "similarity": 0.6232
+        },
+        {
+          "rank": 13,
+          "sku": "872214",
+          "parentSKU": "872206",
+          "name": "Chuckit! Sniff Fetch Balls Duo Dog Toy, Medium",
+          "similarity": 0.6218
+        },
+        {
+          "rank": 14,
+          "sku": "64772",
+          "parentSKU": "80965",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, XX-Large",
+          "similarity": 0.6203
+        },
+        {
+          "rank": 15,
+          "sku": "1000028558",
+          "parentSKU": "1000028542",
+          "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, 2 count, Medium",
+          "similarity": 0.6202
+        }
+      ]
+    },
+    {
+      "slot_id": 8,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy heavy-duty tug toys made from ballistic fabric, thick braided polyester or rubber with secure handles; washable, reinforced, sized to avoid neck strain for brachycephalic necks",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "54171",
+          "parentSKU": "53936",
+          "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Red Paws",
+          "similarity": 0.6494
+        },
+        {
+          "rank": 2,
+          "sku": "1223126",
+          "parentSKU": "1223118",
+          "name": "Angel Liberty Ball Tug 1-Handle Tough Dog Tug Toy, Black",
+          "similarity": 0.6481
+        },
+        {
+          "rank": 3,
+          "sku": "83265",
+          "parentSKU": "83263",
+          "name": "Mammoth Braided Tug with TPR Ball for Dogs, Color Varies, Large",
+          "similarity": 0.6468
+        },
+        {
+          "rank": 4,
+          "sku": "54172",
+          "parentSKU": "53936",
+          "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Yellow Bones",
+          "similarity": 0.6451
+        },
+        {
+          "rank": 5,
+          "sku": "1000028606",
+          "parentSKU": "1000028582",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Medium",
+          "similarity": 0.6424
+        },
+        {
+          "rank": 6,
+          "sku": "83264",
+          "parentSKU": "83263",
+          "name": "Mammoth Braided Tug with TPR Ball for Dogs, Color Varies, Small",
+          "similarity": 0.6415
+        },
+        {
+          "rank": 7,
+          "sku": "64740",
+          "parentSKU": "64737",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Large",
+          "similarity": 0.6412
+        },
+        {
+          "rank": 8,
+          "sku": "1000028590",
+          "parentSKU": "1000028582",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Small",
+          "similarity": 0.639
+        },
+        {
+          "rank": 9,
+          "sku": "54169",
+          "parentSKU": "53936",
+          "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Camo Blue",
+          "similarity": 0.6383
+        },
+        {
+          "rank": 10,
+          "sku": "54170",
+          "parentSKU": "53936",
+          "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Pink Leopard",
+          "similarity": 0.6382
+        },
+        {
+          "rank": 11,
+          "sku": "64739",
+          "parentSKU": "64737",
+          "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Medium",
+          "similarity": 0.6369
+        },
+        {
+          "rank": 12,
+          "sku": "83261",
+          "parentSKU": "83259",
+          "name": "Mammoth Braided Tug with Tennis Ball for Dogs, Color Varies, Large",
+          "similarity": 0.6341
+        }
+      ]
+    },
+    {
+      "slot_id": 9,
+      "top_family": "Health & Wellness",
+      "rationale": "",
+      "count": 14,
+      "actual_query": "Dog puppy dental care: finger brush and dual-head toothbrush, enzymatic toothpaste in non-chicken flavors, VOHC-accepted dental chews (duck-free), appropriately sized dental chews and daily dental wipes as alternatives",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "954110",
+          "parentSKU": "954102",
+          "name": "Dental Fresh Enzymatic Gel Finger Dog Toothbrush Kit, 2.5-fl oz",
+          "similarity": 0.6513
+        },
+        {
+          "rank": 2,
+          "sku": "1450950",
+          "parentSKU": "1450942",
+          "name": "Vetnique Labs Dentabliss Finger Mitt Teeth Cleaning Chicken Flavor Dog Dental Wipes, 50 count",
+          "similarity": 0.6384
+        },
+        {
+          "rank": 3,
+          "sku": "918366",
+          "parentSKU": "918358",
+          "name": "Nylabone Advanced Oral Care Peanut Butter Flavor Toothpaste, 2.5-oz tube + Soft-Bristle Toothbrush for Puppies, 3-pack",
+          "similarity": 0.6313
+        },
+        {
+          "rank": 4,
+          "sku": "1849942",
+          "parentSKU": "1849926",
+          "name": "PetLab Co. Dental Finger Wipes for Dogs, 30 count",
+          "similarity": 0.6309
+        },
+        {
+          "rank": 5,
+          "sku": "1130182",
+          "parentSKU": "1130166",
+          "name": "H&H Pets Disposable Dental Dry Wipes Dog Finger Toothbrush, 60 count",
+          "similarity": 0.6307
+        },
+        {
+          "rank": 6,
+          "sku": "1130174",
+          "parentSKU": "1130166",
+          "name": "H&H Pets Disposable Dental Dry Wipes Dog Finger Toothbrush, 20 count",
+          "similarity": 0.6302
+        },
+        {
+          "rank": 7,
+          "sku": "1951870",
+          "parentSKU": "1951862",
+          "name": "Dr. Paws Choice Dog Dental Finger Wipes, 50 count",
+          "similarity": 0.6282
+        },
+        {
+          "rank": 8,
+          "sku": "85558",
+          "parentSKU": "85556",
+          "name": "TropiClean Fresh Breath Oral Care Plaque & Tartar Defense Puppy Dental Kit",
+          "similarity": 0.6257
+        },
+        {
+          "rank": 9,
+          "sku": "908446",
+          "parentSKU": "908438",
+          "name": "Vetnique Labs Dentabliss Finger Mitt Teeth Cleaning Peppermint Flavor Dog Dental Wipes, 50 count",
+          "similarity": 0.6255
+        },
+        {
+          "rank": 11,
+          "sku": "62938",
+          "parentSKU": "62937",
+          "name": "Nylabone Advanced Oral Care Finger Dog Brush, 2 count",
+          "similarity": 0.6243
+        },
+        {
+          "rank": 12,
+          "sku": "62949",
+          "parentSKU": "62948",
+          "name": "Nylabone Advanced Oral Care Original Flavor Puppy Dental Kit",
+          "similarity": 0.6232
+        },
+        {
+          "rank": 13,
+          "sku": "62945",
+          "parentSKU": "62944",
+          "name": "Nylabone Advanced Oral Care Natural Peanut Flavor Dog Dental Kit",
+          "similarity": 0.6231
+        },
+        {
+          "rank": 14,
+          "sku": "189592",
+          "parentSKU": "189591",
+          "name": "Triple Pet EZ Fingerbrush Vanilla Mint Flavored Dog Dental Kit",
+          "similarity": 0.6224
+        },
+        {
+          "rank": 15,
+          "sku": "1951854",
+          "parentSKU": "1951846",
+          "name": "Dr. Paws Choice Peanut Butter Scented Dog Dental Finger Wipes, 50 count",
+          "similarity": 0.6223
+        }
+      ]
+    },
+    {
+      "slot_id": 10,
+      "top_family": "Seasonal/Environment",
+      "rationale": "",
+      "count": 20,
+      "actual_query": "Dog puppy cooling gear: gel or evaporative cooling mats, evaporative cooling vest sized for a pug's chest, portable misting fan, shaded canopy for yard use, breathable elevated mesh bed; easy to clean and stable for a robust dog",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "138812",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 18",
+          "similarity": 0.633
+        },
+        {
+          "rank": 2,
+          "sku": "138813",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 20",
+          "similarity": 0.6328
+        },
+        {
+          "rank": 3,
+          "sku": "138811",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 16",
+          "similarity": 0.6321
+        },
+        {
+          "rank": 4,
+          "sku": "138816",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 26",
+          "similarity": 0.6318
+        },
+        {
+          "rank": 5,
+          "sku": "138810",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 14",
+          "similarity": 0.6316
+        },
+        {
+          "rank": 6,
+          "sku": "138814",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 22",
+          "similarity": 0.6315
+        },
+        {
+          "rank": 7,
+          "sku": "138815",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 24",
+          "similarity": 0.6313
+        },
+        {
+          "rank": 8,
+          "sku": "138809",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, 12",
+          "similarity": 0.6297
+        },
+        {
+          "rank": 9,
+          "sku": "1691230",
+          "parentSKU": "1691222",
+          "name": "allforpaws Chill Out Fresh Breeze Cooling Dog Bed, Medium",
+          "similarity": 0.6211
+        },
+        {
+          "rank": 10,
+          "sku": "758566",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 18",
+          "similarity": 0.621
+        },
+        {
+          "rank": 11,
+          "sku": "758550",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 14",
+          "similarity": 0.6209
+        },
+        {
+          "rank": 12,
+          "sku": "758574",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 20",
+          "similarity": 0.62
+        },
+        {
+          "rank": 13,
+          "sku": "758558",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 16",
+          "similarity": 0.6195
+        },
+        {
+          "rank": 14,
+          "sku": "758590",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 24",
+          "similarity": 0.6192
+        },
+        {
+          "rank": 15,
+          "sku": "1691214",
+          "parentSKU": "1691190",
+          "name": "allforpaws Chill Out Orange Cooling Mat Dog Bed",
+          "similarity": 0.614
+        },
+        {
+          "rank": 16,
+          "sku": "1467550",
+          "parentSKU": "1467502",
+          "name": "Canada Pooch Cooling Dog Vest, Watermelon, 22",
+          "similarity": 0.6133
+        },
+        {
+          "rank": 17,
+          "sku": "258159",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Tie Dye, 28",
+          "similarity": 0.6132
+        },
+        {
+          "rank": 18,
+          "sku": "258142",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Rainbow, 18",
+          "similarity": 0.6126
+        },
+        {
+          "rank": 19,
+          "sku": "1467606",
+          "parentSKU": "1467574",
+          "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Medium/Large",
+          "similarity": 0.6119
+        },
+        {
+          "rank": 20,
+          "sku": "258141",
+          "parentSKU": "138807",
+          "name": "Canada Pooch Cooling Dog Vest, Rainbow, 16",
+          "similarity": 0.6118
+        }
+      ]
+    },
+    {
+      "slot_id": 11,
+      "top_family": "Feeding/Bowls",
+      "rationale": "",
+      "count": 20,
+      "actual_query": "Dog puppy hydration gear: large-capacity stainless steel or ceramic elevated water bowls, travel water bottle with integrated bowl, pet water fountain for constant fresh water, insulated bottles for warm days, sturdy base to prevent tipping by a strong dog",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "127461",
+          "parentSKU": "127460",
+          "name": "KONG H2O K9 UNIT Insulated Stainless Steel Dog Water Bottle & Travel Bowl, Shadow Black, 25-oz",
+          "similarity": 0.6467
+        },
+        {
+          "rank": 2,
+          "sku": "127463",
+          "parentSKU": "127460",
+          "name": "KONG H2O K9 UNIT Insulated Stainless Steel Dog Water Bottle & Travel Bowl, Orange, 25-oz",
+          "similarity": 0.6443
+        },
+        {
+          "rank": 3,
+          "sku": "1977430",
+          "parentSKU": "1977422",
+          "name": "ShopInstaPets Georgia Bulldogs Insulated Travel Dog Water Bottle with Detachable Bowl Base, 37-oz",
+          "similarity": 0.636
+        },
+        {
+          "rank": 4,
+          "sku": "1977478",
+          "parentSKU": "1977470",
+          "name": "ShopInstaPets Nebraska Cornhuskers Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz",
+          "similarity": 0.6337
+        },
+        {
+          "rank": 5,
+          "sku": "364071",
+          "parentSKU": "364069",
+          "name": "KONG H2O Dog Stainless Steel Bottle, Red, Large",
+          "similarity": 0.6323
+        },
+        {
+          "rank": 6,
+          "sku": "1977446",
+          "parentSKU": "1977438",
+          "name": "ShopInstaPets Penn State Nittany Lions Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz",
+          "similarity": 0.6321
+        },
+        {
+          "rank": 7,
+          "sku": "2125582",
+          "parentSKU": "2125550",
+          "name": "VIVIPAL Wireless Stainless Steel Water Fountain for Large Dogs, 7-L",
+          "similarity": 0.627
+        },
+        {
+          "rank": 8,
+          "sku": "1977558",
+          "parentSKU": "1977550",
+          "name": "ShopInstaPets Ohio State Buckeyes Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz",
+          "similarity": 0.6256
+        },
+        {
+          "rank": 9,
+          "sku": "109245",
+          "parentSKU": "109240",
+          "name": "KONG H2O Stainless Steel Dog Water Bottle, Green, 25-oz",
+          "similarity": 0.6226
+        },
+        {
+          "rank": 10,
+          "sku": "132036",
+          "parentSKU": "132035",
+          "name": "Heininger Waterboy Portable Pet Bowl, 3-qt",
+          "similarity": 0.6218
+        },
+        {
+          "rank": 11,
+          "sku": "1977526",
+          "parentSKU": "1977510",
+          "name": "ShopInstaPets James Madison Dukes Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz",
+          "similarity": 0.6213
+        },
+        {
+          "rank": 12,
+          "sku": "1717334",
+          "parentSKU": "1717318",
+          "name": "LESOTC Portable Dog Water Bottle, 34-oz",
+          "similarity": 0.6193
+        },
+        {
+          "rank": 13,
+          "sku": "132442",
+          "parentSKU": "132440",
+          "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, Blue, 20-oz bottle",
+          "similarity": 0.6191
+        },
+        {
+          "rank": 14,
+          "sku": "364070",
+          "parentSKU": "364069",
+          "name": "KONG H2O Dog Stainless Steel Bottle, Red, Small",
+          "similarity": 0.6191
+        },
+        {
+          "rank": 15,
+          "sku": "212862",
+          "parentSKU": "132440",
+          "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, 20-oz bottle, Red",
+          "similarity": 0.6189
+        },
+        {
+          "rank": 16,
+          "sku": "132444",
+          "parentSKU": "132440",
+          "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, Pink, 20-oz bottle",
+          "similarity": 0.6187
+        },
+        {
+          "rank": 17,
+          "sku": "1717326",
+          "parentSKU": "1717318",
+          "name": "LESOTC Portable Dog Water Bottle, 28-oz",
+          "similarity": 0.6185
+        },
+        {
+          "rank": 18,
+          "sku": "1814958",
+          "parentSKU": "1814942",
+          "name": "LESOTC Travel Dog Water Dispenser, 77-oz, Blue",
+          "similarity": 0.6166
+        },
+        {
+          "rank": 19,
+          "sku": "109246",
+          "parentSKU": "109240",
+          "name": "KONG H2O Stainless Steel Dog Water Bottle, Orange, 25-oz",
+          "similarity": 0.6166
+        },
+        {
+          "rank": 20,
+          "sku": "1814950",
+          "parentSKU": "1814942",
+          "name": "LESOTC Travel Dog Water Dispenser, 77-oz, Green",
+          "similarity": 0.6151
+        }
+      ]
+    },
+    {
+      "slot_id": 12,
+      "top_family": "Leashes/Collars",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy padded, wide front-clip or dual-clip harness for short-nosed breeds to minimize neck pressure; adjustable for growth, heavy-duty buckles for strong pullers, fit-tested to avoid tracheal compression",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "140020",
+          "parentSKU": "140000",
+          "name": "Frisco Padded No Pull Dog Harness, Blue, S- Girth16 to 22-in",
+          "similarity": 0.6438
+        },
+        {
+          "rank": 2,
+          "sku": "1000012966",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Blue, 16 to 22-in chest",
+          "similarity": 0.6427
+        },
+        {
+          "rank": 3,
+          "sku": "140026",
+          "parentSKU": "140000",
+          "name": "Frisco Padded No Pull Dog Harness, Black, S- Girth16 to 22-in",
+          "similarity": 0.6421
+        },
+        {
+          "rank": 4,
+          "sku": "1000098269",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Black, S- Girth16 to 22-in",
+          "similarity": 0.6415
+        },
+        {
+          "rank": 5,
+          "sku": "1000012958",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, 22 to 34-in chest, Pink",
+          "similarity": 0.6413
+        },
+        {
+          "rank": 6,
+          "sku": "1000012974",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Black, 22 to 34-in chest",
+          "similarity": 0.6409
+        },
+        {
+          "rank": 7,
+          "sku": "1000098251",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Blue, M- Girth 22 to 34-in",
+          "similarity": 0.6409
+        },
+        {
+          "rank": 8,
+          "sku": "140012",
+          "parentSKU": "140000",
+          "name": "Frisco Padded No Pull Dog Harness, Red, S- Girth16 to 22-in",
+          "similarity": 0.6408
+        },
+        {
+          "rank": 9,
+          "sku": "1000012950",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, 16 to 22-in chest, Pink",
+          "similarity": 0.6399
+        },
+        {
+          "rank": 10,
+          "sku": "140021",
+          "parentSKU": "140000",
+          "name": "Frisco Padded No Pull Dog Harness, Blue, M- Girth 22 to 34-in",
+          "similarity": 0.6386
+        },
+        {
+          "rank": 11,
+          "sku": "1000098221",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Pink, XL- Girth 32 to 50-in",
+          "similarity": 0.6381
+        },
+        {
+          "rank": 12,
+          "sku": "1000098263",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Blue, XL- Girth 32 to 50-in",
+          "similarity": 0.6379
+        },
+        {
+          "rank": 13,
+          "sku": "140027",
+          "parentSKU": "140000",
+          "name": "Frisco Padded No Pull Dog Harness, Black, M- Girth 22 to 34-in",
+          "similarity": 0.6372
+        },
+        {
+          "rank": 14,
+          "sku": "1000098215",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Pink, L- Girth 26 to 40-in",
+          "similarity": 0.637
+        },
+        {
+          "rank": 15,
+          "sku": "1000098275",
+          "parentSKU": "1000012942",
+          "name": "Frisco Padded Nylon No Pull Dog Harness, Black, L- Girth 26 to 40-in",
+          "similarity": 0.6368
+        }
+      ]
+    },
+    {
+      "slot_id": 13,
+      "top_family": "Leashes/Collars",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy heavy-duty 4\u20136 ft leash with reinforced stitching and optional traffic handle; reflective vest or LED-lit collar attachments, reflective harness covers and high-visibility walking vest for hunting season and low-light safety",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "358123",
+          "parentSKU": "358122",
+          "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Blue",
+          "similarity": 0.6715
+        },
+        {
+          "rank": 2,
+          "sku": "358127",
+          "parentSKU": "358122",
+          "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Orange",
+          "similarity": 0.6701
+        },
+        {
+          "rank": 3,
+          "sku": "358124",
+          "parentSKU": "358122",
+          "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Pink",
+          "similarity": 0.67
+        },
+        {
+          "rank": 4,
+          "sku": "358125",
+          "parentSKU": "358122",
+          "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Purple",
+          "similarity": 0.669
+        },
+        {
+          "rank": 5,
+          "sku": "358126",
+          "parentSKU": "358122",
+          "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Grey",
+          "similarity": 0.666
+        },
+        {
+          "rank": 6,
+          "sku": "193785",
+          "parentSKU": "209570",
+          "name": "Industrial Puppy Nylon Reflective Service Dog Leash, Pink, 4-ft long, 1-in wide",
+          "similarity": 0.6239
+        },
+        {
+          "rank": 7,
+          "sku": "193784",
+          "parentSKU": "209570",
+          "name": "Industrial Puppy Nylon Reflective Service Dog Leash, Black, 4-ft long, 1-in wide",
+          "similarity": 0.6213
+        },
+        {
+          "rank": 8,
+          "sku": "911126",
+          "parentSKU": "911102",
+          "name": "LupinePet Reflective Padded Handle Dog Leash, Orange Diamond, Large: 6-ft long, 1-in wide",
+          "similarity": 0.6209
+        },
+        {
+          "rank": 9,
+          "sku": "193783",
+          "parentSKU": "209570",
+          "name": "Industrial Puppy Nylon Reflective Service Dog Leash, Red, 4-ft long, 1-in wide",
+          "similarity": 0.6209
+        },
+        {
+          "rank": 10,
+          "sku": "1316246",
+          "parentSKU": "1316214",
+          "name": "Dogs & Cats & Co. Polyester 3M Reflective Dog Leash, Navy Blue, Large: 4-ft long, 1-in wide",
+          "similarity": 0.6127
+        },
+        {
+          "rank": 11,
+          "sku": "1316222",
+          "parentSKU": "1316214",
+          "name": "Dogs & Cats & Co. Polyester 3M Reflective Dog Leash, Dark Green, Large: 4-ft long, 1-in wide",
+          "similarity": 0.6121
+        },
+        {
+          "rank": 12,
+          "sku": "1316510",
+          "parentSKU": "1316502",
+          "name": "Dogs & Cats & Co. Polyester 3M Reflective Safety Dog Leash, True Black, Large: 4-ft long, 1-in wide",
+          "similarity": 0.6115
+        },
+        {
+          "rank": 13,
+          "sku": "245589",
+          "parentSKU": "245587",
+          "name": "Dog Helios Dura-Tough 3M Reflective Dog Collar & Leash, Blue, Medium",
+          "similarity": 0.6115
+        },
+        {
+          "rank": 14,
+          "sku": "1801830",
+          "parentSKU": "1801774",
+          "name": "LupinePet Reflective Diamonds Padded Handle Dog Leash, Orange Diamond, Regular: 4-ft long, 1-in wide",
+          "similarity": 0.6112
+        },
+        {
+          "rank": 15,
+          "sku": "358114",
+          "parentSKU": "358098",
+          "name": "Headlight Harness LED Light Dog Harness, Orange, Large",
+          "similarity": 0.6111
+        }
+      ]
+    },
+    {
+      "slot_id": 14,
+      "top_family": "Housing/Training",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy crate with divider for growth, solid build with good ventilation, comfortable washable mat; indoor playpen for supervised exercise and safe separation in the apartment",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "688470",
+          "parentSKU": "688462",
+          "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 24-in",
+          "similarity": 0.6074
+        },
+        {
+          "rank": 2,
+          "sku": "688478",
+          "parentSKU": "688462",
+          "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 30-in",
+          "similarity": 0.6054
+        },
+        {
+          "rank": 3,
+          "sku": "688494",
+          "parentSKU": "688462",
+          "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 42-in",
+          "similarity": 0.6052
+        },
+        {
+          "rank": 4,
+          "sku": "688486",
+          "parentSKU": "688462",
+          "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 36-in",
+          "similarity": 0.605
+        },
+        {
+          "rank": 5,
+          "sku": "688502",
+          "parentSKU": "688462",
+          "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 48-in",
+          "similarity": 0.6049
+        },
+        {
+          "rank": 6,
+          "sku": "148948",
+          "parentSKU": "148946",
+          "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1/2 inch Floor Grid, 37 inch",
+          "similarity": 0.5897
+        },
+        {
+          "rank": 7,
+          "sku": "148953",
+          "parentSKU": "148946",
+          "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1 inch Floor Grid, 37 inch",
+          "similarity": 0.589
+        },
+        {
+          "rank": 8,
+          "sku": "148947",
+          "parentSKU": "148946",
+          "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1/2 inch Floor Grid, 35 inch",
+          "similarity": 0.5878
+        },
+        {
+          "rank": 9,
+          "sku": "148949",
+          "parentSKU": "148946",
+          "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1/2 inch Floor Grid, 48 inch",
+          "similarity": 0.5878
+        },
+        {
+          "rank": 10,
+          "sku": "1000068107",
+          "parentSKU": "1000063691",
+          "name": "Frisco 6-Panel Convertible Plastic Playpen Divider with Wall Mounts, Light Gray",
+          "similarity": 0.5707
+        },
+        {
+          "rank": 11,
+          "sku": "300221",
+          "parentSKU": "300220",
+          "name": "SMONTER Heavy Duty Dog Crate & Playpen, 38-in",
+          "similarity": 0.5609
+        },
+        {
+          "rank": 12,
+          "sku": "300213",
+          "parentSKU": "300212",
+          "name": "SMONTER Heavy Duty I Shape Dog Crate & Playpen, 42-in",
+          "similarity": 0.5579
+        },
+        {
+          "rank": 13,
+          "sku": "300222",
+          "parentSKU": "300220",
+          "name": "SMONTER Heavy Duty Dog Crate & Playpen, 46-in",
+          "similarity": 0.5555
+        },
+        {
+          "rank": 14,
+          "sku": "243566",
+          "parentSKU": "243564",
+          "name": "Richell Expandable Dog Crate Divider, Medium",
+          "similarity": 0.5552
+        },
+        {
+          "rank": 15,
+          "sku": "300214",
+          "parentSKU": "300212",
+          "name": "SMONTER Heavy Duty I Shape Dog Crate & Playpen, 46-in",
+          "similarity": 0.5548
+        }
+      ]
+    },
+    {
+      "slot_id": 15,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy de-shedding and grooming tools for short-coated breeds: FURminator-style deshedding brush, grooming glove, slicker brush, lint rollers, and grooming wipes; easy-to-clean and sized for compact body",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "243245",
+          "parentSKU": "243244",
+          "name": "FURminator Short Hair Dog Deshedding Tool, Green, Small",
+          "similarity": 0.6877
+        },
+        {
+          "rank": 2,
+          "sku": "1000025742",
+          "parentSKU": "1000025726",
+          "name": "FURminator Short Hair deShedding Dog Tool, Large",
+          "similarity": 0.6812
+        },
+        {
+          "rank": 3,
+          "sku": "243247",
+          "parentSKU": "243244",
+          "name": "FURminator Short Hair Dog Deshedding Tool, Blue, Large",
+          "similarity": 0.6759
+        },
+        {
+          "rank": 4,
+          "sku": "243246",
+          "parentSKU": "243244",
+          "name": "FURminator Short Hair Dog Deshedding Tool, Orange, Medium",
+          "similarity": 0.6687
+        },
+        {
+          "rank": 5,
+          "sku": "1000025790",
+          "parentSKU": "1000025774",
+          "name": "FURminator Long Hair deShedding Dog Tool, Medium",
+          "similarity": 0.6604
+        },
+        {
+          "rank": 6,
+          "sku": "243249",
+          "parentSKU": "243248",
+          "name": "FURminator Long Hair Dog Deshedding Tool, Green, Small",
+          "similarity": 0.6579
+        },
+        {
+          "rank": 7,
+          "sku": "1461270",
+          "parentSKU": "1461262",
+          "name": "Andis Compact Dog & Cat Deshedding Tool",
+          "similarity": 0.64
+        },
+        {
+          "rank": 8,
+          "sku": "613454",
+          "parentSKU": "613446",
+          "name": "SunGrow Undercoat Deshedding Brush for Short Haired Dog & Cat Shedding Control & Grooming Tool",
+          "similarity": 0.64
+        },
+        {
+          "rank": 9,
+          "sku": "243250",
+          "parentSKU": "243248",
+          "name": "FURminator Long Hair Dog Deshedding Tool, Orange, Medium",
+          "similarity": 0.6371
+        },
+        {
+          "rank": 10,
+          "sku": "1568958",
+          "parentSKU": "1568950",
+          "name": "Andis Compact Pet Deshedding Tool",
+          "similarity": 0.6363
+        },
+        {
+          "rank": 11,
+          "sku": "1065470",
+          "parentSKU": "1065462",
+          "name": "FURminator DeShedding Dog Grooming Wipes, 100 count",
+          "similarity": 0.6352
+        },
+        {
+          "rank": 12,
+          "sku": "243251",
+          "parentSKU": "243248",
+          "name": "FURminator Long Hair Dog Deshedding Tool, Blue, Large",
+          "similarity": 0.6348
+        },
+        {
+          "rank": 13,
+          "sku": "316273",
+          "parentSKU": "316272",
+          "name": "Warren London Short Hair Deshedding Dog Brush, Small",
+          "similarity": 0.6277
+        },
+        {
+          "rank": 14,
+          "sku": "206890",
+          "parentSKU": "206889",
+          "name": "Frisco Deshedding Cat & Dog Brush, Large, Short to Medium Hair",
+          "similarity": 0.6248
+        },
+        {
+          "rank": 15,
+          "sku": "725486",
+          "parentSKU": "725478",
+          "name": "Andis Deshedding Dog Tool",
+          "similarity": 0.6235
+        }
+      ]
+    },
+    {
+      "slot_id": 16,
+      "top_family": "Home Comfort",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy HEPA air purifier sized for apartment rooms to reduce airborne allergens, plus hypoallergenic, washable dog bedding and covers that trap dander and use breathable materials to limit heat retention",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "234048",
+          "parentSKU": "234047",
+          "name": "Honeywell HPA200 Series Large Room HEPA Air Purifier Pre-filter, 4 count",
+          "similarity": 0.6175
+        },
+        {
+          "rank": 2,
+          "sku": "234046",
+          "parentSKU": "234045",
+          "name": "Honeywell HPA100 Series Medium Room HEPA Air Purifier Pre-filter, 4 count",
+          "similarity": 0.6163
+        },
+        {
+          "rank": 3,
+          "sku": "234035",
+          "parentSKU": "234033",
+          "name": "Honeywell HPA300 Series HEPA Extra-Large Room Air Purifier, White",
+          "similarity": 0.6138
+        },
+        {
+          "rank": 4,
+          "sku": "192872",
+          "parentSKU": "192871",
+          "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, White",
+          "similarity": 0.6134
+        },
+        {
+          "rank": 5,
+          "sku": "192873",
+          "parentSKU": "192871",
+          "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, Black",
+          "similarity": 0.6113
+        },
+        {
+          "rank": 6,
+          "sku": "1348510",
+          "parentSKU": "1348502",
+          "name": "Shark Air Purifier MAX with True HEPA, Grey",
+          "similarity": 0.6085
+        },
+        {
+          "rank": 7,
+          "sku": "2049398",
+          "parentSKU": "2049382",
+          "name": "Dreo Macro-414 Tabletop Air Purifier",
+          "similarity": 0.6078
+        },
+        {
+          "rank": 8,
+          "sku": "317916",
+          "parentSKU": "317915",
+          "name": "Lasko HEPA Filter DreamMode Premium Tower Air Purifier",
+          "similarity": 0.6041
+        },
+        {
+          "rank": 9,
+          "sku": "234050",
+          "parentSKU": "234049",
+          "name": "Honeywell HPA300 Series Extra-Large Room HEPA Air Purifier Pre-filter, 4 count",
+          "similarity": 0.6038
+        },
+        {
+          "rank": 10,
+          "sku": "1351238",
+          "parentSKU": "1351230",
+          "name": "Shark HP102 Air Purifier with True HEPA, White",
+          "similarity": 0.6036
+        },
+        {
+          "rank": 11,
+          "sku": "230446",
+          "parentSKU": "230445",
+          "name": "LEVOIT Smart True Air Purifier",
+          "similarity": 0.5982
+        },
+        {
+          "rank": 12,
+          "sku": "192875",
+          "parentSKU": "192874",
+          "name": "Rabbit Air MinusA2 Allergy SPA-780N WIFI Control Pet Allergy Air Purifier, White",
+          "similarity": 0.5959
+        }
+      ]
+    },
+    {
+      "slot_id": 17,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy nail and paw care: guillotine or scissor nail trimmers and file, non-irritating paw balm to protect pads from hot pavement, hypoallergenic paw wipes to clean after yard play; puppy-safe formulations",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1378486",
+          "parentSKU": "1378446",
+          "name": "Natural Dog Company Paw Dog Grooming Wipes, 50 count",
+          "similarity": 0.5852
+        },
+        {
+          "rank": 2,
+          "sku": "1473430",
+          "parentSKU": "1473414",
+          "name": "RenewedPet Pet Nail & Paw Cleaner, 2-fl oz bottle",
+          "similarity": 0.5779
+        },
+        {
+          "rank": 3,
+          "sku": "1473438",
+          "parentSKU": "1473414",
+          "name": "RenewedPet Pet Nail & Paw Cleaner, 4-fl oz bottle",
+          "similarity": 0.5773
+        },
+        {
+          "rank": 4,
+          "sku": "1473446",
+          "parentSKU": "1473414",
+          "name": "RenewedPet Pet Nail & Paw Cleaner, 16-fl oz bottle",
+          "similarity": 0.5772
+        },
+        {
+          "rank": 5,
+          "sku": "629278",
+          "parentSKU": "629270",
+          "name": "SunGrow Cat & Dog Nail Trimmers & File Set, Clippers for Claw Care & Small Pet Grooming",
+          "similarity": 0.5586
+        },
+        {
+          "rank": 6,
+          "sku": "2007958",
+          "parentSKU": "2007950",
+          "name": "Penthouse Paws Lavender Dogs & Cat Paws & Body Cleansing Aloe Pet Wipes, 110 count",
+          "similarity": 0.5489
+        },
+        {
+          "rank": 7,
+          "sku": "181115",
+          "parentSKU": "181114",
+          "name": "Petpost Dog Paw Wipes, 70 count",
+          "similarity": 0.5461
+        },
+        {
+          "rank": 8,
+          "sku": "2007942",
+          "parentSKU": "2007934",
+          "name": "Penthouse Paws Unscented Dogs & Cats Paws & Body Cleansing Pet Wipes, 110 count",
+          "similarity": 0.5439
+        },
+        {
+          "rank": 9,
+          "sku": "262729",
+          "parentSKU": "262728",
+          "name": "Pawz Sanitizing Dog & Cat Wipes, 60 count",
+          "similarity": 0.5405
+        },
+        {
+          "rank": 10,
+          "sku": "1426806",
+          "parentSKU": "1426798",
+          "name": "Divine Canine Rosewater-Infused Paw Sanitizer Spritz, Anti-Bacterial & Anti-Fungal Alchohol-Free Dog Paw Cleaner, 5.1-fl oz spray",
+          "similarity": 0.5399
+        },
+        {
+          "rank": 11,
+          "sku": "183112",
+          "parentSKU": "183111",
+          "name": "Warren London Paw Sani-Scrub Paw & Nail Dog Cleanser, 8-fl oz bottle",
+          "similarity": 0.5386
+        },
+        {
+          "rank": 12,
+          "sku": "182113",
+          "parentSKU": "126811",
+          "name": "Purrdy Paws Soft Dog Nail Caps, Black, Small, 20 count",
+          "similarity": 0.5374
+        }
+      ]
+    },
+    {
+      "slot_id": 18,
+      "top_family": "Training/Tech",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy training aids: clicker and target stick for positive reinforcement, potty bells or indoor potty pads for apartment transitions, and a durable treat pouch for on-the-go training; easy-clean materials",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "353044",
+          "parentSKU": "353043",
+          "name": "Mighty Paw Dog Training Clicker",
+          "similarity": 0.5995
+        },
+        {
+          "rank": 2,
+          "sku": "131575",
+          "parentSKU": "131574",
+          "name": "PET N PET Dog Training Treat Pouch",
+          "similarity": 0.5819
+        },
+        {
+          "rank": 3,
+          "sku": "1640606",
+          "parentSKU": "1640598",
+          "name": "Spotty Adjustable Dog Training Potty Bells, Grey, 35-in",
+          "similarity": 0.5804
+        },
+        {
+          "rank": 4,
+          "sku": "309608",
+          "parentSKU": "309607",
+          "name": "PetSpy Dog Training Kit",
+          "similarity": 0.5762
+        },
+        {
+          "rank": 5,
+          "sku": "805518",
+          "parentSKU": "805510",
+          "name": "Brightkins Smarty Pooch Doggy Training Clicker",
+          "similarity": 0.5755
+        },
+        {
+          "rank": 6,
+          "sku": "805502",
+          "parentSKU": "805494",
+          "name": "Brightkins Smarty Pooch Hot Dog Dog Training Clicker",
+          "similarity": 0.5731
+        },
+        {
+          "rank": 7,
+          "sku": "805342",
+          "parentSKU": "805334",
+          "name": "Brightkins Pooch School! Training Set Dog Toys",
+          "similarity": 0.5711
+        },
+        {
+          "rank": 8,
+          "sku": "805486",
+          "parentSKU": "805478",
+          "name": "Brightkins Smarty Pooch Bone Dog Training Clicker",
+          "similarity": 0.5687
+        },
+        {
+          "rank": 9,
+          "sku": "807782",
+          "parentSKU": "807774",
+          "name": "Coachi Target Stick Dog Training Stick, Navy",
+          "similarity": 0.5667
+        },
+        {
+          "rank": 10,
+          "sku": "114334",
+          "parentSKU": "114332",
+          "name": "Advance Pet Potty Train Dog Bell, Brown",
+          "similarity": 0.564
+        },
+        {
+          "rank": 11,
+          "sku": "114336",
+          "parentSKU": "114332",
+          "name": "Advance Pet Potty Train Dog Bell, Black",
+          "similarity": 0.5609
+        },
+        {
+          "rank": 12,
+          "sku": "77168",
+          "parentSKU": "77167",
+          "name": "Starmark Pro-Training Clicker Deluxe Dog Training Aid",
+          "similarity": 0.5605
+        }
+      ]
+    },
+    {
+      "slot_id": 19,
+      "top_family": "Litter/Waste",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy waste management: biodegradable poop bags in bulk, sealed odor-proof waste bin for apartment use, enzyme-based stain and odor cleaner for accidents, and carpet cleaner attachments; sturdy bags for larger stools and strong dogs",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "361421",
+          "parentSKU": "361420",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags + Dispenser, 60 count",
+          "similarity": 0.6368
+        },
+        {
+          "rank": 2,
+          "sku": "361434",
+          "parentSKU": "361433",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls + Dispenser, 60 count",
+          "similarity": 0.6315
+        },
+        {
+          "rank": 3,
+          "sku": "361425",
+          "parentSKU": "361424",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags - Handle Bags, 60 count",
+          "similarity": 0.6313
+        },
+        {
+          "rank": 4,
+          "sku": "361426",
+          "parentSKU": "361424",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags - Handle Bags, 180 count",
+          "similarity": 0.6286
+        },
+        {
+          "rank": 5,
+          "sku": "361417",
+          "parentSKU": "361416",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, 60 count",
+          "similarity": 0.6243
+        },
+        {
+          "rank": 6,
+          "sku": "109981",
+          "parentSKU": "109980",
+          "name": "Pogi's Pet Supplies Poop Bag Dispenser + 15 Scented Waste Bags",
+          "similarity": 0.6215
+        },
+        {
+          "rank": 7,
+          "sku": "361418",
+          "parentSKU": "361416",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, 180 count",
+          "similarity": 0.62
+        },
+        {
+          "rank": 8,
+          "sku": "361419",
+          "parentSKU": "361416",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, 360 count",
+          "similarity": 0.6196
+        },
+        {
+          "rank": 9,
+          "sku": "1000115369",
+          "parentSKU": "1000115345",
+          "name": "Pet Parents DooBetter Dog Poop Bags with Handles, 120 count, Unscented",
+          "similarity": 0.6192
+        },
+        {
+          "rank": 10,
+          "sku": "1000115357",
+          "parentSKU": "1000115339",
+          "name": "Pet Parents DooBetter Dog Poop Bags, 120 count, Unscented",
+          "similarity": 0.6185
+        },
+        {
+          "rank": 11,
+          "sku": "1000115351",
+          "parentSKU": "1000115339",
+          "name": "Pet Parents DooBetter Dog Poop Bags, 120 count, Lavender Scented",
+          "similarity": 0.618
+        },
+        {
+          "rank": 12,
+          "sku": "361431",
+          "parentSKU": "361430",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls, 60 count",
+          "similarity": 0.6171
+        }
+      ]
+    },
+    {
+      "slot_id": 20,
+      "top_family": "Identification & Safety",
+      "rationale": "",
+      "count": 10,
+      "actual_query": "Dog puppy durable engraved waterproof ID tag with up-to-date contact info and harness attachment; secure fastenings and consider quick-release or breakaway designs for indoor collars, tags that attach securely to harness",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "723654",
+          "parentSKU": "723606",
+          "name": "WAUDOG Waterproof Dog Harness with QR Tag, Blue, Small",
+          "similarity": 0.6056
+        },
+        {
+          "rank": 2,
+          "sku": "723622",
+          "parentSKU": "723606",
+          "name": "WAUDOG Waterproof Dog Harness with QR Tag, Black, Small",
+          "similarity": 0.6045
+        },
+        {
+          "rank": 3,
+          "sku": "723750",
+          "parentSKU": "723606",
+          "name": "WAUDOG Waterproof Dog Harness with QR Tag, Green, Small",
+          "similarity": 0.6033
+        },
+        {
+          "rank": 4,
+          "sku": "262036",
+          "parentSKU": "262029",
+          "name": "DOG iD Personalized Dog ID Tag, Rose Gold, Small",
+          "similarity": 0.6033
+        },
+        {
+          "rank": 5,
+          "sku": "723686",
+          "parentSKU": "723606",
+          "name": "WAUDOG Waterproof Dog Harness with QR Tag, Red, Small",
+          "similarity": 0.6027
+        },
+        {
+          "rank": 6,
+          "sku": "1770254",
+          "parentSKU": "1770238",
+          "name": "DOG iD Personalized Stainless Steel Dog ID Tag & Collar, Blue, Small: 10.25 to 15-in neck, 3/4-in wide",
+          "similarity": 0.6011
+        },
+        {
+          "rank": 7,
+          "sku": "1770246",
+          "parentSKU": "1770238",
+          "name": "DOG iD Personalized Stainless Steel Dog ID Tag & Collar, Black, Small: 10.25 to 15-in neck, 3/4-in wide",
+          "similarity": 0.6008
+        },
+        {
+          "rank": 8,
+          "sku": "1770294",
+          "parentSKU": "1770238",
+          "name": "DOG iD Personalized Stainless Steel Dog ID Tag & Collar, Red, Small: 10.25 to 15-in neck, 3/4-in wide",
+          "similarity": 0.6005
+        },
+        {
+          "rank": 9,
+          "sku": "723670",
+          "parentSKU": "723606",
+          "name": "WAUDOG Waterproof Dog Harness with QR Tag, Blue, Large",
+          "similarity": 0.6
+        },
+        {
+          "rank": 10,
+          "sku": "723638",
+          "parentSKU": "723606",
+          "name": "WAUDOG Waterproof Dog Harness with QR Tag, Black, Large",
+          "similarity": 0.5998
+        }
+      ]
+    },
+    {
+      "slot_id": 21,
+      "top_family": "Gear/Travel",
+      "rationale": "",
+      "count": 10,
+      "actual_query": "Dog puppy crash-tested car harness or seatbelt-compatible restraint sized for a growing medium-to-large puppy; padded and adjustable with durable buckles, plus travel blanket or seat cover to protect vehicle upholstery",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "791134",
+          "parentSKU": "791110",
+          "name": "CarSafe Crash Tested Back Clip Dog Harness, Blue, Medium",
+          "similarity": 0.6398
+        },
+        {
+          "rank": 2,
+          "sku": "120973",
+          "parentSKU": "120969",
+          "name": "HDP Car Dog Harness & Safety Seat Belt Travel Gear, Red, Small",
+          "similarity": 0.6386
+        },
+        {
+          "rank": 3,
+          "sku": "120971",
+          "parentSKU": "120969",
+          "name": "HDP Car Dog Harness & Safety Seat Belt Travel Gear, Black, Small",
+          "similarity": 0.6357
+        },
+        {
+          "rank": 4,
+          "sku": "1753990",
+          "parentSKU": "1753982",
+          "name": "RYPetmia 2 Safety Belt Dog Car Seat, Black",
+          "similarity": 0.6329
+        },
+        {
+          "rank": 5,
+          "sku": "791142",
+          "parentSKU": "791110",
+          "name": "CarSafe Crash Tested Back Clip Dog Harness, Blue, Large",
+          "similarity": 0.6263
+        },
+        {
+          "rank": 6,
+          "sku": "791126",
+          "parentSKU": "791110",
+          "name": "CarSafe Crash Tested Back Clip Dog Harness, Blue, Small",
+          "similarity": 0.6261
+        },
+        {
+          "rank": 7,
+          "sku": "1259366",
+          "parentSKU": "1259342",
+          "name": "Petsfit Dog Car Booster Seat with 2 Clip-On Safety Leashes, Medium+, Gray",
+          "similarity": 0.6243
+        },
+        {
+          "rank": 8,
+          "sku": "791094",
+          "parentSKU": "791070",
+          "name": "CarSafe Travel Dog Harness, Blue, Medium",
+          "similarity": 0.6241
+        },
+        {
+          "rank": 9,
+          "sku": "1259358",
+          "parentSKU": "1259342",
+          "name": "Petsfit Dog Car Booster Seat with 2 Clip-On Safety Leashes, Medium+, Black",
+          "similarity": 0.624
+        },
+        {
+          "rank": 10,
+          "sku": "1259582",
+          "parentSKU": "1259574",
+          "name": "Petsfit Dog Car Booster Seat with Clip-On Leash & Adjustable Straps, Medium, Gray",
+          "similarity": 0.6221
+        }
+      ]
+    },
+    {
+      "slot_id": 22,
+      "top_family": "Home Comfort",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy elevated mesh bed or orthopedic foam bed sized for a pug; breathable, machine-washable covers, non-toxic fillings, designed to promote airflow and limit heat retention",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "625222",
+          "parentSKU": "625214",
+          "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, White, Medium",
+          "similarity": 0.6591
+        },
+        {
+          "rank": 2,
+          "sku": "625270",
+          "parentSKU": "625214",
+          "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Charcoal Grey, Medium",
+          "similarity": 0.6566
+        },
+        {
+          "rank": 3,
+          "sku": "1613990",
+          "parentSKU": "1613982",
+          "name": "PawHut Summer Cooling Mesh Elevated Dog Bed with Removable Cover, 36-in, Blue",
+          "similarity": 0.6521
+        },
+        {
+          "rank": 4,
+          "sku": "1613998",
+          "parentSKU": "1613982",
+          "name": "PawHut Summer Cooling Mesh Elevated Dog Bed with Removable Cover, 36-in, Red",
+          "similarity": 0.6514
+        },
+        {
+          "rank": 5,
+          "sku": "625286",
+          "parentSKU": "625214",
+          "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Charcoal Grey, Giant",
+          "similarity": 0.6495
+        },
+        {
+          "rank": 6,
+          "sku": "625278",
+          "parentSKU": "625214",
+          "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Charcoal Grey, Large",
+          "similarity": 0.649
+        },
+        {
+          "rank": 7,
+          "sku": "1470414",
+          "parentSKU": "1470406",
+          "name": "PawBrands PupRug Faux Fur Orthopedic Dog Bed, White with Brown Accents, Medium",
+          "similarity": 0.6487
+        },
+        {
+          "rank": 8,
+          "sku": "625230",
+          "parentSKU": "625214",
+          "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Polar White, Large",
+          "similarity": 0.6439
+        },
+        {
+          "rank": 9,
+          "sku": "625238",
+          "parentSKU": "625214",
+          "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Polar White, Giant",
+          "similarity": 0.6435
+        },
+        {
+          "rank": 10,
+          "sku": "1613502",
+          "parentSKU": "1613486",
+          "name": "PawHut Breathable Mesh Indoor & Outdoor Elevated Dog Bed with Removable Cover, 48-in, Red",
+          "similarity": 0.6415
+        },
+        {
+          "rank": 11,
+          "sku": "1613510",
+          "parentSKU": "1613486",
+          "name": "PawHut Breathable Mesh Indoor & Outdoor Elevated Dog Bed with Removable Cover, 48-in, Tan",
+          "similarity": 0.6397
+        },
+        {
+          "rank": 12,
+          "sku": "194376",
+          "parentSKU": "194374",
+          "name": "PawBrands PupRug Faux Fur Curve Orthopedic Pillow Dog Bed with Removable Cover, White/Brown, Large/X-Large",
+          "similarity": 0.6394
+        }
+      ]
+    },
+    {
+      "slot_id": 23,
+      "top_family": "Health & Wellness",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy non-medical calming aids: snug anxiety wrap (Thundershirt-style), dog-appeasing pheromone diffuser for apartment use, and interactive calming toys for noisy events; low-risk, non-pharmaceutical options",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1301438",
+          "parentSKU": "1301430",
+          "name": "Snuggle Puppy Bites Day Calm Supplement Turkey Flavored Soft Chews, 60 count",
+          "similarity": 0.5813
+        },
+        {
+          "rank": 2,
+          "sku": "1462638",
+          "parentSKU": "1462606",
+          "name": "allforpaws Calming Pals Anti-Anxiety Plush Buddy Dog Toy, Brown",
+          "similarity": 0.5747
+        },
+        {
+          "rank": 3,
+          "sku": "564950",
+          "parentSKU": "564942",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Small",
+          "similarity": 0.5718
+        },
+        {
+          "rank": 4,
+          "sku": "564958",
+          "parentSKU": "564942",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Small",
+          "similarity": 0.5712
+        },
+        {
+          "rank": 5,
+          "sku": "564966",
+          "parentSKU": "564942",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Medium",
+          "similarity": 0.5705
+        },
+        {
+          "rank": 6,
+          "sku": "564974",
+          "parentSKU": "564942",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Large",
+          "similarity": 0.5687
+        },
+        {
+          "rank": 7,
+          "sku": "564982",
+          "parentSKU": "564942",
+          "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Large",
+          "similarity": 0.568
+        },
+        {
+          "rank": 8,
+          "sku": "123365",
+          "parentSKU": "123363",
+          "name": "ZenPet Anxiety Vest for Dogs, Small",
+          "similarity": 0.5641
+        },
+        {
+          "rank": 9,
+          "sku": "132716",
+          "parentSKU": "132714",
+          "name": "ThunderEase Powered by ADAPTIL Calming Pheromone Diffuser for Dogs, 30 Day",
+          "similarity": 0.5639
+        },
+        {
+          "rank": 10,
+          "sku": "123364",
+          "parentSKU": "123363",
+          "name": "ZenPet Anxiety Vest for Dogs, X-Small",
+          "similarity": 0.5627
+        },
+        {
+          "rank": 11,
+          "sku": "2376590",
+          "parentSKU": "108161",
+          "name": "Snuggle Puppy Original Snuggle Puppy Plush Behavioral Aid Anxiety Relief Dog Toy, Doodle",
+          "similarity": 0.5605
+        },
+        {
+          "rank": 12,
+          "sku": "1301462",
+          "parentSKU": "1301454",
+          "name": "Snuggle Puppy Bites Night Calm Supplement Turkey Flavored Soft Chews, 60 count",
+          "similarity": 0.5601
+        },
+        {
+          "rank": 13,
+          "sku": "123366",
+          "parentSKU": "123363",
+          "name": "ZenPet Anxiety Vest for Dogs, Medium",
+          "similarity": 0.56
+        },
+        {
+          "rank": 14,
+          "sku": "299082",
+          "parentSKU": "299081",
+          "name": "Assisi Animal Health Calmer Canine Anxiety Treatment System Dog Bundle, X-Small",
+          "similarity": 0.5596
+        },
+        {
+          "rank": 15,
+          "sku": "132735",
+          "parentSKU": "132734",
+          "name": "ThunderEase Powered by ADAPTIL Calming Pheromone Collar for Dogs, Small, up to 14-in neck",
+          "similarity": 0.5592
+        }
+      ]
+    },
+    {
+      "slot_id": 24,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy mild, fragrance-free hypoallergenic shampoo and waterless wipes for quick cleaning after yard play; formulated for sensitive skin and safe for puppies to reduce pollen and allergens",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "819702",
+          "parentSKU": "819686",
+          "name": "Earthbath Ultra-Mild Wild Cherry Scented Puppy Grooming Wipes, 100 count",
+          "similarity": 0.6744
+        },
+        {
+          "rank": 2,
+          "sku": "213438",
+          "parentSKU": "213437",
+          "name": "Ultra Collection Hypoallergenic Puppy Shampoo, 16-fl oz bottle",
+          "similarity": 0.6716
+        },
+        {
+          "rank": 3,
+          "sku": "1395470",
+          "parentSKU": "1395462",
+          "name": "ALZOO Plant Based Puppy Dog Grooming Wipes, 100 count",
+          "similarity": 0.6646
+        },
+        {
+          "rank": 4,
+          "sku": "819646",
+          "parentSKU": "819630",
+          "name": "Earthbath Hypo-Allergenic Fragrance Free Cat & Dog Grooming Wipes, 100 count",
+          "similarity": 0.66
+        },
+        {
+          "rank": 5,
+          "sku": "178681",
+          "parentSKU": "178680",
+          "name": "Hyponic Hypoallergenic Waterless Dog & Cat Shampoo, 6.4-fl oz bottle",
+          "similarity": 0.6586
+        },
+        {
+          "rank": 6,
+          "sku": "730846",
+          "parentSKU": "730838",
+          "name": "Hyponic Natural Therapy Hypoallergenic Short Coat Puppy Dog Shampoo, 10.1-fl oz bottle",
+          "similarity": 0.6569
+        },
+        {
+          "rank": 7,
+          "sku": "1840806",
+          "parentSKU": "1840798",
+          "name": "Wahl Extra Gentle Hypoallergenic Dog Shampoo, 24-fl oz bottle",
+          "similarity": 0.6557
+        },
+        {
+          "rank": 8,
+          "sku": "841910",
+          "parentSKU": "841902",
+          "name": "Naturel Promise Fresh & Soothing Sensitive Skin Hypoallergenic Dog Shampoo, 22-fl oz bottle",
+          "similarity": 0.6518
+        },
+        {
+          "rank": 9,
+          "sku": "1000019886",
+          "parentSKU": "1000019878",
+          "name": "Wahl Puppy Dog Shampoo, 700-mL bottle",
+          "similarity": 0.651
+        },
+        {
+          "rank": 10,
+          "sku": "1000053125",
+          "parentSKU": "1000053119",
+          "name": "PetAg Fresh 'n Clean Soothing & Sensitive Waterless Hypoallergenic Cat Dog & Small-Pet Shampoo, 9-oz bottle",
+          "similarity": 0.6461
+        },
+        {
+          "rank": 11,
+          "sku": "1395454",
+          "parentSKU": "1395446",
+          "name": "ALZOO Plant Based Hypoallergenic Dog Wipes, 100 count",
+          "similarity": 0.6438
+        },
+        {
+          "rank": 12,
+          "sku": "320856",
+          "parentSKU": "178671",
+          "name": "Hyponic Hypoallergenic Dog Shampoo, 50.7-fl oz bottle, bundle of 2",
+          "similarity": 0.6436
+        }
+      ]
+    },
+    {
+      "slot_id": 25,
+      "top_family": "Supplements & Non-Medical Health",
+      "rationale": "",
+      "count": 9,
+      "actual_query": "Dog puppy growth-support supplements: puppy multinutrient formulas with glucosamine for joint support appropriate for puppies, omega fatty acids for skin and coat, and probiotics for digestive support; chewable or powder forms, duck-free",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1189846",
+          "parentSKU": "1189838",
+          "name": "Bully Max 2-in-1 Development & Growth Tablet Supplement for Puppies, 3.2-oz bottle",
+          "similarity": 0.6432
+        },
+        {
+          "rank": 4,
+          "sku": "709998",
+          "parentSKU": "709990",
+          "name": "Pet Honesty Multivitamin Puppy Vitamins, Glucosamine, Omega-3 Vitamins for Dogs, 90 count",
+          "similarity": 0.6295
+        },
+        {
+          "rank": 5,
+          "sku": "983598",
+          "parentSKU": "983590",
+          "name": "Pupford Super Pup Chicken Flavored Powder Multivitamin Supplement for Dogs, 60-g tub",
+          "similarity": 0.626
+        },
+        {
+          "rank": 6,
+          "sku": "769806",
+          "parentSKU": "769798",
+          "name": "Pupford Gut Health & Immunity Peanut Butter & Jelly Flavored Soft Chew Digestive Support Supplement for Puppies, 60 count",
+          "similarity": 0.6216
+        },
+        {
+          "rank": 8,
+          "sku": "2289590",
+          "parentSKU": "2289566",
+          "name": "NaturVet All-In-One Hickory Smoked Bacon Flavor Soft Chew Daily Care Supplement for Puppies, 60 count",
+          "similarity": 0.6198
+        },
+        {
+          "rank": 10,
+          "sku": "1299278",
+          "parentSKU": "1299270",
+          "name": "JustFoodForDogs 10-in-1 Multifunctional, Superfood Blend, Glucosamine, Omega-3 Fatty Acids, Skin Health, Joint Health, Probiotics, Plant-Based, Human Grade Chew Supplement for Dogs, 45 count",
+          "similarity": 0.6182
+        },
+        {
+          "rank": 11,
+          "sku": "1301486",
+          "parentSKU": "1301478",
+          "name": "Snuggle Puppy Bites Grow Strong Supplement Salmon Flavored Soft Chews, 60 count",
+          "similarity": 0.6178
+        },
+        {
+          "rank": 12,
+          "sku": "265184",
+          "parentSKU": "265183",
+          "name": "Pawlife Omega Pup Advanced Skin & Coat Support Salmon Flavor Soft Chews Dog Supplement, 120 count",
+          "similarity": 0.6151
+        },
+        {
+          "rank": 13,
+          "sku": "1071334",
+          "parentSKU": "1071310",
+          "name": "PupGrade Joint Support Supplement for Dogs, 60 count",
+          "similarity": 0.6146
+        }
+      ]
+    },
+    {
+      "slot_id": 26,
+      "top_family": "Cleaning",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy handheld or apartment-sized vacuum with pet/hair attachments and rubber brush tools to remove pug hair from furniture and floors; include lint rollers and fabric brushes for quick touch-ups",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "857678",
+          "parentSKU": "857670",
+          "name": "PATPET Dog & Cat Grooming Pet Hair Vacuum Kit with 7 Grooming Tools",
+          "similarity": 0.6241
+        },
+        {
+          "rank": 2,
+          "sku": "1323662",
+          "parentSKU": "1323654",
+          "name": "FurMe Grooming Vacuum Dog, Cat & Small Pet Upholstery Lint/Fur Remover Attachment",
+          "similarity": 0.6202
+        },
+        {
+          "rank": 3,
+          "sku": "2184526",
+          "parentSKU": "2184502",
+          "name": "Uproot Clean Cordless 6-in-1 Vacuum Powered Dog & Cat Grooming Kit",
+          "similarity": 0.6008
+        },
+        {
+          "rank": 4,
+          "sku": "1200798",
+          "parentSKU": "1200790",
+          "name": "HomeRunPet Cat & Small Pet Grooming Kit & Vacuum, White, 1.85-L",
+          "similarity": 0.5982
+        },
+        {
+          "rank": 5,
+          "sku": "847942",
+          "parentSKU": "847934",
+          "name": "FurMe \ufe0fDog & Cat Grooming Vacuum Kit",
+          "similarity": 0.5978
+        },
+        {
+          "rank": 6,
+          "sku": "1451102",
+          "parentSKU": "1451094",
+          "name": "PATPET 3.2L Dog & Cat Grooming Vacuum Kit",
+          "similarity": 0.5948
+        },
+        {
+          "rank": 7,
+          "sku": "1671726",
+          "parentSKU": "1671710",
+          "name": "AIRROBO PG10 Dog & Cat Grooming Vacuum Kit, White/ Orange",
+          "similarity": 0.5886
+        },
+        {
+          "rank": 8,
+          "sku": "364368",
+          "parentSKU": "364367",
+          "name": "Black+Decker Dustbuster AdvancedClean+ Pet Cordless Hand Vacuum Cleaner",
+          "similarity": 0.5864
+        },
+        {
+          "rank": 9,
+          "sku": "1000018926",
+          "parentSKU": "1000018918",
+          "name": "Wahl Pet Hair Buster",
+          "similarity": 0.5825
+        },
+        {
+          "rank": 10,
+          "sku": "2197670",
+          "parentSKU": "2197662",
+          "name": "INSE P30 Large Capacity Pet Grooming Vacuum Kit, White, 4.5-L",
+          "similarity": 0.5811
+        },
+        {
+          "rank": 11,
+          "sku": "2197646",
+          "parentSKU": "2197638",
+          "name": "INSE P20 Pro Pet Grooming Vacuum Kit, White, 1.2-L",
+          "similarity": 0.5783
+        },
+        {
+          "rank": 12,
+          "sku": "1181758",
+          "parentSKU": "1181750",
+          "name": "PawsPik GroomingPro Rx Professional 7-in-1 Dog & Cat Vacuum & Grooming Kit",
+          "similarity": 0.5771
+        }
+      ]
+    }
+  ],
+  "all_products": [
+    {
+      "sku": "1000080239",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 7.72-kg bag"
+    },
+    {
+      "sku": "1000080233",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 13.6-kg bag"
+    },
+    {
+      "sku": "1000111481",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 1.81-kg bag"
+    },
+    {
+      "sku": "1000027046",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 2.724-kg bag"
+    },
+    {
+      "sku": "1000111541",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 18.14-kg bag"
+    },
+    {
+      "sku": "774142",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 30-lb bag"
+    },
+    {
+      "sku": "1600078",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 40-lb bag"
+    },
+    {
+      "sku": "1600086",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 4-lb bag"
+    },
+    {
+      "sku": "821374",
+      "name": "Royal Canin Size Health Nutrition Large Puppy Dry Dog Food, 17-lb bag"
+    },
+    {
+      "sku": "1000030062",
+      "name": "Iams Proactive Health Large Breed Puppy Chicken & Whole Grains Recipe Dry Dog Food, 6.8-kg bag"
+    },
+    {
+      "sku": "1000030070",
+      "name": "Iams Proactive Health Large Breed Puppy Chicken & Whole Grains Recipe Dry Dog Food, 13.9-kg bag"
+    },
+    {
+      "sku": "1000108319",
+      "name": "Eukanuba Puppy Large Breed Dry Dog Food, 13.61-kg bag"
+    },
+    {
+      "sku": "552358",
+      "name": "Eukanuba Puppy Large Breed Dry Dog Food, 30-lb bag"
+    },
+    {
+      "sku": "1000006286",
+      "name": "Purina Pro Plan Development Large Breed Chicken & Rice Formula Dry Dog Food, 8.16-kg bag"
+    },
+    {
+      "sku": "1106150",
+      "name": "Eukanuba Puppy Large Breed Dry Dog Food, 40-lb bag"
+    },
+    {
+      "sku": "552350",
+      "name": "Eukanuba Puppy Large Breed Dry Dog Food, 16-lb bag"
+    },
+    {
+      "sku": "1000006294",
+      "name": "Purina Pro Plan Development Large Breed Chicken & Rice Formula Dry Dog Food, 15.4-kg bag"
+    },
+    {
+      "sku": "49743",
+      "name": "Diamond Naturals Large Breed Puppy Formula Dry Dog Food, 6-lb bag"
+    },
+    {
+      "sku": "49744",
+      "name": "Diamond Naturals Large Breed Puppy Formula Dry Dog Food, 20-lb bag"
+    },
+    {
+      "sku": "1000026806",
+      "name": "Royal Canin Breed Health Nutrition Labrador Retriever Puppy Dry Dog Food, 13.62-kg bag"
+    },
+    {
+      "sku": "1823662",
+      "name": "Weruva Puppy Chicken & Rice Formula in Gravy Wet Dog Food, 14-oz can, case of 10"
+    },
+    {
+      "sku": "741334",
+      "name": "ACANA Premium Pate Puppy in Bone Broth Grain-Free Wet Dog Food, 12.8-oz can, case of 12"
+    },
+    {
+      "sku": "265981",
+      "name": "Purina Puppy Chow Pate Real Beef & Chicken Wet Puppy Food Variety Pack, 5.5-oz can, case of 8"
+    },
+    {
+      "sku": "2266846",
+      "name": "Pupford Beef Limited-Ingredient-Diet Adult Soft & Chewy Training Dog Treats, 10-oz bag"
+    },
+    {
+      "sku": "2266838",
+      "name": "Pupford Beef Limited-Ingredient-Diet Adult Soft & Chewy Training Dog Treats, 5-oz bag"
+    },
+    {
+      "sku": "1522870",
+      "name": "Pupford Chicken Soft & Chewy Training Dog Treats, 5-oz pouch"
+    },
+    {
+      "sku": "728254",
+      "name": "Pet Botanics Training Rewards Soft & Chewy Puppy Peanut Butter Dog Treats, Mini, 4-oz bag"
+    },
+    {
+      "sku": "1522878",
+      "name": "Pupford Chicken Soft & Chewy Training Dog Treats, 10-oz pouch"
+    },
+    {
+      "sku": "1478950",
+      "name": "Healthybud Chicken Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag"
+    },
+    {
+      "sku": "1374606",
+      "name": "Cloud Star Tricky Trainers Lamb Puppy Soft & Chewy Dog Treats, 5-oz bag"
+    },
+    {
+      "sku": "1601286",
+      "name": "Zuke's Puppy Naturals Lamb Recipe Soft & Chewy Training Dog Treats, 3-oz pouch"
+    },
+    {
+      "sku": "1478966",
+      "name": "Healthybud Salmon Soft & Chewy Low-Calorie Dog Training Treats, 6.5-oz bag"
+    },
+    {
+      "sku": "1460270",
+      "name": "Zuke's Puppy Naturals Lamb Recipe Soft & Chewy Training Dog Treats, 5-oz pouch"
+    },
+    {
+      "sku": "2084054",
+      "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Green"
+    },
+    {
+      "sku": "2084070",
+      "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Purple"
+    },
+    {
+      "sku": "2084062",
+      "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Yellow"
+    },
+    {
+      "sku": "155648",
+      "name": "Frisco Non-Skid Slow Feeder Dog & Small Pet Bowl, Black, Medium: 4 cup"
+    },
+    {
+      "sku": "2084126",
+      "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Grey"
+    },
+    {
+      "sku": "2084118",
+      "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Green"
+    },
+    {
+      "sku": "1554742",
+      "name": "Outward Hound Fun Feeder Slo Bowl Non-Skid Plastic Slow Feeder Dog Bowl, Sage, Medium: 4-cup"
+    },
+    {
+      "sku": "2084142",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, Medium"
+    },
+    {
+      "sku": "2084110",
+      "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Yellow"
+    },
+    {
+      "sku": "2084166",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Blue, All Breed Sizes"
+    },
+    {
+      "sku": "1554734",
+      "name": "Outward Hound Fun Feeder Slo Bowl Non-Skid Plastic Slow Feeder Dog Bowl, Sage, Small: 2-cup"
+    },
+    {
+      "sku": "85931",
+      "name": "Outward Hound Non-Skid Plastic Slow Feeder Interactive Dog Bowl, Teal, 2-cup"
+    },
+    {
+      "sku": "1474142",
+      "name": "Frisco Interactive Non -skid Plastic Slow Feeder Dog bowl, Blue/Green, 2 cup"
+    },
+    {
+      "sku": "85930",
+      "name": "Outward Hound Non-Skid Plastic Slow Feeder Interactive Dog Bowl, Teal, 4-cup"
+    },
+    {
+      "sku": "1516974",
+      "name": "Palz&Co Paw Puzzle Non-skid Silicone Slow Feeding Dog & Cat Mat, Medium: Purple"
+    },
+    {
+      "sku": "53356",
+      "name": "KONG Puppy Chew Dog Toy, Blue, Medium"
+    },
+    {
+      "sku": "354337",
+      "name": "KONG Puppy Chew Dog Toy, Blue, Large"
+    },
+    {
+      "sku": "354334",
+      "name": "KONG Puppy Chew Dog Toy, Blue, Small"
+    },
+    {
+      "sku": "354338",
+      "name": "KONG Puppy Chew Dog Toy, Pink, Large"
+    },
+    {
+      "sku": "354336",
+      "name": "KONG Puppy Chew Dog Toy, Pink, Medium"
+    },
+    {
+      "sku": "354335",
+      "name": "KONG Puppy Chew Dog Toy, Pink, Small"
+    },
+    {
+      "sku": "354332",
+      "name": "KONG Puppy Chew Dog Toy, Blue, X-Small"
+    },
+    {
+      "sku": "354333",
+      "name": "KONG Puppy Chew Dog Toy, Pink, X-Small"
+    },
+    {
+      "sku": "1675598",
+      "name": "Pupford Bully Teething Rings Dog Chews, 3 count"
+    },
+    {
+      "sku": "1675606",
+      "name": "Pupford Bully Teething Rings Dog Chews, 8 count"
+    },
+    {
+      "sku": "1000050593",
+      "name": "Nylabone Puppy Power Chew Puppy Teething Rings Dog Toy"
+    },
+    {
+      "sku": "1000049117",
+      "name": "Nylabone Puppy Chew Ring Chicken Flavored Puppy Chew Dog Toy, Medium"
+    },
+    {
+      "sku": "232505",
+      "name": "KONG Ring Dog Chew Toy, X-Large"
+    },
+    {
+      "sku": "1000051943",
+      "name": "KONG Ring Chew Dog Toy"
+    },
+    {
+      "sku": "1000049111",
+      "name": "Nylabone Puppy Chew Ring Chicken Flavored Puppy Chew Dog Toy, X-Small"
+    },
+    {
+      "sku": "173930",
+      "name": "Monster K9 Dog Toys Indestructible Chew Ring, Durable Dog Toy for Aggressive Chewers"
+    },
+    {
+      "sku": "150480",
+      "name": "KONG Puppy Tires Dog Toy, Color Varies, Medium/Large"
+    },
+    {
+      "sku": "1000051121",
+      "name": "KONG Puppy Dog Toy, Color Varies, Large"
+    },
+    {
+      "sku": "150479",
+      "name": "KONG Puppy Tires Dog Toy, Color Varies, Small"
+    },
+    {
+      "sku": "1000051115",
+      "name": "KONG Puppy Dog Toy, Color Varies, Medium"
+    },
+    {
+      "sku": "2084174",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, All Breed Sizes"
+    },
+    {
+      "sku": "2084158",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Pink, All Breed Sizes"
+    },
+    {
+      "sku": "1290686",
+      "name": "TRIXIE Snuffle Mat Level 1 Enrichment Interactive Feeding Game Slow Feeder Foraging Training Dog Puzzle Toy, Green/Gray"
+    },
+    {
+      "sku": "1542374",
+      "name": "allforpaws Interactives Dog Sokudo Treat Dispensing Dog Puzzle Toy, Green"
+    },
+    {
+      "sku": "2084150",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Pink, Large"
+    },
+    {
+      "sku": "1000060031",
+      "name": "Nina Ottosson by Outward Hound MultiPuzzle Interactive Puzzle Treat Dog Toy"
+    },
+    {
+      "sku": "1542438",
+      "name": "allforpaws Interactives Dog Sokudo Starter Treat Dispensing Dog Puzzle Toy, Green"
+    },
+    {
+      "sku": "2084190",
+      "name": "PuzzleFeeder Dog Snuffle Mat, Green, Medium/Large"
+    },
+    {
+      "sku": "2084198",
+      "name": "PuzzleFeeder Dog Snuffle Mat, Green, All Breed Sizes"
+    },
+    {
+      "sku": "1000059791",
+      "name": "Nina Ottosson by Outward Hound Smart Orange Interactive Treat Puzzle Dog Toy"
+    },
+    {
+      "sku": "2028862",
+      "name": "PawsPik Interactive Treat Dispensing Puzzle Dog Toy, Light Blue"
+    },
+    {
+      "sku": "226724",
+      "name": "Nina Ottosson by Outward Hound Multipuzzle Dog Toy, Green & Blue"
+    },
+    {
+      "sku": "1290726",
+      "name": "TRIXIE Snuffle & Seek Plate, Sniff Mat, Interactive Feeding Game, Slow Feeder, Level 1 Enrichment Dog & Cat Puzzle Toy, Blue"
+    },
+    {
+      "sku": "1000028590",
+      "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Small"
+    },
+    {
+      "sku": "1000028606",
+      "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Medium"
+    },
+    {
+      "sku": "64738",
+      "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Small"
+    },
+    {
+      "sku": "53234",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Small, 2 pack"
+    },
+    {
+      "sku": "64739",
+      "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Medium"
+    },
+    {
+      "sku": "1030614",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Small, 4 pack"
+    },
+    {
+      "sku": "53239",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Large"
+    },
+    {
+      "sku": "53235",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, Medium, 2 pack"
+    },
+    {
+      "sku": "64740",
+      "name": "Chuckit! Ultra Tug Ball Tough Dog Toy, Large"
+    },
+    {
+      "sku": "1030590",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, 2 count, Large"
+    },
+    {
+      "sku": "1000028550",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, 2 count, Small"
+    },
+    {
+      "sku": "64771",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, X-Large"
+    },
+    {
+      "sku": "872214",
+      "name": "Chuckit! Sniff Fetch Balls Duo Dog Toy, Medium"
+    },
+    {
+      "sku": "64772",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, XX-Large"
+    },
+    {
+      "sku": "1000028558",
+      "name": "Chuckit! Ultra Rubber Ball Tough Dog Toy, 2 count, Medium"
+    },
+    {
+      "sku": "54171",
+      "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Red Paws"
+    },
+    {
+      "sku": "1223126",
+      "name": "Angel Liberty Ball Tug 1-Handle Tough Dog Tug Toy, Black"
+    },
+    {
+      "sku": "83265",
+      "name": "Mammoth Braided Tug with TPR Ball for Dogs, Color Varies, Large"
+    },
+    {
+      "sku": "54172",
+      "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Yellow Bones"
+    },
+    {
+      "sku": "83264",
+      "name": "Mammoth Braided Tug with TPR Ball for Dogs, Color Varies, Small"
+    },
+    {
+      "sku": "54169",
+      "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Camo Blue"
+    },
+    {
+      "sku": "54170",
+      "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Pink Leopard"
+    },
+    {
+      "sku": "83261",
+      "name": "Mammoth Braided Tug with Tennis Ball for Dogs, Color Varies, Large"
+    },
+    {
+      "sku": "954110",
+      "name": "Dental Fresh Enzymatic Gel Finger Dog Toothbrush Kit, 2.5-fl oz"
+    },
+    {
+      "sku": "1450950",
+      "name": "Vetnique Labs Dentabliss Finger Mitt Teeth Cleaning Chicken Flavor Dog Dental Wipes, 50 count"
+    },
+    {
+      "sku": "918366",
+      "name": "Nylabone Advanced Oral Care Peanut Butter Flavor Toothpaste, 2.5-oz tube + Soft-Bristle Toothbrush for Puppies, 3-pack"
+    },
+    {
+      "sku": "1849942",
+      "name": "PetLab Co. Dental Finger Wipes for Dogs, 30 count"
+    },
+    {
+      "sku": "1130182",
+      "name": "H&H Pets Disposable Dental Dry Wipes Dog Finger Toothbrush, 60 count"
+    },
+    {
+      "sku": "1130174",
+      "name": "H&H Pets Disposable Dental Dry Wipes Dog Finger Toothbrush, 20 count"
+    },
+    {
+      "sku": "1951870",
+      "name": "Dr. Paws Choice Dog Dental Finger Wipes, 50 count"
+    },
+    {
+      "sku": "85558",
+      "name": "TropiClean Fresh Breath Oral Care Plaque & Tartar Defense Puppy Dental Kit"
+    },
+    {
+      "sku": "908446",
+      "name": "Vetnique Labs Dentabliss Finger Mitt Teeth Cleaning Peppermint Flavor Dog Dental Wipes, 50 count"
+    },
+    {
+      "sku": "62938",
+      "name": "Nylabone Advanced Oral Care Finger Dog Brush, 2 count"
+    },
+    {
+      "sku": "62949",
+      "name": "Nylabone Advanced Oral Care Original Flavor Puppy Dental Kit"
+    },
+    {
+      "sku": "62945",
+      "name": "Nylabone Advanced Oral Care Natural Peanut Flavor Dog Dental Kit"
+    },
+    {
+      "sku": "189592",
+      "name": "Triple Pet EZ Fingerbrush Vanilla Mint Flavored Dog Dental Kit"
+    },
+    {
+      "sku": "1951854",
+      "name": "Dr. Paws Choice Peanut Butter Scented Dog Dental Finger Wipes, 50 count"
+    },
+    {
+      "sku": "138812",
+      "name": "Canada Pooch Cooling Dog Vest, 18"
+    },
+    {
+      "sku": "138813",
+      "name": "Canada Pooch Cooling Dog Vest, 20"
+    },
+    {
+      "sku": "138811",
+      "name": "Canada Pooch Cooling Dog Vest, 16"
+    },
+    {
+      "sku": "138816",
+      "name": "Canada Pooch Cooling Dog Vest, 26"
+    },
+    {
+      "sku": "138810",
+      "name": "Canada Pooch Cooling Dog Vest, 14"
+    },
+    {
+      "sku": "138814",
+      "name": "Canada Pooch Cooling Dog Vest, 22"
+    },
+    {
+      "sku": "138815",
+      "name": "Canada Pooch Cooling Dog Vest, 24"
+    },
+    {
+      "sku": "138809",
+      "name": "Canada Pooch Cooling Dog Vest, 12"
+    },
+    {
+      "sku": "1691230",
+      "name": "allforpaws Chill Out Fresh Breeze Cooling Dog Bed, Medium"
+    },
+    {
+      "sku": "758566",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 18"
+    },
+    {
+      "sku": "758550",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 14"
+    },
+    {
+      "sku": "758574",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 20"
+    },
+    {
+      "sku": "758558",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 16"
+    },
+    {
+      "sku": "758590",
+      "name": "Canada Pooch Cooling Dog Vest, Neon Pink, 24"
+    },
+    {
+      "sku": "1691214",
+      "name": "allforpaws Chill Out Orange Cooling Mat Dog Bed"
+    },
+    {
+      "sku": "1467550",
+      "name": "Canada Pooch Cooling Dog Vest, Watermelon, 22"
+    },
+    {
+      "sku": "258159",
+      "name": "Canada Pooch Cooling Dog Vest, Tie Dye, 28"
+    },
+    {
+      "sku": "258142",
+      "name": "Canada Pooch Cooling Dog Vest, Rainbow, 18"
+    },
+    {
+      "sku": "1467606",
+      "name": "Canada Pooch Cooling 2.0 Dog Vest, Grey, Medium/Large"
+    },
+    {
+      "sku": "258141",
+      "name": "Canada Pooch Cooling Dog Vest, Rainbow, 16"
+    },
+    {
+      "sku": "127461",
+      "name": "KONG H2O K9 UNIT Insulated Stainless Steel Dog Water Bottle & Travel Bowl, Shadow Black, 25-oz"
+    },
+    {
+      "sku": "127463",
+      "name": "KONG H2O K9 UNIT Insulated Stainless Steel Dog Water Bottle & Travel Bowl, Orange, 25-oz"
+    },
+    {
+      "sku": "1977430",
+      "name": "ShopInstaPets Georgia Bulldogs Insulated Travel Dog Water Bottle with Detachable Bowl Base, 37-oz"
+    },
+    {
+      "sku": "1977478",
+      "name": "ShopInstaPets Nebraska Cornhuskers Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz"
+    },
+    {
+      "sku": "364071",
+      "name": "KONG H2O Dog Stainless Steel Bottle, Red, Large"
+    },
+    {
+      "sku": "1977446",
+      "name": "ShopInstaPets Penn State Nittany Lions Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz"
+    },
+    {
+      "sku": "2125582",
+      "name": "VIVIPAL Wireless Stainless Steel Water Fountain for Large Dogs, 7-L"
+    },
+    {
+      "sku": "1977558",
+      "name": "ShopInstaPets Ohio State Buckeyes Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz"
+    },
+    {
+      "sku": "109245",
+      "name": "KONG H2O Stainless Steel Dog Water Bottle, Green, 25-oz"
+    },
+    {
+      "sku": "132036",
+      "name": "Heininger Waterboy Portable Pet Bowl, 3-qt"
+    },
+    {
+      "sku": "1977526",
+      "name": "ShopInstaPets James Madison Dukes Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz"
+    },
+    {
+      "sku": "1717334",
+      "name": "LESOTC Portable Dog Water Bottle, 34-oz"
+    },
+    {
+      "sku": "132442",
+      "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, Blue, 20-oz bottle"
+    },
+    {
+      "sku": "364070",
+      "name": "KONG H2O Dog Stainless Steel Bottle, Red, Small"
+    },
+    {
+      "sku": "212862",
+      "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, 20-oz bottle, Red"
+    },
+    {
+      "sku": "132444",
+      "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, Pink, 20-oz bottle"
+    },
+    {
+      "sku": "1717326",
+      "name": "LESOTC Portable Dog Water Bottle, 28-oz"
+    },
+    {
+      "sku": "1814958",
+      "name": "LESOTC Travel Dog Water Dispenser, 77-oz, Blue"
+    },
+    {
+      "sku": "109246",
+      "name": "KONG H2O Stainless Steel Dog Water Bottle, Orange, 25-oz"
+    },
+    {
+      "sku": "1814950",
+      "name": "LESOTC Travel Dog Water Dispenser, 77-oz, Green"
+    },
+    {
+      "sku": "140020",
+      "name": "Frisco Padded No Pull Dog Harness, Blue, S- Girth16 to 22-in"
+    },
+    {
+      "sku": "1000012966",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Blue, 16 to 22-in chest"
+    },
+    {
+      "sku": "140026",
+      "name": "Frisco Padded No Pull Dog Harness, Black, S- Girth16 to 22-in"
+    },
+    {
+      "sku": "1000098269",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Black, S- Girth16 to 22-in"
+    },
+    {
+      "sku": "1000012958",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, 22 to 34-in chest, Pink"
+    },
+    {
+      "sku": "1000012974",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Black, 22 to 34-in chest"
+    },
+    {
+      "sku": "1000098251",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Blue, M- Girth 22 to 34-in"
+    },
+    {
+      "sku": "140012",
+      "name": "Frisco Padded No Pull Dog Harness, Red, S- Girth16 to 22-in"
+    },
+    {
+      "sku": "1000012950",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, 16 to 22-in chest, Pink"
+    },
+    {
+      "sku": "140021",
+      "name": "Frisco Padded No Pull Dog Harness, Blue, M- Girth 22 to 34-in"
+    },
+    {
+      "sku": "1000098221",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Pink, XL- Girth 32 to 50-in"
+    },
+    {
+      "sku": "1000098263",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Blue, XL- Girth 32 to 50-in"
+    },
+    {
+      "sku": "140027",
+      "name": "Frisco Padded No Pull Dog Harness, Black, M- Girth 22 to 34-in"
+    },
+    {
+      "sku": "1000098215",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Pink, L- Girth 26 to 40-in"
+    },
+    {
+      "sku": "1000098275",
+      "name": "Frisco Padded Nylon No Pull Dog Harness, Black, L- Girth 26 to 40-in"
+    },
+    {
+      "sku": "358123",
+      "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Blue"
+    },
+    {
+      "sku": "358127",
+      "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Orange"
+    },
+    {
+      "sku": "358124",
+      "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Pink"
+    },
+    {
+      "sku": "358125",
+      "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Purple"
+    },
+    {
+      "sku": "358126",
+      "name": "Headlight Harness Double Handle Reflective Dog Leash, 6-ft, Grey"
+    },
+    {
+      "sku": "193785",
+      "name": "Industrial Puppy Nylon Reflective Service Dog Leash, Pink, 4-ft long, 1-in wide"
+    },
+    {
+      "sku": "193784",
+      "name": "Industrial Puppy Nylon Reflective Service Dog Leash, Black, 4-ft long, 1-in wide"
+    },
+    {
+      "sku": "911126",
+      "name": "LupinePet Reflective Padded Handle Dog Leash, Orange Diamond, Large: 6-ft long, 1-in wide"
+    },
+    {
+      "sku": "193783",
+      "name": "Industrial Puppy Nylon Reflective Service Dog Leash, Red, 4-ft long, 1-in wide"
+    },
+    {
+      "sku": "1316246",
+      "name": "Dogs & Cats & Co. Polyester 3M Reflective Dog Leash, Navy Blue, Large: 4-ft long, 1-in wide"
+    },
+    {
+      "sku": "1316222",
+      "name": "Dogs & Cats & Co. Polyester 3M Reflective Dog Leash, Dark Green, Large: 4-ft long, 1-in wide"
+    },
+    {
+      "sku": "1316510",
+      "name": "Dogs & Cats & Co. Polyester 3M Reflective Safety Dog Leash, True Black, Large: 4-ft long, 1-in wide"
+    },
+    {
+      "sku": "245589",
+      "name": "Dog Helios Dura-Tough 3M Reflective Dog Collar & Leash, Blue, Medium"
+    },
+    {
+      "sku": "1801830",
+      "name": "LupinePet Reflective Diamonds Padded Handle Dog Leash, Orange Diamond, Regular: 4-ft long, 1-in wide"
+    },
+    {
+      "sku": "358114",
+      "name": "Headlight Harness LED Light Dog Harness, Orange, Large"
+    },
+    {
+      "sku": "688470",
+      "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 24-in"
+    },
+    {
+      "sku": "688478",
+      "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 30-in"
+    },
+    {
+      "sku": "688494",
+      "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 42-in"
+    },
+    {
+      "sku": "688486",
+      "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 36-in"
+    },
+    {
+      "sku": "688502",
+      "name": "Ferplast Superior Hybrid ECO Dog Crate & Playpen, Gray, 48-in"
+    },
+    {
+      "sku": "148948",
+      "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1/2 inch Floor Grid, 37 inch"
+    },
+    {
+      "sku": "148953",
+      "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1 inch Floor Grid, 37 inch"
+    },
+    {
+      "sku": "148947",
+      "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1/2 inch Floor Grid, 35 inch"
+    },
+    {
+      "sku": "148949",
+      "name": "MidWest Double Door Collapsible Wire Puppy Crate with 1/2 inch Floor Grid, 48 inch"
+    },
+    {
+      "sku": "1000068107",
+      "name": "Frisco 6-Panel Convertible Plastic Playpen Divider with Wall Mounts, Light Gray"
+    },
+    {
+      "sku": "300221",
+      "name": "SMONTER Heavy Duty Dog Crate & Playpen, 38-in"
+    },
+    {
+      "sku": "300213",
+      "name": "SMONTER Heavy Duty I Shape Dog Crate & Playpen, 42-in"
+    },
+    {
+      "sku": "300222",
+      "name": "SMONTER Heavy Duty Dog Crate & Playpen, 46-in"
+    },
+    {
+      "sku": "243566",
+      "name": "Richell Expandable Dog Crate Divider, Medium"
+    },
+    {
+      "sku": "300214",
+      "name": "SMONTER Heavy Duty I Shape Dog Crate & Playpen, 46-in"
+    },
+    {
+      "sku": "243245",
+      "name": "FURminator Short Hair Dog Deshedding Tool, Green, Small"
+    },
+    {
+      "sku": "1000025742",
+      "name": "FURminator Short Hair deShedding Dog Tool, Large"
+    },
+    {
+      "sku": "243247",
+      "name": "FURminator Short Hair Dog Deshedding Tool, Blue, Large"
+    },
+    {
+      "sku": "243246",
+      "name": "FURminator Short Hair Dog Deshedding Tool, Orange, Medium"
+    },
+    {
+      "sku": "1000025790",
+      "name": "FURminator Long Hair deShedding Dog Tool, Medium"
+    },
+    {
+      "sku": "243249",
+      "name": "FURminator Long Hair Dog Deshedding Tool, Green, Small"
+    },
+    {
+      "sku": "1461270",
+      "name": "Andis Compact Dog & Cat Deshedding Tool"
+    },
+    {
+      "sku": "613454",
+      "name": "SunGrow Undercoat Deshedding Brush for Short Haired Dog & Cat Shedding Control & Grooming Tool"
+    },
+    {
+      "sku": "243250",
+      "name": "FURminator Long Hair Dog Deshedding Tool, Orange, Medium"
+    },
+    {
+      "sku": "1568958",
+      "name": "Andis Compact Pet Deshedding Tool"
+    },
+    {
+      "sku": "1065470",
+      "name": "FURminator DeShedding Dog Grooming Wipes, 100 count"
+    },
+    {
+      "sku": "243251",
+      "name": "FURminator Long Hair Dog Deshedding Tool, Blue, Large"
+    },
+    {
+      "sku": "316273",
+      "name": "Warren London Short Hair Deshedding Dog Brush, Small"
+    },
+    {
+      "sku": "206890",
+      "name": "Frisco Deshedding Cat & Dog Brush, Large, Short to Medium Hair"
+    },
+    {
+      "sku": "725486",
+      "name": "Andis Deshedding Dog Tool"
+    },
+    {
+      "sku": "234048",
+      "name": "Honeywell HPA200 Series Large Room HEPA Air Purifier Pre-filter, 4 count"
+    },
+    {
+      "sku": "234046",
+      "name": "Honeywell HPA100 Series Medium Room HEPA Air Purifier Pre-filter, 4 count"
+    },
+    {
+      "sku": "234035",
+      "name": "Honeywell HPA300 Series HEPA Extra-Large Room Air Purifier, White"
+    },
+    {
+      "sku": "192872",
+      "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, White"
+    },
+    {
+      "sku": "192873",
+      "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, Black"
+    },
+    {
+      "sku": "1348510",
+      "name": "Shark Air Purifier MAX with True HEPA, Grey"
+    },
+    {
+      "sku": "2049398",
+      "name": "Dreo Macro-414 Tabletop Air Purifier"
+    },
+    {
+      "sku": "317916",
+      "name": "Lasko HEPA Filter DreamMode Premium Tower Air Purifier"
+    },
+    {
+      "sku": "234050",
+      "name": "Honeywell HPA300 Series Extra-Large Room HEPA Air Purifier Pre-filter, 4 count"
+    },
+    {
+      "sku": "1351238",
+      "name": "Shark HP102 Air Purifier with True HEPA, White"
+    },
+    {
+      "sku": "230446",
+      "name": "LEVOIT Smart True Air Purifier"
+    },
+    {
+      "sku": "192875",
+      "name": "Rabbit Air MinusA2 Allergy SPA-780N WIFI Control Pet Allergy Air Purifier, White"
+    },
+    {
+      "sku": "1378486",
+      "name": "Natural Dog Company Paw Dog Grooming Wipes, 50 count"
+    },
+    {
+      "sku": "1473430",
+      "name": "RenewedPet Pet Nail & Paw Cleaner, 2-fl oz bottle"
+    },
+    {
+      "sku": "1473438",
+      "name": "RenewedPet Pet Nail & Paw Cleaner, 4-fl oz bottle"
+    },
+    {
+      "sku": "1473446",
+      "name": "RenewedPet Pet Nail & Paw Cleaner, 16-fl oz bottle"
+    },
+    {
+      "sku": "629278",
+      "name": "SunGrow Cat & Dog Nail Trimmers & File Set, Clippers for Claw Care & Small Pet Grooming"
+    },
+    {
+      "sku": "2007958",
+      "name": "Penthouse Paws Lavender Dogs & Cat Paws & Body Cleansing Aloe Pet Wipes, 110 count"
+    },
+    {
+      "sku": "181115",
+      "name": "Petpost Dog Paw Wipes, 70 count"
+    },
+    {
+      "sku": "2007942",
+      "name": "Penthouse Paws Unscented Dogs & Cats Paws & Body Cleansing Pet Wipes, 110 count"
+    },
+    {
+      "sku": "262729",
+      "name": "Pawz Sanitizing Dog & Cat Wipes, 60 count"
+    },
+    {
+      "sku": "1426806",
+      "name": "Divine Canine Rosewater-Infused Paw Sanitizer Spritz, Anti-Bacterial & Anti-Fungal Alchohol-Free Dog Paw Cleaner, 5.1-fl oz spray"
+    },
+    {
+      "sku": "183112",
+      "name": "Warren London Paw Sani-Scrub Paw & Nail Dog Cleanser, 8-fl oz bottle"
+    },
+    {
+      "sku": "182113",
+      "name": "Purrdy Paws Soft Dog Nail Caps, Black, Small, 20 count"
+    },
+    {
+      "sku": "353044",
+      "name": "Mighty Paw Dog Training Clicker"
+    },
+    {
+      "sku": "131575",
+      "name": "PET N PET Dog Training Treat Pouch"
+    },
+    {
+      "sku": "1640606",
+      "name": "Spotty Adjustable Dog Training Potty Bells, Grey, 35-in"
+    },
+    {
+      "sku": "309608",
+      "name": "PetSpy Dog Training Kit"
+    },
+    {
+      "sku": "805518",
+      "name": "Brightkins Smarty Pooch Doggy Training Clicker"
+    },
+    {
+      "sku": "805502",
+      "name": "Brightkins Smarty Pooch Hot Dog Dog Training Clicker"
+    },
+    {
+      "sku": "805342",
+      "name": "Brightkins Pooch School! Training Set Dog Toys"
+    },
+    {
+      "sku": "805486",
+      "name": "Brightkins Smarty Pooch Bone Dog Training Clicker"
+    },
+    {
+      "sku": "807782",
+      "name": "Coachi Target Stick Dog Training Stick, Navy"
+    },
+    {
+      "sku": "114334",
+      "name": "Advance Pet Potty Train Dog Bell, Brown"
+    },
+    {
+      "sku": "114336",
+      "name": "Advance Pet Potty Train Dog Bell, Black"
+    },
+    {
+      "sku": "77168",
+      "name": "Starmark Pro-Training Clicker Deluxe Dog Training Aid"
+    },
+    {
+      "sku": "361421",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags + Dispenser, 60 count"
+    },
+    {
+      "sku": "361434",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls + Dispenser, 60 count"
+    },
+    {
+      "sku": "361425",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags - Handle Bags, 60 count"
+    },
+    {
+      "sku": "361426",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags - Handle Bags, 180 count"
+    },
+    {
+      "sku": "361417",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, 60 count"
+    },
+    {
+      "sku": "109981",
+      "name": "Pogi's Pet Supplies Poop Bag Dispenser + 15 Scented Waste Bags"
+    },
+    {
+      "sku": "361418",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, 180 count"
+    },
+    {
+      "sku": "361419",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, 360 count"
+    },
+    {
+      "sku": "1000115369",
+      "name": "Pet Parents DooBetter Dog Poop Bags with Handles, 120 count, Unscented"
+    },
+    {
+      "sku": "1000115357",
+      "name": "Pet Parents DooBetter Dog Poop Bags, 120 count, Unscented"
+    },
+    {
+      "sku": "1000115351",
+      "name": "Pet Parents DooBetter Dog Poop Bags, 120 count, Lavender Scented"
+    },
+    {
+      "sku": "361431",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls, 60 count"
+    },
+    {
+      "sku": "723654",
+      "name": "WAUDOG Waterproof Dog Harness with QR Tag, Blue, Small"
+    },
+    {
+      "sku": "723622",
+      "name": "WAUDOG Waterproof Dog Harness with QR Tag, Black, Small"
+    },
+    {
+      "sku": "723750",
+      "name": "WAUDOG Waterproof Dog Harness with QR Tag, Green, Small"
+    },
+    {
+      "sku": "262036",
+      "name": "DOG iD Personalized Dog ID Tag, Rose Gold, Small"
+    },
+    {
+      "sku": "723686",
+      "name": "WAUDOG Waterproof Dog Harness with QR Tag, Red, Small"
+    },
+    {
+      "sku": "1770254",
+      "name": "DOG iD Personalized Stainless Steel Dog ID Tag & Collar, Blue, Small: 10.25 to 15-in neck, 3/4-in wide"
+    },
+    {
+      "sku": "1770246",
+      "name": "DOG iD Personalized Stainless Steel Dog ID Tag & Collar, Black, Small: 10.25 to 15-in neck, 3/4-in wide"
+    },
+    {
+      "sku": "1770294",
+      "name": "DOG iD Personalized Stainless Steel Dog ID Tag & Collar, Red, Small: 10.25 to 15-in neck, 3/4-in wide"
+    },
+    {
+      "sku": "723670",
+      "name": "WAUDOG Waterproof Dog Harness with QR Tag, Blue, Large"
+    },
+    {
+      "sku": "723638",
+      "name": "WAUDOG Waterproof Dog Harness with QR Tag, Black, Large"
+    },
+    {
+      "sku": "791134",
+      "name": "CarSafe Crash Tested Back Clip Dog Harness, Blue, Medium"
+    },
+    {
+      "sku": "120973",
+      "name": "HDP Car Dog Harness & Safety Seat Belt Travel Gear, Red, Small"
+    },
+    {
+      "sku": "120971",
+      "name": "HDP Car Dog Harness & Safety Seat Belt Travel Gear, Black, Small"
+    },
+    {
+      "sku": "1753990",
+      "name": "RYPetmia 2 Safety Belt Dog Car Seat, Black"
+    },
+    {
+      "sku": "791142",
+      "name": "CarSafe Crash Tested Back Clip Dog Harness, Blue, Large"
+    },
+    {
+      "sku": "791126",
+      "name": "CarSafe Crash Tested Back Clip Dog Harness, Blue, Small"
+    },
+    {
+      "sku": "1259366",
+      "name": "Petsfit Dog Car Booster Seat with 2 Clip-On Safety Leashes, Medium+, Gray"
+    },
+    {
+      "sku": "791094",
+      "name": "CarSafe Travel Dog Harness, Blue, Medium"
+    },
+    {
+      "sku": "1259358",
+      "name": "Petsfit Dog Car Booster Seat with 2 Clip-On Safety Leashes, Medium+, Black"
+    },
+    {
+      "sku": "1259582",
+      "name": "Petsfit Dog Car Booster Seat with Clip-On Leash & Adjustable Straps, Medium, Gray"
+    },
+    {
+      "sku": "625222",
+      "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, White, Medium"
+    },
+    {
+      "sku": "625270",
+      "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Charcoal Grey, Medium"
+    },
+    {
+      "sku": "1613990",
+      "name": "PawHut Summer Cooling Mesh Elevated Dog Bed with Removable Cover, 36-in, Blue"
+    },
+    {
+      "sku": "1613998",
+      "name": "PawHut Summer Cooling Mesh Elevated Dog Bed with Removable Cover, 36-in, Red"
+    },
+    {
+      "sku": "625286",
+      "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Charcoal Grey, Giant"
+    },
+    {
+      "sku": "625278",
+      "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Charcoal Grey, Large"
+    },
+    {
+      "sku": "1470414",
+      "name": "PawBrands PupRug Faux Fur Orthopedic Dog Bed, White with Brown Accents, Medium"
+    },
+    {
+      "sku": "625230",
+      "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Polar White, Large"
+    },
+    {
+      "sku": "625238",
+      "name": "PawBrands PupRug Premium Faux Fur Human Grade Orthopedic Memory Foam Dog Bed, Polar White, Giant"
+    },
+    {
+      "sku": "1613502",
+      "name": "PawHut Breathable Mesh Indoor & Outdoor Elevated Dog Bed with Removable Cover, 48-in, Red"
+    },
+    {
+      "sku": "1613510",
+      "name": "PawHut Breathable Mesh Indoor & Outdoor Elevated Dog Bed with Removable Cover, 48-in, Tan"
+    },
+    {
+      "sku": "194376",
+      "name": "PawBrands PupRug Faux Fur Curve Orthopedic Pillow Dog Bed with Removable Cover, White/Brown, Large/X-Large"
+    },
+    {
+      "sku": "1301438",
+      "name": "Snuggle Puppy Bites Day Calm Supplement Turkey Flavored Soft Chews, 60 count"
+    },
+    {
+      "sku": "1462638",
+      "name": "allforpaws Calming Pals Anti-Anxiety Plush Buddy Dog Toy, Brown"
+    },
+    {
+      "sku": "564950",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Small"
+    },
+    {
+      "sku": "564958",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Small"
+    },
+    {
+      "sku": "564966",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Medium"
+    },
+    {
+      "sku": "564974",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, Large"
+    },
+    {
+      "sku": "564982",
+      "name": "CozyVest 3-in-1 Anxiety Music & Essential Oil Aromatherapy Dog Calming Vest, Gray, X-Large"
+    },
+    {
+      "sku": "123365",
+      "name": "ZenPet Anxiety Vest for Dogs, Small"
+    },
+    {
+      "sku": "132716",
+      "name": "ThunderEase Powered by ADAPTIL Calming Pheromone Diffuser for Dogs, 30 Day"
+    },
+    {
+      "sku": "123364",
+      "name": "ZenPet Anxiety Vest for Dogs, X-Small"
+    },
+    {
+      "sku": "2376590",
+      "name": "Snuggle Puppy Original Snuggle Puppy Plush Behavioral Aid Anxiety Relief Dog Toy, Doodle"
+    },
+    {
+      "sku": "1301462",
+      "name": "Snuggle Puppy Bites Night Calm Supplement Turkey Flavored Soft Chews, 60 count"
+    },
+    {
+      "sku": "123366",
+      "name": "ZenPet Anxiety Vest for Dogs, Medium"
+    },
+    {
+      "sku": "299082",
+      "name": "Assisi Animal Health Calmer Canine Anxiety Treatment System Dog Bundle, X-Small"
+    },
+    {
+      "sku": "132735",
+      "name": "ThunderEase Powered by ADAPTIL Calming Pheromone Collar for Dogs, Small, up to 14-in neck"
+    },
+    {
+      "sku": "819702",
+      "name": "Earthbath Ultra-Mild Wild Cherry Scented Puppy Grooming Wipes, 100 count"
+    },
+    {
+      "sku": "213438",
+      "name": "Ultra Collection Hypoallergenic Puppy Shampoo, 16-fl oz bottle"
+    },
+    {
+      "sku": "1395470",
+      "name": "ALZOO Plant Based Puppy Dog Grooming Wipes, 100 count"
+    },
+    {
+      "sku": "819646",
+      "name": "Earthbath Hypo-Allergenic Fragrance Free Cat & Dog Grooming Wipes, 100 count"
+    },
+    {
+      "sku": "178681",
+      "name": "Hyponic Hypoallergenic Waterless Dog & Cat Shampoo, 6.4-fl oz bottle"
+    },
+    {
+      "sku": "730846",
+      "name": "Hyponic Natural Therapy Hypoallergenic Short Coat Puppy Dog Shampoo, 10.1-fl oz bottle"
+    },
+    {
+      "sku": "1840806",
+      "name": "Wahl Extra Gentle Hypoallergenic Dog Shampoo, 24-fl oz bottle"
+    },
+    {
+      "sku": "841910",
+      "name": "Naturel Promise Fresh & Soothing Sensitive Skin Hypoallergenic Dog Shampoo, 22-fl oz bottle"
+    },
+    {
+      "sku": "1000019886",
+      "name": "Wahl Puppy Dog Shampoo, 700-mL bottle"
+    },
+    {
+      "sku": "1000053125",
+      "name": "PetAg Fresh 'n Clean Soothing & Sensitive Waterless Hypoallergenic Cat Dog & Small-Pet Shampoo, 9-oz bottle"
+    },
+    {
+      "sku": "1395454",
+      "name": "ALZOO Plant Based Hypoallergenic Dog Wipes, 100 count"
+    },
+    {
+      "sku": "320856",
+      "name": "Hyponic Hypoallergenic Dog Shampoo, 50.7-fl oz bottle, bundle of 2"
+    },
+    {
+      "sku": "1189846",
+      "name": "Bully Max 2-in-1 Development & Growth Tablet Supplement for Puppies, 3.2-oz bottle"
+    },
+    {
+      "sku": "709998",
+      "name": "Pet Honesty Multivitamin Puppy Vitamins, Glucosamine, Omega-3 Vitamins for Dogs, 90 count"
+    },
+    {
+      "sku": "983598",
+      "name": "Pupford Super Pup Chicken Flavored Powder Multivitamin Supplement for Dogs, 60-g tub"
+    },
+    {
+      "sku": "769806",
+      "name": "Pupford Gut Health & Immunity Peanut Butter & Jelly Flavored Soft Chew Digestive Support Supplement for Puppies, 60 count"
+    },
+    {
+      "sku": "2289590",
+      "name": "NaturVet All-In-One Hickory Smoked Bacon Flavor Soft Chew Daily Care Supplement for Puppies, 60 count"
+    },
+    {
+      "sku": "1299278",
+      "name": "JustFoodForDogs 10-in-1 Multifunctional, Superfood Blend, Glucosamine, Omega-3 Fatty Acids, Skin Health, Joint Health, Probiotics, Plant-Based, Human Grade Chew Supplement for Dogs, 45 count"
+    },
+    {
+      "sku": "1301486",
+      "name": "Snuggle Puppy Bites Grow Strong Supplement Salmon Flavored Soft Chews, 60 count"
+    },
+    {
+      "sku": "265184",
+      "name": "Pawlife Omega Pup Advanced Skin & Coat Support Salmon Flavor Soft Chews Dog Supplement, 120 count"
+    },
+    {
+      "sku": "1071334",
+      "name": "PupGrade Joint Support Supplement for Dogs, 60 count"
+    },
+    {
+      "sku": "857678",
+      "name": "PATPET Dog & Cat Grooming Pet Hair Vacuum Kit with 7 Grooming Tools"
+    },
+    {
+      "sku": "1323662",
+      "name": "FurMe Grooming Vacuum Dog, Cat & Small Pet Upholstery Lint/Fur Remover Attachment"
+    },
+    {
+      "sku": "2184526",
+      "name": "Uproot Clean Cordless 6-in-1 Vacuum Powered Dog & Cat Grooming Kit"
+    },
+    {
+      "sku": "1200798",
+      "name": "HomeRunPet Cat & Small Pet Grooming Kit & Vacuum, White, 1.85-L"
+    },
+    {
+      "sku": "847942",
+      "name": "FurMe \ufe0fDog & Cat Grooming Vacuum Kit"
+    },
+    {
+      "sku": "1451102",
+      "name": "PATPET 3.2L Dog & Cat Grooming Vacuum Kit"
+    },
+    {
+      "sku": "1671726",
+      "name": "AIRROBO PG10 Dog & Cat Grooming Vacuum Kit, White/ Orange"
+    },
+    {
+      "sku": "364368",
+      "name": "Black+Decker Dustbuster AdvancedClean+ Pet Cordless Hand Vacuum Cleaner"
+    },
+    {
+      "sku": "1000018926",
+      "name": "Wahl Pet Hair Buster"
+    },
+    {
+      "sku": "2197670",
+      "name": "INSE P30 Large Capacity Pet Grooming Vacuum Kit, White, 4.5-L"
+    },
+    {
+      "sku": "2197646",
+      "name": "INSE P20 Pro Pet Grooming Vacuum Kit, White, 1.2-L"
+    },
+    {
+      "sku": "1181758",
+      "name": "PawsPik GroomingPro Rx Professional 7-in-1 Dog & Cat Vacuum & Grooming Kit"
+    }
+  ]
+}

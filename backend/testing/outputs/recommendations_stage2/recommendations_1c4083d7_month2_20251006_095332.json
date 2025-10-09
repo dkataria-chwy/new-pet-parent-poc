@@ -1,0 +1,4262 @@
+{
+  "pet_id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+  "month": 2,
+  "timestamp": "2025-10-06T09:53:32.415825",
+  "processed_slots": 25,
+  "total_unique_products": 366,
+  "results": [
+    {
+      "slot_id": 1,
+      "top_family": "Food/Nutrition",
+      "rationale": "",
+      "count": 20,
+      "actual_query": "Dog puppy dry kibble for large/active puppies, controlled-calorie growth formula with high-quality protein (no duck), glucosamine for developing joints, DHA for brain development, clear feeding guidelines, 4\u201330 lb bag sizes, Royal Canin-compatible options",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1600078",
+          "parentSKU": "49714",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.7253
+        },
+        {
+          "rank": 2,
+          "sku": "821374",
+          "parentSKU": "49714",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.7253
+        },
+        {
+          "rank": 3,
+          "sku": "1600086",
+          "parentSKU": "49714",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.7253
+        },
+        {
+          "rank": 4,
+          "sku": "774142",
+          "parentSKU": "49714",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.7253
+        },
+        {
+          "rank": 5,
+          "sku": "1000080233",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.7168
+        },
+        {
+          "rank": 6,
+          "sku": "1000080239",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.7167
+        },
+        {
+          "rank": 7,
+          "sku": "1000027046",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain",
+          "similarity": 0.7162
+        },
+        {
+          "rank": 8,
+          "sku": "1000111481",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain",
+          "similarity": 0.7162
+        },
+        {
+          "rank": 9,
+          "sku": "1000111541",
+          "parentSKU": "1000027038",
+          "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain",
+          "similarity": 0.716
+        },
+        {
+          "rank": 10,
+          "sku": "63276",
+          "parentSKU": "49718",
+          "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain",
+          "similarity": 0.6893
+        },
+        {
+          "rank": 11,
+          "sku": "778774",
+          "parentSKU": "46118",
+          "name": "Royal Canin for dog, adult, giant breeds;large breeds breed, dry food, with grain",
+          "similarity": 0.6828
+        },
+        {
+          "rank": 12,
+          "sku": "1379302",
+          "parentSKU": "46118",
+          "name": "Royal Canin for dog, adult, giant breeds;large breeds breed, dry food, with grain",
+          "similarity": 0.6828
+        },
+        {
+          "rank": 13,
+          "sku": "1590302",
+          "parentSKU": "46118",
+          "name": "Royal Canin for dog, adult, giant breeds;large breeds breed, dry food, with grain",
+          "similarity": 0.6827
+        },
+        {
+          "rank": 14,
+          "sku": "1600102",
+          "parentSKU": "46118",
+          "name": "Royal Canin for dog, adult, large breeds breed, dry food, with grain",
+          "similarity": 0.6827
+        },
+        {
+          "rank": 15,
+          "sku": "1600110",
+          "parentSKU": "46118",
+          "name": "Royal Canin for dog, adult, large breeds breed, dry food, with grain",
+          "similarity": 0.6827
+        },
+        {
+          "rank": 16,
+          "sku": "778790",
+          "parentSKU": "49705",
+          "name": "Royal Canin for dog, puppy, small breeds breed, dry food, with grain",
+          "similarity": 0.6778
+        },
+        {
+          "rank": 17,
+          "sku": "1590366",
+          "parentSKU": "49705",
+          "name": "Royal Canin for dog, puppy, small breeds breed, dry food, with grain",
+          "similarity": 0.6777
+        },
+        {
+          "rank": 18,
+          "sku": "1590358",
+          "parentSKU": "49705",
+          "name": "Royal Canin for dog, puppy, small breeds breed, dry food, with grain",
+          "similarity": 0.6775
+        },
+        {
+          "rank": 19,
+          "sku": "1000026806",
+          "parentSKU": "1000026798",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.6752
+        },
+        {
+          "rank": 20,
+          "sku": "61486",
+          "parentSKU": "61485",
+          "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain",
+          "similarity": 0.6744
+        }
+      ]
+    },
+    {
+      "slot_id": 3,
+      "top_family": "Treats",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy small, low-calorie soft training treats that are easily breakable for frequent rewards; single-protein options like lamb, beef, or salmon; pack sizes suitable for many short training sessions, duck-free",
+      "products": [
+        {
+          "rank": 4,
+          "sku": "1393214",
+          "parentSKU": "1393198",
+          "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats",
+          "similarity": 0.6822
+        },
+        {
+          "rank": 5,
+          "sku": "1393206",
+          "parentSKU": "1393198",
+          "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats",
+          "similarity": 0.6821
+        },
+        {
+          "rank": 6,
+          "sku": "1393182",
+          "parentSKU": "1393174",
+          "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats",
+          "similarity": 0.6741
+        },
+        {
+          "rank": 7,
+          "sku": "1374606",
+          "parentSKU": "1374598",
+          "name": "Cloud Star for dog, puppy, extra small breeds breed, treats",
+          "similarity": 0.6738
+        },
+        {
+          "rank": 8,
+          "sku": "1393190",
+          "parentSKU": "1393174",
+          "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats",
+          "similarity": 0.6734
+        },
+        {
+          "rank": 9,
+          "sku": "1522870",
+          "parentSKU": "1522846",
+          "name": "Pupford for dog, all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural",
+          "similarity": 0.671
+        },
+        {
+          "rank": 10,
+          "sku": "1522878",
+          "parentSKU": "1522846",
+          "name": "Pupford for dog, all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural",
+          "similarity": 0.6709
+        },
+        {
+          "rank": 11,
+          "sku": "1499710",
+          "parentSKU": "1499702",
+          "name": "BARK for dog, adult;all lifestages, all breeds breed, treats",
+          "similarity": 0.6704
+        },
+        {
+          "rank": 12,
+          "sku": "1499718",
+          "parentSKU": "1499702",
+          "name": "BARK for dog, adult;all lifestages, all breeds breed, treats",
+          "similarity": 0.6704
+        },
+        {
+          "rank": 13,
+          "sku": "2266838",
+          "parentSKU": "2266830",
+          "name": "Pupford for dog, adult;all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural",
+          "similarity": 0.6686
+        },
+        {
+          "rank": 14,
+          "sku": "2266846",
+          "parentSKU": "2266830",
+          "name": "Pupford for dog, adult;all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural",
+          "similarity": 0.6686
+        },
+        {
+          "rank": 15,
+          "sku": "1393230",
+          "parentSKU": "1393222",
+          "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats",
+          "similarity": 0.6676
+        }
+      ]
+    },
+    {
+      "slot_id": 4,
+      "top_family": "Food/Nutrition",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy slow-feeding bowl and puzzle feeder sized for medium/large mouths, durable BPA-free hard plastic or silicone, heavy base or suction to prevent tipping, dishwasher-safe for strong chewers",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "2084054",
+          "parentSKU": "2084046",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7721
+        },
+        {
+          "rank": 2,
+          "sku": "2084070",
+          "parentSKU": "2084046",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7721
+        },
+        {
+          "rank": 3,
+          "sku": "2084062",
+          "parentSKU": "2084046",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7721
+        },
+        {
+          "rank": 4,
+          "sku": "155648",
+          "parentSKU": "155646",
+          "name": "Frisco for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7422
+        },
+        {
+          "rank": 5,
+          "sku": "2084118",
+          "parentSKU": "2084102",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7288
+        },
+        {
+          "rank": 6,
+          "sku": "2084110",
+          "parentSKU": "2084102",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7288
+        },
+        {
+          "rank": 7,
+          "sku": "2084126",
+          "parentSKU": "2084102",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7288
+        },
+        {
+          "rank": 8,
+          "sku": "684974",
+          "parentSKU": "684966",
+          "name": "Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.719
+        },
+        {
+          "rank": 9,
+          "sku": "1554742",
+          "parentSKU": "1554726",
+          "name": "Outward Hound for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.7184
+        },
+        {
+          "rank": 10,
+          "sku": "2084142",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.7141
+        },
+        {
+          "rank": 11,
+          "sku": "85931",
+          "parentSKU": "71398",
+          "name": "Outward Hound for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.7127
+        },
+        {
+          "rank": 12,
+          "sku": "2084150",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.7119
+        }
+      ]
+    },
+    {
+      "slot_id": 5,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy extra-durable chew toys and heavy-duty rubber KONG-style toys, thick chew rings and ballistic nylon chews sized for a pug's short muzzle, built to resist strong bite force and for puppy-to-adult transition, avoid poultry-based chews",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "150479",
+          "parentSKU": "150478",
+          "name": "KONG for dog, puppy, small breeds breed",
+          "similarity": 0.691
+        },
+        {
+          "rank": 2,
+          "sku": "150480",
+          "parentSKU": "150478",
+          "name": "KONG for dog, puppy, large breeds;medium breeds breed",
+          "similarity": 0.6885
+        },
+        {
+          "rank": 3,
+          "sku": "329440",
+          "parentSKU": "329439",
+          "name": "KONG for dog, puppy, large breeds breed",
+          "similarity": 0.6811
+        },
+        {
+          "rank": 4,
+          "sku": "329444",
+          "parentSKU": "329442",
+          "name": "KONG for dog, puppy, medium breeds breed",
+          "similarity": 0.6807
+        },
+        {
+          "rank": 5,
+          "sku": "354337",
+          "parentSKU": "53280",
+          "name": "KONG for dog, puppy, large breeds breed",
+          "similarity": 0.6792
+        },
+        {
+          "rank": 6,
+          "sku": "354338",
+          "parentSKU": "53280",
+          "name": "KONG for dog, puppy, large breeds breed",
+          "similarity": 0.6792
+        },
+        {
+          "rank": 7,
+          "sku": "1000051943",
+          "parentSKU": "1000051937",
+          "name": "KONG for dog, adult, large breeds breed",
+          "similarity": 0.673
+        },
+        {
+          "rank": 8,
+          "sku": "1000051121",
+          "parentSKU": "1000051097",
+          "name": "KONG for dog, puppy, large breeds breed",
+          "similarity": 0.6724
+        },
+        {
+          "rank": 9,
+          "sku": "232505",
+          "parentSKU": "232504",
+          "name": "KONG for dog, adult;all lifestages, giant breeds;large breeds breed",
+          "similarity": 0.6708
+        },
+        {
+          "rank": 10,
+          "sku": "354334",
+          "parentSKU": "53280",
+          "name": "KONG for dog, puppy, small breeds breed",
+          "similarity": 0.6684
+        },
+        {
+          "rank": 11,
+          "sku": "1000051139",
+          "parentSKU": "1000051127",
+          "name": "KONG for dog, puppy, medium breeds breed",
+          "similarity": 0.6684
+        },
+        {
+          "rank": 12,
+          "sku": "354335",
+          "parentSKU": "53280",
+          "name": "KONG for dog, puppy, small breeds breed",
+          "similarity": 0.6684
+        },
+        {
+          "rank": 13,
+          "sku": "1000051709",
+          "parentSKU": "1000051691",
+          "name": "KONG for dog, adult, giant breeds breed",
+          "similarity": 0.6667
+        },
+        {
+          "rank": 14,
+          "sku": "53356",
+          "parentSKU": "53280",
+          "name": "KONG for dog, puppy, medium breeds breed",
+          "similarity": 0.6648
+        },
+        {
+          "rank": 15,
+          "sku": "354336",
+          "parentSKU": "53280",
+          "name": "KONG for dog, puppy, medium breeds breed",
+          "similarity": 0.6648
+        }
+      ]
+    },
+    {
+      "slot_id": 6,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 18,
+      "actual_query": "Dog puppy non-destructible treat-dispensing puzzles and foraging toys (snuffle mats, hide-and-seek), durable plastic or fabric, washable, multiple difficulty levels for progressive enrichment",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "368204",
+          "parentSKU": "368203",
+          "name": "Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.7283
+        },
+        {
+          "rank": 2,
+          "sku": "855590",
+          "parentSKU": "855582",
+          "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.7181
+        },
+        {
+          "rank": 3,
+          "sku": "1065046",
+          "parentSKU": "1091006",
+          "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.713
+        },
+        {
+          "rank": 4,
+          "sku": "1065054",
+          "parentSKU": "1091014",
+          "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.713
+        },
+        {
+          "rank": 5,
+          "sku": "1065038",
+          "parentSKU": "1065030",
+          "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.7129
+        },
+        {
+          "rank": 6,
+          "sku": "1000059791",
+          "parentSKU": "1000059785",
+          "name": "Nina Ottosson by Outward Hound for dog, adult, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.7076
+        },
+        {
+          "rank": 7,
+          "sku": "1065166",
+          "parentSKU": "1065158",
+          "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.7067
+        },
+        {
+          "rank": 8,
+          "sku": "226724",
+          "parentSKU": "226723",
+          "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.7066
+        },
+        {
+          "rank": 9,
+          "sku": "367753",
+          "parentSKU": "75166",
+          "name": "Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.7034
+        },
+        {
+          "rank": 10,
+          "sku": "75168",
+          "parentSKU": "75166",
+          "name": "Outward Hound for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.7033
+        },
+        {
+          "rank": 11,
+          "sku": "75167",
+          "parentSKU": "75166",
+          "name": "Outward Hound for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.7032
+        },
+        {
+          "rank": 12,
+          "sku": "2038214",
+          "parentSKU": "2038206",
+          "name": "Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.703
+        },
+        {
+          "rank": 13,
+          "sku": "226722",
+          "parentSKU": "226721",
+          "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.7022
+        },
+        {
+          "rank": 14,
+          "sku": "148603",
+          "parentSKU": "226701",
+          "name": "Nina Ottosson by Outward Hound for dog, puppy, small breeds breed",
+          "similarity": 0.702
+        },
+        {
+          "rank": 15,
+          "sku": "367755",
+          "parentSKU": "169716",
+          "name": "Outward Hound for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6976
+        },
+        {
+          "rank": 16,
+          "sku": "1000060031",
+          "parentSKU": "1000060025",
+          "name": "Nina Ottosson by Outward Hound for dog, adult, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6968
+        },
+        {
+          "rank": 17,
+          "sku": "169717",
+          "parentSKU": "169716",
+          "name": "Outward Hound for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.695
+        },
+        {
+          "rank": 18,
+          "sku": "169718",
+          "parentSKU": "169716",
+          "name": "Outward Hound for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.695
+        }
+      ]
+    },
+    {
+      "slot_id": 7,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy durable fetch and recall toys sized for a pug's mouth but built to withstand strong power: rugged rubber balls, Chuck-It compatible launchable toys, include indoor-safe soft options and outdoor durable versions",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1000028590",
+          "parentSKU": "1000028582",
+          "name": "Chuckit! for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6759
+        },
+        {
+          "rank": 2,
+          "sku": "1000028606",
+          "parentSKU": "1000028582",
+          "name": "Chuckit! for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6679
+        },
+        {
+          "rank": 3,
+          "sku": "53234",
+          "parentSKU": "53190",
+          "name": "Chuckit! for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6626
+        },
+        {
+          "rank": 4,
+          "sku": "64738",
+          "parentSKU": "64737",
+          "name": "Chuckit! for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6604
+        },
+        {
+          "rank": 5,
+          "sku": "64739",
+          "parentSKU": "64737",
+          "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6588
+        },
+        {
+          "rank": 6,
+          "sku": "64742",
+          "parentSKU": "64741",
+          "name": "Chuckit! for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6574
+        },
+        {
+          "rank": 7,
+          "sku": "53235",
+          "parentSKU": "53190",
+          "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6571
+        },
+        {
+          "rank": 8,
+          "sku": "64743",
+          "parentSKU": "64741",
+          "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6554
+        },
+        {
+          "rank": 9,
+          "sku": "64740",
+          "parentSKU": "64737",
+          "name": "Chuckit! for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6548
+        },
+        {
+          "rank": 10,
+          "sku": "872214",
+          "parentSKU": "872206",
+          "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6533
+        },
+        {
+          "rank": 11,
+          "sku": "1302862",
+          "parentSKU": "1302854",
+          "name": "DOOG for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.653
+        },
+        {
+          "rank": 12,
+          "sku": "1302878",
+          "parentSKU": "1302854",
+          "name": "DOOG for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.653
+        },
+        {
+          "rank": 13,
+          "sku": "1302870",
+          "parentSKU": "1302854",
+          "name": "DOOG for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6529
+        },
+        {
+          "rank": 14,
+          "sku": "64771",
+          "parentSKU": "80965",
+          "name": "Chuckit! for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6513
+        },
+        {
+          "rank": 15,
+          "sku": "64772",
+          "parentSKU": "80965",
+          "name": "Chuckit! for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6513
+        }
+      ]
+    },
+    {
+      "slot_id": 8,
+      "top_family": "Toys/Chews",
+      "rationale": "",
+      "count": 14,
+      "actual_query": "Dog puppy heavy-duty tug toys made from ballistic fabric or thick braided polyester with secure handles, sized to avoid neck strain for brachycephalic breeds, washable and shred-resistant for strong play",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "54172",
+          "parentSKU": "53936",
+          "name": "Tuffy's for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6992
+        },
+        {
+          "rank": 2,
+          "sku": "54169",
+          "parentSKU": "53936",
+          "name": "Tuffy's for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6992
+        },
+        {
+          "rank": 3,
+          "sku": "54170",
+          "parentSKU": "53936",
+          "name": "Tuffy's for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6992
+        },
+        {
+          "rank": 4,
+          "sku": "54171",
+          "parentSKU": "53936",
+          "name": "Tuffy's for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6992
+        },
+        {
+          "rank": 5,
+          "sku": "1223126",
+          "parentSKU": "1223118",
+          "name": "Angel for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.689
+        },
+        {
+          "rank": 6,
+          "sku": "839046",
+          "parentSKU": "839038",
+          "name": "Playology for dog, puppy, large breeds breed",
+          "similarity": 0.6885
+        },
+        {
+          "rank": 7,
+          "sku": "90316",
+          "parentSKU": "90313",
+          "name": "Ethical Pet for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6876
+        },
+        {
+          "rank": 8,
+          "sku": "810918",
+          "parentSKU": "810910",
+          "name": "Pet Life for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.684
+        },
+        {
+          "rank": 9,
+          "sku": "810926",
+          "parentSKU": "810910",
+          "name": "Pet Life for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.684
+        },
+        {
+          "rank": 10,
+          "sku": "90146",
+          "parentSKU": "90145",
+          "name": "Tuffy's for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6826
+        },
+        {
+          "rank": 11,
+          "sku": "1223054",
+          "parentSKU": "1223070",
+          "name": "Angel for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6825
+        },
+        {
+          "rank": 12,
+          "sku": "1223110",
+          "parentSKU": "1223070",
+          "name": "Angel for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6825
+        },
+        {
+          "rank": 13,
+          "sku": "839078",
+          "parentSKU": "839070",
+          "name": "Playology for dog, puppy, large breeds breed",
+          "similarity": 0.6824
+        },
+        {
+          "rank": 14,
+          "sku": "53646",
+          "parentSKU": "53555",
+          "name": "Jolly Pets for dog, adult;all lifestages, giant breeds breed",
+          "similarity": 0.682
+        }
+      ]
+    },
+    {
+      "slot_id": 9,
+      "top_family": "Health & Wellness",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy dental care kit: finger brush and dual-head toothbrush, enzymatic toothpaste in non-chicken flavors, VOHC-accepted dental chews sized for AJ's jaw and chew strength, daily dental wipes alternative, duck-free",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "954110",
+          "parentSKU": "954102",
+          "name": "Dental Fresh for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6742
+        },
+        {
+          "rank": 2,
+          "sku": "189592",
+          "parentSKU": "189591",
+          "name": "Triple Pet for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6659
+        },
+        {
+          "rank": 3,
+          "sku": "62945",
+          "parentSKU": "62944",
+          "name": "Nylabone for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6626
+        },
+        {
+          "rank": 4,
+          "sku": "954094",
+          "parentSKU": "954086",
+          "name": "Dental Fresh for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6594
+        },
+        {
+          "rank": 5,
+          "sku": "1000020574",
+          "parentSKU": "1000020566",
+          "name": "Wahl for dog, adult, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6546
+        },
+        {
+          "rank": 6,
+          "sku": "85558",
+          "parentSKU": "85556",
+          "name": "TropiClean for dog, puppy, all breeds breed",
+          "similarity": 0.652
+        },
+        {
+          "rank": 7,
+          "sku": "125811",
+          "parentSKU": "125810",
+          "name": "Vet's Best for dog, adult;all lifestages",
+          "similarity": 0.6503
+        },
+        {
+          "rank": 8,
+          "sku": "801750",
+          "parentSKU": "125810",
+          "name": "Vet's Best for dog, adult;all lifestages",
+          "similarity": 0.6497
+        },
+        {
+          "rank": 9,
+          "sku": "918366",
+          "parentSKU": "918358",
+          "name": "Nylabone for dog, puppy, all breeds breed",
+          "similarity": 0.6482
+        },
+        {
+          "rank": 10,
+          "sku": "840790",
+          "parentSKU": "840782",
+          "name": "H&H Pets for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.6473
+        },
+        {
+          "rank": 11,
+          "sku": "1754262",
+          "parentSKU": "1754246",
+          "name": "Precious Tails for dog and cat, all lifestages, all breeds",
+          "similarity": 0.6421
+        },
+        {
+          "rank": 13,
+          "sku": "189586",
+          "parentSKU": "189585",
+          "name": "Triple Pet for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6403
+        },
+        {
+          "rank": 14,
+          "sku": "2050038",
+          "parentSKU": "2050030",
+          "name": "Pure and Natural Pet for dog, all lifestages, small breeds breed",
+          "similarity": 0.6386
+        },
+        {
+          "rank": 15,
+          "sku": "370009",
+          "parentSKU": "370008",
+          "name": "Arm & Hammer Products for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6385
+        },
+        {
+          "rank": 16,
+          "sku": "218547",
+          "parentSKU": "218546",
+          "name": "TropiClean for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6368
+        }
+      ]
+    },
+    {
+      "slot_id": 10,
+      "top_family": "Cooling/Heating Gear",
+      "rationale": "",
+      "count": 25,
+      "actual_query": "Dog puppy cooling gear: gel or evaporative cooling mats, evaporative cooling vest sized for a pug's chest, portable misting fan, shaded yard canopy, breathable elevated mesh bed; easy to clean and stable for a robust dog",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1467614",
+          "parentSKU": "1467574",
+          "name": "Canada Pooch for dog, large breeds breed",
+          "similarity": 0.6603
+        },
+        {
+          "rank": 2,
+          "sku": "1467590",
+          "parentSKU": "1467574",
+          "name": "Canada Pooch for dog, small breeds breed",
+          "similarity": 0.6592
+        },
+        {
+          "rank": 3,
+          "sku": "1467550",
+          "parentSKU": "1467502",
+          "name": "Canada Pooch for dog, all breeds breed",
+          "similarity": 0.6585
+        },
+        {
+          "rank": 4,
+          "sku": "1467606",
+          "parentSKU": "1467574",
+          "name": "Canada Pooch for dog, all breeds breed",
+          "similarity": 0.6584
+        },
+        {
+          "rank": 5,
+          "sku": "1467582",
+          "parentSKU": "1467574",
+          "name": "Canada Pooch for dog, extra small breeds breed",
+          "similarity": 0.6581
+        },
+        {
+          "rank": 6,
+          "sku": "1467598",
+          "parentSKU": "1467574",
+          "name": "Canada Pooch for dog, all breeds breed",
+          "similarity": 0.6578
+        },
+        {
+          "rank": 7,
+          "sku": "1467622",
+          "parentSKU": "1467574",
+          "name": "Canada Pooch for dog, all breeds breed",
+          "similarity": 0.6578
+        },
+        {
+          "rank": 8,
+          "sku": "1715958",
+          "parentSKU": "1715950",
+          "name": "allforpaws for dog, all lifestages, all breeds breed",
+          "similarity": 0.6563
+        },
+        {
+          "rank": 9,
+          "sku": "1691230",
+          "parentSKU": "1691222",
+          "name": "allforpaws for dog, all lifestages, all breeds breed",
+          "similarity": 0.6513
+        },
+        {
+          "rank": 10,
+          "sku": "138815",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6508
+        },
+        {
+          "rank": 11,
+          "sku": "138814",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6508
+        },
+        {
+          "rank": 12,
+          "sku": "138811",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6508
+        },
+        {
+          "rank": 13,
+          "sku": "138816",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6508
+        },
+        {
+          "rank": 14,
+          "sku": "138809",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6508
+        },
+        {
+          "rank": 15,
+          "sku": "138810",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.65
+        },
+        {
+          "rank": 16,
+          "sku": "138812",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.65
+        },
+        {
+          "rank": 17,
+          "sku": "138813",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.65
+        },
+        {
+          "rank": 18,
+          "sku": "1691214",
+          "parentSKU": "1691190",
+          "name": "allforpaws for dog, all lifestages, all breeds breed",
+          "similarity": 0.648
+        },
+        {
+          "rank": 19,
+          "sku": "258159",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, giant breeds breed",
+          "similarity": 0.6478
+        },
+        {
+          "rank": 20,
+          "sku": "258146",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6471
+        },
+        {
+          "rank": 21,
+          "sku": "258141",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6471
+        },
+        {
+          "rank": 22,
+          "sku": "758566",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6471
+        },
+        {
+          "rank": 23,
+          "sku": "258140",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6471
+        },
+        {
+          "rank": 24,
+          "sku": "758558",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6471
+        },
+        {
+          "rank": 25,
+          "sku": "758550",
+          "parentSKU": "138807",
+          "name": "Canada Pooch for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6471
+        }
+      ]
+    },
+    {
+      "slot_id": 11,
+      "top_family": "Feeders & Waterers",
+      "rationale": "",
+      "count": 18,
+      "actual_query": "Dog puppy hydration gear: large-capacity stainless steel or ceramic elevated water bowls, travel water bottle with integrated bowl, pet water fountain for apartment use, insulated bottles for warm days, sturdy tipping-resistant base",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1977446",
+          "parentSKU": "1977438",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.6966
+        },
+        {
+          "rank": 2,
+          "sku": "1977478",
+          "parentSKU": "1977470",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.6864
+        },
+        {
+          "rank": 3,
+          "sku": "1977430",
+          "parentSKU": "1977422",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.6847
+        },
+        {
+          "rank": 4,
+          "sku": "1977462",
+          "parentSKU": "1977454",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.681
+        },
+        {
+          "rank": 5,
+          "sku": "1977558",
+          "parentSKU": "1977550",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.6808
+        },
+        {
+          "rank": 6,
+          "sku": "127461",
+          "parentSKU": "127460",
+          "name": "KONG H2O for dog, adult;all lifestages, large breeds;medium breeds breed",
+          "similarity": 0.6724
+        },
+        {
+          "rank": 7,
+          "sku": "127463",
+          "parentSKU": "127460",
+          "name": "KONG H2O for dog, adult;all lifestages, large breeds;medium breeds breed",
+          "similarity": 0.6723
+        },
+        {
+          "rank": 8,
+          "sku": "1977526",
+          "parentSKU": "1977510",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.671
+        },
+        {
+          "rank": 9,
+          "sku": "1977542",
+          "parentSKU": "1977534",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.6705
+        },
+        {
+          "rank": 10,
+          "sku": "132036",
+          "parentSKU": "132035",
+          "name": "Heininger for dog and cat, adult;all lifestages, giant breeds",
+          "similarity": 0.6653
+        },
+        {
+          "rank": 11,
+          "sku": "1977518",
+          "parentSKU": "1977502",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.665
+        },
+        {
+          "rank": 12,
+          "sku": "2125582",
+          "parentSKU": "2125550",
+          "name": "VIVIPAL for dog and cat, all lifestages",
+          "similarity": 0.6637
+        },
+        {
+          "rank": 13,
+          "sku": "1977494",
+          "parentSKU": "1977486",
+          "name": "ShopInstaPets for dog, all lifestages, all breeds breed",
+          "similarity": 0.6634
+        },
+        {
+          "rank": 14,
+          "sku": "2125622",
+          "parentSKU": "2125614",
+          "name": "VIVIPAL for dog and cat, all lifestages",
+          "similarity": 0.6625
+        },
+        {
+          "rank": 15,
+          "sku": "364070",
+          "parentSKU": "364069",
+          "name": "KONG for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.657
+        },
+        {
+          "rank": 16,
+          "sku": "364071",
+          "parentSKU": "364069",
+          "name": "KONG for dog, adult;all lifestages, large breeds;medium breeds breed",
+          "similarity": 0.6564
+        },
+        {
+          "rank": 17,
+          "sku": "2055190",
+          "parentSKU": "2055166",
+          "name": "FUKUMARU for dog, all lifestages, large breeds breed",
+          "similarity": 0.6543
+        },
+        {
+          "rank": 18,
+          "sku": "63120",
+          "parentSKU": "63117",
+          "name": "PetSafe for dog and cat, adult;all lifestages, large breeds",
+          "similarity": 0.6507
+        }
+      ]
+    },
+    {
+      "slot_id": 12,
+      "top_family": "Gear/Travel",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy padded adjustable front-clip or dual-clip harness for short-nosed breeds, wide straps to minimize neck pressure, heavy-duty buckles for strong pullers, grow-with-puppy fit and trachea-safe design",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1968822",
+          "parentSKU": "1968814",
+          "name": "LupinePet for dog, puppy, extra small breeds;small breeds breed",
+          "similarity": 0.704
+        },
+        {
+          "rank": 2,
+          "sku": "1968846",
+          "parentSKU": "1968814",
+          "name": "LupinePet for dog, puppy, large breeds;medium breeds breed",
+          "similarity": 0.7039
+        },
+        {
+          "rank": 3,
+          "sku": "1907110",
+          "parentSKU": "1907102",
+          "name": "LupinePet for dog, puppy, large breeds;medium breeds breed",
+          "similarity": 0.7035
+        },
+        {
+          "rank": 4,
+          "sku": "1968838",
+          "parentSKU": "1968814",
+          "name": "LupinePet for dog, puppy, medium breeds;small breeds breed",
+          "similarity": 0.7025
+        },
+        {
+          "rank": 5,
+          "sku": "1968830",
+          "parentSKU": "1968814",
+          "name": "LupinePet for dog, puppy, medium breeds;small breeds breed",
+          "similarity": 0.7022
+        },
+        {
+          "rank": 6,
+          "sku": "1907126",
+          "parentSKU": "1907102",
+          "name": "LupinePet for dog, puppy, giant breeds breed",
+          "similarity": 0.701
+        },
+        {
+          "rank": 7,
+          "sku": "1968854",
+          "parentSKU": "1968814",
+          "name": "LupinePet for dog, puppy, large breeds breed",
+          "similarity": 0.7001
+        },
+        {
+          "rank": 8,
+          "sku": "1907118",
+          "parentSKU": "1907102",
+          "name": "LupinePet for dog, puppy, large breeds breed",
+          "similarity": 0.6994
+        },
+        {
+          "rank": 9,
+          "sku": "1968678",
+          "parentSKU": "1968670",
+          "name": "LupinePet for dog, all lifestages, extra small breeds;small breeds breed",
+          "similarity": 0.6789
+        },
+        {
+          "rank": 10,
+          "sku": "1969574",
+          "parentSKU": "1965030",
+          "name": "LupinePet for dog, all lifestages, small breeds breed",
+          "similarity": 0.6781
+        },
+        {
+          "rank": 11,
+          "sku": "1969654",
+          "parentSKU": "1965030",
+          "name": "LupinePet for dog, all lifestages, small breeds breed",
+          "similarity": 0.678
+        },
+        {
+          "rank": 12,
+          "sku": "1969670",
+          "parentSKU": "1965030",
+          "name": "LupinePet for dog, all lifestages, small breeds breed",
+          "similarity": 0.678
+        },
+        {
+          "rank": 13,
+          "sku": "1969582",
+          "parentSKU": "1965030",
+          "name": "LupinePet for dog, all lifestages, small breeds breed",
+          "similarity": 0.678
+        },
+        {
+          "rank": 14,
+          "sku": "1969598",
+          "parentSKU": "1965030",
+          "name": "LupinePet for dog, all lifestages, small breeds breed",
+          "similarity": 0.678
+        },
+        {
+          "rank": 15,
+          "sku": "1907062",
+          "parentSKU": "1907038",
+          "name": "LupinePet for dog, all lifestages, large breeds breed",
+          "similarity": 0.6772
+        }
+      ]
+    },
+    {
+      "slot_id": 13,
+      "top_family": "Gear/Travel",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy heavy-duty 4\u20136 ft leash with reinforced stitching and optional traffic handle, reflective vest or LED-lit attachments for visibility, reflective harness covers for low-light and hunting-season safety",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "358125",
+          "parentSKU": "358122",
+          "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6758
+        },
+        {
+          "rank": 2,
+          "sku": "358126",
+          "parentSKU": "358122",
+          "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6757
+        },
+        {
+          "rank": 3,
+          "sku": "358124",
+          "parentSKU": "358122",
+          "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6753
+        },
+        {
+          "rank": 4,
+          "sku": "358123",
+          "parentSKU": "358122",
+          "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6753
+        },
+        {
+          "rank": 5,
+          "sku": "358127",
+          "parentSKU": "358122",
+          "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6753
+        },
+        {
+          "rank": 6,
+          "sku": "1800030",
+          "parentSKU": "1799966",
+          "name": "LupinePet for dog, all lifestages, all breeds breed",
+          "similarity": 0.6546
+        },
+        {
+          "rank": 7,
+          "sku": "1800022",
+          "parentSKU": "1799966",
+          "name": "LupinePet for dog, all lifestages, all breeds breed",
+          "similarity": 0.6546
+        },
+        {
+          "rank": 8,
+          "sku": "1316294",
+          "parentSKU": "1316214",
+          "name": "Dogs & Cats & Co",
+          "similarity": 0.6534
+        },
+        {
+          "rank": 9,
+          "sku": "1316246",
+          "parentSKU": "1316214",
+          "name": "Dogs & Cats & Co",
+          "similarity": 0.6534
+        },
+        {
+          "rank": 10,
+          "sku": "1316270",
+          "parentSKU": "1316214",
+          "name": "Dogs & Cats & Co",
+          "similarity": 0.6532
+        },
+        {
+          "rank": 11,
+          "sku": "1316222",
+          "parentSKU": "1316214",
+          "name": "Dogs & Cats & Co",
+          "similarity": 0.6532
+        },
+        {
+          "rank": 12,
+          "sku": "1316510",
+          "parentSKU": "1316502",
+          "name": "Dogs & Cats & Co",
+          "similarity": 0.653
+        },
+        {
+          "rank": 13,
+          "sku": "911126",
+          "parentSKU": "911102",
+          "name": "LupinePet for dog and cat, large breeds",
+          "similarity": 0.6514
+        },
+        {
+          "rank": 14,
+          "sku": "1801878",
+          "parentSKU": "1801774",
+          "name": "LupinePet for dog, all lifestages, all breeds breed",
+          "similarity": 0.6499
+        },
+        {
+          "rank": 15,
+          "sku": "1801918",
+          "parentSKU": "1801774",
+          "name": "LupinePet for dog, all lifestages, all breeds breed",
+          "similarity": 0.6499
+        }
+      ]
+    },
+    {
+      "slot_id": 14,
+      "top_family": "Crates/Gates/Pens",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy appropriately sized crate with divider for growth and solid build, good ventilation, washable comfortable mat, and indoor playpen for supervised freedom and safe indoor exercise",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "688494",
+          "parentSKU": "688462",
+          "name": "Ferplast for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6829
+        },
+        {
+          "rank": 2,
+          "sku": "688502",
+          "parentSKU": "688462",
+          "name": "Ferplast for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6814
+        },
+        {
+          "rank": 3,
+          "sku": "688470",
+          "parentSKU": "688462",
+          "name": "Ferplast for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6807
+        },
+        {
+          "rank": 4,
+          "sku": "688478",
+          "parentSKU": "688462",
+          "name": "Ferplast for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.68
+        },
+        {
+          "rank": 5,
+          "sku": "688486",
+          "parentSKU": "688462",
+          "name": "Ferplast for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6799
+        },
+        {
+          "rank": 6,
+          "sku": "148953",
+          "parentSKU": "148946",
+          "name": "MidWest for dog, puppy, large breeds;medium breeds breed",
+          "similarity": 0.6455
+        },
+        {
+          "rank": 7,
+          "sku": "148948",
+          "parentSKU": "148946",
+          "name": "MidWest for dog, puppy, large breeds;medium breeds breed",
+          "similarity": 0.6455
+        },
+        {
+          "rank": 8,
+          "sku": "148947",
+          "parentSKU": "148946",
+          "name": "MidWest for dog, puppy, small breeds breed",
+          "similarity": 0.6418
+        },
+        {
+          "rank": 9,
+          "sku": "148949",
+          "parentSKU": "148946",
+          "name": "MidWest for dog, puppy, giant breeds breed",
+          "similarity": 0.6411
+        },
+        {
+          "rank": 10,
+          "sku": "2106222",
+          "parentSKU": "2106206",
+          "name": "Yaheetech for dog, all lifestages, small breeds breed",
+          "similarity": 0.6359
+        },
+        {
+          "rank": 11,
+          "sku": "2106230",
+          "parentSKU": "2106206",
+          "name": "Yaheetech for dog, all lifestages, small breeds breed",
+          "similarity": 0.6353
+        },
+        {
+          "rank": 12,
+          "sku": "2073822",
+          "parentSKU": "2073814",
+          "name": "BingoPaw for dog, all lifestages, large breeds breed",
+          "similarity": 0.6352
+        },
+        {
+          "rank": 13,
+          "sku": "2106214",
+          "parentSKU": "2106206",
+          "name": "Yaheetech for dog, all lifestages, small breeds breed",
+          "similarity": 0.6351
+        },
+        {
+          "rank": 14,
+          "sku": "1601758",
+          "parentSKU": "1601750",
+          "name": "PawHut for dog, all lifestages, medium breeds breed",
+          "similarity": 0.6327
+        },
+        {
+          "rank": 15,
+          "sku": "60384",
+          "parentSKU": "60378",
+          "name": "MidWest for dog, all lifestages, large breeds;medium breeds breed",
+          "similarity": 0.6316
+        }
+      ]
+    },
+    {
+      "slot_id": 15,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "",
+      "count": 16,
+      "actual_query": "Dog puppy deshedding and grooming tools for short-coated breeds: FURminator-style de-shedding tool, grooming glove, slicker brush, lint rollers, and grooming wipes sized for compact body, easy to clean",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1000025742",
+          "parentSKU": "1000025726",
+          "name": "FURminator for dog, adult, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6903
+        },
+        {
+          "rank": 2,
+          "sku": "243245",
+          "parentSKU": "243244",
+          "name": "FURminator for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6881
+        },
+        {
+          "rank": 3,
+          "sku": "243246",
+          "parentSKU": "243244",
+          "name": "FURminator for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.674
+        },
+        {
+          "rank": 4,
+          "sku": "243247",
+          "parentSKU": "243244",
+          "name": "FURminator for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6722
+        },
+        {
+          "rank": 5,
+          "sku": "1000025790",
+          "parentSKU": "1000025774",
+          "name": "FURminator for dog, adult, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6722
+        },
+        {
+          "rank": 6,
+          "sku": "243249",
+          "parentSKU": "243248",
+          "name": "FURminator for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6688
+        },
+        {
+          "rank": 7,
+          "sku": "1461270",
+          "parentSKU": "1461262",
+          "name": "Andis for dog and cat, all lifestages, all breeds",
+          "similarity": 0.6571
+        },
+        {
+          "rank": 8,
+          "sku": "1568958",
+          "parentSKU": "1568950",
+          "name": "Andis for dog and cat, all lifestages, all breeds",
+          "similarity": 0.656
+        },
+        {
+          "rank": 9,
+          "sku": "243250",
+          "parentSKU": "243248",
+          "name": "FURminator for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6547
+        },
+        {
+          "rank": 10,
+          "sku": "2281382",
+          "parentSKU": "2281374",
+          "name": "FURminator for dog, all lifestages, all breeds breed",
+          "similarity": 0.6507
+        },
+        {
+          "rank": 11,
+          "sku": "243251",
+          "parentSKU": "243248",
+          "name": "FURminator for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6461
+        },
+        {
+          "rank": 12,
+          "sku": "613454",
+          "parentSKU": "613446",
+          "name": "SunGrow for dog and cat, adult;all lifestages, large breeds;medium breeds;small breeds",
+          "similarity": 0.6407
+        },
+        {
+          "rank": 13,
+          "sku": "725486",
+          "parentSKU": "725478",
+          "name": "Andis for dog and cat, adult;all lifestages, large breeds;medium breeds;small breeds",
+          "similarity": 0.6367
+        },
+        {
+          "rank": 14,
+          "sku": "1065470",
+          "parentSKU": "1065462",
+          "name": "FURminator for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6348
+        },
+        {
+          "rank": 15,
+          "sku": "320030",
+          "parentSKU": "320027",
+          "name": "Pet Life for dog and cat, adult",
+          "similarity": 0.6333
+        },
+        {
+          "rank": 16,
+          "sku": "320028",
+          "parentSKU": "320027",
+          "name": "Pet Life for dog and cat, adult",
+          "similarity": 0.6333
+        }
+      ]
+    },
+    {
+      "slot_id": 16,
+      "top_family": "Home Comfort",
+      "rationale": "",
+      "count": 18,
+      "actual_query": "Dog puppy HEPA air purifier sized for apartment plus hypoallergenic washable dog bedding and covers that trap dander; breathable designs that reduce heat retention and are machine-washable",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1309830",
+          "parentSKU": "1309822",
+          "name": "Dyson for dog and cat",
+          "similarity": 0.6814
+        },
+        {
+          "rank": 2,
+          "sku": "192873",
+          "parentSKU": "192871",
+          "name": "Rabbit Air for dog and cat, adult;all lifestages",
+          "similarity": 0.679
+        },
+        {
+          "rank": 3,
+          "sku": "192872",
+          "parentSKU": "192871",
+          "name": "Rabbit Air for dog and cat, adult;all lifestages",
+          "similarity": 0.6788
+        },
+        {
+          "rank": 4,
+          "sku": "1348742",
+          "parentSKU": "1348734",
+          "name": "Shark for dog",
+          "similarity": 0.6743
+        },
+        {
+          "rank": 5,
+          "sku": "1943486",
+          "parentSKU": "1943462",
+          "name": "IRIS for dog, all lifestages",
+          "similarity": 0.6652
+        },
+        {
+          "rank": 6,
+          "sku": "301278",
+          "parentSKU": "301277",
+          "name": "XPOWER for dog and cat",
+          "similarity": 0.6633
+        },
+        {
+          "rank": 7,
+          "sku": "1348510",
+          "parentSKU": "1348502",
+          "name": "Shark for dog",
+          "similarity": 0.6633
+        },
+        {
+          "rank": 8,
+          "sku": "1309718",
+          "parentSKU": "1309710",
+          "name": "Dyson for dog and cat",
+          "similarity": 0.6627
+        },
+        {
+          "rank": 9,
+          "sku": "2049398",
+          "parentSKU": "2049382",
+          "name": "Dreo for dog",
+          "similarity": 0.6627
+        },
+        {
+          "rank": 10,
+          "sku": "1685038",
+          "parentSKU": "1685030",
+          "name": "Dupray for dog and cat, all lifestages;all stages",
+          "similarity": 0.6618
+        },
+        {
+          "rank": 11,
+          "sku": "2049390",
+          "parentSKU": "2049374",
+          "name": "Dreo for dog",
+          "similarity": 0.6615
+        },
+        {
+          "rank": 12,
+          "sku": "741622",
+          "parentSKU": "741614",
+          "name": "LEVOIT for dog and cat, adult;all lifestages",
+          "similarity": 0.6597
+        },
+        {
+          "rank": 13,
+          "sku": "301276",
+          "parentSKU": "301275",
+          "name": "XPOWER for dog and cat",
+          "similarity": 0.6594
+        },
+        {
+          "rank": 14,
+          "sku": "234035",
+          "parentSKU": "234033",
+          "name": "Honeywell for dog, adult;all lifestages",
+          "similarity": 0.6594
+        },
+        {
+          "rank": 15,
+          "sku": "1351238",
+          "parentSKU": "1351230",
+          "name": "Shark for dog and cat",
+          "similarity": 0.6589
+        },
+        {
+          "rank": 16,
+          "sku": "1097254",
+          "parentSKU": "1097214",
+          "name": "IRIS for dog and cat, adult;all lifestages",
+          "similarity": 0.6589
+        },
+        {
+          "rank": 17,
+          "sku": "1597846",
+          "parentSKU": "1597830",
+          "name": "Blueair for dog",
+          "similarity": 0.6561
+        },
+        {
+          "rank": 18,
+          "sku": "230446",
+          "parentSKU": "230445",
+          "name": "LEVOIT for dog and cat, adult;all lifestages",
+          "similarity": 0.6539
+        }
+      ]
+    },
+    {
+      "slot_id": 17,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy nail and paw care: guillotine or scissor-style trimmers, file, non-irritating paw balm to protect pads from hot pavement, hypoallergenic paw wipes for quick cleaning after yard play",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "629278",
+          "parentSKU": "629270",
+          "name": "SunGrow for dog, all lifestages, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.5915
+        },
+        {
+          "rank": 2,
+          "sku": "181115",
+          "parentSKU": "181114",
+          "name": "Petpost for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.5865
+        },
+        {
+          "rank": 3,
+          "sku": "61246",
+          "parentSKU": "61245",
+          "name": "Safari for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.5864
+        },
+        {
+          "rank": 4,
+          "sku": "2487238",
+          "parentSKU": "2487214",
+          "name": "Pawward for dog and cat, all lifestages, all breeds",
+          "similarity": 0.5855
+        },
+        {
+          "rank": 5,
+          "sku": "774870",
+          "parentSKU": "774862",
+          "name": "Pawshelf for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.5838
+        },
+        {
+          "rank": 6,
+          "sku": "1000020254",
+          "parentSKU": "1000020246",
+          "name": "Wahl for dog, adult, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.5825
+        },
+        {
+          "rank": 7,
+          "sku": "79065",
+          "parentSKU": "79064",
+          "name": "Four Paws for dog, adult;all lifestages, all breeds;small breeds breed",
+          "similarity": 0.5823
+        },
+        {
+          "rank": 8,
+          "sku": "2470654",
+          "parentSKU": "2470638",
+          "name": "Dandylion for dog, all lifestages, all breeds breed",
+          "similarity": 0.5821
+        },
+        {
+          "rank": 9,
+          "sku": "1378486",
+          "parentSKU": "1378446",
+          "name": "Natural Dog Company for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.581
+        },
+        {
+          "rank": 10,
+          "sku": "262729",
+          "parentSKU": "262728",
+          "name": "Pawz for dog and cat, adult;all lifestages",
+          "similarity": 0.5752
+        },
+        {
+          "rank": 11,
+          "sku": "61248",
+          "parentSKU": "61247",
+          "name": "Safari for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.575
+        },
+        {
+          "rank": 12,
+          "sku": "128166",
+          "parentSKU": "61247",
+          "name": "Safari for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.575
+        }
+      ]
+    },
+    {
+      "slot_id": 18,
+      "top_family": "Training/Tech",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy training aids: clicker, target stick, potty bells or indoor potty pads for apartment transitions, durable treat pouch for on-the-go training; easy-clean materials",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "353044",
+          "parentSKU": "353043",
+          "name": "Mighty Paw for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6126
+        },
+        {
+          "rank": 2,
+          "sku": "1640606",
+          "parentSKU": "1640598",
+          "name": "Spotty for dog, all lifestages",
+          "similarity": 0.6104
+        },
+        {
+          "rank": 3,
+          "sku": "791374",
+          "parentSKU": "791366",
+          "name": "Training for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6099
+        },
+        {
+          "rank": 4,
+          "sku": "109969",
+          "parentSKU": "109968",
+          "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6067
+        },
+        {
+          "rank": 5,
+          "sku": "109976",
+          "parentSKU": "140697",
+          "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6066
+        },
+        {
+          "rank": 6,
+          "sku": "109973",
+          "parentSKU": "140697",
+          "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6066
+        },
+        {
+          "rank": 7,
+          "sku": "109975",
+          "parentSKU": "140697",
+          "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6066
+        },
+        {
+          "rank": 8,
+          "sku": "109979",
+          "parentSKU": "109978",
+          "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6034
+        },
+        {
+          "rank": 9,
+          "sku": "791342",
+          "parentSKU": "791318",
+          "name": "Training for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6028
+        },
+        {
+          "rank": 10,
+          "sku": "712963",
+          "parentSKU": "712951",
+          "name": "PATPET for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.6018
+        },
+        {
+          "rank": 11,
+          "sku": "122567",
+          "parentSKU": "122559",
+          "name": "Downtown Pet Supply for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.5978
+        },
+        {
+          "rank": 12,
+          "sku": "791390",
+          "parentSKU": "791382",
+          "name": "Training for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.5925
+        }
+      ]
+    },
+    {
+      "slot_id": 19,
+      "top_family": "Cleaning",
+      "rationale": "",
+      "count": 20,
+      "actual_query": "Dog puppy waste management: biodegradable poop bags (bulk), sealed odor-proof apartment waste bin, enzyme-based stain and odor cleaner for accidents, carpet cleaner attachments; sturdy bags for larger stools and strong dogs",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1170846",
+          "parentSKU": "1170838",
+          "name": "The Original Poop Bags for dog and cat, all lifestages, all breeds",
+          "similarity": 0.6675
+        },
+        {
+          "rank": 2,
+          "sku": "1000115369",
+          "parentSKU": "1000115345",
+          "name": "Pet Parents for dog, all lifestages, all breeds breed",
+          "similarity": 0.6639
+        },
+        {
+          "rank": 3,
+          "sku": "1000115363",
+          "parentSKU": "1000115345",
+          "name": "Pet Parents for dog, all lifestages, all breeds breed",
+          "similarity": 0.6636
+        },
+        {
+          "rank": 4,
+          "sku": "1000115351",
+          "parentSKU": "1000115339",
+          "name": "Pet Parents for dog, all lifestages, all breeds breed",
+          "similarity": 0.6621
+        },
+        {
+          "rank": 5,
+          "sku": "1000115357",
+          "parentSKU": "1000115339",
+          "name": "Pet Parents for dog, all lifestages, all breeds breed",
+          "similarity": 0.6621
+        },
+        {
+          "rank": 6,
+          "sku": "1499766",
+          "parentSKU": "1499758",
+          "name": "Green Lifestyle for dog, all lifestages",
+          "similarity": 0.6586
+        },
+        {
+          "rank": 7,
+          "sku": "1499774",
+          "parentSKU": "1499758",
+          "name": "Green Lifestyle for dog, all lifestages",
+          "similarity": 0.6585
+        },
+        {
+          "rank": 8,
+          "sku": "1516158",
+          "parentSKU": "1516134",
+          "name": "Pet Parents for dog, all lifestages, all breeds breed",
+          "similarity": 0.6525
+        },
+        {
+          "rank": 9,
+          "sku": "1516142",
+          "parentSKU": "1516134",
+          "name": "Pet Parents for dog, all lifestages, all breeds breed",
+          "similarity": 0.6525
+        },
+        {
+          "rank": 10,
+          "sku": "109993",
+          "parentSKU": "109992",
+          "name": "Pogi's Pet Supplies for dog, adult;all lifestages",
+          "similarity": 0.6507
+        },
+        {
+          "rank": 11,
+          "sku": "201699",
+          "parentSKU": "201697",
+          "name": "Pogi's Pet Supplies for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.648
+        },
+        {
+          "rank": 12,
+          "sku": "201698",
+          "parentSKU": "201697",
+          "name": "Pogi's Pet Supplies for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.648
+        },
+        {
+          "rank": 13,
+          "sku": "1430334",
+          "parentSKU": "1430318",
+          "name": "One for Pets for dog, all lifestages",
+          "similarity": 0.6453
+        },
+        {
+          "rank": 14,
+          "sku": "1430326",
+          "parentSKU": "1430318",
+          "name": "One for Pets for dog, all lifestages",
+          "similarity": 0.6451
+        },
+        {
+          "rank": 15,
+          "sku": "959310",
+          "parentSKU": "959366",
+          "name": "PET N PET for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.645
+        },
+        {
+          "rank": 16,
+          "sku": "1430342",
+          "parentSKU": "1430318",
+          "name": "One for Pets for dog, all lifestages",
+          "similarity": 0.645
+        },
+        {
+          "rank": 17,
+          "sku": "1430350",
+          "parentSKU": "1430318",
+          "name": "One for Pets for dog, all lifestages",
+          "similarity": 0.6449
+        },
+        {
+          "rank": 18,
+          "sku": "959374",
+          "parentSKU": "959366",
+          "name": "PET N PET for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6449
+        },
+        {
+          "rank": 19,
+          "sku": "173553",
+          "parentSKU": "173552",
+          "name": "The Original Poop Bags for dog, adult;all lifestages",
+          "similarity": 0.6447
+        },
+        {
+          "rank": 20,
+          "sku": "1524270",
+          "parentSKU": "1524262",
+          "name": "BOS for dog and cat, all lifestages, small breeds",
+          "similarity": 0.643
+        }
+      ]
+    },
+    {
+      "slot_id": 20,
+      "top_family": "Identification & Safety",
+      "rationale": "",
+      "count": 10,
+      "actual_query": "Dog puppy durable engraved waterproof ID tag with updated contact info and harness attachment, secure attachment options, consider quick-release or breakaway for indoor collars",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "269114",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, large breeds",
+          "similarity": 0.6325
+        },
+        {
+          "rank": 2,
+          "sku": "269112",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, large breeds",
+          "similarity": 0.6325
+        },
+        {
+          "rank": 3,
+          "sku": "269108",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, large breeds",
+          "similarity": 0.6324
+        },
+        {
+          "rank": 4,
+          "sku": "269109",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, large breeds",
+          "similarity": 0.6323
+        },
+        {
+          "rank": 5,
+          "sku": "269110",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, large breeds",
+          "similarity": 0.6323
+        },
+        {
+          "rank": 6,
+          "sku": "269111",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, large breeds",
+          "similarity": 0.6322
+        },
+        {
+          "rank": 7,
+          "sku": "269113",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, small breeds",
+          "similarity": 0.6301
+        },
+        {
+          "rank": 8,
+          "sku": "269107",
+          "parentSKU": "269106",
+          "name": "Quick-Tag for dog and cat, puppy, small breeds",
+          "similarity": 0.6298
+        },
+        {
+          "rank": 9,
+          "sku": "269123",
+          "parentSKU": "269121",
+          "name": "Quick-Tag for dog, all breeds breed",
+          "similarity": 0.6297
+        },
+        {
+          "rank": 10,
+          "sku": "269122",
+          "parentSKU": "278805",
+          "name": "Quick-Tag for dog, all breeds breed",
+          "similarity": 0.6296
+        }
+      ]
+    },
+    {
+      "slot_id": 21,
+      "top_family": "Gear/Travel",
+      "rationale": "",
+      "count": 14,
+      "actual_query": "Dog puppy crash-tested car harness or seatbelt-compatible restraint with durable buckles and padding sized for a growing medium-to-large puppy; include travel blanket or seat cover to protect upholstery",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "791134",
+          "parentSKU": "791110",
+          "name": "CarSafe for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6907
+        },
+        {
+          "rank": 2,
+          "sku": "791126",
+          "parentSKU": "791110",
+          "name": "CarSafe for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6827
+        },
+        {
+          "rank": 3,
+          "sku": "791142",
+          "parentSKU": "791110",
+          "name": "CarSafe for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6826
+        },
+        {
+          "rank": 4,
+          "sku": "791118",
+          "parentSKU": "791110",
+          "name": "CarSafe for dog, adult;all lifestages, extra small breeds breed",
+          "similarity": 0.6787
+        },
+        {
+          "rank": 5,
+          "sku": "237613",
+          "parentSKU": "237612",
+          "name": "SlowTon for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6676
+        },
+        {
+          "rank": 6,
+          "sku": "120971",
+          "parentSKU": "120969",
+          "name": "HDP for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6602
+        },
+        {
+          "rank": 7,
+          "sku": "120973",
+          "parentSKU": "120969",
+          "name": "HDP for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6601
+        },
+        {
+          "rank": 8,
+          "sku": "791094",
+          "parentSKU": "791070",
+          "name": "CarSafe for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6583
+        },
+        {
+          "rank": 9,
+          "sku": "791102",
+          "parentSKU": "791070",
+          "name": "CarSafe for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6519
+        },
+        {
+          "rank": 10,
+          "sku": "357312",
+          "parentSKU": "357311",
+          "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6497
+        },
+        {
+          "rank": 11,
+          "sku": "68798",
+          "parentSKU": "145938",
+          "name": "PetSafe for dog and cat, adult;all lifestages, medium breeds;small breeds",
+          "similarity": 0.6492
+        },
+        {
+          "rank": 12,
+          "sku": "791086",
+          "parentSKU": "791070",
+          "name": "CarSafe for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6486
+        },
+        {
+          "rank": 13,
+          "sku": "236609",
+          "parentSKU": "236607",
+          "name": "K&H Pet Products for dog, all lifestages, large breeds;medium breeds breed",
+          "similarity": 0.6485
+        },
+        {
+          "rank": 14,
+          "sku": "1772782",
+          "parentSKU": "1772774",
+          "name": "Petsfit for dog, all lifestages, small breeds breed",
+          "similarity": 0.6481
+        }
+      ]
+    },
+    {
+      "slot_id": 22,
+      "top_family": "Beds",
+      "rationale": "",
+      "count": 15,
+      "actual_query": "Dog puppy elevated mesh bed or orthopedic foam bed sized for a pug's body, breathable materials to limit heat retention, machine-washable covers and non-toxic fillings",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "194376",
+          "parentSKU": "194374",
+          "name": "PawBrands for dog, adult;all lifestages, giant breeds breed",
+          "similarity": 0.6935
+        },
+        {
+          "rank": 2,
+          "sku": "2088854",
+          "parentSKU": "2088846",
+          "name": "PawHut for dog, all lifestages, small breeds breed",
+          "similarity": 0.6807
+        },
+        {
+          "rank": 3,
+          "sku": "68568",
+          "parentSKU": "68566",
+          "name": "Petmate for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6806
+        },
+        {
+          "rank": 4,
+          "sku": "1470414",
+          "parentSKU": "1470406",
+          "name": "PawBrands for dog and cat, all lifestages, medium breeds",
+          "similarity": 0.6742
+        },
+        {
+          "rank": 5,
+          "sku": "1614022",
+          "parentSKU": "1614006",
+          "name": "PawHut for dog, all lifestages, medium breeds breed",
+          "similarity": 0.6717
+        },
+        {
+          "rank": 6,
+          "sku": "1613526",
+          "parentSKU": "1613518",
+          "name": "PawHut for dog, all lifestages, medium breeds breed",
+          "similarity": 0.6699
+        },
+        {
+          "rank": 7,
+          "sku": "666246",
+          "parentSKU": "666238",
+          "name": "HappyCare Textiles for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6692
+        },
+        {
+          "rank": 8,
+          "sku": "1613502",
+          "parentSKU": "1613486",
+          "name": "PawHut for dog, all lifestages, large breeds breed",
+          "similarity": 0.667
+        },
+        {
+          "rank": 9,
+          "sku": "1613494",
+          "parentSKU": "1613486",
+          "name": "PawHut for dog, all lifestages, large breeds breed",
+          "similarity": 0.667
+        },
+        {
+          "rank": 10,
+          "sku": "1613510",
+          "parentSKU": "1613486",
+          "name": "PawHut for dog, all lifestages, large breeds breed",
+          "similarity": 0.667
+        },
+        {
+          "rank": 11,
+          "sku": "625270",
+          "parentSKU": "625214",
+          "name": "PawBrands for dog, adult;all lifestages, medium breeds;small breeds breed",
+          "similarity": 0.6666
+        },
+        {
+          "rank": 12,
+          "sku": "625222",
+          "parentSKU": "625214",
+          "name": "PawBrands for dog, adult;all lifestages, medium breeds;small breeds breed",
+          "similarity": 0.6665
+        },
+        {
+          "rank": 13,
+          "sku": "666286",
+          "parentSKU": "666278",
+          "name": "HappyCare Textiles for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6663
+        },
+        {
+          "rank": 14,
+          "sku": "666294",
+          "parentSKU": "666278",
+          "name": "HappyCare Textiles for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6663
+        },
+        {
+          "rank": 15,
+          "sku": "666270",
+          "parentSKU": "666238",
+          "name": "HappyCare Textiles for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6659
+        }
+      ]
+    },
+    {
+      "slot_id": 23,
+      "top_family": "Health & Wellness",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy non-medical calming aids: snug anxiety wrap (Thundershirt-style), dog-appeasing pheromone diffuser for apartment, and interactive calming toys to use during noisy events",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "99310",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.6401
+        },
+        {
+          "rank": 2,
+          "sku": "99316",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, small breeds breed",
+          "similarity": 0.64
+        },
+        {
+          "rank": 3,
+          "sku": "99319",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6389
+        },
+        {
+          "rank": 4,
+          "sku": "99309",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6389
+        },
+        {
+          "rank": 5,
+          "sku": "99315",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6389
+        },
+        {
+          "rank": 6,
+          "sku": "99313",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6388
+        },
+        {
+          "rank": 7,
+          "sku": "99311",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6375
+        },
+        {
+          "rank": 8,
+          "sku": "99317",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, medium breeds breed",
+          "similarity": 0.6375
+        },
+        {
+          "rank": 9,
+          "sku": "99312",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6355
+        },
+        {
+          "rank": 10,
+          "sku": "1462638",
+          "parentSKU": "1462606",
+          "name": "allforpaws for dog, adult;all lifestages, all breeds breed",
+          "similarity": 0.6354
+        },
+        {
+          "rank": 11,
+          "sku": "99318",
+          "parentSKU": "99308",
+          "name": "American Kennel Club for dog, adult;all lifestages, large breeds breed",
+          "similarity": 0.6354
+        },
+        {
+          "rank": 12,
+          "sku": "1301438",
+          "parentSKU": "1301430",
+          "name": "Snuggle Puppy for dog, puppy, all breeds breed",
+          "similarity": 0.6334
+        }
+      ]
+    },
+    {
+      "slot_id": 24,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "",
+      "count": 12,
+      "actual_query": "Dog puppy mild, fragrance-free hypoallergenic shampoo and waterless wipes for quick cleaning after yard play, formulated for sensitive skin and safe for puppies to reduce pollen and allergens",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "819702",
+          "parentSKU": "819686",
+          "name": "Earthbath for dog and cat, puppy, all breeds",
+          "similarity": 0.7046
+        },
+        {
+          "rank": 2,
+          "sku": "213438",
+          "parentSKU": "213437",
+          "name": "Ultra Collection for dog, puppy, all breeds breed",
+          "similarity": 0.6894
+        },
+        {
+          "rank": 3,
+          "sku": "614142",
+          "parentSKU": "614134",
+          "name": "Pet Parents for dog, puppy, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6872
+        },
+        {
+          "rank": 4,
+          "sku": "614126",
+          "parentSKU": "614134",
+          "name": "Pet Parents for dog, puppy, large breeds;medium breeds;small breeds breed",
+          "similarity": 0.6868
+        },
+        {
+          "rank": 5,
+          "sku": "1463342",
+          "parentSKU": "614134",
+          "name": "Pet Parents for dog, puppy, all breeds breed",
+          "similarity": 0.6867
+        },
+        {
+          "rank": 6,
+          "sku": "1463350",
+          "parentSKU": "614134",
+          "name": "Pet Parents for dog, puppy, all breeds breed",
+          "similarity": 0.6867
+        },
+        {
+          "rank": 7,
+          "sku": "1463270",
+          "parentSKU": "614134",
+          "name": "Pet Parents for dog, puppy, all breeds breed",
+          "similarity": 0.6866
+        },
+        {
+          "rank": 8,
+          "sku": "1463278",
+          "parentSKU": "614134",
+          "name": "Pet Parents for dog, puppy, all breeds breed",
+          "similarity": 0.6865
+        },
+        {
+          "rank": 9,
+          "sku": "1840806",
+          "parentSKU": "1840798",
+          "name": "Wahl for dog, all lifestages, all breeds breed",
+          "similarity": 0.6832
+        },
+        {
+          "rank": 10,
+          "sku": "1000108427",
+          "parentSKU": "1000086539",
+          "name": "Pet Parents for dog, adult;puppy;senior",
+          "similarity": 0.682
+        },
+        {
+          "rank": 11,
+          "sku": "1000108439",
+          "parentSKU": "1000086539",
+          "name": "Pet Parents for dog, adult;puppy;senior",
+          "similarity": 0.682
+        },
+        {
+          "rank": 12,
+          "sku": "1000108421",
+          "parentSKU": "1000086539",
+          "name": "Pet Parents for dog, adult;puppy;senior",
+          "similarity": 0.6819
+        }
+      ]
+    },
+    {
+      "slot_id": 25,
+      "top_family": "Supplements",
+      "rationale": "",
+      "count": 2,
+      "actual_query": "Dog puppy growth-support supplements with puppy-appropriate glucosamine for joint support, omega fatty acids for skin and coat, and probiotics for digestive health; chewable or powder forms compatible with feeding plan, duck-free",
+      "products": [
+        {
+          "rank": 10,
+          "sku": "844678",
+          "parentSKU": "354353",
+          "name": "Natural Dog Company for dog, adult;all lifestages, all breeds breed, grain-free,no corn no wheat no soy,natural",
+          "similarity": 0.6706
+        },
+        {
+          "rank": 11,
+          "sku": "354354",
+          "parentSKU": "354353",
+          "name": "Natural Dog Company for dog, adult;all lifestages, all breeds breed, grain-free,no corn no wheat no soy,natural",
+          "similarity": 0.6704
+        }
+      ]
+    },
+    {
+      "slot_id": 26,
+      "top_family": "Cleaning",
+      "rationale": "",
+      "count": 14,
+      "actual_query": "Dog shedding-season vacuum and lint tools: handheld or apartment-sized vacuum with pet/hair attachments, rubber brush tools, and lint rollers for furniture and floors to remove pug hair",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "181238",
+          "parentSKU": "181237",
+          "name": "Kurgo for dog, all lifestages, all breeds breed",
+          "similarity": 0.6338
+        },
+        {
+          "rank": 2,
+          "sku": "1662478",
+          "parentSKU": "1662454",
+          "name": "Buff Brite for dog and cat",
+          "similarity": 0.6092
+        },
+        {
+          "rank": 3,
+          "sku": "1662510",
+          "parentSKU": "1662502",
+          "name": "Buff Brite for dog and cat",
+          "similarity": 0.6062
+        },
+        {
+          "rank": 4,
+          "sku": "2197646",
+          "parentSKU": "2197638",
+          "name": "INSE for dog and cat, all lifestages, all breeds",
+          "similarity": 0.6028
+        },
+        {
+          "rank": 5,
+          "sku": "847942",
+          "parentSKU": "847934",
+          "name": "FurMe for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.5971
+        },
+        {
+          "rank": 6,
+          "sku": "143220",
+          "parentSKU": "143219",
+          "name": "FURemover for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.5956
+        },
+        {
+          "rank": 7,
+          "sku": "2184526",
+          "parentSKU": "2184502",
+          "name": "Uproot Clean for dog, all lifestages, all breeds breed",
+          "similarity": 0.5935
+        },
+        {
+          "rank": 8,
+          "sku": "262080",
+          "parentSKU": "262077",
+          "name": "Furrfighters for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.5934
+        },
+        {
+          "rank": 9,
+          "sku": "262079",
+          "parentSKU": "262077",
+          "name": "Furrfighters for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.5931
+        },
+        {
+          "rank": 10,
+          "sku": "262078",
+          "parentSKU": "262077",
+          "name": "Furrfighters for dog and cat, adult;all lifestages, all breeds",
+          "similarity": 0.5931
+        },
+        {
+          "rank": 11,
+          "sku": "857678",
+          "parentSKU": "857670",
+          "name": "PATPET for dog and cat, adult;all lifestages, all breeds;large breeds;medium breeds;small breeds",
+          "similarity": 0.5906
+        },
+        {
+          "rank": 12,
+          "sku": "1323662",
+          "parentSKU": "1323654",
+          "name": "FurMe for dog and cat, all lifestages, all breeds",
+          "similarity": 0.5889
+        },
+        {
+          "rank": 13,
+          "sku": "1662438",
+          "parentSKU": "1662422",
+          "name": "Buff Brite for dog and cat",
+          "similarity": 0.5872
+        },
+        {
+          "rank": 14,
+          "sku": "1309750",
+          "parentSKU": "1309742",
+          "name": "Dyson for dog and cat",
+          "similarity": 0.5835
+        }
+      ]
+    }
+  ],
+  "all_products": [
+    {
+      "sku": "1600078",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "821374",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1600086",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "774142",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1000080233",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1000080239",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1000027046",
+      "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1000111481",
+      "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1000111541",
+      "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "63276",
+      "name": "Royal Canin for dog, puppy, giant breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "778774",
+      "name": "Royal Canin for dog, adult, giant breeds;large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1379302",
+      "name": "Royal Canin for dog, adult, giant breeds;large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1590302",
+      "name": "Royal Canin for dog, adult, giant breeds;large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1600102",
+      "name": "Royal Canin for dog, adult, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1600110",
+      "name": "Royal Canin for dog, adult, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "778790",
+      "name": "Royal Canin for dog, puppy, small breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1590366",
+      "name": "Royal Canin for dog, puppy, small breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1590358",
+      "name": "Royal Canin for dog, puppy, small breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1000026806",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "61486",
+      "name": "Royal Canin for dog, puppy, large breeds breed, dry food, with grain"
+    },
+    {
+      "sku": "1393214",
+      "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats"
+    },
+    {
+      "sku": "1393206",
+      "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats"
+    },
+    {
+      "sku": "1393182",
+      "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats"
+    },
+    {
+      "sku": "1374606",
+      "name": "Cloud Star for dog, puppy, extra small breeds breed, treats"
+    },
+    {
+      "sku": "1393190",
+      "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats"
+    },
+    {
+      "sku": "1522870",
+      "name": "Pupford for dog, all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural"
+    },
+    {
+      "sku": "1522878",
+      "name": "Pupford for dog, all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural"
+    },
+    {
+      "sku": "1499710",
+      "name": "BARK for dog, adult;all lifestages, all breeds breed, treats"
+    },
+    {
+      "sku": "1499718",
+      "name": "BARK for dog, adult;all lifestages, all breeds breed, treats"
+    },
+    {
+      "sku": "2266838",
+      "name": "Pupford for dog, adult;all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural"
+    },
+    {
+      "sku": "2266846",
+      "name": "Pupford for dog, adult;all lifestages, all breeds breed, treats, limited ingredient diet,no corn no wheat no soy,high-protein,low fat,natural"
+    },
+    {
+      "sku": "1393230",
+      "name": "Off Leash for dog, all lifestages, extra small breeds breed, treats"
+    },
+    {
+      "sku": "2084054",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "2084070",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "2084062",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "155648",
+      "name": "Frisco for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "2084118",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "2084110",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "2084126",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "684974",
+      "name": "Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1554742",
+      "name": "Outward Hound for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "2084142",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "85931",
+      "name": "Outward Hound for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "2084150",
+      "name": "PuzzleFeeder for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "150479",
+      "name": "KONG for dog, puppy, small breeds breed"
+    },
+    {
+      "sku": "150480",
+      "name": "KONG for dog, puppy, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "329440",
+      "name": "KONG for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "329444",
+      "name": "KONG for dog, puppy, medium breeds breed"
+    },
+    {
+      "sku": "354337",
+      "name": "KONG for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "354338",
+      "name": "KONG for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "1000051943",
+      "name": "KONG for dog, adult, large breeds breed"
+    },
+    {
+      "sku": "1000051121",
+      "name": "KONG for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "232505",
+      "name": "KONG for dog, adult;all lifestages, giant breeds;large breeds breed"
+    },
+    {
+      "sku": "354334",
+      "name": "KONG for dog, puppy, small breeds breed"
+    },
+    {
+      "sku": "1000051139",
+      "name": "KONG for dog, puppy, medium breeds breed"
+    },
+    {
+      "sku": "354335",
+      "name": "KONG for dog, puppy, small breeds breed"
+    },
+    {
+      "sku": "1000051709",
+      "name": "KONG for dog, adult, giant breeds breed"
+    },
+    {
+      "sku": "53356",
+      "name": "KONG for dog, puppy, medium breeds breed"
+    },
+    {
+      "sku": "354336",
+      "name": "KONG for dog, puppy, medium breeds breed"
+    },
+    {
+      "sku": "368204",
+      "name": "Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "855590",
+      "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1065046",
+      "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1065054",
+      "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1065038",
+      "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1000059791",
+      "name": "Nina Ottosson by Outward Hound for dog, adult, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "1065166",
+      "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "226724",
+      "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "367753",
+      "name": "Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "75168",
+      "name": "Outward Hound for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "75167",
+      "name": "Outward Hound for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "2038214",
+      "name": "Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "226722",
+      "name": "Nina Ottosson by Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "148603",
+      "name": "Nina Ottosson by Outward Hound for dog, puppy, small breeds breed"
+    },
+    {
+      "sku": "367755",
+      "name": "Outward Hound for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1000060031",
+      "name": "Nina Ottosson by Outward Hound for dog, adult, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "169717",
+      "name": "Outward Hound for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "169718",
+      "name": "Outward Hound for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1000028590",
+      "name": "Chuckit! for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1000028606",
+      "name": "Chuckit! for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "53234",
+      "name": "Chuckit! for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "64738",
+      "name": "Chuckit! for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "64739",
+      "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "64742",
+      "name": "Chuckit! for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "53235",
+      "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "64743",
+      "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "64740",
+      "name": "Chuckit! for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "872214",
+      "name": "Chuckit! for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "1302862",
+      "name": "DOOG for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1302878",
+      "name": "DOOG for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1302870",
+      "name": "DOOG for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "64771",
+      "name": "Chuckit! for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "64772",
+      "name": "Chuckit! for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "54172",
+      "name": "Tuffy's for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "54169",
+      "name": "Tuffy's for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "54170",
+      "name": "Tuffy's for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "54171",
+      "name": "Tuffy's for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1223126",
+      "name": "Angel for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "839046",
+      "name": "Playology for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "90316",
+      "name": "Ethical Pet for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "810918",
+      "name": "Pet Life for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "810926",
+      "name": "Pet Life for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "90146",
+      "name": "Tuffy's for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1223054",
+      "name": "Angel for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1223110",
+      "name": "Angel for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "839078",
+      "name": "Playology for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "53646",
+      "name": "Jolly Pets for dog, adult;all lifestages, giant breeds breed"
+    },
+    {
+      "sku": "954110",
+      "name": "Dental Fresh for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "189592",
+      "name": "Triple Pet for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "62945",
+      "name": "Nylabone for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "954094",
+      "name": "Dental Fresh for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1000020574",
+      "name": "Wahl for dog, adult, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "85558",
+      "name": "TropiClean for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "125811",
+      "name": "Vet's Best for dog, adult;all lifestages"
+    },
+    {
+      "sku": "801750",
+      "name": "Vet's Best for dog, adult;all lifestages"
+    },
+    {
+      "sku": "918366",
+      "name": "Nylabone for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "840790",
+      "name": "H&H Pets for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "1754262",
+      "name": "Precious Tails for dog and cat, all lifestages, all breeds"
+    },
+    {
+      "sku": "189586",
+      "name": "Triple Pet for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "2050038",
+      "name": "Pure and Natural Pet for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "370009",
+      "name": "Arm & Hammer Products for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "218547",
+      "name": "TropiClean for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1467614",
+      "name": "Canada Pooch for dog, large breeds breed"
+    },
+    {
+      "sku": "1467590",
+      "name": "Canada Pooch for dog, small breeds breed"
+    },
+    {
+      "sku": "1467550",
+      "name": "Canada Pooch for dog, all breeds breed"
+    },
+    {
+      "sku": "1467606",
+      "name": "Canada Pooch for dog, all breeds breed"
+    },
+    {
+      "sku": "1467582",
+      "name": "Canada Pooch for dog, extra small breeds breed"
+    },
+    {
+      "sku": "1467598",
+      "name": "Canada Pooch for dog, all breeds breed"
+    },
+    {
+      "sku": "1467622",
+      "name": "Canada Pooch for dog, all breeds breed"
+    },
+    {
+      "sku": "1715958",
+      "name": "allforpaws for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1691230",
+      "name": "allforpaws for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138815",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138814",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138811",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138816",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138809",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138810",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138812",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "138813",
+      "name": "Canada Pooch for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1691214",
+      "name": "allforpaws for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "258159",
+      "name": "Canada Pooch for dog, adult;all lifestages, giant breeds breed"
+    },
+    {
+      "sku": "258146",
+      "name": "Canada Pooch for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "258141",
+      "name": "Canada Pooch for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "758566",
+      "name": "Canada Pooch for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "258140",
+      "name": "Canada Pooch for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "758558",
+      "name": "Canada Pooch for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "758550",
+      "name": "Canada Pooch for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1977446",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1977478",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1977430",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1977462",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1977558",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "127461",
+      "name": "KONG H2O for dog, adult;all lifestages, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "127463",
+      "name": "KONG H2O for dog, adult;all lifestages, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "1977526",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1977542",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "132036",
+      "name": "Heininger for dog and cat, adult;all lifestages, giant breeds"
+    },
+    {
+      "sku": "1977518",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "2125582",
+      "name": "VIVIPAL for dog and cat, all lifestages"
+    },
+    {
+      "sku": "1977494",
+      "name": "ShopInstaPets for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "2125622",
+      "name": "VIVIPAL for dog and cat, all lifestages"
+    },
+    {
+      "sku": "364070",
+      "name": "KONG for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "364071",
+      "name": "KONG for dog, adult;all lifestages, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "2055190",
+      "name": "FUKUMARU for dog, all lifestages, large breeds breed"
+    },
+    {
+      "sku": "63120",
+      "name": "PetSafe for dog and cat, adult;all lifestages, large breeds"
+    },
+    {
+      "sku": "1968822",
+      "name": "LupinePet for dog, puppy, extra small breeds;small breeds breed"
+    },
+    {
+      "sku": "1968846",
+      "name": "LupinePet for dog, puppy, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "1907110",
+      "name": "LupinePet for dog, puppy, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "1968838",
+      "name": "LupinePet for dog, puppy, medium breeds;small breeds breed"
+    },
+    {
+      "sku": "1968830",
+      "name": "LupinePet for dog, puppy, medium breeds;small breeds breed"
+    },
+    {
+      "sku": "1907126",
+      "name": "LupinePet for dog, puppy, giant breeds breed"
+    },
+    {
+      "sku": "1968854",
+      "name": "LupinePet for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "1907118",
+      "name": "LupinePet for dog, puppy, large breeds breed"
+    },
+    {
+      "sku": "1968678",
+      "name": "LupinePet for dog, all lifestages, extra small breeds;small breeds breed"
+    },
+    {
+      "sku": "1969574",
+      "name": "LupinePet for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1969654",
+      "name": "LupinePet for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1969670",
+      "name": "LupinePet for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1969582",
+      "name": "LupinePet for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1969598",
+      "name": "LupinePet for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1907062",
+      "name": "LupinePet for dog, all lifestages, large breeds breed"
+    },
+    {
+      "sku": "358125",
+      "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "358126",
+      "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "358124",
+      "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "358123",
+      "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "358127",
+      "name": "Headlight Harness for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1800030",
+      "name": "LupinePet for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1800022",
+      "name": "LupinePet for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1316294",
+      "name": "Dogs & Cats & Co"
+    },
+    {
+      "sku": "1316246",
+      "name": "Dogs & Cats & Co"
+    },
+    {
+      "sku": "1316270",
+      "name": "Dogs & Cats & Co"
+    },
+    {
+      "sku": "1316222",
+      "name": "Dogs & Cats & Co"
+    },
+    {
+      "sku": "1316510",
+      "name": "Dogs & Cats & Co"
+    },
+    {
+      "sku": "911126",
+      "name": "LupinePet for dog and cat, large breeds"
+    },
+    {
+      "sku": "1801878",
+      "name": "LupinePet for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1801918",
+      "name": "LupinePet for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "688494",
+      "name": "Ferplast for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "688502",
+      "name": "Ferplast for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "688470",
+      "name": "Ferplast for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "688478",
+      "name": "Ferplast for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "688486",
+      "name": "Ferplast for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "148953",
+      "name": "MidWest for dog, puppy, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "148948",
+      "name": "MidWest for dog, puppy, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "148947",
+      "name": "MidWest for dog, puppy, small breeds breed"
+    },
+    {
+      "sku": "148949",
+      "name": "MidWest for dog, puppy, giant breeds breed"
+    },
+    {
+      "sku": "2106222",
+      "name": "Yaheetech for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "2106230",
+      "name": "Yaheetech for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "2073822",
+      "name": "BingoPaw for dog, all lifestages, large breeds breed"
+    },
+    {
+      "sku": "2106214",
+      "name": "Yaheetech for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1601758",
+      "name": "PawHut for dog, all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "60384",
+      "name": "MidWest for dog, all lifestages, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "1000025742",
+      "name": "FURminator for dog, adult, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "243245",
+      "name": "FURminator for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "243246",
+      "name": "FURminator for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "243247",
+      "name": "FURminator for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1000025790",
+      "name": "FURminator for dog, adult, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "243249",
+      "name": "FURminator for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "1461270",
+      "name": "Andis for dog and cat, all lifestages, all breeds"
+    },
+    {
+      "sku": "1568958",
+      "name": "Andis for dog and cat, all lifestages, all breeds"
+    },
+    {
+      "sku": "243250",
+      "name": "FURminator for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "2281382",
+      "name": "FURminator for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "243251",
+      "name": "FURminator for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "613454",
+      "name": "SunGrow for dog and cat, adult;all lifestages, large breeds;medium breeds;small breeds"
+    },
+    {
+      "sku": "725486",
+      "name": "Andis for dog and cat, adult;all lifestages, large breeds;medium breeds;small breeds"
+    },
+    {
+      "sku": "1065470",
+      "name": "FURminator for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "320030",
+      "name": "Pet Life for dog and cat, adult"
+    },
+    {
+      "sku": "320028",
+      "name": "Pet Life for dog and cat, adult"
+    },
+    {
+      "sku": "1309830",
+      "name": "Dyson for dog and cat"
+    },
+    {
+      "sku": "192873",
+      "name": "Rabbit Air for dog and cat, adult;all lifestages"
+    },
+    {
+      "sku": "192872",
+      "name": "Rabbit Air for dog and cat, adult;all lifestages"
+    },
+    {
+      "sku": "1348742",
+      "name": "Shark for dog"
+    },
+    {
+      "sku": "1943486",
+      "name": "IRIS for dog, all lifestages"
+    },
+    {
+      "sku": "301278",
+      "name": "XPOWER for dog and cat"
+    },
+    {
+      "sku": "1348510",
+      "name": "Shark for dog"
+    },
+    {
+      "sku": "1309718",
+      "name": "Dyson for dog and cat"
+    },
+    {
+      "sku": "2049398",
+      "name": "Dreo for dog"
+    },
+    {
+      "sku": "1685038",
+      "name": "Dupray for dog and cat, all lifestages;all stages"
+    },
+    {
+      "sku": "2049390",
+      "name": "Dreo for dog"
+    },
+    {
+      "sku": "741622",
+      "name": "LEVOIT for dog and cat, adult;all lifestages"
+    },
+    {
+      "sku": "301276",
+      "name": "XPOWER for dog and cat"
+    },
+    {
+      "sku": "234035",
+      "name": "Honeywell for dog, adult;all lifestages"
+    },
+    {
+      "sku": "1351238",
+      "name": "Shark for dog and cat"
+    },
+    {
+      "sku": "1097254",
+      "name": "IRIS for dog and cat, adult;all lifestages"
+    },
+    {
+      "sku": "1597846",
+      "name": "Blueair for dog"
+    },
+    {
+      "sku": "230446",
+      "name": "LEVOIT for dog and cat, adult;all lifestages"
+    },
+    {
+      "sku": "629278",
+      "name": "SunGrow for dog, all lifestages, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "181115",
+      "name": "Petpost for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "61246",
+      "name": "Safari for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "2487238",
+      "name": "Pawward for dog and cat, all lifestages, all breeds"
+    },
+    {
+      "sku": "774870",
+      "name": "Pawshelf for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "1000020254",
+      "name": "Wahl for dog, adult, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "79065",
+      "name": "Four Paws for dog, adult;all lifestages, all breeds;small breeds breed"
+    },
+    {
+      "sku": "2470654",
+      "name": "Dandylion for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1378486",
+      "name": "Natural Dog Company for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "262729",
+      "name": "Pawz for dog and cat, adult;all lifestages"
+    },
+    {
+      "sku": "61248",
+      "name": "Safari for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "128166",
+      "name": "Safari for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "353044",
+      "name": "Mighty Paw for dog, adult;all lifestages, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "1640606",
+      "name": "Spotty for dog, all lifestages"
+    },
+    {
+      "sku": "791374",
+      "name": "Training for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "109969",
+      "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "109976",
+      "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "109973",
+      "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "109975",
+      "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "109979",
+      "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "791342",
+      "name": "Training for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "712963",
+      "name": "PATPET for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "122567",
+      "name": "Downtown Pet Supply for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "791390",
+      "name": "Training for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1170846",
+      "name": "The Original Poop Bags for dog and cat, all lifestages, all breeds"
+    },
+    {
+      "sku": "1000115369",
+      "name": "Pet Parents for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1000115363",
+      "name": "Pet Parents for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1000115351",
+      "name": "Pet Parents for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1000115357",
+      "name": "Pet Parents for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1499766",
+      "name": "Green Lifestyle for dog, all lifestages"
+    },
+    {
+      "sku": "1499774",
+      "name": "Green Lifestyle for dog, all lifestages"
+    },
+    {
+      "sku": "1516158",
+      "name": "Pet Parents for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1516142",
+      "name": "Pet Parents for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "109993",
+      "name": "Pogi's Pet Supplies for dog, adult;all lifestages"
+    },
+    {
+      "sku": "201699",
+      "name": "Pogi's Pet Supplies for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "201698",
+      "name": "Pogi's Pet Supplies for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1430334",
+      "name": "One for Pets for dog, all lifestages"
+    },
+    {
+      "sku": "1430326",
+      "name": "One for Pets for dog, all lifestages"
+    },
+    {
+      "sku": "959310",
+      "name": "PET N PET for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1430342",
+      "name": "One for Pets for dog, all lifestages"
+    },
+    {
+      "sku": "1430350",
+      "name": "One for Pets for dog, all lifestages"
+    },
+    {
+      "sku": "959374",
+      "name": "PET N PET for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "173553",
+      "name": "The Original Poop Bags for dog, adult;all lifestages"
+    },
+    {
+      "sku": "1524270",
+      "name": "BOS for dog and cat, all lifestages, small breeds"
+    },
+    {
+      "sku": "269114",
+      "name": "Quick-Tag for dog and cat, puppy, large breeds"
+    },
+    {
+      "sku": "269112",
+      "name": "Quick-Tag for dog and cat, puppy, large breeds"
+    },
+    {
+      "sku": "269108",
+      "name": "Quick-Tag for dog and cat, puppy, large breeds"
+    },
+    {
+      "sku": "269109",
+      "name": "Quick-Tag for dog and cat, puppy, large breeds"
+    },
+    {
+      "sku": "269110",
+      "name": "Quick-Tag for dog and cat, puppy, large breeds"
+    },
+    {
+      "sku": "269111",
+      "name": "Quick-Tag for dog and cat, puppy, large breeds"
+    },
+    {
+      "sku": "269113",
+      "name": "Quick-Tag for dog and cat, puppy, small breeds"
+    },
+    {
+      "sku": "269107",
+      "name": "Quick-Tag for dog and cat, puppy, small breeds"
+    },
+    {
+      "sku": "269123",
+      "name": "Quick-Tag for dog, all breeds breed"
+    },
+    {
+      "sku": "269122",
+      "name": "Quick-Tag for dog, all breeds breed"
+    },
+    {
+      "sku": "791134",
+      "name": "CarSafe for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "791126",
+      "name": "CarSafe for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "791142",
+      "name": "CarSafe for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "791118",
+      "name": "CarSafe for dog, adult;all lifestages, extra small breeds breed"
+    },
+    {
+      "sku": "237613",
+      "name": "SlowTon for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "120971",
+      "name": "HDP for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "120973",
+      "name": "HDP for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "791094",
+      "name": "CarSafe for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "791102",
+      "name": "CarSafe for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "357312",
+      "name": "Mighty Paw for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "68798",
+      "name": "PetSafe for dog and cat, adult;all lifestages, medium breeds;small breeds"
+    },
+    {
+      "sku": "791086",
+      "name": "CarSafe for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "236609",
+      "name": "K&H Pet Products for dog, all lifestages, large breeds;medium breeds breed"
+    },
+    {
+      "sku": "1772782",
+      "name": "Petsfit for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "194376",
+      "name": "PawBrands for dog, adult;all lifestages, giant breeds breed"
+    },
+    {
+      "sku": "2088854",
+      "name": "PawHut for dog, all lifestages, small breeds breed"
+    },
+    {
+      "sku": "68568",
+      "name": "Petmate for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1470414",
+      "name": "PawBrands for dog and cat, all lifestages, medium breeds"
+    },
+    {
+      "sku": "1614022",
+      "name": "PawHut for dog, all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "1613526",
+      "name": "PawHut for dog, all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "666246",
+      "name": "HappyCare Textiles for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "1613502",
+      "name": "PawHut for dog, all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1613494",
+      "name": "PawHut for dog, all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1613510",
+      "name": "PawHut for dog, all lifestages, large breeds breed"
+    },
+    {
+      "sku": "625270",
+      "name": "PawBrands for dog, adult;all lifestages, medium breeds;small breeds breed"
+    },
+    {
+      "sku": "625222",
+      "name": "PawBrands for dog, adult;all lifestages, medium breeds;small breeds breed"
+    },
+    {
+      "sku": "666286",
+      "name": "HappyCare Textiles for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "666294",
+      "name": "HappyCare Textiles for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "666270",
+      "name": "HappyCare Textiles for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "99310",
+      "name": "American Kennel Club for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "99316",
+      "name": "American Kennel Club for dog, adult;all lifestages, small breeds breed"
+    },
+    {
+      "sku": "99319",
+      "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "99309",
+      "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "99315",
+      "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "99313",
+      "name": "American Kennel Club for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "99311",
+      "name": "American Kennel Club for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "99317",
+      "name": "American Kennel Club for dog, adult;all lifestages, medium breeds breed"
+    },
+    {
+      "sku": "99312",
+      "name": "American Kennel Club for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1462638",
+      "name": "allforpaws for dog, adult;all lifestages, all breeds breed"
+    },
+    {
+      "sku": "99318",
+      "name": "American Kennel Club for dog, adult;all lifestages, large breeds breed"
+    },
+    {
+      "sku": "1301438",
+      "name": "Snuggle Puppy for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "819702",
+      "name": "Earthbath for dog and cat, puppy, all breeds"
+    },
+    {
+      "sku": "213438",
+      "name": "Ultra Collection for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "614142",
+      "name": "Pet Parents for dog, puppy, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "614126",
+      "name": "Pet Parents for dog, puppy, large breeds;medium breeds;small breeds breed"
+    },
+    {
+      "sku": "1463342",
+      "name": "Pet Parents for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "1463350",
+      "name": "Pet Parents for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "1463270",
+      "name": "Pet Parents for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "1463278",
+      "name": "Pet Parents for dog, puppy, all breeds breed"
+    },
+    {
+      "sku": "1840806",
+      "name": "Wahl for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1000108427",
+      "name": "Pet Parents for dog, adult;puppy;senior"
+    },
+    {
+      "sku": "1000108439",
+      "name": "Pet Parents for dog, adult;puppy;senior"
+    },
+    {
+      "sku": "1000108421",
+      "name": "Pet Parents for dog, adult;puppy;senior"
+    },
+    {
+      "sku": "844678",
+      "name": "Natural Dog Company for dog, adult;all lifestages, all breeds breed, grain-free,no corn no wheat no soy,natural"
+    },
+    {
+      "sku": "354354",
+      "name": "Natural Dog Company for dog, adult;all lifestages, all breeds breed, grain-free,no corn no wheat no soy,natural"
+    },
+    {
+      "sku": "181238",
+      "name": "Kurgo for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "1662478",
+      "name": "Buff Brite for dog and cat"
+    },
+    {
+      "sku": "1662510",
+      "name": "Buff Brite for dog and cat"
+    },
+    {
+      "sku": "2197646",
+      "name": "INSE for dog and cat, all lifestages, all breeds"
+    },
+    {
+      "sku": "847942",
+      "name": "FurMe for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "143220",
+      "name": "FURemover for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "2184526",
+      "name": "Uproot Clean for dog, all lifestages, all breeds breed"
+    },
+    {
+      "sku": "262080",
+      "name": "Furrfighters for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "262079",
+      "name": "Furrfighters for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "262078",
+      "name": "Furrfighters for dog and cat, adult;all lifestages, all breeds"
+    },
+    {
+      "sku": "857678",
+      "name": "PATPET for dog and cat, adult;all lifestages, all breeds;large breeds;medium breeds;small breeds"
+    },
+    {
+      "sku": "1323662",
+      "name": "FurMe for dog and cat, all lifestages, all breeds"
+    },
+    {
+      "sku": "1662438",
+      "name": "Buff Brite for dog and cat"
+    },
+    {
+      "sku": "1309750",
+      "name": "Dyson for dog and cat"
+    }
+  ]
+}

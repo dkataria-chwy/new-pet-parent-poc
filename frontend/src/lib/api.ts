@@ -34,7 +34,30 @@ export const api = {
     })
   },
 
+  getPet: async (petId: string): Promise<Pet> => {
+    return apiCall<Pet>(`/pet/${petId}`)
+  },
+
   // Journey management
+  getAllJourneys: async (): Promise<{
+    journeys: Array<{
+      journey_id: string
+      pet_id: string
+      current_month: number
+      total_months: number
+      pet_name: string
+      species: string
+      breed: string
+      age_months: number
+    }>
+  }> => {
+    return apiCall('/journeys')
+  },
+
+  getJourney: async (journeyId: string): Promise<JourneyState> => {
+    return apiCall<JourneyState>(`/journey/${journeyId}`)
+  },
+
   initializeJourney: async (petId: string, months: number = 15): Promise<JourneyState> => {
     return apiCall<JourneyState>('/journey', {
       method: 'POST',
@@ -64,6 +87,36 @@ export const api = {
     return apiCall(`/ai/recs`, {
       method: 'POST',
       body: JSON.stringify({ journeyId, monthIdx, note }),
+    })
+  },
+
+  // On-demand recommendations (new AI-powered system)
+  getOnDemandRecommendations: async (journeyId: string, monthIdx: number, userQuery: string, topK: number = 20): Promise<{
+    timestamp: string
+    query_used: string
+    rationale: string
+    total_products: number
+    products: Array<{
+      rank: number
+      sku: string
+      parentSKU: string
+      name: string
+      similarity: number
+      product_link: string
+    }>
+    user_query: string
+    journey_id: string
+    pet_name: string
+    pet_species: string
+  }> => {
+    return apiCall(`/on-demand-recommendations`, {
+      method: 'POST',
+      body: JSON.stringify({ 
+        journey_id: journeyId, 
+        month_idx: monthIdx,
+        user_query: userQuery, 
+        top_k: topK 
+      }),
     })
   },
 
