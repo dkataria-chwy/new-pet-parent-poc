@@ -128,6 +128,55 @@ export const api = {
     })
   },
 
+  // Subscription Plans (Structured Pipeline)
+  getSubscriptionPlan: async (journeyId: string, monthIdx: number): Promise<{
+    success: boolean
+    data: {
+      subscription_products: Array<{
+        slot_id: number
+        sku: string
+        product_name: string
+        product_link: string
+        product_price_current: number
+        autoship_eligible: boolean
+        top_family: string
+        bucket: string
+        subscription_rationale: string
+        estimated_frequency: string
+        personalized_note: string
+      }>
+      one_time_products: Array<{
+        slot_id: number
+        sku: string
+        product_name: string
+        product_link: string
+        product_price_current: number
+        autoship_eligible: boolean
+        top_family: string
+        bucket: string
+        one_time_rationale: string
+        personalized_note: string
+      }>
+      overall_strategy: string
+      metadata: {
+        journey_id: string
+        month_idx: number
+        model: string
+        generated_at: string
+        tokens: {
+          prompt: number
+          completion: number
+          total: number
+        }
+        elapsed_seconds: number
+      }
+    }
+    from_cache: boolean
+    generated_at: string
+  }> => {
+    return apiCall(`/subscription-plan/${journeyId}/${monthIdx}`)
+  },
+
   // Generic POST method
   post: async <T = any>(endpoint: string, data: any): Promise<{ data: T }> => {
     const result = await apiCall<T>(endpoint, {

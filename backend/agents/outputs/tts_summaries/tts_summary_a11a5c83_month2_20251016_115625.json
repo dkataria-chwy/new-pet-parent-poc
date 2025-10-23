@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! Mario is right in that big, curious three-month window—Golden Retrievers are social sponges, so you know how every new person or sound matters for shaping confidence. At this age he's teething, learning bite inhibition, and prime for positive‑reinforcement training, so chat with your vet about his vaccine series if you haven't already. Apartment life and Mario's low energy mean lots of potty trips and patience with housetraining, and noisy days can be stressful for a rescue adjusting to city sounds. Here's the thing: gentle routines, short play sessions, and chew options help redirect mouthing and build trust. We’ve set autoship for kibble, pads and treats so you don't run out during this critical stage. Check the recommendations below.",
+  "word_count": 120,
+  "metadata": {
+    "generated_at": "2025-10-16T11:56:25.706126",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 35.75,
+    "audio_elapsed_seconds": 11.93,
+    "tokens": {
+      "prompt": 8840,
+      "completion": 2210,
+      "total": 11050
+    }
+  }
+}

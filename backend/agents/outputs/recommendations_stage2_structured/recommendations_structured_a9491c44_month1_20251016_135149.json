@@ -1,0 +1,4605 @@
+{
+  "pet_id": "1ac35e16-6ae8-4840-9d27-0c0a317589af",
+  "month": 1,
+  "timestamp": "2025-10-16T13:51:49.810819",
+  "processed_slots": 27,
+  "total_unique_products": 304,
+  "results": [
+    {
+      "slot_id": 1,
+      "top_family": "Food/Nutrition",
+      "rationale": "At 3 months this pug puppy is in active growth and needs a nutritionally complete puppy diet sized for small mouths. Dry kibble is a daily staple and cannot be skipped \u0014 supports development and energy for a high-activity puppy.",
+      "count": 20,
+      "actual_query": "Dog, 3-month-old puppy dry kibble for small breeds with small bite-size kibble, higher calories and protein for growth, DHA for brain development, sold in 4-8 lb bags, suitable for short-muzzled/brachycephalic puppies",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1000080287",
+          "parentSKU": "1000026326",
+          "name": "Royal Canin Size Health Nutrition Small Puppy Dry Dog Food, 6.36-kg bag",
+          "product_link": null,
+          "product_price_current": 53.4,
+          "autoship_eligible": true,
+          "similarity": 0.7044
+        },
+        {
+          "rank": 2,
+          "sku": "778790",
+          "parentSKU": "49705",
+          "name": "Royal Canin Size Health Nutrition Small Puppy Dry Dog Food, 14-lb bag",
+          "product_link": "https://www.chewy.com/royal-canin-size-health-nutrition/dp/778790",
+          "product_price_current": 65.99,
+          "autoship_eligible": true,
+          "similarity": 0.6951
+        },
+        {
+          "rank": 3,
+          "sku": "48918",
+          "parentSKU": "46249",
+          "name": "Hill's Science Diet Puppy Small Bites Chicken & Brown Rice Recipe Dry Dog Food, 4.5-lb Bag",
+          "product_link": "https://www.chewy.com/hills-science-diet-puppy-small-bites/dp/34099",
+          "product_price_current": 19.99,
+          "autoship_eligible": true,
+          "similarity": 0.6845
+        },
+        {
+          "rank": 4,
+          "sku": "1000111895",
+          "parentSKU": "1000111889",
+          "name": "Pedigree Puppy Chicken, Rice & Vegetable Flavour Dry Dog Food, 1.59-kg bag",
+          "product_link": null,
+          "product_price_current": 6.11,
+          "autoship_eligible": true,
+          "similarity": 0.6795
+        },
+        {
+          "rank": 5,
+          "sku": "796398",
+          "parentSKU": "49734",
+          "name": "Diamond Naturals Small & Medium Breed Puppy Formula Dry Dog Food, 18-lb bag, bundle of 2",
+          "product_link": "https://www.chewy.com/diamond-naturals-small-medium-breed/dp/796398",
+          "product_price_current": 69.98,
+          "autoship_eligible": true,
+          "similarity": 0.6791
+        },
+        {
+          "rank": 6,
+          "sku": "1000026790",
+          "parentSKU": "1000026782",
+          "name": "Royal Canin Breed Health Nutrition Chihuahua Puppy Dry Dog Food, 1.135-kg bag",
+          "product_link": null,
+          "product_price_current": 26.71,
+          "autoship_eligible": true,
+          "similarity": 0.6763
+        },
+        {
+          "rank": 7,
+          "sku": "88062",
+          "parentSKU": "88061",
+          "name": "Royal Canin Size Health Nutrition Small Indoor Puppy Dry Dog Food, 2.5-lb bag",
+          "product_link": "https://www.chewy.com/royal-canin-size-health-nutrition/dp/115800",
+          "product_price_current": 21.99,
+          "autoship_eligible": true,
+          "similarity": 0.6762
+        },
+        {
+          "rank": 8,
+          "sku": "1000033270",
+          "parentSKU": "1000033262",
+          "name": "Hill's Science Diet Puppy Healthy Development Small Bites Dry Dog Food, 2.04-kg bag",
+          "product_link": null,
+          "product_price_current": 26.71,
+          "autoship_eligible": true,
+          "similarity": 0.6757
+        },
+        {
+          "rank": 9,
+          "sku": "1000006174",
+          "parentSKU": "1000006166",
+          "name": "Purina Pro Plan Development Small Breed Chicken & Rice Formula Dry Dog Food, 2.72-kg bag",
+          "product_link": null,
+          "product_price_current": 21.66,
+          "autoship_eligible": true,
+          "similarity": 0.6729
+        },
+        {
+          "rank": 10,
+          "sku": "1222382",
+          "parentSKU": "45286",
+          "name": "Eukanuba Puppy Small Breed Dry Dog Food, 40-lb bag",
+          "product_link": "https://www.chewy.com/eukanuba-puppy-small-breed-dry-dog/dp/1222382",
+          "product_price_current": 99.99,
+          "autoship_eligible": true,
+          "similarity": 0.6668
+        },
+        {
+          "rank": 11,
+          "sku": "1605486",
+          "parentSKU": "1605478",
+          "name": "ORIJEN Grain-Free High-Protein Small Breed Puppy Dry Dog Food, 4-lb bag",
+          "product_link": "https://www.chewy.com/orijen-puppy-grain-free-chicken-dry/dp/1605486",
+          "product_price_current": 30.99,
+          "autoship_eligible": true,
+          "similarity": 0.6655
+        },
+        {
+          "rank": 12,
+          "sku": "1000080317",
+          "parentSKU": "1000026494",
+          "name": "Royal Canin Size Health Nutrition X-Small Puppy Dry Dog Food, 6.36-kg bag",
+          "product_link": null,
+          "product_price_current": 58.49,
+          "autoship_eligible": true,
+          "similarity": 0.6653
+        },
+        {
+          "rank": 13,
+          "sku": "75441",
+          "parentSKU": "75440",
+          "name": "Royal Canin Breed Health Nutrition Dachshund Puppy Dry Dog Food, 2.5-lb bag",
+          "product_link": "https://www.chewy.com/royal-canin-breed-health-nutrition/dp/103329",
+          "product_price_current": 26.99,
+          "autoship_eligible": true,
+          "similarity": 0.6639
+        },
+        {
+          "rank": 14,
+          "sku": "1000027286",
+          "parentSKU": "1000027278",
+          "name": "Royal Canin Breed Health Nutrition Dachshund Puppy Dry Dog Food, 1.135-kg bag",
+          "product_link": null,
+          "product_price_current": 26.71,
+          "autoship_eligible": true,
+          "similarity": 0.6638
+        },
+        {
+          "rank": 15,
+          "sku": "855830",
+          "parentSKU": "52379",
+          "name": "Royal Canin Size Health Nutrition Puppy X-Small Dry Dog Food, 14-lb bag",
+          "product_link": "https://www.chewy.com/royal-canin-size-health-nutrition-x/dp/855830",
+          "product_price_current": 65.99,
+          "autoship_eligible": true,
+          "similarity": 0.6637
+        },
+        {
+          "rank": 16,
+          "sku": "1026574",
+          "parentSKU": "1026566",
+          "name": "Royal Canin Size Health Nutrition Small Puppy Thin Slices in Gravy Wet Dog Food, 5.1-oz can, case of 24",
+          "product_link": "https://www.chewy.com/royal-canin-size-health-nutrition/dp/1026574",
+          "product_price_current": 66.96,
+          "autoship_eligible": true,
+          "similarity": 0.6609
+        },
+        {
+          "rank": 17,
+          "sku": "67491",
+          "parentSKU": "67489",
+          "name": "Purina Pro Plan Puppy Small Breed Chicken & Rice Formula Dry Dog Food, 18-lb bag",
+          "product_link": "https://www.chewy.com/purina-pro-plan-puppy-small-breed/dp/52428",
+          "product_price_current": 52.98,
+          "autoship_eligible": true,
+          "similarity": 0.6606
+        },
+        {
+          "rank": 18,
+          "sku": "839686",
+          "parentSKU": "100213",
+          "name": "Dog Chow Adult Little Bites with Real Chicken & Beef Small Breed Dry Dog Food, 15-lb bag",
+          "product_link": "https://www.chewy.com/dog-chow-adult-little-bites-real/dp/839686",
+          "product_price_current": 15.99,
+          "autoship_eligible": false,
+          "similarity": 0.6605
+        },
+        {
+          "rank": 19,
+          "sku": "61482",
+          "parentSKU": "61481",
+          "name": "Royal Canin Breed Health Nutrition Chihuahua Puppy Dry Dog Food, 2.5-lb bag",
+          "product_link": "https://www.chewy.com/royal-canin-breed-health-nutrition/dp/46461",
+          "product_price_current": 26.99,
+          "autoship_eligible": true,
+          "similarity": 0.66
+        },
+        {
+          "rank": 20,
+          "sku": "75443",
+          "parentSKU": "75442",
+          "name": "Royal Canin Breed Health Nutrition Pug Puppy Dry Dog Food, 2.5-lb bag",
+          "product_link": "https://www.chewy.com/royal-canin-breed-health-nutrition/dp/103331",
+          "product_price_current": 26.99,
+          "autoship_eligible": true,
+          "similarity": 0.6599
+        }
+      ],
+      "bucket": "essentials"
+    },
+    {
+      "slot_id": 2,
+      "top_family": "Food/Nutrition",
+      "rationale": "Wet food/toppers provide additional moisture and appetite stimulation for a young brachycephalic breed that may be fussy during early training; useful daily or as-needed to ensure proper intake.",
+      "count": 15,
+      "actual_query": "Dog, 3-month-old puppy wet puppy food or meal toppers in small cans/pouches or resealable single-serve packs; palatable p\u00e2t\u00e9/soft toppers to add moisture, boost intake, and help training/rewards for small dogs",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1365038",
+          "parentSKU": "1365022",
+          "name": "Good Boy Variety Pack Puree Dog Food Topper, 90 count",
+          "product_link": "https://www.chewy.com/good-boy-variety-pack-puree-dog-food/dp/1365038",
+          "product_price_current": 57.99,
+          "autoship_eligible": true,
+          "similarity": 0.6703
+        },
+        {
+          "rank": 2,
+          "sku": "1364934",
+          "parentSKU": "1364902",
+          "name": "Good 'n' Tasty Triple Flavor Mix Chicken, Salmon, & Duck Puree Dog Food Topper, 7 count",
+          "product_link": "https://www.chewy.com/good-n-tasty-triple-flavor-mix/dp/1364934",
+          "product_price_current": 5.25,
+          "autoship_eligible": true,
+          "similarity": 0.6697
+        },
+        {
+          "rank": 3,
+          "sku": "659758",
+          "parentSKU": "141667",
+          "name": "Pedigree Puppy Variety Pack Morsels in Sauce with Beef & Chicken Wet Dog Food Pouches, 3.5-oz pouch, pack of 8, bundle of 2",
+          "product_link": "https://www.chewy.com/pedigree-puppy-variety-pack-morsels/dp/659758",
+          "product_price_current": 14.88,
+          "autoship_eligible": true,
+          "similarity": 0.6651
+        },
+        {
+          "rank": 4,
+          "sku": "1364910",
+          "parentSKU": "1364878",
+          "name": "Good 'n' Tasty Triple Flavor Mix Tuna, Chicken, & Duck Puree Dog Food Topper, 7 count",
+          "product_link": "https://www.chewy.com/good-n-tasty-triple-flavor-mix-tuna/dp/1364910",
+          "product_price_current": 5.25,
+          "autoship_eligible": true,
+          "similarity": 0.6633
+        },
+        {
+          "rank": 5,
+          "sku": "1364926",
+          "parentSKU": "1364886",
+          "name": "Good 'n' Tasty Triple Flavor Mix Variety Pack Puree Dog Food Topper, 84 count",
+          "product_link": "https://www.chewy.com/good-n-tasty-triple-flavor-mix/dp/1364926",
+          "product_price_current": 49.99,
+          "autoship_eligible": true,
+          "similarity": 0.6626
+        },
+        {
+          "rank": 6,
+          "sku": "1365078",
+          "parentSKU": "1365062",
+          "name": "Good Boy Farm & Sea Tuna, Chicken, & Duck Puree Dog Food Topper, 30 count",
+          "product_link": "https://www.chewy.com/good-boy-farm-sea-tuna-chicken-duck/dp/1365078",
+          "product_price_current": 23.63,
+          "autoship_eligible": true,
+          "similarity": 0.6523
+        },
+        {
+          "rank": 7,
+          "sku": "1364950",
+          "parentSKU": "1364894",
+          "name": "Good 'n' Tasty Triple Flavor Mix Duck, Beef, & Rabbit Puree Dog Food Topper, 7 count",
+          "product_link": "https://www.chewy.com/good-n-tasty-triple-flavor-mix-duck/dp/1364950",
+          "product_price_current": 5.21,
+          "autoship_eligible": true,
+          "similarity": 0.6513
+        },
+        {
+          "rank": 8,
+          "sku": "1365046",
+          "parentSKU": "1365030",
+          "name": "Good Boy Turf & Surf Chicken, Salmon, & Duck Puree Dog Food Topper, 10 count",
+          "product_link": "https://www.chewy.com/good-boy-turf-surf-chicken-salmon/dp/1365046",
+          "product_price_current": 8.79,
+          "autoship_eligible": true,
+          "similarity": 0.6504
+        },
+        {
+          "rank": 9,
+          "sku": "988422",
+          "parentSKU": "988414",
+          "name": "Pedigree Puppy Variety Pack Wet Dog Food, 3.5-oz pouch, pack of 18",
+          "product_link": "https://www.chewy.com/pedigree-puppy-variety-pack-wet-dog/dp/988422",
+          "product_price_current": 15.94,
+          "autoship_eligible": true,
+          "similarity": 0.6492
+        },
+        {
+          "rank": 10,
+          "sku": "265981",
+          "parentSKU": "215061",
+          "name": "Purina Puppy Chow Pate Real Beef & Chicken Wet Puppy Food Variety Pack, 5.5-oz can, case of 8",
+          "product_link": "https://www.chewy.com/purina-puppy-chow-pate-real-beef/dp/292412",
+          "product_price_current": 8.99,
+          "autoship_eligible": false,
+          "similarity": 0.6485
+        },
+        {
+          "rank": 11,
+          "sku": "1365006",
+          "parentSKU": "1364966",
+          "name": "Good 'n' Tasty Triple Flavor Mix Salmon, Tuna, & Krill Puree Dog Food Topper, 7 count",
+          "product_link": "https://www.chewy.com/good-n-tasty-triple-flavor-mix-salmon/dp/1365006",
+          "product_price_current": 5.25,
+          "autoship_eligible": true,
+          "similarity": 0.644
+        },
+        {
+          "rank": 12,
+          "sku": "836710",
+          "parentSKU": "836702",
+          "name": "Applaws Taste Toppers Chicken Breast with Pumpkin, Peas & Carrots in Broth Natural Wet Dog Food, 5.5-oz pouch, case of 12",
+          "product_link": "https://www.chewy.com/applaws-taste-toppers-chicken-breast/dp/836710",
+          "product_price_current": 34.68,
+          "autoship_eligible": true,
+          "similarity": 0.641
+        },
+        {
+          "rank": 13,
+          "sku": "114297",
+          "parentSKU": "114287",
+          "name": "Pedigree Choice Cuts Puppy Morsels in Sauce with Chicken Adult Wet Dog Food, 3.5-oz pouch, case of 16",
+          "product_link": "https://www.chewy.com/pedigree-choice-cuts-puppy-morsels-in/dp/141576",
+          "product_price_current": 13.92,
+          "autoship_eligible": true,
+          "similarity": 0.6397
+        },
+        {
+          "rank": 14,
+          "sku": "836742",
+          "parentSKU": "836734",
+          "name": "Applaws Taste Toppers Chicken Breast with Beef Liver, Pumpkin, Peas & Carrots in Broth Natural Wet Dog Food, 5.5-oz pouch, case of 12",
+          "product_link": "https://www.chewy.com/applaws-taste-toppers-chicken-breast/dp/836742",
+          "product_price_current": 34.68,
+          "autoship_eligible": true,
+          "similarity": 0.6394
+        },
+        {
+          "rank": 15,
+          "sku": "259158",
+          "parentSKU": "259157",
+          "name": "Tiki Dog Baby Mousse for Puppies, Grain-Free Chicken, Chicken Liver & Pumpkin Recipe Wet Dog Food, 3-oz pouch, case of 12",
+          "product_link": "https://www.chewy.com/tiki-dog-aloha-petites-puppy-mousse/dp/285607",
+          "product_price_current": 23.88,
+          "autoship_eligible": true,
+          "similarity": 0.6385
+        }
+      ],
+      "bucket": "essentials"
+    },
+    {
+      "slot_id": 3,
+      "top_family": "Treats",
+      "rationale": "This 3-month-old is in a critical socialization and training window and is very energetic; soft training treats enable high-frequency positive reinforcement during leash, potty and obedience training.",
+      "count": 15,
+      "actual_query": "Dog, 3-month-old puppy small soft training treats, pea-sized or smaller, soft texture for young teeth, low-calorie options, resealable pouch packaging for frequent rewards",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "612822",
+          "parentSKU": "612814",
+          "name": "Zesty Paws All-in-One Bacon Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 8-oz bag",
+          "product_link": "https://www.chewy.com/zesty-paws-all-in-one-bacon-flavored/dp/612822",
+          "product_price_current": 9.97,
+          "autoship_eligible": true,
+          "similarity": 0.6686
+        },
+        {
+          "rank": 2,
+          "sku": "612798",
+          "parentSKU": "612790",
+          "name": "Zesty Paws All-in-One Peanut Butter Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 8-oz bag",
+          "product_link": "https://www.chewy.com/zesty-paws-all-in-one-peanut-butter/dp/612798",
+          "product_price_current": 9.96,
+          "autoship_eligible": true,
+          "similarity": 0.6683
+        },
+        {
+          "rank": 3,
+          "sku": "155247",
+          "parentSKU": "155246",
+          "name": "Puppy Chow Healthy Start Salmon Flavor Training Dog Treats, 7-oz pouch",
+          "product_link": "https://www.chewy.com/puppy-chow-healthy-start-salmon/dp/182011",
+          "product_price_current": 3.98,
+          "autoship_eligible": true,
+          "similarity": 0.6644
+        },
+        {
+          "rank": 4,
+          "sku": "728254",
+          "parentSKU": "728246",
+          "name": "Pet Botanics Training Rewards Soft & Chewy Puppy Peanut Butter Dog Treats, Mini, 4-oz bag",
+          "product_link": "https://www.chewy.com/pet-botanics-training-rewards-soft/dp/728254",
+          "product_price_current": 6.29,
+          "autoship_eligible": true,
+          "similarity": 0.6638
+        },
+        {
+          "rank": 5,
+          "sku": "1322398",
+          "parentSKU": "1322390",
+          "name": "Bocce's Bakery Puppy Bac'n Nutty Training Bites Peanut Butter Limited-Ingredient-Diet Soft & Chewy Dog Treats, 3-oz bag",
+          "product_link": "https://www.chewy.com/bocces-bakery-puppy-bacn-nutty/dp/1322398",
+          "product_price_current": 5.49,
+          "autoship_eligible": true,
+          "similarity": 0.6599
+        },
+        {
+          "rank": 6,
+          "sku": "1027910",
+          "parentSKU": "1027894",
+          "name": "Three Dog Bakery Super Rewards Training Treats Orchard Apple Pie Dog Treats, 5-oz bag",
+          "product_link": "https://www.chewy.com/three-dog-bakery-super-rewards/dp/1027910",
+          "product_price_current": 9.99,
+          "autoship_eligible": true,
+          "similarity": 0.6558
+        },
+        {
+          "rank": 7,
+          "sku": "793278",
+          "parentSKU": "793270",
+          "name": "Loving Pets Houndations Chicken Dog Soft & Chewy Treat, 4-oz bag",
+          "product_link": "https://www.chewy.com/loving-pets-houndations-chicken-dog/dp/793278",
+          "product_price_current": 3.99,
+          "autoship_eligible": false,
+          "similarity": 0.6552
+        },
+        {
+          "rank": 8,
+          "sku": "1499710",
+          "parentSKU": "1499702",
+          "name": "BARK Clucky Lil' Starz Chicken Recipe Soft & Chewy Dog Training Treats, 6-oz bag",
+          "product_link": "https://www.chewy.com/bark-clucky-lil-starz-chicken-recipe/dp/1499710",
+          "product_price_current": 6.16,
+          "autoship_eligible": true,
+          "similarity": 0.6502
+        },
+        {
+          "rank": 9,
+          "sku": "214519",
+          "parentSKU": "74867",
+          "name": "Pet Botanics Mini Training Reward Bacon Flavor Dog Treats, 10-oz bag",
+          "product_link": "https://www.chewy.com/pet-botanics-mini-training-reward/dp/241090",
+          "product_price_current": 11.65,
+          "autoship_eligible": true,
+          "similarity": 0.6478
+        },
+        {
+          "rank": 10,
+          "sku": "214521",
+          "parentSKU": "74869",
+          "name": "Pet Botanics Mini Training Reward Beef Flavor Dog Treats, 10-oz bag",
+          "product_link": "https://www.chewy.com/pet-botanics-mini-training-reward/dp/241092",
+          "product_price_current": 11.69,
+          "autoship_eligible": true,
+          "similarity": 0.6477
+        },
+        {
+          "rank": 11,
+          "sku": "214517",
+          "parentSKU": "74868",
+          "name": "Pet Botanics Mini Training Reward Chicken Flavor Dog Treats, 10-oz bag",
+          "product_link": "https://www.chewy.com/pet-botanics-mini-training-reward/dp/241088",
+          "product_price_current": 11.65,
+          "autoship_eligible": true,
+          "similarity": 0.6477
+        },
+        {
+          "rank": 12,
+          "sku": "74863",
+          "parentSKU": "74851",
+          "name": "Pet Botanics Training Reward Chicken Flavor Dog Treats, 20-oz bag",
+          "product_link": "https://www.chewy.com/pet-botanics-training-reward-chicken/dp/102763",
+          "product_price_current": 15.79,
+          "autoship_eligible": true,
+          "similarity": 0.6454
+        },
+        {
+          "rank": 13,
+          "sku": "74864",
+          "parentSKU": "74852",
+          "name": "Pet Botanics Training Reward Bacon Flavor Dog Treats, 20-oz bag",
+          "product_link": "https://www.chewy.com/pet-botanics-training-reward-bacon/dp/102764",
+          "product_price_current": 15.76,
+          "autoship_eligible": true,
+          "similarity": 0.6454
+        },
+        {
+          "rank": 14,
+          "sku": "1374606",
+          "parentSKU": "1374598",
+          "name": "Cloud Star Tricky Trainers Lamb Puppy Soft & Chewy Dog Treats, 5-oz bag",
+          "product_link": "https://www.chewy.com/cloud-star-tricky-trainers-mini-lamb/dp/1374606",
+          "product_price_current": 8.35,
+          "autoship_eligible": true,
+          "similarity": 0.6452
+        },
+        {
+          "rank": 15,
+          "sku": "1393214",
+          "parentSKU": "1393198",
+          "name": "Off Leash Mini Trainers Smoky Beef Soft & Chewy Dog Treats, 12-oz pouch",
+          "product_link": "https://www.chewy.com/off-leash-mini-trainers-smoky-beef/dp/1393214",
+          "product_price_current": 16.99,
+          "autoship_eligible": false,
+          "similarity": 0.6448
+        }
+      ],
+      "bucket": "essentials"
+    },
+    {
+      "slot_id": 4,
+      "top_family": "Litter/Waste",
+      "rationale": "Daily outdoor potty clean-up is required in an apartment setting with no yard; poop bags are used every single walk and are essential right now.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy durable tear-resistant poop bags on rolls or boxed dispenser, biodegradable options, compact dispenser for leash attachment for apartment walks",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "367864",
+          "parentSKU": "367863",
+          "name": "Doggie Walk Bags Reflective Duffel Poop Bag Dispenser, Grey",
+          "product_link": "https://www.chewy.com/doggie-walk-bags-reflective-duffel/dp/394079",
+          "product_price_current": 10.0,
+          "autoship_eligible": false,
+          "similarity": 0.6816
+        },
+        {
+          "rank": 2,
+          "sku": "361434",
+          "parentSKU": "361433",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls + Dispenser, 60 count",
+          "product_link": "https://www.chewy.com/doggy-do-good-certified-home/dp/387657",
+          "product_price_current": 11.99,
+          "autoship_eligible": true,
+          "similarity": 0.6762
+        },
+        {
+          "rank": 3,
+          "sku": "109993",
+          "parentSKU": "109992",
+          "name": "Pogi's Pet Supplies Poop Bags with 2 Dispensers, 750 count",
+          "product_link": "https://www.chewy.com/pogis-pet-supplies-poop-bags-2/dp/137365",
+          "product_price_current": 26.74,
+          "autoship_eligible": true,
+          "similarity": 0.6738
+        },
+        {
+          "rank": 4,
+          "sku": "173553",
+          "parentSKU": "173552",
+          "name": "The Original Poop Bags Countdown USDA Certified Biobased Rolls, Unscented, 120 count",
+          "product_link": "https://www.chewy.com/original-poop-bags-usda-certified/dp/200249",
+          "product_price_current": 8.99,
+          "autoship_eligible": true,
+          "similarity": 0.6679
+        },
+        {
+          "rank": 5,
+          "sku": "317113",
+          "parentSKU": "317112",
+          "name": "Doggie Walk Bags Stripe Duffel Dog Poop Bag Holder",
+          "product_link": "https://www.chewy.com/doggie-walk-bags-stripe-duffel-dog/dp/343396",
+          "product_price_current": 10.0,
+          "autoship_eligible": false,
+          "similarity": 0.6677
+        },
+        {
+          "rank": 6,
+          "sku": "180983",
+          "parentSKU": "180982",
+          "name": "Greenbone Jar-O-Refills Dog Poop Bags & Dispenser, 28 Rolls, 336 Refill bags",
+          "product_link": "https://www.chewy.com/greenbone-jar-o-refills-dog-poop-bags/dp/207652",
+          "product_price_current": 19.99,
+          "autoship_eligible": true,
+          "similarity": 0.6662
+        },
+        {
+          "rank": 7,
+          "sku": "1458830",
+          "parentSKU": "1458822",
+          "name": "PAW Heavy Doodie Premium 2 Ply Dog Waste Bag Dispenser Box, 50 count",
+          "product_link": "https://www.chewy.com/paw-heavy-doodie-premium-2-ply-dog/dp/1458830",
+          "product_price_current": 8.99,
+          "autoship_eligible": false,
+          "similarity": 0.6648
+        },
+        {
+          "rank": 8,
+          "sku": "361421",
+          "parentSKU": "361420",
+          "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags + Dispenser, 60 count",
+          "product_link": "https://www.chewy.com/doggy-do-good-certified-home/dp/387644",
+          "product_price_current": 12.99,
+          "autoship_eligible": true,
+          "similarity": 0.6647
+        },
+        {
+          "rank": 9,
+          "sku": "191063",
+          "parentSKU": "191061",
+          "name": "Downtown Pet Supply Dog Poop Bags & Dispenser, Pink, 180 bags",
+          "product_link": "https://www.chewy.com/downtown-pet-supply-dog-poop-bags/dp/217712",
+          "product_price_current": 9.99,
+          "autoship_eligible": true,
+          "similarity": 0.6645
+        },
+        {
+          "rank": 10,
+          "sku": "109981",
+          "parentSKU": "109980",
+          "name": "Pogi's Pet Supplies Poop Bag Dispenser + 15 Scented Waste Bags",
+          "product_link": "https://www.chewy.com/pogis-pet-supplies-poop-bag-dispenser/dp/137354",
+          "product_price_current": 4.99,
+          "autoship_eligible": true,
+          "similarity": 0.6635
+        },
+        {
+          "rank": 11,
+          "sku": "326825",
+          "parentSKU": "361980",
+          "name": "Earth Rated Dog Poop Bag Holder with Dog Poop Bags, Unscented, 1 Dispenser & 15 Bags",
+          "product_link": "https://www.chewy.com/earth-rated-dog-poop-bag-holder-dog/dp/353092",
+          "product_price_current": 5.44,
+          "autoship_eligible": true,
+          "similarity": 0.6633
+        },
+        {
+          "rank": 12,
+          "sku": "184328",
+          "parentSKU": "184327",
+          "name": "Dogipot Plastic Dog Waste Bag Dispenser",
+          "product_link": "https://www.chewy.com/dogipot-plastic-dog-waste-bag/dp/210987",
+          "product_price_current": 105.0,
+          "autoship_eligible": false,
+          "similarity": 0.6622
+        }
+      ],
+      "bucket": "essentials"
+    },
+    {
+      "slot_id": 5,
+      "top_family": "Litter/Waste",
+      "rationale": "No yard + apartment living + a 3-month-old puppy in the housebreaking phase means indoor potty options are essential immediately to avoid accidents and support training consistency.",
+      "count": 15,
+      "actual_query": "Dog, 3-month-old puppy multi-layer high-absorbency puppy training pads sized for small dogs, adhesive-backed or tray-compatible, pack sizes for frequent indoor use in apartments",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "108693",
+          "parentSKU": "108691",
+          "name": "American Kennel Club Dog Training Pads, 22 x 22-in, 150 count, Lemon Scented",
+          "product_link": "https://www.chewy.com/american-kennel-club-akc-dog-training/dp/136085",
+          "product_price_current": 32.5,
+          "autoship_eligible": true,
+          "similarity": 0.6996
+        },
+        {
+          "rank": 2,
+          "sku": "162791",
+          "parentSKU": "108682",
+          "name": "American Kennel Club Dog Training Pads, 22 x 22-in, 200 count, Fresh Scented",
+          "product_link": "https://www.chewy.com/american-kennel-club-akc-dog-training/dp/189503",
+          "product_price_current": 47.5,
+          "autoship_eligible": true,
+          "similarity": 0.6979
+        },
+        {
+          "rank": 3,
+          "sku": "162737",
+          "parentSKU": "162739",
+          "name": "American Kennel Club AKC Dog Training Pads, 28 x 44-in, 30 count, Fresh Scented",
+          "product_link": "https://www.chewy.com/american-kennel-club-akc-dog-training/dp/189449",
+          "product_price_current": 22.99,
+          "autoship_eligible": true,
+          "similarity": 0.6965
+        },
+        {
+          "rank": 4,
+          "sku": "1728662",
+          "parentSKU": "108686",
+          "name": "American Kennel Club Extra Large Dog Training Pads, 28 x 30-in, Fresh Scented, 100 count",
+          "product_link": "https://www.chewy.com/american-kennel-club-ultra-absorbent/dp/1728662",
+          "product_price_current": 41.99,
+          "autoship_eligible": true,
+          "similarity": 0.6957
+        },
+        {
+          "rank": 5,
+          "sku": "1640326",
+          "parentSKU": "1640310",
+          "name": "Spotty Everyday Puppy Pee Pads, 22 x 22-in, 30 count",
+          "product_link": "https://www.chewy.com/spotty-everyday-puppy-pee-pads-22-x/dp/1640326",
+          "product_price_current": 13.71,
+          "autoship_eligible": true,
+          "similarity": 0.6954
+        },
+        {
+          "rank": 6,
+          "sku": "162735",
+          "parentSKU": "162734",
+          "name": "American Kennel Club Dog Training Pads, 22 x 22-in, Eucalyptus Scented, 100 count",
+          "product_link": "https://www.chewy.com/american-kennel-club-akc-eucalyptus/dp/189447",
+          "product_price_current": 24.02,
+          "autoship_eligible": true,
+          "similarity": 0.6931
+        },
+        {
+          "rank": 7,
+          "sku": "1728686",
+          "parentSKU": "1728670",
+          "name": "American Kennel Club Dog Training Pads, 22 x 22-in, Unscented, 100 count",
+          "product_link": "https://www.chewy.com/american-kennel-club-ultra-absorbent/dp/1728686",
+          "product_price_current": 20.99,
+          "autoship_eligible": true,
+          "similarity": 0.6923
+        },
+        {
+          "rank": 8,
+          "sku": "108690",
+          "parentSKU": "108688",
+          "name": "American Kennel Club Dog Training Pads, 22 x 22-in, 150 count, Lavender Scented",
+          "product_link": "https://www.chewy.com/american-kennel-club-akc-lavender/dp/136082",
+          "product_price_current": 32.5,
+          "autoship_eligible": true,
+          "similarity": 0.6922
+        },
+        {
+          "rank": 9,
+          "sku": "3252766",
+          "parentSKU": "1548838",
+          "name": "Best Pet Supplies Disposable Puppy Pads Training Dog Potty Pads, Baby Blue, 36 x 27.5-in, 40 count",
+          "product_link": "https://www.chewy.com/best-pet-supplies-disposable-puppy/dp/3252766",
+          "product_price_current": 24.99,
+          "autoship_eligible": true,
+          "similarity": 0.691
+        },
+        {
+          "rank": 10,
+          "sku": "1344302",
+          "parentSKU": "1344294",
+          "name": "PetsWorld Puppy Potty Pads, Small: 24x24-in, 400 count, Unscented",
+          "product_link": "https://www.chewy.com/petsworld-puppy-potty-pads-small/dp/1344302",
+          "product_price_current": 84.99,
+          "autoship_eligible": true,
+          "similarity": 0.6899
+        },
+        {
+          "rank": 11,
+          "sku": "2938054",
+          "parentSKU": "2938046",
+          "name": "IRIS Potty Training Dog Pee Pads, 22 x 22-in, 100 Count, Unscented",
+          "product_link": "https://www.chewy.com/iris-potty-training-dog-pee-pads-22-x/dp/2938054",
+          "product_price_current": 23.99,
+          "autoship_eligible": false,
+          "similarity": 0.6877
+        },
+        {
+          "rank": 12,
+          "sku": "106367",
+          "parentSKU": "106365",
+          "name": "HoneyCare All-Absorb Small Super Absorbent Training Pads, 17.5 x 23.5 in, 120 count",
+          "product_link": "https://www.chewy.com/all-absorb-small-super-absorbent/dp/133802",
+          "product_price_current": 19.99,
+          "autoship_eligible": true,
+          "similarity": 0.686
+        },
+        {
+          "rank": 13,
+          "sku": "846726",
+          "parentSKU": "846718",
+          "name": "HoneyCare All-Absorb Ultra Absorbent & Odor Eliminating Dog & Puppy Training Pads, 30-in x 36-in, 30 count",
+          "product_link": "https://www.chewy.com/honey-care-all-absorb-ultra-absorbent/dp/846726",
+          "product_price_current": 21.14,
+          "autoship_eligible": true,
+          "similarity": 0.6856
+        },
+        {
+          "rank": 14,
+          "sku": "1548862",
+          "parentSKU": "1548814",
+          "name": "Best Pet Supplies Disposable Puppy Pads Training Dog Potty Pads, Baby Pink, 23 x 22-in, 100 count",
+          "product_link": "https://www.chewy.com/best-pet-supplies-disposable-puppy/dp/1548862",
+          "product_price_current": 29.99,
+          "autoship_eligible": true,
+          "similarity": 0.6842
+        },
+        {
+          "rank": 15,
+          "sku": "2472622",
+          "parentSKU": "2472590",
+          "name": "PetSpy Ornament Pattern Washable Dog Pee Pads, 72 x 72-in",
+          "product_link": "https://www.chewy.com/petspy-ornament-pattern-washable-dog/dp/2472622",
+          "product_price_current": 44.99,
+          "autoship_eligible": false,
+          "similarity": 0.6827
+        }
+      ],
+      "bucket": "essentials"
+    },
+    {
+      "slot_id": 6,
+      "top_family": "Feeding/Bowls",
+      "rationale": "Daily feeding and consistent access to clean water are required. Stainless bowls reduce bacterial growth and the weighted/anti-tip design prevents spills in an apartment. Immediate daily necessity.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy paired stainless steel food and water bowls with weighted non-slip base, low-profile for short-muzzled breeds, dishwasher-safe, easy-to-refill water bowl",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "695014",
+          "parentSKU": "695030",
+          "name": "Leash Boss Stainless Steel Silicone Base Dog Bowl, Medium/Large, Blue, 2 count",
+          "product_link": "https://www.chewy.com/leashboss-stainless-steel-silicone/dp/695014",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.6705
+        },
+        {
+          "rank": 2,
+          "sku": "2254526",
+          "parentSKU": "2254510",
+          "name": "UPSKY Stainless Steel Slow Feeder Dog Water Bowl with Anti-Slip Mat, 1.6-gal, Grey",
+          "product_link": "https://www.chewy.com/upsky-stainless-steel-slow-feeder-dog/dp/2254526",
+          "product_price_current": 32.99,
+          "autoship_eligible": false,
+          "similarity": 0.6568
+        },
+        {
+          "rank": 3,
+          "sku": "1391158",
+          "parentSKU": "1391150",
+          "name": "Maslow Design Series Paw Design Non-Skid Stainless Steel Dog Bowl, Blue/White, 3.5-cup",
+          "product_link": "https://www.chewy.com/maslow-design-series-paw-design-non/dp/1391158",
+          "product_price_current": 11.49,
+          "autoship_eligible": false,
+          "similarity": 0.6532
+        },
+        {
+          "rank": 4,
+          "sku": "693126",
+          "parentSKU": "693118",
+          "name": "SunGrow No Spill Stainless Steel Large Dog Water & Food Bowl with Non-Slip Rubber Base, 64-oz",
+          "product_link": "https://www.chewy.com/sungrow-no-spill-stainless-steel/dp/693126",
+          "product_price_current": 11.99,
+          "autoship_eligible": false,
+          "similarity": 0.652
+        },
+        {
+          "rank": 5,
+          "sku": "1000013614",
+          "parentSKU": "1000013598",
+          "name": "Frisco Heavy Duty Non-Skid Stainless Steel Bowl, 7.5 Cup",
+          "product_link": null,
+          "product_price_current": 7.33,
+          "autoship_eligible": false,
+          "similarity": 0.647
+        },
+        {
+          "rank": 6,
+          "sku": "2254358",
+          "parentSKU": "2254350",
+          "name": "UPSKY Stainless Steel Slow Feeder Dog Water Bowl, Grey, 101-oz",
+          "product_link": "https://www.chewy.com/upsky-stainless-steel-slow-feeder-dog/dp/2254358",
+          "product_price_current": 17.89,
+          "autoship_eligible": false,
+          "similarity": 0.6461
+        },
+        {
+          "rank": 7,
+          "sku": "1000084007",
+          "parentSKU": "1000083989",
+          "name": "MidWest Stainless Steel Snap'y Fit Dog Kennel Bowl, 2.5-cup",
+          "product_link": null,
+          "product_price_current": 12.99,
+          "autoship_eligible": false,
+          "similarity": 0.6445
+        },
+        {
+          "rank": 8,
+          "sku": "1000065947",
+          "parentSKU": "1000062839",
+          "name": "Frisco Stainless Steel Bowl, 1 cup",
+          "product_link": null,
+          "product_price_current": 3.97,
+          "autoship_eligible": false,
+          "similarity": 0.6385
+        },
+        {
+          "rank": 9,
+          "sku": "1385886",
+          "parentSKU": "1385838",
+          "name": "Iconic Pet Heavy Weight Non-Skid Easy Feed High Back Dog Bowl, Stainless Steel, 2 count, 3-cup",
+          "product_link": "https://www.chewy.com/iconic-pet-heavy-weight-non-skid-easy/dp/1385886",
+          "product_price_current": 33.3,
+          "autoship_eligible": false,
+          "similarity": 0.6351
+        },
+        {
+          "rank": 10,
+          "sku": "862110",
+          "parentSKU": "862102",
+          "name": "Loving Pets Dolce Puppy Forever Dog Bowl, Small",
+          "product_link": "https://www.chewy.com/loving-pets-dolce-puppy-forever-dog/dp/862110",
+          "product_price_current": 7.39,
+          "autoship_eligible": false,
+          "similarity": 0.6342
+        },
+        {
+          "rank": 11,
+          "sku": "159877",
+          "parentSKU": "159874",
+          "name": "Frisco Non-Skid Stainless Steel Bowl, Large: 7 cup",
+          "product_link": "https://www.chewy.com/frisco-non-skid-stainless-steel-bowl/dp/186606",
+          "product_price_current": 5.99,
+          "autoship_eligible": false,
+          "similarity": 0.6337
+        },
+        {
+          "rank": 12,
+          "sku": "54396",
+          "parentSKU": "54393",
+          "name": "Loving Pets Non-Skid Stainless Steel Dog & Cat Bowl, 2-cup",
+          "product_link": "https://www.chewy.com/loving-pets-non-skid-stainless-steel/dp/39509",
+          "product_price_current": 9.78,
+          "autoship_eligible": false,
+          "similarity": 0.6331
+        }
+      ],
+      "bucket": "essentials"
+    },
+    {
+      "slot_id": 7,
+      "top_family": "Seasonal/Environment",
+      "rationale": "There is an active excessive heat warning and pugs are brachycephalic with poor heat tolerance. This is an immediate safety need to reduce risk of overheating while indoors or during short rest periods.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy cooling mat or evaporative cooling pad sized for small puppies, chew-resistant non-toxic surface, passive gel or evaporative cooling without chemicals",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "105745",
+          "parentSKU": "105743",
+          "name": "The Green Pet Shop Cool Pet Pad, Small",
+          "product_link": "https://www.chewy.com/green-pet-shop-cool-pet-pad-small/dp/133194",
+          "product_price_current": 34.5,
+          "autoship_eligible": false,
+          "similarity": 0.7036
+        },
+        {
+          "rank": 2,
+          "sku": "1380006",
+          "parentSKU": "1379998",
+          "name": "The Green Pet Shop Cool Pet Pad, Sage Gray, Small",
+          "product_link": "https://www.chewy.com/green-pet-shop-cool-pet-pad-sage-gray/dp/1380006",
+          "product_price_current": 39.99,
+          "autoship_eligible": false,
+          "similarity": 0.6996
+        },
+        {
+          "rank": 3,
+          "sku": "1715958",
+          "parentSKU": "1715950",
+          "name": "allforpaws Chill Out Papaya Cooling Mat Dog Bed, Blue",
+          "product_link": "https://www.chewy.com/allforpaws-chill-out-papaya-cooling/dp/1715958",
+          "product_price_current": 18.99,
+          "autoship_eligible": false,
+          "similarity": 0.6957
+        },
+        {
+          "rank": 4,
+          "sku": "114569",
+          "parentSKU": "114565",
+          "name": "TechNiche International Evaporative Cooling Dog Pad, Royal Blue, Small",
+          "product_link": "https://www.chewy.com/techniche-international-evaporative/dp/141843",
+          "product_price_current": 31.99,
+          "autoship_eligible": false,
+          "similarity": 0.6935
+        },
+        {
+          "rank": 5,
+          "sku": "1691206",
+          "parentSKU": "1691198",
+          "name": "allforpaws Chill Out Kiwi Cooling Mat Dog Bed",
+          "product_link": "https://www.chewy.com/allforpaws-chill-out-kiwi-cooling-mat/dp/1691206",
+          "product_price_current": 18.99,
+          "autoship_eligible": false,
+          "similarity": 0.6895
+        },
+        {
+          "rank": 6,
+          "sku": "1691214",
+          "parentSKU": "1691190",
+          "name": "allforpaws Chill Out Orange Cooling Mat Dog Bed",
+          "product_link": "https://www.chewy.com/allforpaws-chill-out-orange-cooling/dp/1691214",
+          "product_price_current": 18.99,
+          "autoship_eligible": false,
+          "similarity": 0.6872
+        },
+        {
+          "rank": 7,
+          "sku": "1391822",
+          "parentSKU": "1391814",
+          "name": "The Green Pet Shop Cool Dog & Cat Crate Mat, Sage Gray, X-Small",
+          "product_link": "https://www.chewy.com/green-pet-shop-cool-dog-cat-crate-mat/dp/1391822",
+          "product_price_current": 24.99,
+          "autoship_eligible": false,
+          "similarity": 0.6838
+        },
+        {
+          "rank": 8,
+          "sku": "1678374",
+          "parentSKU": "1678270",
+          "name": "The Green Pet Shop Disney Pluto Cool Dog & Cat Pad, Brown, Medium",
+          "product_link": "https://www.chewy.com/green-pet-shop-disney-pluto-cool-dog/dp/1678374",
+          "product_price_current": 59.99,
+          "autoship_eligible": false,
+          "similarity": 0.6661
+        },
+        {
+          "rank": 9,
+          "sku": "1678318",
+          "parentSKU": "1678262",
+          "name": "The Green Pet Shop Disney Retro Micky Cool Dog & Cat Pad, Sage/Cream, X-Small",
+          "product_link": "https://www.chewy.com/green-pet-shop-disney-retro-micky/dp/1678318",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.6648
+        },
+        {
+          "rank": 10,
+          "sku": "1678414",
+          "parentSKU": "1678398",
+          "name": "The Green Pet Shop Disney Mickey/Minnie Cool Dog & Cat Pad, Black, Small",
+          "product_link": "https://www.chewy.com/green-pet-shop-disney-mickeymini-cool/dp/1678414",
+          "product_price_current": 49.99,
+          "autoship_eligible": false,
+          "similarity": 0.6641
+        },
+        {
+          "rank": 11,
+          "sku": "173297",
+          "parentSKU": "193604",
+          "name": "Arf Pets Self-Cooling Liquid Gel Dog Crate Mat, 19 x 35 in",
+          "product_link": "https://www.chewy.com/arf-pets-self-cooling-liquid-gel-dog/dp/199993",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.6634
+        },
+        {
+          "rank": 12,
+          "sku": "1678302",
+          "parentSKU": "1678254",
+          "name": "The Green Pet Shop Disney Stitch Cool Dog & Cat Pad, Sand, Large",
+          "product_link": "https://www.chewy.com/green-pet-shop-disney-stitch-cool-dog/dp/1678302",
+          "product_price_current": 74.99,
+          "autoship_eligible": false,
+          "similarity": 0.6633
+        }
+      ],
+      "bucket": "essentials"
+    },
+    {
+      "slot_id": 8,
+      "top_family": "Toys/Chews",
+      "rationale": "The puppy is a strong chewer and teething; durable rubber chew toys prevent destructive chewing and provide safe outlet. Preventive to protect belongings and teeth.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy durable high-density natural rubber chew toy or treat-dispensing rubber toy, puppy size, no small parts, rated for strong chewers for teething relief",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "150479",
+          "parentSKU": "150478",
+          "name": "KONG Puppy Tires Dog Toy, Color Varies, Small",
+          "product_link": "https://www.chewy.com/kong-puppy-tires-dog-toy-color-varies/dp/177283",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.708
+        },
+        {
+          "rank": 2,
+          "sku": "1180974",
+          "parentSKU": "1180966",
+          "name": "BARK Chew-Dogh Super Chewer Tough Squeaky Treat Dispensing Dog Toy, Small",
+          "product_link": "https://www.chewy.com/bark-chew-dogh-super-chewer-tough/dp/1180974",
+          "product_price_current": 12.99,
+          "autoship_eligible": false,
+          "similarity": 0.6923
+        },
+        {
+          "rank": 3,
+          "sku": "63844",
+          "parentSKU": "63843",
+          "name": "PetSafe Busy Buddy Bouncy Bone Treat Dispenser Tough Dog Chew Toy, Small",
+          "product_link": "https://www.chewy.com/petsafe-busy-buddy-bouncy-bone-treat/dp/48808",
+          "product_price_current": 6.95,
+          "autoship_eligible": false,
+          "similarity": 0.6881
+        },
+        {
+          "rank": 4,
+          "sku": "1180838",
+          "parentSKU": "1180822",
+          "name": "BARK Super Chewer Treats n' Sweets Gumdrop Tough Treat Dispensing Dog Toy, Pink, Small",
+          "product_link": "https://www.chewy.com/bark-super-chewer-treats-n-sweets/dp/1180838",
+          "product_price_current": 10.99,
+          "autoship_eligible": false,
+          "similarity": 0.6823
+        },
+        {
+          "rank": 5,
+          "sku": "1000050353",
+          "parentSKU": "1000050347",
+          "name": "Nylabone Just for Puppies Double Action Bone Bacon Flavored Teething Chew Dog Toy",
+          "product_link": null,
+          "product_price_current": 14.48,
+          "autoship_eligible": false,
+          "similarity": 0.6799
+        },
+        {
+          "rank": 6,
+          "sku": "91192",
+          "parentSKU": "91190",
+          "name": "KONG Puppy Activity Ball Dog Toy, Color Varies, Medium",
+          "product_link": "https://www.chewy.com/kong-puppy-activity-ball-dog-toy/dp/118854",
+          "product_price_current": 8.99,
+          "autoship_eligible": false,
+          "similarity": 0.6792
+        },
+        {
+          "rank": 7,
+          "sku": "1000049099",
+          "parentSKU": "1000049093",
+          "name": "Nylabone Puppy Chew Rubber Teether Puppy Chew Dog Toy",
+          "product_link": null,
+          "product_price_current": 10.1,
+          "autoship_eligible": false,
+          "similarity": 0.677
+        },
+        {
+          "rank": 8,
+          "sku": "91196",
+          "parentSKU": "91193",
+          "name": "KONG Puppy Teething Stick Dog Toy, Color Varies, Large",
+          "product_link": "https://www.chewy.com/kong-puppy-teething-stick-dog-toy/dp/118858",
+          "product_price_current": 13.99,
+          "autoship_eligible": false,
+          "similarity": 0.6759
+        },
+        {
+          "rank": 9,
+          "sku": "1000050317",
+          "parentSKU": "1000050173",
+          "name": "Nylabone Puppy Chew Variety Toy & Treat Triple Pack, Pink",
+          "product_link": null,
+          "product_price_current": 12.99,
+          "autoship_eligible": false,
+          "similarity": 0.6741
+        },
+        {
+          "rank": 10,
+          "sku": "1590406",
+          "parentSKU": "1590390",
+          "name": "maxbone Decagon Rubber Dog Chew Toy, Mint",
+          "product_link": "https://www.chewy.com/maxbone-decagon-rubber-dog-chew-toy/dp/1590406",
+          "product_price_current": 14.0,
+          "autoship_eligible": false,
+          "similarity": 0.6723
+        },
+        {
+          "rank": 11,
+          "sku": "63195",
+          "parentSKU": "63193",
+          "name": "PetSafe Busy Buddy Nobbly Nubbly Treat Dispensing Tough Dog Chew Toy, Small, Purple",
+          "product_link": "https://www.chewy.com/petsafe-busy-buddy-nobbly-nubbly/dp/48163",
+          "product_price_current": 10.95,
+          "autoship_eligible": false,
+          "similarity": 0.6712
+        },
+        {
+          "rank": 12,
+          "sku": "1000057985",
+          "parentSKU": "1000057979",
+          "name": "Earth Rated Chew Dog Toy, Small",
+          "product_link": null,
+          "product_price_current": 12.99,
+          "autoship_eligible": false,
+          "similarity": 0.6706
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 9,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "Pugs have facial folds that trap moisture and debris; routine fold cleaning prevents irritation and infections. Important preventive care for this breed living in an apartment where close contact with people is frequent.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy facial-fold cleaning wipes alcohol-free hypoallergenic, formulated for brachycephalic folds, tub or individually wrapped for regular cleaning",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "181113",
+          "parentSKU": "181112",
+          "name": "Petpost Bulldog Wrinkle Wipes, 100 count",
+          "product_link": "https://www.chewy.com/petpost-bulldog-wrinkle-wipes-100/dp/207782",
+          "product_price_current": 19.25,
+          "autoship_eligible": true,
+          "similarity": 0.7224
+        },
+        {
+          "rank": 2,
+          "sku": "1723894",
+          "parentSKU": "1723886",
+          "name": "Squishface Wrinkle Wipes Dog Grooming Wipes, 80 count",
+          "product_link": "https://www.chewy.com/squishface-wrinkle-wipes-dog-grooming/dp/1723894",
+          "product_price_current": 24.99,
+          "autoship_eligible": true,
+          "similarity": 0.7209
+        },
+        {
+          "rank": 3,
+          "sku": "1403358",
+          "parentSKU": "1403334",
+          "name": "Petpost Wrinkle Wipes with Coconut Oil & Aloe Vera Dog Grooming Wipes, 60 count",
+          "product_link": "https://www.chewy.com/petpost-wrinkle-wipes-coconut-oil/dp/1403358",
+          "product_price_current": 22.99,
+          "autoship_eligible": true,
+          "similarity": 0.7007
+        },
+        {
+          "rank": 4,
+          "sku": "2049014",
+          "parentSKU": "2049006",
+          "name": "HICC PET Hypoallergenic Wrinkle Dog Grooming Wipes, 100 count",
+          "product_link": "https://www.chewy.com/hicc-pet-hypoallergenic-wrinkle-dog/dp/2049014",
+          "product_price_current": 17.99,
+          "autoship_eligible": true,
+          "similarity": 0.6995
+        },
+        {
+          "rank": 5,
+          "sku": "1378350",
+          "parentSKU": "1378342",
+          "name": "Natural Dog Company Wrinkle Balm Dog Grooming Wipes, 50 count",
+          "product_link": "https://www.chewy.com/natural-dog-company-wrinkle-balm-dog/dp/1378350",
+          "product_price_current": 12.95,
+          "autoship_eligible": true,
+          "similarity": 0.6912
+        },
+        {
+          "rank": 6,
+          "sku": "343994",
+          "parentSKU": "343993",
+          "name": "The Blissful Dog Fresh Flat Face Wash for Dogs, 8-fl oz bottle",
+          "product_link": "https://www.chewy.com/blissful-dog-fresh-flat-face-wash/dp/370230",
+          "product_price_current": 16.99,
+          "autoship_eligible": true,
+          "similarity": 0.6741
+        },
+        {
+          "rank": 7,
+          "sku": "658022",
+          "parentSKU": "658014",
+          "name": "Vetnique Labs Dermabliss Medicated Face, Wrinkle & Skin Fold Chlorhexidine Cat & Dog Grooming Wipes, 60 count",
+          "product_link": "https://www.chewy.com/vetnique-labs-dermabliss-medicated/dp/658022",
+          "product_price_current": 22.99,
+          "autoship_eligible": true,
+          "similarity": 0.6701
+        },
+        {
+          "rank": 8,
+          "sku": "228413",
+          "parentSKU": "228412",
+          "name": "Wet Ones Face Dog Wipes, 30 count",
+          "product_link": "https://www.chewy.com/wet-ones-face-dog-wipes-30-count/dp/254929",
+          "product_price_current": 4.51,
+          "autoship_eligible": true,
+          "similarity": 0.6671
+        },
+        {
+          "rank": 9,
+          "sku": "1378486",
+          "parentSKU": "1378446",
+          "name": "Natural Dog Company Paw Dog Grooming Wipes, 50 count",
+          "product_link": "https://www.chewy.com/natural-dog-company-paw-dog-grooming/dp/1378486",
+          "product_price_current": 12.79,
+          "autoship_eligible": true,
+          "similarity": 0.6642
+        },
+        {
+          "rank": 10,
+          "sku": "228427",
+          "parentSKU": "228424",
+          "name": "Wet Ones Hypoallergenic Multi-Purpose Dog Wipes, 100 count",
+          "product_link": "https://www.chewy.com/wet-ones-hypoallergenic-multi-purpose/dp/254943",
+          "product_price_current": 7.19,
+          "autoship_eligible": true,
+          "similarity": 0.646
+        },
+        {
+          "rank": 11,
+          "sku": "1425310",
+          "parentSKU": "1425302",
+          "name": "Alpha Dog Series Unscented Dog Clean Up Wipes, 70 count",
+          "product_link": "https://www.chewy.com/alpha-dog-series-unscented-dog-clean/dp/1425310",
+          "product_price_current": 12.99,
+          "autoship_eligible": true,
+          "similarity": 0.6435
+        },
+        {
+          "rank": 12,
+          "sku": "1672038",
+          "parentSKU": "1672030",
+          "name": "Scrubby Aloe Vera & Eucalyptus Hypoallergenic Dog Ear Wipes, 125 count",
+          "product_link": "https://www.chewy.com/scrubby-aloe-vera-eucalyptus/dp/1672038",
+          "product_price_current": 13.88,
+          "autoship_eligible": true,
+          "similarity": 0.6433
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 10,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "Calendar indicates fall shedding season and pugs have a short double coat that sheds. Regular deshedding reduces loose hair in the apartment and helps allergy mitigation during fall allergy season.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy deshedding tool or rubber curry for short double coats, fine-tooth undercoat rake or rubber brush sized for small dogs, easy-grip handle for weekly use",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "320120",
+          "parentSKU": "320119",
+          "name": "Pet Life Flex Series 2-in-1 Dual-Sided Grooming Undercoat Dog & Cat Rake & Deshedding Tool, Green",
+          "product_link": "https://www.chewy.com/pet-life-flex-series-2-in-1-dual/dp/346400",
+          "product_price_current": 14.99,
+          "autoship_eligible": false,
+          "similarity": 0.6938
+        },
+        {
+          "rank": 2,
+          "sku": "320058",
+          "parentSKU": "320055",
+          "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Pink",
+          "product_link": "https://www.chewy.com/pet-life-axler-triple-rotating-rake/dp/346338",
+          "product_price_current": 16.99,
+          "autoship_eligible": false,
+          "similarity": 0.6755
+        },
+        {
+          "rank": 3,
+          "sku": "55144",
+          "parentSKU": "55143",
+          "name": "JW Pet Gripsoft Double Row Undercoat Rake",
+          "product_link": "https://www.chewy.com/jw-pet-gripsoft-double-row-undercoat/dp/40225",
+          "product_price_current": 10.73,
+          "autoship_eligible": false,
+          "similarity": 0.6607
+        },
+        {
+          "rank": 4,
+          "sku": "212060",
+          "parentSKU": "212059",
+          "name": "Master Grooming Tools Ergon Double Row Undercoat Pet Rake",
+          "product_link": "https://www.chewy.com/master-grooming-tools-ergon-double/dp/238648",
+          "product_price_current": 15.99,
+          "autoship_eligible": false,
+          "similarity": 0.6583
+        },
+        {
+          "rank": 5,
+          "sku": "55203",
+          "parentSKU": "55050",
+          "name": "FURminator Curry Comb for Dogs",
+          "product_link": "https://www.chewy.com/furminator-curry-comb-dogs/dp/40281",
+          "product_price_current": 8.19,
+          "autoship_eligible": false,
+          "similarity": 0.6579
+        },
+        {
+          "rank": 6,
+          "sku": "80916",
+          "parentSKU": "80915",
+          "name": "JW Pet Dog Deshedding Tool",
+          "product_link": "https://www.chewy.com/jw-pet-dog-deshedding-tool/dp/108745",
+          "product_price_current": 19.09,
+          "autoship_eligible": false,
+          "similarity": 0.6578
+        },
+        {
+          "rank": 7,
+          "sku": "613454",
+          "parentSKU": "613446",
+          "name": "SunGrow Undercoat Deshedding Brush for Short Haired Dog & Cat Shedding Control & Grooming Tool",
+          "product_link": "https://www.chewy.com/sungrow-undercoat-deshedding-brush/dp/613454",
+          "product_price_current": 8.95,
+          "autoship_eligible": false,
+          "similarity": 0.6565
+        },
+        {
+          "rank": 8,
+          "sku": "1569006",
+          "parentSKU": "1568998",
+          "name": "Andis Fine-Tooth Pet Deshedding Rake",
+          "product_link": "https://www.chewy.com/andis-fine-tooth-pet-deshedding-rake/dp/1569006",
+          "product_price_current": 41.76,
+          "autoship_eligible": false,
+          "similarity": 0.6565
+        },
+        {
+          "rank": 9,
+          "sku": "2281382",
+          "parentSKU": "2281374",
+          "name": "FURminator 2-in-1 Doodle Dematting Dog Grooming Tool with Comb, Black/Blue",
+          "product_link": "https://www.chewy.com/furminator-2-in-1-doodle-dematting/dp/2281382",
+          "product_price_current": 24.99,
+          "autoship_eligible": false,
+          "similarity": 0.6514
+        },
+        {
+          "rank": 10,
+          "sku": "1261726",
+          "parentSKU": "1261718",
+          "name": "DOG By Dr Lisa Bamboo Dog Rake Grooming Tool",
+          "product_link": "https://www.chewy.com/dog-by-dr-lisa-bamboo-dog-rake/dp/1261726",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6498
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 11,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "Early introduction to dental care reduces future periodontal disease; starting brushing routines now is best practice even though intensive dental interventions come later.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy small-headed toothbrush or finger brush and enzymatic non-fluoride puppy-safe toothpaste, mild flavor, starter kit to introduce daily brushing",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "189586",
+          "parentSKU": "189585",
+          "name": "Triple Pet EZ Three-Sided Vanilla Mint Flavored Dental Kit for Small Breed Dogs, up to 60-lbs",
+          "product_link": "https://www.chewy.com/triple-pet-ez-three-sided-vanilla/dp/216239",
+          "product_price_current": 11.99,
+          "autoship_eligible": false,
+          "similarity": 0.7149
+        },
+        {
+          "rank": 2,
+          "sku": "918366",
+          "parentSKU": "918358",
+          "name": "Nylabone Advanced Oral Care Peanut Butter Flavor Toothpaste, 2.5-oz tube + Soft-Bristle Toothbrush for Puppies, 3-pack",
+          "product_link": "https://www.chewy.com/nylabone-advanced-oral-care-peanut/dp/918366",
+          "product_price_current": 10.25,
+          "autoship_eligible": true,
+          "similarity": 0.7108
+        },
+        {
+          "rank": 3,
+          "sku": "189592",
+          "parentSKU": "189591",
+          "name": "Triple Pet EZ Fingerbrush Vanilla Mint Flavored Dog Dental Kit",
+          "product_link": "https://www.chewy.com/triple-pet-ez-fingerbrush-vanilla/dp/216245",
+          "product_price_current": 10.99,
+          "autoship_eligible": false,
+          "similarity": 0.7033
+        },
+        {
+          "rank": 4,
+          "sku": "85558",
+          "parentSKU": "85556",
+          "name": "TropiClean Fresh Breath Oral Care Plaque & Tartar Defense Puppy Dental Kit",
+          "product_link": "https://www.chewy.com/tropiclean-fresh-breath-oral-care/dp/113348",
+          "product_price_current": 14.99,
+          "autoship_eligible": true,
+          "similarity": 0.6996
+        },
+        {
+          "rank": 5,
+          "sku": "954110",
+          "parentSKU": "954102",
+          "name": "Dental Fresh Enzymatic Gel Finger Dog Toothbrush Kit, 2.5-fl oz ",
+          "product_link": "https://www.chewy.com/dental-fresh-enzymatic-gel-finger-dog/dp/954110",
+          "product_price_current": 13.99,
+          "autoship_eligible": true,
+          "similarity": 0.6749
+        },
+        {
+          "rank": 6,
+          "sku": "954094",
+          "parentSKU": "954086",
+          "name": "Dental Fresh Enzymatic Gel Triflex Dog Toothbrush Kit, 2.5-fl oz",
+          "product_link": "https://www.chewy.com/dental-fresh-enzymatic-gel-triflex/dp/954094",
+          "product_price_current": 13.22,
+          "autoship_eligible": true,
+          "similarity": 0.674
+        },
+        {
+          "rank": 7,
+          "sku": "1492670",
+          "parentSKU": "1492662",
+          "name": "Paw Ready BrushMate Toothbrush, Small Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Small Dogs & Cats, 70-gram bottle",
+          "product_link": "https://www.chewy.com/paw-ready-brushmate-toothbrush-small/dp/1492670",
+          "product_price_current": 20.89,
+          "autoship_eligible": true,
+          "similarity": 0.6711
+        },
+        {
+          "rank": 8,
+          "sku": "144545",
+          "parentSKU": "144544",
+          "name": "Arm & Hammer Products Tartar Control Vanilla-Ginger Flavored Enzymatic Puppy Dental Training Kit",
+          "product_link": "https://www.chewy.com/arm-hammer-products-tartar-control/dp/171406",
+          "product_price_current": 6.79,
+          "autoship_eligible": true,
+          "similarity": 0.6689
+        },
+        {
+          "rank": 9,
+          "sku": "1492686",
+          "parentSKU": "1492678",
+          "name": "Paw Ready BrushMate Toothbrush, Medium Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Medium & Large Dogs, 70-gram bottle",
+          "product_link": "https://www.chewy.com/paw-ready-brushmate-toothbrush-small/dp/1492686",
+          "product_price_current": 21.99,
+          "autoship_eligible": true,
+          "similarity": 0.6676
+        },
+        {
+          "rank": 10,
+          "sku": "125811",
+          "parentSKU": "125810",
+          "name": "Vet's Best Toothbrush & Toothpaste Dental Kit, 3.5-oz tube, Adult",
+          "product_link": "https://www.chewy.com/vets-best-toothbrush-toothpaste/dp/152923",
+          "product_price_current": 8.42,
+          "autoship_eligible": true,
+          "similarity": 0.6675
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 12,
+      "top_family": "Grooming/Hygiene",
+      "rationale": "Apartment dogs don't naturally wear nails down; a grinder helps maintain nail length safely and is easier for puppies who may be sensitive to clippers.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy low-noise nail grinder for small dogs, variable speed, safety guard and light, battery or electric, gentle for acclimating puppies",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "530094",
+          "parentSKU": "530086",
+          "name": "Bousnic Super Low Noise Dog & Cat Nail Grinder, Blue",
+          "product_link": "https://www.chewy.com/bousnic-super-low-noise-dog-cat-nail/dp/530094",
+          "product_price_current": 25.9,
+          "autoship_eligible": false,
+          "similarity": 0.6842
+        },
+        {
+          "rank": 2,
+          "sku": "762886",
+          "parentSKU": "762870",
+          "name": "Casfuy Professional 2-Speed Quiet Dog Nail Grinder, Pink",
+          "product_link": "https://www.chewy.com/casfuy-professional-2-speed-quiet-dog/dp/762886",
+          "product_price_current": 21.99,
+          "autoship_eligible": false,
+          "similarity": 0.6697
+        },
+        {
+          "rank": 3,
+          "sku": "970446",
+          "parentSKU": "970438",
+          "name": "PATPET N60 6-Speed Electric Rechargeable Cat & Dog Nail Grinder, Army Green",
+          "product_link": "https://www.chewy.com/patpet-n60-6-speed-electric/dp/970446",
+          "product_price_current": 35.99,
+          "autoship_eligible": false,
+          "similarity": 0.6696
+        },
+        {
+          "rank": 4,
+          "sku": "317703",
+          "parentSKU": "317702",
+          "name": "Pet Republique Rechargeable Large Electric Dog & Cat Nail Grinder & Clippers",
+          "product_link": "https://www.chewy.com/pet-republique-rechargeable-large/dp/343986",
+          "product_price_current": 18.99,
+          "autoship_eligible": false,
+          "similarity": 0.6668
+        },
+        {
+          "rank": 5,
+          "sku": "280277",
+          "parentSKU": "280276",
+          "name": "PATPET Steel Grit Dog & Cat Nail Grinder, White",
+          "product_link": "https://www.chewy.com/patpet-steel-grit-dog-cat-nail/dp/306664",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6663
+        },
+        {
+          "rank": 6,
+          "sku": "1794430",
+          "parentSKU": "1794422",
+          "name": "PATPET Steel Grit Dog & Cat Nail Grinder, Green",
+          "product_link": "https://www.chewy.com/patpet-steel-grit-dog-cat-nail/dp/1794430",
+          "product_price_current": 26.99,
+          "autoship_eligible": false,
+          "similarity": 0.6659
+        },
+        {
+          "rank": 7,
+          "sku": "762902",
+          "parentSKU": "762894",
+          "name": "Casfuy Quiet 2 LED Medium & Large Dog & Cat Nail Grinder, Dark Blue",
+          "product_link": "https://www.chewy.com/casfuy-3x-more-powerful-2-speed/dp/762902",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6628
+        },
+        {
+          "rank": 8,
+          "sku": "1962126",
+          "parentSKU": "1962118",
+          "name": "LILIPRO PG102 Cordless 3-Speed Nail Grinder for Large Pets, White",
+          "product_link": "https://www.chewy.com/lilipro-pg102-cordless-3-speed-nail/dp/1962126",
+          "product_price_current": 45.99,
+          "autoship_eligible": false,
+          "similarity": 0.6559
+        },
+        {
+          "rank": 9,
+          "sku": "1568974",
+          "parentSKU": "1349510",
+          "name": "Andis Cordless 2-Speed Dog, Cat & Small Pet Nail Grinder, Black",
+          "product_link": "https://www.chewy.com/andis-dual-speed-cordless-pet-nail/dp/1568974",
+          "product_price_current": 48.0,
+          "autoship_eligible": false,
+          "similarity": 0.6554
+        },
+        {
+          "rank": 10,
+          "sku": "1000020270",
+          "parentSKU": "1000020262",
+          "name": "Wahl Lithium Dog Nail Grinder",
+          "product_link": null,
+          "product_price_current": 39.87,
+          "autoship_eligible": false,
+          "similarity": 0.6553
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 13,
+      "top_family": "Leashes/Collars",
+      "rationale": "Pugs are brachycephalic and can be sensitive to neck pressure; a front-clip harness distributes force away from the trachea and supports leash training in an apartment environment with small-space management.",
+      "count": 11,
+      "actual_query": "Dog, 3-month-old puppy front-clip adjustable breathable harness sized for small breeds, padded chest to reduce tracheal pressure, sturdy buckles and adjustable straps to grow with puppy, front and back clip options",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1968822",
+          "parentSKU": "1968814",
+          "name": "LupinePet Original Designs Puppy Love Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide",
+          "product_link": "https://www.chewy.com/lupinepet-original-designs-puppy-love/dp/1968822",
+          "product_price_current": 21.29,
+          "autoship_eligible": false,
+          "similarity": 0.7069
+        },
+        {
+          "rank": 2,
+          "sku": "1907110",
+          "parentSKU": "1907102",
+          "name": "LupinePet Puppy Love Adjustable Dog Harness, Medium: 20 to 32-in chest",
+          "product_link": "https://www.chewy.com/lupinepet-puppy-love-adjustable-dog/dp/1907110",
+          "product_price_current": 28.04,
+          "autoship_eligible": false,
+          "similarity": 0.6978
+        },
+        {
+          "rank": 3,
+          "sku": "93980",
+          "parentSKU": "93987",
+          "name": "Puppia Polyester Back Clip Dog Harness, Green, Small",
+          "product_link": "https://www.chewy.com/puppia-polyester-back-clip-dog/dp/121585",
+          "product_price_current": 16.79,
+          "autoship_eligible": false,
+          "similarity": 0.682
+        },
+        {
+          "rank": 4,
+          "sku": "1969654",
+          "parentSKU": "1965030",
+          "name": "LupinePet Basic Solid Adjustable Dog Harness, Pink, Small: 12 to 20-in chest, 1/2-in wide",
+          "product_link": "https://www.chewy.com/lupinepet-basic-solid-adjustable-dog/dp/1969654",
+          "product_price_current": 14.44,
+          "autoship_eligible": false,
+          "similarity": 0.6731
+        },
+        {
+          "rank": 5,
+          "sku": "1969062",
+          "parentSKU": "1969054",
+          "name": "LupinePet Original Designs Social Butterfly Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide",
+          "product_link": "https://www.chewy.com/lupinepet-original-designs-social/dp/1969062",
+          "product_price_current": 21.29,
+          "autoship_eligible": false,
+          "similarity": 0.6698
+        },
+        {
+          "rank": 6,
+          "sku": "1968678",
+          "parentSKU": "1968670",
+          "name": "LupinePet Original Designs Dapper Dog Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide",
+          "product_link": "https://www.chewy.com/lupinepet-original-designs-dapper-dog/dp/1968678",
+          "product_price_current": 17.42,
+          "autoship_eligible": false,
+          "similarity": 0.669
+        },
+        {
+          "rank": 7,
+          "sku": "214717",
+          "parentSKU": "214716",
+          "name": "PetSafe 3-in-1 Reflective Dog Harness & Leash, Small: 19 to 24-in chest",
+          "product_link": "https://www.chewy.com/petsafe-3-in-1-reflective-dog-harness/dp/241285",
+          "product_price_current": 37.95,
+          "autoship_eligible": false,
+          "similarity": 0.6682
+        },
+        {
+          "rank": 8,
+          "sku": "1968630",
+          "parentSKU": "1968622",
+          "name": "LupinePet Original Designs Bling Bonz Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide",
+          "product_link": "https://www.chewy.com/lupinepet-original-designs-bling-bonz/dp/1968630",
+          "product_price_current": 17.42,
+          "autoship_eligible": false,
+          "similarity": 0.6681
+        },
+        {
+          "rank": 9,
+          "sku": "1968494",
+          "parentSKU": "1968486",
+          "name": "LupinePet Reflective Paws Adjustable Dog Harness, Blue Paws, X-Small: 9 to 14-in chest, 1/2-in wide",
+          "product_link": "https://www.chewy.com/lupinepet-reflective-paws-adjustable/dp/1968494",
+          "product_price_current": 24.49,
+          "autoship_eligible": false,
+          "similarity": 0.6673
+        },
+        {
+          "rank": 10,
+          "sku": "1429854",
+          "parentSKU": "1429846",
+          "name": "Halti Anatomy Puppy Reflective Step In Dog Harness, Grey, XX-Small: 8.25 to 11.75-in chest",
+          "product_link": "https://www.chewy.com/halti-anatomy-puppy-reflective-step/dp/1429854",
+          "product_price_current": 26.99,
+          "autoship_eligible": false,
+          "similarity": 0.6643
+        },
+        {
+          "rank": 11,
+          "sku": "121433",
+          "parentSKU": "121428",
+          "name": "PetSafe 3-in-1 Reflective Dog Harness with Car Control Strap, Plum, X-Small: 13 to 19-in chest",
+          "product_link": "https://www.chewy.com/petsafe-3-in-1-reflective-dog-harness/dp/148601",
+          "product_price_current": 25.68,
+          "autoship_eligible": false,
+          "similarity": 0.6605
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 14,
+      "top_family": "Leashes/Collars",
+      "rationale": "For apartment owners walking at dawn/dusk or during louder seasonal activities (hunting/leaf blower season) visibility is a helpful safety measure.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy small rechargeable or battery LED safety light, clip-on for leash or harness, water-resistant housing for low-light visibility during dawn/dusk walks",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "2380774",
+          "parentSKU": "2380766",
+          "name": "Nite Ize SpotLit Splash Waterproof Rechargeable Disc-O Tech Collar Light",
+          "product_link": "https://www.chewy.com/spotlit-splash-waterproof/dp/2380774",
+          "product_price_current": 24.99,
+          "autoship_eligible": false,
+          "similarity": 0.6876
+        },
+        {
+          "rank": 2,
+          "sku": "2380742",
+          "parentSKU": "2380734",
+          "name": "Nite Ize SpotLit Rechargeable Disc-O Tech Dog Collar Light",
+          "product_link": "https://www.chewy.com/nite-ize-spotlit-rechargeable-disc-o/dp/2380742",
+          "product_price_current": 17.99,
+          "autoship_eligible": false,
+          "similarity": 0.6865
+        },
+        {
+          "rank": 3,
+          "sku": "1698038",
+          "parentSKU": "1698030",
+          "name": "Nite Ize NiteDog Disc-O Tech Rechargeable LED Dog Collar Light",
+          "product_link": "https://www.chewy.com/nite-ize-nitedog-disc-o-tech/dp/1698038",
+          "product_price_current": 16.99,
+          "autoship_eligible": false,
+          "similarity": 0.6859
+        },
+        {
+          "rank": 4,
+          "sku": "1698054",
+          "parentSKU": "1698046",
+          "name": "Nite Ize SpotLit LED Disc-O Select Dog Collar Light",
+          "product_link": "https://www.chewy.com/nite-ize-spotlit-led-disc-o-select/dp/1698054",
+          "product_price_current": 11.49,
+          "autoship_eligible": false,
+          "similarity": 0.6833
+        },
+        {
+          "rank": 5,
+          "sku": "363288",
+          "parentSKU": "363287",
+          "name": "Blazin LED Dog Leash, Pink, Small",
+          "product_link": "https://www.chewy.com/blazin-safety-led-dog-leash-pink/dp/389506",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.6822
+        },
+        {
+          "rank": 6,
+          "sku": "205455",
+          "parentSKU": "205446",
+          "name": "Blazin LED USB Rechargeable Nylon Dog Collar, Blue, Small: 9.8 to 14.2-in neck, 5/8-in wide",
+          "product_link": "https://www.chewy.com/blazin-safety-led-usb-rechargeable/dp/232064",
+          "product_price_current": 24.99,
+          "autoship_eligible": false,
+          "similarity": 0.6776
+        },
+        {
+          "rank": 7,
+          "sku": "2110238",
+          "parentSKU": "2110214",
+          "name": "MEGAPAWS USB Rechargeable LED Light-Up Dog Harness, Large, Yellow",
+          "product_link": "https://www.chewy.com/megapaws-usb-rechargeable-led-light/dp/2110238",
+          "product_price_current": 31.99,
+          "autoship_eligible": false,
+          "similarity": 0.6753
+        },
+        {
+          "rank": 8,
+          "sku": "1086614",
+          "parentSKU": "1086606",
+          "name": "Frisco LED Rechargeable Clip Light",
+          "product_link": "https://www.chewy.com/frisco-led-usb-rechargeable-clip/dp/1086614",
+          "product_price_current": 8.47,
+          "autoship_eligible": false,
+          "similarity": 0.6753
+        },
+        {
+          "rank": 9,
+          "sku": "363313",
+          "parentSKU": "363303",
+          "name": "Blazin LED USB Rechargeable Nylon Dog Collar, Red, Small",
+          "product_link": "https://www.chewy.com/blazin-safety-led-usb-rechargeable/dp/389531",
+          "product_price_current": 22.99,
+          "autoship_eligible": false,
+          "similarity": 0.6736
+        },
+        {
+          "rank": 10,
+          "sku": "331478",
+          "parentSKU": "331477",
+          "name": "Nite Ize Spotli Rechargeable Dog Collar Light",
+          "product_link": "https://www.chewy.com/nite-ize-spotli-rechargeable-dog/dp/357734",
+          "product_price_current": 17.99,
+          "autoship_eligible": false,
+          "similarity": 0.6731
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 15,
+      "top_family": "Health & Wellness",
+      "rationale": "Calendar shows multiple noise/stressor seasons (leaf blower, hunting). A diffuser is a non-medicated preventive option to reduce stress and make training easier in an apartment.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy pheromone calming diffuser plug-in or portable sized for apartment rooms, dog-specific synthetic pheromone to reduce situational stress and separation anxiety",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "807494",
+          "parentSKU": "807486",
+          "name": "Beloved Pets Calming Pheromone Refill Dog Diffuser, 3-oz bottle, 2 count",
+          "product_link": "https://www.chewy.com/relaxivet-calming-pheromone-refill/dp/807494",
+          "product_price_current": 19.99,
+          "autoship_eligible": true,
+          "similarity": 0.7588
+        },
+        {
+          "rank": 2,
+          "sku": "155516",
+          "parentSKU": "71577",
+          "name": "Sentry Good Behavior Calming Diffuser Refill for Dogs, 30 day",
+          "product_link": "https://www.chewy.com/sentry-good-behavior-calming-diffuser/dp/182277",
+          "product_price_current": 7.2,
+          "autoship_eligible": true,
+          "similarity": 0.7286
+        },
+        {
+          "rank": 3,
+          "sku": "807526",
+          "parentSKU": "807518",
+          "name": "Beloved Pets Calming Kit for Dogs & Puppy Diffuser, 1.5-oz bottle",
+          "product_link": "https://www.chewy.com/relaxivet-calming-kit-dogs-puppy/dp/807526",
+          "product_price_current": 12.99,
+          "autoship_eligible": true,
+          "similarity": 0.7237
+        },
+        {
+          "rank": 4,
+          "sku": "1062662",
+          "parentSKU": "1062646",
+          "name": "Sentry Behavior Portable Calming Diffuser for Dogs",
+          "product_link": "https://www.chewy.com/sentry-behavior-portable-calming/dp/1062662",
+          "product_price_current": 21.99,
+          "autoship_eligible": true,
+          "similarity": 0.6847
+        },
+        {
+          "rank": 5,
+          "sku": "1405142",
+          "parentSKU": "1405134",
+          "name": "Vetality Harmony Pet Calming Home Diffuser for Dogs",
+          "product_link": "https://www.chewy.com/vetality-harmony-pet-calming-home/dp/1405142",
+          "product_price_current": 18.74,
+          "autoship_eligible": true,
+          "similarity": 0.6793
+        },
+        {
+          "rank": 6,
+          "sku": "155514",
+          "parentSKU": "71575",
+          "name": "Sentry Good Behavior Calming Diffuser for Dogs, 30 day",
+          "product_link": "https://www.chewy.com/sentry-good-behavior-calming-diffuser/dp/182275",
+          "product_price_current": 33.99,
+          "autoship_eligible": true,
+          "similarity": 0.6788
+        },
+        {
+          "rank": 7,
+          "sku": "1062694",
+          "parentSKU": "1062686",
+          "name": "Sentry Behavior Portable Calming Diffuser Refill for Dogs, 2 count",
+          "product_link": "https://www.chewy.com/sentry-behavior-portable-calming/dp/1062694",
+          "product_price_current": 16.67,
+          "autoship_eligible": true,
+          "similarity": 0.6682
+        },
+        {
+          "rank": 8,
+          "sku": "577094",
+          "parentSKU": "577086",
+          "name": "Pet Remedy Natural De-Stress & Calming Plug-In Diffuser for Cats & Dogs, 40-ml bottle",
+          "product_link": "https://www.chewy.com/pet-remedy-natural-de-stress-calming/dp/577094",
+          "product_price_current": 28.99,
+          "autoship_eligible": true,
+          "similarity": 0.6678
+        },
+        {
+          "rank": 9,
+          "sku": "1760030",
+          "parentSKU": "1760022",
+          "name": "Virbac Zenidog Pheromone Calming Gel Diffuser for Dogs",
+          "product_link": "https://www.chewy.com/zenidog-pheromone-calming-gel/dp/1760030",
+          "product_price_current": 29.99,
+          "autoship_eligible": true,
+          "similarity": 0.6615
+        },
+        {
+          "rank": 10,
+          "sku": "276871",
+          "parentSKU": "71567",
+          "name": "Sentry Good Behavior Calming Spray for Dogs, 1.62-oz",
+          "product_link": "https://www.chewy.com/sentry-good-behavior-calming-spray/dp/303286",
+          "product_price_current": 17.99,
+          "autoship_eligible": true,
+          "similarity": 0.6552
+        },
+        {
+          "rank": 11,
+          "sku": "1492086",
+          "parentSKU": "1492046",
+          "name": "ALZOO Natural Plant Based Plug-In & Refill Kit Dog Calming Diffuser",
+          "product_link": "https://www.chewy.com/alzoo-plant-based-plug-in-refill-kit/dp/1492086",
+          "product_price_current": 22.99,
+          "autoship_eligible": true,
+          "similarity": 0.651
+        },
+        {
+          "rank": 12,
+          "sku": "577110",
+          "parentSKU": "577102",
+          "name": "Pet Remedy Natural De-Stress & Calming Plug-In Diffuser Refill for Cats & Dogs, 40-ml bottle, 2 count",
+          "product_link": "https://www.chewy.com/pet-remedy-natural-de-stress-calming/dp/577110",
+          "product_price_current": 28.0,
+          "autoship_eligible": true,
+          "similarity": 0.6476
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 16,
+      "top_family": "Gear/Travel",
+      "rationale": "With an excessive heat warning and apartment-based short outdoor trips, carrying water for hydration during walks is an important preventive measure against heat stress.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy portable leakproof water bottle with attached travel bowl/cup, 12-20 oz capacity sized for small dogs, easy to carry or clip to leash for short walks",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1717350",
+          "parentSKU": "1717342",
+          "name": "LESOTC Portable Squeeze Dog Water Bottle, 18-oz",
+          "product_link": "https://www.chewy.com/lesotc-portable-squeeze-dog-water/dp/1717350",
+          "product_price_current": 16.98,
+          "autoship_eligible": false,
+          "similarity": 0.7072
+        },
+        {
+          "rank": 2,
+          "sku": "2017894",
+          "parentSKU": "2017878",
+          "name": "Vapur Portable Dog Water Bottle, Blackout, 23-oz",
+          "product_link": "https://www.chewy.com/vapur-portable-dog-water-bottle/dp/2017894",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.7024
+        },
+        {
+          "rank": 3,
+          "sku": "1303302",
+          "parentSKU": "1303278",
+          "name": "DOOG 3-in-1 Neoprene Dog Water Bottle & Bowl, Blue",
+          "product_link": "https://www.chewy.com/doog-3-in-1-neoprene-dog-water-bottle/dp/1303302",
+          "product_price_current": 15.73,
+          "autoship_eligible": false,
+          "similarity": 0.6909
+        },
+        {
+          "rank": 4,
+          "sku": "1814934",
+          "parentSKU": "1814918",
+          "name": "LESOTC Foldable Travel Dog Water Bottle, 34-oz, Pink",
+          "product_link": "https://www.chewy.com/lesotc-foldable-travel-dog-water/dp/1814934",
+          "product_price_current": 21.84,
+          "autoship_eligible": false,
+          "similarity": 0.6818
+        },
+        {
+          "rank": 5,
+          "sku": "1977462",
+          "parentSKU": "1977454",
+          "name": "ShopInstaPets Ole Miss Rebels Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz",
+          "product_link": "https://www.chewy.com/shopinstapets-ole-miss-rebels/dp/1977462",
+          "product_price_current": 49.99,
+          "autoship_eligible": false,
+          "similarity": 0.6743
+        },
+        {
+          "rank": 6,
+          "sku": "1717334",
+          "parentSKU": "1717318",
+          "name": "LESOTC Portable Dog Water Bottle, 34-oz",
+          "product_link": "https://www.chewy.com/lesotc-portable-dog-water-bottle-34/dp/1717334",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.6727
+        },
+        {
+          "rank": 7,
+          "sku": "1000042604",
+          "parentSKU": "1000042596",
+          "name": "Dogit Portable Water Dispenser Dog Bottle",
+          "product_link": null,
+          "product_price_current": 2.2,
+          "autoship_eligible": false,
+          "similarity": 0.6722
+        },
+        {
+          "rank": 8,
+          "sku": "1977446",
+          "parentSKU": "1977438",
+          "name": "ShopInstaPets Penn State Nittany Lions Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz",
+          "product_link": "https://www.chewy.com/shopinstapets-penn-state-nittany/dp/1977446",
+          "product_price_current": 49.99,
+          "autoship_eligible": false,
+          "similarity": 0.6718
+        },
+        {
+          "rank": 9,
+          "sku": "212863",
+          "parentSKU": "132440",
+          "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, 20-oz bottle, Purple",
+          "product_link": "https://www.chewy.com/highwave-autodogmug-portable-dog/dp/239445",
+          "product_price_current": 20.0,
+          "autoship_eligible": false,
+          "similarity": 0.6691
+        },
+        {
+          "rank": 10,
+          "sku": "1977478",
+          "parentSKU": "1977470",
+          "name": "ShopInstaPets Nebraska Cornhuskers Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz",
+          "product_link": "https://www.chewy.com/shopinstapets-nebraska-cornhuskers/dp/1977478",
+          "product_price_current": 49.99,
+          "autoship_eligible": false,
+          "similarity": 0.6672
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 17,
+      "top_family": "Seasonal/Environment",
+      "rationale": "Calendar indicates fall allergy season which can affect indoor air quality; an air purifier helps reduce environmental allergens for both pet and household members and improves respiratory comfort.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy compact HEPA air purifier sized for a small apartment room to reduce pollen and dust, simple controls and replaceable filters for allergy season",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1348742",
+          "parentSKU": "1348734",
+          "name": "Shark HC45 3-in-1 with True HEPA Air Purifier, Ninja Dark Grey",
+          "product_link": "https://www.chewy.com/shark-hc45-3-in-1-true-hepa-air/dp/1348742",
+          "product_price_current": 399.99,
+          "autoship_eligible": false,
+          "similarity": 0.6889
+        },
+        {
+          "rank": 2,
+          "sku": "741622",
+          "parentSKU": "741614",
+          "name": "LEVOIT PlasmaPro 300S Smart Air Purifier",
+          "product_link": "https://www.chewy.com/levoit-plasmapro-300s-smart-true-hepa/dp/741622",
+          "product_price_current": 149.99,
+          "autoship_eligible": false,
+          "similarity": 0.6875
+        },
+        {
+          "rank": 3,
+          "sku": "1943486",
+          "parentSKU": "1943462",
+          "name": "IRIS WOOZOO True HEPA 500284 Air Purifier",
+          "product_link": "https://www.chewy.com/iris-woozoo-true-hepa-500284-air/dp/1943486",
+          "product_price_current": 79.99,
+          "autoship_eligible": false,
+          "similarity": 0.6849
+        },
+        {
+          "rank": 4,
+          "sku": "1597846",
+          "parentSKU": "1597830",
+          "name": "Blueair Blue Pure 511i Max Air Purifier, Small, White/Grey",
+          "product_link": "https://www.chewy.com/blueair-blue-pure-511i-max-air/dp/1597846",
+          "product_price_current": 119.99,
+          "autoship_eligible": false,
+          "similarity": 0.6813
+        },
+        {
+          "rank": 5,
+          "sku": "192873",
+          "parentSKU": "192871",
+          "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, Black",
+          "product_link": "https://www.chewy.com/rabbit-air-minusa2-allergy-spa-780a/dp/219509",
+          "product_price_current": 599.95,
+          "autoship_eligible": false,
+          "similarity": 0.6801
+        },
+        {
+          "rank": 6,
+          "sku": "1597862",
+          "parentSKU": "1597854",
+          "name": "Blueair ComfortPure 3-in-1 Air Purifier, Large, White/Grey",
+          "product_link": "https://www.chewy.com/blueair-comfortpure-3-in-1-air/dp/1597862",
+          "product_price_current": 377.99,
+          "autoship_eligible": false,
+          "similarity": 0.6787
+        },
+        {
+          "rank": 7,
+          "sku": "230446",
+          "parentSKU": "230445",
+          "name": "LEVOIT Smart True Air Purifier",
+          "product_link": "https://www.chewy.com/levoit-smart-true-hepa-air-purifier/dp/256954",
+          "product_price_current": 199.99,
+          "autoship_eligible": false,
+          "similarity": 0.6777
+        },
+        {
+          "rank": 8,
+          "sku": "230452",
+          "parentSKU": "230451",
+          "name": "LEVOIT Tower Air Purifier",
+          "product_link": "https://www.chewy.com/levoit-tower-hepa-air-purifier/dp/256960",
+          "product_price_current": 199.99,
+          "autoship_eligible": false,
+          "similarity": 0.6732
+        },
+        {
+          "rank": 9,
+          "sku": "2049390",
+          "parentSKU": "2049374",
+          "name": "Dreo Macro Max S Smart Air Purifier",
+          "product_link": "https://www.chewy.com/dreo-macro-max-s-smart-air-purifier/dp/2049390",
+          "product_price_current": 235.38,
+          "autoship_eligible": false,
+          "similarity": 0.6712
+        },
+        {
+          "rank": 10,
+          "sku": "1309830",
+          "parentSKU": "1309822",
+          "name": "Dyson TP07 Cool Fan Air Purifier, White/Silver",
+          "product_link": "https://www.chewy.com/dyson-tp07-cool-fan-air-purifier/dp/1309830",
+          "product_price_current": 649.99,
+          "autoship_eligible": false,
+          "similarity": 0.6712
+        },
+        {
+          "rank": 11,
+          "sku": "1097254",
+          "parentSKU": "1097214",
+          "name": "IRIS WOOZOO Air Purifier with True HEPA Filter for Large & Extra Large Rooms, White, Extra Large APF-45",
+          "product_link": "https://www.chewy.com/iris-woozoo-apf-45-true-hepa-filter/dp/1097254",
+          "product_price_current": 317.99,
+          "autoship_eligible": true,
+          "similarity": 0.6677
+        },
+        {
+          "rank": 12,
+          "sku": "2049398",
+          "parentSKU": "2049382",
+          "name": "Dreo Macro-414 Tabletop Air Purifier",
+          "product_link": "https://www.chewy.com/dreo-macro-414-tabletop-air-purifier/dp/2049398",
+          "product_price_current": 89.99,
+          "autoship_eligible": false,
+          "similarity": 0.6652
+        }
+      ],
+      "bucket": "nice_to_haves"
+    },
+    {
+      "slot_id": 18,
+      "top_family": "Feeding/Bowls",
+      "rationale": "Pugs often gulp food; slowing mealtimes reduces bloat risk and provides mental stimulation for a high-energy puppy living in an apartment.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy interactive puzzle feeder or slow-feed bowl sized for small dogs, slows eating, provides mental stimulation, easy-to-clean and dishwasher-safe",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "2084062",
+          "parentSKU": "2084046",
+          "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Yellow",
+          "product_link": "https://www.chewy.com/puzzlefeeder-slow-feeder-dog-bowls/dp/2084062",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.7462
+        },
+        {
+          "rank": 2,
+          "sku": "684974",
+          "parentSKU": "684966",
+          "name": "Outward Hound Lickin' Layers Interactive Puzzle Game & Slow Feeder, Multicolor, One-Size, 2 cup",
+          "product_link": "https://www.chewy.com/outward-hound-lickin-layers/dp/684974",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.7275
+        },
+        {
+          "rank": 3,
+          "sku": "2084190",
+          "parentSKU": "2084182",
+          "name": "PuzzleFeeder Dog Snuffle Mat, Green, Medium/Large",
+          "product_link": "https://www.chewy.com/puzzlefeeder-dog-snuffle-mat-green/dp/2084190",
+          "product_price_current": 18.99,
+          "autoship_eligible": false,
+          "similarity": 0.7268
+        },
+        {
+          "rank": 4,
+          "sku": "1000078709",
+          "parentSKU": "1000078703",
+          "name": "Outward Hound Lickin' Layers Interactive Puzzle Game & Slow Feeder, Multicolor, One-Size, 2 cup",
+          "product_link": null,
+          "product_price_current": 21.22,
+          "autoship_eligible": false,
+          "similarity": 0.7267
+        },
+        {
+          "rank": 5,
+          "sku": "2084142",
+          "parentSKU": "2084134",
+          "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, Medium",
+          "product_link": "https://www.chewy.com/puzzlefeeder-interactive-puzzle-dog/dp/2084142",
+          "product_price_current": 18.99,
+          "autoship_eligible": false,
+          "similarity": 0.7264
+        },
+        {
+          "rank": 6,
+          "sku": "2084126",
+          "parentSKU": "2084102",
+          "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Grey",
+          "product_link": "https://www.chewy.com/puzzlefeeder-dog-slow-feeder-insert/dp/2084126",
+          "product_price_current": 15.99,
+          "autoship_eligible": false,
+          "similarity": 0.7216
+        },
+        {
+          "rank": 7,
+          "sku": "778214",
+          "parentSKU": "778206",
+          "name": "Nina Ottosson by Outward Hound Spin N' Eat Dog Food Puzzle Feeder, Green",
+          "product_link": "https://www.chewy.com/nina-ottosson-by-outward-hound-spin-n/dp/778214",
+          "product_price_current": 10.57,
+          "autoship_eligible": false,
+          "similarity": 0.7198
+        },
+        {
+          "rank": 8,
+          "sku": "855574",
+          "parentSKU": "855566",
+          "name": "Outward Hound Puppy Lickin' Layers Slow Feeder for Puppies Interactive Dog Puzzle Game, Multiple Colors",
+          "product_link": "https://www.chewy.com/outward-hound-puppy-lickin-layers/dp/855574",
+          "product_price_current": 11.19,
+          "autoship_eligible": false,
+          "similarity": 0.7151
+        },
+        {
+          "rank": 9,
+          "sku": "85931",
+          "parentSKU": "71398",
+          "name": "Outward Hound Non-Skid Plastic Slow Feeder Interactive Dog Bowl, Teal, 2-cup",
+          "product_link": "https://www.chewy.com/outward-hound-non-skid-plastic-slow/dp/113714",
+          "product_price_current": 7.89,
+          "autoship_eligible": false,
+          "similarity": 0.6953
+        },
+        {
+          "rank": 10,
+          "sku": "85929",
+          "parentSKU": "71395",
+          "name": "Outward Hound Fun Feeder Interactive Dog Bowl, Orange, 2 cup",
+          "product_link": "https://www.chewy.com/outward-hound-fun-feeder-interactive/dp/113712",
+          "product_price_current": 10.49,
+          "autoship_eligible": false,
+          "similarity": 0.6943
+        },
+        {
+          "rank": 11,
+          "sku": "2149830",
+          "parentSKU": "2149822",
+          "name": "KADTC Puzzle Bowl Puzzle Dog Toy, Blue",
+          "product_link": "https://www.chewy.com/kadtc-puzzle-bowl-puzzle-dog-toy-blue/dp/2149830",
+          "product_price_current": 33.9,
+          "autoship_eligible": false,
+          "similarity": 0.6941
+        },
+        {
+          "rank": 12,
+          "sku": "2038214",
+          "parentSKU": "2038206",
+          "name": "Outward Hound by Nina Ottosson Lick N' Flip Treat Puzzle Enrichment Dog Toy",
+          "product_link": "https://www.chewy.com/outward-hound-by-nina-ottosson-lick-n/dp/2038214",
+          "product_price_current": 9.99,
+          "autoship_eligible": false,
+          "similarity": 0.6934
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 19,
+      "top_family": "Toys/Chews",
+      "rationale": "Provides physical exercise and mental stimulation inside an apartment, appropriate for a high-activity, strong-chewing puppy.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy small treat-dispensing rubber ball, durable non-toxic rubber, sized for puppies, withstands strong chewing and encourages indoor chase and retrieval",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "91191",
+          "parentSKU": "91190",
+          "name": "KONG Puppy Activity Ball Dog Toy, Color Varies, Small",
+          "product_link": "https://www.chewy.com/kong-puppy-activity-ball-dog-toy/dp/118853",
+          "product_price_current": 7.49,
+          "autoship_eligible": false,
+          "similarity": 0.7088
+        },
+        {
+          "rank": 2,
+          "sku": "161849",
+          "parentSKU": "161847",
+          "name": "KONG Stuffable Puppy Ball Dog Toy, Color Varies, Small",
+          "product_link": "https://www.chewy.com/kong-stuffable-puppy-ball-dog-toy/dp/188561",
+          "product_price_current": 8.99,
+          "autoship_eligible": false,
+          "similarity": 0.7028
+        },
+        {
+          "rank": 3,
+          "sku": "1000051619",
+          "parentSKU": "1000051613",
+          "name": "KONG Puppy Activity Ball Dog Toy, Color Varies, Small",
+          "product_link": null,
+          "product_price_current": 12.05,
+          "autoship_eligible": false,
+          "similarity": 0.7023
+        },
+        {
+          "rank": 4,
+          "sku": "1894142",
+          "parentSKU": "1894110",
+          "name": "Benebone Rubber Ball Treat Dispensing Dog Toy, Green",
+          "product_link": "https://www.chewy.com/benebone-rubber-ball-treat-dispensing/dp/1894142",
+          "product_price_current": 9.99,
+          "autoship_eligible": false,
+          "similarity": 0.6907
+        },
+        {
+          "rank": 5,
+          "sku": "63844",
+          "parentSKU": "63843",
+          "name": "PetSafe Busy Buddy Bouncy Bone Treat Dispenser Tough Dog Chew Toy, Small",
+          "product_link": "https://www.chewy.com/petsafe-busy-buddy-bouncy-bone-treat/dp/48808",
+          "product_price_current": 6.95,
+          "autoship_eligible": false,
+          "similarity": 0.6889
+        },
+        {
+          "rank": 6,
+          "sku": "154205",
+          "parentSKU": "154204",
+          "name": "Ethical Pet Dura Brite Treat Dispenser Ball Dog Toy, Color Varies",
+          "product_link": "https://www.chewy.com/ethical-pet-dura-brite-treat/dp/180974",
+          "product_price_current": 8.55,
+          "autoship_eligible": false,
+          "similarity": 0.6887
+        },
+        {
+          "rank": 7,
+          "sku": "1000051817",
+          "parentSKU": "1000051805",
+          "name": "KONG Stuffable Puppy Ball Dog Toy, Color Varies, Small",
+          "product_link": null,
+          "product_price_current": 15.07,
+          "autoship_eligible": false,
+          "similarity": 0.6813
+        },
+        {
+          "rank": 8,
+          "sku": "71352",
+          "parentSKU": "71351",
+          "name": "Ethical Pet Gumdrop Ball Squeaky Dog Chew Toy, Color Varies, 5-in",
+          "product_link": "https://www.chewy.com/ethical-pet-gumdrop-ball-squeaky-dog/dp/56260",
+          "product_price_current": 8.99,
+          "autoship_eligible": true,
+          "similarity": 0.6782
+        },
+        {
+          "rank": 9,
+          "sku": "150479",
+          "parentSKU": "150478",
+          "name": "KONG Puppy Tires Dog Toy, Color Varies, Small",
+          "product_link": "https://www.chewy.com/kong-puppy-tires-dog-toy-color-varies/dp/177283",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.6756
+        },
+        {
+          "rank": 10,
+          "sku": "62288",
+          "parentSKU": "62280",
+          "name": "Outward Hound Sport Ballz Football Treat-Dispensing Fetch Ball Dog Toy",
+          "product_link": "https://www.chewy.com/planet-dog-orbee-tuff-sport-football/dp/47261",
+          "product_price_current": 15.99,
+          "autoship_eligible": false,
+          "similarity": 0.6703
+        },
+        {
+          "rank": 11,
+          "sku": "92635",
+          "parentSKU": "92634",
+          "name": "Outward Hound Sport Ballz Basketball Durable Treat-Dispensing Fetch Ball Dog Toy",
+          "product_link": "https://www.chewy.com/planet-dog-orbee-tuff-sport/dp/120266",
+          "product_price_current": 15.99,
+          "autoship_eligible": false,
+          "similarity": 0.6698
+        },
+        {
+          "rank": 12,
+          "sku": "62271",
+          "parentSKU": "62268",
+          "name": "Outward Hound Sport Ballz Baseball Treat-Dispensing Fetch Ball Dog Toy",
+          "product_link": "https://www.chewy.com/planet-dog-orbee-tuff-sport-baseball/dp/47243",
+          "product_price_current": 12.49,
+          "autoship_eligible": false,
+          "similarity": 0.6684
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 20,
+      "top_family": "Toys/Chews",
+      "rationale": "Indoor mental stimulation appropriate for rainy Northwest season; engages scenting behavior and tires a high-energy puppy mentally when outdoor time is limited.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy machine-washable snuffle mat sized for small dogs to hide kibble/treats for nose-work enrichment, non-toxic materials and small footprint for apartment use",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1540694",
+          "parentSKU": "1540662",
+          "name": "Nocciola Birthday Snuffle Mat Squeaky Plush Puppy Toy",
+          "product_link": "https://www.chewy.com/nocciola-birthday-snuffle-mat-squeaky/dp/1540694",
+          "product_price_current": 22.99,
+          "autoship_eligible": false,
+          "similarity": 0.6942
+        },
+        {
+          "rank": 2,
+          "sku": "1292654",
+          "parentSKU": "1292614",
+          "name": "Awoo Meadow Snuffle Mat Silicone Dog & Cat Lick Mat Slow Feeder, Mauve",
+          "product_link": "https://www.chewy.com/awoo-meadow-snuffle-mat-silicone-dog/dp/1292654",
+          "product_price_current": 16.0,
+          "autoship_eligible": false,
+          "similarity": 0.6917
+        },
+        {
+          "rank": 3,
+          "sku": "1290726",
+          "parentSKU": "1290718",
+          "name": "TRIXIE Snuffle & Seek Plate, Sniff Mat, Interactive Feeding Game, Slow Feeder, Level 1 Enrichment Dog & Cat Puzzle Toy, Blue",
+          "product_link": "https://www.chewy.com/trixie-snuffle-seek-plate-sniff-mat/dp/1290726",
+          "product_price_current": 26.99,
+          "autoship_eligible": false,
+          "similarity": 0.6815
+        },
+        {
+          "rank": 4,
+          "sku": "2056334",
+          "parentSKU": "2056326",
+          "name": "LuftPets Squeaky Bone Snuffle Mat Dog Toy, Large, Red",
+          "product_link": "https://www.chewy.com/luftpets-squeaky-bone-snuffle-mat-dog/dp/2056334",
+          "product_price_current": 33.99,
+          "autoship_eligible": false,
+          "similarity": 0.6733
+        },
+        {
+          "rank": 5,
+          "sku": "1000096637",
+          "parentSKU": "1000095353",
+          "name": "Frisco Vending Machine Snuffle Mat, Blue, Large",
+          "product_link": null,
+          "product_price_current": 21.51,
+          "autoship_eligible": false,
+          "similarity": 0.6653
+        },
+        {
+          "rank": 6,
+          "sku": "1344790",
+          "parentSKU": "1344782",
+          "name": "Nocciola Rosted Veggies Squeaky Interactive Snuffle Feeding Mat Dog Toy",
+          "product_link": "https://www.chewy.com/nocciola-rosted-veggies-squeaky/dp/1344790",
+          "product_price_current": 13.99,
+          "autoship_eligible": false,
+          "similarity": 0.6645
+        },
+        {
+          "rank": 7,
+          "sku": "2084198",
+          "parentSKU": "2084182",
+          "name": "PuzzleFeeder Dog Snuffle Mat, Green, All Breed Sizes",
+          "product_link": "https://www.chewy.com/puzzlefeeder-dog-snuffle-mat-green/dp/2084198",
+          "product_price_current": 27.99,
+          "autoship_eligible": false,
+          "similarity": 0.6643
+        },
+        {
+          "rank": 8,
+          "sku": "1065046",
+          "parentSKU": "1091006",
+          "name": "Nina Ottosson by Outward Hound Snuffle Palz Interactive Plush Puzzle & Snuffle Mat Dog Toy, Cow",
+          "product_link": "https://www.chewy.com/nina-ottosson-snuffle-palz/dp/1065046",
+          "product_price_current": 13.59,
+          "autoship_eligible": false,
+          "similarity": 0.6617
+        },
+        {
+          "rank": 9,
+          "sku": "1065054",
+          "parentSKU": "1091014",
+          "name": "Nina Ottosson by Outward Hound Snuffle Palz Interactive Plush Puzzle & Snuffle Mat Dog Toy, Bear",
+          "product_link": "https://www.chewy.com/nina-ottosson-snuffle-palz/dp/1065054",
+          "product_price_current": 15.99,
+          "autoship_eligible": false,
+          "similarity": 0.6617
+        },
+        {
+          "rank": 10,
+          "sku": "1065038",
+          "parentSKU": "1065030",
+          "name": "Nina Ottosson by Outward Hound Snuffle Palz Interactive Plush Puzzle & Snuffle Mat Dog Toy, Bird",
+          "product_link": "https://www.chewy.com/nina-ottosson-snuffle-palz/dp/1065038",
+          "product_price_current": 12.99,
+          "autoship_eligible": false,
+          "similarity": 0.6614
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 21,
+      "top_family": "Beds",
+      "rationale": "A comfortable, secure sleeping area supports rest and emotional wellbeing for a young energetic puppy living in an apartment. Washable materials help keep the environment clean during shedding/allergy season.",
+      "count": 7,
+      "actual_query": "Dog, 3-month-old puppy small washable padded bed with bolstered sides for comfort and security, machine-washable cover to manage shedding and drool",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1815614",
+          "parentSKU": "1815606",
+          "name": "Bedsure Orthopedic Bolster Dog Bed with Removable Cover, Warm Grey, Small",
+          "product_link": "https://www.chewy.com/bedsure-orthopedic-bolster-dog-bed/dp/1815614",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.7083
+        },
+        {
+          "rank": 2,
+          "sku": "1815438",
+          "parentSKU": "1621230",
+          "name": "Bedsure Orthopedic Bolster Dog Sofa Bed with Removable Cover, Black Checks, Small",
+          "product_link": "https://www.chewy.com/bedsure-orthopedic-bolster-dog-sofa/dp/1815438",
+          "product_price_current": 49.99,
+          "autoship_eligible": false,
+          "similarity": 0.6904
+        },
+        {
+          "rank": 3,
+          "sku": "1458198",
+          "parentSKU": "1458190",
+          "name": "3 Dog Pet Supply Easy Wash Tweed Shearling Memory Foam Dog Bed, Small",
+          "product_link": "https://www.chewy.com/3-dog-pet-supply-easy-wash-tweed/dp/1458198",
+          "product_price_current": 199.0,
+          "autoship_eligible": false,
+          "similarity": 0.6851
+        },
+        {
+          "rank": 4,
+          "sku": "1661150",
+          "parentSKU": "1289326",
+          "name": "Bedsure Round Orthopedic Bolster Anti-Slip Puppy & Kitten Bed with Washable Pillow Cushion, Navy, Small",
+          "product_link": "https://www.chewy.com/bedsure-round-orthopedic-bolster-anti/dp/1661150",
+          "product_price_current": 26.59,
+          "autoship_eligible": false,
+          "similarity": 0.6772
+        },
+        {
+          "rank": 5,
+          "sku": "2113038",
+          "parentSKU": "2113030",
+          "name": "Bedsure Square Bolster Dog Bed, Grey, Small",
+          "product_link": "https://www.chewy.com/bedsure-square-bolster-dog-bed-grey/dp/2113038",
+          "product_price_current": 28.79,
+          "autoship_eligible": false,
+          "similarity": 0.6727
+        },
+        {
+          "rank": 6,
+          "sku": "703230",
+          "parentSKU": "703222",
+          "name": "3 Dog Pet Supply EZ Wash Fleece Headrest Dog Bed, Chocolate, Large",
+          "product_link": "https://www.chewy.com/3-dog-pet-supply-ez-wash-fleece/dp/703230",
+          "product_price_current": 169.0,
+          "autoship_eligible": false,
+          "similarity": 0.6702
+        },
+        {
+          "rank": 7,
+          "sku": "1815854",
+          "parentSKU": "1815822",
+          "name": "Bedsure Donut Bolster Dog Bed with Removable Cover, Cream, X-Small",
+          "product_link": "https://www.chewy.com/bedsure-donut-bolster-dog-bed/dp/1815854",
+          "product_price_current": 29.99,
+          "autoship_eligible": false,
+          "similarity": 0.67
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 22,
+      "top_family": "Feeding/Bowls",
+      "rationale": "Helps cool and soothe this brachycephalic puppy during hot days while providing enrichment and teething relief during excessive heat periods.",
+      "count": 8,
+      "actual_query": "Dog, 3-month-old puppy silicone frozen-treat molds sized for small servings to make pet-safe frozen yogurt or food-based treats, dishwasher-safe and easy to fill",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1206894",
+          "parentSKU": "1206870",
+          "name": "Woof Pupsicle Treat Tray Mold Treat Dispenser Dog Toy, Small",
+          "product_link": "https://www.chewy.com/woof-pupsicle-treat-tray-mold-treat/dp/1206894",
+          "product_price_current": 11.99,
+          "autoship_eligible": false,
+          "similarity": 0.7558
+        },
+        {
+          "rank": 2,
+          "sku": "1671182",
+          "parentSKU": "1671158",
+          "name": "Woof Starter Pack Peanut Butter & Chicken Flavored Treats, Silicone Mold & Pupsicle Dog Toy, X-Large",
+          "product_link": "https://www.chewy.com/woof-starter-pack-chicken-flavored/dp/1671182",
+          "product_price_current": 49.99,
+          "autoship_eligible": true,
+          "similarity": 0.6498
+        },
+        {
+          "rank": 3,
+          "sku": "1023510",
+          "parentSKU": "1206862",
+          "name": "Woof Pupsicle Long Lasting Refillable Dog Treat Dispenser Toy, Large",
+          "product_link": "https://www.chewy.com/woof-pupsicle-treat-dispenser-dog-toy/dp/1023510",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6397
+        },
+        {
+          "rank": 4,
+          "sku": "1858622",
+          "parentSKU": "1858590",
+          "name": "Cool Pup Toy Ice Cream Cone Dog Chew Toy, Blue, Mini",
+          "product_link": "https://www.chewy.com/cool-pup-toy-ice-cream-cone-dog-chew/dp/1858622",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.6299
+        },
+        {
+          "rank": 5,
+          "sku": "1762718",
+          "parentSKU": "1762686",
+          "name": "Woof Party Pupsicle Treat Dispensing Dog Toy, Buddy Blue, Small",
+          "product_link": "https://www.chewy.com/woof-party-pupsicle-treat-dispensing/dp/1762718",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6272
+        },
+        {
+          "rank": 6,
+          "sku": "347020",
+          "parentSKU": "347016",
+          "name": "SodaPup Ice Cream Cone Treat Dispenser Dog Toy, Pink, Medium",
+          "product_link": "https://www.chewy.com/sodapup-ice-cream-cone-treat/dp/373254",
+          "product_price_current": 13.99,
+          "autoship_eligible": false,
+          "similarity": 0.6261
+        },
+        {
+          "rank": 7,
+          "sku": "1858750",
+          "parentSKU": "1858654",
+          "name": "Cool Pup Toy Popsicle Dog Chew Toy, Blue, Mini",
+          "product_link": "https://www.chewy.com/cool-pup-toy-popsicle-dog-chew-toy/dp/1858750",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.6257
+        },
+        {
+          "rank": 8,
+          "sku": "159073",
+          "parentSKU": "159072",
+          "name": "PetSafe Chilly Penguin Freezable Treat Holding Dog Toy, Small",
+          "product_link": "https://www.chewy.com/petsafe-chilly-penguin-freezable/dp/185808",
+          "product_price_current": 6.49,
+          "autoship_eligible": false,
+          "similarity": 0.6248
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 23,
+      "top_family": "Toys/Chews",
+      "rationale": "Provides comfort and interactive play for bonding and gentle play sessions; appropriate to the puppy's age for supervised enrichment.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy reinforced squeaky plush toy small size with reinforced seams and toy-safe squeaker for supervised play, designed to resist easy destruction",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "1541902",
+          "parentSKU": "1541894",
+          "name": "The Worthy Dog Lucky Squeaky Plush Dog Toy, Green, Small",
+          "product_link": "https://www.chewy.com/worthy-dog-lucky-squeaky-plush-dog/dp/1541902",
+          "product_price_current": 13.9,
+          "autoship_eligible": false,
+          "similarity": 0.6451
+        },
+        {
+          "rank": 2,
+          "sku": "2008758",
+          "parentSKU": "2008742",
+          "name": "Destructables Aussie the Koala Stuffing-Free Dog Plush Toy",
+          "product_link": "https://www.chewy.com/destructables-aussie-koala-stuffing/dp/2008758",
+          "product_price_current": 17.99,
+          "autoship_eligible": false,
+          "similarity": 0.6409
+        },
+        {
+          "rank": 3,
+          "sku": "2008774",
+          "parentSKU": "2008750",
+          "name": "Destructables Baart the Sheep Stuffing-Free Dog Plush Toy",
+          "product_link": "https://www.chewy.com/destructables-baart-sheep-stuffing/dp/2008774",
+          "product_price_current": 16.99,
+          "autoship_eligible": false,
+          "similarity": 0.6408
+        },
+        {
+          "rank": 4,
+          "sku": "1822006",
+          "parentSKU": "1821998",
+          "name": "The Worthy Dog Panda Squeaky Plush Dog Toy, Green, Small",
+          "product_link": "https://www.chewy.com/worthy-dog-panda-squeaky-plush-dog/dp/1822006",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6354
+        },
+        {
+          "rank": 5,
+          "sku": "1541878",
+          "parentSKU": "1541870",
+          "name": "The Worthy Dog Chick Squeaky Plush Dog Toy, Yellow, Small",
+          "product_link": "https://www.chewy.com/worthy-dog-chick-squeaky-plush-dog/dp/1541878",
+          "product_price_current": 21.95,
+          "autoship_eligible": false,
+          "similarity": 0.6324
+        },
+        {
+          "rank": 6,
+          "sku": "85905",
+          "parentSKU": "65892",
+          "name": "Outward Hound Durablez Tough Plush Dog Toy, Pink, X-Small",
+          "product_link": "https://www.chewy.com/outward-hound-invincibles-minis/dp/113688",
+          "product_price_current": 5.46,
+          "autoship_eligible": true,
+          "similarity": 0.6314
+        },
+        {
+          "rank": 7,
+          "sku": "85904",
+          "parentSKU": "65890",
+          "name": "Outward Hound Durablez Tough Plush Dog Toy, Turquoise, X-Small",
+          "product_link": "https://www.chewy.com/outward-hound-invincibles-minis/dp/113687",
+          "product_price_current": 5.48,
+          "autoship_eligible": false,
+          "similarity": 0.6314
+        },
+        {
+          "rank": 8,
+          "sku": "190587",
+          "parentSKU": "1062470",
+          "name": "Outward Hound Durablez Owl Tough Plush Dog Toy, Purple, X-Small",
+          "product_link": "https://www.chewy.com/outward-hound-invincibles-squeaky/dp/217236",
+          "product_price_current": 5.37,
+          "autoship_eligible": true,
+          "similarity": 0.6312
+        },
+        {
+          "rank": 9,
+          "sku": "190586",
+          "parentSKU": "1062462",
+          "name": "Outward Hound Durablez Fox Tough Plush Dog Toy, Orange, X-Small",
+          "product_link": "https://www.chewy.com/outward-hound-invincibles-squeaky/dp/217235",
+          "product_price_current": 5.98,
+          "autoship_eligible": true,
+          "similarity": 0.6312
+        },
+        {
+          "rank": 10,
+          "sku": "85902",
+          "parentSKU": "65886",
+          "name": "Outward Hound Durablez Tough Plush Dog Toy, Orange, X-Small",
+          "product_link": "https://www.chewy.com/outward-hound-invincibles-minis/dp/113685",
+          "product_price_current": 3.99,
+          "autoship_eligible": false,
+          "similarity": 0.6311
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 24,
+      "top_family": "Toys/Chews",
+      "rationale": "High-activity puppy benefits from interactive play that provides exercise and strengthens owner-puppy bond; choose durable designs to accommodate strong chewing.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy small heavy-duty tug toy made from durable fabric or braided fibers, small handles for human hands and puppy mouths, suitable for supervised tug games",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "54172",
+          "parentSKU": "53936",
+          "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Yellow Bones",
+          "product_link": "https://www.chewy.com/tuffys-ultimate-tug-o-war-squeaky/dp/39289",
+          "product_price_current": 20.99,
+          "autoship_eligible": false,
+          "similarity": 0.6837
+        },
+        {
+          "rank": 2,
+          "sku": "839046",
+          "parentSKU": "839038",
+          "name": "Playology Beef Scented Young & Active Tough Tug Knot Dog Toy, Medium",
+          "product_link": "https://www.chewy.com/playology-puppy-tough-tug-knot-beef/dp/839046",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6821
+        },
+        {
+          "rank": 3,
+          "sku": "53811",
+          "parentSKU": "53766",
+          "name": "Ruff Dawg Super Tug Tough Dog Toy, Color Varies",
+          "product_link": "https://www.chewy.com/ruff-dawg-tug-toy-color-varies-super/dp/38938",
+          "product_price_current": 20.99,
+          "autoship_eligible": false,
+          "similarity": 0.6776
+        },
+        {
+          "rank": 4,
+          "sku": "839078",
+          "parentSKU": "839070",
+          "name": "Playology Chicken Scented Young & Active Tough Tug Knot Dog Toy, Medium",
+          "product_link": "https://www.chewy.com/playology-puppy-tough-tug-knot/dp/839078",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6766
+        },
+        {
+          "rank": 5,
+          "sku": "1000051313",
+          "parentSKU": "1000051307",
+          "name": "KONG Tug Dog Toy, Medium",
+          "product_link": null,
+          "product_price_current": 15.88,
+          "autoship_eligible": false,
+          "similarity": 0.6701
+        },
+        {
+          "rank": 6,
+          "sku": "148527",
+          "parentSKU": "148526",
+          "name": "Nerf Dog Tuff Tug 3 Ring Dog Toy",
+          "product_link": "https://www.chewy.com/nerf-dog-tuff-tug-3-ring-dog-toy/dp/175353",
+          "product_price_current": 10.69,
+          "autoship_eligible": false,
+          "similarity": 0.6697
+        },
+        {
+          "rank": 7,
+          "sku": "1223094",
+          "parentSKU": "1223046",
+          "name": "Angel Freedom Tug 1-Handle Tough Dog Tug Toy, Green",
+          "product_link": "https://www.chewy.com/angel-freedom-tug-1-handle-tough-dog/dp/1223094",
+          "product_price_current": 18.95,
+          "autoship_eligible": false,
+          "similarity": 0.6694
+        },
+        {
+          "rank": 8,
+          "sku": "1223110",
+          "parentSKU": "1223070",
+          "name": "Angel Endurance Jute Tug 2-Handle Tough Dog Tug Toy, Black",
+          "product_link": "https://www.chewy.com/angel-endurance-jute-tug-2-handle/dp/1223110",
+          "product_price_current": 20.95,
+          "autoship_eligible": false,
+          "similarity": 0.6692
+        },
+        {
+          "rank": 9,
+          "sku": "532286",
+          "parentSKU": "532278",
+          "name": "Pacific Pups Rescue Rope Tug Dog Toy, Large, Blue",
+          "product_link": "https://www.chewy.com/pacific-pups-rescue-rope-tug-dog-toy/dp/532286",
+          "product_price_current": 12.99,
+          "autoship_eligible": false,
+          "similarity": 0.6677
+        },
+        {
+          "rank": 10,
+          "sku": "83260",
+          "parentSKU": "83259",
+          "name": "Mammoth Braided Tug with Tennis Ball for Dogs, Color Varies, Small",
+          "product_link": "https://www.chewy.com/mammoth-braided-tug-tennis-ball-dogs/dp/111071",
+          "product_price_current": 5.99,
+          "autoship_eligible": false,
+          "similarity": 0.6673
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 25,
+      "top_family": "Training/Tech",
+      "rationale": "Clicker training is a low-cost, effective method to accelerate obedience learning during the puppy's prime training window at 3 months.",
+      "count": 8,
+      "actual_query": "Dog, 3-month-old puppy handheld clicker training tool, compact and inexpensive, optionally bundled with a short beginner training guide for positive reinforcement sessions",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "791374",
+          "parentSKU": "791366",
+          "name": "Training COA Multi-Clicker Dog Training Clicker, Red",
+          "product_link": "https://www.chewy.com/training-coa-multi-clicker-dog/dp/791374",
+          "product_price_current": 8.99,
+          "autoship_eligible": false,
+          "similarity": 0.6941
+        },
+        {
+          "rank": 2,
+          "sku": "154658",
+          "parentSKU": "154657",
+          "name": "PetSafe Clik-R Dog Training Tool",
+          "product_link": "https://www.chewy.com/petsafe-clik-r-dog-training-tool/dp/181424",
+          "product_price_current": 3.99,
+          "autoship_eligible": false,
+          "similarity": 0.682
+        },
+        {
+          "rank": 3,
+          "sku": "353044",
+          "parentSKU": "353043",
+          "name": "Mighty Paw Dog Training Clicker",
+          "product_link": "https://www.chewy.com/mighty-paw-dog-training-clicker/dp/379276",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.669
+        },
+        {
+          "rank": 4,
+          "sku": "122567",
+          "parentSKU": "122559",
+          "name": "Downtown Pet Supply Training Dog Clickers, Color Varies, 2 pack",
+          "product_link": "https://www.chewy.com/downtown-pet-supply-training-dog/dp/149715",
+          "product_price_current": 5.99,
+          "autoship_eligible": false,
+          "similarity": 0.6605
+        },
+        {
+          "rank": 5,
+          "sku": "791390",
+          "parentSKU": "791382",
+          "name": "Training COA Whizzclick Dog Training Clicker, Blue",
+          "product_link": "https://www.chewy.com/training-coa-whizzclick-dog-training/dp/791390",
+          "product_price_current": 10.99,
+          "autoship_eligible": false,
+          "similarity": 0.6585
+        },
+        {
+          "rank": 6,
+          "sku": "215396",
+          "parentSKU": "215395",
+          "name": "SunGrow Clickers with Wrist Band Dog & Cat Potty & Treat Training Tool, 7 count",
+          "product_link": "https://www.chewy.com/sungrow-clickers-wrist-band-dog-cat/dp/241963",
+          "product_price_current": 4.99,
+          "autoship_eligible": false,
+          "similarity": 0.6574
+        },
+        {
+          "rank": 7,
+          "sku": "77168",
+          "parentSKU": "77167",
+          "name": "Starmark Pro-Training Clicker Deluxe Dog Training Aid",
+          "product_link": "https://www.chewy.com/starmark-pro-training-clicker-deluxe/dp/105033",
+          "product_price_current": 5.8,
+          "autoship_eligible": false,
+          "similarity": 0.6521
+        },
+        {
+          "rank": 8,
+          "sku": "1044110",
+          "parentSKU": "1044102",
+          "name": "Educator FC-100 Finger Clicker Dog Training Clicker, Teal",
+          "product_link": "https://www.chewy.com/educator-fc-100-finger-clicker-dog/dp/1044110",
+          "product_price_current": 10.6,
+          "autoship_eligible": false,
+          "similarity": 0.647
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 26,
+      "top_family": "Gear/Travel",
+      "rationale": "No yard and apartment living mean a secure indoor play area is helpful for exercise, puppy-proofing, and supervised activity when the owner cannot constantly watch the puppy.",
+      "count": 12,
+      "actual_query": "Dog, 3-month-old puppy portable indoor exercise pen small/puppy size, foldable metal or heavy-duty plastic, non-slip base option, reconfigurable panels for small apartment spaces",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "192493",
+          "parentSKU": "192492",
+          "name": "Iconic Pet 8-Panel Portable Foldable Wire Dog Pen, 24-in",
+          "product_link": "https://www.chewy.com/iconic-pet-8-panel-portable-foldable/dp/219129",
+          "product_price_current": 48.97,
+          "autoship_eligible": false,
+          "similarity": 0.7019
+        },
+        {
+          "rank": 2,
+          "sku": "1814990",
+          "parentSKU": "1814974",
+          "name": "Yaheetech Foldable Dog Playpen, Black, 16-Panel, 31.5-in",
+          "product_link": "https://www.chewy.com/yaheetech-315-in-tall-16-panel/dp/1814990",
+          "product_price_current": 112.99,
+          "autoship_eligible": false,
+          "similarity": 0.7006
+        },
+        {
+          "rank": 3,
+          "sku": "2073822",
+          "parentSKU": "2073814",
+          "name": "BingoPaw Heavy Duty 8 Panel Metal Dog Playpen",
+          "product_link": "https://www.chewy.com/bngopaw-heavy-duty-8-panel-metal-dog/dp/2073822",
+          "product_price_current": 180.49,
+          "autoship_eligible": false,
+          "similarity": 0.7006
+        },
+        {
+          "rank": 4,
+          "sku": "2106222",
+          "parentSKU": "2106206",
+          "name": "Yaheetech Foldable Dog Playpen, Black, 8-Panel, 20-in",
+          "product_link": "https://www.chewy.com/yaheetech-8-panel-foldable-dog/dp/2106222",
+          "product_price_current": 39.99,
+          "autoship_eligible": false,
+          "similarity": 0.6992
+        },
+        {
+          "rank": 5,
+          "sku": "1263094",
+          "parentSKU": "1263070",
+          "name": "MyPet Petyard Plus 4-Panel Dog Exercise Pen, Gray",
+          "product_link": "https://www.chewy.com/mypet-petyard-plus-4-panel-dog/dp/1263094",
+          "product_price_current": 54.99,
+          "autoship_eligible": false,
+          "similarity": 0.6984
+        },
+        {
+          "rank": 6,
+          "sku": "677286",
+          "parentSKU": "677246",
+          "name": "Yaheetech 2-Panel Metal Playpen for Outdoor & Indoor Dog Pen, Black, 39.5-in",
+          "product_link": "https://www.chewy.com/yaheetech-2-panel-metal-playpen/dp/677286",
+          "product_price_current": 43.99,
+          "autoship_eligible": false,
+          "similarity": 0.698
+        },
+        {
+          "rank": 7,
+          "sku": "231622",
+          "parentSKU": "231621",
+          "name": "IRIS 8-Panel Dog Exercise Playpen, 34-in, Black",
+          "product_link": "https://www.chewy.com/iris-usa-8-panel-dog-exercise-playpen/dp/258130",
+          "product_price_current": 99.99,
+          "autoship_eligible": false,
+          "similarity": 0.6949
+        },
+        {
+          "rank": 8,
+          "sku": "192457",
+          "parentSKU": "192456",
+          "name": "Iconic Pet Heavy Duty Wire Dog Playpen, 24-in",
+          "product_link": "https://www.chewy.com/iconic-pet-heavy-duty-wire-dog/dp/219093",
+          "product_price_current": 169.99,
+          "autoship_eligible": false,
+          "similarity": 0.6903
+        },
+        {
+          "rank": 9,
+          "sku": "967022",
+          "parentSKU": "967014",
+          "name": "KennelMaster 8-Panel Dog Exercise Pen, Black, 24-in H x 24-in W",
+          "product_link": "https://www.chewy.com/kennelmaster-8-panel-dog-exercise-pen/dp/967022",
+          "product_price_current": 38.93,
+          "autoship_eligible": false,
+          "similarity": 0.6897
+        },
+        {
+          "rank": 10,
+          "sku": "967038",
+          "parentSKU": "967030",
+          "name": "KennelMaster 8-Panel Dog Exercise Pen, Black, 30-in H x 24-in W",
+          "product_link": "https://www.chewy.com/kennelmaster-8-panel-dog-exercise-pen/dp/967038",
+          "product_price_current": 42.98,
+          "autoship_eligible": false,
+          "similarity": 0.6872
+        },
+        {
+          "rank": 11,
+          "sku": "2955094",
+          "parentSKU": "2955086",
+          "name": "Yaheetech Metal Dog Playpen, 8-Panel, 24-in",
+          "product_link": "https://www.chewy.com/yaheetech-metal-dog-playpen-8-panel/dp/2955094",
+          "product_price_current": 49.99,
+          "autoship_eligible": false,
+          "similarity": 0.6843
+        },
+        {
+          "rank": 12,
+          "sku": "967070",
+          "parentSKU": "967062",
+          "name": "KennelMaster 8-Panel Dog Exercise Pen, Black, 42-in H x 24-in W",
+          "product_link": "https://www.chewy.com/kennelmaster-8-panel-dog-exercise-pen/dp/967070",
+          "product_price_current": 66.59,
+          "autoship_eligible": false,
+          "similarity": 0.6829
+        }
+      ],
+      "bucket": "enrichment"
+    },
+    {
+      "slot_id": 27,
+      "top_family": "Toys/Chews",
+      "rationale": "Combines teething relief with cooling benefit during hot days \u0014 practical enrichment aligned with heat safety for a brachycephalic puppy.",
+      "count": 10,
+      "actual_query": "Dog, 3-month-old puppy freezable rubber teether toy small size, fillable with water or treats and frozen for chilled teething relief, non-toxic and dishwasher-safe",
+      "products": [
+        {
+          "rank": 1,
+          "sku": "159073",
+          "parentSKU": "159072",
+          "name": "PetSafe Chilly Penguin Freezable Treat Holding Dog Toy, Small",
+          "product_link": "https://www.chewy.com/petsafe-chilly-penguin-freezable/dp/185808",
+          "product_price_current": 6.49,
+          "autoship_eligible": false,
+          "similarity": 0.6887
+        },
+        {
+          "rank": 2,
+          "sku": "810814",
+          "parentSKU": "810790",
+          "name": "Pet Life Ices Lick & Gnaw Fillable & Freezable Teething Dog Toy, Yellow",
+          "product_link": "https://www.chewy.com/pet-life-ices-lick-gnaw-fillable/dp/810814",
+          "product_price_current": 9.99,
+          "autoship_eligible": false,
+          "similarity": 0.6773
+        },
+        {
+          "rank": 3,
+          "sku": "1858758",
+          "parentSKU": "1858654",
+          "name": "Cool Pup Toy Popsicle Dog Chew Toy, Green, Mini",
+          "product_link": "https://www.chewy.com/cool-pup-toy-popsicle-dog-chew-toy/dp/1858758",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.6739
+        },
+        {
+          "rank": 4,
+          "sku": "61991",
+          "parentSKU": "61987",
+          "name": "Petstages Cool Teething Stick Tough Dog Chew Toy",
+          "product_link": "https://www.chewy.com/petstages-cool-teething-stick-tough/dp/46968",
+          "product_price_current": 4.99,
+          "autoship_eligible": true,
+          "similarity": 0.6714
+        },
+        {
+          "rank": 5,
+          "sku": "1858622",
+          "parentSKU": "1858590",
+          "name": "Cool Pup Toy Ice Cream Cone Dog Chew Toy, Blue, Mini",
+          "product_link": "https://www.chewy.com/cool-pup-toy-ice-cream-cone-dog-chew/dp/1858622",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.6548
+        },
+        {
+          "rank": 6,
+          "sku": "810766",
+          "parentSKU": "810758",
+          "name": "Pet Life Ice Cream Cone Cooling Lick & Gnaw Fillable & Freezable Teething Dog Toy, Blue",
+          "product_link": "https://www.chewy.com/pet-life-ice-cream-cone-cooling-lick/dp/810766",
+          "product_price_current": 6.0,
+          "autoship_eligible": false,
+          "similarity": 0.6418
+        },
+        {
+          "rank": 7,
+          "sku": "161305",
+          "parentSKU": "161304",
+          "name": "Nylabone Puppy Chew Freezer Dog Toy Teething Chew Chilling Cloth Lamb & Apple, Small",
+          "product_link": "https://www.chewy.com/nylabone-puppy-chew-freezer-dog-toy/dp/188026",
+          "product_price_current": 9.99,
+          "autoship_eligible": false,
+          "similarity": 0.6368
+        },
+        {
+          "rank": 8,
+          "sku": "1206838",
+          "parentSKU": "1206830",
+          "name": "Woof Pupsicle Power Chewer Refillable Dog Treat Dispenser Toy, Small",
+          "product_link": "https://www.chewy.com/woof-pupsicle-tough-squeaky-power/dp/1206838",
+          "product_price_current": 24.99,
+          "autoship_eligible": false,
+          "similarity": 0.6335
+        },
+        {
+          "rank": 9,
+          "sku": "150479",
+          "parentSKU": "150478",
+          "name": "KONG Puppy Tires Dog Toy, Color Varies, Small",
+          "product_link": "https://www.chewy.com/kong-puppy-tires-dog-toy-color-varies/dp/177283",
+          "product_price_current": 7.99,
+          "autoship_eligible": false,
+          "similarity": 0.6283
+        },
+        {
+          "rank": 10,
+          "sku": "1206878",
+          "parentSKU": "1206862",
+          "name": "Woof Pupsicle Long Lasting Refillable Dog Treat Dispenser Toy, Small",
+          "product_link": "https://www.chewy.com/woof-pupsicle-tough-long/dp/1206878",
+          "product_price_current": 19.99,
+          "autoship_eligible": false,
+          "similarity": 0.6246
+        }
+      ],
+      "bucket": "enrichment"
+    }
+  ],
+  "all_products": [
+    {
+      "sku": "1000080287",
+      "name": "Royal Canin Size Health Nutrition Small Puppy Dry Dog Food, 6.36-kg bag"
+    },
+    {
+      "sku": "778790",
+      "name": "Royal Canin Size Health Nutrition Small Puppy Dry Dog Food, 14-lb bag"
+    },
+    {
+      "sku": "48918",
+      "name": "Hill's Science Diet Puppy Small Bites Chicken & Brown Rice Recipe Dry Dog Food, 4.5-lb Bag"
+    },
+    {
+      "sku": "1000111895",
+      "name": "Pedigree Puppy Chicken, Rice & Vegetable Flavour Dry Dog Food, 1.59-kg bag"
+    },
+    {
+      "sku": "796398",
+      "name": "Diamond Naturals Small & Medium Breed Puppy Formula Dry Dog Food, 18-lb bag, bundle of 2"
+    },
+    {
+      "sku": "1000026790",
+      "name": "Royal Canin Breed Health Nutrition Chihuahua Puppy Dry Dog Food, 1.135-kg bag"
+    },
+    {
+      "sku": "88062",
+      "name": "Royal Canin Size Health Nutrition Small Indoor Puppy Dry Dog Food, 2.5-lb bag"
+    },
+    {
+      "sku": "1000033270",
+      "name": "Hill's Science Diet Puppy Healthy Development Small Bites Dry Dog Food, 2.04-kg bag"
+    },
+    {
+      "sku": "1000006174",
+      "name": "Purina Pro Plan Development Small Breed Chicken & Rice Formula Dry Dog Food, 2.72-kg bag"
+    },
+    {
+      "sku": "1222382",
+      "name": "Eukanuba Puppy Small Breed Dry Dog Food, 40-lb bag"
+    },
+    {
+      "sku": "1605486",
+      "name": "ORIJEN Grain-Free High-Protein Small Breed Puppy Dry Dog Food, 4-lb bag"
+    },
+    {
+      "sku": "1000080317",
+      "name": "Royal Canin Size Health Nutrition X-Small Puppy Dry Dog Food, 6.36-kg bag"
+    },
+    {
+      "sku": "75441",
+      "name": "Royal Canin Breed Health Nutrition Dachshund Puppy Dry Dog Food, 2.5-lb bag"
+    },
+    {
+      "sku": "1000027286",
+      "name": "Royal Canin Breed Health Nutrition Dachshund Puppy Dry Dog Food, 1.135-kg bag"
+    },
+    {
+      "sku": "855830",
+      "name": "Royal Canin Size Health Nutrition Puppy X-Small Dry Dog Food, 14-lb bag"
+    },
+    {
+      "sku": "1026574",
+      "name": "Royal Canin Size Health Nutrition Small Puppy Thin Slices in Gravy Wet Dog Food, 5.1-oz can, case of 24"
+    },
+    {
+      "sku": "67491",
+      "name": "Purina Pro Plan Puppy Small Breed Chicken & Rice Formula Dry Dog Food, 18-lb bag"
+    },
+    {
+      "sku": "839686",
+      "name": "Dog Chow Adult Little Bites with Real Chicken & Beef Small Breed Dry Dog Food, 15-lb bag"
+    },
+    {
+      "sku": "61482",
+      "name": "Royal Canin Breed Health Nutrition Chihuahua Puppy Dry Dog Food, 2.5-lb bag"
+    },
+    {
+      "sku": "75443",
+      "name": "Royal Canin Breed Health Nutrition Pug Puppy Dry Dog Food, 2.5-lb bag"
+    },
+    {
+      "sku": "1365038",
+      "name": "Good Boy Variety Pack Puree Dog Food Topper, 90 count"
+    },
+    {
+      "sku": "1364934",
+      "name": "Good 'n' Tasty Triple Flavor Mix Chicken, Salmon, & Duck Puree Dog Food Topper, 7 count"
+    },
+    {
+      "sku": "659758",
+      "name": "Pedigree Puppy Variety Pack Morsels in Sauce with Beef & Chicken Wet Dog Food Pouches, 3.5-oz pouch, pack of 8, bundle of 2"
+    },
+    {
+      "sku": "1364910",
+      "name": "Good 'n' Tasty Triple Flavor Mix Tuna, Chicken, & Duck Puree Dog Food Topper, 7 count"
+    },
+    {
+      "sku": "1364926",
+      "name": "Good 'n' Tasty Triple Flavor Mix Variety Pack Puree Dog Food Topper, 84 count"
+    },
+    {
+      "sku": "1365078",
+      "name": "Good Boy Farm & Sea Tuna, Chicken, & Duck Puree Dog Food Topper, 30 count"
+    },
+    {
+      "sku": "1364950",
+      "name": "Good 'n' Tasty Triple Flavor Mix Duck, Beef, & Rabbit Puree Dog Food Topper, 7 count"
+    },
+    {
+      "sku": "1365046",
+      "name": "Good Boy Turf & Surf Chicken, Salmon, & Duck Puree Dog Food Topper, 10 count"
+    },
+    {
+      "sku": "988422",
+      "name": "Pedigree Puppy Variety Pack Wet Dog Food, 3.5-oz pouch, pack of 18"
+    },
+    {
+      "sku": "265981",
+      "name": "Purina Puppy Chow Pate Real Beef & Chicken Wet Puppy Food Variety Pack, 5.5-oz can, case of 8"
+    },
+    {
+      "sku": "1365006",
+      "name": "Good 'n' Tasty Triple Flavor Mix Salmon, Tuna, & Krill Puree Dog Food Topper, 7 count"
+    },
+    {
+      "sku": "836710",
+      "name": "Applaws Taste Toppers Chicken Breast with Pumpkin, Peas & Carrots in Broth Natural Wet Dog Food, 5.5-oz pouch, case of 12"
+    },
+    {
+      "sku": "114297",
+      "name": "Pedigree Choice Cuts Puppy Morsels in Sauce with Chicken Adult Wet Dog Food, 3.5-oz pouch, case of 16"
+    },
+    {
+      "sku": "836742",
+      "name": "Applaws Taste Toppers Chicken Breast with Beef Liver, Pumpkin, Peas & Carrots in Broth Natural Wet Dog Food, 5.5-oz pouch, case of 12"
+    },
+    {
+      "sku": "259158",
+      "name": "Tiki Dog Baby Mousse for Puppies, Grain-Free Chicken, Chicken Liver & Pumpkin Recipe Wet Dog Food, 3-oz pouch, case of 12"
+    },
+    {
+      "sku": "612822",
+      "name": "Zesty Paws All-in-One Bacon Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 8-oz bag"
+    },
+    {
+      "sku": "612798",
+      "name": "Zesty Paws All-in-One Peanut Butter Flavored Soft & Chewy Training Bites Multivitamin Dog Treats, 8-oz bag"
+    },
+    {
+      "sku": "155247",
+      "name": "Puppy Chow Healthy Start Salmon Flavor Training Dog Treats, 7-oz pouch"
+    },
+    {
+      "sku": "728254",
+      "name": "Pet Botanics Training Rewards Soft & Chewy Puppy Peanut Butter Dog Treats, Mini, 4-oz bag"
+    },
+    {
+      "sku": "1322398",
+      "name": "Bocce's Bakery Puppy Bac'n Nutty Training Bites Peanut Butter Limited-Ingredient-Diet Soft & Chewy Dog Treats, 3-oz bag"
+    },
+    {
+      "sku": "1027910",
+      "name": "Three Dog Bakery Super Rewards Training Treats Orchard Apple Pie Dog Treats, 5-oz bag"
+    },
+    {
+      "sku": "793278",
+      "name": "Loving Pets Houndations Chicken Dog Soft & Chewy Treat, 4-oz bag"
+    },
+    {
+      "sku": "1499710",
+      "name": "BARK Clucky Lil' Starz Chicken Recipe Soft & Chewy Dog Training Treats, 6-oz bag"
+    },
+    {
+      "sku": "214519",
+      "name": "Pet Botanics Mini Training Reward Bacon Flavor Dog Treats, 10-oz bag"
+    },
+    {
+      "sku": "214521",
+      "name": "Pet Botanics Mini Training Reward Beef Flavor Dog Treats, 10-oz bag"
+    },
+    {
+      "sku": "214517",
+      "name": "Pet Botanics Mini Training Reward Chicken Flavor Dog Treats, 10-oz bag"
+    },
+    {
+      "sku": "74863",
+      "name": "Pet Botanics Training Reward Chicken Flavor Dog Treats, 20-oz bag"
+    },
+    {
+      "sku": "74864",
+      "name": "Pet Botanics Training Reward Bacon Flavor Dog Treats, 20-oz bag"
+    },
+    {
+      "sku": "1374606",
+      "name": "Cloud Star Tricky Trainers Lamb Puppy Soft & Chewy Dog Treats, 5-oz bag"
+    },
+    {
+      "sku": "1393214",
+      "name": "Off Leash Mini Trainers Smoky Beef Soft & Chewy Dog Treats, 12-oz pouch"
+    },
+    {
+      "sku": "367864",
+      "name": "Doggie Walk Bags Reflective Duffel Poop Bag Dispenser, Grey"
+    },
+    {
+      "sku": "361434",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags, Small Handle Bags - On Rolls + Dispenser, 60 count"
+    },
+    {
+      "sku": "109993",
+      "name": "Pogi's Pet Supplies Poop Bags with 2 Dispensers, 750 count"
+    },
+    {
+      "sku": "173553",
+      "name": "The Original Poop Bags Countdown USDA Certified Biobased Rolls, Unscented, 120 count"
+    },
+    {
+      "sku": "317113",
+      "name": "Doggie Walk Bags Stripe Duffel Dog Poop Bag Holder"
+    },
+    {
+      "sku": "180983",
+      "name": "Greenbone Jar-O-Refills Dog Poop Bags & Dispenser, 28 Rolls, 336 Refill bags"
+    },
+    {
+      "sku": "1458830",
+      "name": "PAW Heavy Doodie Premium 2 Ply Dog Waste Bag Dispenser Box, 50 count"
+    },
+    {
+      "sku": "361421",
+      "name": "Doggy Do Good Certified Home Compostable Premium Dog & Cat Waste Bags + Dispenser, 60 count"
+    },
+    {
+      "sku": "191063",
+      "name": "Downtown Pet Supply Dog Poop Bags & Dispenser, Pink, 180 bags"
+    },
+    {
+      "sku": "109981",
+      "name": "Pogi's Pet Supplies Poop Bag Dispenser + 15 Scented Waste Bags"
+    },
+    {
+      "sku": "326825",
+      "name": "Earth Rated Dog Poop Bag Holder with Dog Poop Bags, Unscented, 1 Dispenser & 15 Bags"
+    },
+    {
+      "sku": "184328",
+      "name": "Dogipot Plastic Dog Waste Bag Dispenser"
+    },
+    {
+      "sku": "108693",
+      "name": "American Kennel Club Dog Training Pads, 22 x 22-in, 150 count, Lemon Scented"
+    },
+    {
+      "sku": "162791",
+      "name": "American Kennel Club Dog Training Pads, 22 x 22-in, 200 count, Fresh Scented"
+    },
+    {
+      "sku": "162737",
+      "name": "American Kennel Club AKC Dog Training Pads, 28 x 44-in, 30 count, Fresh Scented"
+    },
+    {
+      "sku": "1728662",
+      "name": "American Kennel Club Extra Large Dog Training Pads, 28 x 30-in, Fresh Scented, 100 count"
+    },
+    {
+      "sku": "1640326",
+      "name": "Spotty Everyday Puppy Pee Pads, 22 x 22-in, 30 count"
+    },
+    {
+      "sku": "162735",
+      "name": "American Kennel Club Dog Training Pads, 22 x 22-in, Eucalyptus Scented, 100 count"
+    },
+    {
+      "sku": "1728686",
+      "name": "American Kennel Club Dog Training Pads, 22 x 22-in, Unscented, 100 count"
+    },
+    {
+      "sku": "108690",
+      "name": "American Kennel Club Dog Training Pads, 22 x 22-in, 150 count, Lavender Scented"
+    },
+    {
+      "sku": "3252766",
+      "name": "Best Pet Supplies Disposable Puppy Pads Training Dog Potty Pads, Baby Blue, 36 x 27.5-in, 40 count"
+    },
+    {
+      "sku": "1344302",
+      "name": "PetsWorld Puppy Potty Pads, Small: 24x24-in, 400 count, Unscented"
+    },
+    {
+      "sku": "2938054",
+      "name": "IRIS Potty Training Dog Pee Pads, 22 x 22-in, 100 Count, Unscented"
+    },
+    {
+      "sku": "106367",
+      "name": "HoneyCare All-Absorb Small Super Absorbent Training Pads, 17.5 x 23.5 in, 120 count"
+    },
+    {
+      "sku": "846726",
+      "name": "HoneyCare All-Absorb Ultra Absorbent & Odor Eliminating Dog & Puppy Training Pads, 30-in x 36-in, 30 count"
+    },
+    {
+      "sku": "1548862",
+      "name": "Best Pet Supplies Disposable Puppy Pads Training Dog Potty Pads, Baby Pink, 23 x 22-in, 100 count"
+    },
+    {
+      "sku": "2472622",
+      "name": "PetSpy Ornament Pattern Washable Dog Pee Pads, 72 x 72-in"
+    },
+    {
+      "sku": "695014",
+      "name": "Leash Boss Stainless Steel Silicone Base Dog Bowl, Medium/Large, Blue, 2 count"
+    },
+    {
+      "sku": "2254526",
+      "name": "UPSKY Stainless Steel Slow Feeder Dog Water Bowl with Anti-Slip Mat, 1.6-gal, Grey"
+    },
+    {
+      "sku": "1391158",
+      "name": "Maslow Design Series Paw Design Non-Skid Stainless Steel Dog Bowl, Blue/White, 3.5-cup"
+    },
+    {
+      "sku": "693126",
+      "name": "SunGrow No Spill Stainless Steel Large Dog Water & Food Bowl with Non-Slip Rubber Base, 64-oz"
+    },
+    {
+      "sku": "1000013614",
+      "name": "Frisco Heavy Duty Non-Skid Stainless Steel Bowl, 7.5 Cup"
+    },
+    {
+      "sku": "2254358",
+      "name": "UPSKY Stainless Steel Slow Feeder Dog Water Bowl, Grey, 101-oz"
+    },
+    {
+      "sku": "1000084007",
+      "name": "MidWest Stainless Steel Snap'y Fit Dog Kennel Bowl, 2.5-cup"
+    },
+    {
+      "sku": "1000065947",
+      "name": "Frisco Stainless Steel Bowl, 1 cup"
+    },
+    {
+      "sku": "1385886",
+      "name": "Iconic Pet Heavy Weight Non-Skid Easy Feed High Back Dog Bowl, Stainless Steel, 2 count, 3-cup"
+    },
+    {
+      "sku": "862110",
+      "name": "Loving Pets Dolce Puppy Forever Dog Bowl, Small"
+    },
+    {
+      "sku": "159877",
+      "name": "Frisco Non-Skid Stainless Steel Bowl, Large: 7 cup"
+    },
+    {
+      "sku": "54396",
+      "name": "Loving Pets Non-Skid Stainless Steel Dog & Cat Bowl, 2-cup"
+    },
+    {
+      "sku": "105745",
+      "name": "The Green Pet Shop Cool Pet Pad, Small"
+    },
+    {
+      "sku": "1380006",
+      "name": "The Green Pet Shop Cool Pet Pad, Sage Gray, Small"
+    },
+    {
+      "sku": "1715958",
+      "name": "allforpaws Chill Out Papaya Cooling Mat Dog Bed, Blue"
+    },
+    {
+      "sku": "114569",
+      "name": "TechNiche International Evaporative Cooling Dog Pad, Royal Blue, Small"
+    },
+    {
+      "sku": "1691206",
+      "name": "allforpaws Chill Out Kiwi Cooling Mat Dog Bed"
+    },
+    {
+      "sku": "1691214",
+      "name": "allforpaws Chill Out Orange Cooling Mat Dog Bed"
+    },
+    {
+      "sku": "1391822",
+      "name": "The Green Pet Shop Cool Dog & Cat Crate Mat, Sage Gray, X-Small"
+    },
+    {
+      "sku": "1678374",
+      "name": "The Green Pet Shop Disney Pluto Cool Dog & Cat Pad, Brown, Medium"
+    },
+    {
+      "sku": "1678318",
+      "name": "The Green Pet Shop Disney Retro Micky Cool Dog & Cat Pad, Sage/Cream, X-Small"
+    },
+    {
+      "sku": "1678414",
+      "name": "The Green Pet Shop Disney Mickey/Minnie Cool Dog & Cat Pad, Black, Small"
+    },
+    {
+      "sku": "173297",
+      "name": "Arf Pets Self-Cooling Liquid Gel Dog Crate Mat, 19 x 35 in"
+    },
+    {
+      "sku": "1678302",
+      "name": "The Green Pet Shop Disney Stitch Cool Dog & Cat Pad, Sand, Large"
+    },
+    {
+      "sku": "150479",
+      "name": "KONG Puppy Tires Dog Toy, Color Varies, Small"
+    },
+    {
+      "sku": "1180974",
+      "name": "BARK Chew-Dogh Super Chewer Tough Squeaky Treat Dispensing Dog Toy, Small"
+    },
+    {
+      "sku": "63844",
+      "name": "PetSafe Busy Buddy Bouncy Bone Treat Dispenser Tough Dog Chew Toy, Small"
+    },
+    {
+      "sku": "1180838",
+      "name": "BARK Super Chewer Treats n' Sweets Gumdrop Tough Treat Dispensing Dog Toy, Pink, Small"
+    },
+    {
+      "sku": "1000050353",
+      "name": "Nylabone Just for Puppies Double Action Bone Bacon Flavored Teething Chew Dog Toy"
+    },
+    {
+      "sku": "91192",
+      "name": "KONG Puppy Activity Ball Dog Toy, Color Varies, Medium"
+    },
+    {
+      "sku": "1000049099",
+      "name": "Nylabone Puppy Chew Rubber Teether Puppy Chew Dog Toy"
+    },
+    {
+      "sku": "91196",
+      "name": "KONG Puppy Teething Stick Dog Toy, Color Varies, Large"
+    },
+    {
+      "sku": "1000050317",
+      "name": "Nylabone Puppy Chew Variety Toy & Treat Triple Pack, Pink"
+    },
+    {
+      "sku": "1590406",
+      "name": "maxbone Decagon Rubber Dog Chew Toy, Mint"
+    },
+    {
+      "sku": "63195",
+      "name": "PetSafe Busy Buddy Nobbly Nubbly Treat Dispensing Tough Dog Chew Toy, Small, Purple"
+    },
+    {
+      "sku": "1000057985",
+      "name": "Earth Rated Chew Dog Toy, Small"
+    },
+    {
+      "sku": "181113",
+      "name": "Petpost Bulldog Wrinkle Wipes, 100 count"
+    },
+    {
+      "sku": "1723894",
+      "name": "Squishface Wrinkle Wipes Dog Grooming Wipes, 80 count"
+    },
+    {
+      "sku": "1403358",
+      "name": "Petpost Wrinkle Wipes with Coconut Oil & Aloe Vera Dog Grooming Wipes, 60 count"
+    },
+    {
+      "sku": "2049014",
+      "name": "HICC PET Hypoallergenic Wrinkle Dog Grooming Wipes, 100 count"
+    },
+    {
+      "sku": "1378350",
+      "name": "Natural Dog Company Wrinkle Balm Dog Grooming Wipes, 50 count"
+    },
+    {
+      "sku": "343994",
+      "name": "The Blissful Dog Fresh Flat Face Wash for Dogs, 8-fl oz bottle"
+    },
+    {
+      "sku": "658022",
+      "name": "Vetnique Labs Dermabliss Medicated Face, Wrinkle & Skin Fold Chlorhexidine Cat & Dog Grooming Wipes, 60 count"
+    },
+    {
+      "sku": "228413",
+      "name": "Wet Ones Face Dog Wipes, 30 count"
+    },
+    {
+      "sku": "1378486",
+      "name": "Natural Dog Company Paw Dog Grooming Wipes, 50 count"
+    },
+    {
+      "sku": "228427",
+      "name": "Wet Ones Hypoallergenic Multi-Purpose Dog Wipes, 100 count"
+    },
+    {
+      "sku": "1425310",
+      "name": "Alpha Dog Series Unscented Dog Clean Up Wipes, 70 count"
+    },
+    {
+      "sku": "1672038",
+      "name": "Scrubby Aloe Vera & Eucalyptus Hypoallergenic Dog Ear Wipes, 125 count"
+    },
+    {
+      "sku": "320120",
+      "name": "Pet Life Flex Series 2-in-1 Dual-Sided Grooming Undercoat Dog & Cat Rake & Deshedding Tool, Green"
+    },
+    {
+      "sku": "320058",
+      "name": "Pet Life Axler Triple Rotating Rake Deshedding & Dematting Grooming Dog & Cat Comb, Pink"
+    },
+    {
+      "sku": "55144",
+      "name": "JW Pet Gripsoft Double Row Undercoat Rake"
+    },
+    {
+      "sku": "212060",
+      "name": "Master Grooming Tools Ergon Double Row Undercoat Pet Rake"
+    },
+    {
+      "sku": "55203",
+      "name": "FURminator Curry Comb for Dogs"
+    },
+    {
+      "sku": "80916",
+      "name": "JW Pet Dog Deshedding Tool"
+    },
+    {
+      "sku": "613454",
+      "name": "SunGrow Undercoat Deshedding Brush for Short Haired Dog & Cat Shedding Control & Grooming Tool"
+    },
+    {
+      "sku": "1569006",
+      "name": "Andis Fine-Tooth Pet Deshedding Rake"
+    },
+    {
+      "sku": "2281382",
+      "name": "FURminator 2-in-1 Doodle Dematting Dog Grooming Tool with Comb, Black/Blue"
+    },
+    {
+      "sku": "1261726",
+      "name": "DOG By Dr Lisa Bamboo Dog Rake Grooming Tool"
+    },
+    {
+      "sku": "189586",
+      "name": "Triple Pet EZ Three-Sided Vanilla Mint Flavored Dental Kit for Small Breed Dogs, up to 60-lbs"
+    },
+    {
+      "sku": "918366",
+      "name": "Nylabone Advanced Oral Care Peanut Butter Flavor Toothpaste, 2.5-oz tube + Soft-Bristle Toothbrush for Puppies, 3-pack"
+    },
+    {
+      "sku": "189592",
+      "name": "Triple Pet EZ Fingerbrush Vanilla Mint Flavored Dog Dental Kit"
+    },
+    {
+      "sku": "85558",
+      "name": "TropiClean Fresh Breath Oral Care Plaque & Tartar Defense Puppy Dental Kit"
+    },
+    {
+      "sku": "954110",
+      "name": "Dental Fresh Enzymatic Gel Finger Dog Toothbrush Kit, 2.5-fl oz "
+    },
+    {
+      "sku": "954094",
+      "name": "Dental Fresh Enzymatic Gel Triflex Dog Toothbrush Kit, 2.5-fl oz"
+    },
+    {
+      "sku": "1492670",
+      "name": "Paw Ready BrushMate Toothbrush, Small Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Small Dogs & Cats, 70-gram bottle"
+    },
+    {
+      "sku": "144545",
+      "name": "Arm & Hammer Products Tartar Control Vanilla-Ginger Flavored Enzymatic Puppy Dental Training Kit"
+    },
+    {
+      "sku": "1492686",
+      "name": "Paw Ready BrushMate Toothbrush, Medium Brushing Assistant & Enzymatic Banana Mint Flavor Toothpaste for Medium & Large Dogs, 70-gram bottle"
+    },
+    {
+      "sku": "125811",
+      "name": "Vet's Best Toothbrush & Toothpaste Dental Kit, 3.5-oz tube, Adult"
+    },
+    {
+      "sku": "530094",
+      "name": "Bousnic Super Low Noise Dog & Cat Nail Grinder, Blue"
+    },
+    {
+      "sku": "762886",
+      "name": "Casfuy Professional 2-Speed Quiet Dog Nail Grinder, Pink"
+    },
+    {
+      "sku": "970446",
+      "name": "PATPET N60 6-Speed Electric Rechargeable Cat & Dog Nail Grinder, Army Green"
+    },
+    {
+      "sku": "317703",
+      "name": "Pet Republique Rechargeable Large Electric Dog & Cat Nail Grinder & Clippers"
+    },
+    {
+      "sku": "280277",
+      "name": "PATPET Steel Grit Dog & Cat Nail Grinder, White"
+    },
+    {
+      "sku": "1794430",
+      "name": "PATPET Steel Grit Dog & Cat Nail Grinder, Green"
+    },
+    {
+      "sku": "762902",
+      "name": "Casfuy Quiet 2 LED Medium & Large Dog & Cat Nail Grinder, Dark Blue"
+    },
+    {
+      "sku": "1962126",
+      "name": "LILIPRO PG102 Cordless 3-Speed Nail Grinder for Large Pets, White"
+    },
+    {
+      "sku": "1568974",
+      "name": "Andis Cordless 2-Speed Dog, Cat & Small Pet Nail Grinder, Black"
+    },
+    {
+      "sku": "1000020270",
+      "name": "Wahl Lithium Dog Nail Grinder"
+    },
+    {
+      "sku": "1968822",
+      "name": "LupinePet Original Designs Puppy Love Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide"
+    },
+    {
+      "sku": "1907110",
+      "name": "LupinePet Puppy Love Adjustable Dog Harness, Medium: 20 to 32-in chest"
+    },
+    {
+      "sku": "93980",
+      "name": "Puppia Polyester Back Clip Dog Harness, Green, Small"
+    },
+    {
+      "sku": "1969654",
+      "name": "LupinePet Basic Solid Adjustable Dog Harness, Pink, Small: 12 to 20-in chest, 1/2-in wide"
+    },
+    {
+      "sku": "1969062",
+      "name": "LupinePet Original Designs Social Butterfly Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide"
+    },
+    {
+      "sku": "1968678",
+      "name": "LupinePet Original Designs Dapper Dog Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide"
+    },
+    {
+      "sku": "214717",
+      "name": "PetSafe 3-in-1 Reflective Dog Harness & Leash, Small: 19 to 24-in chest"
+    },
+    {
+      "sku": "1968630",
+      "name": "LupinePet Original Designs Bling Bonz Adjustable Dog Harness, X-Small: 9 to 14-in chest, 1/2-in wide"
+    },
+    {
+      "sku": "1968494",
+      "name": "LupinePet Reflective Paws Adjustable Dog Harness, Blue Paws, X-Small: 9 to 14-in chest, 1/2-in wide"
+    },
+    {
+      "sku": "1429854",
+      "name": "Halti Anatomy Puppy Reflective Step In Dog Harness, Grey, XX-Small: 8.25 to 11.75-in chest"
+    },
+    {
+      "sku": "121433",
+      "name": "PetSafe 3-in-1 Reflective Dog Harness with Car Control Strap, Plum, X-Small: 13 to 19-in chest"
+    },
+    {
+      "sku": "2380774",
+      "name": "Nite Ize SpotLit Splash Waterproof Rechargeable Disc-O Tech Collar Light"
+    },
+    {
+      "sku": "2380742",
+      "name": "Nite Ize SpotLit Rechargeable Disc-O Tech Dog Collar Light"
+    },
+    {
+      "sku": "1698038",
+      "name": "Nite Ize NiteDog Disc-O Tech Rechargeable LED Dog Collar Light"
+    },
+    {
+      "sku": "1698054",
+      "name": "Nite Ize SpotLit LED Disc-O Select Dog Collar Light"
+    },
+    {
+      "sku": "363288",
+      "name": "Blazin LED Dog Leash, Pink, Small"
+    },
+    {
+      "sku": "205455",
+      "name": "Blazin LED USB Rechargeable Nylon Dog Collar, Blue, Small: 9.8 to 14.2-in neck, 5/8-in wide"
+    },
+    {
+      "sku": "2110238",
+      "name": "MEGAPAWS USB Rechargeable LED Light-Up Dog Harness, Large, Yellow"
+    },
+    {
+      "sku": "1086614",
+      "name": "Frisco LED Rechargeable Clip Light"
+    },
+    {
+      "sku": "363313",
+      "name": "Blazin LED USB Rechargeable Nylon Dog Collar, Red, Small"
+    },
+    {
+      "sku": "331478",
+      "name": "Nite Ize Spotli Rechargeable Dog Collar Light"
+    },
+    {
+      "sku": "807494",
+      "name": "Beloved Pets Calming Pheromone Refill Dog Diffuser, 3-oz bottle, 2 count"
+    },
+    {
+      "sku": "155516",
+      "name": "Sentry Good Behavior Calming Diffuser Refill for Dogs, 30 day"
+    },
+    {
+      "sku": "807526",
+      "name": "Beloved Pets Calming Kit for Dogs & Puppy Diffuser, 1.5-oz bottle"
+    },
+    {
+      "sku": "1062662",
+      "name": "Sentry Behavior Portable Calming Diffuser for Dogs"
+    },
+    {
+      "sku": "1405142",
+      "name": "Vetality Harmony Pet Calming Home Diffuser for Dogs"
+    },
+    {
+      "sku": "155514",
+      "name": "Sentry Good Behavior Calming Diffuser for Dogs, 30 day"
+    },
+    {
+      "sku": "1062694",
+      "name": "Sentry Behavior Portable Calming Diffuser Refill for Dogs, 2 count"
+    },
+    {
+      "sku": "577094",
+      "name": "Pet Remedy Natural De-Stress & Calming Plug-In Diffuser for Cats & Dogs, 40-ml bottle"
+    },
+    {
+      "sku": "1760030",
+      "name": "Virbac Zenidog Pheromone Calming Gel Diffuser for Dogs"
+    },
+    {
+      "sku": "276871",
+      "name": "Sentry Good Behavior Calming Spray for Dogs, 1.62-oz"
+    },
+    {
+      "sku": "1492086",
+      "name": "ALZOO Natural Plant Based Plug-In & Refill Kit Dog Calming Diffuser"
+    },
+    {
+      "sku": "577110",
+      "name": "Pet Remedy Natural De-Stress & Calming Plug-In Diffuser Refill for Cats & Dogs, 40-ml bottle, 2 count"
+    },
+    {
+      "sku": "1717350",
+      "name": "LESOTC Portable Squeeze Dog Water Bottle, 18-oz"
+    },
+    {
+      "sku": "2017894",
+      "name": "Vapur Portable Dog Water Bottle, Blackout, 23-oz"
+    },
+    {
+      "sku": "1303302",
+      "name": "DOOG 3-in-1 Neoprene Dog Water Bottle & Bowl, Blue"
+    },
+    {
+      "sku": "1814934",
+      "name": "LESOTC Foldable Travel Dog Water Bottle, 34-oz, Pink"
+    },
+    {
+      "sku": "1977462",
+      "name": "ShopInstaPets Ole Miss Rebels Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz"
+    },
+    {
+      "sku": "1717334",
+      "name": "LESOTC Portable Dog Water Bottle, 34-oz"
+    },
+    {
+      "sku": "1000042604",
+      "name": "Dogit Portable Water Dispenser Dog Bottle"
+    },
+    {
+      "sku": "1977446",
+      "name": "ShopInstaPets Penn State Nittany Lions Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz"
+    },
+    {
+      "sku": "212863",
+      "name": "Highwave AutoDogMug Portable Dog Water Bottle & Bowl, 20-oz bottle, Purple"
+    },
+    {
+      "sku": "1977478",
+      "name": "ShopInstaPets Nebraska Cornhuskers Insulated Travel Dog Water Bottle with Detachable Dog Bowl Base, 37-oz"
+    },
+    {
+      "sku": "1348742",
+      "name": "Shark HC45 3-in-1 with True HEPA Air Purifier, Ninja Dark Grey"
+    },
+    {
+      "sku": "741622",
+      "name": "LEVOIT PlasmaPro 300S Smart Air Purifier"
+    },
+    {
+      "sku": "1943486",
+      "name": "IRIS WOOZOO True HEPA 500284 Air Purifier"
+    },
+    {
+      "sku": "1597846",
+      "name": "Blueair Blue Pure 511i Max Air Purifier, Small, White/Grey"
+    },
+    {
+      "sku": "192873",
+      "name": "Rabbit Air MinusA2 SPA-780A Pet Allergy Air Purifier, Black"
+    },
+    {
+      "sku": "1597862",
+      "name": "Blueair ComfortPure 3-in-1 Air Purifier, Large, White/Grey"
+    },
+    {
+      "sku": "230446",
+      "name": "LEVOIT Smart True Air Purifier"
+    },
+    {
+      "sku": "230452",
+      "name": "LEVOIT Tower Air Purifier"
+    },
+    {
+      "sku": "2049390",
+      "name": "Dreo Macro Max S Smart Air Purifier"
+    },
+    {
+      "sku": "1309830",
+      "name": "Dyson TP07 Cool Fan Air Purifier, White/Silver"
+    },
+    {
+      "sku": "1097254",
+      "name": "IRIS WOOZOO Air Purifier with True HEPA Filter for Large & Extra Large Rooms, White, Extra Large APF-45"
+    },
+    {
+      "sku": "2049398",
+      "name": "Dreo Macro-414 Tabletop Air Purifier"
+    },
+    {
+      "sku": "2084062",
+      "name": "PuzzleFeeder Slow Feeder Puzzle Dog Toy, Large, Yellow"
+    },
+    {
+      "sku": "684974",
+      "name": "Outward Hound Lickin' Layers Interactive Puzzle Game & Slow Feeder, Multicolor, One-Size, 2 cup"
+    },
+    {
+      "sku": "2084190",
+      "name": "PuzzleFeeder Dog Snuffle Mat, Green, Medium/Large"
+    },
+    {
+      "sku": "1000078709",
+      "name": "Outward Hound Lickin' Layers Interactive Puzzle Game & Slow Feeder, Multicolor, One-Size, 2 cup"
+    },
+    {
+      "sku": "2084142",
+      "name": "PuzzleFeeder Interactive Puzzle Dog Toy, Green, Medium"
+    },
+    {
+      "sku": "2084126",
+      "name": "PuzzleFeeder Dog Slow Feeder Insert, Large, Grey"
+    },
+    {
+      "sku": "778214",
+      "name": "Nina Ottosson by Outward Hound Spin N' Eat Dog Food Puzzle Feeder, Green"
+    },
+    {
+      "sku": "855574",
+      "name": "Outward Hound Puppy Lickin' Layers Slow Feeder for Puppies Interactive Dog Puzzle Game, Multiple Colors"
+    },
+    {
+      "sku": "85931",
+      "name": "Outward Hound Non-Skid Plastic Slow Feeder Interactive Dog Bowl, Teal, 2-cup"
+    },
+    {
+      "sku": "85929",
+      "name": "Outward Hound Fun Feeder Interactive Dog Bowl, Orange, 2 cup"
+    },
+    {
+      "sku": "2149830",
+      "name": "KADTC Puzzle Bowl Puzzle Dog Toy, Blue"
+    },
+    {
+      "sku": "2038214",
+      "name": "Outward Hound by Nina Ottosson Lick N' Flip Treat Puzzle Enrichment Dog Toy"
+    },
+    {
+      "sku": "91191",
+      "name": "KONG Puppy Activity Ball Dog Toy, Color Varies, Small"
+    },
+    {
+      "sku": "161849",
+      "name": "KONG Stuffable Puppy Ball Dog Toy, Color Varies, Small"
+    },
+    {
+      "sku": "1000051619",
+      "name": "KONG Puppy Activity Ball Dog Toy, Color Varies, Small"
+    },
+    {
+      "sku": "1894142",
+      "name": "Benebone Rubber Ball Treat Dispensing Dog Toy, Green"
+    },
+    {
+      "sku": "154205",
+      "name": "Ethical Pet Dura Brite Treat Dispenser Ball Dog Toy, Color Varies"
+    },
+    {
+      "sku": "1000051817",
+      "name": "KONG Stuffable Puppy Ball Dog Toy, Color Varies, Small"
+    },
+    {
+      "sku": "71352",
+      "name": "Ethical Pet Gumdrop Ball Squeaky Dog Chew Toy, Color Varies, 5-in"
+    },
+    {
+      "sku": "62288",
+      "name": "Outward Hound Sport Ballz Football Treat-Dispensing Fetch Ball Dog Toy"
+    },
+    {
+      "sku": "92635",
+      "name": "Outward Hound Sport Ballz Basketball Durable Treat-Dispensing Fetch Ball Dog Toy"
+    },
+    {
+      "sku": "62271",
+      "name": "Outward Hound Sport Ballz Baseball Treat-Dispensing Fetch Ball Dog Toy"
+    },
+    {
+      "sku": "1540694",
+      "name": "Nocciola Birthday Snuffle Mat Squeaky Plush Puppy Toy"
+    },
+    {
+      "sku": "1292654",
+      "name": "Awoo Meadow Snuffle Mat Silicone Dog & Cat Lick Mat Slow Feeder, Mauve"
+    },
+    {
+      "sku": "1290726",
+      "name": "TRIXIE Snuffle & Seek Plate, Sniff Mat, Interactive Feeding Game, Slow Feeder, Level 1 Enrichment Dog & Cat Puzzle Toy, Blue"
+    },
+    {
+      "sku": "2056334",
+      "name": "LuftPets Squeaky Bone Snuffle Mat Dog Toy, Large, Red"
+    },
+    {
+      "sku": "1000096637",
+      "name": "Frisco Vending Machine Snuffle Mat, Blue, Large"
+    },
+    {
+      "sku": "1344790",
+      "name": "Nocciola Rosted Veggies Squeaky Interactive Snuffle Feeding Mat Dog Toy"
+    },
+    {
+      "sku": "2084198",
+      "name": "PuzzleFeeder Dog Snuffle Mat, Green, All Breed Sizes"
+    },
+    {
+      "sku": "1065046",
+      "name": "Nina Ottosson by Outward Hound Snuffle Palz Interactive Plush Puzzle & Snuffle Mat Dog Toy, Cow"
+    },
+    {
+      "sku": "1065054",
+      "name": "Nina Ottosson by Outward Hound Snuffle Palz Interactive Plush Puzzle & Snuffle Mat Dog Toy, Bear"
+    },
+    {
+      "sku": "1065038",
+      "name": "Nina Ottosson by Outward Hound Snuffle Palz Interactive Plush Puzzle & Snuffle Mat Dog Toy, Bird"
+    },
+    {
+      "sku": "1815614",
+      "name": "Bedsure Orthopedic Bolster Dog Bed with Removable Cover, Warm Grey, Small"
+    },
+    {
+      "sku": "1815438",
+      "name": "Bedsure Orthopedic Bolster Dog Sofa Bed with Removable Cover, Black Checks, Small"
+    },
+    {
+      "sku": "1458198",
+      "name": "3 Dog Pet Supply Easy Wash Tweed Shearling Memory Foam Dog Bed, Small"
+    },
+    {
+      "sku": "1661150",
+      "name": "Bedsure Round Orthopedic Bolster Anti-Slip Puppy & Kitten Bed with Washable Pillow Cushion, Navy, Small"
+    },
+    {
+      "sku": "2113038",
+      "name": "Bedsure Square Bolster Dog Bed, Grey, Small"
+    },
+    {
+      "sku": "703230",
+      "name": "3 Dog Pet Supply EZ Wash Fleece Headrest Dog Bed, Chocolate, Large"
+    },
+    {
+      "sku": "1815854",
+      "name": "Bedsure Donut Bolster Dog Bed with Removable Cover, Cream, X-Small"
+    },
+    {
+      "sku": "1206894",
+      "name": "Woof Pupsicle Treat Tray Mold Treat Dispenser Dog Toy, Small"
+    },
+    {
+      "sku": "1671182",
+      "name": "Woof Starter Pack Peanut Butter & Chicken Flavored Treats, Silicone Mold & Pupsicle Dog Toy, X-Large"
+    },
+    {
+      "sku": "1023510",
+      "name": "Woof Pupsicle Long Lasting Refillable Dog Treat Dispenser Toy, Large"
+    },
+    {
+      "sku": "1858622",
+      "name": "Cool Pup Toy Ice Cream Cone Dog Chew Toy, Blue, Mini"
+    },
+    {
+      "sku": "1762718",
+      "name": "Woof Party Pupsicle Treat Dispensing Dog Toy, Buddy Blue, Small"
+    },
+    {
+      "sku": "347020",
+      "name": "SodaPup Ice Cream Cone Treat Dispenser Dog Toy, Pink, Medium"
+    },
+    {
+      "sku": "1858750",
+      "name": "Cool Pup Toy Popsicle Dog Chew Toy, Blue, Mini"
+    },
+    {
+      "sku": "159073",
+      "name": "PetSafe Chilly Penguin Freezable Treat Holding Dog Toy, Small"
+    },
+    {
+      "sku": "1541902",
+      "name": "The Worthy Dog Lucky Squeaky Plush Dog Toy, Green, Small"
+    },
+    {
+      "sku": "2008758",
+      "name": "Destructables Aussie the Koala Stuffing-Free Dog Plush Toy"
+    },
+    {
+      "sku": "2008774",
+      "name": "Destructables Baart the Sheep Stuffing-Free Dog Plush Toy"
+    },
+    {
+      "sku": "1822006",
+      "name": "The Worthy Dog Panda Squeaky Plush Dog Toy, Green, Small"
+    },
+    {
+      "sku": "1541878",
+      "name": "The Worthy Dog Chick Squeaky Plush Dog Toy, Yellow, Small"
+    },
+    {
+      "sku": "85905",
+      "name": "Outward Hound Durablez Tough Plush Dog Toy, Pink, X-Small"
+    },
+    {
+      "sku": "85904",
+      "name": "Outward Hound Durablez Tough Plush Dog Toy, Turquoise, X-Small"
+    },
+    {
+      "sku": "190587",
+      "name": "Outward Hound Durablez Owl Tough Plush Dog Toy, Purple, X-Small"
+    },
+    {
+      "sku": "190586",
+      "name": "Outward Hound Durablez Fox Tough Plush Dog Toy, Orange, X-Small"
+    },
+    {
+      "sku": "85902",
+      "name": "Outward Hound Durablez Tough Plush Dog Toy, Orange, X-Small"
+    },
+    {
+      "sku": "54172",
+      "name": "Tuffy's Ultimate Tug-O-War Squeaky Plush Dog Toy, Yellow Bones"
+    },
+    {
+      "sku": "839046",
+      "name": "Playology Beef Scented Young & Active Tough Tug Knot Dog Toy, Medium"
+    },
+    {
+      "sku": "53811",
+      "name": "Ruff Dawg Super Tug Tough Dog Toy, Color Varies"
+    },
+    {
+      "sku": "839078",
+      "name": "Playology Chicken Scented Young & Active Tough Tug Knot Dog Toy, Medium"
+    },
+    {
+      "sku": "1000051313",
+      "name": "KONG Tug Dog Toy, Medium"
+    },
+    {
+      "sku": "148527",
+      "name": "Nerf Dog Tuff Tug 3 Ring Dog Toy"
+    },
+    {
+      "sku": "1223094",
+      "name": "Angel Freedom Tug 1-Handle Tough Dog Tug Toy, Green"
+    },
+    {
+      "sku": "1223110",
+      "name": "Angel Endurance Jute Tug 2-Handle Tough Dog Tug Toy, Black"
+    },
+    {
+      "sku": "532286",
+      "name": "Pacific Pups Rescue Rope Tug Dog Toy, Large, Blue"
+    },
+    {
+      "sku": "83260",
+      "name": "Mammoth Braided Tug with Tennis Ball for Dogs, Color Varies, Small"
+    },
+    {
+      "sku": "791374",
+      "name": "Training COA Multi-Clicker Dog Training Clicker, Red"
+    },
+    {
+      "sku": "154658",
+      "name": "PetSafe Clik-R Dog Training Tool"
+    },
+    {
+      "sku": "353044",
+      "name": "Mighty Paw Dog Training Clicker"
+    },
+    {
+      "sku": "122567",
+      "name": "Downtown Pet Supply Training Dog Clickers, Color Varies, 2 pack"
+    },
+    {
+      "sku": "791390",
+      "name": "Training COA Whizzclick Dog Training Clicker, Blue"
+    },
+    {
+      "sku": "215396",
+      "name": "SunGrow Clickers with Wrist Band Dog & Cat Potty & Treat Training Tool, 7 count"
+    },
+    {
+      "sku": "77168",
+      "name": "Starmark Pro-Training Clicker Deluxe Dog Training Aid"
+    },
+    {
+      "sku": "1044110",
+      "name": "Educator FC-100 Finger Clicker Dog Training Clicker, Teal"
+    },
+    {
+      "sku": "192493",
+      "name": "Iconic Pet 8-Panel Portable Foldable Wire Dog Pen, 24-in"
+    },
+    {
+      "sku": "1814990",
+      "name": "Yaheetech Foldable Dog Playpen, Black, 16-Panel, 31.5-in"
+    },
+    {
+      "sku": "2073822",
+      "name": "BingoPaw Heavy Duty 8 Panel Metal Dog Playpen"
+    },
+    {
+      "sku": "2106222",
+      "name": "Yaheetech Foldable Dog Playpen, Black, 8-Panel, 20-in"
+    },
+    {
+      "sku": "1263094",
+      "name": "MyPet Petyard Plus 4-Panel Dog Exercise Pen, Gray"
+    },
+    {
+      "sku": "677286",
+      "name": "Yaheetech 2-Panel Metal Playpen for Outdoor & Indoor Dog Pen, Black, 39.5-in"
+    },
+    {
+      "sku": "231622",
+      "name": "IRIS 8-Panel Dog Exercise Playpen, 34-in, Black"
+    },
+    {
+      "sku": "192457",
+      "name": "Iconic Pet Heavy Duty Wire Dog Playpen, 24-in"
+    },
+    {
+      "sku": "967022",
+      "name": "KennelMaster 8-Panel Dog Exercise Pen, Black, 24-in H x 24-in W"
+    },
+    {
+      "sku": "967038",
+      "name": "KennelMaster 8-Panel Dog Exercise Pen, Black, 30-in H x 24-in W"
+    },
+    {
+      "sku": "2955094",
+      "name": "Yaheetech Metal Dog Playpen, 8-Panel, 24-in"
+    },
+    {
+      "sku": "967070",
+      "name": "KennelMaster 8-Panel Dog Exercise Pen, Black, 42-in H x 24-in W"
+    },
+    {
+      "sku": "810814",
+      "name": "Pet Life Ices Lick & Gnaw Fillable & Freezable Teething Dog Toy, Yellow"
+    },
+    {
+      "sku": "1858758",
+      "name": "Cool Pup Toy Popsicle Dog Chew Toy, Green, Mini"
+    },
+    {
+      "sku": "61991",
+      "name": "Petstages Cool Teething Stick Tough Dog Chew Toy"
+    },
+    {
+      "sku": "810766",
+      "name": "Pet Life Ice Cream Cone Cooling Lick & Gnaw Fillable & Freezable Teething Dog Toy, Blue"
+    },
+    {
+      "sku": "161305",
+      "name": "Nylabone Puppy Chew Freezer Dog Toy Teething Chew Chilling Cloth Lamb & Apple, Small"
+    },
+    {
+      "sku": "1206838",
+      "name": "Woof Pupsicle Power Chewer Refillable Dog Treat Dispenser Toy, Small"
+    },
+    {
+      "sku": "1206878",
+      "name": "Woof Pupsicle Long Lasting Refillable Dog Treat Dispenser Toy, Small"
+    }
+  ],
+  "metadata": {
+    "journey_id": "a9491c44-cfdf-43ec-815b-38fe3884ccf6",
+    "pet_id": "1ac35e16-6ae8-4840-9d27-0c0a317589af",
+    "month_idx": 1,
+    "pet_name": "Thor",
+    "pet_species": "dog",
+    "generated_at": "20251016_135149",
+    "stage": "stage3_recommendations",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_a9491c44_month1_20251016_134900.json",
+    "tokens": {
+      "prompt": 6886,
+      "completion": 6646,
+      "total": 13532
+    },
+    "elapsed_seconds": 0.0,
+    "stage2_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage2_structured/stage2_structured_queries_a9491c44_month1_20251016_135050.json"
+  }
+}

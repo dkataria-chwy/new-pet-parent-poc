@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey AJ, welcome! At six months you're a lively, strong Pug — playful, stubborn, and endlessly curious. Puppies around this age typically are teething, finishing big socialization windows, and prime for short, frequent training bursts; some pups can hit a second fear period so gentle, positive exposures matter. You know how Pugs run hot and can struggle with breathing? Short, intense play sessions, shaded yard time, and controlled apartment walks work best. AJ is carrying extra weight but has tons of energy, so structured enrichment and regular dental care help with chewing and calm. Here's the thing: I set up steady food, toppers, treats and dental supplies for this stage — check the recommendations below.",
+  "word_count": 115,
+  "metadata": {
+    "generated_at": "2025-10-15T16:19:57.916109",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "tts-1",
+    "elapsed_seconds": 18.47,
+    "audio_elapsed_seconds": 8.89,
+    "tokens": {
+      "prompt": 8118,
+      "completion": 1368,
+      "total": 9486
+    }
+  }
+}

@@ -1,0 +1,439 @@
+{
+  "total_categories": 26,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food & Nutrition",
+      "family": "Dry kibble (age-appropriate, breed-formulated)",
+      "description": "Age-appropriate juvenile/puppy dry kibble formulated for Pug/brachycephalic breeds: small, rounded kibble shape to help pick-up with short muzzles; complete AAFCO-compliant nutrition for growth (puppy/juvenile formula) with controlled calories to help manage tendency to gain weight. Bag size options 4–12 kg (choose based on storage and feeding frequency). Protein source must NOT include duck (avoid allergen). Prefer Mars-owned lines (e.g., Royal Canin breed-specific formulas) consistent with user's brand bias.",
+      "rationale": "Daily primary nutrition — a 6-month-old dog needs a balanced growth formula. Pugs have short muzzles that benefit from specially shaped kibble; AJ's high weight (40 lb at 6 months) indicates a need to monitor calories and select a formula with moderate calories to avoid accelerated weight gain.",
+      "evidence": [
+        "pet_characteristic: species dog",
+        "pet_characteristic: breed Pug",
+        "pet_characteristic: age_months 6",
+        "pet_characteristic: weight_lb 40.0",
+        "pet_characteristic: brand_bias Mars",
+        "standard: AAFCO growth nutrition for puppies; breed-specific kibble shapes for brachycephalic jaws"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Food & Nutrition",
+      "family": "Wet food / high-moisture topper (single-serve trays)",
+      "description": "Single-serve wet food trays or toppers (poultry- or beef-based formulas — NO duck) to mix with kibble or serve intermittently to increase water intake and palatability. Portion sizes appropriate for a 6-month juvenile of AJ's weight — choose trays that can be used as meal toppers or full wet meals.",
+      "rationale": "Provides extra hydration and high-value meals for a puppy in training; helpful when ambient heat can suppress appetite. Wet food helps maintain hydration in a brachycephalic dog during excessive heat events.",
+      "evidence": [
+        "pet_characteristic: age_months 6",
+        "pet_characteristic: breed Pug",
+        "pet_characteristic: weight_lb 40.0",
+        "context: excessive_heat_warning",
+        "standard: hydration support during heat; palatability aids for training"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats & Training",
+      "family": "Small soft training treats (high-value, non-duck protein)",
+      "description": "Small, soft, easily breakable training treats (pea-sized), low-calorie options for high-frequency reinforcement. Choose formulas that explicitly exclude duck and are suitable for puppies (soft texture for young teeth). Pack size: resealable pouch for freshness.",
+      "rationale": "AJ is 6 months and energetic — frequent positive reinforcement is essential for training. Soft small treats prevent overfeeding while supporting frequent reward-based training sessions.",
+      "evidence": [
+        "pet_characteristic: age_months 6",
+        "pet_characteristic: activity high",
+        "pet_characteristic: about AJ is very energetic and very strong",
+        "standard: positive reinforcement training best practice (puppies)"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding Accessories",
+      "family": "Stainless-steel non-tip water bowl (large capacity)",
+      "description": "Heavy stainless-steel non-tip water bowl with anti-skid base, 48–64 oz capacity to ensure constant fresh water availability at home. Dishwasher-safe, chew-resistant rim (metal) for durability with a strong chewer.",
+      "rationale": "Daily water access is vital; metal bowls are durable against heavy chewing and keep water cooler — important now because of excessive heat and AJ's brachycephalic risk for overheating.",
+      "evidence": [
+        "pet_characteristic: chew_strength strong",
+        "pet_characteristic: weight_lb 40.0",
+        "context: excessive_heat_warning",
+        "standard: continuous access to fresh water for dogs"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Travel & Hydration",
+      "family": "Collapsible travel water bottle / bowl (portable)",
+      "description": "Collapsible silicone travel water bottle with integrated bowl or collapsible bowl: leakproof bottle + bowl combo, 20–32 oz capacity, easy-clean, bitesafe materials. Lightweight for walks and yard visits; fits in bag or car cupholder.",
+      "rationale": "During walks or yard play in current heat alerts, on-the-go water is critical to prevent heat stress in brachycephalic breeds. Portable hydration prevents overheating during outdoor activity.",
+      "evidence": [
+        "pet_characteristic: breed Pug",
+        "context: excessive_heat_warning",
+        "pet_characteristic: activity high",
+        "standard: portable hydration during exercise and heat"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Cooling & Climate Safety",
+      "family": "Chew-resistant cooling mat (non-electric)",
+      "description": "Non-electric cooling gel mat with a chew-resistant cover sized for small/stocky dogs (approx. 24x18 in or larger), fast-acting cooling surface, easy-to-wipe material. Specifically choose rugged cover due to strong chew strength.",
+      "rationale": "Immediate safety need: Pugs are brachycephalic and at high risk of heat-related illness. An excessive heat warning is active — a cooling mat is a critical, non-medical product to lower core temperature and provide a safe resting place indoors and in shaded yard areas.",
+      "evidence": [
+        "pet_characteristic: breed Pug",
+        "pet_characteristic: age_months 6",
+        "context: excessive_heat_warning",
+        "pet_characteristic: chew_strength strong",
+        "standard: brachycephalic dogs are heat-sensitive, cooling measures recommended"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Walking & Restraint",
+      "family": "Front-clip padded no-pull harness (adjustable, reinforced)",
+      "description": "Adjustable front-clip, padded harness sized for short-backed, stocky breeds. Reinforced stitching and quick-release buckles; sizing to accommodate AJ's chest girth for a 40 lb Pug. Padded to reduce chafing and avoid pressure on the neck/trachea.",
+      "rationale": "Brachycephalic breeds should avoid pressure collars to reduce tracheal injury. AJ is energetic and strong, so a front-clip no-pull harness helps training/control and protects the airway during walks and high-energy activity.",
+      "evidence": [
+        "pet_characteristic: breed Pug",
+        "pet_characteristic: chew_strength strong",
+        "pet_characteristic: activity high",
+        "standard: harnesses preferred over collars for brachycephalic dogs"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Walking & Restraint",
+      "family": "Durable 6-ft leash (biothane or heavy-duty nylon, reflective)",
+      "description": "6-foot leash with traffic handle, heavy-duty biothane or double-braided nylon, reflective stitching for low-light visibility. Strong hardware (rust-resistant snap), comfortable grip for control of a strong dog.",
+      "rationale": "Provides better control for an energetic, strong dog; reflective detail helps visibility during shorter daylight or rainy walks in Pacific Northwest season. Durable materials resist wear from strong pullers.",
+      "evidence": [
+        "pet_characteristic: activity high",
+        "pet_characteristic: about AJ is very energetic and very strong",
+        "calendar: hunting_season_2025 and rain season (safety/visibility)"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys & Chew",
+      "family": "Heavy-duty indestructible chew toy (rubber, treat-dispensing)",
+      "description": "Extra-durable rubber chew toy rated for strong chewers; size appropriate for a Pug mouth but robust enough for sustained chewing. Option with treat-dispensing cavity to occupy AJ and reduce destructive chewing.",
+      "rationale": "AJ is a strong chewer — heavy-duty toys reduce risk of ingestion of unsafe materials and provide appropriate outlet for chewing energy. Treat-dispensing versions extend engagement and help burn energy.",
+      "evidence": [
+        "pet_characteristic: chew_strength strong",
+        "pet_characteristic: activity high",
+        "pet_characteristic: about AJ is very energetic and very strong"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding Accessories",
+      "family": "Slow feeder / puzzle feeding bowl",
+      "description": "Slow-feed bowl or puzzle feeder sized for puppy/juvenile serving — ceramic or heavy-duty plastic with ridges/maze design to slow eating. Dishwasher-safe, non-tip base.",
+      "rationale": "Slows rapid eating which helps reduce gulping and potential gastrointestinal upset; useful for a dog prone to overeating/rapid consumption given AJ's current weight. Supports weight management and portion control.",
+      "evidence": [
+        "pet_characteristic: weight_lb 40.0",
+        "pet_characteristic: age_months 6",
+        "standard: slow feeding recommended to prevent gulping and aid weight control"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Dental Care",
+      "family": "Dental chews appropriate for puppies (non-duck)",
+      "description": "Chews formulated for dental care and safe for puppies (manufacturer labeled for 6+ months), small/soft enough for young teeth while offering cleaning action; select non-duck protein flavors.",
+      "rationale": "Initiating dental care early reduces plaque buildup. AJ is 6 months — starting age-appropriate dental chews complements tooth brushing and helps oral health as adult dentition develops.",
+      "evidence": [
+        "pet_characteristic: age_months 6",
+        "standard: dental care recommended starting 6–8 months"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Dental Care",
+      "family": "Toothbrush and enzymatic dog toothpaste (pet-safe)",
+      "description": "Dual-headed dog toothbrush or finger brush and enzymatic toothpaste formulated for dogs (poultry or beef flavors available — avoid duck). Non-foaming, pet-safe ingredients; travel case for convenience.",
+      "rationale": "Daily tooth brushing prevents periodontal disease; starting now develops a positive routine and complements dental chews.",
+      "evidence": [
+        "pet_characteristic: age_months 6",
+        "standard: home dental care recommended for dogs"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming Supplies",
+      "family": "Deshedding tool / grooming brush for short coats",
+      "description": "De-shedding tool (short-hair model) and grooming mitt combination designed for short-coated breeds: stainless blades, ergonomic handle, easy-clean hair removal. Choose a gentle option to protect pug's skin.",
+      "rationale": "Calendar indicates Fall Shedding and Allergy seasons. Regular brushing reduces loose hair and indoor allergens in an apartment environment and helps manage shedding now.",
+      "evidence": [
+        "calendar: shedding_season_fall_2025",
+        "calendar: allergy_season_fall_2025",
+        "pet_characteristic: breed Pug",
+        "standard: seasonal grooming reduces loose hair and allergens"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Cooling & Climate Safety",
+      "family": "Evaporative/cooling vest",
+      "description": "Lightweight evaporative cooling vest sized for short-muzzled dogs; adjustable straps, machine-washable. Designed for short bursts of outdoor activity in hot weather; easy to wet and reapply.",
+      "rationale": "Supplemental cooling for walks/yard play during excessive heat warnings is a preventive measure; complements the cooling mat for mobile cooling protection.",
+      "evidence": [
+        "context: excessive_heat_warning",
+        "pet_characteristic: breed Pug",
+        "pet_characteristic: activity high"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health Monitoring",
+      "family": "Digital pet scale (home) or body-weight scale",
+      "description": "Compact digital scale suitable for small/medium pets to monitor weekly weight trends (high precision). Easy-to-clean platform, 1 lb or finer resolution depending on model.",
+      "rationale": "AJ's recorded weight is high for a Pug at 6 months. Regular home monitoring supports early weight management and dietary adjustments (non-medical) and helps flag changes that should be discussed with a vet.",
+      "evidence": [
+        "pet_characteristic: weight_lb 40.0",
+        "pet_characteristic: age_months 6",
+        "standard: home weight monitoring recommended for overweight-prone breeds"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Calming & Behavior",
+      "family": "Pressure wrap / calming shirt",
+      "description": "Adjustable pressure wrap (thunder-shirt style) sized for small/stocky dogs; washable fabric and secure fastenings. Use during noisy events (leaf blowers, hunting season) or vet-visit prep.",
+      "rationale": "Calendar shows multiple noise/stress triggers (leaf blower and hunting seasons). A pressure wrap can reduce anxiety during noise events and help AJ remain calmer in an apartment setting.",
+      "evidence": [
+        "calendar: leaf_blower_season_2025",
+        "calendar: hunting_season_2025",
+        "pet_characteristic: house_type apartment",
+        "standard: pressure wraps can reduce noise-related anxiety"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Exercise & Play",
+      "family": "Flirt pole (durable)",
+      "description": "Durable flirt pole with replaceable chew-resistant toy attachment and sturdy handle; length suitable for backyard use (8–12 ft cord) to enable high-energy chasing play without running long distances.",
+      "rationale": "AJ is very energetic and benefits from high-intensity short-burst exercise. A flirt pole provides supervised cardio and satisfies chase instincts in the yard, useful when avoiding prolonged exertion in heat.",
+      "evidence": [
+        "pet_characteristic: activity high",
+        "pet_characteristic: about AJ is very energetic and very strong",
+        "pet_characteristic: yard large_yard"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys & Chew",
+      "family": "Treat-dispensing puzzle toy",
+      "description": "Durable treat-dispensing puzzle toy with adjustable difficulty and chew-resistant materials. Sized for medium treats; easy to clean and stable for vigorous play.",
+      "rationale": "Provides mental stimulation and slows feeding; appropriate for an active 6-month-old who needs both physical and cognitive outlets, especially during rainy indoor days.",
+      "evidence": [
+        "pet_characteristic: age_months 6",
+        "pet_characteristic: activity high",
+        "calendar: pacific_northwest_rain_season_2025"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys & Chew",
+      "family": "Durable rubber ball (fetch)",
+      "description": "High-durability rubber ball sized for a Pug mouth (approx. 2–2.5 in diameter), non-abrasive, high-bounce, safe for throwing on lawn and easy to clean.",
+      "rationale": "Fetch is a simple high-energy outlet for AJ; a sturdy ball supports safe play in the large yard and reduces boredom in an apartment household.",
+      "evidence": [
+        "pet_characteristic: activity high",
+        "pet_characteristic: yard large_yard",
+        "pet_characteristic: chew_strength strong"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys & Chew",
+      "family": "Tug rope toy (heavy-duty)",
+      "description": "Braided, heavy-duty tug rope with reinforced knots and handles, sized for robust tug play. Durable fibers resistant to shredding.",
+      "rationale": "Interactive tug play strengthens the human-dog bond, burns energy, and provides controlled outlet for AJ's strength. Use supervised to avoid accidental swallowing of fibers.",
+      "evidence": [
+        "pet_characteristic: about AJ is very energetic and very strong",
+        "pet_characteristic: chew_strength strong"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Foraging & Food Games",
+      "family": "Snuffle mat",
+      "description": "Fabric snuffle mat with dense pockets to hide kibble/treats; machine-washable, non-toxic materials sized for small/medium dogs.",
+      "rationale": "Encourages natural foraging behavior, slows feeding, provides mental enrichment indoors on rainy days, and reduces boredom in apartment living.",
+      "evidence": [
+        "pet_characteristic: house_type apartment",
+        "calendar: pacific_northwest_rain_season_2025",
+        "standard: food-based enrichment reduces boredom"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Foraging & Food Games",
+      "family": "Rolling treat-dispensing ball (indestructible option)",
+      "description": "Heavy-duty rolling ball that dispenses small treats as it rolls; adjustable openings to vary challenge; chew-resistant material for strong chewers.",
+      "rationale": "Combines physical activity and mental challenge — useful for tiring AJ out in the yard or indoors when weather prevents outdoor play.",
+      "evidence": [
+        "pet_characteristic: activity high",
+        "pet_characteristic: chew_strength strong",
+        "calendar: rain season"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Calming & Enrichment",
+      "family": "Lick mat",
+      "description": "Textured lick mat sized for small/medium dogs — dishwasher-safe silicone for spreading dog-safe wet treats (peanut butter xylitol-free or canned pumpkin). Durable and easy to clean.",
+      "rationale": "Licking is calming; use during grooming, crate time, or after walks to reduce arousal and support relaxation indoors, especially during noise events or rainy days.",
+      "evidence": [
+        "calendar: leaf_blower_season_2025",
+        "pet_characteristic: age_months 6",
+        "standard: lick mats provide calming enrichment"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Agility & Training",
+      "family": "Small backyard agility kit (tunnel + low jumps)",
+      "description": "Beginner agility set with a short tunnel and adjustable low jumps sized for small/medium breeds; lightweight and portable for yard sessions.",
+      "rationale": "Provides structured play and training for high-energy dogs; builds coordination and mental engagement without long-distance running that could stress a brachycephalic dog.",
+      "evidence": [
+        "pet_characteristic: activity high",
+        "pet_characteristic: yard large_yard",
+        "standard: short-burst exercise recommended for brachycephalic breeds"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Outdoor Comfort",
+      "family": "Portable pop-up shade canopy / sun shelter",
+      "description": "Lightweight pop-up canopy or UV-blocking shade designed for yard use: foldable, anchored, quick-setup to create shaded play/rest area outdoors.",
+      "rationale": "During excessive heat, having shaded play areas in the yard reduces heat exposure for a brachycephalic dog who spends time outdoors. Adds comfort and extends safe outdoor playtime.",
+      "evidence": [
+        "context: excessive_heat_warning",
+        "pet_characteristic: yard large_yard",
+        "pet_characteristic: breed Pug"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Exercise & Convenience",
+      "family": "Hands-free waist leash (jogging/active walking)",
+      "description": "Adjustable hands-free waist leash with padded belt and bungee buffer for short, controlled active walking or playful running in yard. Quick-release clip and reflective accents.",
+      "rationale": "Allows owner to keep both hands free for training or play while still controlling a strong, energetic dog. Use cautiously given brachycephalic limitations — short bursts only.",
+      "evidence": [
+        "pet_characteristic: activity high",
+        "pet_characteristic: about AJ is very energetic and very strong"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+    "pet_id": "d3764777-be9e-455f-9133-c630f6218a07",
+    "month_idx": 1,
+    "pet_name": "AJ",
+    "pet_species": "dog",
+    "generated_at": "2025-10-15T16:14:42.406561",
+    "stage": "stage1_structured"
+  }
+}

@@ -42,10 +42,10 @@ Analyze recommended products and categorize them into **Subscription** (recurrin
 - Seasonal/weather-triggered (cooling mats, raincoats, heating pads, etc.)
 - Long-lasting tools (clickers, nail clippers, grooming tools, etc.)
 
-**Prioritize:**
-- Seasonal items if weather/calendar triggers present
-- Setup essentials for Journey Month 1-2 (new pet parent journey, not pet age)
-- Safety gear and durable enrichment items
+**Prioritization (in order of importance):**
+1. **🌡️ URGENT: Weather/Seasonal Triggers** - If weather/calendar data indicates heat warnings, cold snaps, rain, etc., prioritize relevant products (cooling mats, heating pads, raincoats, etc.)
+2. **🏠 Setup Essentials** - Journey Month 1-2 (new pet parent journey, not pet age): crates, bowls, beds, harnesses
+3. **🛡️ Safety & Enrichment** - Durable items that improve quality of life and safety
 
 ---
 
@@ -127,10 +127,11 @@ Return a JSON object with two arrays (15 items each) and an overall strategy:
 ## Key Rules
 
 1. **Show your math** - Calculate monthly consumption rates in rationales
-2. **Select 15 items per category** - Choose products based on pet's actual needs
-3. **Prioritize variety** - Pick products from DIFFERENT slot_ids when possible to maximize category diversity
+2. **Target 12-15 items per category** - Aim for 15 if possible, but 12-14 is acceptable if there aren't enough suitable products. Quality over forced quantity.
+3. **Prioritize variety** - Pick products from DIFFERENT slot_ids to maximize category diversity
 4. **Choose best matches** - When multiple products are in the same slot, pick the one with highest similarity score
 5. **Think like a pet parent** - What would YOU subscribe to for THIS specific pet?
 6. **Include product data** - Copy product_link, product_price_current, and autoship_eligible from input exactly as provided
+7. **CRITICAL: Use correct slot_id** - The slot_id field should be the SLOT ID from the recommendations (usually 1-30), NOT the product SKU. Do not confuse these two fields!
 
 Apply your expertise to create smart, personalized recommendations that maximize convenience while avoiding waste.

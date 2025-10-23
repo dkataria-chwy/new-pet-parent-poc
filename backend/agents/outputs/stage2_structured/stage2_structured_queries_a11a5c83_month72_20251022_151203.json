@@ -1,0 +1,304 @@
+{
+  "total_queries": 27,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "Adult dog weight-management dry kibble for a 30-lb medium breed, small-to-medium bite kibble, reduced-calorie formula, primary proteins like chicken turkey or fish, 12–24 lb bag size to maintain freshness for apartment living",
+      "bm25_query": "adult dog weight-management dry kibble small medium kibble reduced-calorie chicken turkey fish 12-24 lb bag NOT Beef",
+      "top_k": 20,
+      "rationale": "Daily staple food \u0014 used every day. This dog is low activity (higher risk for weight gain) and is allergic to beef, so a reduced-calorie, beef-free adult formula maintains healthy weight and avoids allergen exposure right now.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Wet Canned",
+      "embedding_query": "Adult dog wet canned food or concentrated wet topper in small 3–5.5 oz cans or tubs for portion control, chicken fish or single-protein novel options, boosts hydration and palatability for apartment dogs",
+      "bm25_query": "adult dog wet canned topper 3-5.5 oz portion control chicken fish single-protein hydration palatable NOT Beef",
+      "top_k": 15,
+      "rationale": "Daily/near-daily topper or wet meals increase hydration and palatability, helpful for lower-activity dogs that may be picky (rescue background). Also provides variety separate from dry kibble (counts as a distinct daily consumable).",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Adult dog low-calorie soft training treats 1–3 calories per piece, small bite size for frequent rewards, made with chicken turkey or fish, resealable pouch for freshness and portion control",
+      "bm25_query": "low-calorie soft training treats 1-3 cal small bite chicken turkey fish resealable pouch NOT Beef",
+      "top_k": 15,
+      "rationale": "Treats are daily consumables used for reinforcement and short walks; because the dog is low-activity and likely weight-sensitive, low-calorie soft treats allow frequent positive reinforcement without weight gain. Rescue dogs often benefit from extra positive reinforcement.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "Adult dog unscented biodegradable poop bags roll or box, 100+ count, strong seams for medium dog waste, clip-on dispenser for leash or harness, apartment-friendly",
+      "bm25_query": "unscented biodegradable poop bags 100+ count strong seams clip-on dispenser leash apartment",
+      "top_k": 12,
+      "rationale": "Daily necessity for an apartment dog with no yard \u0014 required immediately for walks and waste removal. Easy, compact dispenser improves compliance and hygiene.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "Adult dog stainless steel non-tip water bowl 48–64 oz (1.5–2 L), dishwasher-safe, rubber base non-slip, medium size suitable for a 30-lb dog, apartment-friendly",
+      "bm25_query": "stainless steel non-tip water bowl 48-64 oz dishwasher-safe rubber base non-slip medium dog",
+      "top_k": 12,
+      "rationale": "Daily water access is essential, especially during an excessive-heat warning. Stainless steel resists bacteria, is easy to clean in an apartment, and a non-tip design prevents spills indoors.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Adult dog medium cooling mat/pad for a 30-lb dog (approx 28–36 in), evaporative fabric or non-toxic gel, no-power-required or low-maintenance, machine-washable cover if possible, apartment-safe",
+      "bm25_query": "medium cooling mat 28-36 in evaporative gel no-power non-toxic machine-washable apartment",
+      "top_k": 12,
+      "rationale": "Excessive-heat warning in the area right now creates a near-term safety risk; an in-home cooling surface prevents overheating for a dog living in an apartment without outdoor shade options. Immediate safety need during heat wave.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Supplements",
+      "embedding_query": "Adult dog joint supplement chewable or soft-tablet for medium breeds with glucosamine, chondroitin, MSM and omega-3 fatty acids, multi-month supply",
+      "bm25_query": "joint supplement glucosamine chondroitin MSM omega-3 chewable soft-tablet medium dog multi-month NOT Beef",
+      "top_k": 12,
+      "rationale": "Golden Retrievers are predisposed to joint issues; this dog is age ~6 years (entering middle age) and Senior Pet Month is current \u0014 proactive joint support can reduce progression and improve comfort. Not a medication; a commonly recommended preventive product.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Adult dog medium orthopedic memory-foam bed with removable washable cover and non-slip base, supportive for joints, dimensions ~28–36 in, low-profile for easy entry/exit in apartment",
+      "bm25_query": "orthopedic memory-foam dog bed medium removable washable cover non-slip low-profile 28-36 in",
+      "top_k": 12,
+      "rationale": "Supportive bed reduces pressure on joints as the dog ages and during cooler/heat recovery periods. Senior Pet Month highlights comfort needs; adds daily comfort for a rescue dog in an apartment.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Adult dog compact HEPA air purifier for a small-to-medium apartment living area, true HEPA filtration to reduce pet dander and seasonal airborne allergens, quiet operation and appropriate coverage",
+      "bm25_query": "compact HEPA air purifier small-medium apartment true HEPA pet dander allergens quiet coverage",
+      "top_k": 12,
+      "rationale": "Calendar indicates fall allergy season (current). An apartment HEPA purifier helps limit airborne allergens that can aggravate seasonal pet allergies and reduce household allergen load \u0014 improves overall comfort and respiratory health.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Adult dog two-piece grooming set: undercoat de-shedding tool sized for medium coats plus fine-tooth slicker brush, ergonomic handles and easy-clean features suitable for Golden-type double coats",
+      "bm25_query": "de-shedding tool slicker brush undercoat medium coat ergonomic easy-clean Golden Retriever double coat",
+      "top_k": 12,
+      "rationale": "Golden Retrievers have dense double coats and this rescue apartment dog will benefit from regular de-shedding to reduce indoor hair, allergens, and matting \u0014 especially during fall shed and rain season. Regular grooming prevents skin irritation.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Adult dog calming wrap/vest that provides gentle, constant pressure with adjustable fastenings, sized for medium dogs, machine-washable fabric suitable for apartment use during noisy events",
+      "bm25_query": "calming wrap vest gentle pressure adjustable medium dog machine-washable apartment noise anxiety",
+      "top_k": 12,
+      "rationale": "Calendar events (leaf blower season, hunting season, Halloween) increase noise/stress. A calming vest is a non-medical, preventive tool to reduce acute anxiety and make loud-season transitions easier for a rescue dog.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Collars & ID Tags",
+      "embedding_query": "Adult dog clip-on LED safety light or reflective collar band, rechargeable or long-life batteries, water-resistant, attaches to existing collar or harness for night and low-visibility walks",
+      "bm25_query": "LED clip-on safety light reflective collar band rechargeable water-resistant attaches collar harness visibility",
+      "top_k": 12,
+      "rationale": "Hunting season and shorter daylight hours (calendar: daylight saving end soon) increase the importance of visibility during evening walks; apartment residents often walk in dimly lit areas \u0014 improves safety for this dog.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Adult dog hands-free treat pouch wearable with secure closure and easy-access pocket, clip-on for belt/waist or leash, sized for small soft training treats for apartment and urban walks",
+      "bm25_query": "hands-free treat pouch wearable secure closure easy-access pocket clip-on belt waist leash training treats NOT Beef",
+      "top_k": 10,
+      "rationale": "Useful for positive reinforcement training and routine-adjustment (calendar: school year routine changes). Allows consistent training and reward delivery without fumbling, helpful for a rescue dog needing predictable reinforcement.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Storage & Accessories",
+      "embedding_query": "Digital kitchen scale with tare function, capacity up to 5 kg / 11 lb, compact for counter storage, accurate measuring for kibble portioning and weight management for a 30-lb dog",
+      "bm25_query": "digital kitchen scale tare 5 kg 11 lb compact counter accurate kibble portioning weight management",
+      "top_k": 10,
+      "rationale": "Because the dog is low-activity and weight control is important, precise portioning is recommended. A scale helps owners follow feeding guidelines and adjust calories to maintain healthy weight.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Adult dog quiet electric nail grinder or guillotine trimmer designed for medium dogs, low-noise and low-vibration to reduce stress, includes safety guard and file",
+      "bm25_query": "quiet electric nail grinder guillotine trimmer low-noise low-vibration safety guard file medium dog",
+      "top_k": 10,
+      "rationale": "Regular nail maintenance is important for apartment-living dogs (indoor surfaces, reduced activity). A low-noise tool helps a sensitive rescue dog tolerate grooming at home and avoids frequent salon visits.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Adult dog evaporative cooling vest or bandana for a 30-lb medium dog, quick-soak activation, lightweight and portable for short walks or indoor cooling during heat spikes",
+      "bm25_query": "evaporative cooling vest bandana 30-lb quick-soak portable lightweight short walks indoor cooling",
+      "top_k": 10,
+      "rationale": "Additional portable cooling option for short walks or when moving between rooms during excessive heat. Complements the cooling mat and helps prevent heat stress during brief outdoor exposure in apartment neighborhoods.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Litter/Waste",
+      "family": "Grass Pads & Trays",
+      "embedding_query": "Adult dog reusable artificial turf potty pad or disposable training pads sized for medium dogs, absorbent with odor control and optional tray for apartment convenience during heavy rain or heat",
+      "bm25_query": "reusable turf potty pad disposable training pads medium dog absorbent odor control tray apartment",
+      "top_k": 12,
+      "rationale": "No yard and rainy season upcoming indicate occasional need for indoor toileting alternatives; useful during heavy rain, excessive heat days, or when access outside is limited. Prevents accidents and eases owner management.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Adult dog insert-style slow-dispensing interactive puzzle feeder sized for medium kibble, moderate difficulty to encourage problem-solving and slow feeding, suitable for apartment enrichment",
+      "bm25_query": "interactive puzzle feeder slow-dispensing insert-style medium kibble moderate difficulty problem-solving slow feeding",
+      "top_k": 12,
+      "rationale": "Promotes mental stimulation in an apartment without a yard; reduces boredom and associated behaviors in a rescue dog. Also helps slow eating and enrich mealtimes.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Adult dog machine-washable snuffle mat sized for medium dogs with dense fabric fringe to hide kibble and treats, encourages natural foraging and nosework indoors",
+      "bm25_query": "snuffle mat machine-washable medium dog dense fabric fringe hide kibble treats foraging NOT Beef",
+      "top_k": 10,
+      "rationale": "Encourages natural sniffing and foraging, mentally tiring in a constructive way for a low-activity rescue dog in an apartment setting \u0014 helpful during rain or when outdoor time is limited.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Adult dog soft plush toys rated for light chewers with internal squeaker or crinkle, machine-washable and sized for medium dogs, avoid heavy-duty chew claims",
+      "bm25_query": "soft plush toys light-chew squeaker crinkle machine-washable medium dog safe for light chewers",
+      "top_k": 10,
+      "rationale": "Gentle play options appropriate for a light-chewing Golden Retriever; fosters interactive play and comfort (rescue dogs often bond with plush toys). Safe for this dog's chew strength.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Adult dog soft-rubber treat-dispensing toy sized for medium dogs, gentle chewing design, rolls out small treats or kibble, easy to clean, suitable for light chewers",
+      "bm25_query": "soft-rubber treat-dispensing toy medium dog gentle chewing rolls out kibble treats easy-clean",
+      "top_k": 10,
+      "rationale": "Encourages light activity and mental engagement in an apartment; appropriate for a light chewer and useful for meal enrichment or boredom reduction.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Adult dog beginner nosework kit with scent-safe pods or scent discs and instructions for simple at-home scent games, compact and apartment-friendly for tracking and mental stimulation",
+      "bm25_query": "beginner nosework kit scent pods scent discs instructions at-home scent games apartment tracking mental stimulation",
+      "top_k": 10,
+      "rationale": "Nosework taps into a dog's strongest sense and provides low-impact mental exercise ideal for an apartment-residing rescue dog \u0014 increases confidence and reduces boredom without heavy physical exertion.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Adult dog lightweight weighted calming blanket sized for small/medium dogs, provides gentle pressure (not heavy), washable cover to drape over bed or couch for added comfort",
+      "bm25_query": "lightweight weighted calming blanket small medium gentle pressure washable cover drape bed couch",
+      "top_k": 8,
+      "rationale": "Provides extra comfort for a rescue dog during noisy events (leaf blowers, doorbell activity around Halloween) and supports restful sleep in an apartment environment.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Adult dog soft indoor lightweight ball sized for medium mouths, non-abrasive and washable, designed for gentle fetch in small spaces and safe for furniture",
+      "bm25_query": "soft indoor lightweight ball medium mouths non-abrasive washable gentle fetch small spaces furniture-safe",
+      "top_k": 8,
+      "rationale": "Allows brief play sessions inside the apartment that match the dog's low-activity level \u0014 preserves muscle tone and offers short bursts of exercise without requiring a yard.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Adult dog small window seat or hammock pad with padded perch, low-profile and machine-washable cover, sized for medium dogs to safely observe outdoor activity from apartment windows",
+      "bm25_query": "window seat hammock pad padded perch low-profile machine-washable medium dog observe outdoors apartment",
+      "top_k": 8,
+      "rationale": "Watching outdoor activity is enriching for indoor dogs in apartments and reduces boredom; gives the rescue Golden a dedicated spot to observe neighborhood sights safely.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding/Bowls",
+      "family": "Storage & Accessories",
+      "embedding_query": "Adult dog compact breathable toy storage bin or basket for apartment use, washable fabric, helps rotate toys and keep living area tidy",
+      "bm25_query": "toy storage bin compact breathable washable fabric rotate toys apartment tidy",
+      "top_k": 8,
+      "rationale": "Rotating toys keeps enrichment fresh and an organized storage solution reduces clutter in small living spaces \u0014 supports long-term engagement with fewer items.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Adult dog plug-in canine pheromone diffuser refill for small-to-medium rooms, apartment-safe, non-medicated calming support to reduce situational anxiety",
+      "bm25_query": "plug-in pheromone diffuser refill small-medium rooms apartment non-medicated calming anxiety",
+      "top_k": 8,
+      "rationale": "Provides a low-effort calming baseline during noisy seasons (leaf blowers, Halloween) and can ease transitions for a rescue dog in apartment living \u0014 non-medical behavioral support.",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "a11a5c83-063d-48c2-86de-453f235448f3",
+    "pet_id": "6e42e401-0126-4cb9-a8de-4604f6a204ae",
+    "month_idx": 72,
+    "pet_name": "Mario",
+    "pet_species": "dog",
+    "generated_at": "2025-10-22T15:12:03.834521",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_a11a5c83_month72_20251022_150931.json",
+    "tokens": {
+      "prompt": 7376,
+      "completion": 7674,
+      "total": 15050
+    },
+    "elapsed_seconds": 0.0
+  }
+}

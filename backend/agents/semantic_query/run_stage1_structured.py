@@ -46,11 +46,14 @@ def _log(message: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {message}", file=sys.stderr, flush=True)
 
 
-def _save_output(journey_id: str, month_idx: int, result_data: Dict[str, Any]) -> None:
+def _save_output(journey_id: str, month_idx: int, result_data: Dict[str, Any], output_base_dir: str = None) -> None:
     """Save stage 1 structured output to file."""
     try:
         backend_dir = Path(__file__).resolve().parents[2]
-        outputs_dir = backend_dir / "testing" / "outputs" / "stage1_structured"
+        if output_base_dir:
+            outputs_dir = Path(output_base_dir) / "stage1_structured"
+        else:
+            outputs_dir = backend_dir / "testing" / "outputs" / "stage1_structured"
         outputs_dir.mkdir(parents=True, exist_ok=True)
         
         journey_short = journey_id[:8] if isinstance(journey_id, str) else "journey"
@@ -75,6 +78,7 @@ def run_stage1_structured_analysis(
     month_idx: int,
     tz: str = "America/Los_Angeles",
     model_name: str | None = None,
+    output_base_dir: str = None,
 ) -> Dict[str, Any]:
     """
     Run Stage 1 structured needs analysis with bucketing.
@@ -84,6 +88,7 @@ def run_stage1_structured_analysis(
         month_idx: Month index (0-14)
         tz: Timezone for context
         model_name: Optional model override
+        output_base_dir: Optional custom output directory (defaults to testing/outputs)
         
     Returns:
         Dict with bucketed needs analysis
@@ -171,10 +176,19 @@ def run_stage1_structured_analysis(
         _log(f"⚠️  Correcting total_categories: {reported_count} → {actual_count}")
         data["total_categories"] = actual_count
     
-    # Add metadata with inputs used
+    # Add comprehensive metadata to be passed through all stages
+    from database import db
+    journey = db.get_journey(journey_id)
+    pet = db.get_pet(journey.petId) if journey else None
+    
     data["metadata"] = {
         "journey_id": journey_id,
-        "pet_profile": json.loads(variables.get("pet_profile_json", "{}"))
+        "pet_id": journey.petId if journey else "unknown",
+        "month_idx": month_idx,
+        "pet_name": pet.name if pet else "unknown",
+        "pet_species": pet.species.value if pet and hasattr(pet.species, 'value') else (str(pet.species) if pet else "dog"),
+        "generated_at": datetime.now().isoformat(),
+        "stage": "stage1_structured"
     }
     
     # Print summary grouped by bucket
@@ -207,7 +221,7 @@ def run_stage1_structured_analysis(
         _log(f"    [{priority}] {family}")
     
     # Save output
-    _save_output(journey_id, month_idx, data)
+    _save_output(journey_id, month_idx, data, output_base_dir)
     
     _log("\n" + "=" * 80)
     _log("STAGE 1 STRUCTURED COMPLETE")

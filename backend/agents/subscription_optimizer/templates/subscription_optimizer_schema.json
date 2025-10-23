@@ -3,9 +3,9 @@
   "properties": {
     "subscription_products": {
       "type": "array",
-      "minItems": 15,
+      "minItems": 12,
       "maxItems": 15,
-      "description": "Products recommended for recurring auto-ship subscription (exactly 15 items)",
+      "description": "Products recommended for recurring auto-ship subscription (12-15 items, target 15)",
       "items": {
         "type": "object",
         "required": [
@@ -38,7 +38,7 @@
           },
           
           "product_link": {
-            "type": "string",
+            "type": ["string", "null"],
             "description": "Product URL link"
           },
           
@@ -84,9 +84,9 @@
     
     "one_time_products": {
       "type": "array",
-      "minItems": 15,
+      "minItems": 12,
       "maxItems": 15,
-      "description": "Products recommended for one-time purchase (exactly 15 items)",
+      "description": "Products recommended for one-time purchase (12-15 items, target 15)",
       "items": {
         "type": "object",
         "required": [
@@ -118,7 +118,7 @@
           },
           
           "product_link": {
-            "type": "string",
+            "type": ["string", "null"],
             "description": "Product URL link"
           },
           

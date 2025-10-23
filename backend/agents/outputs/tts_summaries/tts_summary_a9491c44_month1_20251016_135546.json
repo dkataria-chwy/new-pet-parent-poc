@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! Thor is at that lively three-month stage—full of zooms, learning, and teething. Pugs are social, food-motivated, and have short muzzles and facial folds that need gentle care, so here's the thing: check with your vet about his vaccine series if you haven't already, and start dental and fold-cleaning habits now. You know how apartment life means lots of short outings and leash training? That's where consistent potty routines, soft training treats, and a front-clip harness really help. Keep an eye on heat—pugs overheat fast—and consider a cooling pad for safety. Explore the recommendations below for a tailored plan to support Thor's growth and training.",
+  "word_count": 106,
+  "metadata": {
+    "generated_at": "2025-10-16T13:55:46.644407",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 27.06,
+    "audio_elapsed_seconds": 7.2,
+    "tokens": {
+      "prompt": 8946,
+      "completion": 1368,
+      "total": 10314
+    }
+  }
+}

@@ -1,0 +1,334 @@
+{
+  "total_queries": 26,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "7-month-old dog puppy dry kibble for active young dogs, small-to-medium kibble for brachycephalic muzzle, balanced protein and fat with moderate calorie density for weight control, adult-transition/large-breed growth formula, Mars-brand options, 15–30 lb bag",
+      "bm25_query": "puppy dry kibble small medium bite balanced protein moderate calories adult-transition Mars NOT duck",
+      "top_k": 20,
+      "rationale": "Daily primary nutrition \u0014 AJ needs a reliable daily kibble formulated for growth and high activity. As a 7-month-old pug at 40 lb, feeding an appropriate kibble every day is essential for growth, energy and weight management. Must avoid duck due to allergy.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "7-month-old dog soft training treats, pea-sized low-calorie soft/moist texture for frequent rewards, easily breakable pieces, resealable small packs, fast-to-eat for training sessions",
+      "bm25_query": "soft training treats pea-sized low-calorie breakable resealable small pack NOT duck",
+      "top_k": 12,
+      "rationale": "At 7 months AJ is still in intensive training/socialization. Frequent small rewards are used daily to reinforce good behavior. Soft low-calorie treats reduce calorie load while enabling many repetitions. Avoid duck due to allergy.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "7-month-old dog heavy-duty stainless steel non-tip water bowl, rubber base, wide-mouth 48–64 oz capacity, dishwasher-safe and rust-resistant, stable spill-proof design for apartment use",
+      "bm25_query": "stainless steel non-tip water bowl wide-mouth 48-64oz dishwasher-safe rubber base stable NOT duck",
+      "top_k": 10,
+      "rationale": "Daily water is essential. A sturdy non-tip steel bowl ensures AJ has fresh water every day and reduces spills in an apartment. Steel is hygienic and durable for a heavy, active dog.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Gear/Travel",
+      "family": "Feeders & Waterers",
+      "embedding_query": "7-month-old dog collapsible travel water bottle with attached bowl, leak-proof 20–28 oz capacity, lightweight, easy-clean, carabiner for leash attachment for walks and yard visits",
+      "bm25_query": "collapsible travel water bottle attached bowl 20-28oz leak-proof carabiner easy-clean NOT duck",
+      "top_k": 10,
+      "rationale": "Excessive heat warning + AJ's brachycephalic breed increase heat-risk during outings. Having on-walk hydration available immediately prevents dehydration and heat emergency \u0014 essential when leaving the apartment or using the yard.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Apparel",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "7-month-old dog evaporative or ice-pack compatible cooling vest sized for short-legged brachycephalic body, adjustable straps, reflective trim, machine-washable lightweight material for walk safety",
+      "bm25_query": "cooling vest evaporative ice-pack adjustable straps reflective brachycephalic machine-washable NOT duck",
+      "top_k": 10,
+      "rationale": "Pugs are highly heat-sensitive (brachycephalic). With an active dog and an excessive heat warning, a cooling vest for walks is an immediate safety item to reduce risk of heat stress during outdoor exercise.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "7-month-old dog heavy-duty chew toy made from indestructible rubber or tough nylon, low-fragmentation non-toxic construction, sized for strong chewers, treat-insertion capable for solo chewing",
+      "bm25_query": "heavy-duty chew toy indestructible rubber nylon non-toxic low-fragmentation treat-capable strong chewer NOT duck",
+      "top_k": 12,
+      "rationale": "AJ is a strong chewer and energetic\u0014without durable chew options he may destroy household items and ingest hazardous materials. A robust chew toy reduces immediate safety hazards and provides daily outlet for chewing behavior.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "7-month-old dog deshedding tool or undercoat rake for short-coated breeds, firm bristles, ergonomic handle, washable or replaceable head to capture loose seasonal hair",
+      "bm25_query": "deshedding tool undercoat rake short coat firm bristles ergonomic washable head NOT duck",
+      "top_k": 10,
+      "rationale": "Fall shedding season is active and pugs shed significantly. Regular deshedding reduces hair in the apartment and reduces allergen load for the household; timely grooming prevents matting and skin irritation.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Sprays/Foams/Wipes",
+      "embedding_query": "7-month-old dog hypoallergenic grooming wipes, fragrance-free, alcohol-free, pH-balanced, for sensitive skin and pollen/dust removal, individually wrapped or resealable packets for quick cleanups",
+      "bm25_query": "hypoallergenic grooming wipes fragrance-free alcohol-free pH-balanced individual packets NOT duck",
+      "top_k": 10,
+      "rationale": "Allergy season is active and AJ is in a region with fall allergens. Wipes help remove allergens from coat/paws after outdoor time and reduce sneezing/itching, supporting comfort and preventing secondary skin problems.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "7-month-old dog dog toothbrush (finger or dual-head) and enzymatic toothpaste safe to ingest, palatable flavor (non-duck), travel-size kit for daily home brushing",
+      "bm25_query": "dog toothbrush enzymatic toothpaste safe ingestion palatable travel-size NOT duck",
+      "top_k": 8,
+      "rationale": "Dental care is recommended to begin around 6\u00138 months. Regular brushing reduces plaque buildup and future dental disease. As AJ is approaching adulthood, starting daily/regular brushing now is preventive care.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "7-month-old dog slow feeder maze bowl, low-profile for brachycephalic head shape, dishwasher-safe plastic or ceramic to reduce gulping and improve digestion",
+      "bm25_query": "slow feeder maze bowl low-profile brachycephalic dishwasher-safe plastic ceramic anti-gulping NOT duck",
+      "top_k": 10,
+      "rationale": "Pugs can gulp quickly which increases risk of digestive upset. A slow feeder reduces rapid eating, lowering bloat/aspiration/regurgitation risk and improving mealtime behavior.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "7-month-old dog front-clip no-pull harness, reinforced construction for strong pullers, padded chest panel for brachycephalic chest, adjustable sizing and reflective trim for low-light safety",
+      "bm25_query": "front-clip no-pull harness reinforced padded chest brachycephalic adjustable reflective NOT duck",
+      "top_k": 12,
+      "rationale": "AJ is very strong and active; a no-pull harness reduces leash-pulling and improves safety on walks. Reflective trim helps during low-light walks (hunting season & early mornings).",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Collars & ID Tags",
+      "embedding_query": "7-month-old dog rechargeable LED clip-on safety light or reflective collar band, lightweight, attachable to collar or harness, multiple modes (steady and blink) for nighttime visibility",
+      "bm25_query": "LED clip-on safety light reflective collar band rechargeable multiple-modes lightweight NOT duck",
+      "top_k": 8,
+      "rationale": "Hunting season and variable daylight, plus apartment neighborhood walks, increase risk during low-light hours. Visibility gear reduces risk of accidents and improves owner confidence on outdoor trips.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "7-month-old dog passive cooling mat or self-cooling pad sized for a medium dog, non-electric gel or pressure-activated, washable cover for indoor apartment use",
+      "bm25_query": "cooling mat passive gel self-cooling pad medium washable cover indoor NOT duck",
+      "top_k": 10,
+      "rationale": "With excessive heat periods, an indoor cooling surface helps AJ regulate body temp while resting inside and reduces heat stress between outdoor activities.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Apparel",
+      "family": "Boots & Socks",
+      "embedding_query": "7-month-old dog paw protection options: paw wax balm for conditioning or lightweight non-slip protective dog boots sized for small/medium paws, non-slip soles for apartment floors and hot pavement",
+      "bm25_query": "paw wax balm protective dog boots non-slip small medium paw conditioning hot pavement NOT duck",
+      "top_k": 10,
+      "rationale": "During heat alerts, pavement and outdoor surfaces can become too hot for paw pads. Paw wax or boots are preventive to avoid burns and soreness during walks or yard play.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "7-month-old dog 20–30 ft lightweight long training line with swivel clip, durable reflective webbing and comfortable hand loop for recall training in a large yard",
+      "bm25_query": "20-30ft long training line swivel clip reflective durable recall training NOT duck",
+      "top_k": 10,
+      "rationale": "AJ has access to a large yard. A long training line supports safe off-leash recall practice without full freedom, aiding obedience and burn-off of energy while preventing runaways or hazards.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "7-month-old dog teething chew toys softer than indestructible chews, textured rubber or woven rope to massage gums, durable but slightly softer for teething puppies",
+      "bm25_query": "teething chew toys textured rubber woven rope softer durable puppy NOT duck",
+      "top_k": 12,
+      "rationale": "At 7 months AJ may still be finishing the teething process. Teething toys reduce discomfort and destructive chewing while complementing the heavy-duty chew toy recommended as essential.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "7-month-old dog durable treat-dispensing puzzle toy that hides small kibble, adjustable difficulty levels for progressive engagement and mental stimulation",
+      "bm25_query": "treat-dispensing puzzle toy adjustable difficulty durable hide kibble mental stimulation NOT duck",
+      "top_k": 12,
+      "rationale": "As a high-energy, intelligent young dog, AJ benefits from mental stimulation to reduce boredom and destructive behaviors, especially while indoors in an apartment or during rainy days.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "7-month-old dog flirt pole with strong cord and secure lure, durable construction, replaceable lure, compact for apartment storage but usable in yard for sprint/chase exercise",
+      "bm25_query": "flirt pole durable cord secure lure replaceable compact yard sprint chase NOT duck",
+      "top_k": 10,
+      "rationale": "AJ is very energetic; a flirt pole provides high-intensity bursts of exercise safely in yard or open areas, burning energy and improving impulse control when indoor/outdoor time is limited.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "7-month-old dog durable rubber fetch ball, high-bounce, size safe for medium mouths, non-toxic and floatable for yard water play, built for aggressive players",
+      "bm25_query": "durable rubber fetch ball high-bounce medium size non-toxic floatable aggressive chewer NOT duck",
+      "top_k": 10,
+      "rationale": "Provides repetitive running/retrieval to expend energy. Durable construction is needed for AJ's strong jaws to avoid toy breakage and ingestion risk.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "7-month-old dog fabric snuffle mat for hiding kibble/treats, machine-washable, apartment-sized to encourage foraging and scent work",
+      "bm25_query": "snuffle mat fabric hide kibble machine-washable apartment scent work NOT duck",
+      "top_k": 10,
+      "rationale": "Nosework is mentally tiring and rewarding; the snuffle mat slows feeding and provides enrichment when outside activity is limited by weather or heat alerts.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "7-month-old dog food-grade silicone frozen treat molds for homemade frozen yogurt or kibble treats, multiple cavities for portion control, dishwasher- and freezer-safe",
+      "bm25_query": "silicone frozen treat molds food-grade multiple-cavity dishwasher freezer-safe portion control NOT duck",
+      "top_k": 8,
+      "rationale": "Frozen treats help cool AJ on hot days, provide enrichment, and can be used to slow feeding and reward. Useful during heat warnings as a safe cooling snack.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "7-month-old dog heavy-duty tug rope toy, reinforced for two-person play, knotted ends and chew-safe fibers sized for medium/large mouths",
+      "bm25_query": "heavy-duty tug rope reinforced two-person knotted chew-safe fibers medium large mouth NOT duck",
+      "top_k": 10,
+      "rationale": "Interactive tug supports bonding, outlet for high energy, and controlled play sessions which are important for a strong, energetic young dog living in an apartment with yard access.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Grooming/Hygiene",
+      "family": "Beds",
+      "embedding_query": "7-month-old dog plush comfort blanket sized for a medium dog bed, machine-washable, designed to hold owner scent for crate or sleeping area comfort",
+      "bm25_query": "plush comfort blanket medium machine-washable owner-scent crate sleeping area NOT duck",
+      "top_k": 8,
+      "rationale": "Apartment living and changes in routine (school-year schedule) can cause mild stress; a comfort blanket provides security and reduces separation anxiety during alone time.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "7-month-old dog rotation pack of 3–5 chew toys with varied textures (rubber, nylon, braided), non-toxic materials, each sized to prevent swallowing to maintain engagement",
+      "bm25_query": "rotation pack chew toys variety rubber nylon braided non-toxic sized prevent swallowing NOT duck",
+      "top_k": 10,
+      "rationale": "Rotating different chew textures keeps AJ engaged and prevents boredom and over-attachment to a single toy. Variety supports dental and behavioral enrichment.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "7-month-old dog synthetic pheromone plug-in diffuser or collar (non-medicated, Adaptil-style) to reduce noise and anxiety reactions at home, non-drug calming support for apartment",
+      "bm25_query": "synthetic pheromone diffuser collar non-medicated calming Adaptil-style reduce anxiety NOT duck",
+      "top_k": 8,
+      "rationale": "Hunting season and leaf blower noise windows are stress-inducing in the calendar context. A pheromone product can reduce noise-related anxiety episodes and make AJ more comfortable at home.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "7-month-old dog small interactive hide-board tabletop puzzle for kibble, paw/nose manipulation required, compact and easy to reset for apartment indoor sessions",
+      "bm25_query": "small hide-board tabletop puzzle kibble paw nose manipulation compact easy reset NOT duck",
+      "top_k": 10,
+      "rationale": "Provides short-session puzzle play indoors during rainy days or heat-limited periods; useful for mental stimulation and slow feeding.",
+      "negatives": [
+        "Duck"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+    "pet_id": "d3764777-be9e-455f-9133-c630f6218a07",
+    "month_idx": 2,
+    "pet_name": "AJ",
+    "pet_species": "dog",
+    "generated_at": "2025-10-15T16:23:37.551794",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_1c4083d7_month2_20251015_162221.json",
+    "tokens": {
+      "prompt": 7193,
+      "completion": 6258,
+      "total": 13451
+    },
+    "elapsed_seconds": 0.0
+  }
+}

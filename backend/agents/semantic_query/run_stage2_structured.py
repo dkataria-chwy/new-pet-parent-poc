@@ -61,15 +61,24 @@ def _log(message: str) -> None:
     print(f"[{datetime.now().strftime('%H:%M:%S')}] {message}", file=sys.stderr, flush=True)
 
 
-def _save_output(journey_id: str, month_idx: int, result_data: Dict[str, Any]) -> None:
+def _save_output(journey_id: str, month_idx: int, result_data: Dict[str, Any], output_base_dir: str = None) -> None:
     """Save stage 2 structured output to file."""
     try:
         backend_dir = Path(__file__).resolve().parents[2]
-        outputs_dir = backend_dir / "testing" / "outputs" / "stage2_structured"
+        if output_base_dir:
+            outputs_dir = Path(output_base_dir) / "stage2_structured"
+        else:
+            outputs_dir = backend_dir / "testing" / "outputs" / "stage2_structured"
         outputs_dir.mkdir(parents=True, exist_ok=True)
         
         journey_short = journey_id[:8] if isinstance(journey_id, str) else "journey"
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+        
+        # Clean old outputs for this journey+month
+        for file in outputs_dir.glob(f"stage2_structured_queries_{journey_short}_month{month_idx}_*.json"):
+            _log(f"  Removing old: {file.name}")
+            file.unlink()
+        
         output_file = outputs_dir / f"stage2_structured_queries_{journey_short}_month{month_idx}_{timestamp}.json"
         output_file.write_text(json.dumps(result_data, indent=2, ensure_ascii=False), encoding="utf-8")
         _log(f"✅ Saved output to: {output_file}")
@@ -86,6 +95,7 @@ def generate_queries(
     stage1_output_path: str,
     tz: str = "America/Los_Angeles",
     model_name: str | None = None,
+    output_base_dir: str = None,
 ) -> Dict[str, Any]:
     """
     Generate Stage 2 structured queries from Stage 1 structured needs.
@@ -311,12 +321,12 @@ def generate_queries(
             top_k = query.get("top_k", "?")
             _log(f"   [{top_k}] {family}")
     
-    # Add metadata (including pet_profile for quick reference)
+    # Inherit metadata from Stage 1 and extend it
+    stage1_metadata = stage1_data.get("metadata", {})
     data["metadata"] = {
-        "journey_id": journey_id,
-        "month_idx": month_idx,
-        "pet_profile": json.loads(variables.get("pet_profile_json", "{}")),
+        **stage1_metadata,  # Inherit journey_id, pet_id, month_idx, pet_name, pet_species from Stage 1
         "model": effective_model,
+        "stage": "stage2_structured",
         "stage1_source": str(stage1_path),
         "generated_at": datetime.now().isoformat(),
         "tokens": {
@@ -328,7 +338,7 @@ def generate_queries(
     }
     
     # Save output
-    _save_output(journey_id, month_idx, data)
+    _save_output(journey_id, month_idx, data, output_base_dir)
     
     _log("\n" + "=" * 80)
     _log("STAGE 2 STRUCTURED COMPLETE")

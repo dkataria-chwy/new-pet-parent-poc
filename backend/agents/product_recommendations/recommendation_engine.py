@@ -14,9 +14,9 @@ try:
     from .vector_search import SpeciesAwareVectorSearch
     from .filters import ProductFilters
 except ImportError:
-    from storage_loader import EmbeddingStorageLoader
-    from vector_search import SpeciesAwareVectorSearch
-    from filters import ProductFilters
+    from agents.product_recommendations.storage_loader import EmbeddingStorageLoader
+    from agents.product_recommendations.vector_search import SpeciesAwareVectorSearch
+    from agents.product_recommendations.filters import ProductFilters
 
 logger = logging.getLogger(__name__)
 

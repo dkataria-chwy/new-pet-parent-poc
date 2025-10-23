@@ -84,7 +84,7 @@ class SubscriptionOptimizer:
         # Format inputs as JSON strings
         prompt = self.user_prompt_template
         prompt = prompt.replace("{{pet_profile_json}}", json.dumps(pet_profile, indent=2))
-        prompt = prompt.replace("{{month_idx}}", str(month_idx))
+        prompt = prompt.replace("{{month_idx}}", str(month_idx + 1))  # Convert 0-based to 1-based for display
         prompt = prompt.replace("{{journey_id}}", journey_id)
         prompt = prompt.replace("{{journey_context}}", journey_context)
         prompt = prompt.replace("{{order_history_json}}", json.dumps(order_history, indent=2))
@@ -118,9 +118,12 @@ class SubscriptionOptimizer:
         with open(recommendations_path, 'r') as f:
             recommendations = json.load(f)
         
-        # Extract metadata
-        pet_id = recommendations.get("pet_id", "unknown")
-        month_idx = recommendations.get("month", 0)
+        # Extract metadata from recommendations (inherited from Stage 1)
+        metadata = recommendations.get("metadata", {})
+        journey_id = metadata.get("journey_id", "unknown")
+        pet_id = metadata.get("pet_id", recommendations.get("pet_id", "unknown"))  # Fallback to old location
+        month_idx = metadata.get("month_idx", recommendations.get("month", 0))  # Fallback to old location
+        pet_name = metadata.get("pet_name", "your pet")
         
         # Extract all products from all buckets
         results = recommendations.get("results", [])
@@ -147,9 +150,8 @@ class SubscriptionOptimizer:
         
         _log(f"Analyzing {len(recommended_products)} products for subscription optimization")
         
-        # Get pet profile from a journey lookup (simplified - you may want to load from DB)
-        # For now, extract from recommendations metadata if available
-        pet_profile = self._get_pet_profile(pet_id)
+        # Get pet profile with current age (initial age + month_idx)
+        pet_profile = self._get_pet_profile(pet_id, month_idx)
         
         # Get weather/calendar context (simplified - load from actual sources if needed)
         weather_context = {"note": "Load from weather API if needed"}
@@ -167,7 +169,7 @@ class SubscriptionOptimizer:
         user_prompt = self._build_user_prompt(
             pet_profile=pet_profile,
             month_idx=month_idx,
-            journey_id=pet_id,
+            journey_id=journey_id,  # Use actual journey_id from metadata, not pet_id
             recommended_products=recommended_products,
             order_history=order_history,
             weather_context=weather_context,
@@ -214,18 +216,68 @@ class SubscriptionOptimizer:
         # Pre-validation cleanup (matching Stage 2 pattern)
         data = self._cleanup_llm_output(data)
         
-        # Validate against schema
-        try:
-            validate(instance=data, schema=self.schema)
-            _log("✅ Schema validation passed")
-        except ValidationError as e:
-            _log(f"⚠️  Schema validation failed: {e.message}")
-            raise
+        # Validate against schema with retry logic
+        max_retries = 3
+        for retry_attempt in range(max_retries):
+            try:
+                validate(instance=data, schema=self.schema)
+                _log("✅ Schema validation passed")
+                break  # Success, exit retry loop
+            except ValidationError as e:
+                sub_count = len(data.get("subscription_products", []))
+                one_time_count = len(data.get("one_time_products", []))
+                
+                _log(f"⚠️  Schema validation failed (attempt {retry_attempt + 1}/{max_retries})")
+                _log(f"   Subscription products: {sub_count} (need 12-15)")
+                _log(f"   One-time products: {one_time_count} (need 12-15)")
+                _log(f"   ACTUAL ERROR: {e.message}")
+                _log(f"   Error path: {'.'.join(str(p) for p in e.path) if e.path else 'root'}")
+                
+                if retry_attempt < max_retries - 1:
+                    # Retry with feedback
+                    _log(f"🔄 Retrying with corrective feedback...")
+                    
+                    feedback_prompt = f"""
+IMPORTANT: Your previous response had an error. Please correct it:
+
+- You provided {sub_count} subscription products, but need 12-15 (target 15)
+- You provided {one_time_count} one-time products, but need 12-15 (target 15)
+
+Please regenerate the COMPLETE response with:
+- 12-15 subscription products (aim for 15 if suitable products exist)
+- 12-15 one-time products (aim for 15 if suitable products exist)
+- Use the same pet profile and recommendations as before
+- Select additional products from different slot_ids if needed, but prioritize quality over quantity
+
+{user_prompt}
+"""
+                    
+                    retry_start = time.time()
+                    retry_response = client.chat.completions.create(
+                        model=final_model,
+                        messages=[
+                            {"role": "system", "content": self.system_prompt},
+                            {"role": "user", "content": feedback_prompt}
+                        ],
+                        response_format={"type": "json_object"}
+                    )
+                    
+                    content = retry_response.choices[0].message.content
+                    data = json.loads(content)
+                    data = self._cleanup_llm_output(data)
+                    
+                    retry_elapsed = time.time() - retry_start
+                    _log(f"Retry completed in {retry_elapsed:.1f}s")
+                    
+                else:
+                    # Final retry failed
+                    _log(f"❌ Schema validation failed after {max_retries} attempts: {e.message}")
+                    raise
         
-        # Add metadata
+        # Add metadata (inherit from recommendations and extend)
         data["metadata"] = {
-            "journey_id": pet_id,
-            "month_idx": month_idx,
+            **metadata,  # Inherit journey_id, pet_id, month_idx, pet_name, pet_species from previous stages
+            "stage": "stage4_subscription_optimizer",
             "model": model,
             "recommendations_source": str(recommendations_path),
             "generated_at": datetime.now().isoformat(),
@@ -295,19 +347,46 @@ class SubscriptionOptimizer:
         
         return data
     
-    def _get_pet_profile(self, pet_id: str) -> Dict[str, Any]:
+    def _get_pet_profile(self, pet_id: str, month_idx: int = 0) -> Dict[str, Any]:
         """
-        Get pet profile from journey database
-        Simplified version - in production, query actual database
+        Get pet profile directly from pet database with current age
+        
+        Args:
+            pet_id: Pet's UUID
+            month_idx: Current month index (to calculate current age)
         """
-        # TODO: Load from actual database
-        # For now, return a placeholder
+        from database import db
+        
+        # Load pet from database using pet_id (not journey_id!)
+        pet = db.get_pet(pet_id)
+        if not pet:
+            _log(f"⚠️  Pet {pet_id} not found in database, using placeholder")
+            return {
+                "species": "dog",
+                "breed": "Unknown",
+                "age_months": 0,
+                "weight_lb": 0.0,
+                "name": "your pet"
+            }
+        
+        # Calculate current age: initial age + month index (same pattern as Stage 1 & 2)
+        current_age_months = pet.ageMonths + month_idx
+        
         return {
-            "species": "dog",
-            "breed": "Golden Retriever",
-            "age_months": 2,
-            "weight_lb": 30.0,
-            "note": "Load from actual journey database in production"
+            "name": pet.name,
+            "species": pet.species.value if hasattr(pet.species, 'value') else str(pet.species),
+            "breed": pet.breed,
+            "age_months": current_age_months,
+            "weight_lb": pet.weightLbs,
+            "activity_level": pet.activityLevel.value if pet.activityLevel and hasattr(pet.activityLevel, 'value') else None,
+            "chew_strength": pet.chewStrength.value if pet.chewStrength and hasattr(pet.chewStrength, 'value') else None,
+            "allergies": pet.allergies,
+            "brand_preferences": pet.brandPreferences,
+            "environment": {
+                "household_type": pet.householdType.value if pet.householdType and hasattr(pet.householdType, 'value') else None,
+                "yard_access": pet.yardAccess.value if pet.yardAccess and hasattr(pet.yardAccess, 'value') else None,
+                "zip_code": pet.zipCode
+            }
         }
 
 
@@ -362,7 +441,16 @@ def main():
         journey_id = result["metadata"]["journey_id"]
         month_idx = result["metadata"]["month_idx"]
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-        output_filename = f"subscription_plan_{journey_id}_month{month_idx}_{timestamp}.json"
+        
+        # Use short journey ID for consistency with other stages
+        journey_short = journey_id[:8] if isinstance(journey_id, str) and len(journey_id) > 8 else journey_id
+        
+        # Clean old outputs for this journey+month
+        for file in output_dir.glob(f"subscription_plan_{journey_short}*_month{month_idx}_*.json"):
+            _log(f"  Removing old: {file.name}")
+            file.unlink()
+        
+        output_filename = f"subscription_plan_{journey_short}_month{month_idx}_{timestamp}.json"
         output_path = output_dir / output_filename
         
         # Save result

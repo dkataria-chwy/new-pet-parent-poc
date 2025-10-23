@@ -196,6 +196,12 @@ def main():
         project_root = Path(__file__).parent.parent.parent.parent
         output_dir = project_root / "backend" / "testing" / "outputs" / "recommendations_stage2_structured"
         output_dir.mkdir(exist_ok=True)  # Create directory if it doesn't exist
+        
+        # Clean old outputs for this journey+month
+        for file in output_dir.glob(f"recommendations_structured_{journey_short}_month{month_idx}_*.json"):
+            logger.info(f"  Removing old: {file.name}")
+            file.unlink()
+        
         output_path = output_dir / output_filename
         
         # Add bucket information to results for organization
@@ -206,6 +212,15 @@ def main():
                 if stage2_data['queries'].index(query) == slot_id - 1:  # slot_id is 1-based
                     slot_result['bucket'] = query.get('bucket', 'enrichment')
                     break
+        
+        # Add comprehensive metadata from Stage 2 (which inherited from Stage 1)
+        # This ensures journey_id, pet_id, month_idx, pet_name flow through consistently
+        results['metadata'] = {
+            **metadata,  # Inherit all metadata from Stage 2 (journey_id, pet_id, month_idx, pet_name, pet_species)
+            "stage": "stage3_recommendations",
+            "stage2_source": str(stage2_output_file),
+            "generated_at": timestamp
+        }
         
         # Save results
         with open(output_path, 'w') as f:

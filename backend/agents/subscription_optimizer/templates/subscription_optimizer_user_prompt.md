@@ -40,8 +40,8 @@ Apply your pet care expertise and the decision framework from your system instru
 6. **Write personalized notes** - Use pet's name and specific details for EVERY product
 
 **Output:**
-- **15 Subscription Products** (high-frequency consumables with predictable monthly depletion)
-- **15 One-Time Products** (durables, seasonal items, setup essentials)
+- **12-15 Subscription Products** (high-frequency consumables with predictable monthly depletion, target 15)
+- **12-15 One-Time Products** (durables, seasonal items, setup essentials, target 15)
 - **Overall Strategy** (brief explanation tailored to THIS pet at THIS journey stage)
 
 Return your analysis as JSON conforming to the schema provided.

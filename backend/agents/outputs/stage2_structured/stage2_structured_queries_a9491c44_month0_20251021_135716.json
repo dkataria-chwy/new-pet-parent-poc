@@ -1,0 +1,342 @@
+{
+  "total_queries": 32,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "Pug puppy dry kibble small-breed growth formula, high protein with DHA for brain development, small/bite-sized kibble for brachycephalic muzzle, 4–6 lb bag, AAFCO complete puppy nutrition",
+      "bm25_query": "Pug puppy dry kibble small-breed high protein DHA small bite 4-6lb AAFCO",
+      "top_k": 20,
+      "rationale": "Daily primary nutrition is required immediately for growth and high activity. A small-breed puppy formula prevents overfeeding large kibble, supports energy needs for a 2-month-old, and fits a Pug's short muzzle.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Pug puppy soft moist training treats, very small pieces and easy to break into tiny rewards, high-value puppy-appropriate protein sources, soft texture for young teeth (grain-free optional)",
+      "bm25_query": "puppy soft moist training treats small pieces breakable high-value puppy protein soft texture grain-free optional",
+      "top_k": 12,
+      "rationale": "Puppy requires frequent positive reinforcement for house-training and early obedience. Soft treats are easier for 2-month-old teeth and support high-activity training sessions in an apartment environment.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "Pug puppy shallow stainless steel food and water bowls, non-tip with silicone non-slip base, ~2-cup capacity, hygienic and easy to clean to reduce neck/airway strain",
+      "bm25_query": "shallow stainless steel bowls non-slip silicone 2-cup non-tip hygienic easy clean",
+      "top_k": 12,
+      "rationale": "Daily feeding and hydration require bowls right away. Shallow bowls help a brachycephalic breed avoid neck-overextension while eating/drinking and are hygienic (stainless steel).",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Furniture & Doors",
+      "family": "Crates/Gates/Pens",
+      "embedding_query": "Pug puppy crate with divider, sized for adult Pug but adjustable for current puppy, wire or plastic with good ventilation, secure latch and foldable for apartment storage",
+      "bm25_query": "puppy crate divider adjustable adult-size wire plastic ventilation secure latch foldable",
+      "top_k": 15,
+      "rationale": "Provides immediate safe confinement, aids house training, and gives the puppy a den-like sleeping area. New pets need a secure space from day one in an apartment without a yard.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Furniture & Doors",
+      "family": "Beds",
+      "embedding_query": "Pug puppy machine-washable crate pad, small-breed size, moderate but low loft for easy entry, chew-resistant or replaceable cover for durability",
+      "bm25_query": "machine-washable crate pad small-breed low loft chew-resistant replaceable cover durable",
+      "top_k": 12,
+      "rationale": "Immediate comfort and warmth for sleep in the crate. Washable materials are essential during house training. Needs to be durable because the puppy has strong chewing tendencies.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "Pug puppy adjustable padded front-clip harness for small breeds to reduce neck pressure, paired with a 4–6 ft short leash, strong hardware, washable and reflective trim for visibility",
+      "bm25_query": "padded front-clip harness small puppy 4-6ft leash strong hardware washable reflective",
+      "top_k": 15,
+      "rationale": "Immediate safety for walks and carry from the vet. Pugs are brachycephalic; harnesses reduce tracheal strain from collars. Apartment living means leash walks are essential for exercise.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Leashes/Collars",
+      "family": "Collars & ID Tags",
+      "embedding_query": "Pug puppy lightweight adjustable soft collar with engravable ID tag (phone number and address), sized for rapid adjustment as the puppy grows",
+      "bm25_query": "adjustable soft puppy collar engravable ID tag lightweight rapid adjustment",
+      "top_k": 10,
+      "rationale": "Immediate safety: a new puppy can escape or be lost. ID is necessary from day one. Even if a harness is used for walks, a collar+ID provides quick identification.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Potty Training Pads",
+      "embedding_query": "Pug puppy disposable absorbent potty training pads for small dogs, odor-control, shallow pad tray or holder to secure pads, pack sized for frequent house-training use",
+      "bm25_query": "disposable absorbent puppy potty pads small dog odor-control pad holder tray frequent use",
+      "top_k": 12,
+      "rationale": "No yard and apartment living make indoor potty options immediately necessary. Puppy is 2 months and will require frequent, supervised elimination; pads reduce accidents and protect floors.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Pug puppy durable solid rubber chew toy for strong chewers, small-breed size, no small parts, non-toxic, easy to clean and treat-fillable to encourage appropriate chewing",
+      "bm25_query": "durable rubber chew toy strong chewer small-breed no small parts non-toxic easy clean treat-fillable",
+      "top_k": 15,
+      "rationale": "Strong chew strength + teething at 2 months creates immediate need for safe chew alternatives to prevent destructive chewing and dental issues. Durable materials reduce ingestion risk.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Pug puppy portable cooling mat for small dogs, gel or breathable fabric, non-toxic with easy-clean cover, sized to fit crate or living area for short-term cooling relief",
+      "bm25_query": "cooling mat small dog gel breathable non-toxic easy-clean fits crate living area",
+      "top_k": 12,
+      "rationale": "Current excessive_heat_warning and Pugs are heat-sensitive due to brachycephaly. A cooling mat helps prevent overheating in an apartment and provides immediate comfort during hot spells.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Furniture & Doors",
+      "family": "Crates/Gates/Pens",
+      "embedding_query": "Pug puppy lightweight foldable indoor playpen for small breeds, panels that attach to crate for expanded space, vinyl or metal with low threshold for easy access",
+      "bm25_query": "foldable indoor playpen small breed attach crate vinyl metal low threshold easy access",
+      "top_k": 12,
+      "rationale": "No yard + high activity puppy needs a safe indoor area to burn energy when outside time is limited. Useful for supervised play, preventing accidents, and socialization introduction.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Pug puppy belt-clip treat pouch for hands-free training with washable interior sized for small soft treats, plus a basic clicker for marker training",
+      "bm25_query": "treat pouch belt-clip washable interior small soft treats clicker marker training",
+      "top_k": 10,
+      "rationale": "Facilitates frequent training sessions (crate/housetraining, basic commands) which are critical in the first months. High-activity puppy benefits from structured training tools.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Pug puppy freezable rubber or silicone teething toy, small-breed size, solid non-toxic material that can be chilled to soothe sore gums and is easy to clean",
+      "bm25_query": "freezable teething toy rubber silicone small-breed non-toxic easy clean soothe gums",
+      "top_k": 12,
+      "rationale": "Supports teething comfort for a 2-month-old puppy and reduces chewing on inappropriate household items. Freezing provides soothing relief without medication.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "Pug puppy small-headed soft-bristled toothbrush or finger brush with enzymatic puppy toothpaste, puppy-safe flavor options, designed to build early dental care habits",
+      "bm25_query": "puppy toothbrush soft small head finger brush enzymatic toothpaste puppy-safe flavor early dental",
+      "top_k": 10,
+      "rationale": "Early dental care is a veterinary best practice to prevent plaque; starting young establishes tolerance for brushing. Pugs are prone to dental crowding, so early care is preventative.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Pug puppy small guillotine nail trimmer or quiet rotary grinder for puppies, with safety guard and nail file; low-noise grinder options to reduce puppy stress",
+      "bm25_query": "small guillotine nail trimmer rotary grinder safety guard nail file low-noise puppy",
+      "top_k": 10,
+      "rationale": "Nail care prevents discomfort and injury; starting trimming early helps habituation. Apartment living means indoor surfaces can magnify long nails' impact on comfort.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Cleaning",
+      "family": "Cleaners & Stain Removers",
+      "embedding_query": "Enzymatic stain and odor cleaner for pet urine, stool, and food on carpet, rugs, and hardwood; pet-safe formula to remove scent and prevent re-soiling",
+      "bm25_query": "enzymatic stain odor cleaner urine stool carpet rug hardwood pet-safe prevents resoiling",
+      "top_k": 12,
+      "rationale": "House-training accidents will happen; enzymatic cleaners remove scent cues that attract repeat soiling\u0006important in apartment with no yard.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Collars & ID Tags",
+      "embedding_query": "Pug puppy small rechargeable LED safety light or reflective clip that attaches to harness or leash, lightweight and improves visibility for early morning and evening walks",
+      "bm25_query": "rechargeable LED light reflective clip harness leash small lightweight visibility morning evening",
+      "top_k": 10,
+      "rationale": "Calendar triggers (Hunting Season, leaf-blower and seasonal noise) and variable light conditions mean increased visibility reduces risk during outdoor walks in the neighborhood.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Pug puppy compact HEPA air purifier for a small room, washable pre-filter, low-noise night mode suitable for crate area to reduce airborne allergens and dust",
+      "bm25_query": "HEPA air purifier small room washable pre-filter low-noise night mode reduce allergens dust",
+      "top_k": 12,
+      "rationale": "Fall allergy season is active in calendar context; an air purifier improves indoor air for both puppy and household humans and can reduce sneezing/irritation that complicates a young puppy's wellbeing.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Shampoos & Conditioners",
+      "embedding_query": "Pug puppy hypoallergenic tear-free puppy shampoo, pH-balanced with mild moisturizing agents, formulated for sensitive puppy skin, small-breed bottle size",
+      "bm25_query": "hypoallergenic puppy shampoo tear-free pH-balanced mild moisturizing sensitive skin small-breed",
+      "top_k": 10,
+      "rationale": "Seasonal allergy window and puppy skin sensitivity make a gentle shampoo useful for occasional baths and allergen removal without irritating skin.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Pug puppy shallow slow-feed or maze-style puzzle feeder for small breeds, sized to slow rapid eating and provide mental stimulation during meals",
+      "bm25_query": "slow-feed bowl maze puzzle feeder small-breed shallow slow eating mental stimulation",
+      "top_k": 10,
+      "rationale": "Active puppies can gulp food; slowing intake reduces GI upset and engages the puppy mentally. Also useful in apartment to make mealtimes enriching.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Pug puppy treat-dispensing interactive toy, small-mouth size, durable rubber or plastic construction for strong chewers, releases kibble or treats when manipulated",
+      "bm25_query": "treat-dispensing interactive toy small mouth durable rubber plastic strong chewer releases kibble",
+      "top_k": 12,
+      "rationale": "Encourages independent problem solving and occupies a high-energy puppy in an apartment; reduces boredom and destructive behavior when owner is busy.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Pug puppy small soft durable rubber fetch ball sized for puppy mouth, non-marking and easy to sanitize for short indoor fetch sessions",
+      "bm25_query": "small rubber fetch ball soft durable puppy mouth non-marking easy sanitize indoor fetch",
+      "top_k": 10,
+      "rationale": "Short indoor fetch sessions help burn energy in an apartment setting without needing a yard; size appropriate for small Pug puppy prevents choking.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Pug puppy fabric snuffle mat for scent enrichment, small size to hide kibble and treats in fabric folds to encourage foraging and scent work",
+      "bm25_query": "snuffle mat scent enrichment small hide kibble treats encourage foraging",
+      "top_k": 10,
+      "rationale": "Mental enrichment reduces pent-up energy and provides indoor stimulation appropriate for a high-activity puppy in an apartment.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Pug puppy small plush comfort toy for cuddling and separation comfort, supervised use only due to strong chewing and replace when damaged",
+      "bm25_query": "small plush comfort toy cuddling separation supervised replace when damaged strong chewer",
+      "top_k": 8,
+      "rationale": "Helps with separation comfort and can be placed in crate for naps. Must be supervised because of strong chewer; still valuable for emotional enrichment.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Pug puppy calming pheromone diffuser or portable calming spray puppy formula, non-medicated, suitable for crate or pen to reduce noise and stress-related anxiety",
+      "bm25_query": "calming pheromone diffuser calming spray puppy non-medicated crate pen reduce noise stress anxiety",
+      "top_k": 12,
+      "rationale": "Calendar events (leaf blower season, hunting season, Halloween doorbell activity) may increase noise/stress; pheromone products can reduce anxiety in new puppies during noisy periods.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Pug puppy small durable interactive tug toy for supervised play, reinforced seams, designed for small breeds and strong pull without shredding",
+      "bm25_query": "tug toy small durable reinforced seams small-breed strong pull supervised",
+      "top_k": 10,
+      "rationale": "Interactive play supports bonding and impulse control training. High-activity puppy benefits from supervised tug/recall games to expend energy indoors.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Gear/Travel",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Pug puppy portable dog water bottle with attached bowl or spout, small capacity, leak-proof and easy to carry for short apartment walks",
+      "bm25_query": "portable dog water bottle attached bowl small capacity leak-proof easy carry walks",
+      "top_k": 10,
+      "rationale": "Hydration during walks is important, especially with heat warnings. Portable bottle is practical for quick outings in an apartment context.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Apparel",
+      "family": "Outdoor Apparel",
+      "embedding_query": "Pug puppy breathable cooling bandana or lightweight tee, small-breed size, can be dampened briefly for cooling relief during short periods indoors or outings",
+      "bm25_query": "cooling bandana breathable puppy tee small-breed dampen short-term cooling relief",
+      "top_k": 8,
+      "rationale": "Additional small-item cooling option given heat sensitivity; useful for brief relief during high indoor temps and for comfort on short outings.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Furniture & Doors",
+      "family": "Mats & Liners",
+      "embedding_query": "Pug puppy non-slip washable training mat sized for small-breed play area, provides traction to reduce slips, protects apartment floors during indoor play and training",
+      "bm25_query": "non-slip washable training mat small-breed traction protect floors indoor play training",
+      "top_k": 8,
+      "rationale": "Protects apartment floors, provides grip for a clumsy puppy to reduce slips during burst play, and defines a training/play area near the crate or pen.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "Biodegradable small-roll poop bags with leash or harness dispenser, compact for leash walks and quick pick-ups",
+      "bm25_query": "biodegradable poop bags small roll dispenser attaches leash harness compact walks",
+      "top_k": 8,
+      "rationale": "While the puppy is primarily on pads now, leash walks will occur; responsible waste collection is needed immediately when leaving the apartment and for local regulations.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Furniture & Doors",
+      "family": "Crates/Gates/Pens",
+      "embedding_query": "Small adjustable baby gate or door stopper to block off stairs or rooms for puppy safety, portable and fits typical apartment door widths",
+      "bm25_query": "adjustable baby gate door stopper portable block stairs rooms fits apartment door widths",
+      "top_k": 8,
+      "rationale": "Helps puppy-proof living space and keeps puppy away from hazards when unsupervised; useful in apartment to limit access to potentially dangerous areas.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Emergency/Safety",
+      "family": "First Aid",
+      "embedding_query": "Basic pet first-aid kit for puppies with non-medicated supplies: bandage material, styptic powder, tweezers, thermometer and simple instructions",
+      "bm25_query": "basic pet first-aid kit bandage styptic powder tweezers thermometer non-medicated",
+      "top_k": 10,
+      "rationale": "Useful household preparedness item for a new energetic puppy; immediate non-medical supplies help handle minor injuries before vet consultation if needed.",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "a9491c44-cfdf-43ec-815b-38fe3884ccf6",
+    "pet_id": "1ac35e16-6ae8-4840-9d27-0c0a317589af",
+    "month_idx": 0,
+    "pet_name": "Thor",
+    "pet_species": "dog",
+    "generated_at": "2025-10-21T13:57:16.704773",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_a9491c44_month0_20251021_135518.json",
+    "tokens": {
+      "prompt": 7815,
+      "completion": 10295,
+      "total": 18110
+    },
+    "elapsed_seconds": -0.0
+  }
+}

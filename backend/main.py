@@ -28,7 +28,13 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent / "agents" / "on_demand_recommendations"))
 from api_handler import OnDemandRecommendationHandler
 
+# Import routers
+from routers.tts_router import router as tts_router
+
 app = FastAPI(title="Chewy Journey API", version="1.0.0")
+
+# Include routers
+app.include_router(tts_router)
 
 # Add CORS middleware
 app.add_middleware(
@@ -466,6 +472,133 @@ async def get_pet_history(pet_id: str):
         return {"petId": pet_id, "history": history}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/weather/{zip_code}")
+async def get_weather_for_zip(zip_code: str, include_csv_alerts: bool = True):
+    """
+    Get current weather data for a ZIP code using NWS API
+    """
+    try:
+        # Import weather tools
+        from tools.weather_tool import get_weather_context
+        from tools.csv_weather_tool import get_csv_weather_context
+        
+        # Use live NWS API for current conditions
+        try:
+            weather_data = get_weather_context(zip_code=zip_code, days_ahead=1)
+        except Exception as nws_error:
+            print(f"NWS API failed, falling back to CSV: {nws_error}")
+            # Fallback to CSV if NWS fails
+            weather_data = get_csv_weather_context(zip_code=zip_code, days_ahead=1)
+        
+        # Optionally check CSV for additional alerts (for weather widget)
+        all_triggers = weather_data.get("triggers", [])
+        if include_csv_alerts:
+            try:
+                csv_data = get_csv_weather_context(zip_code=zip_code, days_ahead=1)
+                csv_triggers = csv_data.get("triggers", [])
+                
+                # Combine NWS triggers with CSV triggers
+                all_triggers = all_triggers + csv_triggers
+            except Exception as csv_error:
+                print(f"CSV weather check failed: {csv_error}")
+                # Keep only NWS triggers if CSV fails
+        
+        return {
+            "success": True,
+            "data": {
+                **weather_data,
+                # Ensure triggers are in the expected format for frontend
+                "triggers": [
+                    {
+                        "category": trigger.get("event", trigger.get("category", "Weather Alert")),
+                        "description": trigger.get("event", trigger.get("description", "Weather alert active")),
+                        "confidence": 0.8  # Default confidence
+                    }
+                    for trigger in all_triggers
+                ]
+            }
+        }
+        
+    except Exception as e:
+        print(f"Weather API error: {e}")
+        return {
+            "success": False,
+            "error": str(e),
+            "data": {
+                "location": {"zip": zip_code, "state": None},
+                "current": None,
+                "forecast": [],
+                "triggers": []
+            }
+        }
+
+
+@app.get("/subscription-plan/{journey_id}/{month_idx}")
+async def get_subscription_plan(journey_id: str, month_idx: int):
+    """
+    Get subscription plan for a specific journey and month.
+    
+    If the plan exists in the database, it returns the cached version.
+    If it doesn't exist, it runs the full pipeline to generate it.
+    
+    Returns:
+        {
+            "success": true,
+            "data": {...subscription plan...},
+            "from_cache": bool,
+            "generated_at": ISO timestamp
+        }
+    """
+    try:
+        # First, check if the journey exists
+        journey = db.get_journey(journey_id)
+        if not journey:
+            raise HTTPException(status_code=404, detail=f"Journey {journey_id} not found")
+        
+        # Check database for existing plan
+        plan = db.get_subscription_plan(journey_id, month_idx)
+        
+        if plan:
+            # Plan exists in database - return cached version
+            return {
+                "success": True,
+                "data": plan,
+                "from_cache": True,
+                "generated_at": plan.get("metadata", {}).get("generated_at", "")
+            }
+        
+        # Plan doesn't exist - run the pipeline
+        print(f"[{journey_id[:8]}] Subscription plan for month {month_idx} not found in cache, running pipeline...")
+        
+        # Import and run the orchestrator
+        from orchestration.run_full_pipeline import run_pipeline
+        
+        result = run_pipeline(journey_id, month_idx)
+        
+        if result["success"]:
+            # Pipeline succeeded - return the generated plan
+            return {
+                "success": True,
+                "data": result["subscription_plan_result"],
+                "from_cache": False,
+                "generated_at": result["subscription_plan_result"].get("metadata", {}).get("generated_at", "")
+            }
+        else:
+            # Pipeline failed
+            raise HTTPException(
+                status_code=500, 
+                detail=f"Failed to generate subscription plan: {result.get('error', 'Unknown error')}"
+            )
+            
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"Error in get_subscription_plan: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 if __name__ == "__main__":
     import uvicorn

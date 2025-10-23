@@ -1,0 +1,565 @@
+{
+  "total_categories": 34,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Nutrition",
+      "family": "Large-breed puppy dry kibble (beef-free)",
+      "description": "Complete, large-breed puppy dry kibble formulated for growth-control of fast-growing breeds (calcium/phosphorus balanced), chicken- or fish-based protein (explicitly beef-free), small/puppy-sized kibble pieces for 2-month-old mouths, sold in a 10–30 lb bag. Look for puppy-specific calories and DHA for brain development.",
+      "rationale": "2-month-old Golden Retriever is a large-breed puppy requiring puppy-formula nutrition to support steady growth and joint health; must avoid beef due to allergy. Daily staple — used every day.",
+      "evidence": [
+        "pet_characteristic: species: dog",
+        "pet_characteristic: breed: Golden Retriever",
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: weight_lb: 30.0",
+        "pet_characteristic: allergies: [Beef]",
+        "standard: large-breed_puppy_nutrition_guidelines"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding Supplies",
+      "family": "Stainless steel non-tip food and water bowl set",
+      "description": "Set of two stainless steel bowls (one food, one water), non-slip base, 16–24 oz capacity (puppy size) or slightly larger to match a 30 lb puppy; dishwasher-safe and heavy enough to resist tipping in an apartment setting.",
+      "rationale": "Daily feeding and hydration require durable, sanitary bowls; stainless steel reduces bacterial growth and is chew-safe for a light-chewing puppy.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: chew_strength: light",
+        "pet_characteristic: house_type: apartment",
+        "standard: feeding_hygiene_guidelines"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Containment",
+      "family": "Adjustable wire crate with divider (puppy-size to mid-size)",
+      "description": "Foldable wire crate with removable divider panel and leak-proof tray, sized to allow standing/turning but not excessive space (choose a crate listed for medium/large puppies, ~30–36\") so divider can be used as the puppy grows; includes secure latch and washable tray.",
+      "rationale": "New rescue puppy needs a safe den for sleep, house-training, timeout, and apartment management. Divider allows correct space now and as the dog grows — starter basic required immediately.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: breed: Golden Retriever",
+        "pet_characteristic: house_type: apartment",
+        "standard: crate_training_best_practices"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Bedding",
+      "family": "Washable puppy bed (chew-resistant cover), medium",
+      "description": "Soft, machine-washable bolstered puppy bed sized for a growing Golden (medium/breed-appropriate), chew-resistant cover fabric for a light chewer, low profile for crate compatibility and apartment comfort.",
+      "rationale": "Provides a dedicated comfortable sleep spot for a rescue puppy; starter one-time item for settling in and crate use.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: breed: Golden Retriever",
+        "pet_characteristic: chew_strength: light",
+        "pet_characteristic: house_type: apartment"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Walking & Safety",
+      "family": "Adjustable puppy harness (front-clip) sized for young Golden",
+      "description": "Adjustable, padded harness sized for puppies with chest straps and front-clip option for early leash training; lightweight, escape-resistant buckles, washable material, adjustable to grow with the puppy.",
+      "rationale": "Safe, controlled walks and initial training require a harness rather than just a collar for a young large-breed puppy; immediate safety/walking gear is a new-pet starter essential.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: breed: Golden Retriever",
+        "pet_characteristic: house_type: apartment",
+        "calendar: hunting_season_2025 relevance_to_pets: leash_safety"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Walking & Safety",
+      "family": "Six-foot flat leash (nylon) for daily walks",
+      "description": "6-foot flat nylon leash with secure clasp sized for puppy use (medium clasp), easy-to-grip handle; durable but lightweight for a low-energy puppy learning loose-leash behavior.",
+      "rationale": "Standard daily control during walks in an apartment environment; pairs with harness and is essential for outside potty trips and safety.",
+      "evidence": [
+        "pet_characteristic: house_type: apartment",
+        "pet_characteristic: activity: low",
+        "calendar: hunting_season_2025 relevance_to_pets: leash_safety"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Housebreaking",
+      "family": "Pee pads (sealable pack) with leak-proof backing and attractant",
+      "description": "Absorbent puppy training pads sized ~22x22 in, leak-proof backing and light attractant scent, pack large enough for several days of indoor apartment training; adhesive/edge guards optional to hold pad in place.",
+      "rationale": "No yard and an apartment make indoor potty solutions essential for a newly adopted 2-month-old puppy while house-training is established.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: house_type: apartment",
+        "pet_characteristic: yard: no_yard",
+        "standard: puppy_house_training_practices"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Waste Management",
+      "family": "Biodegradable poop bags and dispenser",
+      "description": "Roll or box of 60+ biodegradable, leak-resistant dog waste bags sized for puppy output, plus a clip-on dispenser to attach to leash; unscented or lightly scented (avoid beef scent).",
+      "rationale": "Daily waste pickup during walks is a necessary consumable for apartment living and public spaces.",
+      "evidence": [
+        "pet_characteristic: house_type: apartment",
+        "pet_characteristic: age_months: 2",
+        "standard: local_pet_waste_guidelines"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Training Supplies",
+      "family": "Small soft training treats (beef-free)",
+      "description": "Small, soft, low-calorie training treats (chicken, lamb, or peanut formulations — explicitly labeled beef-free), pea-sized, strong aroma for reinforcement, sold in resealable pouch for daily training/rewarding.",
+      "rationale": "Positive reinforcement training requires small soft treats used multiple times daily — important for a 2-month-old rescue learning basic manners; daily consumable and essential for shaping behavior now.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: about: Rescue dog",
+        "pet_characteristic: activity: low",
+        "pet_characteristic: allergies: [Beef]",
+        "standard: positive_reinforcement_training_best_practices"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Identification",
+      "family": "Stainless steel ID tag with engraved contact",
+      "description": "Durable stainless steel ID tag sized for a puppy collar or harness ring, engraved with owner phone number and pet name; small, rounded edges to avoid snagging.",
+      "rationale": "Immediate safety: newly adopted puppy should have visible ID during any outings; critical in apartment/urban areas.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: house_type: apartment",
+        "standard: lost_pet_identification_guidelines"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Chew & Teething",
+      "family": "Rubber teething chew toys (puppy-soft, freezable)",
+      "description": "Durable soft rubber teething toys sized for puppies, hollow or ridged to stuff with cold-safe puree, freezer-safe for soothing gums; labeled safe for light chewers and non-toxic materials.",
+      "rationale": "2-month-old puppy will be teething — toys that can be chilled provide relief and redirect mouthing away from household items; preventive against destructive chewing.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: chew_strength: light",
+        "standard: puppy_teething_recommendations"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Play & Comfort",
+      "family": "Plush comfort toy (light-chew rated)",
+      "description": "Soft plush toy sized for a puppy, light-chew rated, with internal rattler or low-profile squeaker; machine-washable and small enough for crate sleep comfort.",
+      "rationale": "Provides comfort for a rescue puppy settling into a new home and helps reduce anxiety when alone in an apartment crate or pen.",
+      "evidence": [
+        "pet_characteristic: about: Rescue dog",
+        "pet_characteristic: chew_strength: light",
+        "pet_characteristic: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Training Supplies",
+      "family": "Treat pouch for training",
+      "description": "Wearable treat pouch with secure closure and clip for belt or leash; easy-access interior for small soft treats used during repeated indoor/outdoor training sessions.",
+      "rationale": "Makes frequent reward-based training efficient and consistent during the critical early socialization window; useful for apartment-based routines.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: activity: low",
+        "standard: positive_reinforcement_training_practices"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Containment",
+      "family": "Portable exercise pen (8-panel) for indoor use",
+      "description": "8-panel foldable exercise pen (24–30\" tall) that can form a play or potty-training area indoors, stable panels with no-sharp-edges, easy to rearrange for apartment living.",
+      "rationale": "Gives a safe, contained indoor area for play, supervised freedom, and separation in a no-yard apartment; supports house-training and prevents unsupervised chewing.",
+      "evidence": [
+        "pet_characteristic: house_type: apartment",
+        "pet_characteristic: yard: no_yard",
+        "pet_characteristic: age_months: 2"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Slicker brush and de-shedding rake (golden coat appropriate)",
+      "description": "Two-piece grooming set: fine-toothed slicker brush for tangles and a de-shedding rake or undercoat tool sized for Golden Retriever fur—ergonomic handles and washable heads.",
+      "rationale": "Golden Retrievers are heavy shedders; early grooming establishes coat-care habits and reduces loose hair in an apartment during fall shedding and allergy season.",
+      "evidence": [
+        "pet_characteristic: breed: Golden Retriever",
+        "calendar: shedding_season_fall_2025",
+        "calendar: allergy_season_fall_2025 relevance_to_pets: grooming"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Nail clippers (puppy-sized) with safety guard",
+      "description": "Small guillotine or scissor-style clippers with safety guard and file/beveler for puppy nails; non-slip handle and instructions for safe beginner use.",
+      "rationale": "Keeping nails trimmed in an apartment prevents damage and discomfort; starting at a young age helps habituate the puppy to grooming sessions.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: house_type: apartment",
+        "standard: at-home_grooming_recommendations"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Dental Care",
+      "family": "Puppy toothbrush and enzymatic toothpaste (non-beef flavor)",
+      "description": "Finger brush or small dual-headed puppy toothbrush and enzymatic toothpaste flavored chicken or poultry (explicitly not beef), formulated for young teeth and gums.",
+      "rationale": "Early introduction to toothbrushing reduces future dental disease; safe to begin cleaning gums/teeth with puppy-specific products.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "standard: dental_preventive_care_guidelines"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Calming & Behavior",
+      "family": "Calming wrap / anxiety vest (puppy size)",
+      "description": "Adjustable calming wrap designed for puppies, soft fabric, breathable, sized to fit small/medium puppies to apply gentle pressure during loud noises (leaf blowers, hunting season) or stressful events.",
+      "rationale": "Calendar shows leaf blower and hunting seasons causing noise stress; rescue puppy may be anxious—calming wrap provides non-pharmaceutical anxiety reduction.",
+      "evidence": [
+        "pet_characteristic: about: Rescue dog",
+        "calendar: leaf_blower_season_2025",
+        "calendar: hunting_season_2025"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Climate Comfort",
+      "family": "Cooling mat (breathable or gel, puppy-sized)",
+      "description": "Non-electric cooling mat sized for a puppy/crate area, breathable fabric or non-toxic gel core, designed for indoor cooling during heat spells; non-slip bottom and washable cover.",
+      "rationale": "Weather context includes an excessive heat warning and multiple days in the 80s°F — a cooling surface helps prevent overheating in an apartment without forced AC or during peak heat.",
+      "evidence": [
+        "weather: excessive_heat_warning",
+        "weather: daily max_f values: [82.0, 84.0]",
+        "pet_characteristic: age_months: 2",
+        "standard: heat_safety_for_puppies"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Cleaning",
+      "family": "Enzymatic pet stain & odor cleaner (accident remover)",
+      "description": "Pet-safe enzymatic cleaner in a spray bottle designed to eliminate urine/feces odors and stains on apartment flooring and rugs; non-toxic when used per directions.",
+      "rationale": "Frequent accidents during house-training are expected; enzyme cleaners remove residue and discourage repeat soiling in the same spot — important for apartment living.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: house_type: apartment",
+        "standard: house-training_best_practices"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Air Quality",
+      "family": "HEPA air purifier sized for apartment room",
+      "description": "Compact HEPA air purifier rated for a medium-sized room with activated carbon pre-filter to reduce dander and environmental allergens; quiet operation for use in sleeping areas.",
+      "rationale": "Calendar indicates fall allergy season; apartment living concentrates dander and pollen indoors — a HEPA air purifier reduces airborne allergens for pet and owner comfort.",
+      "evidence": [
+        "calendar: allergy_season_fall_2025",
+        "pet_characteristic: house_type: apartment",
+        "standard: indoor_air_quality_recommendations"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Slow Feeding",
+      "family": "Puzzle feeder / slow-feeder bowl (puppy size)",
+      "description": "Puppy-appropriate slow feeder or puzzle bowl to lengthen meal times; washable, shallow channels sized for small kibble pieces to reduce gulping and provide mental challenge.",
+      "rationale": "Low-activity apartment puppy benefits from mental stimulation during meals and slower eating to promote digestion and prevent boredom.",
+      "evidence": [
+        "pet_characteristic: activity: low",
+        "pet_characteristic: age_months: 2",
+        "standard: feeding_behavior_recommendations"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Treat Dispensing Toys",
+      "family": "Rubber treat-dispensing toy (puzzle/chew hybrid)",
+      "description": "Soft rubber treat-dispensing toy sized for puppies, with openings for kibble or small treats; designed for light chewers and can be stuffed with soft treats for longer engagement.",
+      "rationale": "Provides mental enrichment and occupies a rescue puppy in an apartment; complements training treats and slows boredom-induced behavior.",
+      "evidence": [
+        "pet_characteristic: chew_strength: light",
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Nose Work",
+      "family": "Snuffle mat for scent enrichment",
+      "description": "Fabric snuffle mat with hiding pockets sized for puppy treat searches; machine-washable and made with non-toxic materials.",
+      "rationale": "Scent games provide low-impact mental stimulation ideal for low-energy puppies living in apartments and help tire the puppy without heavy physical exertion.",
+      "evidence": [
+        "pet_characteristic: activity: low",
+        "pet_characteristic: house_type: apartment",
+        "pet_characteristic: age_months: 2"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys",
+      "family": "Soft plush ball (puppy-safe)",
+      "description": "Small, soft plush ball designed for indoor fetch that minimizes noise and bounce, sized for a puppy’s mouth and rated for light chewers; machine-washable cover.",
+      "rationale": "Allows low-impact indoor retrieval and gentle play in an apartment, encouraging exercise and engagement without damaging the home.",
+      "evidence": [
+        "pet_characteristic: chew_strength: light",
+        "pet_characteristic: house_type: apartment",
+        "pet_characteristic: activity: low"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Interactive Play",
+      "family": "Tug rope toy (soft braided)",
+      "description": "Soft braided rope toy sized for puppies designed for tug play; lightweight, washable fibers and knots appropriate for light-chewing mouths.",
+      "rationale": "Interactive owner-led play supports bonding, offers short bursts of exercise, and redirects mouthing onto toys instead of furniture.",
+      "evidence": [
+        "pet_characteristic: about: Rescue dog",
+        "pet_characteristic: chew_strength: light",
+        "pet_characteristic: activity: low"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Calming Enrichment",
+      "family": "Lick mat for calming and slow feeding",
+      "description": "Silicone lick mat sized for spreading soft, puppy-safe toppers (yogurt alternatives or puree) that adheres to surfaces to provide sustained licking and calming activity.",
+      "rationale": "Licking is calming for anxious rescue puppies and this provides stationary enrichment when confined in crate or pen; complements training and mealtimes.",
+      "evidence": [
+        "pet_characteristic: about: Rescue dog",
+        "pet_characteristic: age_months: 2",
+        "calendar: leaf_blower_season_2025"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Puzzle Toys",
+      "family": "Multi-compartment treat puzzle (easy level)",
+      "description": "Plastic or silicone puzzle toy with several easy compartments that hide kibble or small treats; BPA-free and sized for puppies to manipulate with paws and nose.",
+      "rationale": "Promotes problem-solving and extends feeding into an enrichment activity — helpful for indoor mental stimulation.",
+      "evidence": [
+        "pet_characteristic: activity: low",
+        "pet_characteristic: age_months: 2"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Scent & Training",
+      "family": "Basic scent-training kit (treat containers + markers)",
+      "description": "Starter kit including small treat containers, scent markers, and activity cards to encourage simple scent-finding games appropriate for a puppy.",
+      "rationale": "Structured scent games build confidence, focus, and mental exercise in short sessions suitable for a young rescue in an apartment.",
+      "evidence": [
+        "pet_characteristic: age_months: 2",
+        "pet_characteristic: activity: low",
+        "pet_characteristic: house_type: apartment"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Indoor Fetch",
+      "family": "Lightweight indoor fetch set (soft frisbee or toss toy)",
+      "description": "Soft, flexible frisbee or toss toy designed for indoor play that won’t damage walls or furniture; sized for a puppy and gentle on teeth.",
+      "rationale": "Allows short bursts of controlled fetch indoors to expend energy safely in an apartment; complements low-activity needs.",
+      "evidence": [
+        "pet_characteristic: house_type: apartment",
+        "pet_characteristic: activity: low",
+        "pet_characteristic: chew_strength: light"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Sensory",
+      "family": "Soothing sound device or playlist (pet-appropriate audio)",
+      "description": "Preloaded calming sound device or access to a curated pet-calming audio playlist (classical/white noise) for crate time and to mask neighborhood/leaf-blower noises.",
+      "rationale": "Helps reduce anxiety from environmental noises (calendar indicates leaf blower and hunting seasons) and supports crate acclimation for a rescue puppy in an apartment.",
+      "evidence": [
+        "pet_characteristic: about: Rescue dog",
+        "calendar: leaf_blower_season_2025",
+        "calendar: hunting_season_2025"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Grooming Comfort",
+      "family": "Soft microfibre dog towel / drying robe",
+      "description": "Quick-dry microfiber towel or small drying robe sized for puppies to use after outdoor trips in rain season; compact and highly absorbent for apartment drying.",
+      "rationale": "Calendar indicates rain season; easy drying reduces time wet indoors and keeps apartment cleaner while making post-walk care simpler.",
+      "evidence": [
+        "calendar: pacific_northwest_rain_season_2025",
+        "pet_characteristic: house_type: apartment"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Safety Accessories",
+      "family": "Reflective leash or harness cover",
+      "description": "Reflective strip or cover that attaches to the harness or leash for low-light visibility during early morning/evening walks.",
+      "rationale": "Hunting season and variable weather can reduce visibility; reflective gear increases safety during low-light walks in urban/apartment settings.",
+      "evidence": [
+        "calendar: hunting_season_2025",
+        "pet_characteristic: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Comfort Accessories",
+      "family": "Crate cover (breathable fabric) to create den",
+      "description": "Breathable fabric cover sized to fit over crate to create den-like calm environment; light-colored/ventilated to avoid overheating, machine-washable.",
+      "rationale": "Improves crate comfort and security for a rescue puppy and can reduce noise and visual stimulation when sleeping or during storms/leaf-blower events.",
+      "evidence": [
+        "pet_characteristic: about: Rescue dog",
+        "pet_characteristic: age_months: 2",
+        "calendar: leaf_blower_season_2025"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Beef"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "a11a5c83-063d-48c2-86de-453f235448f3",
+    "pet_id": "6e42e401-0126-4cb9-a8de-4604f6a204ae",
+    "month_idx": 1,
+    "pet_name": "Mario",
+    "pet_species": "dog",
+    "generated_at": "2025-10-16T11:39:44.627696",
+    "stage": "stage1_structured"
+  }
+}

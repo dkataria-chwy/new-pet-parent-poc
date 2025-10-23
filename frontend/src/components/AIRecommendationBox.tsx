@@ -251,8 +251,8 @@ export function AIRecommendationBox({
         {isLoading && (
           <div className="bg-white/80 backdrop-blur p-4 rounded-lg border border-purple-200">
             <div className="flex items-center space-x-2">
-              <Loader2 className="h-4 w-4 animate-spin text-purple-600" />
-              <p className="text-sm text-gray-600">Generating list for {petName}...</p>
+              <Sparkles className="h-4 w-4 text-purple-600 animate-pulse" />
+              <p className="text-sm text-gray-700 font-medium">Finding perfect matches for {petName}...</p>
             </div>
           </div>
         )}
