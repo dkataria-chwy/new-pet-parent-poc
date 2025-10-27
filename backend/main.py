@@ -13,6 +13,7 @@ from models import (
     CreatePetRequest, Pet, CreateJourneyRequest, JourneyState,
     UpdateJourneyStateRequest, MonthRecommendations,
     AIRecommendationRequest, AIRecommendationResponse,
+    OnDemandRecommendationRequest, OnDemandRecommendationResponse,
     EventRequest, CheckpointValidationRequest, CheckpointValidationResponse, 
     CheckpointCommitRequest
 )
@@ -21,7 +22,19 @@ from recommendation_policy import recommendation_policy
 from checkpoint_validator import checkpoint_validator
 from image_service import image_service, GenerateImageRequest
 
+# Import on-demand recommendations
+import sys
+from pathlib import Path
+sys.path.insert(0, str(Path(__file__).parent / "agents" / "on_demand_recommendations"))
+from api_handler import OnDemandRecommendationHandler
+
+# Import routers
+from routers.tts_router import router as tts_router
+
 app = FastAPI(title="Chewy Journey API", version="1.0.0")
+
+# Include routers
+app.include_router(tts_router)
 
 # Add CORS middleware
 app.add_middleware(
@@ -31,6 +44,18 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+# Initialize on-demand recommendations handler
+on_demand_handler = OnDemandRecommendationHandler()
+
+@app.on_event("startup")
+async def startup_event():
+    """Initialize services on startup."""
+    try:
+        stats = on_demand_handler.initialize()
+        print(f"✅ On-demand recommendations initialized with {stats['total_products']:,} products")
+    except Exception as e:
+        print(f"⚠️ Failed to initialize on-demand recommendations: {e}")
 
 @app.get("/")
 async def root():
@@ -42,6 +67,76 @@ async def create_pet(pet_data: CreatePetRequest):
     try:
         pet = db.create_pet(pet_data)
         return pet
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/pet/{pet_id}", response_model=Pet)
+async def get_pet(pet_id: str):
+    """Get a pet by ID."""
+    try:
+        pet = db.get_pet(pet_id)
+        if not pet:
+            raise HTTPException(status_code=404, detail="Pet not found")
+        return pet
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/journeys")
+async def get_all_journeys():
+    """Get all journeys with their pet information."""
+    try:
+        import sqlite3
+        conn = sqlite3.connect(db.db_path)
+        cursor = conn.cursor()
+        
+        # Get journeys with pet information
+        cursor.execute("""
+            SELECT 
+                j.id as journey_id,
+                j.pet_id,
+                j.current,
+                j.total_months,
+                p.name as pet_name,
+                p.species,
+                p.breed,
+                p.age_months
+            FROM journeys j
+            JOIN pets p ON j.pet_id = p.id
+            ORDER BY j.current DESC, p.name
+        """)
+        
+        rows = cursor.fetchall()
+        conn.close()
+        
+        journeys = []
+        for row in rows:
+            journeys.append({
+                "journey_id": row[0],
+                "pet_id": row[1],
+                "current_month": row[2],
+                "total_months": row[3],
+                "pet_name": row[4],
+                "species": row[5],
+                "breed": row[6],
+                "age_months": row[7]
+            })
+        
+        return {"journeys": journeys}
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/journey/{journey_id}", response_model=JourneyState)
+async def get_journey(journey_id: str):
+    """Get a journey by ID."""
+    try:
+        journey = db.get_journey(journey_id)
+        if not journey:
+            raise HTTPException(status_code=404, detail="Journey not found")
+        return journey
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
@@ -221,6 +316,32 @@ async def get_ai_recommendations(request: AIRecommendationRequest):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
+@app.post("/on-demand-recommendations", response_model=OnDemandRecommendationResponse)
+async def get_on_demand_recommendations(request: OnDemandRecommendationRequest):
+    """Get on-demand AI-powered product recommendations based on user query."""
+    try:
+        # Process the recommendation request
+        result = on_demand_handler.process_recommendation_request(
+            user_query=request.user_query,
+            journey_id=request.journey_id,
+            month_idx=request.month_idx,
+            top_k=request.top_k
+        )
+        
+        # Log the on-demand recommendation event
+        db.log_event("on_demand_recommendation", request.journey_id, {
+            "user_query": request.user_query,
+            "total_products": result["total_products"],
+            "pet_name": result["pet_name"]
+        })
+        
+        return OnDemandRecommendationResponse(**result)
+        
+    except HTTPException:
+        raise
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to generate recommendations: {str(e)}")
+
 @app.post("/events")
 async def log_event(request: EventRequest):
     """Log an analytics event."""
@@ -351,6 +472,133 @@ async def get_pet_history(pet_id: str):
         return {"petId": pet_id, "history": history}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+@app.get("/weather/{zip_code}")
+async def get_weather_for_zip(zip_code: str, include_csv_alerts: bool = True):
+    """
+    Get current weather data for a ZIP code using NWS API
+    """
+    try:
+        # Import weather tools
+        from tools.weather_tool import get_weather_context
+        from tools.csv_weather_tool import get_csv_weather_context
+        
+        # Use live NWS API for current conditions
+        try:
+            weather_data = get_weather_context(zip_code=zip_code, days_ahead=1)
+        except Exception as nws_error:
+            print(f"NWS API failed, falling back to CSV: {nws_error}")
+            # Fallback to CSV if NWS fails
+            weather_data = get_csv_weather_context(zip_code=zip_code, days_ahead=1)
+        
+        # Optionally check CSV for additional alerts (for weather widget)
+        all_triggers = weather_data.get("triggers", [])
+        if include_csv_alerts:
+            try:
+                csv_data = get_csv_weather_context(zip_code=zip_code, days_ahead=1)
+                csv_triggers = csv_data.get("triggers", [])
+                
+                # Combine NWS triggers with CSV triggers
+                all_triggers = all_triggers + csv_triggers
+            except Exception as csv_error:
+                print(f"CSV weather check failed: {csv_error}")
+                # Keep only NWS triggers if CSV fails
+        
+        return {
+            "success": True,
+            "data": {
+                **weather_data,
+                # Ensure triggers are in the expected format for frontend
+                "triggers": [
+                    {
+                        "category": trigger.get("event", trigger.get("category", "Weather Alert")),
+                        "description": trigger.get("event", trigger.get("description", "Weather alert active")),
+                        "confidence": 0.8  # Default confidence
+                    }
+                    for trigger in all_triggers
+                ]
+            }
+        }
+        
+    except Exception as e:
+        print(f"Weather API error: {e}")
+        return {
+            "success": False,
+            "error": str(e),
+            "data": {
+                "location": {"zip": zip_code, "state": None},
+                "current": None,
+                "forecast": [],
+                "triggers": []
+            }
+        }
+
+
+@app.get("/subscription-plan/{journey_id}/{month_idx}")
+async def get_subscription_plan(journey_id: str, month_idx: int):
+    """
+    Get subscription plan for a specific journey and month.
+    
+    If the plan exists in the database, it returns the cached version.
+    If it doesn't exist, it runs the full pipeline to generate it.
+    
+    Returns:
+        {
+            "success": true,
+            "data": {...subscription plan...},
+            "from_cache": bool,
+            "generated_at": ISO timestamp
+        }
+    """
+    try:
+        # First, check if the journey exists
+        journey = db.get_journey(journey_id)
+        if not journey:
+            raise HTTPException(status_code=404, detail=f"Journey {journey_id} not found")
+        
+        # Check database for existing plan
+        plan = db.get_subscription_plan(journey_id, month_idx)
+        
+        if plan:
+            # Plan exists in database - return cached version
+            return {
+                "success": True,
+                "data": plan,
+                "from_cache": True,
+                "generated_at": plan.get("metadata", {}).get("generated_at", "")
+            }
+        
+        # Plan doesn't exist - run the pipeline
+        print(f"[{journey_id[:8]}] Subscription plan for month {month_idx} not found in cache, running pipeline...")
+        
+        # Import and run the orchestrator
+        from orchestration.run_full_pipeline import run_pipeline
+        
+        result = run_pipeline(journey_id, month_idx)
+        
+        if result["success"]:
+            # Pipeline succeeded - return the generated plan
+            return {
+                "success": True,
+                "data": result["subscription_plan_result"],
+                "from_cache": False,
+                "generated_at": result["subscription_plan_result"].get("metadata", {}).get("generated_at", "")
+            }
+        else:
+            # Pipeline failed
+            raise HTTPException(
+                status_code=500, 
+                detail=f"Failed to generate subscription plan: {result.get('error', 'Unknown error')}"
+            )
+            
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"Error in get_subscription_plan: {e}")
+        import traceback
+        traceback.print_exc()
+        raise HTTPException(status_code=500, detail=str(e))
+
 
 if __name__ == "__main__":
     import uvicorn

@@ -1,0 +1,74 @@
+zip5,state,event_id,event_name,month,day,category,pet_impact,slot_triggers,confidence,rationale,window_days_before,window_days_after
+98052,WA,seattle_seafair,Seattle Seafair,8,1,regional,negative,"calming_noise; travel_kit",0.85,Blue Angels air show creates loud noise,3,3
+98052,WA,seattle_cherry_blossom,Cherry Blossom Festival,4,15,regional,positive,"grooming; outdoor_gear",0.75,Increased outdoor activities and park visits,5,5
+98052,WA,seattle_pride,Seattle Pride,6,25,regional,neutral,"travel_kit; outdoor_gear",0.70,Large crowds and street closures,2,2
+98052,WA,pacific_northwest_rain_season,Rain Season Start,10,15,seasonal,neutral,"indoor_enrichment; rain_gear",0.90,Extended rainy period begins affecting outdoor activities,7,30
+98052,WA,seattle_marathon,Seattle Marathon,11,27,regional,negative,"calming_noise; travel_kit",0.80,Road closures and increased activity,1,1
+90210,CA,rose_parade,Rose Parade,1,1,regional,negative,"calming_noise; travel_kit",0.95,Very loud parade with crowds,1,1
+90210,CA,wildfire_season,Wildfire Season,9,1,seasonal,negative,"air_filter; calming; indoor_enrichment",0.85,Poor air quality affects pets,14,60
+90210,CA,earthquake_preparedness_week,Earthquake Preparedness Week,4,18,regional,neutral,"emergency_kit; calming",0.60,Increased emergency drills and sirens,7,0
+90210,CA,coachella,Coachella Festival,4,12,regional,negative,"calming_noise; travel_kit",0.70,Loud music and increased traffic,3,3
+10001,NY,nyc_marathon,NYC Marathon,11,6,regional,negative,"calming_noise; travel_kit",0.95,Massive crowds and road closures,1,1
+10001,NY,times_square_nye,Times Square NYE,12,31,regional,negative,"calming_noise; travel_kit",0.98,Extremely loud fireworks and crowds,2,1
+10001,NY,macy_thanksgiving_parade,Macy's Thanksgiving Parade,11,24,regional,negative,"calming_noise; travel_kit",0.90,Large crowds and loud sounds,1,1
+10001,NY,puerto_rican_day_parade,Puerto Rican Day Parade,6,12,regional,negative,"calming_noise; travel_kit",0.75,Loud music and large crowds,1,1
+33101,FL,hurricane_season,Hurricane Season,6,1,seasonal,negative,"emergency_kit; calming; travel_kit",0.95,Severe weather and evacuations possible,0,150
+33101,FL,art_basel,Art Basel Miami,12,6,regional,neutral,"travel_kit",0.70,Increased tourism and crowds,3,3
+33101,FL,ultra_music_festival,Ultra Music Festival,3,25,regional,negative,"calming_noise; hearing_protection",0.85,Extremely loud electronic music,3,3
+60601,IL,chicago_air_water_show,Chicago Air & Water Show,8,19,regional,negative,"calming_noise",0.90,Very loud military aircraft demonstrations,2,2
+60601,IL,lollapalooza,Lollapalooza,8,3,regional,negative,"calming_noise; travel_kit",0.80,Loud music festival,4,4
+60601,IL,chicago_marathon,Chicago Marathon,10,9,regional,negative,"calming_noise; travel_kit",0.85,Road closures and crowds,1,1
+75201,TX,state_fair_texas,State Fair of Texas,9,24,regional,negative,"calming_noise; travel_kit",0.80,Loud rides and large crowds,14,14
+75201,TX,dallas_new_years_big_d,Big D NYE,12,31,regional,negative,"calming_noise; fireworks_calming",0.85,Fireworks and loud celebrations,1,1
+85001,AZ,phoenix_thunderstorms,Monsoon Season,7,1,seasonal,negative,"calming_storms; indoor_enrichment",0.90,Loud thunder and lightning,30,90
+85001,AZ,barrett_jackson_auction,Barrett-Jackson Auto Auction,1,14,regional,neutral,"travel_kit",0.65,Increased tourism and traffic,7,7
+*,*,independence_day,Independence Day,7,4,national,negative,"calming_fireworks; anxiety_noise",0.95,Widespread fireworks and loud celebrations,5,2
+*,*,new_years_eve,New Year's Eve,12,31,national,negative,"calming_fireworks; anxiety_noise",0.90,Fireworks and noisemakers,1,1
+*,*,halloween,Halloween,10,31,national,negative,"anxiety_costumes; doorbell_activity",0.70,Frequent doorbell activity and costumes,3,1
+*,*,thanksgiving,Thanksgiving,11,24,national,neutral,"travel_kit; guest_management",0.60,Travel and hosting guests,5,3
+*,*,memorial_day,Memorial Day,5,29,national,neutral,"travel_kit; outdoor_gear",0.65,BBQs and outdoor activities,3,1
+*,*,labor_day,Labor Day,9,5,national,neutral,"travel_kit; outdoor_gear",0.65,End of summer activities,3,1
+*,*,super_bowl_sunday,Super Bowl Sunday,2,7,national,negative,"calming_noise; guest_management",0.75,Loud parties and gatherings,1,1
+*,*,march_madness_finals,March Madness Finals,4,4,national,negative,"calming_noise; guest_management",0.70,Loud sports viewing parties,3,3
+*,*,cinco_de_mayo,Cinco de Mayo,5,5,national,negative,"calming_noise; guest_management",0.60,Loud celebrations and parties,1,1
+*,*,st_patricks_day,St. Patrick's Day,3,17,national,negative,"calming_noise; guest_management",0.60,Loud celebrations and parades,1,1
+*,*,valentines_day,Valentine's Day,2,14,national,positive,"grooming; special_treats",0.50,Date nights and special occasions,1,1
+*,*,mothers_day,Mother's Day,5,8,national,positive,"grooming; photo_props",0.55,Family gatherings and photos,1,1
+*,*,fathers_day,Father's Day,6,19,national,positive,"outdoor_gear; grooming",0.55,Outdoor activities and family time,1,1
+*,*,easter,Easter,4,17,national,neutral,"guest_management; outdoor_gear",0.60,Family gatherings and egg hunts,1,1
+*,*,graduation_season,Graduation Season,5,15,national,neutral,"travel_kit; guest_management",0.65,Parties and family visits,14,30
+*,*,back_to_school,Back to School,8,25,national,neutral,"routine_adjustment; calming",0.70,Schedule changes affect pets,7,14
+*,*,daylight_saving_spring,Daylight Saving Begin,3,12,national,neutral,"routine_adjustment; calming",0.80,Schedule disruption affects pets,2,7
+*,*,daylight_saving_fall,Daylight Saving End,11,6,national,neutral,"routine_adjustment; calming",0.80,Schedule disruption affects pets,2,7
+*,*,tax_day,Tax Day,4,15,national,neutral,"calming",0.40,Human stress can affect pets,3,3
+*,*,black_friday,Black Friday,11,25,national,neutral,"travel_kit; calming",0.65,Shopping crowds and traffic,1,3
+*,*,amazon_prime_day,Prime Day,7,11,national,positive,"delivery_anxiety; doorbell_training",0.50,Increased package deliveries,2,5
+*,*,winter_solstice,Winter Solstice,12,21,seasonal,neutral,"light_therapy; indoor_enrichment",0.60,Shortest day affects mood,7,7
+*,*,summer_solstice,Summer Solstice,6,21,seasonal,positive,"cooling; outdoor_gear",0.60,Longest day and peak summer,7,7
+*,*,spring_equinox,Spring Equinox,3,20,seasonal,positive,"outdoor_gear; allergy_support",0.65,Spring activities begin; allergens increase,7,14
+*,*,fall_equinox,Fall Equinox,9,22,seasonal,neutral,"routine_adjustment; indoor_enrichment",0.60,Daylight changes affect routines,7,14
+*,*,national_dog_day,National Dog Day,8,26,pet_specific,positive,"special_treats; grooming; photo_props",0.80,Celebrate dogs with special activities,1,1
+*,*,national_cat_day,National Cat Day,10,29,pet_specific,positive,"special_treats; grooming; interactive_toys",0.80,Celebrate cats with special activities,1,1
+*,*,national_pet_day,National Pet Day,4,11,pet_specific,positive,"special_treats; grooming; photo_props",0.75,General pet celebration day,1,1
+*,*,adopt_a_shelter_pet_month,Adopt a Shelter Pet Month,4,1,pet_specific,positive,"new_pet_supplies; introduction_aids",0.60,Increased pet adoptions,30,0
+*,*,national_microchip_day,National Microchip Day,8,15,pet_specific,positive,"vet_visit_prep; calming",0.60,Vet visits for microchipping,3,3
+*,*,world_rabies_day,World Rabies Day,9,28,pet_specific,positive,"vet_visit_prep; calming",0.65,Vaccination awareness and vet visits,7,7
+*,*,flea_tick_season_start,Flea & Tick Season Start,4,1,seasonal,negative,"flea_tick_prevention; grooming",0.85,Parasite activity increases,14,180
+*,*,heartworm_season_start,Heartworm Season Start,4,15,seasonal,negative,"heartworm_prevention; vet_visit_prep",0.80,Mosquito activity increases,14,150
+*,*,shedding_season_spring,Spring Shedding Season,3,1,seasonal,neutral,"grooming; deshedding_tools",0.90,Heavy shedding period begins,14,60
+*,*,shedding_season_fall,Fall Shedding Season,9,1,seasonal,neutral,"grooming; deshedding_tools",0.85,Winter coat preparation shedding,14,45
+*,*,allergy_season_spring,Spring Allergy Season,3,15,seasonal,negative,"allergy_support; air_filter; grooming",0.85,Pollen and environmental allergens peak,30,75
+*,*,allergy_season_fall,Fall Allergy Season,9,1,seasonal,negative,"allergy_support; air_filter; grooming",0.75,Ragweed and mold allergens,30,60
+*,*,hot_car_awareness,Hot Car Awareness Month,5,1,seasonal,negative,"cooling; travel_safety; hydration",0.80,Dangerous car temperatures begin,30,120
+*,*,senior_pet_month,Senior Pet Month,11,1,pet_specific,positive,"senior_supplements; comfort_aids; vet_visit_prep",0.70,Focus on senior pet health,30,0
+*,*,lost_pet_prevention_month,Lost Pet Prevention Month,7,1,pet_specific,positive,"id_tags; gps_tracking; microchip_check",0.65,Summer travel increases lost pet risk,30,0
+*,*,fireworks_season,Fireworks Season,6,15,seasonal,negative,"calming_fireworks; anxiety_noise; sound_therapy",0.85,Extended period of firework activity,45,45
+*,*,thunderstorm_season,Thunderstorm Season,4,1,seasonal,negative,"calming_storms; anxiety_thunder; safe_space",0.80,Peak storm activity period,60,150
+*,*,construction_season,Construction Season,4,1,seasonal,negative,"calming_noise; white_noise; anxiety_construction",0.70,Road work and building projects increase,90,180
+*,*,moving_season,Moving Season,5,1,seasonal,neutral,"travel_kit; calming; routine_adjustment",0.75,Peak moving period affects neighborhoods,60,120
+*,*,vacation_season,Summer Vacation Season,6,1,seasonal,neutral,"boarding_prep; travel_kit; separation_anxiety",0.80,Families travel more frequently,90,90
+*,*,hunting_season,Hunting Season,10,1,seasonal,negative,"calming_gunshots; reflective_gear; leash_safety",0.65,Gunshot sounds in rural areas,90,120
+*,*,leaf_blower_season,Leaf Blower Season,10,1,seasonal,negative,"calming_noise; anxiety_equipment",0.75,Loud landscaping equipment use,60,60
+*,*,lawn_mower_season,Lawn Mowing Season,4,1,seasonal,negative,"calming_noise; anxiety_equipment",0.80,Regular loud equipment use,120,150
+*,*,ice_cream_truck_season,Ice Cream Truck Season,5,1,seasonal,negative,"doorbell_training; calming_music_trucks",0.60,Repetitive musical sounds,90,120
+*,*,school_bell_schedule,School Year Schedule,8,25,seasonal,neutral,"routine_adjustment; schedule_training",0.70,Regular bell sounds and activity,180,180

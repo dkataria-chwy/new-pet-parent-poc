@@ -1,0 +1,272 @@
+{
+  "total_queries": 25,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "4-month-old puppy dry kibble for small breeds, small kibble size for tiny mouths, higher calories and protein for growth, DHA for brain development, balanced calcium-to-phosphorus, available in 4–6 lb starter bags",
+      "bm25_query": "puppy dry kibble small-breed small kibble high calorie high protein DHA calcium phosphorus 4-6 lb",
+      "top_k": 20,
+      "rationale": "4-month-old Pug puppy needs daily, age-appropriate nutrition to support rapid growth and high activity. Small-breed kibble reduces choking and aids chewing; missing a suitable puppy diet immediately risks poor growth and energy deficits.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Puppy soft training treats for small-breed dogs, pea-sized and low-calorie, very palatable and soft texture, easy to break into smaller pieces for frequent rewards",
+      "bm25_query": "puppy soft training treats pea-sized low-calorie palatable soft breakable",
+      "top_k": 15,
+      "rationale": "At 4 months this Pug is in a critical training/socialization window and highly energetic; frequent small, low-calorie treats are needed daily for effective short-reward training without overfeeding. Soft texture protects puppy teeth.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "Dog disposable poop bags sized for small dogs, durable and leak-resistant, dispenser-compatible roll for leash attachment, biodegradable or compostable options, small starter pack (3–6 rolls)",
+      "bm25_query": "poop bags small dog durable leak-resistant dispenser-compatible biodegradable compostable 3-6 roll",
+      "top_k": 15,
+      "rationale": "No yard and apartment living means daily supervised walks and waste pickup\u0004poop bags are a daily consumable required right now to maintain hygiene and local ordinances.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Puppy non-electric cooling mat for small dogs, gel or phase-change cooling, machine-washable cover, durable chew-resistant surface if possible, lightweight for indoor use",
+      "bm25_query": "puppy cooling mat non-electric gel phase-change machine-washable chew-resistant small dog indoor",
+      "top_k": 20,
+      "rationale": "Active brachycephalic breeds like Pugs overheat easily. With an active excessive-heat warning in the area, a cooling mat is an immediate safety product to reduce heat stress risk indoors right now.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Puppy portable water bottle with integrated foldable bowl, leak-resistant, 12–20 oz size for short outings, easy to refill and clean for on-walk hydration",
+      "bm25_query": "portable dog water bottle integrated bowl leak-resistant 12-20 oz refill clean on-walk hydration",
+      "top_k": 15,
+      "rationale": "Apartment living and no yard mean walks are necessary; the current heat advisory increases dehydration risk for a brachycephalic, high-activity puppy. Immediate access to water on walks is essential for safety now.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "Adjustable padded front-clip harness for small-breed puppy, secure belly strap and soft chest padding, front-clip to reduce pulling and protect the neck for brachycephalic dogs",
+      "bm25_query": "front-clip padded harness small puppy adjustable belly strap chest padding reduce pulling protect neck brachycephalic",
+      "top_k": 15,
+      "rationale": "High activity and strong pulling tendency plus a short-muzzled breed make a well-fitting harness safer and better for leash training than a collar. Not strictly urgent if owner already has one, but recommended to prevent neck strain and improve walk control.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Puppy heavy-duty rubber chew toy sized for small dogs, dense non-toxic rubber, strong-chewer rated, no small pieces, can be stuffed with paste or treats for extra engagement",
+      "bm25_query": "heavy-duty rubber chew toy small dog dense non-toxic strong-chewer stuffed no small pieces",
+      "top_k": 12,
+      "rationale": "This puppy is a strong chewer and energetic; a heavy-duty chew helps redirect chewing from furniture, supports teething, and reduces the risk of ingesting destructive debris.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Chews (Bones & Bully)",
+      "embedding_query": "Puppy teething chews for small mouths, softer-than-adult chews, textured for gum relief, sized for puppies and gentle on developing teeth, safe nylon alternatives recommended",
+      "bm25_query": "puppy teething chews small mouth softer textured gum relief gentle durable nylon alternative",
+      "top_k": 12,
+      "rationale": "At 4 months the puppy is teething; teething chews relieve discomfort, reduce destructive chewing, and support healthy dental development.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "Slow-feeder bowl for small-breed puppy, shallow ridged design to slow rapid eating, dishwasher-safe, non-slip base, sized for a ~10 lb puppy",
+      "bm25_query": "slow-feeder bowl small-breed shallow ridged slow eating dishwasher-safe non-slip 10 lb puppy",
+      "top_k": 12,
+      "rationale": "Pugs can gulp food quickly and are prone to bloating and weight gain. A slow feeder helps prevent gulping and supports long-term weight control and digestive health\u0004important as the puppy transitions to adult feeding routines.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Short-coat brush and compact deshedding tool for small dogs, gentle bristles to remove loose hair, reduce apartment shedding, compact size for easy storage",
+      "bm25_query": "short-coat brush deshedding tool small dog gentle bristles remove loose hair reduce shedding compact",
+      "top_k": 10,
+      "rationale": "Regular brushing reduces loose hair in an apartment, helps manage seasonal shedding/allergy-season environmental allergens, and supports skin health. Pugs shed moderately despite short hair.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Nail trimmer and grinder kit for puppy nails, small-size guillotine or scissor clippers plus battery-powered grinder, ergonomic handles, safety guards, includes styptic powder",
+      "bm25_query": "puppy nail trimmer grinder guillotine scissor battery-powered ergonomic safety guard styptic powder",
+      "top_k": 10,
+      "rationale": "Apartment floors and indoor play increase the need for nail maintenance. Regular nail care prevents painful splits and improves traction on indoor flooring\u0004important for an energetic puppy.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "Puppy toothbrush (angled or finger brush) and enzymatic toothpaste formulated for puppies, pet-safe flavors and small-sized heads for tiny mouths",
+      "bm25_query": "puppy toothbrush angled finger brush enzymatic toothpaste pet-safe small mouth",
+      "top_k": 10,
+      "rationale": "Early dental care reduces future periodontal disease. Introducing brushing by 6\b3 months is standard; starting now acclimates the puppy to oral care and prevents plaque buildup.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Litter/Waste",
+      "family": "Grass Pads & Trays",
+      "embedding_query": "Apartment indoor potty solution for small dogs: replaceable real-grass patch or multi-layer absorbent pee-pad tray, compact footprint and easy-to-clean for limited outdoor access days",
+      "bm25_query": "indoor potty real grass patch absorbent pee pad tray compact easy-to-clean apartment small dog",
+      "top_k": 12,
+      "rationale": "No yard and Pacific Northwest rain season + days of extreme heat mean indoor potty alternatives are useful for accidents, schedule disruptions, or very hot days when outdoor time should be minimized.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Apparel",
+      "family": "Recovery Collars & Apparel",
+      "embedding_query": "Adjustable pressure-calming vest for small puppies, breathable fabric, easy on/off fasteners, small size to provide gentle pressure and reduce noise- or stress-related reactions",
+      "bm25_query": "pressure calming vest adjustable small puppy breathable easy on-off reduce anxiety gentle pressure",
+      "top_k": 10,
+      "rationale": "Calendar triggers (leafblower season, hunting season, Halloween doorbell activity) may cause anxiety; a pressure vest is a non-pharmaceutical way to reduce stress during noisy events and acclimation.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "Reflective leash or clip-on LED safety light for small dogs, increases visibility during early-morning and evening walks, compatible with small-breed hardware",
+      "bm25_query": "reflective leash clip-on LED safety light small dog visibility early morning evening",
+      "top_k": 10,
+      "rationale": "Hunting season and short daylight plus apartment walks near roads make visibility important for safety. Reflective or illuminated gear reduces risk during low-light walks.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Small treat-dispensing beginner-level puzzle toy for puppies that releases kibble or small treats when manipulated, durable plastic or rubber, dishwasher-safe and adjustable difficulty",
+      "bm25_query": "treat-dispensing puzzle toy small puppy beginner dispenses kibble durable dishwasher-safe adjustable difficulty",
+      "top_k": 12,
+      "rationale": "High-energy apartment puppy needs mental stimulation to prevent boredom-driven behaviors. Puzzle feeders extend feeding time and provide enrichment while supporting training.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Small foldable snuffle mat for puppies, machine-washable, varied fabric textures for scent-based play, compact footprint for apartment floors",
+      "bm25_query": "snuffle mat small foldable machine-washable scent play varied textures apartment",
+      "top_k": 10,
+      "rationale": "Scent work is mentally tiring and very engaging for puppies\u0004especially useful indoors during rain or extreme heat days to channel energy and support training.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Small durable plush comfort toy with reinforced seams and concealed squeaker pocket for cuddling, suitable as a comfort object during crate time (supervise given strong-chewing tendency)",
+      "bm25_query": "durable plush comfort toy small reinforced seams concealed squeaker cuddling supervise strong chewer",
+      "top_k": 10,
+      "rationale": "Puppies often benefit from a soft object for comfort and anxiety reduction when alone in an apartment. Choose reinforced construction given the puppy's strong-chewing tendency; supervise use.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Soft indoor fetch ball for puppies, small diameter, non-abrasive and non-marking, gentle on teeth and floors, squeakless options to keep noise low in apartments",
+      "bm25_query": "soft indoor fetch ball small non-abrasive non-marking gentle teeth floors squeakless apartment",
+      "top_k": 10,
+      "rationale": "High-energy puppy needs short bursts of fetch indoors when outdoor time is limited (bad weather or extreme heat). Soft balls keep play quiet for neighbors and protect the puppy's developing teeth.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Small cozy bolster bed with removable, machine-washable cover and supportive sides for curling; breathable material recommended for a brachycephalic puppy",
+      "bm25_query": "small bolster bed removable machine-washable cover supportive sides breathable brachycephalic puppy",
+      "top_k": 10,
+      "rationale": "Provides a secure, comfortable place to rest in an apartment. Even with a cooling mat for heat, a cozy bed supports normal sleep patterns and comfort during socialization and crate training.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Compact window perch or small sill dog bed for apartment use, safe indoor placement that lets a puppy observe outside activity for visual enrichment, small footprint",
+      "bm25_query": "window perch small sill dog bed apartment observe outside activity compact safe",
+      "top_k": 8,
+      "rationale": "Apartment living limits outdoor roaming; a window perch provides visual enrichment and reduces boredom by letting the puppy watch street activity and birds safely.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Handheld training clicker for puppies, compact and easy to use as a consistent marker in positive-reinforcement training and socialization sessions",
+      "bm25_query": "training clicker handheld compact puppy positive reinforcement marker",
+      "top_k": 8,
+      "rationale": "Clicker training supports efficient learning during this critical puppy socialization period and makes training sessions more effective and rewarding.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Small interactive hide-and-seek or treat-hiding toy with pockets or compartments to hide small treats, encourages problem-solving and independent play for a puppy",
+      "bm25_query": "interactive hide-and-seek toy pockets hide treats small puppy problem-solving independent play",
+      "top_k": 8,
+      "rationale": "Mental stimulation is important for a high-energy apartment puppy; hide-and-seek toys provide stimulation in limited-space environments and encourage scent/reasoning skills.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Apparel",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Reusable soak-and-wear cooling bandana for small dogs, adjustable for puppy necks, provides evaporative cooling for short outings and supplemental relief during heat spikes",
+      "bm25_query": "cooling bandana reusable soak-and-wear adjustable small dog evaporative cooling puppy",
+      "top_k": 8,
+      "rationale": "Supplemental cooling option for short outings or indoor relief during heat spikes; works alongside the cooling mat to reduce body temperature safely for a brachycephalic puppy.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Foldable soft puppy agility tunnel or small obstacle set, compact and easy to store in an apartment, safe soft materials sized for small breeds",
+      "bm25_query": "foldable agility tunnel puppy soft compact apartment safe small-breed obstacle",
+      "top_k": 8,
+      "rationale": "Provides structured physical activity indoors on rainy or very hot days, helping burn off excess energy and support coordination during development.",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "a9491c44-cfdf-43ec-815b-38fe3884ccf6",
+    "pet_id": "1ac35e16-6ae8-4840-9d27-0c0a317589af",
+    "month_idx": 2,
+    "pet_name": "Thor",
+    "pet_species": "dog",
+    "generated_at": "2025-10-17T12:23:10.531244",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_a9491c44_month2_20251017_122025.json",
+    "tokens": {
+      "prompt": 6613,
+      "completion": 8136,
+      "total": 14749
+    },
+    "elapsed_seconds": 0.0
+  }
+}

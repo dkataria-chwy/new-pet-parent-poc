@@ -1,0 +1,69 @@
+{
+  "type": "object",
+  "properties": {
+    "total_categories": {
+      "type": "integer",
+      "description": "Total number of needs/categories identified"
+    },
+    "needs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "top_family",
+          "family",
+          "description",
+          "rationale",
+          "priority"
+        ],
+        "properties": {
+          "top_family": {
+            "type": "string",
+            "description": "Department-level category from schema (e.g., Food/Nutrition, Treats, Toys/Chews, Health & Wellness, etc.). Use schema categories as guidance but not restriction."
+          },
+          
+          "family": {
+            "type": "string",
+            "description": "Specific product family/aisle (e.g., Dry Kibble, Wet Canned, Food Toppings, Training Treats, VOHC Chews, etc.). Be specific - use schema families as guidance."
+          },
+          
+          "description": {
+            "type": "string",
+            "description": "Comprehensive, detailed description of what this pet needs including specific attributes, formats, sizes, features that would benefit this pet"
+          },
+          
+          "rationale": {
+            "type": "string",
+            "description": "Why this pet needs this RIGHT NOW at this specific moment, referencing specific pet characteristics, weather/calendar triggers, or standard-of-care reasoning"
+          },
+          
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Specific pet metadata, weather alerts, or calendar events that drove this need (e.g., 'age: 6 months', 'breed: Pug (brachycephalic)', 'weather: excessive heat warning', 'calendar: hunting season'). Shows what data informed this recommendation."
+          },
+          
+          "priority": {
+            "type": "string",
+            "enum": ["critical", "high", "medium", "low"],
+            "description": "critical=life essentials (food, water, safety), high=important care (health, dental), medium=beneficial (enrichment, comfort), low=optional extras"
+          },
+
+          "negatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Allergens and safety exclusions for this need (e.g., chicken, rawhide, small-parts). Can be empty array if none."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["total_categories", "needs"],
+  "additionalProperties": false
+}

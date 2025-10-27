@@ -1,0 +1,482 @@
+{
+  "total_categories": 32,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food",
+      "family": "Dry puppy food (small-breed formula)",
+      "description": "Small-breed puppy dry kibble formulated for growth (high protein, DHA for brain development), small/bite-sized kibble pieces suited to a brachycephalic muzzle; 4–6 lb packaging to preserve freshness for a 2-month-old 10 lb puppy. Look for AAFCO-complete puppy formula for small breeds.",
+      "rationale": "Daily primary nutrition is required immediately for growth and high activity. A small-breed puppy formula prevents overfeeding large kibble, supports energy needs for a 2-month-old, and fits a Pug's short muzzle.",
+      "evidence": [
+        "pet_profile: species: dog",
+        "pet_profile: breed: Pug",
+        "pet_profile: age_months: 2",
+        "pet_profile: weight_lb: 10.0",
+        "standard: puppy_nutrition_guidelines (high energy, DHA, growth)",
+        "context: apartment - no yard; good calorie-dense nutrition for indoor active puppy"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats & Training",
+      "family": "Soft training treats (small, high-value puppy treats)",
+      "description": "Small, soft moist training treats sized for frequent rewards (grain-free optional), easy to break into tiny pieces for many repetitions; puppy-appropriate protein sources and soft texture for young teeth.",
+      "rationale": "Puppy requires frequent positive reinforcement for house-training and early obedience. Soft treats are easier for 2-month-old teeth and support high-activity training sessions in an apartment environment.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: activity: high",
+        "standard: puppy_training_best_practices (small, high-value rewards)",
+        "context: calendar: School Year Schedule (routine adjustment) - training will be needed"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding Hardware",
+      "family": "Low-profile stainless steel food & water bowls (non-slip, shallow)",
+      "description": "Set of shallow, non-tip stainless steel bowls (approx. 2-cup capacity) with silicone non-slip base; shallow shape reduces neck/airway strain for brachycephalic Pug and is easy for a small puppy to eat from.",
+      "rationale": "Daily feeding and hydration require bowls right away. Shallow bowls help a brachycephalic breed avoid neck-overextension while eating/drinking and are hygienic (stainless steel).",
+      "evidence": [
+        "pet_profile: breed: Pug",
+        "pet_profile: age_months: 2",
+        "pet_profile: weight_lb: 10.0",
+        "standard: brachycephalic_feeding_recommendations",
+        "context: apartment (indoor feeding)"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Housing & Bedding",
+      "family": "Crate with divider (appropriately sized puppy crate)",
+      "description": "Wire or plastic crate sized for an adult Pug but with an included divider so the crate can be sized down for current puppy size (allows safe sleeping, prevents soiling area); good ventilation, secure latch, and folding option for apartment storage.",
+      "rationale": "Provides immediate safe confinement, aids house training, and gives the puppy a den-like sleeping area. New pets need a secure space from day one in an apartment without a yard.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: breed: Pug",
+        "pet_profile: house_type: apartment",
+        "standard: crate_training_best_practice (safe confinement for puppies)"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Housing & Bedding",
+      "family": "Crate bed / washable soft pad (small-breed)",
+      "description": "Machine-washable crate pad sized for puppy crate, moderate loft for comfort but low enough for easy entry/exit; chew-resistant cover or replaceable cover recommended given strong chew strength.",
+      "rationale": "Immediate comfort and warmth for sleep in the crate. Washable materials are essential during house training. Needs to be durable because the puppy has strong chewing tendencies.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: chew_strength: strong",
+        "pet_profile: breed: Pug",
+        "standard: hygiene_best_practices (washable bedding for puppies)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Leash & Control",
+      "family": "Harness + short leash set (adjustable, padded front-clip harness)",
+      "description": "Adjustable, padded front-clip harness sized for small-breed puppies (reduces neck pressure) paired with a 4–6 ft leash; strong hardware to handle a strong, high-activity puppy. Look for washable, reflective trim for visibility.",
+      "rationale": "Immediate safety for walks and carry from the vet. Pugs are brachycephalic; harnesses reduce tracheal strain from collars. Apartment living means leash walks are essential for exercise.",
+      "evidence": [
+        "pet_profile: breed: Pug",
+        "pet_profile: age_months: 2",
+        "pet_profile: activity: high",
+        "pet_profile: chew_strength: strong",
+        "context: calendar: Hunting Season & Leaf Blower Season (safety/visibility on walks)",
+        "standard: brachycephalic_dog_walking_recommendation (harness over neck collar)"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Identification",
+      "family": "Engravable ID tag + adjustable puppy collar",
+      "description": "Small adjustable soft puppy collar with an engravable ID tag (phone number + address); collar should be lightweight and sized for rapid adjustment as puppy grows.",
+      "rationale": "Immediate safety: a new puppy can escape or be lost. ID is necessary from day one. Even if a harness is used for walks, a collar+ID provides quick identification.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: house_type: apartment",
+        "standard: lost_pet_prevention_guideline (ID from day one)"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Potty & Waste",
+      "family": "Puppy potty pads (disposable) + pad holder/tray",
+      "description": "Absorbent, odor-control disposable puppy training pads sized for small dogs and a shallow tray or holder to keep pads in place on apartment floors. Pack size suited for frequent use during house training.",
+      "rationale": "No yard and apartment living make indoor potty options immediately necessary. Puppy is 2 months and will require frequent, supervised elimination; pads reduce accidents and protect floors.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: house_type: apartment",
+        "pet_profile: yard: no_yard",
+        "standard: puppy_house_training_practices"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Toys",
+      "family": "Heavy-duty rubber chew toy (small-breed, non-toxic)",
+      "description": "Durable, small-breed appropriate solid rubber chew toy designed for strong chewers, no small parts, easily cleaned, and sized to prevent choking. Can be filled with treats to encourage chewing appropriate items.",
+      "rationale": "Strong chew strength + teething at 2 months creates immediate need for safe chew alternatives to prevent destructive chewing and dental issues. Durable materials reduce ingestion risk.",
+      "evidence": [
+        "pet_profile: chew_strength: strong",
+        "pet_profile: age_months: 2",
+        "pet_profile: activity: high",
+        "standard: teething_and_chew_management (provide durable chew toys)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Climate Control",
+      "family": "Cooling mat (gel or breathable fabric)",
+      "description": "Portable cooling mat sized for small dogs, gel or breathable fabric, non-toxic, easy-to-clean cover. Sized to fit crate or living space for short-term cooling relief.",
+      "rationale": "Current excessive_heat_warning and Pugs are heat-sensitive due to brachycephaly. A cooling mat helps prevent overheating in an apartment and provides immediate comfort during hot spells.",
+      "evidence": [
+        "weather_context: excessive_heat_warning",
+        "pet_profile: breed: Pug",
+        "pet_profile: age_months: 2",
+        "standard: brachycephalic_heat_safety_recommendation"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Containment",
+      "family": "Foldable indoor pet playpen / exercise pen",
+      "description": "Lightweight, foldable indoor pen sized for small breeds that creates a safe play area in the apartment (panels that attach to crate for expanded space). Vinyl or metal panels with low threshold for easy puppy access under supervision.",
+      "rationale": "No yard + high activity puppy needs a safe indoor area to burn energy when outside time is limited. Useful for supervised play, preventing accidents, and socialization introduction.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: yard: no_yard",
+        "pet_profile: activity: high",
+        "standard: indoor_exercise_for_apartment_dogs"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Training Tools",
+      "family": "Treat pouch + clicker",
+      "description": "Belt-clip treat pouch for hands-free training and a basic clicker for marker training. Pouch sized for small soft treats; washable interior is preferred.",
+      "rationale": "Facilitates frequent training sessions (crate/housetraining, basic commands) which are critical in the first months. High-activity puppy benefits from structured training tools.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: activity: high",
+        "standard: positive_reinforcement_training_tools_recommendation"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Teething Aid",
+      "family": "Freezable teething chew toy",
+      "description": "Freezable rubber or silicone teether sized for small dogs that can be chilled to soothe sore gums; solid, non-toxic material and easy to clean.",
+      "rationale": "Supports teething comfort for a 2-month-old puppy and reduces chewing on inappropriate household items. Freezing provides soothing relief without medication.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: chew_strength: strong",
+        "standard: teething_best_practices (cold therapy)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Puppy toothbrush + enzymatic toothpaste (pet-safe)",
+      "description": "Small-headed soft-bristled puppy toothbrush or finger brush and enzymatic, poultry- or poultry-free flavored toothpaste formulated for puppies; designed for early dental habit formation.",
+      "rationale": "Early dental care is a veterinary best practice to prevent plaque; starting young establishes tolerance for brushing. Pugs are prone to dental crowding, so early care is preventative.",
+      "evidence": [
+        "pet_profile: breed: Pug",
+        "pet_profile: age_months: 2",
+        "standard: dental_prevention_guidelines (start early)"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Nail trimmer or grinder for puppies",
+      "description": "Small guillotine trimmer or rotary grinder suitable for small nails; include a nail file and safety guard. Quiet grinder options can reduce puppy stress.",
+      "rationale": "Nail care prevents discomfort and injury; starting trimming early helps habituation. Apartment living means indoor surfaces can magnify long nails' impact on comfort.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: age_months: 2",
+        "standard: puppy_grooming_recommendation"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Cleaning & Housekeeping",
+      "family": "Enzymatic stain & odor cleaner (pet accidents)",
+      "description": "Enzymatic formula designed to remove urine/stool/food odors from carpets, rugs, and hardwood; safe for homes with pets and effective to prevent re-soiling.",
+      "rationale": "House-training accidents will happen; enzymatic cleaners remove scent cues that attract repeat soiling—important in apartment with no yard.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: house_type: apartment",
+        "standard: house_training_best_practices (remove scent)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Safety Accessories",
+      "family": "LED light or reflective clip for leash/harness",
+      "description": "Small rechargeable LED clip or reflective strap that attaches to harness or leash for improved visibility during early morning/evening walks.",
+      "rationale": "Calendar triggers (Hunting Season, leaf-blower and seasonal noise) and variable light conditions mean increased visibility reduces risk during outdoor walks in the neighborhood.",
+      "evidence": [
+        "calendar_context: Hunting Season 2025 (relevance_to_pets: leash_safety)",
+        "calendar_context: Leaf Blower Season (stress_inducing)",
+        "pet_profile: house_type: apartment",
+        "standard: pedestrian_visibility_guidance"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Air Quality",
+      "family": "HEPA air purifier (small room)",
+      "description": "Compact HEPA air purifier sized for a living room or bedroom to reduce airborne allergens and dust; includes washable pre-filter and low-noise mode for nighttime crate area.",
+      "rationale": "Fall allergy season is active in calendar context; an air purifier improves indoor air for both puppy and household humans and can reduce sneezing/irritation that complicates a young puppy's wellbeing.",
+      "evidence": [
+        "calendar_context: Fall Allergy Season (2025-08-02 to 2025-10-31)",
+        "pet_profile: house_type: apartment",
+        "standard: indoor_air_quality_recommendations_for_allergy_season"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Hypoallergenic puppy shampoo (tear-free)",
+      "description": "Gentle, tear-free, hypoallergenic puppy shampoo with mild moisturizing agents; small-breed bottle size and pH-balanced for dogs.",
+      "rationale": "Seasonal allergy window and puppy skin sensitivity make a gentle shampoo useful for occasional baths and allergen removal without irritating skin.",
+      "evidence": [
+        "calendar_context: Fall Allergy Season",
+        "pet_profile: age_months: 2",
+        "standard: grooming_for_sensitive_skin_recommendation"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding Enrichment",
+      "family": "Slow-feed bowl / puzzle feeder (small-breed)",
+      "description": "Shallow slow-feed or maze-style feeding bowl sized for small-breed puppies to slow rapid eating and provide mental stimulation during meals.",
+      "rationale": "Active puppies can gulp food; slowing intake reduces GI upset and engages the puppy mentally. Also useful in apartment to make mealtimes enriching.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: activity: high",
+        "standard: feeding_behavior_recommendations (slow feeding for gulpers)"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys",
+      "family": "Treat-dispensing interactive toy",
+      "description": "Small treat-dispensing rubber or plastic toy that releases kibble/treats when manipulated; durable design appropriate for strong chewers and sized for a small mouth.",
+      "rationale": "Encourages independent problem solving and occupies a high-energy puppy in an apartment; reduces boredom and destructive behavior when owner is busy.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: chew_strength: strong",
+        "pet_profile: house_type: apartment",
+        "standard: enrichment_recommendations_for_puppies"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys",
+      "family": "Small rubber fetch ball (durable, non-abrasive)",
+      "description": "Soft but durable small rubber ball sized for a puppy's mouth for short indoor fetch sessions; non-marking and easy to sanitize.",
+      "rationale": "Short indoor fetch sessions help burn energy in an apartment setting without needing a yard; size appropriate for small Pug puppy prevents choking.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: house_type: apartment",
+        "pet_profile: age_months: 2"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys",
+      "family": "Snuffle mat (scent enrichment)",
+      "description": "Fabric snuffle mat sized for small dogs where kibble or treats are hidden in fabric folds to encourage foraging and scent work.",
+      "rationale": "Mental enrichment reduces pent-up energy and provides indoor stimulation appropriate for a high-activity puppy in an apartment.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: house_type: apartment",
+        "standard: mental_enrichment_best_practices"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Comfort",
+      "family": "Soft plush comfort toy (small, supervised use)",
+      "description": "Small plush comfort toy sized for puppy cuddling; supervise given strong chew strength and replace when damaged to prevent ingestion of stuffing.",
+      "rationale": "Helps with separation comfort and can be placed in crate for naps. Must be supervised because of strong chewer; still valuable for emotional enrichment.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: activity: high",
+        "pet_profile: chew_strength: strong",
+        "standard: separation_anxiety_prevention_recommendations"
+      ],
+      "priority": "low",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Calming",
+      "family": "Pheromone diffuser or calming spray (puppy formula)",
+      "description": "Dog-appropriate calming pheromone diffuser for indoor use or portable calming spray to use in crate/pen; non-medicated and suitable for puppies.",
+      "rationale": "Calendar events (leaf blower season, hunting season, Halloween doorbell activity) may increase noise/stress; pheromone products can reduce anxiety in new puppies during noisy periods.",
+      "evidence": [
+        "calendar_context: Leaf Blower Season (stress_inducing)",
+        "calendar_context: Hunting Season",
+        "calendar_context: Halloween (doorbell activity)",
+        "pet_profile: age_months: 2",
+        "standard: behavioral_management_for_noise_anxiety (non-pharmacologic)"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training Tools",
+      "family": "Interactive tug toy (small-breed, durable)",
+      "description": "Durable small tug toy for supervised play and impulse control exercises; reinforced seams, made for small breeds and designed to withstand strong pull without shredding.",
+      "rationale": "Interactive play supports bonding and impulse control training. High-activity puppy benefits from supervised tug/recall games to expend energy indoors.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: chew_strength: strong",
+        "pet_profile: breed: Pug"
+      ],
+      "priority": "low",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Travel & Walk",
+      "family": "Portable dog water bottle with attached bowl",
+      "description": "Small-capacity portable water bottle with built-in bowl or spout for easy hydration on short apartment walks; leak-proof and easy to carry on walks.",
+      "rationale": "Hydration during walks is important, especially with heat warnings. Portable bottle is practical for quick outings in an apartment context.",
+      "evidence": [
+        "weather_context: excessive_heat_warning",
+        "pet_profile: age_months: 2",
+        "pet_profile: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Clothing & Comfort",
+      "family": "Cooling bandana or breathable puppy tee",
+      "description": "Breathable cooling bandana or lightweight tee sized for small-breed puppies; can be wet/dampened briefly to help cooling and for short-term comfort indoors.",
+      "rationale": "Additional small-item cooling option given heat sensitivity; useful for brief relief during high indoor temps and for comfort on short outings.",
+      "evidence": [
+        "pet_profile: breed: Pug",
+        "weather_context: excessive_heat_warning",
+        "pet_profile: age_months: 2"
+      ],
+      "priority": "low",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Floor Protection",
+      "family": "Non-slip training mat / small indoor exercise mat",
+      "description": "Non-slip washable mat sized for small-breed puppy play area to protect floors and provide traction for training and quick indoor play sessions.",
+      "rationale": "Protects apartment floors, provides grip for a clumsy puppy to reduce slips during burst play, and defines a training/play area near the crate or pen.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: age_months: 2",
+        "standard: puppy_safety_recommendation (provide traction)"
+      ],
+      "priority": "low",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Waste Management",
+      "family": "Biodegradable poop bags (small roll for leash walks)",
+      "description": "Small, biodegradable poop bags in roll format with dispenser that attaches to leash or harness for quick pick-ups on outside breaks.",
+      "rationale": "While the puppy is primarily on pads now, leash walks will occur; responsible waste collection is needed immediately when leaving the apartment and for local regulations.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: yard: no_yard",
+        "standard: public_cleanliness_guidelines"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Safety",
+      "family": "Window/door stopper or baby gate for restricted access",
+      "description": "Small baby gate or door stopper to block off stairs or rooms for puppy safety; portable and adjustable to typical apartment door widths.",
+      "rationale": "Helps puppy-proof living space and keeps puppy away from hazards when unsupervised; useful in apartment to limit access to potentially dangerous areas.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: house_type: apartment",
+        "standard: puppy_proofing_guidelines"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "First Aid & Care",
+      "family": "Basic pet first-aid kit (non-medication supplies)",
+      "description": "Kit with bandage material, styptic powder for nails, tweezers, thermometer, and instructions—non-medicated items helpful for minor cuts or nail nicks.",
+      "rationale": "Useful household preparedness item for a new energetic puppy; immediate non-medical supplies help handle minor injuries before vet consultation if needed.",
+      "evidence": [
+        "pet_profile: age_months: 2",
+        "pet_profile: activity: high",
+        "standard: pet_first_aid_recommendations"
+      ],
+      "priority": "medium",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "a9491c44-cfdf-43ec-815b-38fe3884ccf6",
+    "pet_id": "1ac35e16-6ae8-4840-9d27-0c0a317589af",
+    "month_idx": 0,
+    "pet_name": "Thor",
+    "pet_species": "dog",
+    "generated_at": "2025-10-21T13:55:18.167641",
+    "stage": "stage1_structured"
+  }
+}

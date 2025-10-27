@@ -89,6 +89,20 @@ class Database:
             )
         """)
         
+        # Create subscription_plans table for structured pipeline output
+        cursor.execute("""
+            CREATE TABLE IF NOT EXISTS subscription_plans (
+                id TEXT PRIMARY KEY,
+                journey_id TEXT NOT NULL,
+                month_idx INTEGER NOT NULL,
+                plan_data TEXT NOT NULL,  -- JSON blob with full subscription plan
+                generated_at TEXT NOT NULL,
+                model TEXT,
+                UNIQUE(journey_id, month_idx),
+                FOREIGN KEY (journey_id) REFERENCES journeys (id)
+            )
+        """)
+        
         conn.commit()
         conn.close()
     
@@ -392,5 +406,84 @@ class Database:
         conn.commit()
         conn.close()
 
+    def save_subscription_plan(self, journey_id: str, month_idx: int, plan_data: Dict[str, Any]):
+        """
+        Save or update a subscription plan for a specific journey and month.
+        
+        Args:
+            journey_id: The journey ID
+            month_idx: The 0-based month index
+            plan_data: The complete subscription plan JSON data
+        """
+        plan_id = f"{journey_id}_{month_idx}"
+        
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            INSERT OR REPLACE INTO subscription_plans 
+            (id, journey_id, month_idx, plan_data, generated_at, model)
+            VALUES (?, ?, ?, ?, ?, ?)
+        """, (
+            plan_id,
+            journey_id,
+            month_idx,
+            json.dumps(plan_data),
+            plan_data.get('metadata', {}).get('generated_at', ''),
+            plan_data.get('metadata', {}).get('model', '')
+        ))
+        
+        conn.commit()
+        conn.close()
+    
+    def get_subscription_plan(self, journey_id: str, month_idx: int) -> Optional[Dict[str, Any]]:
+        """
+        Get a subscription plan for a specific journey and month.
+        
+        Args:
+            journey_id: The journey ID
+            month_idx: The 0-based month index
+            
+        Returns:
+            The subscription plan data dict if exists, None otherwise
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            SELECT plan_data FROM subscription_plans 
+            WHERE journey_id = ? AND month_idx = ?
+        """, (journey_id, month_idx))
+        
+        row = cursor.fetchone()
+        conn.close()
+        
+        if row:
+            return json.loads(row[0])
+        return None
+    
+    def delete_subscription_plan(self, journey_id: str, month_idx: int):
+        """
+        Delete a subscription plan for a specific journey and month.
+        Useful for forcing regeneration.
+        
+        Args:
+            journey_id: The journey ID
+            month_idx: The 0-based month index
+        """
+        conn = sqlite3.connect(self.db_path)
+        cursor = conn.cursor()
+        
+        cursor.execute("""
+            DELETE FROM subscription_plans 
+            WHERE journey_id = ? AND month_idx = ?
+        """, (journey_id, month_idx))
+        
+        conn.commit()
+        conn.close()
+
 # Global database instance
-db = Database()
+# Use absolute path so it works from any working directory
+from pathlib import Path
+_db_path = Path(__file__).parent / "chewy_journey.db"
+db = Database(str(_db_path))

@@ -1,0 +1,282 @@
+{
+  "total_queries": 26,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "11-month-old dog adult maintenance dry kibble for active medium-large breeds, 26–30%+ protein, balanced calories for a 50 lb high-activity dog, medium/large bite size to reduce gulping, available in 20–30 lb bags.",
+      "bm25_query": "adult dry kibble 26-30% protein balanced calories 50 lb active medium-large medium large kibble 20-30 lb",
+      "top_k": 20,
+      "rationale": "Thor is an 11-month-old, high-activity 50 lb pitbull. He needs a nutritionally complete adult maintenance kibble sized and calorically appropriate to support growth/energy without overfeeding. Dry food is the daily staple and a primary consumable that cannot wait.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "11-month-old dog soft, easily breakable training treats (pea-sized), meat-forward high palatability, very low calories per piece, sold in small packs for daily walks and training sessions.",
+      "bm25_query": "soft training treats pea-sized breakable low calorie meat high-value small pack",
+      "top_k": 15,
+      "rationale": "As a rescue and adolescent (11 months), Thor benefits from frequent positive reinforcement for training and recall. Training treats are a daily consumable used repeatedly and support behavior shaping now.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "11-month-old dog 2–3+ liter automatic water dispenser or continuous-flow pet fountain, stainless steel or ceramic, durable and portable or sturdy indoor option to keep water fresh and cool for an active 50 lb dog.",
+      "bm25_query": "automatic water dispenser 2-3 liter pet fountain stainless steel ceramic continuous flow portable indoor cool water",
+      "top_k": 12,
+      "rationale": "Daily water supply is essential. With an excessive heat warning and Thor being highly active, continuous access to fresh/cool water is immediately necessary to prevent dehydration and overheating.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "11-month-old dog durable leak-resistant biodegradable poop bags on rolls, dispenser-roll size, scented or unscented options for daily outdoor use in yard and on walks.",
+      "bm25_query": "biodegradable poop bags leak-resistant roll dispenser scented unscented daily outdoor",
+      "top_k": 12,
+      "rationale": "Daily removal of waste is a daily consumable necessity for hygiene and neighborhood etiquette. Thor's daily outdoor activity means steady use of bags.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "11-month-old dog heavy-duty 6 ft chew-resistant leash for strong breeds, reinforced nylon or steel-core, extra-stitched or padded handle, carabiner-style strong clip, rated for 50+ lb pullers.",
+      "bm25_query": "6 ft heavy-duty leash chew-resistant reinforced nylon steel-core padded handle carabiner strong clip 50 lb",
+      "top_k": 10,
+      "rationale": "Immediate safety on walks requires a leash that can withstand Thor's strong chew/pull strength. Without an appropriate leash there is immediate risk during outings. This is a daily-use safety product.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "11-month-old dog durable chew-resistant cooling mat for medium/large dogs (30–36 in), non-toxic cooling gel or self-cooling surface, breathable fabric with machine-washable cover or wipeable surface, indoor/outdoor safe.",
+      "bm25_query": "cooling mat 30-36 in chew-resistant non-toxic cooling gel self-cooling breathable machine-washable indoor outdoor",
+      "top_k": 12,
+      "rationale": "An active 50 lb dog in an area under an excessive heat warning needs immediate cooling options to avoid heat stress. A cooling mat provides a safe, passive way for Thor to lower body temperature when resting in the house or yard.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "11-month-old dog undercoat/deshedding tool for short-to-medium coat, stainless blade or fine-toothed de-shedding head, comfortable grip to reduce loose hair and dander.",
+      "bm25_query": "deshedding tool undercoat short medium coat stainless blade fine-toothed grip reduce loose hair dander",
+      "top_k": 10,
+      "rationale": "Calendar indicates fall shedding season and allergy season. Thor will benefit from a de-shedding tool to reduce loose hair, minimize allergens in the home, and keep the coat healthy.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "11-month-old dog double-ended toothbrush (mini and larger head) with ergonomic owner handle and durable bristles, suitable for introducing daily brushing to an adolescent dog.",
+      "bm25_query": "dog toothbrush double-ended mini head larger head ergonomic handle durable bristles adolescent",
+      "top_k": 8,
+      "rationale": "Dental care best practice begins in the first year; Thor (11 months) should start toothbrushing to prevent plaque. A toothbrush enables daily/home dental care now.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "11-month-old dog enzymatic dog toothpaste in pet-safe poultry or beef flavor, formulated to help break down plaque and pair with a toothbrush for daily brushing.",
+      "bm25_query": "enzymatic dog toothpaste poultry beef flavor plaque break down daily brushing",
+      "top_k": 8,
+      "rationale": "Supports toothbrush use and long-term dental health; appropriate for an 11-month old to start routine dental maintenance.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Flea & Tick",
+      "family": "Combs & Tick Removers",
+      "embedding_query": "11-month-old dog stainless-steel tick removal tool with narrow tips or scooping design for safe removal, compact carrying case for yard and trail use.",
+      "bm25_query": "tick removal tool stainless steel narrow tip scooping compact carrying case safe removal",
+      "top_k": 8,
+      "rationale": "Hunting season and outdoor time in a large yard increase tick exposure. A tick tool gives owners the means to remove ticks promptly and reduce disease risk.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "11-month-old dog adjustable calming wrap (thunder-shirt style) for medium-large sizes, snug-fitting to apply gentle pressure during loud/noisy events, machine-washable.",
+      "bm25_query": "calming wrap thunder shirt adjustable medium large snug gentle pressure machine-washable",
+      "top_k": 10,
+      "rationale": "Calendar shows leaf blower and hunting season (stress-inducing). As a rescue adolescent, Thor may be noise-sensitive; a calming wrap helps reduce acute anxiety during stressful events.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Apparel",
+      "family": "Outdoor Apparel",
+      "embedding_query": "11-month-old dog small rechargeable LED clip-on safety light or reflective vest sized for medium-large dogs to increase visibility during dawn/dusk and hunting season.",
+      "bm25_query": "LED clip-on safety light reflective vest medium large rechargeable visibility dawn dusk hunting",
+      "top_k": 8,
+      "rationale": "Hunting season and variable daylight hours increase the importance of visibility while walking near roads or during early/late hours. Improves safety when Thor is outdoors.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "11-month-old dog elevated breathable cot-style bed sized for a 50 lb dog to improve airflow, keep off hot surfaces, provide joint support, with a washable cover for indoor/outdoor use.",
+      "bm25_query": "elevated cot bed breathable 50 lb raised airflow washable cover indoor outdoor joint support",
+      "top_k": 12,
+      "rationale": "Provides a comfortable resting spot that helps regulate body temperature and supports joints as Thor matures; useful both indoors and in large yards.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Creams & Rinses",
+      "embedding_query": "11-month-old dog pet-safe paw balm/protective wax in easy-apply tin or tube to protect pads from hot pavement, drying, and cracking for pre/post-walk care.",
+      "bm25_query": "paw balm pet-safe protective wax hot pavement prevent cracking easy apply tin tube",
+      "top_k": 8,
+      "rationale": "With occasional hot days and high activity, paw protection is preventive. Paw balm reduces pad damage and discomfort on hot or rough surfaces.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Chews (Bones & Bully)",
+      "embedding_query": "11-month-old dog large long-lasting chew for power chewers, non-splintering dental-style or tough bully-style chew sized for medium-large dogs to promote safe chewing and oral activity.",
+      "bm25_query": "long-lasting chew power chewer non-splintering dental bully large medium large oral health",
+      "top_k": 10,
+      "rationale": "Thor's strong chew strength and adolescent teething/energy means durable chews support oral health, reduce destructive chewing, and occupy his high drive.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "11-month-old dog padded no-pull harness, escape-resistant with reinforced attachment points, sized for medium-large dogs to reduce strain and improve handler control on walks.",
+      "bm25_query": "no-pull harness padded escape-resistant reinforced attachment medium large reduce strain control",
+      "top_k": 10,
+      "rationale": "While a leash is essential, a sturdy no-pull harness reduces shoulder/neck strain on a strong puller and improves handler control during walks — an important upgrade for safety and training.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Puzzle & Interactive Toys",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "11-month-old dog heavy-duty indestructible rubber treat-dispensing toy, large size for a 50 lb power chewer, adjustable difficulty, durable non-toxic material for mental stimulation.",
+      "bm25_query": "indestructible treat-dispensing toy heavy-duty rubber large power chewer adjustable difficulty durable non-toxic",
+      "top_k": 10,
+      "rationale": "Provides mental stimulation, reduces boredom in a large yard, and channels strong chewing drive into a safe activity; especially useful for a high-energy rescue dog.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "11-month-old dog reinforced tug toy with heavy-duty fabric or rubberized core and secure handles, sized for medium-large dogs for supervised interactive play.",
+      "bm25_query": "reinforced tug toy heavy-duty fabric rubber core secure handles medium large supervised interactive",
+      "top_k": 8,
+      "rationale": "Interactive tug play builds bond, gives energy outlet, and helps teach impulse control for a young, active pitbull. Must be heavy-duty due to Thor's chew strength.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "11-month-old dog high-durability fetch balls sized for medium-large mouths and/or a ball launcher for long-distance fetch in a large yard, puncture-resistant and non-toxic materials.",
+      "bm25_query": "durable fetch ball launcher medium large puncture-resistant non-toxic long-distance yard",
+      "top_k": 8,
+      "rationale": "Thor's high activity level needs vigorous exercise — fetch in the large yard is ideal. Durable balls/launcher help burn off energy and strengthen recall training.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Exercise Equipment",
+      "family": "Exercise Equipment",
+      "embedding_query": "11-month-old dog sturdy flirt pole with replaceable durable lure and a long handle for interactive chase games and short high-intensity sessions to build impulse control.",
+      "bm25_query": "flirt pole sturdy replaceable lure long handle high-intensity chase impulse control",
+      "top_k": 8,
+      "rationale": "Provides intense exercise in short bursts and reinforces recall/play boundaries — appropriate for an adolescent high-drive pitbull.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Puzzle & Interactive Toys",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "11-month-old dog durable snuffle mat sized for medium-large dogs to hide kibble and treats, encouraging foraging behavior and slowing feeding for mental enrichment.",
+      "bm25_query": "snuffle mat durable medium large hide kibble treats foraging slow feeding enrichment",
+      "top_k": 8,
+      "rationale": "As a rescue with high activity, Thor benefits from mental enrichment to reduce boredom, improve problem-solving, and slow down feeding.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "11-month-old dog durable shallow splash pool sized for medium-large dogs or a pet-safe yard sprinkler for play and evaporative cooling during hot days.",
+      "bm25_query": "splash pool shallow medium large pet-safe yard sprinkler play evaporative cooling hot days",
+      "top_k": 8,
+      "rationale": "With excessive heat alerts, water play keeps Thor cool while providing exercise and enrichment in the large yard.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Puzzle & Interactive Toys",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "11-month-old dog sturdy multi-chamber interactive puzzle toy with adjustable difficulty levels, built for medium-large dogs to hide treats and kibble.",
+      "bm25_query": "interactive puzzle toy multi-chamber adjustable difficulty medium large treats kibble",
+      "top_k": 8,
+      "rationale": "Supports problem-solving and reduces destructive behavior through goal-oriented enrichment; good for indoor days (rain season upcoming).",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "11-month-old dog heavy-duty machine-washable blanket sized for medium-large dogs to provide den-like comfort and a familiar scent to reduce stress in a rescue dog.",
+      "bm25_query": "washable blanket durable medium large den-like comfort familiar scent rescue dog",
+      "top_k": 6,
+      "rationale": "Rescue dogs often benefit from a comfort item that provides security and a consistent smell. A durable washable blanket is a low-cost enrichment item.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Exercise Equipment",
+      "family": "Exercise Equipment",
+      "embedding_query": "11-month-old dog entry-level backyard agility starter set for medium-large dogs with low-impact hurdles and a short tunnel to provide physical and mental challenge.",
+      "bm25_query": "backyard agility starter kit low hurdles short tunnel medium large low-impact",
+      "top_k": 8,
+      "rationale": "Thor has a large yard and high energy; agility equipment gives structured exercise and improves coordination and handler-dog teamwork.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "11-month-old dog basic clicker and lightweight target stick set for positive-reinforcement training, portable and easy to use for yard and indoor sessions.",
+      "bm25_query": "clicker target stick set positive reinforcement portable lightweight yard indoor",
+      "top_k": 6,
+      "rationale": "As a rescue adolescent, Thor benefits from consistent positive reinforcement training; clicker/target tools accelerate communication and training outcomes.",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "8ec13dea-105b-47dd-917b-6409b09e8577",
+    "pet_id": "ca2dfd86-598f-4102-9a98-b5d469cada6d",
+    "month_idx": 1,
+    "pet_name": "Thor",
+    "pet_species": "dog",
+    "generated_at": "2025-10-16T10:41:48.893214",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_8ec13dea_month1_20251016_103955.json",
+    "tokens": {
+      "prompt": 6757,
+      "completion": 8604,
+      "total": 15361
+    },
+    "elapsed_seconds": 0.0
+  }
+}

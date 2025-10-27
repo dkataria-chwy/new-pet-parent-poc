@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! Mario is at that lively two-month stretch where Golden Retrievers soak up social cues and start teething — since he's a rescue and a bit low-energy, you're probably seeing calm curiosity more than zoomies. Here's the thing: his socialization window and vaccine series matter now, so chat with your vet about his vaccine schedule if you haven't already. Goldens are naturally friendly and food-motivated, which makes short, frequent training sessions really effective. In an apartment with no yard, house-training and consistent routines (crate time, pads, short walks) are your daily focus. I set recommendations to support food, pads, and gentle training treats for Mario. Take a look at the recommendations below.",
+  "word_count": 113,
+  "metadata": {
+    "generated_at": "2025-10-16T11:46:09.230992",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 25.94,
+    "audio_elapsed_seconds": 7.82,
+    "tokens": {
+      "prompt": 8436,
+      "completion": 1560,
+      "total": 9996
+    }
+  }
+}

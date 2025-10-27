@@ -12,9 +12,12 @@ import { api } from "@/lib/api"
 interface CheckpointStripProps {
   compact?: boolean
   focusedCheckpoint?: number // For zoomed effect
+  onPlayTTS?: () => void // Handler to play TTS audio
+  playingTTS?: boolean // Whether TTS is currently playing
+  ttsCheckpoint?: number // Which checkpoint should show the speaker button (defaults to current)
 }
 
-export function CheckpointStrip({ compact = false, focusedCheckpoint }: CheckpointStripProps) {
+export function CheckpointStrip({ compact = false, focusedCheckpoint, onPlayTTS, playingTTS = false, ttsCheckpoint }: CheckpointStripProps) {
   const router = useRouter()
   const { 
     journey, 
@@ -39,10 +42,13 @@ export function CheckpointStrip({ compact = false, focusedCheckpoint }: Checkpoi
       // Only update if there's actually a mismatch AND we're not in the middle of animations
       const animationInProgress = isAnimating || dogIsRunning
       
-      // 🚨 SYNC COMPLETELY DISABLED 🚨
-      console.log('🚨 SYNC DISABLED - dogPosition:', dogPosition, 'journey.current:', journey.current)
-      console.log('🚨 NO SYNC WILL HAPPEN - ANIMATION HANDLES DOG POSITION')
-      // ABSOLUTELY NO SYNCING!
+      // Only sync when loading existing journeys (not during normal gameplay)
+      // This prevents interference with completion animations
+      const isInitialLoad = dogPosition === 0 && journey.current > 0
+      if (!animationInProgress && isInitialLoad && dogPosition !== journey.current) {
+        console.log('🔄 INITIAL LOAD SYNC: dogPosition:', dogPosition, '→', journey.current)
+        setDogPosition(journey.current)
+      }
     }
   }, [journey?.current, setDogPosition, compact, dogPosition])
 
@@ -284,6 +290,36 @@ export function CheckpointStrip({ compact = false, focusedCheckpoint }: Checkpoi
           )}
           {status === 'current' && (
             <span className="text-lg font-bold">{index}</span>
+          )}
+          {/* Speaker icon badge - shows on the checkpoint matching ttsCheckpoint (or current if not specified) */}
+          {onPlayTTS && index === (ttsCheckpoint ?? journey.current) + 1 && (
+            <div
+              onClick={(e) => {
+                e.stopPropagation()
+                onPlayTTS()
+              }}
+              role="button"
+              tabIndex={0}
+              onKeyDown={(e) => {
+                if (e.key === 'Enter' || e.key === ' ') {
+                  e.preventDefault()
+                  e.stopPropagation()
+                  onPlayTTS()
+                }
+              }}
+              className="absolute -bottom-1 -right-1 w-6 h-6 bg-gradient-to-br from-purple-500 to-indigo-600 rounded-full flex items-center justify-center border-2 border-white shadow-md hover:scale-110 transition-transform duration-200 cursor-pointer"
+              title={playingTTS ? "Pause audio" : "Listen to monthly summary"}
+            >
+              {playingTTS ? (
+                <svg className="w-3 h-3 text-white animate-pulse" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M6 4h4v16H6V4zm8 0h4v16h-4V4z"/>
+                </svg>
+              ) : (
+                <svg className="w-3 h-3 text-white" fill="currentColor" viewBox="0 0 24 24">
+                  <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02z"/>
+                </svg>
+              )}
+            </div>
           )}
         </motion.button>
         {!compact && (

@@ -1,0 +1,440 @@
+{
+  "total_categories": 26,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food & Nutrition",
+      "family": "Dry kibble (puppy/young-dog / active formula)",
+      "description": "Complete dry kibble formulated for growing/active young dogs (7 months), calorically appropriate for a 40 lb, high-activity male pug. Size/formula: adult-transition or large-breed puppy-to-adult formula with balanced protein/fat (moderate calorie density to avoid excess weight), kibble size small-to-medium for brachycephalic muzzle. Ensure ingredient list excludes duck protein. Preference: Mars-owned formulas acceptable (user bias). Size: 15–30 lb bag.",
+      "rationale": "Daily primary nutrition — AJ needs a reliable daily kibble formulated for growth and high activity. As a 7-month-old pug at 40 lb, feeding an appropriate kibble every day is essential for growth, energy and weight management. Must avoid duck due to allergy.",
+      "evidence": [
+        "pet_characteristic: species: dog",
+        "pet_characteristic: breed: Pug",
+        "pet_characteristic: age_months: 7",
+        "pet_characteristic: weight_lb: 40.0",
+        "pet_characteristic: activity: high",
+        "pet_characteristic: allergies: [Duck]",
+        "standard: daily_complete_nutrition_guideline"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats & Training",
+      "family": "High-value soft training treats (small, low-calorie)",
+      "description": "Small, soft, easily breakable training treats for frequent reward-based training (pea-sized pieces). Low-calorie formula for repeated use; meat/protein source must NOT be duck. Pack size: small bags (3–6 oz) or resealable pouches for freshness. Texture: soft/moist to be eaten quickly during training.",
+      "rationale": "At 7 months AJ is still in intensive training/socialization. Frequent small rewards are used daily to reinforce good behavior. Soft low-calorie treats reduce calorie load while enabling many repetitions. Avoid duck due to allergy.",
+      "evidence": [
+        "pet_characteristic: age_months: 7",
+        "pet_characteristic: activity: high",
+        "pet_characteristic: about: AJ is very energetic and very strong.",
+        "pet_characteristic: allergies: [Duck]",
+        "standard: positive_reinforcement_training_best_practice"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding Supplies",
+      "family": "Stainless steel non-tip water bowl",
+      "description": "Heavy-duty stainless steel, non-tip (rubber base), wide-mouth water bowl sized for medium/large dogs (capacity ~48–64 oz) for daily home use. Dishwasher-safe, rust-resistant. Stable base to prevent spills in apartment environment.",
+      "rationale": "Daily water is essential. A sturdy non-tip steel bowl ensures AJ has fresh water every day and reduces spills in an apartment. Steel is hygienic and durable for a heavy, active dog.",
+      "evidence": [
+        "pet_characteristic: species: dog",
+        "pet_characteristic: activity: high",
+        "pet_characteristic: house_type: apartment",
+        "standard: daily_fresh_water_guideline"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Hydration on the Go",
+      "family": "Collapsible travel water bottle with attached bowl",
+      "description": "Portable, leak-proof travel water bottle that folds out into an attached bowl/cup for drinking; capacity about 20–28 oz. Lightweight, easy-clean, with a carabiner for clips to leash. Useful for walks and yard visits.",
+      "rationale": "Excessive heat warning + AJ's brachycephalic breed increase heat-risk during outings. Having on-walk hydration available immediately prevents dehydration and heat emergency — essential when leaving the apartment or using the yard.",
+      "evidence": [
+        "pet_characteristic: breed: Pug",
+        "pet_characteristic: age_months: 7",
+        "weather_context: alerts: [excessive_heat_warning]",
+        "standard: brachycephalic_heat_sensitivity_guideline"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Cooling & Heat Safety",
+      "family": "Adjustable cooling vest (walk-safe)",
+      "description": "Lightweight, evaporative/ice-pack compatible cooling vest or jacket sized to a compact, short-legged brachycephalic body shape (adjustable straps, reflective trim). Designed for use during walks and outdoor activity to lower body temp rapidly. Machine-washable materials.",
+      "rationale": "Pugs are highly heat-sensitive (brachycephalic). With an active dog and an excessive heat warning, a cooling vest for walks is an immediate safety item to reduce risk of heat stress during outdoor exercise.",
+      "evidence": [
+        "pet_characteristic: breed: Pug",
+        "pet_characteristic: activity: high",
+        "weather_context: alerts: [excessive_heat_warning]",
+        "standard: brachycephalic_heat_safety_guideline"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Durable Toys & Chews",
+      "family": "Heavy-duty chew toy (indestructible rubber/nylon)",
+      "description": "Single-item: extremely durable chew toy constructed from tough rubber or nylon sized for strong chewers (non-toxic, low-fragmentation). Designed for aggressive chewing and long use—shaped for treat insertion or solo chewing. Avoid edible chews with duck ingredients.",
+      "rationale": "AJ is a strong chewer and energetic—without durable chew options he may destroy household items and ingest hazardous materials. A robust chew toy reduces immediate safety hazards and provides daily outlet for chewing behavior.",
+      "evidence": [
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: about: AJ is very energetic and very strong.",
+        "pet_characteristic: house_type: apartment",
+        "standard: ingestion_prevention_recommendation"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Deshedding tool / slicker brush",
+      "description": "Undercoat rake or de-shedding tool sized for short-coated breeds with firm bristles and ergonomic handle. Helps capture seasonal loose hair. Washable/replaceable head recommended.",
+      "rationale": "Fall shedding season is active and pugs shed significantly. Regular deshedding reduces hair in the apartment and reduces allergen load for the household; timely grooming prevents matting and skin irritation.",
+      "evidence": [
+        "pet_characteristic: breed: Pug",
+        "calendar_context: event: Shedding Season (Fall Shedding Season)",
+        "standard: seasonal_grooming_practice"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Hypoallergenic grooming wipes",
+      "description": "Fragrance-free, hypoallergenic pet grooming wipes formulated for sensitive skin and to remove pollen/dust. Individually wrapped or packet of wipes for quick cleanups after yard/play. Alcohol-free, pH-balanced.",
+      "rationale": "Allergy season is active and AJ is in a region with fall allergens. Wipes help remove allergens from coat/paws after outdoor time and reduce sneezing/itching, supporting comfort and preventing secondary skin problems.",
+      "evidence": [
+        "calendar_context: event: Allergy Season (Fall Allergy Season)",
+        "pet_characteristic: house_type: apartment",
+        "standard: topical_allergen_management_recommendation"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Dental Care",
+      "family": "Dog toothbrush and enzymatic toothpaste",
+      "description": "Dog-specific toothbrush (finger or dual-head) and enzymatic toothpaste safe for ingestion; flavored for palatability (non-duck flavors). Travel-size kit for home daily brushing.",
+      "rationale": "Dental care is recommended to begin around 6–8 months. Regular brushing reduces plaque buildup and future dental disease. As AJ is approaching adulthood, starting daily/regular brushing now is preventive care.",
+      "evidence": [
+        "pet_characteristic: age_months: 7",
+        "standard: veterinary_dental_care_guideline"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding Supplies",
+      "family": "Slow feeder bowl (anti-gulping)",
+      "description": "Slow-feeder / maze bowl designed to slow eating (plastic or ceramic, dishwasher-safe) sized for mid-size mouths. Reduces gulping and helps digestion; low-profile for brachycephalic head shape.",
+      "rationale": "Pugs can gulp quickly which increases risk of digestive upset. A slow feeder reduces rapid eating, lowering bloat/aspiration/regurgitation risk and improving mealtime behavior.",
+      "evidence": [
+        "pet_characteristic: breed: Pug",
+        "pet_characteristic: age_months: 7",
+        "standard: anti_gulping_feeding_recommendation"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Walking & Restraint",
+      "family": "Front-clip no-pull harness (reinforced, reflective)",
+      "description": "Adjustable front-clip no-pull harness built to withstand strong pullers, with padded chest panel for brachycephalic chest shape and reflective trim for low-light safety. Durable buckles and multiple sizing options for compact body type.",
+      "rationale": "AJ is very strong and active; a no-pull harness reduces leash-pulling and improves safety on walks. Reflective trim helps during low-light walks (hunting season & early mornings).",
+      "evidence": [
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: activity: high",
+        "calendar_context: event: Hunting Season (relevance: leash_safety)",
+        "standard: harness_for_no_pull_recommendation"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Safety & Visibility",
+      "family": "LED clip-on safety light or reflective collar band",
+      "description": "Rechargeable LED clip-on light or reflective collar band for nighttime/low-visibility walks. Lightweight and easily attachable to collar/harness; multiple modes (steady, blink).",
+      "rationale": "Hunting season and variable daylight, plus apartment neighborhood walks, increase risk during low-light hours. Visibility gear reduces risk of accidents and improves owner confidence on outdoor trips.",
+      "evidence": [
+        "calendar_context: event: Hunting Season",
+        "pet_characteristic: activity: high",
+        "standard: pet_visibility_recommendation"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Cooling & Comfort",
+      "family": "Cooling mat (indoor gel or self-cooling pad)",
+      "description": "Passive cooling mat (gel or phase-change) sized for a medium dog to lie on inside the apartment. Non-electric, pressure-activated or gel-based, with washable cover.",
+      "rationale": "With excessive heat periods, an indoor cooling surface helps AJ regulate body temp while resting inside and reduces heat stress between outdoor activities.",
+      "evidence": [
+        "weather_context: alerts: [excessive_heat_warning]",
+        "pet_characteristic: breed: Pug",
+        "standard: heat_mitigation_for_brachycephalic_breeds"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Paw Care",
+      "family": "Paw wax or protective dog boots",
+      "description": "Paw protection option: either a tub of paw balm (wax-based) for conditioning and minor protection, or lightweight protective dog boots sized for small/medium paws. Boots should have non-slip soles for apartment floors and outdoor protection on hot pavement.",
+      "rationale": "During heat alerts, pavement and outdoor surfaces can become too hot for paw pads. Paw wax or boots are preventive to avoid burns and soreness during walks or yard play.",
+      "evidence": [
+        "weather_context: alerts: [excessive_heat_warning]",
+        "pet_characteristic: activity: high",
+        "standard: paw_protection_guideline"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Training Supplies",
+      "family": "Long training line (20–30 ft)",
+      "description": "20–30 ft lightweight training lead with swivel clip for recall training in a large yard. Durable webbing, reflective stitching, and comfortable hand loop.",
+      "rationale": "AJ has access to a large yard. A long training line supports safe off-leash recall practice without full freedom, aiding obedience and burn-off of energy while preventing runaways or hazards.",
+      "evidence": [
+        "pet_characteristic: yard: large_yard",
+        "pet_characteristic: age_months: 7",
+        "standard: recall_training_best_practice"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Teething & Chew",
+      "family": "Soft/teething-specific chew toys (rubber rope/toy)",
+      "description": "Puppy/teething chew toys that are gentler than indestructible chews: textured rubber or woven rope styles to massage gums. Durable but slightly softer for teething puppies. Avoid edible/clear duck-sourced chews.",
+      "rationale": "At 7 months AJ may still be finishing the teething process. Teething toys reduce discomfort and destructive chewing while complementing the heavy-duty chew toy recommended as essential.",
+      "evidence": [
+        "pet_characteristic: age_months: 7",
+        "pet_characteristic: chew_strength: strong",
+        "standard: teething_relief_recommendation"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Interactive Toys",
+      "family": "Treat-dispensing puzzle toy",
+      "description": "Durable treat-dispensing puzzle that hides small kibble pieces or treats to encourage problem-solving. Adjustable difficulty levels recommended for progressive engagement.",
+      "rationale": "As a high-energy, intelligent young dog, AJ benefits from mental stimulation to reduce boredom and destructive behaviors, especially while indoors in an apartment or during rainy days.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: house_type: apartment",
+        "calendar_context: event: Pacific Northwest Rain Season Start",
+        "standard: cognitive_enrichment_best_practice"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Exercise Toys",
+      "family": "Flirt pole (interactive lure wand)",
+      "description": "Durable flirt pole (pole with strong cord and secure lure) sized for apartment storage but used in yard/play areas to provide sprint and chase exercise. Replaceable lure and secure handle.",
+      "rationale": "AJ is very energetic; a flirt pole provides high-intensity bursts of exercise safely in yard or open areas, burning energy and improving impulse control when indoor/outdoor time is limited.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: yard: large_yard",
+        "standard: high_intensity_play_recommendation"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Fetch Toys",
+      "family": "Durable fetch ball (rubber)",
+      "description": "High-bounce, durable rubber ball sized for medium mouths (not a choking hazard) made for aggressive players; non-toxic and floatable for water play in yard.",
+      "rationale": "Provides repetitive running/retrieval to expend energy. Durable construction is needed for AJ's strong jaws to avoid toy breakage and ingestion risk.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: chew_strength: strong",
+        "standard: exercise_enrichment_best_practice"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Nosework & Scent Games",
+      "family": "Snuffle mat",
+      "description": "Fabric snuffle mat for hiding kibble/treats to encourage foraging and scent work; machine-washable and sized for apartment floors.",
+      "rationale": "Nosework is mentally tiring and rewarding; the snuffle mat slows feeding and provides enrichment when outside activity is limited by weather or heat alerts.",
+      "evidence": [
+        "pet_characteristic: house_type: apartment",
+        "weather_context: alerts: [excessive_heat_warning]",
+        "standard: scent_enrichment_recommendation"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Cooling Treats",
+      "family": "Silicone frozen treat molds (for homemade dog treats)",
+      "description": "Food-grade silicone molds to make frozen yogurt/kibble treats; multiple-cavity tray for portion control. Dishwasher-safe and freezer-safe.",
+      "rationale": "Frozen treats help cool AJ on hot days, provide enrichment, and can be used to slow feeding and reward. Useful during heat warnings as a safe cooling snack.",
+      "evidence": [
+        "weather_context: alerts: [excessive_heat_warning]",
+        "pet_characteristic: age_months: 7",
+        "standard: cooling_enrichment_recommendation"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Tug & Interactive Play",
+      "family": "Heavy-duty tug rope toy",
+      "description": "Durable, reinforced tug rope sized for medium/large mouths; built for two-person interactive play. Knotted ends and chew-safe fibers.",
+      "rationale": "Interactive tug supports bonding, outlet for high energy, and controlled play sessions which are important for a strong, energetic young dog living in an apartment with yard access.",
+      "evidence": [
+        "pet_characteristic: about: AJ is very energetic and very strong.",
+        "pet_characteristic: activity: high",
+        "standard: interactive_play_recommendation"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Comfort Items",
+      "family": "Plush comfort blanket (owner-scent absorbing)",
+      "description": "Soft, machine-washable blanket sized for a medium dog bed, designed to hold owner scent and provide comfort in crate or sleeping area.",
+      "rationale": "Apartment living and changes in routine (school-year schedule) can cause mild stress; a comfort blanket provides security and reduces separation anxiety during alone time.",
+      "evidence": [
+        "pet_characteristic: house_type: apartment",
+        "calendar_context: event: School Year Schedule",
+        "standard: comfort_item_for_anxiety_recommendation"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Chew Variety",
+      "family": "Rotation pack of chew toys (set of 3–5 different textures)",
+      "description": "Assorted chew toy set including rubber, nylon, and braided textures to rotate availability; each toy sized appropriately to prevent swallowing and made from non-toxic materials. Avoid edible chews containing duck.",
+      "rationale": "Rotating different chew textures keeps AJ engaged and prevents boredom and over-attachment to a single toy. Variety supports dental and behavioral enrichment.",
+      "evidence": [
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: activity: high",
+        "standard: toy_rotation_enrichment_recommendation"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Behavior & Anxiety",
+      "family": "Dog pheromone plug-in diffuser or collar (non-medicated calming)",
+      "description": "Adaptil-style synthetic pheromone diffuser or collar (non-medicated) to reduce noise/anxiety reactions (available as plug-in or collar form). Use in the apartment area where AJ rests. Not a medication.",
+      "rationale": "Hunting season and leaf blower noise windows are stress-inducing in the calendar context. A pheromone product can reduce noise-related anxiety episodes and make AJ more comfortable at home.",
+      "evidence": [
+        "calendar_context: events: [Hunting Season, Leaf Blower Season]",
+        "standard: non_medicated_anxiety_management_recommendation"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Indoor Activity",
+      "family": "Interactive treat-dispensing snuffle/hide board (small tabletop puzzle)",
+      "description": "Small interactive hide-board or puzzle board that requires paw/nose manipulation to reveal kibble; compact for apartment storage and easy to reset.",
+      "rationale": "Provides short-session puzzle play indoors during rainy days or heat-limited periods; useful for mental stimulation and slow feeding.",
+      "evidence": [
+        "calendar_context: event: Pacific Northwest Rain Season Start",
+        "pet_characteristic: house_type: apartment",
+        "standard: indoor_enrichment_recommendation"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Duck"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+    "pet_id": "d3764777-be9e-455f-9133-c630f6218a07",
+    "month_idx": 2,
+    "pet_name": "AJ",
+    "pet_species": "dog",
+    "generated_at": "2025-10-15T16:22:21.112458",
+    "stage": "stage1_structured"
+  }
+}

@@ -1,0 +1,384 @@
+{
+  "total_categories": 26,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food & Nutrition",
+      "family": "Adult high-energy dry kibble (maintenance formula)",
+      "description": "Complete adult dog dry kibble formulated for an active, medium-large (around 50 lb) dog: ~25–30% protein, balanced fats for energy, appropriate caloric density for high activity, available in 20–30 lb bags or bulk sizes. Look for formulas for adult maintenance (not puppy) with joint-support nutrients as a bonus. Size and calorie guidance tailored to a 50 lb, high-activity Pitbull.",
+      "rationale": "Daily nutritional staple — Thor is 12 months (adult-sized), high-activity and needs a calorie-dense, balanced adult maintenance kibble every day to sustain energy and body condition. Food is a daily consumable and is essential now.",
+      "evidence": [
+        "pet_characteristic: age_months: 12",
+        "pet_characteristic: weight_lb: 50.0",
+        "pet_characteristic: activity: high",
+        "standard: feeding_guidelines_for_active_adult_dogs"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats & Training",
+      "family": "Small soft high-value training treats (bite-size)",
+      "description": "Soft, bite-size training treats (low-calorie individual pieces) for frequent reinforcement during walks and training sessions. Small format (approx. 1–2 kcal per piece) to allow many repetitions without excessive calories. Formulated for adult dogs, easy to carry in a pouch.",
+      "rationale": "Thor is a young, high-energy rescue who benefits from frequent positive reinforcement to maintain good behavior; training treats are a daily consumable used during walks/training and help prevent problem behaviors. Useful immediately for recall and handling around triggers (hunting/leaf-blower noise).",
+      "evidence": [
+        "pet_characteristic: age_months: 12",
+        "pet_characteristic: activity: high",
+        "calendar_context: hunting_season_2025 (stress_inducing)",
+        "standard: positive_reinforcement_training_principles"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Waste Management",
+      "family": "Biodegradable poop bags (dispenser rolls)",
+      "description": "Large rolls of leak-resistant, biodegradable poop bags sized for medium/large dogs. Include a small roll-in-dispenser for walks and yard pickup (multi-pack to last weeks).",
+      "rationale": "Daily waste removal is required for hygiene and local ordinance compliance — a daily consumable essential for Thor now.",
+      "evidence": [
+        "pet_characteristic: species: dog",
+        "pet_characteristic: weight_lb: 50.0",
+        "house_type: house",
+        "standard: routine_waste_management"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Hydration & Feeding",
+      "family": "Large-capacity outdoor water dispenser / gravity fountain",
+      "description": "Durable, large-capacity (several liters/gallons) outdoor pet water dispenser or gravity-fed fountain suitable for yard use — UV-resistant plastic or stainless options, easy-to-clean, stable base to avoid tipping. Designed to supply continuous fresh water for medium-large dogs during hot weather.",
+      "rationale": "Excessive heat warning in Thor’s area creates an immediate risk of dehydration/heat stress in a dog that spends time in a large yard. Continuous accessible water outdoors is essential now to prevent heat-related danger.",
+      "evidence": [
+        "weather_context: alerts: excessive_heat_warning",
+        "pet_characteristic: yard: large_yard",
+        "pet_characteristic: activity: high",
+        "standard: hydration_and_heat_stress_prevention"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Heat & Cooling",
+      "family": "Heavy-duty chew-resistant cooling mat/pad",
+      "description": "Durable, puncture- and chew-resistant self-cooling mat/pad sized for a medium-large dog (large size). Materials resistant to strong chewers (reinforced layers or heavy-duty cover). Non-powered or water-activated options to provide immediate body-cooling on hot days.",
+      "rationale": "With an excessive heat warning, a cooling surface reduces core temperature and risk of heatstroke when Thor is in the yard or indoors. Because Thor is a strong chewer, the product must be heavy-duty to be safe and last.",
+      "evidence": [
+        "weather_context: alerts: excessive_heat_warning",
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: weight_lb: 50.0",
+        "standard: environmental_cooling_for_dogs_in_heat"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Walking & Control",
+      "family": "Heavy-duty 6-foot leash (nylon/leather with strong hardware)",
+      "description": "Sturdy 6-foot leash constructed of reinforced nylon or leather with strong clasp and stitching rated for strong, medium-large dogs. Comfortable handle, corrosion-resistant hardware. Single-line control for daily walks and quick short-distance control.",
+      "rationale": "Secure control on walks is an immediate safety requirement — Thor is strong and high-energy; a reliable heavy-duty leash prevents escape or injury during walks or startle events (hunting season/leaf blowers). Leash is a daily-use safety tool.",
+      "evidence": [
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: activity: high",
+        "calendar_context: hunting_season_2025 (stress_inducing)",
+        "standard: leash_safety_for_medium_large_dogs"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Oral Care",
+      "family": "Dog toothbrush and enzymatic toothpaste kit",
+      "description": "Dog-specific toothbrush (finger or dual-headed brush) plus enzymatic (non-foaming) toothpaste in flavors dogs accept. Kit sized for medium-large mouths and recommended for daily/regular use.",
+      "rationale": "Dental care for dogs should begin early (around 6–8 months) to reduce plaque and future periodontal disease; Thor is 12 months so establishing a brushing routine now can prevent long-term issues.",
+      "evidence": [
+        "pet_characteristic: age_months: 12",
+        "standard: dental_care_guidelines_for_dogs (start_by_6-8_months)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Deshedding tool for short coats (undercoat rake/firm bristle brush)",
+      "description": "Deshedding tool or rubber curry brush designed for short-coated breeds to remove loose hair and reduce shedding and allergens. Sturdy build for frequent use and easy-to-clean design.",
+      "rationale": "Calendar shows fall shedding and allergy season — regular deshedding will reduce loose hair and household allergens and make Thor more comfortable; not urgent but recommended now.",
+      "evidence": [
+        "calendar_context: shedding_season_fall_2025",
+        "calendar_context: allergy_season_fall_2025",
+        "pet_characteristic: breed: Pitbull",
+        "standard: seasonal_grooming_recommendations"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Chew Management",
+      "family": "Durable rubber/tough chew toy (rated for strong chewers)",
+      "description": "Heavy-duty rubber or similar material chew toy (treat-dispensing or solid) specifically rated for strong chewers and medium-large dogs. Size large enough to avoid swallowing hazards.",
+      "rationale": "Thor is a strong chewer; durable chew toys protect household items and give safe oral outlet. Prevents destructive chewing and supports dental health indirectly.",
+      "evidence": [
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: activity: high",
+        "pet_characteristic: breed: Pitbull",
+        "standard: safe_chewing_options_for_powerful_chewers"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Training & Recall",
+      "family": "30-foot long line (reinforced) for off-leash recall training",
+      "description": "Heavy-duty 30-foot (approx.) long line with strong hardware and comfortable handle for recall practice in a yard or open space. Built for medium-large dogs; tangle-resistant and easy to grip.",
+      "rationale": "Thor is high-energy and a rescue; structured recall training in a large yard improves safety and control — long-line is a training tool that prevents escapes and teaches reliable recall.",
+      "evidence": [
+        "pet_characteristic: yard: large_yard",
+        "pet_characteristic: activity: high",
+        "pet_characteristic: age_months: 12",
+        "standard: recall_training_tools_for_yard_training"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Safety & Visibility",
+      "family": "Reflective/hi-viz dog vest or collar cover",
+      "description": "Reflective or high-visibility vest/collar cover sized for medium-large dogs, designed to increase visibility in low light and to signal presence during hunting season. Quick-on design with adjustable straps.",
+      "rationale": "Hunting season and varying light conditions increase risk outdoors; reflective gear reduces risk of accidents and is a recommended safety precaution in Thor’s environment.",
+      "evidence": [
+        "calendar_context: hunting_season_2025",
+        "pet_characteristic: yard: large_yard",
+        "standard: visibility_recommendations_during_hunting_season"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Emergency",
+      "family": "Canine first aid kit (basic, vehicle/household)",
+      "description": "Compact dog first aid kit containing bandages, wound-cleaning wipes, antiseptic pads suitable for pets, tick-removal tool, emergency blanket, and basic instructions. Portable for walks or kept at home.",
+      "rationale": "Not an alternative to veterinary care, but useful for immediate on-site care during injuries or emergencies at home or in the yard; prudent given Thor’s active lifestyle and outdoor time.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: yard: large_yard",
+        "standard: pet_first_aid_best_practices"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Joint & Mobility Support",
+      "family": "Preventive joint mobility supplement (glucosamine/chondroitin formulation)",
+      "description": "Oral joint supplement formulated for adult dogs (glucosamine + chondroitin + MSM or equivalent) sized for medium-large dogs; labeled as a preventive/support formula rather than treatment.",
+      "rationale": "Pitbull-type breeds can be predisposed to joint issues; starting preventive supplementation in active dogs can be beneficial over time. This is preventive and not a medication or treatment.",
+      "evidence": [
+        "pet_characteristic: breed: Pitbull",
+        "pet_characteristic: activity: high",
+        "standard: preventive_joint_care_considerations_for_active_breeds"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Walk Accessories",
+      "family": "Wearable high-capacity treat pouch",
+      "description": "Hands-free treat pouch for training on walks: large enough for many small training treats, with zippered compartment and clip for poop bags. Durable material and comfortable waist/belt attachment.",
+      "rationale": "Supports frequent positive reinforcement during daily walks and training; convenient, reduces interruptions and increases consistency of reward-based training.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: age_months: 12",
+        "standard: practical_training_tools"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Climate Comfort",
+      "family": "Portable pop-up shade / yard canopy for pets",
+      "description": "Portable, UV-resistant pop-up shade or canopy sized to cover an outdoor resting area in a yard. Lightweight, quick-setup, anchored for windy conditions.",
+      "rationale": "Complements water and cooling mat to reduce sun/heat exposure when Thor is outside during heat events. Not mandatory if indoor shade exists, but recommended while excessive heat persists.",
+      "evidence": [
+        "weather_context: alerts: excessive_heat_warning",
+        "pet_characteristic: yard: large_yard",
+        "standard: shade_recommendations_for_outdoor_pets_in_heat"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming Supplies",
+      "family": "Hypoallergenic grooming wipes (for paws/coat)",
+      "description": "Multipack of gentle, hypoallergenic pet grooming wipes suitable for quick cleaning of paws and coat after outdoor time; fragrance-free options to reduce allergen exposure.",
+      "rationale": "Useful during allergy season and rainy periods to remove pollen, dirt and debris after time outdoors; convenient for quick cleanup and reducing allergens tracked indoors.",
+      "evidence": [
+        "calendar_context: allergy_season_fall_2025",
+        "calendar_context: pacific_northwest_rain_season_2025",
+        "pet_characteristic: activity: high"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys & Play",
+      "family": "Tough fetch ball (rubber, medium-large)",
+      "description": "Durable rubber or composite fetch ball sized for medium-large mouths, built for strong chewers and high-rebound play. Floatable if water play is used.",
+      "rationale": "High-activity dogs like Thor need physical outlets; fetch is a high-value exercise that uses the yard and builds positive bonding and training opportunities.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: yard: large_yard"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Mental Stimulation",
+      "family": "Treat-dispensing puzzle toy",
+      "description": "Moderate-difficulty treat-dispensing puzzle designed for medium-large dogs; weighted/stable base, durable construction to withstand strong mouths. Adjustable difficulty to extend engagement time.",
+      "rationale": "Mental enrichment reduces boredom and destructive behaviors in active rescue dogs; puzzles provide problem-solving stimulation and slow down treat consumption.",
+      "evidence": [
+        "pet_characteristic: age_months: 12",
+        "pet_characteristic: activity: high",
+        "standard: enrichment_recommendations_for_rescue_dogs"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Interactive Play",
+      "family": "Flirt pole (long-handled lure toy)",
+      "description": "Durable flirt pole with replaceable lure and strong tether, sized for medium-large dogs. Provides short bursts of high-intensity play for recall and impulse control exercises.",
+      "rationale": "Great outlet for Thor’s energy while teaching impulse control and buildable fetch/recall skills; provides high-intensity exercise in short sessions when weather or schedule limits long runs.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: age_months: 12",
+        "standard: appropriate_exercise_types_for_high_energy_dogs"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Play & Tug",
+      "family": "Heavy-duty tug rope (reinforced)",
+      "description": "Reinforced tug rope or tug toy sized for medium-large dogs with strong stitching and chew-resistant materials. Designed for interactive tug play and training bonding.",
+      "rationale": "Interactive tug supports bonding, outlet for chewing drive, and provides controlled play sessions that burn energy and reinforce manners.",
+      "evidence": [
+        "pet_characteristic: chew_strength: strong",
+        "pet_characteristic: activity: high"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Foraging & Sniffing",
+      "family": "Snuffle mat or foraging mat",
+      "description": "Fabric snuffle mat sized for medium-large dogs to hide kibble/treats for slower feeding and nose-work enrichment. Machine-washable and durable construction.",
+      "rationale": "Encourages natural sniffing behavior, mental stimulation and slows feeding which is useful for an active dog with lots of energy — good indoor alternative during rain or heat restrictions.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "calendar_context: pacific_northwest_rain_season_2025"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Water Play",
+      "family": "Medium/large wading pool for dogs",
+      "description": "Sturdy, low-wall wading pool sized for medium-large dogs to cool off and splash in; puncture-resistant material recommended. Easy to drain and store.",
+      "rationale": "Alternative cooling and play option on hot days that complements a cooling mat and water supply; good for active dogs who enjoy water and for heat relief.",
+      "evidence": [
+        "weather_context: alerts: excessive_heat_warning",
+        "pet_characteristic: activity: high",
+        "pet_characteristic: yard: large_yard"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Scent & Calm",
+      "family": "Calming pheromone diffuser (non-medication plug-in or spray)",
+      "description": "Non-medicated calming pheromone product (plug-in diffuser or spray) designed for dogs to reduce anxiety from loud noises (leaf blowers, gunshots) and changes in routine. Choose room size appropriate for the home.",
+      "rationale": "Calendar lists stress-inducing events (hunting season, leaf blowers). A pheromone diffuser can reduce situational anxiety in rescue dogs like Thor and help with sound-related stress during these seasonal triggers.",
+      "evidence": [
+        "calendar_context: hunting_season_2025",
+        "calendar_context: leaf_blower_season_2025",
+        "pet_characteristic: age_months: 12",
+        "standard: environmental_anxiety_reducing_tools"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Comfort & Bedding",
+      "family": "Durable elevated outdoor/indoor bed (raised cot style)",
+      "description": "Raised, breathable elevated bed sized for medium-large dogs with reinforced frame to withstand outdoor use and a removable washable cover. Offers airflow under the dog to keep cool.",
+      "rationale": "Provides a comfortable, cool resting spot that is low-maintenance and suitable for yard or indoor use; elevation helps with cooling and reduces joint strain during rest after high activity.",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: yard: large_yard",
+        "weather_context: alerts: excessive_heat_warning"
+      ],
+      "priority": "low",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Skill Building",
+      "family": "Basic backyard agility starter set (tunnel/hurdles)",
+      "description": "Entry-level backyard agility items (low jumps, tunnel) sized for medium-large dogs; modular and adjustable to progress skill level. Soft/low-height for safe play.",
+      "rationale": "Provides physical and mental challenge appropriate for an active Pitbull; supports structured exercise and training in Thor’s large yard without extra classes (product-only).",
+      "evidence": [
+        "pet_characteristic: activity: high",
+        "pet_characteristic: yard: large_yard",
+        "pet_characteristic: age_months: 12"
+      ],
+      "priority": "low",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Convenience",
+      "family": "Dog-safe toy storage bin / organizer",
+      "description": "Durable storage bin or organizer sized to hold multiple medium-large dog toys, leash, and grooming accessories; weather-resistant if stored outdoors.",
+      "rationale": "Keeps the yard and home tidy and extends toy life; helpful for rotating enrichment items so Thor doesn’t become bored with the same toys.",
+      "evidence": [
+        "pet_characteristic: yard: large_yard",
+        "pet_characteristic: activity: high"
+      ],
+      "priority": "low",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "8ec13dea-105b-47dd-917b-6409b09e8577",
+    "pet_id": "ca2dfd86-598f-4102-9a98-b5d469cada6d",
+    "month_idx": 2,
+    "pet_name": "Thor",
+    "pet_species": "dog",
+    "generated_at": "2025-10-16T11:17:55.727007",
+    "stage": "stage1_structured"
+  }
+}

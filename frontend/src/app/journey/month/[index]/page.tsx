@@ -6,13 +6,14 @@ import { useAppStore } from "@/lib/store"
 import { api } from "@/lib/api"
 import { CheckpointStrip } from "@/components/CheckpointStrip"
 import { ProductSection } from "@/components/ProductSection"
+import { WeatherWidget } from "@/components/WeatherWidget"
 import { AIRecommendationBox } from "@/components/AIRecommendationBox"
 import { MonthRecap } from "@/components/MonthRecap"
 import { LoadingSpinner } from "@/components/LoadingSpinner"
 import { PetProfileUpdateModal } from "@/components/PetProfileUpdateModal"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
-import { ChevronLeft } from "lucide-react"
+import { ChevronLeft, ChevronUp, ChevronDown, Sparkles } from "lucide-react"
 import { motion, AnimatePresence } from "framer-motion"
 import { cn } from "@/lib/utils"
 
@@ -44,6 +45,11 @@ export default function MonthDetail() {
   const [showAllergiesPopup, setShowAllergiesPopup] = useState(false)
   const [showUpdateModal, setShowUpdateModal] = useState(false)
   const isDecisionInProgress = useRef(false)
+  const [subscriptionPlan, setSubscriptionPlan] = useState<any>(null)
+  const [loadingSubscriptionPlan, setLoadingSubscriptionPlan] = useState(false)
+  const [showOverallStrategy, setShowOverallStrategy] = useState(false)
+  const [playingTTS, setPlayingTTS] = useState(false)
+  const audioRef = useRef<HTMLAudioElement | null>(null)
 
   // Check if this checkpoint/month is completed (read-only)
   const isCheckpointCompleted = journey ? journey.current > (monthIndex + 1) : false
@@ -83,6 +89,7 @@ export default function MonthDetail() {
     // Skip reloading if we're in the middle of making a decision
     if (!isDecisionInProgress.current) {
       loadRecommendations()
+      loadSubscriptionPlan()
     }
   }, [pet, journey, monthIndex])
 
@@ -99,6 +106,78 @@ export default function MonthDetail() {
       setError('Failed to load recommendations')
     } finally {
       setLoading(false)
+    }
+  }
+
+  const loadSubscriptionPlan = async () => {
+    if (!journey) return
+
+    setLoadingSubscriptionPlan(true)
+    try {
+      const result = await api.getSubscriptionPlan(journey.id, monthIndex)
+      if (result.success) {
+        setSubscriptionPlan(result.data)
+        console.log(`✅ Subscription plan loaded (from_cache: ${result.from_cache})`)
+      }
+    } catch (error) {
+      console.error('Failed to load subscription plan:', error)
+      // Non-fatal error - UI can still function without subscription plan
+    } finally {
+      setLoadingSubscriptionPlan(false)
+    }
+  }
+
+  const playTTSSummary = async () => {
+    if (!journey) return
+
+    try {
+      // If already playing, pause it
+      if (playingTTS && audioRef.current) {
+        audioRef.current.pause()
+        setPlayingTTS(false)
+        audioRef.current = null
+        return
+      }
+      
+      setPlayingTTS(true)
+      
+      // Fetch pre-generated audio file directly from backend (instant!)
+      const audioUrl = `http://localhost:8000/tts/audio/${journey.id}/${monthIndex}`
+      
+      // Clean up previous audio if exists
+      if (audioRef.current) {
+        audioRef.current.pause()
+        audioRef.current = null
+      }
+      
+      // Create and play audio directly from URL
+      const audio = new Audio(audioUrl)
+      audioRef.current = audio
+      
+      audio.onended = () => {
+        setPlayingTTS(false)
+        audioRef.current = null
+      }
+      
+      audio.onerror = () => {
+        console.error('Audio playback error')
+        setPlayingTTS(false)
+        audioRef.current = null
+      }
+      
+      // Play with error handling for AbortError
+      try {
+        await audio.play()
+      } catch (playError: any) {
+        // Ignore AbortError (happens when play() is interrupted by pause())
+        if (playError.name !== 'AbortError') {
+          throw playError
+        }
+      }
+      
+    } catch (error) {
+      console.error('Failed to play TTS summary:', error)
+      setPlayingTTS(false)
     }
   }
 
@@ -322,25 +401,37 @@ export default function MonthDetail() {
         scrollBehavior: 'auto'
       }}
     >
-      <div className="container mx-auto px-4 py-8 space-y-6">
+      <div className="container mx-auto px-4 py-2 space-y-6">
         
         {/* Header */}
-        <div className="flex items-center space-x-4">
-          <Button
-            variant="outline"
-            size="sm"
-            onClick={() => router.push('/journey')}
-            className="flex items-center space-x-2"
-          >
-            <ChevronLeft className="h-4 w-4" />
-            <span>Back to Journey</span>
-          </Button>
-          <div>
-            <h1 className="text-2xl font-bold text-gray-900">
-              Month {monthIndex + 1} - {pet.name}'s Selections
-            </h1>
-            <p className="text-gray-600">{localRecommendations.summaryWhy}</p>
+        <div className="flex items-center justify-between mb-3">
+          <div className="flex items-center space-x-4">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={() => router.push('/journey')}
+              className="flex items-center space-x-2"
+            >
+              <ChevronLeft className="h-4 w-4" />
+              <span>Back to Journey</span>
+            </Button>
+            <div>
+              <h1 className="text-2xl font-bold text-gray-900">
+                Month {monthIndex + 1} - {pet.name}'s Selections
+              </h1>
+              <p className="text-gray-600">{localRecommendations.summaryWhy}</p>
+            </div>
           </div>
+          
+          {/* Weather Widget - Top Right */}
+          {pet && (
+            <div className="w-96">
+              <WeatherWidget 
+                zipCode={pet.zipCode || "00000"} 
+                petName={pet.name}
+              />
+            </div>
+          )}
         </div>
 
         {/* Compact Checkpoint Strip with focus effect */}
@@ -384,6 +475,9 @@ export default function MonthDetail() {
               <CheckpointStrip
                 compact
                 focusedCheckpoint={showCompletionAnimation ? monthIndex + 2 : undefined}
+                onPlayTTS={playTTSSummary}
+                playingTTS={playingTTS}
+                ttsCheckpoint={monthIndex}
               />
               
               {/* Completion message overlay */}
@@ -413,8 +507,57 @@ export default function MonthDetail() {
           {/* Left: Product Sections */}
           <div className="lg:col-span-2 space-y-6">
             
+            {/* This Month's Plan - Below Checkpoint Strip */}
+            {subscriptionPlan && subscriptionPlan.overall_strategy && (
+              <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg border border-purple-200 overflow-hidden">
+                <button
+                  onClick={() => setShowOverallStrategy(!showOverallStrategy)}
+                  className="w-full p-4 flex items-center justify-between text-left hover:bg-purple-100/50 transition-colors"
+                >
+                  <div className="flex items-start gap-2 flex-1">
+                    <Sparkles className="h-5 w-5 text-purple-600 mt-0.5 flex-shrink-0" />
+                    <div>
+                      <p className="text-base font-semibold text-purple-900 font-medium">This Month's Plan</p>
+                      {!showOverallStrategy && (
+                        <p className="text-sm text-purple-800 mt-0.5 font-medium">AI-curated essentials for {pet.name}'s current needs</p>
+                      )}
+                    </div>
+                  </div>
+                  {showOverallStrategy ? (
+                    <ChevronUp className="h-5 w-5 text-purple-600 flex-shrink-0" />
+                  ) : (
+                    <ChevronDown className="h-5 w-5 text-purple-600 flex-shrink-0" />
+                  )}
+                </button>
+                
+                {showOverallStrategy && (
+                  <div className="px-4 pb-4">
+                    <p className="text-base text-gray-900 leading-relaxed font-medium">
+                      {subscriptionPlan.overall_strategy}
+                    </p>
+                  </div>
+                )}
+              </div>
+            )}
+            
             {/* Subscriptions */}
-            {localRecommendations.subscriptions.length > 0 && (
+            {subscriptionPlan && subscriptionPlan.subscription_products ? (
+              <ProductSection
+                title="Subscriptions"
+                subtitle="Regular deliveries for your pet's essentials"
+                items={localRecommendations.subscriptions}
+                monthIndex={monthIndex}
+                section="subscriptions"
+                getItemDecision={getItemDecision}
+                getSectionDecision={getSectionDecision}
+                onItemDecision={(itemId, decision) => handleItemDecision('subscriptions', itemId, decision)}
+                onSectionDecision={(decision) => handleSectionDecision('subscriptions', decision)}
+                isReadOnly={isCheckpointCompleted}
+                subscriptionPlanData={subscriptionPlan.subscription_products}
+                isLoadingPlan={loadingSubscriptionPlan}
+                petName={pet?.name}
+              />
+            ) : localRecommendations.subscriptions.length > 0 && (
               <ProductSection
                 title="Subscriptions"
                 subtitle="Regular deliveries for your pet's essentials"
@@ -446,7 +589,23 @@ export default function MonthDetail() {
             )}
 
             {/* Singles */}
-            {localRecommendations.singles.length > 0 && (
+            {subscriptionPlan && subscriptionPlan.one_time_products ? (
+              <ProductSection
+                title="Singles"
+                subtitle="One-time purchases and special items"
+                items={localRecommendations.singles}
+                monthIndex={monthIndex}
+                section="singles"
+                getItemDecision={getItemDecision}
+                getSectionDecision={getSectionDecision}
+                onItemDecision={(itemId, decision) => handleItemDecision('singles', itemId, decision)}
+                onSectionDecision={(decision) => handleSectionDecision('singles', decision)}
+                isReadOnly={isCheckpointCompleted}
+                oneTimePlanData={subscriptionPlan.one_time_products}
+                isLoadingPlan={loadingSubscriptionPlan}
+                petName={pet?.name}
+              />
+            ) : localRecommendations.singles.length > 0 && (
               <ProductSection
                 title="Singles"
                 subtitle="One-time purchases and special items"

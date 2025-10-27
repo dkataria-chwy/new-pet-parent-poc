@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! Mario is settling into his six-year rhythm — as a Golden with a calm, rescue background he's more mellow than a typical goofball but still loves gentle routines. You're focused on weight control, joint health, and reducing noise stress in your apartment, and that's exactly what this month supports. Here's the thing: middle age brings more joint awareness, so start steady joint support now and as Mario approaches seven it's a good time for a senior wellness checkup with your vet. You know how apartment life means more walks, indoor potty options, and cooler spots during heat — this plan keeps kibble, toppers, calming refills, and treats on hand. Check out the recommendations below for Mario.",
+  "word_count": 118,
+  "metadata": {
+    "generated_at": "2025-10-22T15:16:25.904344",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 17.41,
+    "audio_elapsed_seconds": 6.93,
+    "tokens": {
+      "prompt": 7801,
+      "completion": 2007,
+      "total": 9808
+    }
+  }
+}

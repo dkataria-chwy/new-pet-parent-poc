@@ -1,0 +1,21 @@
+# Product Embeddings Pipeline Requirements
+
+# Core dependencies
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+# OpenAI API
+openai>=1.10.0
+
+# Progress tracking
+tqdm>=4.65.0
+
+# HTTP clients (for async operations)
+aiohttp>=3.8.0
+
+# Environment management
+python-dotenv>=1.0.0
+
+# Optional: For better performance
+# numba>=0.57.0  # Uncomment for faster numerical operations

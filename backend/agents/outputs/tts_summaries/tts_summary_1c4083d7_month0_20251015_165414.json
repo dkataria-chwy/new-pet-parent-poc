@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! AJ is at that lively five-month stretch—puppies around this age typically are teething, going through growth spurts, and are prime for focused training and socialization. As a Pug, AJ's a goofy, people-focused little powerhouse: short-nosed, heat-sensitive, and surprisingly strong for his size, so you know how walks and play can get intense. Here's the thing—he's still learning bite inhibition and impulse control, and apartment life with yard access means short, high-energy sessions work best. Many vets recommend watching weight and fold care for brachycephalic breeds. I set up feeding, treat, and hygiene autoship cadence plus a few durable one-time training/enrichment items to match AJ's needs. Take a look at the recommendations below.",
+  "word_count": 114,
+  "metadata": {
+    "generated_at": "2025-10-15T16:54:14.899541",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 20.56,
+    "audio_elapsed_seconds": 9.16,
+    "tokens": {
+      "prompt": 8603,
+      "completion": 1449,
+      "total": 10052
+    }
+  }
+}

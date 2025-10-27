@@ -1,0 +1,334 @@
+{
+  "total_queries": 26,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "6-month-old dog (puppy) dry kibble for Pug/brachycephalic breeds, small rounded kibble shape for short muzzles, AAFCO growth formula with controlled calories for weight management, Royal Canin/Mars puppy options, 4-12 kg bag sizes",
+      "bm25_query": "puppy dry kibble pug brachycephalic small rounded kibble controlled calories Royal Canin NOT duck",
+      "top_k": 20,
+      "rationale": "Daily primary nutrition \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Wet Canned",
+      "embedding_query": "6-month-old dog puppy single-serve wet food trays or toppers (poultry or beef bases), portion sizes for a 40 lb juvenile, high-moisture to increase hydration and palatability, meal topper or full-meal use",
+      "bm25_query": "puppy single-serve wet food trays topper poultry beef high moisture hydration portion size NOT duck",
+      "top_k": 12,
+      "rationale": "Provides extra hydration and high-value meals for a puppy in training; helpful when ambient heat can suppress appetite. Wet food helps maintain hydration in a brachycephalic dog during excessive heat events.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "6-month-old dog puppy small soft training treats, pea-sized or easily breakable, low-calorie for high-frequency reinforcement, puppy-safe texture for young teeth, resealable pouch",
+      "bm25_query": "puppy small soft training treats low calorie breakable resealable pouch NOT duck",
+      "top_k": 10,
+      "rationale": "AJ is 6 months and energetic \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "6-month-old dog heavy stainless-steel non-tip water bowl, anti-skid base, 48-64 oz capacity, dishwasher-safe, chew-resistant metal rim for durability for a strong chewer",
+      "bm25_query": "stainless steel non-tip water bowl 48-64 oz anti-skid chew-resistant dishwasher-safe NOT duck",
+      "top_k": 8,
+      "rationale": "Daily water access is vital; metal bowls are durable against heavy chewing and keep water cooler \n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Gear/Travel",
+      "family": "Feeders & Waterers",
+      "embedding_query": "6-month-old dog collapsible silicone travel water bottle with integrated bowl or collapsible bowl, leakproof bottle+bowl combo, 20-32 oz capacity, easy-clean, bitesafe materials, lightweight for walks and car cupholder fit",
+      "bm25_query": "collapsible travel water bottle integrated bowl 20-32 oz leakproof easy-clean bitesafe NOT duck",
+      "top_k": 10,
+      "rationale": "During walks or yard play in current heat alerts, on-the-go water is critical to prevent heat stress in brachycephalic breeds. Portable hydration prevents overheating during outdoor activity.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "6-month-old dog non-electric cooling gel mat with chew-resistant rugged cover, sized for stocky/small dogs (~24x18 in or larger), fast-acting cooling surface, easy-to-wipe material",
+      "bm25_query": "non-electric cooling gel mat chew-resistant cover 24x18 fast-acting cooling easy-clean NOT duck",
+      "top_k": 10,
+      "rationale": "Immediate safety need: Pugs are brachycephalic and at high risk of heat-related illness. An excessive heat warning is active \n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "6-month-old dog front-clip padded no-pull harness, adjustable and reinforced, sized for short-backed stocky Pug with chest girth for ~40 lb, padded to reduce chafing and avoid neck pressure, quick-release buckles",
+      "bm25_query": "front-clip padded no-pull harness adjustable reinforced quick-release padded chest girth NOT duck",
+      "top_k": 12,
+      "rationale": "Brachycephalic breeds should avoid pressure collars to reduce tracheal injury. AJ is energetic and strong, so a front-clip no-pull harness helps training/control and protects the airway during walks and high-energy activity.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "6-month-old dog durable 6-ft leash, biothane or heavy-duty double-braided nylon, reflective stitching, rust-resistant snap, traffic handle and comfortable grip for control of a strong dog",
+      "bm25_query": "6-ft leash biothane nylon reflective stitching traffic handle rust-resistant snap NOT duck",
+      "top_k": 12,
+      "rationale": "Provides better control for an energetic, strong dog; reflective detail helps visibility during shorter daylight or rainy walks in Pacific Northwest season. Durable materials resist wear from strong pullers.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "6-month-old dog extra-durable rubber chew toy for strong chewers, size appropriate for a Pug mouth, robust construction, option with treat-dispensing cavity to extend engagement",
+      "bm25_query": "durable rubber chew toy strong chewer pug mouth treat-dispensing robust NOT duck",
+      "top_k": 10,
+      "rationale": "AJ is a strong chewer \n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "6-month-old dog slow-feed bowl or puzzle feeder sized for puppy servings, ceramic or heavy-duty plastic, ridges/maze design to slow eating, dishwasher-safe and non-tip base",
+      "bm25_query": "slow-feed bowl puzzle feeder puppy sized ridged maze dishwasher non-tip NOT duck",
+      "top_k": 12,
+      "rationale": "Slows rapid eating which helps reduce gulping and potential gastrointestinal upset; useful for a dog prone to overeating/rapid consumption given AJ's current weight. Supports weight management and portion control.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Treats",
+      "family": "Dental (VOHC Chews)",
+      "embedding_query": "6-month-old dog dental chews formulated for puppies (manufacturer-labeled 6+ months), softer/cleaning action for young teeth, non-duck protein flavors",
+      "bm25_query": "puppy dental chews 6+ months soft cleaning action non-duck NOT duck",
+      "top_k": 10,
+      "rationale": "Initiating dental care early reduces plaque buildup. AJ is 6 months \n\n\n\n\n\n",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "6-month-old dog dual-headed dog toothbrush or finger brush with enzymatic dog toothpaste, pet-safe non-foaming formula, poultry or beef flavors available (avoid duck), travel case included",
+      "bm25_query": "dog toothbrush enzymatic toothpaste pet-safe non-foaming travel case NOT duck",
+      "top_k": 8,
+      "rationale": "Daily tooth brushing prevents periodontal disease; starting now develops a positive routine and complements dental chews.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "6-month-old short-coated dog de-shedding tool and grooming mitt for short hair, stainless blades, ergonomic handle, gentle option to protect Pug skin, easy-clean hair removal",
+      "bm25_query": "de-shedding tool short-hair grooming mitt stainless blades ergonomic gentle NOT duck",
+      "top_k": 10,
+      "rationale": "Calendar indicates Fall Shedding and Allergy seasons. Regular brushing reduces loose hair and indoor allergens in an apartment environment and helps manage shedding now.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Apparel",
+      "family": "Outdoor Apparel",
+      "embedding_query": "6-month-old dog lightweight evaporative cooling vest sized for short-muzzled dogs, adjustable straps, machine-washable, easy to wet and reapply for short outdoor activity bursts",
+      "bm25_query": "evaporative cooling vest lightweight adjustable straps machine-washable pug sized NOT duck",
+      "top_k": 10,
+      "rationale": "Supplemental cooling for walks/yard play during excessive heat warnings is a preventive measure; complements the cooling mat for mobile cooling protection.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "At-Home Test Kits",
+      "embedding_query": "6-month-old dog compact digital pet scale for home use, accurate to 1 lb or finer, platform suitable for small/medium pets, easy-to-clean, for weekly weight monitoring",
+      "bm25_query": "digital pet scale compact 1 lb resolution platform easy-clean weekly weight monitoring NOT duck",
+      "top_k": 8,
+      "rationale": "AJ's recorded weight is high for a Pug at 6 months. Regular home monitoring supports early weight management and dietary adjustments (non-medical) and helps flag changes that should be discussed with a vet.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Calming (Aids & Refills)",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "6-month-old dog adjustable pressure wrap (thundershirt style) for small/stocky dogs, washable fabric and secure fastenings, sized for Pug, reduces noise and vet-visit anxiety",
+      "bm25_query": "pressure wrap thundershirt adjustable washable small stocky reduces anxiety NOT duck",
+      "top_k": 8,
+      "rationale": "Calendar shows multiple noise/stress triggers (leaf blower and hunting seasons). A pressure wrap can reduce anxiety during noise events and help AJ remain calmer in an apartment setting.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "6-month-old dog durable flirt pole with replaceable chew-resistant toy attachment and sturdy handle, 8-12 ft cord for backyard short-burst chase play",
+      "bm25_query": "flirt pole durable replaceable chew-resistant attachment 8-12 ft backyard NOT duck",
+      "top_k": 10,
+      "rationale": "AJ is very energetic and benefits from high-intensity short-burst exercise. A flirt pole provides supervised cardio and satisfies chase instincts in the yard, useful when avoiding prolonged exertion in heat.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "6-month-old dog durable treat-dispensing puzzle toy with adjustable difficulty, chew-resistant materials, sized for medium treats, easy to clean and stable for vigorous play",
+      "bm25_query": "treat-dispensing puzzle toy adjustable difficulty chew-resistant easy-clean stable NOT duck",
+      "top_k": 12,
+      "rationale": "Provides mental stimulation and slows feeding; appropriate for an active 6-month-old who needs both physical and cognitive outlets, especially during rainy indoor days.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "6-month-old dog high-durability rubber fetch ball sized ~2-2.5 in for a Pug mouth, non-abrasive, high-bounce, easy to clean and safe for lawn throwing",
+      "bm25_query": "durable rubber ball 2-2.5 in high-bounce easy-clean pug sized NOT duck",
+      "top_k": 10,
+      "rationale": "Fetch is a simple high-energy outlet for AJ; a sturdy ball supports safe play in the large yard and reduces boredom in an apartment household.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "6-month-old dog braided heavy-duty tug rope with reinforced knots and handles, durable fibers resistant to shredding, sized for robust tug play with supervision",
+      "bm25_query": "heavy-duty tug rope braided reinforced knots durable fibers resistant shredding NOT duck",
+      "top_k": 8,
+      "rationale": "Interactive tug play strengthens the human-dog bond, burns energy, and provides controlled outlet for AJ's strength. Use supervised to avoid accidental swallowing of fibers.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "6-month-old dog fabric snuffle mat with dense pockets to hide kibble/treats, machine-washable, non-toxic materials sized for small/medium dogs",
+      "bm25_query": "snuffle mat fabric dense pockets hide kibble machine-washable non-toxic NOT duck",
+      "top_k": 8,
+      "rationale": "Encourages natural foraging behavior, slows feeding, provides mental enrichment indoors on rainy days, and reduces boredom in apartment living.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "6-month-old dog heavy-duty rolling treat-dispensing ball with adjustable openings, chew-resistant material, dispenses small treats as it rolls, stable for vigorous play",
+      "bm25_query": "rolling treat-dispensing ball adjustable openings chew-resistant dispenses small treats NOT duck",
+      "top_k": 12,
+      "rationale": "Combines physical activity and mental challenge \n\n\n",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Lickable Treats",
+      "embedding_query": "6-month-old dog textured silicone lick mat for small/medium dogs, dishwasher-safe, durable, for spreading xylitol-free peanut butter or canned pumpkin to provide calming enrichment",
+      "bm25_query": "silicone lick mat textured dishwasher-safe durable peanut butter pumpkin NOT duck",
+      "top_k": 8,
+      "rationale": "Licking is calming; use during grooming, crate time, or after walks to reduce arousal and support relaxation indoors, especially during noise events or rainy days.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "6-month-old dog small backyard beginner agility kit with short tunnel and adjustable low jumps sized for small/medium breeds, lightweight and portable for yard sessions",
+      "bm25_query": "beginner agility kit tunnel low jumps small medium portable yard NOT duck",
+      "top_k": 12,
+      "rationale": "Provides structured play and training for high-energy dogs; builds coordination and mental engagement without long-distance running that could stress a brachycephalic dog.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "6-month-old dog portable pop-up shade canopy or UV-blocking sun shelter for yard use, lightweight, foldable, quick-setup and anchorable to create shaded rest/play area",
+      "bm25_query": "pop-up shade canopy UV-blocking portable foldable yard shaded play rest NOT duck",
+      "top_k": 12,
+      "rationale": "During excessive heat, having shaded play areas in the yard reduces heat exposure for a brachycephalic dog who spends time outdoors. Adds comfort and extends safe outdoor playtime.",
+      "negatives": [
+        "Duck"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "6-month-old dog hands-free waist leash with padded belt and bungee buffer for short controlled active walking or playful running in yard, quick-release clip and reflective accents",
+      "bm25_query": "hands-free waist leash padded belt bungee buffer quick-release reflective NOT duck",
+      "top_k": 8,
+      "rationale": "Allows owner to keep both hands free for training or play while still controlling a strong, energetic dog. Use cautiously given brachycephalic limitations \n\n",
+      "negatives": [
+        "Duck"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "1c4083d7-bc29-4365-99c4-64dcff316555",
+    "pet_id": "d3764777-be9e-455f-9133-c630f6218a07",
+    "month_idx": 1,
+    "pet_name": "AJ",
+    "pet_species": "dog",
+    "generated_at": "2025-10-15T16:16:17.702946",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_1c4083d7_month1_20251015_161442.json",
+    "tokens": {
+      "prompt": 7199,
+      "completion": 7080,
+      "total": 14279
+    },
+    "elapsed_seconds": -0.0
+  }
+}

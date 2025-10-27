@@ -74,7 +74,22 @@ interface OnboardingForm {
   brandPreferences: string
 }
 
+interface JourneyOption {
+  journey_id: string
+  pet_id: string
+  current_month: number
+  total_months: number
+  pet_name: string
+  species: string
+  breed: string
+  age_months: number
+}
+
 export default function Onboarding() {
+  const [showInitialChoice, setShowInitialChoice] = useState(true)
+  const [showJourneySelection, setShowJourneySelection] = useState(false)
+  const [availableJourneys, setAvailableJourneys] = useState<JourneyOption[]>([])
+  const [isLoadingJourneys, setIsLoadingJourneys] = useState(false)
   const [currentStep, setCurrentStep] = useState(1)
   const [maxStepReached, setMaxStepReached] = useState(1)
   const [isSubmitting, setIsSubmitting] = useState(false)
@@ -147,6 +162,52 @@ export default function Onboarding() {
     }
   }
 
+  const handleCreateNewPet = () => {
+    setShowInitialChoice(false)
+  }
+
+  const handleContinueExisting = async () => {
+    setIsLoadingJourneys(true)
+    try {
+      const response = await api.getAllJourneys()
+      setAvailableJourneys(response.journeys)
+      setShowInitialChoice(false)
+      setShowJourneySelection(true)
+    } catch (error) {
+      console.error('Failed to load journeys:', error)
+      setError('Failed to load existing journeys')
+    } finally {
+      setIsLoadingJourneys(false)
+    }
+  }
+
+  const handleSelectJourney = async (journey: JourneyOption) => {
+    setLoading(true)
+    try {
+      // Fetch the full pet and journey data
+      const pet = await api.getPet(journey.pet_id)
+      const journeyState = await api.getJourney(journey.journey_id)
+      
+      // Set in store
+      setPet(pet)
+      setJourney(journeyState)
+      
+      // Navigate to journey
+      router.push('/journey')
+    } catch (error) {
+      console.error('Failed to load journey:', error)
+      setError('Failed to load selected journey')
+    } finally {
+      setLoading(false)
+    }
+  }
+
+  const handleBackToChoice = () => {
+    setShowJourneySelection(false)
+    setShowInitialChoice(true)
+    setAvailableJourneys([])
+  }
+
   const handleSubmit = async () => {
     if (!canProceed()) return
 
@@ -214,6 +275,145 @@ export default function Onboarding() {
     }
   }
 
+  // Show initial choice screen first
+  if (showInitialChoice) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex items-center justify-center p-4">
+        <div className="w-full max-w-2xl">
+          <div className="text-center mb-8">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <Heart className="h-8 w-8 text-purple-600" />
+              <h1 className="text-3xl font-bold text-gray-900">Chewy Journey</h1>
+            </div>
+            <p className="text-gray-600">Welcome back! What would you like to do?</p>
+          </div>
+
+          <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur">
+            <CardHeader>
+              <CardTitle className="text-xl text-center">Choose Your Path</CardTitle>
+              <CardDescription className="text-center">
+                Start a new journey or continue where you left off
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="space-y-4">
+              <div className="grid grid-cols-1 gap-4">
+                <button
+                  onClick={handleCreateNewPet}
+                  className="p-6 rounded-lg border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50 transition-all text-left"
+                >
+                  <div className="flex items-center gap-4">
+                    <div className="text-3xl">🐕</div>
+                    <div>
+                      <h3 className="font-semibold text-lg">Create New Pet Profile</h3>
+                      <p className="text-gray-600 text-sm">Tell us about your furry friend and start a new 15-month journey</p>
+                    </div>
+                  </div>
+                </button>
+
+                <button
+                  onClick={handleContinueExisting}
+                  className="p-6 rounded-lg border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50 transition-all text-left"
+                >
+                  <div className="flex items-center gap-4">
+                    <div className="text-3xl">📋</div>
+                    <div>
+                      <h3 className="font-semibold text-lg">Continue Existing Journey</h3>
+                      <p className="text-gray-600 text-sm">Pick up where you left off with your pet's ongoing journey</p>
+                    </div>
+                  </div>
+                </button>
+              </div>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    )
+  }
+
+  // Show journey selection screen
+  if (showJourneySelection) {
+    return (
+      <div className="min-h-screen bg-gradient-to-br from-purple-50 to-pink-50 flex items-center justify-center p-4">
+        <div className="w-full max-w-4xl">
+          <div className="text-center mb-8">
+            <div className="flex items-center justify-center gap-2 mb-4">
+              <Heart className="h-8 w-8 text-purple-600" />
+              <h1 className="text-3xl font-bold text-gray-900">Chewy Journey</h1>
+            </div>
+            <p className="text-gray-600">Select a journey to continue</p>
+          </div>
+
+          <Card className="shadow-2xl border-0 bg-white/95 backdrop-blur">
+            <CardHeader>
+              <div className="flex items-center justify-between">
+                <div>
+                  <CardTitle className="text-xl">Your Pet Journeys</CardTitle>
+                  <CardDescription>
+                    Choose which pet's journey you'd like to continue
+                  </CardDescription>
+                </div>
+                <Button
+                  variant="outline"
+                  onClick={handleBackToChoice}
+                  className="text-sm"
+                >
+                  ← Back
+                </Button>
+              </div>
+            </CardHeader>
+            <CardContent>
+              {isLoadingJourneys ? (
+                <div className="flex items-center justify-center py-8">
+                  <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-purple-600"></div>
+                  <span className="ml-2 text-gray-600">Loading journeys...</span>
+                </div>
+              ) : availableJourneys.length === 0 ? (
+                <div className="text-center py-8">
+                  <p className="text-gray-600 mb-4">No existing journeys found.</p>
+                  <Button onClick={handleCreateNewPet} className="bg-purple-600 hover:bg-purple-700">
+                    Create Your First Pet Profile
+                  </Button>
+                </div>
+              ) : (
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                  {availableJourneys.map((journey) => (
+                    <button
+                      key={journey.journey_id}
+                      onClick={() => handleSelectJourney(journey)}
+                      className="p-6 rounded-lg border-2 border-gray-200 hover:border-purple-300 hover:bg-purple-50 transition-all text-left"
+                    >
+                      <div className="flex items-center gap-4">
+                        <div className="text-4xl">
+                          {journey.species === 'dog' ? '🐕' : '🐱'}
+                        </div>
+                        <div className="flex-1">
+                          <h3 className="font-semibold text-lg text-gray-900">
+                            {journey.pet_name}
+                          </h3>
+                          <p className="text-gray-600 text-sm">
+                            {journey.breed} • {journey.age_months} months old
+                          </p>
+                          <div className="mt-2 flex items-center gap-2">
+                            <div className="bg-purple-100 text-purple-700 px-2 py-1 rounded text-xs">
+                              Month {journey.current_month + 1} of {journey.total_months}
+                            </div>
+                            <div className="text-xs text-gray-500">
+                              {Math.round(((journey.current_month + 1) / journey.total_months) * 100)}% complete
+                            </div>
+                          </div>
+                        </div>
+                        <ChevronRight className="h-5 w-5 text-gray-400" />
+                      </div>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    )
+  }
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-purple-50 flex items-center justify-center p-4 overflow-x-auto">

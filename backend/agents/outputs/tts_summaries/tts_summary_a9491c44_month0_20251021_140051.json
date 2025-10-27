@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! Thor is at that buzzy two-month stage—very energetic, curious, and soaking up everything. Pugs are famously social, short-muzzled charmers who love attention but can overheat or snort, so keep activity gentle and paced. Here's the thing: he's teething, primed for bite-inhibition work, and in a socialization window where meeting calm people and dogs matters a lot. House-training in an apartment is intense right now; Thor's crate routines help with naps and boundaries. Chat with your vet about his vaccine series if you haven't already, and consider starting gentle dental care early. I've matched core items like small-breed food, potty pads, treats and a crate to support these weeks. Check out the recommendations below.",
+  "word_count": 115,
+  "metadata": {
+    "generated_at": "2025-10-21T14:00:51.098825",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 26.66,
+    "audio_elapsed_seconds": 7.2,
+    "tokens": {
+      "prompt": 8382,
+      "completion": 2467,
+      "total": 10849
+    }
+  }
+}

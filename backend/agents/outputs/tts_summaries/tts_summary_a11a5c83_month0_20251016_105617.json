@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Welcome! Mario is at that delicate one‑month mark — puppies around this age typically start weaning, teething, and soaking up social experiences, so his brain and body are changing fast. Golden Retriever pups are natural people-pleasers and learners, but since Mario came from a rescue and is a bit light on energy, you may notice quieter curiosity mixed with a big appetite for attention. You know how small routines help? Short, positive sessions for potty, handling, and gentle play build confidence in an apartment with no yard, and with heat warnings this season cooling measures matter. Here's the thing: this month's plan focuses on steady nutrition, weaning support, and housetraining supplies. Check the recommendations below to get started.",
+  "word_count": 118,
+  "metadata": {
+    "generated_at": "2025-10-16T10:56:17.699146",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 24.57,
+    "audio_elapsed_seconds": 16.65,
+    "tokens": {
+      "prompt": 8137,
+      "completion": 1373,
+      "total": 9510
+    }
+  }
+}

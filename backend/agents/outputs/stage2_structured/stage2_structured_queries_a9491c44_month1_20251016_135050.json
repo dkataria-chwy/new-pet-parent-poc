@@ -1,0 +1,292 @@
+{
+  "total_queries": 27,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "Dog, 3-month-old puppy dry kibble for small breeds with small bite-size kibble, higher calories and protein for growth, DHA for brain development, sold in 4-8 lb bags, suitable for short-muzzled/brachycephalic puppies",
+      "bm25_query": "puppy dry kibble small bite higher calories protein DHA 4-8 lb small breed brachycephalic",
+      "top_k": 20,
+      "rationale": "At 3 months this pug puppy is in active growth and needs a nutritionally complete puppy diet sized for small mouths. Dry kibble is a daily staple and cannot be skipped \u0014 supports development and energy for a high-activity puppy.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Wet Canned",
+      "embedding_query": "Dog, 3-month-old puppy wet puppy food or meal toppers in small cans/pouches or resealable single-serve packs; palatable pâté/soft toppers to add moisture, boost intake, and help training/rewards for small dogs",
+      "bm25_query": "puppy wet food toppers small cans pouches resealable pâté moist palatable training rewards",
+      "top_k": 15,
+      "rationale": "Wet food/toppers provide additional moisture and appetite stimulation for a young brachycephalic breed that may be fussy during early training; useful daily or as-needed to ensure proper intake.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Dog, 3-month-old puppy small soft training treats, pea-sized or smaller, soft texture for young teeth, low-calorie options, resealable pouch packaging for frequent rewards",
+      "bm25_query": "puppy soft training treats pea-sized small low-calorie resealable pouch",
+      "top_k": 15,
+      "rationale": "This 3-month-old is in a critical socialization and training window and is very energetic; soft training treats enable high-frequency positive reinforcement during leash, potty and obedience training.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "Dog, 3-month-old puppy durable tear-resistant poop bags on rolls or boxed dispenser, biodegradable options, compact dispenser for leash attachment for apartment walks",
+      "bm25_query": "poop bags durable tear-resistant roll dispenser biodegradable leash dispenser apartment",
+      "top_k": 12,
+      "rationale": "Daily outdoor potty clean-up is required in an apartment setting with no yard; poop bags are used every single walk and are essential right now.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Potty Training Pads",
+      "embedding_query": "Dog, 3-month-old puppy multi-layer high-absorbency puppy training pads sized for small dogs, adhesive-backed or tray-compatible, pack sizes for frequent indoor use in apartments",
+      "bm25_query": "puppy training pads high-absorbency small dog adhesive-backed tray-compatible apartment pack",
+      "top_k": 15,
+      "rationale": "No yard + apartment living + a 3-month-old puppy in the housebreaking phase means indoor potty options are essential immediately to avoid accidents and support training consistency.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "Dog, 3-month-old puppy paired stainless steel food and water bowls with weighted non-slip base, low-profile for short-muzzled breeds, dishwasher-safe, easy-to-refill water bowl",
+      "bm25_query": "stainless steel bowls weighted non-slip low-profile puppy dishwasher-safe refill easy",
+      "top_k": 12,
+      "rationale": "Daily feeding and consistent access to clean water are required. Stainless bowls reduce bacterial growth and the weighted/anti-tip design prevents spills in an apartment. Immediate daily necessity.",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Dog, 3-month-old puppy cooling mat or evaporative cooling pad sized for small puppies, chew-resistant non-toxic surface, passive gel or evaporative cooling without chemicals",
+      "bm25_query": "puppy cooling mat evaporative pad small chew-resistant non-toxic passive gel",
+      "top_k": 12,
+      "rationale": "There is an active excessive heat warning and pugs are brachycephalic with poor heat tolerance. This is an immediate safety need to reduce risk of overheating while indoors or during short rest periods.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Dog, 3-month-old puppy durable high-density natural rubber chew toy or treat-dispensing rubber toy, puppy size, no small parts, rated for strong chewers for teething relief",
+      "bm25_query": "durable rubber chew toy treat-dispensing puppy size strong chewer teething relief no small parts",
+      "top_k": 12,
+      "rationale": "The puppy is a strong chewer and teething; durable rubber chew toys prevent destructive chewing and provide safe outlet. Preventive to protect belongings and teeth.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Sprays/Foams/Wipes",
+      "embedding_query": "Dog, 3-month-old puppy facial-fold cleaning wipes alcohol-free hypoallergenic, formulated for brachycephalic folds, tub or individually wrapped for regular cleaning",
+      "bm25_query": "facial fold wipes alcohol-free hypoallergenic brachycephalic individually-wrapped tub",
+      "top_k": 12,
+      "rationale": "Pugs have facial folds that trap moisture and debris; routine fold cleaning prevents irritation and infections. Important preventive care for this breed living in an apartment where close contact with people is frequent.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Dog, 3-month-old puppy deshedding tool or rubber curry for short double coats, fine-tooth undercoat rake or rubber brush sized for small dogs, easy-grip handle for weekly use",
+      "bm25_query": "deshedding tool rubber curry short double coat undercoat rake small dog easy-grip",
+      "top_k": 10,
+      "rationale": "Calendar indicates fall shedding season and pugs have a short double coat that sheds. Regular deshedding reduces loose hair in the apartment and helps allergy mitigation during fall allergy season.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "Dog, 3-month-old puppy small-headed toothbrush or finger brush and enzymatic non-fluoride puppy-safe toothpaste, mild flavor, starter kit to introduce daily brushing",
+      "bm25_query": "puppy toothbrush finger brush enzymatic non-fluoride toothpaste small-headed starter kit",
+      "top_k": 10,
+      "rationale": "Early introduction to dental care reduces future periodontal disease; starting brushing routines now is best practice even though intensive dental interventions come later.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Dog, 3-month-old puppy low-noise nail grinder for small dogs, variable speed, safety guard and light, battery or electric, gentle for acclimating puppies",
+      "bm25_query": "nail grinder low-noise small dog variable-speed safety guard light puppy",
+      "top_k": 10,
+      "rationale": "Apartment dogs don't naturally wear nails down; a grinder helps maintain nail length safely and is easier for puppies who may be sensitive to clippers.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "Dog, 3-month-old puppy front-clip adjustable breathable harness sized for small breeds, padded chest to reduce tracheal pressure, sturdy buckles and adjustable straps to grow with puppy, front and back clip options",
+      "bm25_query": "front-clip harness small breed adjustable breathable padded chest sturdy buckles grow-with-puppy",
+      "top_k": 12,
+      "rationale": "Pugs are brachycephalic and can be sensitive to neck pressure; a front-clip harness distributes force away from the trachea and supports leash training in an apartment environment with small-space management.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "Dog, 3-month-old puppy small rechargeable or battery LED safety light, clip-on for leash or harness, water-resistant housing for low-light visibility during dawn/dusk walks",
+      "bm25_query": "LED safety light clip-on leash harness rechargeable battery water-resistant small dog",
+      "top_k": 10,
+      "rationale": "For apartment owners walking at dawn/dusk or during louder seasonal activities (hunting/leaf blower season) visibility is a helpful safety measure.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Dog, 3-month-old puppy pheromone calming diffuser plug-in or portable sized for apartment rooms, dog-specific synthetic pheromone to reduce situational stress and separation anxiety",
+      "bm25_query": "pheromone diffuser dog plug-in portable apartment calming synthetic reduce stress separation anxiety",
+      "top_k": 12,
+      "rationale": "Calendar shows multiple noise/stressor seasons (leaf blower, hunting). A diffuser is a non-medicated preventive option to reduce stress and make training easier in an apartment.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Gear/Travel",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Dog, 3-month-old puppy portable leakproof water bottle with attached travel bowl/cup, 12-20 oz capacity sized for small dogs, easy to carry or clip to leash for short walks",
+      "bm25_query": "portable water bottle travel bowl 12-20 oz leakproof clip leash small dog",
+      "top_k": 10,
+      "rationale": "With an excessive heat warning and apartment-based short outdoor trips, carrying water for hydration during walks is an important preventive measure against heat stress.",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Dog, 3-month-old puppy compact HEPA air purifier sized for a small apartment room to reduce pollen and dust, simple controls and replaceable filters for allergy season",
+      "bm25_query": "HEPA air purifier small apartment pollen dust replaceable filters allergy season compact",
+      "top_k": 12,
+      "rationale": "Calendar indicates fall allergy season which can affect indoor air quality; an air purifier helps reduce environmental allergens for both pet and household members and improves respiratory comfort.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding/Bowls",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Dog, 3-month-old puppy interactive puzzle feeder or slow-feed bowl sized for small dogs, slows eating, provides mental stimulation, easy-to-clean and dishwasher-safe",
+      "bm25_query": "interactive puzzle feeder slow-feed bowl small dog slows eating mental stimulation dishwasher-safe",
+      "top_k": 12,
+      "rationale": "Pugs often gulp food; slowing mealtimes reduces bloat risk and provides mental stimulation for a high-energy puppy living in an apartment.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Dog, 3-month-old puppy small treat-dispensing rubber ball, durable non-toxic rubber, sized for puppies, withstands strong chewing and encourages indoor chase and retrieval",
+      "bm25_query": "treat-dispensing rubber ball small durable non-toxic strong chewer indoor retrieval puppy",
+      "top_k": 12,
+      "rationale": "Provides physical exercise and mental stimulation inside an apartment, appropriate for a high-activity, strong-chewing puppy.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Dog, 3-month-old puppy machine-washable snuffle mat sized for small dogs to hide kibble/treats for nose-work enrichment, non-toxic materials and small footprint for apartment use",
+      "bm25_query": "snuffle mat machine-washable small dog hide kibble treats nose-work non-toxic apartment",
+      "top_k": 10,
+      "rationale": "Indoor mental stimulation appropriate for rainy Northwest season; engages scenting behavior and tires a high-energy puppy mentally when outdoor time is limited.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Dog, 3-month-old puppy small washable padded bed with bolstered sides for comfort and security, machine-washable cover to manage shedding and drool",
+      "bm25_query": "small padded bed bolstered sides machine-washable cover puppy comfort security shedding drool",
+      "top_k": 12,
+      "rationale": "A comfortable, secure sleeping area supports rest and emotional wellbeing for a young energetic puppy living in an apartment. Washable materials help keep the environment clean during shedding/allergy season.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding/Bowls",
+      "family": "Storage & Accessories",
+      "embedding_query": "Dog, 3-month-old puppy silicone frozen-treat molds sized for small servings to make pet-safe frozen yogurt or food-based treats, dishwasher-safe and easy to fill",
+      "bm25_query": "frozen treat molds silicone small servings dishwasher-safe pet-safe frozen yogurt treats",
+      "top_k": 8,
+      "rationale": "Helps cool and soothe this brachycephalic puppy during hot days while providing enrichment and teething relief during excessive heat periods.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Dog, 3-month-old puppy reinforced squeaky plush toy small size with reinforced seams and toy-safe squeaker for supervised play, designed to resist easy destruction",
+      "bm25_query": "reinforced squeaky plush toy small reinforced seams toy-safe squeaker supervised play puppy",
+      "top_k": 10,
+      "rationale": "Provides comfort and interactive play for bonding and gentle play sessions; appropriate to the puppy's age for supervised enrichment.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Dog, 3-month-old puppy small heavy-duty tug toy made from durable fabric or braided fibers, small handles for human hands and puppy mouths, suitable for supervised tug games",
+      "bm25_query": "tug toy heavy-duty small durable fabric braided fibers small handle supervised puppy",
+      "top_k": 10,
+      "rationale": "High-activity puppy benefits from interactive play that provides exercise and strengthens owner-puppy bond; choose durable designs to accommodate strong chewing.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Dog, 3-month-old puppy handheld clicker training tool, compact and inexpensive, optionally bundled with a short beginner training guide for positive reinforcement sessions",
+      "bm25_query": "clicker training handheld compact beginner guide positive reinforcement puppy",
+      "top_k": 8,
+      "rationale": "Clicker training is a low-cost, effective method to accelerate obedience learning during the puppy's prime training window at 3 months.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Gear/Travel",
+      "family": "Crates/Gates/Pens",
+      "embedding_query": "Dog, 3-month-old puppy portable indoor exercise pen small/puppy size, foldable metal or heavy-duty plastic, non-slip base option, reconfigurable panels for small apartment spaces",
+      "bm25_query": "portable exercise pen puppy foldable metal plastic non-slip base reconfigurable panels apartment",
+      "top_k": 12,
+      "rationale": "No yard and apartment living mean a secure indoor play area is helpful for exercise, puppy-proofing, and supervised activity when the owner cannot constantly watch the puppy.",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Dog, 3-month-old puppy freezable rubber teether toy small size, fillable with water or treats and frozen for chilled teething relief, non-toxic and dishwasher-safe",
+      "bm25_query": "freezable rubber teether small fillable frozen teething relief non-toxic dishwasher-safe puppy",
+      "top_k": 10,
+      "rationale": "Combines teething relief with cooling benefit during hot days \u0014 practical enrichment aligned with heat safety for a brachycephalic puppy.",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "a9491c44-cfdf-43ec-815b-38fe3884ccf6",
+    "pet_id": "1ac35e16-6ae8-4840-9d27-0c0a317589af",
+    "month_idx": 1,
+    "pet_name": "Thor",
+    "pet_species": "dog",
+    "generated_at": "2025-10-16T13:50:50.674552",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_a9491c44_month1_20251016_134900.json",
+    "tokens": {
+      "prompt": 6886,
+      "completion": 6646,
+      "total": 13532
+    },
+    "elapsed_seconds": 0.0
+  }
+}

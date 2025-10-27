@@ -7,6 +7,7 @@ dist/
 __pycache__/
 *.py[cod]
 *.sqlite3
+*.db
 venv/
 env/
 backend/venv/
@@ -31,5 +32,11 @@ frontend/.vite/
 
 # Generated images/uploads (prototype)
 public/uploads/
+
+# Embeddings artifacts
+backend/embeddings_pipeline/artifacts/
+
+# Large data files
+product embeddings table.csv
 
 

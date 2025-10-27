@@ -1,0 +1,334 @@
+{
+  "total_queries": 26,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "Senior dog dry kibble for large breeds, weight-control formula with lower calorie density, added fiber and joint-support ingredients like glucosamine, large-bag packaging and appropriate kibble size for an 80 lb Golden Retriever",
+      "bm25_query": "senior dog dry kibble large-breed weight control low calorie fiber glucosamine large bag NOT Turkey",
+      "top_k": 20,
+      "rationale": "Daily staple: Winger is a senior (97 months / ~8 years) 80 lb Golden retriever showing fatigue \u0014 a controlled-calorie large-breed senior formula will support healthy weight, reduce joint load, and meet senior nutrient needs while avoiding his turkey allergy.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Food Toppings",
+      "embedding_query": "Senior dog wet food or meal topper in single-serve pouches or small cans, high moisture gravy-style topper, low-to-moderate calories, turkey-free for mixing with kibble to boost hydration and palatability",
+      "bm25_query": "senior wet food topper single-serve high moisture low calorie gravy-style mix with kibble NOT Turkey",
+      "top_k": 15,
+      "rationale": "Used daily as a topper or mixed meal to increase hydration and appetite in senior dogs who tire easily; helps maintain eating interest without adding excessive calories and avoids turkey because of allergy.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Senior dog large-capacity filtered water fountain or gravity waterer (3+ liter) with continuous flow, dishwasher-safe parts and non-slip base to keep water fresh for a large-yard household",
+      "bm25_query": "large-capacity filtered water fountain gravity waterer 3L continuous flow dishwasher-safe non-slip NOT Turkey",
+      "top_k": 12,
+      "rationale": "Daily clean water is mandatory; an automatic/filtered fountain encourages drinking, supports hydration (important for older dogs prone to dehydration), and reduces bacterial growth in a busy household and large-yard environment.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "Extra-strong large-size biodegradable or compostable poop bags for large-breed dogs, thick leak-resistant material with easy-dispense roll and portable dispenser",
+      "bm25_query": "extra-strong large biodegradable poop bags leak-resistant roll dispenser NOT Turkey",
+      "top_k": 10,
+      "rationale": "Used every time Winger eliminates outdoors; with a large yard and daily outings, reliable waste bags are a daily necessity for hygiene and local ordinances.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Senior dog soft low-calorie training treats, small-bite moist texture easy to chew for older teeth, low fat and turkey-free, resealable pouch for daily reinforcement or medication",
+      "bm25_query": "senior soft low-calorie training treats small-bite moist easy-chew resealable NOT Turkey",
+      "top_k": 12,
+      "rationale": "Daily reinforcement and small rewards help maintain behavior and bonding while allowing calorie control for a potentially overweight, tiring senior dog; soft texture protects older teeth and gums.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Health & Wellness",
+      "family": "Dental (VOHC Chews)",
+      "embedding_query": "Daily dental chew for large senior dogs, size and texture for large mouths, enzymatic or mechanical tartar control, safe for average chewers and formulated for senior dental support",
+      "bm25_query": "daily dental chew large senior enzymatic tartar control large-size safe chewers NOT Turkey",
+      "top_k": 12,
+      "rationale": "Daily dental care reduces plaque and periodontal disease risk in senior dogs; a chew that is used every day fits the essential daily-consumable definition and helps prevent progressive dental problems that affect appetite and comfort.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Supplements",
+      "embedding_query": "Senior joint supplement chewable or soft chew for large breeds, dosed for 60-90+ lb dogs with glucosamine, chondroitin, MSM and optionally hyaluronic acid, turkey-free flavors",
+      "bm25_query": "senior joint supplement large-breed glucosamine chondroitin MSM hyaluronic acid dosed 60-90lb NOT Turkey",
+      "top_k": 12,
+      "rationale": "Winger is an older, 80 lb dog who tires frequently; a daily joint supplement can be started to proactively support cartilage and mobility, reduce discomfort during activity and improve quality of life over time.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Supplements",
+      "embedding_query": "High EPA/DHA omega-3 supplement (liquid or softgel) dosed for large dogs to support joint comfort, skin and coat, and reduce low-level inflammation; easy to add to food",
+      "bm25_query": "omega-3 EPA DHA supplement large dog liquid softgel joint skin coat NOT Turkey",
+      "top_k": 12,
+      "rationale": "Omega-3s are a preventive support for senior dogs with fatigue and possible joint inflammation, and also help coat condition for heavy-shedding breeds like Goldens; useful during allergy/wildfire season to support skin and inflammation response.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Adjustable-height elevated feeder for large-breed senior dogs with option for a slow-feed bowl insert to reduce gulping and improve posture while eating",
+      "bm25_query": "adjustable elevated feeder large-breed senior slow-feed insert reduce gulping posture NOT Turkey",
+      "top_k": 10,
+      "rationale": "Elevated feeding reduces neck strain for large-breed senior dogs and a slow-feed insert helps control eating speed\u0014both support digestion and comfort for a tiring older dog.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Undercoat rake or deshedding tool for large double-coated breeds, ergonomic handle and durable blades to remove loose undercoat and reduce shedding with regular use",
+      "bm25_query": "undercoat rake deshedding tool large double-coated ergonomic blades reduce shedding NOT Turkey",
+      "top_k": 10,
+      "rationale": "Golden Retrievers are heavy shedders; seasonal shedding and fall allergy season increase dander\u0014regular deshedding reduces allergens in the home and is preventive grooming for skin/coat health.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Powders/Sprays/Wipes",
+      "embedding_query": "Gentle ear-cleaning solution or pre-moistened ear wipes for dogs, alcohol-free and pH balanced, sold in bottles or wipe packs for weekly ear care",
+      "bm25_query": "ear cleaning solution ear wipes alcohol-free pH balanced bottle wipes weekly NOT Turkey",
+      "top_k": 10,
+      "rationale": "Senior dogs may develop ear issues; routine ear care helps prevent discomfort and infections\u0014important for Goldens who have floppy ears and live in a yard environment.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Gear/Travel",
+      "family": "Harness & Leash",
+      "embedding_query": "Support or lifting harness for large-breed dogs with padded handle and adjustable straps, sturdy rear- or full-body support to assist standing, stairs and car entry",
+      "bm25_query": "support lifting harness large-breed padded handle adjustable straps rear full-body assist NOT Turkey",
+      "top_k": 12,
+      "rationale": "Winger tires more easily; a support harness allows the owner to help him without strain and prevents falls or unsafe lifting, particularly useful as mobility changes with age.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Indoor dog-appeasing pheromone diffuser or calming spray for dogs to reduce stress from seasonal noise and wildfire-related anxiety, plug-in diffuser or spray format",
+      "bm25_query": "pheromone diffuser calming spray dog reduce anxiety noise wildfire plug-in NOT Turkey",
+      "top_k": 10,
+      "rationale": "Calendar shows active wildfire, leaf-blower and hunting seasons which can stress dogs; a pheromone diffuser is a non-pharmaceutical preventive tool to reduce anxiety during noisy events.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "HEPA air purifier with activated carbon filter sized for medium-large living areas, CADR appropriate for main room to reduce wildfire smoke and household allergens",
+      "bm25_query": "HEPA air purifier activated carbon CADR medium-large room reduce smoke allergens NOT Turkey",
+      "top_k": 12,
+      "rationale": "Wildfire and fall allergy seasons are active in calendar context; indoor air filtration reduces smoke/irritant exposure for pets (and owners), improving respiratory comfort\u0014especially valuable for older dogs.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Gear/Travel",
+      "family": "Harness & Leash",
+      "embedding_query": "Reflective or LED hi-vis harness or vest for large dogs, weather-resistant and adjustable for low-light visibility during walks or hunting season",
+      "bm25_query": "reflective LED hi-vis harness vest large dog weather-resistant adjustable visibility NOT Turkey",
+      "top_k": 10,
+      "rationale": "Hunting season and shortened daylight windows increase the need for visibility on walks; reflective/LED gear reduces risk of accidents and improves safety in early mornings or evenings.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Digital kitchen scale and calibrated portion scoop for accurate food weighing and portion control to support weight management for an 80 lb dog",
+      "bm25_query": "digital kitchen scale portion scoop accurate feeding portion control 80 lb dog NOT Turkey",
+      "top_k": 8,
+      "rationale": "Winger is 80 lb and tires easily\u0014accurate portioning helps manage caloric intake and weight, improving mobility over time; this is a preventive tool that supports the chosen diet.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Durable heavy-duty rubber treat-dispensing toy sized for large breeds, holds kibble or treats, rated for average chewers and dishwasher-safe",
+      "bm25_query": "durable rubber treat-dispensing toy large-breed holds kibble dishwasher-safe average chewer NOT Turkey",
+      "top_k": 10,
+      "rationale": "Provides mental stimulation and low-impact activity that can engage Winger in the yard without high exertion; helps slow feeding and reduce boredom.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Interactive puzzle feeder or snuffle mat sized for large-breed dogs, durable and washable materials to hide kibble and encourage scent work and mental engagement",
+      "bm25_query": "interactive puzzle feeder snuffle mat large-breed durable washable hide kibble scent work NOT Turkey",
+      "top_k": 10,
+      "rationale": "Mental stimulation that can be done at low physical intensity\u0014good for an older dog that tires easily and helps slow eating and enrich indoor time during smoky/allergy days.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Seasonal/Environment",
+      "family": "Beds",
+      "embedding_query": "Large machine-washable plush blanket or comfort pad with non-slip backing sized for a large-dog bed to provide cushioning and warmth for a senior dog",
+      "bm25_query": "large plush blanket comfort pad machine-washable non-slip large-dog bed NOT Turkey",
+      "top_k": 8,
+      "rationale": "Senior dogs benefit from extra cushioning and warmth; a dedicated comfort blanket increases rest quality when Winger tires frequently and is easy to launder.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Set of large soft-core fetch balls designed for repetitive throwing, gentle on older teeth, durable but softer than hard rubber and sized for large mouths",
+      "bm25_query": "large soft-core fetch balls gentle on teeth durable large-mouth repeated throw NOT Turkey",
+      "top_k": 8,
+      "rationale": "Provides controlled exercise in a large yard; can be used for short fetch sessions tailored to Winger\u0019s energy level without overexertion.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Flirt pole with soft-tethered lure and long handle for short controlled bursts of play, adjustable rope length and construction suitable for average chewers",
+      "bm25_query": "flirt pole soft lure long handle adjustable rope short bursts average chewer NOT Turkey",
+      "top_k": 8,
+      "rationale": "Allows high-value, short-duration activity to stimulate prey-drive and provide exercise without long-distance running, useful for a senior dog who tires easily.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Durable tug rope or soft fabric tug toy sized for large dogs with reinforced stitching and soft handle for owner interaction, suitable for average chewers",
+      "bm25_query": "durable tug rope soft fabric tug toy large reinforced stitching soft handle NOT Turkey",
+      "top_k": 8,
+      "rationale": "Interactive play that strengthens the bond with the owner and provides mental/low-impact physical activity tailored to a senior dog\u0019s energy capacity.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Beginner scent-work kit with sniff pads or scent cones, washable and portable, includes instructions for hiding treats and encouraging nose work",
+      "bm25_query": "scent-work kit sniff pads scent cones beginner washable portable hide treats NOT Turkey",
+      "top_k": 8,
+      "rationale": "Nose work is low-impact enrichment that engages an older dog's natural instincts without strenuous exercise\u0014good for days when outdoor activity is limited (weather or smoke).",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Cooling gel mat or compact heated pad sized for large-breed dogs, waterproof cover and easy-to-clean surface to provide thermoregulation for warm days or cool nights",
+      "bm25_query": "cooling gel mat heated pad large-breed waterproof easy-clean thermoregulation NOT Turkey",
+      "top_k": 8,
+      "rationale": "Weather shows moderately warm daytime temps; a cooling mat provides comfortable, low-effort thermoregulation during warmer afternoons in the yard or indoors.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Grooming/Hygiene",
+      "family": "Creams & Rinses",
+      "embedding_query": "Natural paw balm in a small tin or tube to soothe and protect paw pads, non-toxic and pet-safe formulation for everyday protection from rough surfaces and seasonal irritants",
+      "bm25_query": "natural paw balm soothe protect paw pads non-toxic pet-safe everyday protection NOT Turkey",
+      "top_k": 8,
+      "rationale": "Protects paw pads during walks in varying conditions and provides relief if Winger's pads become dry with seasonal changes; simple preventive comfort product.",
+      "negatives": [
+        "Turkey"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Gear/Travel",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Handheld portable travel water bottle with attached bowl or spout, 500-1000 ml capacity, leak-proof and easy to clean for walks and yard outings",
+      "bm25_query": "portable travel water bottle handheld 500-1000ml attached bowl leak-proof easy-clean NOT Turkey",
+      "top_k": 8,
+      "rationale": "Convenient hydration on walks and outings in a large yard or while traveling; supports hydration for a senior dog who tires and may need extra water during activity.",
+      "negatives": [
+        "Turkey"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "76e9837f-c361-410e-a495-033982a428b2",
+    "pet_id": "65061094-57cd-4a91-aedd-e073af981959",
+    "month_idx": 0,
+    "pet_name": "Winger",
+    "pet_species": "dog",
+    "generated_at": "2025-10-21T14:06:24.412723",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_76e9837f_month0_20251021_140521.json",
+    "tokens": {
+      "prompt": 7156,
+      "completion": 6010,
+      "total": 13166
+    },
+    "elapsed_seconds": 0.0
+  }
+}

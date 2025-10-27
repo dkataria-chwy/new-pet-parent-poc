@@ -126,6 +126,32 @@ class AIRecommendationResponse(BaseModel):
     summary: str
     items: List[Dict[str, Any]]
 
+# On-demand recommendations models
+class OnDemandRecommendationRequest(BaseModel):
+    user_query: str
+    journey_id: str
+    month_idx: int  # Current month index to calculate accurate pet age
+    top_k: Optional[int] = 20
+
+class OnDemandProduct(BaseModel):
+    rank: int
+    sku: str
+    parentSKU: str
+    name: str
+    similarity: float
+    product_link: str
+
+class OnDemandRecommendationResponse(BaseModel):
+    timestamp: str
+    query_used: str
+    rationale: str
+    total_products: int
+    products: List[OnDemandProduct]
+    user_query: str
+    journey_id: str
+    pet_name: str
+    pet_species: str
+
 # Checkpoint validation models
 class CheckpointValidationRequest(BaseModel):
     petId: str

@@ -1,0 +1,394 @@
+{
+  "total_queries": 31,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "Puppy dry kibble for large-breed puppies (Golden Retriever), growth formula with small kibble size, balanced calcium-phosphorus for large-breed development, chicken/fish or lamb protein, resealable packaging",
+      "bm25_query": "puppy dry kibble large-breed small kibble balanced calcium phosphorus growth chicken fish lamb resealable NOT Beef",
+      "top_k": 20,
+      "rationale": "Daily staple food is required immediately for growth and weight maintenance in a 1-month-old puppy. Because this Golden Retriever is a large-breed puppy (30 lb at 1 month) and has a beef allergy, a beef-free large-breed puppy formula is essential now.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Puppy Milk Replacer",
+      "embedding_query": "Puppy powdered milk replacer for neonatal/young puppies, complete balanced formula, easy-to-mix powder with bottle or syringe instructions, plain flavor, non-beef",
+      "bm25_query": "puppy powdered milk replacer complete balanced easy mix bottle syringe plain flavor NOT Beef",
+      "top_k": 12,
+      "rationale": "At 1 month old some puppies still need supplemental milk or transition support; as a rescue, this puppy may be partially weaned and can require immediate supplemental feeding to maintain hydration and energy. Milk replacer is an urgent feeding item until full weaning and kibble intake are established.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "Puppy stainless steel non-skid food and water bowl set, shallow puppy-sized kibble bowl plus 0.5–1.5 qt water bowl, rubber non-slip base, dishwasher-safe and chew-resistant",
+      "bm25_query": "stainless steel puppy bowls non-skid shallow 0.5-1.5 qt dishwasher safe chew resistant NOT Beef",
+      "top_k": 10,
+      "rationale": "Daily consumption requires durable, cleanable feeding/watering bowls. Stainless steel reduces allergen residue risk and is stable for an apartment environment.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Crates/Gates/Pens",
+      "family": "Crates/Gates/Pens",
+      "embedding_query": "Adjustable puppy crate with divider for medium/large dogs, metal or heavy-duty plastic, removable washable tray and secure latch, suitable for indoor apartment crate training",
+      "bm25_query": "adjustable puppy crate divider medium large removable washable tray secure latch apartment NOT Beef",
+      "top_k": 10,
+      "rationale": "Starter confinement for house training, safety when unsupervised, and a secure den for a rescue puppy is essential from day one. A divider lets you start with appropriately sized sleeping area now and expand later.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Machine-washable puppy bed/pad small-to-medium size with removable cover, supportive low-profile design, breathable fabric for temperature regulation and easy cleaning",
+      "bm25_query": "machine washable puppy bed removable cover low profile supportive breathable easy clean NOT Beef",
+      "top_k": 8,
+      "rationale": "A comfortable dedicated sleeping spot is a starter basic for a new rescue puppy to reduce stress and provide a secure place to rest. Washability is important given indoor apartment living and shedding/allergy season.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Harness & Leash",
+      "family": "Harness & Leash",
+      "embedding_query": "Adjustable padded front-clip puppy harness with soft straps, quick-release buckles and reflective trim, sized for young puppies to reduce pulling and protect the neck",
+      "bm25_query": "adjustable front-clip puppy harness padded quick release reflective reduce pulling soft straps NOT Beef",
+      "top_k": 8,
+      "rationale": "Immediate safety and control during short walks and vet visits\u0000especially for an apartment puppy with no yard\u0000require a harness now. A front-clip harness reduces risk to the developing neck and is easier for leash training.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Harness & Leash",
+      "family": "Harness & Leash",
+      "embedding_query": "Lightweight 6-foot nylon training leash with sturdy swivel clip, non-retractable, easy-grip handle, size and weight appropriate for a young puppy",
+      "bm25_query": "6-foot nylon leash lightweight swivel clip non-retractable easy grip puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "A leash is required immediately for safe transport, vet visits, and controlled outdoor exposure in an apartment setting. Non-retractable leashes are safer for training and tight spaces.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Collars & ID Tags",
+      "family": "Collars & ID Tags",
+      "embedding_query": "Adjustable puppy ID collar with reflective stitching and durable engraved metal ID tag, soft nylon construction sized to grow with puppy and carry owner name/phone",
+      "bm25_query": "adjustable ID collar reflective engraved metal tag soft nylon puppy sized to grow NOT Beef",
+      "top_k": 8,
+      "rationale": "Immediate identification is important for a rescue puppy in an apartment environment. Collar+ID make recovery possible if the puppy escapes during walks or training outings.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Potty Training Pads",
+      "embedding_query": "Disposable high-absorbency puppy potty pads sized for medium/large puppies, leak-proof backing, optional adhesive strip, scent-free or lightly scented to avoid allergy triggers",
+      "bm25_query": "high absorbency puppy potty pads medium large leak proof adhesive strip scent free NOT Beef",
+      "top_k": 12,
+      "rationale": "No yard and apartment living require an indoor potty solution immediately for a 1-month-old puppy to avoid accidents and enable housetraining while adjusting to living indoors.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Cooling/Heating Gear",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Non-electric chew-resistant cooling mat for puppies, thin gel or phase-change material, non-toxic, easy wipe-clean, portable for crate or floor placement",
+      "bm25_query": "non-electric cooling mat chew resistant gel phase change non toxic wipe clean portable puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "Excessive heat warning in the weather context creates an immediate safety risk for a young puppy in an apartment. A cooling mat helps regulate body temperature during hot days and reduces heat stress risk right now.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Small soft puppy training treats, non-beef (chicken, fish, or vegetable-based), low-calorie and easy to break into pieces for frequent positive reinforcement",
+      "bm25_query": "soft puppy training treats small low calorie chicken fish vegetable easy break NOT Beef",
+      "top_k": 12,
+      "rationale": "Positive reinforcement is key to socialization and housetraining for a 1-month-old rescue puppy. Non-beef treats avoid the dog's documented allergy and support frequent reward-based training.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Cleaning",
+      "family": "Cleaners & Stain Removers",
+      "embedding_query": "Pet-safe enzymatic stain and odor cleaner spray for urine and feces, formulated for carpets, rugs and upholstery to remove biological odors that encourage re-soiling",
+      "bm25_query": "enzymatic stain odor cleaner spray urine feces carpets rugs upholstery biological odor remover NOT Beef",
+      "top_k": 10,
+      "rationale": "Indoor housetraining in an apartment with puppy pads necessitates dependable odor removal to prevent repeat accidents and maintain household hygiene.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Toys/Chews",
+      "family": "Chews (Bones & Bully)",
+      "embedding_query": "Soft puppy teething chews made of gentle rubber or soft nylon, puppy-sized, non-toxic and labeled for puppies, suitable for light chewers to soothe gums",
+      "bm25_query": "soft puppy teething chews rubber soft nylon puppy sized non toxic light chewer NOT Beef",
+      "top_k": 10,
+      "rationale": "At 1 month puppies begin teething; chew items reduce stress, redirect mouthing behavior from furniture, and support dental development. Choose softer options because this puppy has light chew strength.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Gentle deshedding tool or slicker brush for Golden Retriever puppy double coat, soft teeth or fine pins, ergonomic handle and easy to clean for short regular grooming sessions",
+      "bm25_query": "deshedding tool slicker brush golden retriever puppy soft teeth fine pins ergonomic NOT Beef",
+      "top_k": 10,
+      "rationale": "Golden Retrievers are heavy shedders; calendar shows fall shedding and allergy season. Starting gentle grooming now prevents matting, reduces allergens in the apartment, and accustoms the puppy to brushing.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "Puppy toothbrush or finger brush with poultry-flavored toothpaste (no beef), gentle puppy formulation to introduce daily oral care early",
+      "bm25_query": "puppy toothbrush finger brush poultry flavored toothpaste gentle introduce oral care NOT Beef",
+      "top_k": 10,
+      "rationale": "Early introduction to toothbrushing builds lifelong dental habits; for puppies start with gentler brushes and flavored toothpaste that avoids the dog's beef allergy.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Puppy-sized scissor-style nail clippers or low-speed rotary nail grinder with safety guard and non-slip handle for gradual introduction and maintenance",
+      "bm25_query": "puppy nail clippers scissor style low speed grinder safety guard non slip handle NOT Beef",
+      "top_k": 8,
+      "rationale": "Regular nail maintenance prevents overgrowth and injury, especially for apartment life where walks may not wear nails down; start getting the puppy used to nail handling now.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Flea & Tick",
+      "family": "Combs & Tick Removers",
+      "embedding_query": "Fine-tooth metal flea and tick comb for puppies, non-medicated mechanical removal of fleas and debris, durable and easy to use for early detection",
+      "bm25_query": "flea tick comb fine tooth metal non medicated remove fleas debris puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "Allows owners to check for external parasites without medications (which are veterinary). In an apartment and with seasonal pest risks, a comb is a useful non-medical preventive tool.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Crates/Gates/Pens",
+      "family": "Crates/Gates/Pens",
+      "embedding_query": "Portable foldable indoor puppy playpen/exercise pen, panels connect to form a safe supervised play area, easy to store and compatible with a cleanable mat",
+      "bm25_query": "portable indoor puppy playpen foldable exercise pen panels safe play area cleanable mat NOT Beef",
+      "top_k": 8,
+      "rationale": "Provides supervised space for play and training in an apartment when the crate is not appropriate; helps with housetraining and prevents unsupervised roaming/destructive behavior.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Apparel",
+      "family": "Outdoor Apparel",
+      "embedding_query": "Small rechargeable LED clip-on collar light for puppies, lightweight and waterproof, with flashing and steady modes for low-light visibility on collar or harness",
+      "bm25_query": "LED clip on collar light rechargeable lightweight flashing steady waterproof low light visibility puppy NOT Beef",
+      "top_k": 6,
+      "rationale": "Hunting season and early morning/evening walks make extra visibility beneficial for safety during outings. Useful in apartment neighborhoods and for night-time vet trips.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Leak-proof portable dog water bottle with attached bowl or spout for on-the-go hydration, compact size for puppy fills, easy to operate on short walks and vet visits",
+      "bm25_query": "portable dog water bottle leak proof attached bowl spout compact puppy hydration on the go NOT Beef",
+      "top_k": 8,
+      "rationale": "Hydration is important, especially during heat warnings and for a young puppy. A portable bottle makes it easy to keep the puppy hydrated during outings from an apartment.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Sprays/Foams/Wipes",
+      "embedding_query": "Hypoallergenic fragrance-free grooming wipes for quick paw and coat cleanup, gentle formula safe for frequent use and suitable during allergy and shedding season",
+      "bm25_query": "hypoallergenic grooming wipes fragrance free paws coat gentle frequent use NOT Beef",
+      "top_k": 10,
+      "rationale": "Useful for cleaning paws and coat after outings or when bringing allergens into the apartment during allergy/shedding season; convenient when a bath is not appropriate.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Small machine-washable plush puppy toy with secure seams and no small parts, soft for comfort and low-energy play, sized for a Golden puppy's mouth",
+      "bm25_query": "plush puppy toy machine washable secure seams no small parts soft comfort puppy mouth NOT Beef",
+      "top_k": 8,
+      "rationale": "Provides comfort for a rescue puppy with low energy; helps with settling and reduces stress in a new apartment environment.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Soft rubber treat-dispensing puzzle toy designed for puppies, easy to fill with small kibble or paste-like toppers, non-toxic and sized for gentle interaction",
+      "bm25_query": "treat dispensing puzzle toy soft rubber puppy fill kibble toppers non toxic foraging slow feeding NOT Beef",
+      "top_k": 10,
+      "rationale": "Mental stimulation and slow-feeding enrichment help prevent boredom in apartment living and encourage problem-solving while the puppy's activity is low.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Fabric snuffle mat for puppies to hide kibble and treats, machine-washable and low-profile for apartment floors, encourages sniffing and natural foraging behavior",
+      "bm25_query": "snuffle mat fabric machine washable low profile hide kibble treats foraging puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "Provides low-impact mental enrichment appropriate for a low-energy puppy and supports slow feeding and scent-based stimulation indoors.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Small soft rubber puppy ball with low-bounce action, sized for puppy mouths for gentle indoor fetch, lightweight and easy to sanitize",
+      "bm25_query": "soft rubber puppy ball small low bounce puppy mouth lightweight sanitize indoor fetch NOT Beef",
+      "top_k": 8,
+      "rationale": "Short play sessions inside the apartment promote physical exercise without strenuous activity; suitable for a low-energy puppy who needs short bursts of play.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Small soft cotton rope tug toy for puppies with small knots and soft fibers, designed for gentle owner-led interactive play and bite inhibition training",
+      "bm25_query": "small rope tug toy cotton small knots soft fibers interactive play light chewer puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "Owner-led interactive play supports bonding and basic training (recall, drop), important for a rescue puppy adapting to a new home. Light chew strength makes rope appropriate.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Washable comfort blanket for puppies, thin and machine-washable so it can be placed in crate or bed and carry owner's scent to soothe a rescue puppy",
+      "bm25_query": "washable comfort blanket thin machine washable crate bed owner scent reduce anxiety puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "Comfort blankets reduce stress and provide familiarity, which is helpful for a rescue puppy in a new apartment environment.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Calming (Aids & Refills)",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Plug-in dog-appeasing pheromone diffuser with puppy-appropriate refills, covers typical apartment room sizes to help reduce anxiety and ease transitions",
+      "bm25_query": "pheromone diffuser plug in puppy refills reduce anxiety apartment cover room NOT Beef",
+      "top_k": 8,
+      "rationale": "Calendar shows leaf blower, hunting, and allergy seasons that can increase stress. A pheromone diffuser can ease anxiety for a rescue puppy acclimating to urban noises and indoor life.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Hands-free wearable treat pouch for owners that clips to belt or pants, holds small training treats, has easy-open top and washable fabric for convenient frequent reinforcement",
+      "bm25_query": "wearable treat pouch hands free clip belt holds small treats easy open washable training NOT Beef",
+      "top_k": 8,
+      "rationale": "Encourages consistent short training sessions and positive reinforcement during housetraining and socialization in the apartment, making training more convenient.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Mini indoor puppy agility kit with soft low tunnels, small hurdles and puppy-sized weave poles, compact for apartment use to encourage gentle physical activity and confidence-building",
+      "bm25_query": "mini indoor puppy agility kit soft low tunnels small hurdles weave poles apartment gentle exercise puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "Apartment living and low activity level mean structured, low-impact exercise is beneficial; a small indoor agility kit provides controlled movement and mental stimulation.",
+      "negatives": [
+        "Beef"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Puppy-safe sound desensitization toy or device that plays low-volume household and outdoor noises or soothing music, with volume control and puppy-appropriate audio for gradual desensitization",
+      "bm25_query": "sound desensitization toy recordable low volume household outdoor noises soothing music volume control puppy NOT Beef",
+      "top_k": 8,
+      "rationale": "Calendar events (leaf blower, hunting season) indicate potential noise stressors. Gradual desensitization with controlled, low-volume audio can reduce anxiety over time in a rescue puppy.",
+      "negatives": [
+        "Beef"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "a11a5c83-063d-48c2-86de-453f235448f3",
+    "pet_id": "6e42e401-0126-4cb9-a8de-4604f6a204ae",
+    "month_idx": 0,
+    "pet_name": "Mario",
+    "pet_species": "dog",
+    "generated_at": "2025-10-16T10:51:33.016502",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_a11a5c83_month0_20251016_104927.json",
+    "tokens": {
+      "prompt": 8029,
+      "completion": 9475,
+      "total": 17504
+    },
+    "elapsed_seconds": 0.0
+  }
+}

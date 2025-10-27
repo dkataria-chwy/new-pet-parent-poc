@@ -1,0 +1,77 @@
+{
+  "type": "object",
+  "properties": {
+    "total_categories": {
+      "type": "integer",
+      "description": "Total number of needs/categories identified across all buckets"
+    },
+    "needs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "bucket",
+          "top_family",
+          "family",
+          "description",
+          "rationale",
+          "priority"
+        ],
+        "properties": {
+          "bucket": {
+            "type": "string",
+            "enum": ["essentials", "nice_to_haves", "enrichment"],
+            "description": "Which tier this need belongs to: essentials (4-6 items, critical/daily), nice_to_haves (8-12 items, standard care/prevention), enrichment (8-12 items, quality of life)"
+          },
+          
+          "top_family": {
+            "type": "string",
+            "description": "Department-level category. Use established categories as guidance but create custom if needed for this pet's unique needs."
+          },
+          
+          "family": {
+            "type": "string",
+            "description": "Specific product family/aisle. Be specific and use established families as guidance, but create custom families for unique needs."
+          },
+          
+          "description": {
+            "type": "string",
+            "description": "Comprehensive, detailed description of what this pet needs including specific attributes, formats, sizes, features that would benefit this pet"
+          },
+          
+          "rationale": {
+            "type": "string",
+            "description": "Why this pet needs this RIGHT NOW in THIS bucket at this specific moment, referencing specific pet characteristics, weather/calendar triggers, standard-of-care reasoning, or quality-of-life benefit"
+          },
+          
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Specific pet metadata, weather alerts, calendar events, or veterinary best practice guidelines that drove this need. Format: 'field: value' (e.g., 'age: X months', 'breed: Y', 'weather: alert_type', 'standard: guideline_description'). Shows what data informed this recommendation."
+          },
+          
+          "priority": {
+            "type": "string",
+            "enum": ["critical", "high", "medium", "low"],
+            "description": "critical=life essentials (food, water, safety), high=important care (health, dental), medium=beneficial (enrichment, comfort), low=optional extras. Generally: essentials→critical/high, nice_to_haves→high/medium, enrichment→medium/low"
+          },
+
+          "negatives": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "description": "Allergens and safety exclusions for this need (e.g., chicken, rawhide, small-parts). Can be empty array if none."
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["total_categories", "needs"],
+  "additionalProperties": false
+}
+

@@ -1,0 +1,125 @@
+{
+  "subscription_products": [
+    {
+      "slot_id": 1,
+      "sku": "322688",
+      "product_name": "Ultimates Chicken Meal & Brown Rice Large Breed Puppy Dry Dog Food, 28-lb bag",
+      "top_family": "Food/Nutrition",
+      "bucket": "essentials",
+      "subscription_rationale": "30 lb Golden Retriever puppy eats ~3 cups/day = 90 cups/month. This 28 lb bag contains ~112 cups, lasting about 1.2 months. Critical daily nutrition for growth and health.",
+      "estimated_frequency": "Every 5 weeks",
+      "personalized_note": "Max is a growing Golden Retriever puppy, and this large-breed formula will support his healthy bone development and energy needs during his playful apartment life!",
+      "priority": "critical"
+    },
+    {
+      "slot_id": 9,
+      "sku": "1522870",
+      "product_name": "Pupford Chicken Soft & Chewy Training Dog Treats, 5-oz pouch",
+      "top_family": "Treats",
+      "bucket": "nice_to_haves",
+      "subscription_rationale": "With positive-reinforcement training, expect to use about 10-20 treats/day for a puppy, equating to approximately 4 pouches/month. Enhances training and bonding.",
+      "estimated_frequency": "Monthly",
+      "personalized_note": "Max will love these tasty treats during training sessions, helping him learn commands quickly while keeping training fun and engaging!",
+      "priority": "high"
+    },
+    {
+      "slot_id": 6,
+      "sku": "2129942",
+      "product_name": "PawHut Indoor Outdoor Dog Grass Pad with Tray & 2 Artificial Washable Grass Pee Pads, 26 x 16-in",
+      "top_family": "Litter/Waste",
+      "bucket": "essentials",
+      "subscription_rationale": "Indoor potty solutions are vital for apartment living with puppies. While pads are washable, replacements may be necessary monthly due to wear and tear.",
+      "estimated_frequency": "Every 8 weeks",
+      "personalized_note": "Max is getting used to apartment life, and this grass pad will be a convenient potty solution, making housetraining smoother and cleaner!",
+      "priority": "high"
+    },
+    {
+      "slot_id": 12,
+      "sku": "939590",
+      "product_name": "OUT! PetCare Orange Dog Oxy Stain & Odor Remover, 32-fl oz bottle",
+      "top_family": "Cleaning",
+      "bucket": "nice_to_haves",
+      "subscription_rationale": "Essential for managing accidents during housetraining. Expect to use one bottle monthly, as it effectively removes odors and prevents repeat marking.",
+      "estimated_frequency": "Monthly",
+      "personalized_note": "Accidents happen, but with this effective stain and odor remover, Max's indoor environment will stay fresh and clean!",
+      "priority": "medium"
+    },
+    {
+      "slot_id": 13,
+      "sku": "918366",
+      "product_name": "Nylabone Advanced Oral Care Peanut Butter Flavor Toothpaste, 2.5-oz tube + Soft-Bristle Toothbrush for Puppies, 3-pack",
+      "top_family": "Grooming/Hygiene",
+      "bucket": "nice_to_haves",
+      "subscription_rationale": "Regular brushing is essential for dental health, especially starting young. 2.5 oz toothpaste tube should last a month with regular use.",
+      "estimated_frequency": "Monthly",
+      "personalized_note": "Start Max's dental routine early with this easy-to-use toothbrush and tasty peanut butter-flavored toothpaste, ensuring a lifetime of healthy smiles!",
+      "priority": "medium"
+    }
+  ],
+  "one_time_products": [
+    {
+      "slot_id": 2,
+      "sku": "693126",
+      "product_name": "SunGrow No Spill Stainless Steel Large Dog Water & Food Bowl with Non-Slip Rubber Base, 64-oz",
+      "top_family": "Feeding/Bowls",
+      "bucket": "essentials",
+      "one_time_rationale": "Durable and hygienic, this bowl is a one-time purchase necessary for daily feeding and hydration.",
+      "personalized_note": "This sturdy, non-slip bowl ensures Max always has fresh water and food, especially important during hot weather!",
+      "priority": "critical"
+    },
+    {
+      "slot_id": 3,
+      "sku": "66304",
+      "product_name": "MidWest LifeStages Double Door Collapsible Wire Dog Crate, 42 inch",
+      "top_family": "Crates/Gates/Pens",
+      "bucket": "essentials",
+      "one_time_rationale": "A durable, one-time purchase that is essential for safe containment and training during Max's growth phases.",
+      "personalized_note": "Max will have a safe and comfortable den for resting and training, helping him feel secure in his new home!",
+      "priority": "critical"
+    },
+    {
+      "slot_id": 5,
+      "sku": "1907118",
+      "product_name": "LupinePet Puppy Love Adjustable Dog Harness, Large: 24 to 38-in chest",
+      "top_family": "Leashes/Collars",
+      "bucket": "essentials",
+      "one_time_rationale": "A one-time investment for safety and comfort during walks; adjustable for Max's growth.",
+      "personalized_note": "Max will enjoy his walks safely and comfortably with this adjustable harness, perfect for his growing body!",
+      "priority": "high"
+    },
+    {
+      "slot_id": 7,
+      "sku": "91196",
+      "product_name": "KONG Puppy Teething Stick Dog Toy, Color Varies, Large",
+      "top_family": "Toys/Chews",
+      "bucket": "essentials",
+      "one_time_rationale": "Durable toy to support teething and chewing needs during Max's early months, helping redirect unwanted chewing.",
+      "personalized_note": "Max will love chewing on this durable toy, providing him with much-needed teething relief and fun!",
+      "priority": "medium"
+    },
+    {
+      "slot_id": 8,
+      "sku": "1715958",
+      "product_name": "allforpaws Chill Out Papaya Cooling Mat Dog Bed, Blue",
+      "top_family": "Seasonal/Environment",
+      "bucket": "essentials",
+      "one_time_rationale": "Important seasonal purchase due to excessive heat warning, providing immediate cooling relief.",
+      "personalized_note": "With the current heat, this cooling mat will keep Max comfortable and cool, ensuring he stays happy and healthy indoors!",
+      "priority": "high"
+    }
+  ],
+  "overall_strategy": "For Max, a 2-month-old Golden Retriever in his first month with his new family, the focus is on essential setup items and consumables that support his growth, training, and comfort. Key priorities are ensuring proper nutrition, safe environments for training and rest, and seasonal considerations like current excessive heat. Subscription items ensure ongoing needs like food and cleaning supplies are met, while one-time purchases focus on durable essentials to set up Max's new home.",
+  "metadata": {
+    "journey_id": "a11a5c83-063d-48c2-86de-453f235448f3",
+    "month_idx": 1,
+    "model": "gpt-4o-2024-08-06",
+    "recommendations_source": "backend/testing/outputs/recommendations_stage2_structured/recommendations_structured_a11a5c83_month1_20251008_132711.json",
+    "generated_at": "2025-10-08T14:54:02.283705",
+    "tokens": {
+      "prompt": 3785,
+      "completion": 1536,
+      "total": 5321
+    },
+    "elapsed_seconds": 24.3
+  }
+}
