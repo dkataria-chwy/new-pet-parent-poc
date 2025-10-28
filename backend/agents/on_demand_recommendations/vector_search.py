@@ -100,6 +100,10 @@ class OnDemandVectorSearch:
                     'name': product_name,
                     'similarity': float(similarities[idx]),
                     'product_link': product_row.get('product_link', '') or '',  # Ensure it's never None
+                    'product_price_current': product_row.get('product_price_current', None),
+                    'autoship_eligible': bool(product_row.get('product_autoship_save_eligible_flag', False)),
+                    'base_similarity': float(similarities[idx]),  # Same as similarity in JSONL (no brand boost)
+                    'brand_boosted': False,  # JSONL doesn't do brand boosting
                     'search_text': product_row['search_text'],
                     'species_flags': {
                         'dog': product_row['species_dog_flag'],
@@ -166,7 +170,8 @@ class OnDemandVectorSearch:
         try:
             response = self.client.embeddings.create(
                 model="text-embedding-3-large",
-                input=query_text
+                input=query_text,
+                dimensions=3072  # Match Qdrant embedding dimensions
             )
             embedding = np.array(response.data[0].embedding, dtype=np.float32)
             return embedding

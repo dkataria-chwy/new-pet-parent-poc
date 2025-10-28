@@ -139,7 +139,16 @@ class OnDemandProduct(BaseModel):
     parentSKU: str
     name: str
     similarity: float
-    product_link: str
+    product_link: Optional[str] = ""
+    product_price_current: Optional[float] = None
+    autoship_eligible: bool = False
+    base_similarity: Optional[float] = None
+    brand_boosted: bool = False
+    search_text: Optional[str] = None
+    species_flags: Optional[Dict[str, bool]] = None
+    family: Optional[str] = None
+    top_family: Optional[str] = None
+    query_index: Optional[int] = None
 
 class OnDemandRecommendationResponse(BaseModel):
     timestamp: str

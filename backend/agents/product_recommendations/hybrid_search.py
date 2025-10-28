@@ -337,13 +337,27 @@ class HybridSearchEngine:
 def main():
     """Test hybrid search functionality."""
     try:
+        import os
+        from dotenv import load_dotenv
         from storage_loader import EmbeddingStorageLoader
         from vector_search import SpeciesAwareVectorSearch
+        from qdrant_vector_search_rest import QdrantVectorSearch
+        
+        load_dotenv()
+        
+        # Check if we should use Qdrant
+        use_qdrant = os.getenv("USE_QDRANT", "false").lower() == "true"
         
         # Initialize components
-        embeddings_path = "embeddings_pipeline/artifacts/catalog_embeds.jsonl"
-        storage_loader = EmbeddingStorageLoader(embeddings_path)
-        vector_searcher = SpeciesAwareVectorSearch(storage_loader)
+        if use_qdrant:
+            print("🚀 Using Qdrant vector database")
+            vector_searcher = QdrantVectorSearch()
+            storage_loader = None  # Not needed for Qdrant
+        else:
+            print("📁 Using JSONL in-memory vector search")
+            embeddings_path = "embeddings_pipeline/artifacts/catalog_embeds.jsonl"
+            storage_loader = EmbeddingStorageLoader(embeddings_path)
+            vector_searcher = SpeciesAwareVectorSearch(storage_loader)
         
         # Initialize hybrid search
         hybrid_engine = HybridSearchEngine(vector_searcher, storage_loader)
