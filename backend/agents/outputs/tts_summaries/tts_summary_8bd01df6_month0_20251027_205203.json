@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Welcome! Tota is hitting that lively one-year mark — Shar Peis are famously loyal and a bit independent, with those adorable skin folds that need daily attention and extra ear care. At 12 months he's moving from puppy to adolescent: growth is mostly done but Tota may test boundaries, have bursts of energy, and still chew. It's worth discussing spay/neuter timing with your vet as you plan his adult care, and keep up dental and skin checks. Living in an apartment with a small yard means short, focused walks, enrichment, and calm exposure to city noises are key. I've matched steady food, treats, wipes and waste supplies to support your routine. Check out the recommendations below.",
+  "word_count": 116,
+  "metadata": {
+    "generated_at": "2025-10-27T20:52:03.358095",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 29.67,
+    "audio_elapsed_seconds": 8.23,
+    "tokens": {
+      "prompt": 8620,
+      "completion": 2326,
+      "total": 10946
+    }
+  }
+}

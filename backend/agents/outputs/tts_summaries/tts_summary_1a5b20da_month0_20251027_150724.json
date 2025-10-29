@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! Coci is a calm, loving five‑year‑old Shar Pei who really embodies the breed — loyal, a bit reserved with strangers, and wrapped in those adorable wrinkles that need weekly attention. At this stage you’re consolidating training and maintenance: Coci responds best to short, consistent reward‑based sessions; watch skin folds and ears for irritation, and be mindful of joint comfort as activity changes. You know how Shar Peis can get warm quickly and how Seattle’s mix of rain and heat affects skin? Here’s the thing: it’s worth chatting with your vet about routine skin and ear care and joint support if you notice stiffness. Coci's plan keeps her fed, folded‑clean, and cool. Check the recommendations below.",
+  "word_count": 117,
+  "metadata": {
+    "generated_at": "2025-10-27T15:07:24.860418",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 45.78,
+    "audio_elapsed_seconds": 8.63,
+    "tokens": {
+      "prompt": 8790,
+      "completion": 2786,
+      "total": 11576
+    }
+  }
+}

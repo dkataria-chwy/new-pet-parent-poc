@@ -1,0 +1,436 @@
+{
+  "total_categories": 26,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food & Feeding",
+      "family": "Adult dry kibble (chicken-free)",
+      "description": "Complete adult maintenance dry kibble formulated for medium/large breeds (50 lb maintenance calories) with novel protein or chicken-free recipe (e.g., fish, lamb, or turkey-free if cross-reactive). Medium-size kibble to encourage chewing; sold in 12–30 lb bags to match household usage.",
+      "rationale": "Daily staple — dog must eat a balanced adult diet every day. This Shar Pei has a documented chicken allergy, so a chicken-free kibble is essential to avoid allergic reactions and maintain skin health.",
+      "evidence": [
+        "breed: Shar Pei",
+        "age_months: 61",
+        "weight_lb: 50.0",
+        "allergies: Chicken",
+        "standard: AAFCO_adult_maintenance_guideline"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Water & Hydration",
+      "family": "Filtered pet water fountain",
+      "description": "Continuous-flow pet water fountain (plastic or stainless) with replaceable carbon filter and 1–2L capacity to keep water circulating and cooler, encouraging frequent drinking in an apartment setting.",
+      "rationale": "Fresh water available at all times is required daily. Current excessive heat warning increases dehydration risk — a fountain improves intake and keeps water cooler in warm conditions.",
+      "evidence": [
+        "house_type: apartment",
+        "weather_context: excessive_heat_warning",
+        "age_months: 61",
+        "standard: hydration_prevention_guideline_for_heat"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Waste Management",
+      "family": "Biodegradable poop bags (scent-free)",
+      "description": "Durable, leak-resistant biodegradable/compostable poop bags in dispenser-ready rolls (standard 9x13 inch) for daily walks and indoor disposal.",
+      "rationale": "Daily excretion disposal is a basic need for an apartment dog. Reliable bags prevent messes and odor buildup in shared building spaces.",
+      "evidence": [
+        "yard: no_yard",
+        "house_type: apartment",
+        "activity: medium"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Climate Safety",
+      "family": "Non-electric cooling mat (instant/chill gel)",
+      "description": "Portable, non-electric cooling mat sized for a 50 lb dog (medium/large), pressure-activated or gel-cooling surface that stays cool without refrigeration. Machine-washable cover or wipeable surface.",
+      "rationale": "Excessive heat warning in zip 98052 creates immediate heat-risk indoors for an apartment dog. A cooling mat reduces heat-stress quickly and is an immediate safety item.",
+      "evidence": [
+        "zip: 98052",
+        "weather_context: excessive_heat_warning",
+        "weight_lb: 50.0",
+        "house_type: apartment",
+        "standard: heat_stress_prevention_for_dogs"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats & Reinforcement",
+      "family": "Daily low-calorie, chicken-free training treats",
+      "description": "Small, low-calorie soft training treats or bite-sized freeze-dried treats made from single non-chicken protein (e.g., beef-free if necessary — fish, duck, or lamb options) for daily reinforcement; resealable packaging.",
+      "rationale": "Daily positive reinforcement helps maintain good apartment manners and allows quick rewards during walks or training. Must be chicken-free to avoid allergen exposure.",
+      "evidence": [
+        "allergies: Chicken",
+        "house_type: apartment",
+        "activity: medium",
+        "standard: positive_reinforcement_guidelines"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Skin & Coat Care",
+      "family": "Wrinkle & skin-fold cleansing wipes or foam",
+      "description": "pH-balanced, antibacterial/antifungal wipes or gentle foam specifically for facial/body folds (alcohol-free, fragrance-free) in single-wipe format to clean between skin folds daily-to-weekly as needed.",
+      "rationale": "Shar Peis have deep skin folds prone to moisture trapping and secondary infections. Regular fold cleaning is preventive care to reduce dermatitis risk.",
+      "evidence": [
+        "breed: Shar Pei",
+        "standard: breed_skin_fold_care_recommendation",
+        "age_months: 61"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Ear & Skin Maintenance",
+      "family": "Gentle canine ear-cleaning solution",
+      "description": "pH-balanced dog ear cleaner (non-irritating, hypoallergenic) in a bottle with nozzle tip for weekly or as-needed cleaning of floppy or wrinkled ears; alcohol-free.",
+      "rationale": "Breed’s skin folds and ear conformation can predispose to ear debris/irritation; routine cleaning prevents infections and keeps ears comfortable in apartment living.",
+      "evidence": [
+        "breed: Shar Pei",
+        "standard: routine_ear_care_guideline",
+        "house_type: apartment"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Walk & Safety Gear",
+      "family": "Soft front-clip walking harness (medium/50 lb)",
+      "description": "Padded front-clip harness sized for a 50 lb dog (adjustable straps, quick-release buckles) to reduce pulling and give safer control during apartment/street walks.",
+      "rationale": "Apartment living relies on efficient, safe walks. A harness provides better control, reduces neck strain, and helps manage unexpected noises (leaf blowers, Halloween doorbells, hunting season).",
+      "evidence": [
+        "weight_lb: 50.0",
+        "house_type: apartment",
+        "calendar_context: hunting_season_2025",
+        "calendar_context: leaf_blower_season_2025",
+        "standard: harness_safety_guideline"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Visibility & Night Safety",
+      "family": "Reflective leash or LED leash attachment",
+      "description": "Reflective-coated leash or USB-rechargeable LED strip/clip that attaches to leash for evening visibility; water-resistant and bright for city walks.",
+      "rationale": "Hunting season and shorter daylight (Daylight Saving End) plus apartment street-walking increase need for visibility; prevents accident risk during low-light walks.",
+      "evidence": [
+        "calendar_context: hunting_season_2025",
+        "calendar_context: daylight_saving_fall_2025",
+        "house_type: apartment",
+        "standard: night_visibility_guideline"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding Tools",
+      "family": "Slow-feeder bowl",
+      "description": "Weighted, non-slip slow-feeder bowl sized for adult medium/large dogs to slow gulping and promote digestion (dishwasher-safe).",
+      "rationale": "Medium activity apartment dogs can eat quickly; slowing intake reduces regurgitation risk and helps digestion.",
+      "evidence": [
+        "activity: medium",
+        "weight_lb: 50.0",
+        "standard: feeding_management_guideline"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding Tools",
+      "family": "Elevated stainless steel bowl stand (mid-height)",
+      "description": "Sturdy elevated feeder (one or two bowls) sized for a 50 lb dog to reduce neck strain; stainless steel bowls to avoid odors and for easy cleaning.",
+      "rationale": "Moderate-size adult dogs sometimes benefit from slightly elevated bowls for ergonomics; helps cleaner feeding area in small apartment.",
+      "evidence": [
+        "weight_lb: 50.0",
+        "house_type: apartment",
+        "standard: feeding_ergonomics_guideline"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Dental Care",
+      "family": "Hypoallergenic dental chews (chicken-free)",
+      "description": "Dental chews sized for medium/large dogs formulated to reduce plaque/tartar, explicitly chicken-free and low-fat; used several times per week as preventive dental care.",
+      "rationale": "Dental health is a preventive best practice; chews help reduce plaque accumulation and can be started in adults to preserve oral health.",
+      "evidence": [
+        "age_months: 61",
+        "standard: veterinary_dental_prevention_guideline",
+        "allergies: Chicken"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming Tools",
+      "family": "Rubber curry brush & grooming glove set",
+      "description": "Soft rubber curry brush/grooming glove suited for short coats to reduce loose hair and stimulate skin; easy to use in apartment to reduce dander and allergen buildup.",
+      "rationale": "Regular grooming reduces skin irritation and removes debris from folds; also helps during fall allergy season and indoor living.",
+      "evidence": [
+        "breed: Shar Pei",
+        "calendar_context: allergy_season_fall_2025",
+        "house_type: apartment",
+        "standard: grooming_for_short_coats"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Nail Care",
+      "family": "Dog nail grinder or clippers",
+      "description": "Quiet rotary nail grinder (or quality guillotine clippers) with safety guard for at-home nail maintenance and smoothing; cordless grinders help avoid stress in apartment spaces.",
+      "rationale": "Apartment dogs need routine nail upkeep to avoid noise, damage to floors, and discomfort. A grinder reduces clamping and splinter risk.",
+      "evidence": [
+        "house_type: apartment",
+        "standard: routine_nail_care_guideline"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Odor & Housekeeping",
+      "family": "Enzyme-based odor neutralizer (spray)",
+      "description": "Enzyme stain and odor remover for pet urine and organic stains, safe for fabrics and carpets, to manage apartment odor between deep cleans.",
+      "rationale": "No-yard apartment living increases reliance on indoor cleanliness. Enzyme cleaners break down odors and reduce repeat marking or odor retention.",
+      "evidence": [
+        "yard: no_yard",
+        "house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys & Play",
+      "family": "Durable rubber treat-dispensing toy",
+      "description": "Stuffable rubber treat-dispensing toy (hollow center) sized for average chewers that can hold small treats or kibble; dishwasher-safe and non-toxic.",
+      "rationale": "Provides mental stimulation and slow-feeding enrichment for indoor apartment time; appropriate for average chewers to extend engagement.",
+      "evidence": [
+        "chew_strength: average",
+        "house_type: apartment",
+        "activity: medium"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Mental Stimulation",
+      "family": "Puzzle feeder / snuffle mat",
+      "description": "Interactive puzzle feeder or snuffle mat to hide kibble/treats and encourage foraging behavior; machine washable pieces for apartment use.",
+      "rationale": "Indoor enrichment that stimulates natural foraging and reduces boredom, important when outdoor time is limited and during rain season.",
+      "evidence": [
+        "yard: no_yard",
+        "calendar_context: pacific_northwest_rain_season_2025",
+        "activity: medium",
+        "standard: enrichment_for_indoor_dogs"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Chews & Long-lasting Occupiers",
+      "family": "Long-lasting nylon/composite chew (non-edible)",
+      "description": "Durable, non-edible long-lasting nylon or composite chew appropriate for average chewers, sized for medium/large dogs to occupy time and reduce destructive behavior.",
+      "rationale": "Reduces boredom and provides safe outlet for chewing in an apartment; avoids edible chews that may contain chicken.",
+      "evidence": [
+        "chew_strength: average",
+        "house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Interactive Play",
+      "family": "Tug rope toy",
+      "description": "Durable tug rope for interactive owner-dog play; medium thickness for average chew strength, with secure knotting and washable fibers.",
+      "rationale": "Interactive play builds bond and provides physical exercise indoors when outdoor time is limited, helping manage energy in apartment living.",
+      "evidence": [
+        "about: Very loving, friendly and quite.",
+        "house_type: apartment",
+        "activity: medium"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Fetch & Soft Toys",
+      "family": "Soft indoor ball (noise-reduced)",
+      "description": "Soft, carpet-safe indoor ball or plush fetch toy designed not to damage furniture or create loud noises in an apartment; medium size for 50 lb dog.",
+      "rationale": "Allows short indoor fetch sessions without disturbing neighbors; useful during rainy days or early/late walks.",
+      "evidence": [
+        "house_type: apartment",
+        "calendar_context: pacific_northwest_rain_season_2025"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Anxiety & Calming",
+      "family": "Calming wrap / pressure vest",
+      "description": "Adjustable calming wrap (thundershirt-style) sized for medium/large dogs to provide gentle pressure during loud events (leaf blowers, Halloween doorbells, hunting season noises).",
+      "rationale": "Calendar events (leaf blower, hunting season, Halloween) can cause stress; a calming wrap is a non-medical tool to reduce anxiety during those times.",
+      "evidence": [
+        "calendar_context: leaf_blower_season_2025",
+        "calendar_context: hunting_season_2025",
+        "calendar_context: halloween_2025"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Bedding & Comfort",
+      "family": "Orthopedic memory-foam dog bed (medium/large)",
+      "description": "Supportive memory-foam bed sized for a 50 lb dog with washable cover and low profile for easy access in an apartment; breathable fabric recommended for warmer months.",
+      "rationale": "Provides comfortable resting surface for daily naps and joint support; improves sleep quality and offers a dedicated space in small living areas.",
+      "evidence": [
+        "weight_lb: 50.0",
+        "house_type: apartment",
+        "calendar_context: senior_pet_month_2025"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Scent & Nose Work",
+      "family": "Basic scent-work / nose training kit",
+      "description": "Beginner scent training kit with scent containers, washable scent pads, and an instruction booklet to run short indoor scent games.",
+      "rationale": "Shar Peis benefit from mental stimulation; nose work is low-impact, enriching, and ideal for rainy days or limited outdoor access.",
+      "evidence": [
+        "activity: medium",
+        "house_type: apartment",
+        "calendar_context: pacific_northwest_rain_season_2025"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Walk Accessories",
+      "family": "Treat pouch for walks",
+      "description": "Hands-free treat pouch with secure closure and poop-bag dispenser for carrying chicken-free treats and bags on walks; clip for belt or waistband.",
+      "rationale": "Improves convenience for frequent short apartment walks and training reinforcement on the go.",
+      "evidence": [
+        "house_type: apartment",
+        "activity: medium"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Paw Care",
+      "family": "Paw balm (pet-safe)",
+      "description": "Pet-safe paw balm to moisturize pads and protect from hot surfaces; small tin or tube for occasional use after hot pavement exposure or indoor dryness.",
+      "rationale": "Excessive heat warning increases risk of hot pavement; paw balm provides protection and is a handy apartment-first-aid non-medical product.",
+      "evidence": [
+        "weather_context: excessive_heat_warning",
+        "house_type: apartment",
+        "standard: paw_protection_guideline"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Safety & Visibility",
+      "family": "Small USB-rechargeable clip-on LED safety light",
+      "description": "Compact clip-on LED safety light that attaches to collar for extra visibility at night; rechargeable, water-resistant, multiple flash modes.",
+      "rationale": "Supplemental visibility for late/evening walks during hunting season and shorter daylight; low-cost reassurance in apartment neighborhood.",
+      "evidence": [
+        "calendar_context: hunting_season_2025",
+        "calendar_context: daylight_saving_fall_2025",
+        "house_type: apartment"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "1a5b20da-d5c7-475d-8d1d-fb23a083d895",
+    "pet_id": "f700825b-a692-4bd5-8607-9142bcc43f8d",
+    "month_idx": 1,
+    "pet_name": "Coci",
+    "pet_species": "dog",
+    "generated_at": "2025-10-27T18:12:48.501737",
+    "stage": "stage1_structured"
+  }
+}

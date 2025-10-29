@@ -1,0 +1,447 @@
+{
+  "pet_id": "f700825b-a692-4bd5-8607-9142bcc43f8d",
+  "month": 1,
+  "slots": [
+    {
+      "slot_id": 1,
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "Adult dog dry kibble for a 50 lb medium-activity dog, limited-ingredient novel protein formula, 20\u201330 lb bag, medium bite size, AAFCO complete adult maintenance, moderate fat and joint-support nutrients",
+      "bm25_query": "adult dog dry kibble 50 lb limited-ingredient novel protein 20-30 lb medium kibble AAFCO moderate fat joint support NOT Chicken",
+      "top_k": 12,
+      "rationale": "Daily nutrition is an absolute daily consumable. This Shar Pei is 61 months (adult), 50 lb, with a documented chicken allergy \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 2,
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Adult dog soft training treats, single-protein low-calorie bites, small pea-sized pieces for frequent rewards, resealable pouches to stay fresh",
+      "bm25_query": "soft training treats single-protein low calorie small bites resealable pouch NOT Chicken",
+      "top_k": 12,
+      "rationale": "Treats are used daily for reinforcement of good behavior and during routine walks/training in an apartment environment \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 3,
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Adult dog filtered recirculating water fountain, 2\u20134 L capacity, replaceable charcoal filter, stainless/ceramic or BPA-free plastic, dishwasher-safe parts for apartment use",
+      "bm25_query": "dog water fountain filtered recirculating 2-4 L charcoal filter stainless ceramic BPA-free dishwasher-safe",
+      "top_k": 10,
+      "rationale": "Fresh water is a daily consumable. During an excessive heat warning (current), encouraging frequent drinking reduces heat-stress risk. A fountain increases intake compared with stagnant bowls and suits an apartment lifestyle.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 4,
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "Sturdy biodegradable compostable poop bags on rolls, leak-resistant, 120+ count option, dispenser-compatible and compact for leash attachment",
+      "bm25_query": "biodegradable poop bags leak resistant rolls 120 count dispenser compatible leash attachment",
+      "top_k": 15,
+      "rationale": "Daily walks from an apartment require reliable waste pickup. Poop bags are a daily consumable necessary for sanitation and local ordinance compliance.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 5,
+      "bucket": "essentials",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Adult dog non-electric cooling mat sized for 50 lb medium dog (~24x36 in), pressure-activated gel or phase-change, no-freeze design, durable chew-resistant cover, easy to wipe clean",
+      "bm25_query": "non-electric cooling mat 50 lb pressure activated gel phase-change 24x36 chew resistant washable",
+      "top_k": 12,
+      "rationale": "Active excessive heat warning in the area creates immediate heat-stress risk. A cooling pad provides an immediate, non-medical way to lower body temperature while indoors (critical safety item today). Shar Pei have facial wrinkles and can overheat; cooling surface reduces risk in apartment settings without AC or when windows/doors are open.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 6,
+      "bucket": "essentials",
+      "top_family": "Leashes/Collars",
+      "family": "Collars & ID Tags",
+      "embedding_query": "Adult dog rechargeable LED collar or USB-rechargeable clip-on safety light, multiple modes (steady/blink), water-resistant, visible 100+ yards, reflective stitching for dusk/dawn visibility",
+      "bm25_query": "LED collar rechargeable clip-on safety light steady blink water-resistant visible 100 yards reflective",
+      "top_k": 12,
+      "rationale": "Apartment walkers often walk in low light; hunting season and fall daylight changes increase the risk of low-visibility encounters. This is an immediate safety item to reduce collision or misidentification risk on walks.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 7,
+      "bucket": "essentials",
+      "top_family": "Boots & Socks",
+      "family": "Boots & Socks",
+      "embedding_query": "Adult dog paw protection for hot pavement: pet-safe paw wax balm or lightweight breathable booties sized for 50 lb medium dog, rugged flexible soles and reflective straps for night walks",
+      "bm25_query": "paw protection paw wax booties hot pavement 50 lb medium rugged flexible sole reflective straps",
+      "top_k": 10,
+      "rationale": "During excessive heat, pavement and sidewalks can reach temperatures that burn paw pads. This Shar Pei walks from an apartment (no yard) and is at risk on hot surfaces \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 8,
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Sprays/Foams/Wipes",
+      "embedding_query": "Adult dog gentle pH-balanced facial fold wipes for wrinkles, fragrance-free, non-medicated formula to remove dirt and moisture, pack of 50\u2013100 wipes",
+      "bm25_query": "facial fold wipes pH balanced fragrance-free non-medicated 50-100 pack",
+      "top_k": 10,
+      "rationale": "Shar Pei have deep facial folds prone to moisture and debris accumulation that can cause irritation. Regular non-medicated cleaning prevents skin fold dermatitis. This is best-practice preventive care for this breed.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 9,
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Sprays/Foams/Wipes",
+      "embedding_query": "Adult dog alcohol-free ear-cleaning wipes or pads to remove surface debris and excess wax, single-use or gentle reusable options, pack sized for weekly use",
+      "bm25_query": "ear cleaning wipes alcohol-free debris wax weekly pack gentle reusable",
+      "top_k": 10,
+      "rationale": "Shar Pei can be prone to ear issues due to narrow ear canals and skin folds. Regular, gentle cleaning prevents buildup and reduces infection risk. This is preventive care appropriate for this breed and apartment living (less mud exposure but indoor allergens).",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 10,
+      "bucket": "nice_to_haves",
+      "top_family": "Dental (Brush & Enzymatic Paste)",
+      "family": "Dental (Brush & Enzymatic Paste)",
+      "embedding_query": "Adult dog dual-headed toothbrush or finger brush plus enzymatic toothpaste in non-meat flavor (poultry-free mint or other), travel-size paste and compact holder for apartment storage",
+      "bm25_query": "dog toothbrush finger brush enzymatic toothpaste non-meat flavor travel size holder NOT Chicken",
+      "top_k": 8,
+      "rationale": "Dental care prevents periodontal disease; AAHA recommends regular toothbrushing. While often started later, adult dogs benefit from routine brushing and enzymatic paste to reduce plaque accumulation.",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 11,
+      "bucket": "nice_to_haves",
+      "top_family": "Dental (VOHC Chews)",
+      "family": "Dental (VOHC Chews)",
+      "embedding_query": "Adult dog veterinary-recommended dental chews sized for 50 lb dog, nylon or chew stick options for daily use, ingredients explicitly exclude chicken-derived proteins",
+      "bm25_query": "dental chews 50 lb veterinary recommended nylon chew chicken-free NOT Chicken",
+      "top_k": 10,
+      "rationale": "Clinical guidance supports dental chews as adjuncts to brushing to reduce plaque/tartar. Choose chicken-free to avoid allergy triggers.",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 12,
+      "bucket": "nice_to_haves",
+      "top_family": "Supplements",
+      "family": "Supplements",
+      "embedding_query": "Adult dog joint support supplement for ~50 lb dogs with glucosamine, chondroitin and omega fatty acids, palatable soft chews or powder that exclude chicken-derived flavors or binders",
+      "bm25_query": "joint supplement 50 lb glucosamine chondroitin omega fatty acids soft chews powder chicken-free NOT Chicken",
+      "top_k": 12,
+      "rationale": "Shar Pei can develop joint issues later in life; early preventive supplementation can support cartilage health. This is preventive, not a medication, and appropriate for adult dogs approaching middle age.",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 13,
+      "bucket": "nice_to_haves",
+      "top_family": "Calming (Aids & Refills)",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Adult dog calming vest pressure-wrap style sized for 50 lb dog, breathable material for warm weather, machine-washable, provides proprioceptive calming during noisy events",
+      "bm25_query": "calming vest pressure wrap 50 lb breathable machine washable proprioceptive calming",
+      "top_k": 10,
+      "rationale": "Calendar shows multiple stress-inducing events (leaf blower season, hunting season, Halloween). A calming vest is a non-pharmaceutical tool to reduce situational anxiety during these events.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 14,
+      "bucket": "nice_to_haves",
+      "top_family": "Harness & Leash",
+      "family": "Harness & Leash",
+      "embedding_query": "Adult dog front-clip no-pull padded harness for medium/large dogs, adjustable straps, padded chest and back panels, reflective trim for low-light safety, lightweight breathable fabric",
+      "bm25_query": "front clip no-pull padded harness medium adjustable reflective breathable chest pad",
+      "top_k": 12,
+      "rationale": "Controlled, comfortable walking in an apartment environment reduces leash reactivity and protects the neck (Shar Pei have short muzzles but can pull). A no-pull harness improves safety and owner control on frequent walks.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 15,
+      "bucket": "nice_to_haves",
+      "top_family": "Seasonal/Environment",
+      "family": "Filters (Feeding)",
+      "embedding_query": "Portable HEPA air purifier for apartment (300\u2013500 sq ft coverage) with activated carbon stage, quiet night mode for bedrooms and living rooms to reduce allergens",
+      "bm25_query": "HEPA air purifier 300-500 sq ft activated carbon quiet night mode apartment",
+      "top_k": 10,
+      "rationale": "Calendar indicates fall allergy season currently active; indoor air filtration reduces environmental allergens that can aggravate canine skin/respiratory issues and household comfort for sensitive dogs and owners.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 16,
+      "bucket": "nice_to_haves",
+      "top_family": "Brushes/Combs & Tools",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Adult dog soft rubber curry brush or short-coat grooming mitt for short-haired breeds, handheld apartment-friendly size to remove loose hair and stimulate skin oils",
+      "bm25_query": "rubber curry brush short-coat grooming mitt soft handheld remove loose hair stimulate oils",
+      "top_k": 8,
+      "rationale": "Regular brushing keeps the short coat healthy, reduces loose hair in an apartment, and helps inspect/air out skin folds\n\n\n\n\n\n\n\n\n\n\n\n",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 17,
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Combs & Tick Removers",
+      "embedding_query": "Adult dog nail trimmer or low-speed grinder with safety guard sized for medium/large nails, nonslip handle, plus styptic powder for minor nicks",
+      "bm25_query": "dog nail trimmer grinder safety guard nonslip handle styptic powder",
+      "top_k": 8,
+      "rationale": "Routine nail maintenance is preventive; apartment floors can accelerate wear and long nails cause gait changes. Having tools at home prevents overgrowth between groomer visits.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 18,
+      "bucket": "enrichment",
+      "top_family": "Puzzle & Interactive Toys",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Adult dog durable treat-dispensing puzzle toy sized for medium dogs, adjustable difficulty, dishwasher-safe components, use with non-chicken kibble or treats",
+      "bm25_query": "treat dispensing puzzle toy medium adjustable difficulty dishwasher safe NOT Chicken",
+      "top_k": 12,
+      "rationale": "Apartment living limits outdoor exercise; interactive puzzles provide mental stimulation and slow-feeding benefits, reducing boredom and destructive behavior.",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 19,
+      "bucket": "enrichment",
+      "top_family": "Toys (General)",
+      "family": "Toys (General)",
+      "embedding_query": "Adult dog medium-strength durable rubber chew toy for average chewers, hollow for stuffing, sturdy but not heavy-duty, safe for Shar Pei",
+      "bm25_query": "rubber chew toy medium strength hollow stuffing sturdy average chewer Shar Pei",
+      "top_k": 10,
+      "rationale": "Provides safe outlet for chewing, helps dental abrasion, and occupies the dog during downtime in an apartment. Shar Pei benefit from enrichment that is low-impact on teeth.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 20,
+      "bucket": "enrichment",
+      "top_family": "Toys (General)",
+      "family": "Toys (General)",
+      "embedding_query": "Indoor flirt-pole or sturdy tug toy sized for apartment play, long-handled or compact, lightweight and collapsible for storage to provide short bursts of high-intensity exercise",
+      "bm25_query": "flirt-pole indoor tug toy apartment collapsible storage high intensity play",
+      "top_k": 10,
+      "rationale": "Medium-activity dog in an apartment needs outlet for energy when outdoor exercise is limited (no yard). Flirt poles and tug toys give quick, controlled exercise and bonding time.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 21,
+      "bucket": "enrichment",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "Adult dog slow-feeder bowl with ridges or fabric snuffle mat sized for medium meal portions, machine-washable or easy to clean, extends mealtime and encourages sniffing",
+      "bm25_query": "slow feeder bowl ridged snuffle mat medium portions machine washable extend mealtime NOT Chicken",
+      "top_k": 12,
+      "rationale": "Slows eating to improve digestion and provide mental enrichment; useful for daily meals in an apartment to reduce boredom and enhance feeding experience.",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 22,
+      "bucket": "enrichment",
+      "top_family": "Beds",
+      "family": "Beds",
+      "embedding_query": "Supportive indoor dog bed for a 50 lb dog, medium-large size, breathable washable cover, memory foam or supportive poly, low-profile for easy access, consider cooling-top option",
+      "bm25_query": "supportive dog bed 50 lb medium-large breathable washable memory foam low profile cooling top",
+      "top_k": 12,
+      "rationale": "Improves sleep quality and provides a dedicated spot in the apartment. A supportive bed helps joint comfort as the dog ages and gives a cool/warm resting surface depending on insert type.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 23,
+      "bucket": "enrichment",
+      "top_family": "Puzzle & Interactive Toys",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Fabric snuffle/foraging mat to hide kibble or treats, machine-washable, non-toxic fibers to encourage sniffing and foraging behavior indoors",
+      "bm25_query": "snuffle mat foraging mat hide kibble machine washable non-toxic fibers NOT Chicken",
+      "top_k": 10,
+      "rationale": "Promotes species-typical sniffing behavior and mental enrichment in an apartment environment, reducing stress and providing slow, engaging activity.",
+      "negatives": [
+        "Chicken"
+      ],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 24,
+      "bucket": "enrichment",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Silicone rubber massage and grooming glove for short-haired breeds, gentle on skin folds, removes loose hair and easy to clean",
+      "bm25_query": "silicone grooming glove massage short coat remove loose hair easy clean gentle folds",
+      "top_k": 8,
+      "rationale": "Adds gentle tactile enrichment, promotes skin circulation, helps keep the short coat tidy and remove loose hair in apartment settings.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    },
+    {
+      "slot_id": 25,
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Handheld clicker for marker training plus compact clip-on treat pouch for belt or leash, durable materials for frequent apartment training sessions",
+      "bm25_query": "clicker treat pouch portable clip on belt leash durable training apartment",
+      "top_k": 8,
+      "rationale": "Supports positive reinforcement training to maintain calm behavior in shared living spaces and during seasonal stressors (leaf blowers, doorbell at Halloween). Useful for daily short training sessions in an apartment.",
+      "negatives": [],
+      "musts": [
+        "species:dog"
+      ],
+      "filters": {
+        "pc1": "Dog"
+      }
+    }
+  ]
+}
