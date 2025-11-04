@@ -1,0 +1,50 @@
+Hey there! This is a prototype built to experiment and learn how to leverage Generative AI to create a truly personalized pet journey—one that supports pet parents through every stage with a concierge-style experience tailored to each individual pet.
+
+The UI you'll see is made for demo purposes to showcase this experience.
+
+Let's jump into an existing pet profile. We'll use Thor…… 
+This is Thor. We have a pet profile covering his breed, age, characteristics, living situation, and location. These details influence the personalized recommendations you'll see.
+
+Let's dive into Month 2……
+
+Perfect. Let's click into "This Month's Plan" to see the full breakdown.
+
+Here you'll see this personalized rationale. It's specifically tailored for Thor—a 3-month-old, 10-pound, high-activity, strong-chewer Pug living in an apartment. 
+It considers his breed characteristics, his developmental stage, his living situation, and what's most important right now during his critical socialization and housebreaking window.
+
+The recommendations are organized into three categories: Subscriptions for items Thor needs regularly, Bundles for curated packages, and Singles for one-time purchases like safety and seasonal items or durable gear.
+
+But here's what makes this different—every recommendation comes with reasoning that explains why each product matters for Thor specifically.
+
+Let me show you.
+
+Thor is a Pug, which means he's a brachycephalic breed with facial folds that require regular cleaning to prevent skin infections. It recognizes this breed-specific need and recommends wrinkle wipes on autoship every 8 months.
+
+Here's the reasoning: it's calculated based on how many wipes come in the package, how often Thor's folds need cleaning, and when he'll actually run out. This isn't arbitrary—it's optimized for Thor's actual usage.
+
+Now let's look at the food recommendation. Thor is growing rapidly right now—he's in that critical 0-to-6-month window where nutrition directly impacts his development. For his nutrition, it recommends a small-breed puppy formula on autoship every 6 weeks, tailored to his weight, activity level, and when he'll actually run out.
+
+Another great example is training pads.
+Thor is 3 months old and still house-training in an apartment with no yard access. He gets pads on autoship every 5 weeks based on his estimated daily usage. And importantly, this is recognized as a temporary need that can be adjusted once he's fully trained.
+
+Now let's talk about one-time purchases.
+
+Notice the weather alert? There's an excessive heat warning for Thor's location… The AI sees this external factor and connects it to Thor's breed. Brachycephalic breeds have significant difficulty regulating body temperature and overheat quickly. So it's proactively recommending a cooling pad as a safety measure.
+
+And notice—it's categorized as a single purchase, not a subscription. Because cooling pads are seasonal safety items that you need when conditions require them. You buy one and it lasts. It recognizes the difference between products you replace regularly versus items you purchase once based on actual usage patterns.
+
+Remember noticing Thor is a strong chewer? See this KONG puppy tire toy? It is recommended as a single purchase because KONG toys are incredibly durable—designed to last months even for power chewers like Thor. While Thor will destroy regular plush toys in minutes, this KONG toy will keep him busy for a long time.
+
+And you see the pattern throughout—every recommendation has clear reasoning, reflects where Thor is in his journey right now, and is curated specifically for Thor. 
+That's what a truly personalized journey looks like—understanding each pet as an individual and adapting to their specific needs.
+
+Before we wrap up, let me show you one more feature.
+See this AI Recommendations feature? If something comes up that's not already covered in the curated plan, you can ask for recommendations in real-time.
+
+Let me ask: "Thor is feeling too bored lately…………………………" And within seconds, it's pulling personalized recommendations for mental stimulation—puzzle toys, interactive feeders, enrichment activities.
+
+Now watch what happens when I change the sentiment: "Thor is feeling too tired lately……………………………" Completely different response. Now it's recommending multivitamins, nutrients, comfort beds, and recovery support.
+
+Same pet, different need. It recognizes the difference and adapts accordingly. That's the on-demand intelligence layer on top of the curated journey.
+
+Thank you for watching.
