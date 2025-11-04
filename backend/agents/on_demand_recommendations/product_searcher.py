@@ -5,17 +5,23 @@ Handles vector search using enhanced embedding queries to find relevant products
 """
 
 import logging
+import os
 import sys
 from pathlib import Path
 from typing import Dict, List, Any
+from dotenv import load_dotenv
+
+# Load environment variables
+load_dotenv()
 
 # Add parent directories to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 from product_recommendations.storage_loader import EmbeddingStorageLoader
+from product_recommendations.qdrant_vector_search_rest import QdrantVectorSearch
 
-# Import the on-demand vector search
+# Import the on-demand vector search (for JSONL fallback)
 current_dir = Path(__file__).parent
 sys.path.insert(0, str(current_dir))
 from vector_search import OnDemandVectorSearch
@@ -34,6 +40,7 @@ class OnDemandProductSearcher:
         
         self.storage_loader = EmbeddingStorageLoader(str(embeddings_path))
         self.vector_search = None
+        self.qdrant_search = None  # For Qdrant mode
         self.is_initialized = False
     
     def initialize(self) -> Dict[str, Any]:
@@ -45,22 +52,60 @@ class OnDemandProductSearcher:
         """
         if not self.is_initialized:
             logger.info("Initializing on-demand product searcher...")
-            self.vector_search = OnDemandVectorSearch(self.storage_loader)
-            self.is_initialized = True
-            logger.info("✅ On-demand product searcher ready!")
             
-            # Return stats in the format expected by main.py
-            # Get the stats from storage_loader which should have total_products
-            if hasattr(self.storage_loader, 'full_df') and self.storage_loader.full_df is not None:
-                total_products = len(self.storage_loader.full_df)
-            else:
-                total_products = 0  # Fallback
+            # Check if we should use Qdrant
+            use_qdrant = os.getenv("USE_QDRANT", "false").lower() == "true"
+            
+            if use_qdrant:
+                logger.info("🚀 Using Qdrant vector database for on-demand search")
+                # Use Qdrant REST implementation
+                # Note: OnDemandVectorSearch will be set to None, we'll use QdrantVectorSearch directly
+                self.qdrant_search = QdrantVectorSearch()
+                self.vector_search = None  # Mark as not using JSONL
                 
-            return {
-                "total_products": total_products,
-                "search_type": "on_demand_vector_search",
-                "status": "initialized"
-            }
+                # Get stats from Qdrant
+                try:
+                    import requests
+                    session = requests.Session()
+                    session.headers.update({'api-key': os.getenv('QDRANT_API_KEY')})
+                    response = session.get(
+                        f"{os.getenv('QDRANT_URL')}/collections/chewy_products_117k"
+                    )
+                    response.raise_for_status()
+                    collection_info = response.json()["result"]
+                    total_products = collection_info["points_count"]
+                except Exception as e:
+                    logger.warning(f"Could not get Qdrant stats: {e}")
+                    total_products = 117584  # Fallback
+                
+                self.is_initialized = True
+                logger.info("✅ On-demand product searcher ready with Qdrant!")
+                
+                return {
+                    "total_products": total_products,
+                    "search_type": "qdrant",
+                    "status": "initialized"
+                }
+            else:
+                logger.info("📁 Using JSONL in-memory vector search for on-demand")
+                # Use JSONL-based search
+                self.vector_search = OnDemandVectorSearch(self.storage_loader)
+                self.qdrant_search = None
+                self.is_initialized = True
+                logger.info("✅ On-demand product searcher ready with JSONL!")
+                
+                # Return stats in the format expected by main.py
+                # Get the stats from storage_loader which should have total_products
+                if hasattr(self.storage_loader, 'full_df') and self.storage_loader.full_df is not None:
+                    total_products = len(self.storage_loader.full_df)
+                else:
+                    total_products = 0  # Fallback
+                    
+                return {
+                    "total_products": total_products,
+                    "search_type": "on_demand_vector_search",
+                    "status": "initialized"
+                }
         return {"total_products": 0}
     
     def search_products(self, 
@@ -87,17 +132,37 @@ class OnDemandProductSearcher:
         logger.info(f"Species: {species}, Top-K: {top_k}")
         
         try:
-            # Use the dedicated on-demand vector search (preserves full names)
-            results = self.vector_search.search_products(
-                embedding_query=embedding_query,
-                species=species,
-                top_k=top_k,
-                brand_preferences=brand_preferences  # Passed but not used internally
-            )
-            
-            logger.info(f"✅ Found {len(results)} products with full names")
-            
-            return results
+            if self.qdrant_search:
+                # Use Qdrant REST API
+                logger.info("Using Qdrant for search")
+                
+                # Create a slot in the format expected by Qdrant search
+                slot = {
+                    "slot_id": "on_demand",
+                    "embedding_query": embedding_query,
+                    "filters": {"pc1": species.lower()},
+                    "top_k": top_k,
+                    "brand_bias": brand_preferences or []
+                }
+                
+                # Search using Qdrant
+                results, _ = self.qdrant_search.search_slot(slot)
+                
+                logger.info(f"✅ Found {len(results)} products from Qdrant")
+                return results
+                
+            else:
+                # Use JSONL-based search (original behavior)
+                logger.info("Using JSONL for search")
+                results = self.vector_search.search_products(
+                    embedding_query=embedding_query,
+                    species=species,
+                    top_k=top_k,
+                    brand_preferences=brand_preferences  # Passed but not used internally
+                )
+                
+                logger.info(f"✅ Found {len(results)} products from JSONL")
+                return results
             
         except Exception as e:
             logger.error(f"❌ On-demand product search failed: {e}")

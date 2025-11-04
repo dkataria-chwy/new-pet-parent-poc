@@ -1,0 +1,17 @@
+{
+  "tts_summary": "Hey there! Coci is a calm, loving 5-year-old Shar Pei — you know how Shar Peis are proud and quietly affectionate, with those iconic folds that need gentle care. At five she's a settled adult: training still responds well to short, frequent reinforcement, but joint and dental health start to matter more than when she was a puppy. Here's the thing — apartment life and current heat warnings make hydration, cool spots, and controlled walks priorities. Watch Coci's folds and ears for irritation and chat with your vet about routine adult wellness and dental checks. I've matched chicken-free food, fold wipes, and cooling and enrichment items to keep Coci comfy and stocked. Explore the recommendations below.",
+  "word_count": 116,
+  "metadata": {
+    "generated_at": "2025-10-27T18:18:09.395778",
+    "model": "gpt-5-mini-2025-08-07",
+    "voice": "fable",
+    "audio_model": "gpt-4o-mini-tts",
+    "elapsed_seconds": 37.63,
+    "audio_elapsed_seconds": 8.63,
+    "tokens": {
+      "prompt": 8812,
+      "completion": 2327,
+      "total": 11139
+    }
+  }
+}

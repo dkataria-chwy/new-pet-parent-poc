@@ -209,7 +209,15 @@ def recommendations_node(state: PipelineState) -> Dict[str, Any]:
         _log("STAGE 3", "  Initializing recommendation engine...")
         engine = ProductRecommendationEngine()
         stats = engine.initialize()
-        _log("STAGE 3", f"  Loaded {stats['total_products']:,} products from catalog")
+        
+        # Log initialization stats
+        if stats.get('mode') == 'qdrant':
+            if 'total_products' in stats:
+                _log("STAGE 3", f"  Using Qdrant cloud ({stats['total_products']:,} products)")
+            else:
+                _log("STAGE 3", f"  Using Qdrant cloud vector database")
+        else:
+            _log("STAGE 3", f"  Loaded {stats['total_products']:,} products from catalog")
         
         # Save temporary LLM format file
         temp_file = OUTPUT_BASE / "stage2_structured" / f"temp_llm_format_{Path(stage2_path).name}"

@@ -1,0 +1,369 @@
+{
+  "total_categories": 25,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food & Nutrition",
+      "family": "Adult dry dog food (kibble)",
+      "description": "Complete adult maintenance dry kibble formulated for small/compact breeds with moderate-to-high activity. Small/mini kibble pieces for easy chewing by a 15 lb dog, protein-focused (e.g., 24–30% protein), moderate fat (10–20%), balanced vitamins/minerals. Available in 4–12 lb bags so portioning matches a 15 lb adult male. Consider limited-ingredient or novel-protein formulas if future skin/allergy signs appear.",
+      "rationale": "Daily staple — provides all required nutrition every day. At 12 months this Shar Pei is an adult with high activity and needs an appropriate caloric/protein profile to maintain lean mass and energy. Food is a consumable used daily and is immediately required.",
+      "evidence": [
+        "pet_profile: species: dog",
+        "pet_profile: breed: Shar Pei",
+        "pet_profile: age_months: 12",
+        "pet_profile: weight_lb: 15.0",
+        "pet_profile: activity: high",
+        "standard: AAFCO adult maintenance nutrient profile"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Food & Nutrition",
+      "family": "Wet food or broth toppers (canned or pouch)",
+      "description": "Low-sodium adult wet food or savory broth toppers to mix with dry kibble — single-serve or small cans to add moisture and palatability. Choose plain, low-ingredient toppers (no onion/garlic) and small serving sizes suitable for a 15 lb dog.",
+      "rationale": "Adds hydration and palatability to daily meals — useful for preventing dehydration, encouraging intake on hot days or during mild appetite dips. Wet toppers are a daily consumable accessory that supports eating consistency and GI comfort for a young, active dog.",
+      "evidence": [
+        "pet_profile: age_months: 12",
+        "pet_profile: activity: high",
+        "weather_context: multiple days with max_f up to 83.0 (warmer temps)",
+        "standard: feeding best practice for canine hydration and palatability"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Small, low-calorie training treats",
+      "description": "Soft, small (pea-sized) low-calorie training treats for frequent reinforcement during walks/training. Easy to break into tiny pieces; high-value but low-calorie options to avoid weight gain. Packaged in resealable pouches for daily use.",
+      "rationale": "High-activity 12-month-old dogs benefit from frequent positive reinforcement during walks, leash training, recall and enrichment. Training treats are a daily consumable used during multiple short training interactions and walks.",
+      "evidence": [
+        "pet_profile: age_months: 12",
+        "pet_profile: activity: high",
+        "pet_profile: chew_strength: average",
+        "calendar_context: school_bell_schedule_2025 (routine adjustment/training relevance)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Waste Management",
+      "family": "Dog poop bags (biodegradable rolls)",
+      "description": "Standard-size dog waste bags (biodegradable or compostable options), on-roll format for daily walks. Strong seams, easy-tie handles, scented or unscented as preferred. Multipack to cover daily walks and small yard cleanups.",
+      "rationale": "Used every time the dog goes on a walk or uses the yard — required for sanitary waste removal in apartment/urban settings and small yard upkeep. Daily consumable and necessary for legal/sanitary reasons.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: yard: small_yard",
+        "pet_profile: species: dog"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Safety & Visibility",
+      "family": "Reflective LED collar or rechargeable LED illumination band",
+      "description": "Rechargeable LED collar or LED safety band with reflective striping sized for a 15 lb dog (adjustable, lightweight). Waterproof, multiple flash modes, visible at distance and during dusk/dawn. Secure quick-release buckle and proper size range for small/medium neck.",
+      "rationale": "Immediate safety item while walking in urban areas and during hunting season/low-light conditions. Hunting season and nighttime walks increase risk of misidentification or low visibility — LED/reflective gear reduces collision and accidental injury risk.",
+      "evidence": [
+        "pet_profile: weight_lb: 15.0",
+        "calendar_context: hunting_season_2025 (relevance_to_pets: reflective_gear)",
+        "weather_context: days with varied outdoor activity (walks)",
+        "standard: pedestrian/animal visibility best practice"
+      ],
+      "priority": "critical",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Parasite Prevention",
+      "family": "Flea & tick preventative collar (long-wear)",
+      "description": "Long-wear flea & tick preventative collar for dogs (12+ month protection depending on product) sized for a small/medium dog. Non-prescription topical/ collar option that repels/kills fleas and ticks; water-resistant.",
+      "rationale": "Seattle-area urban/wild interface and ongoing hunting season increase tick exposure risk. Preventative product reduces future parasite-driven skin and systemic problems; good practice year-round in many areas.",
+      "evidence": [
+        "pet_profile: zip: 98121",
+        "calendar_context: hunting_season_2025",
+        "standard: parasite prevention recommended by veterinary guidelines"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming & Skin Care",
+      "family": "Ear cleaning solution (canine-safe)",
+      "description": "Gentle, pH-balanced ear cleanser for dogs with folded/small ears — non-irritating, alcohol-free, with wipes or solution and cotton pads. Formulated to remove wax and debris without over-drying.",
+      "rationale": "Shar Peis have tight skin folds and smaller, folded ears that trap moisture and wax; regular ear maintenance reduces risk of irritation and infection. This is a preventive hygiene product appropriate for monthly or as-needed home use.",
+      "evidence": [
+        "pet_profile: breed: Shar Pei",
+        "pet_profile: age_months: 12",
+        "standard: breed-specific ear care best practice"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming & Skin Care",
+      "family": "Skin-fold cleansing wipes or gentle antiseptic wipes",
+      "description": "Pre-moistened wipes formulated for canine skin folds — pH-balanced, antiseptic/antifungal safe, individually wrapped or tub. Sized for facial/nasal folds and body folds; fragrance-free options preferred.",
+      "rationale": "Shar Pei are predisposed to dermatitis in facial and body wrinkles. Regular fold-cleaning reduces trapped moisture, bacteria and yeast that lead to odor and infections. Useful after walks or when folds look damp/dirty.",
+      "evidence": [
+        "pet_profile: breed: Shar Pei",
+        "pet_profile: age_months: 12",
+        "calendar_context: leaf_blower_season_2025 (increased outdoor dust/debris)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming & Skin Care",
+      "family": "Hypoallergenic or oatmeal dog shampoo (gentle)",
+      "description": "Mild, hypoallergenic dog shampoo (oatmeal or sensitive-skin formula), pH-balanced, suitable for weekly-to-monthly baths. Small-to-medium bottle sizes for apartment storage.",
+      "rationale": "Shar Pei skin is sensitive and prone to irritation; a gentle shampoo helps treat dry/irritated skin and manage flare-ups without stripping natural oils. Routine bathing can help remove allergens and environmental irritants.",
+      "evidence": [
+        "pet_profile: breed: Shar Pei",
+        "calendar_context: fall_allergy_season (through 2025-10-31)",
+        "standard: dermatologic care best practices for sensitive-skinned breeds"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Dental Care",
+      "family": "Enzymatic toothpaste and dog toothbrush (finger brush or dual-head brush)",
+      "description": "Canine-specific enzymatic toothpaste (palatable flavor) and a soft-fiber toothbrush or finger brush sized for small mouths. Packaging suitable for daily/regular brushing.",
+      "rationale": "Dental care begins early—regular home brushing reduces plaque/tartar buildup and long-term periodontal disease. For a 12-month-old dog, establishing brushing habits prevents future dental problems.",
+      "evidence": [
+        "pet_profile: age_months: 12",
+        "standard: AAHA dental care recommendations for home care"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Nail Care",
+      "family": "Quiet nail grinder (cordless rotary)",
+      "description": "Battery-powered or rechargeable nail grinder with protective guard and low-noise motor for apartment use. Includes different grit attachments for safe grooming at home.",
+      "rationale": "Apartment living makes loud clipping stressful for both dog and neighbor; a quiet grinder eases at-home nail maintenance and reduces risk of over-clipping. Regular nail care prevents paw and gait problems.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: activity: high",
+        "standard: home grooming best practice"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Walking & Restraint",
+      "family": "Front-clip no-pull harness (padded, adjustable)",
+      "description": "Adjustable front-clip no-pull harness sized for a small/compact dog (chest girth range to fit a 15 lb Shar Pei). Padded chest plate, quick-release buckles, reflective trim for evening visibility.",
+      "rationale": "High-activity dogs in urban environments benefit from a harness that reduces pulling and distributes force safely. Front-clip harnesses improve leash manners and reduce collar neck pressure for a breed with facial skin folds.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: weight_lb: 15.0",
+        "calendar_context: hunting_season_2025 (leash safety relevance)"
+      ],
+      "priority": "high",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Behavior & Calming",
+      "family": "Pheromone diffuser (plug-in) for dogs",
+      "description": "Plug-in pheromone diffuser formulated for dogs (coverage suitable for an apartment). Refillable or replaceable cartridges for continuous home use; unscented/low-odor options available.",
+      "rationale": "Leaf blower season and Halloween doorbell activity can produce anxiety; a pheromone diffuser reduces baseline stress in the home environment and supports calmer behavior during stressful seasonal events.",
+      "evidence": [
+        "calendar_context: leaf_blower_season_2025",
+        "calendar_context: halloween_2025 (10/28–11/01)",
+        "pet_profile: house_type: apartment",
+        "standard: behavior management tools for noise/stress"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Behavior & Calming",
+      "family": "Calming/compression vest (anxiety wrap)",
+      "description": "Adjustable, breathable compression vest sized for a small/compact dog (XS/S). Lightweight, machine-washable, with adjustable closures to provide calming pressure during noisy events or stressful walks.",
+      "rationale": "Useful during short-term noise stressors (leaf blowers, fireworks, Halloween). Compression vests are non-medical, immediate home-based calming tools that can reduce situational anxiety for an apartment dog.",
+      "evidence": [
+        "calendar_context: leaf_blower_season_2025",
+        "calendar_context: halloween_2025",
+        "pet_profile: activity: high (may be reactive during unexpected noise)"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Hydration & Travel",
+      "family": "Portable collapsible water bottle with bowl",
+      "description": "Lightweight, leakproof portable dog water bottle with attached collapsible silicone bowl. Single-hand operation, holds ~12–20 oz — sized for short neighborhood walks and yard trips.",
+      "rationale": "High-activity dog and warm daytime temps (up to low 80s) require on-walk hydration. A portable bottle supports safe hydration during outings and quick yard sessions without relying on home bowls.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "weather_context: daily max_f up to 83.0",
+        "pet_profile: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys",
+      "family": "Durable treat-dispensing rubber toy",
+      "description": "Durable rubber treat-dispensing toy sized for small/medium dogs — hollow interior to stuff with kibble or treats, erratic bounce for chase play. Appropriate for average chewers; not marketed as indestructible for heavy chewers.",
+      "rationale": "Provides mental stimulation and independent play for a high-activity 12-month-old. Dispensing toys lengthen feeding time and engage natural foraging instincts — useful in apartment when owner is busy.",
+      "evidence": [
+        "pet_profile: age_months: 12",
+        "pet_profile: activity: high",
+        "pet_profile: chew_strength: average"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding Enrichment",
+      "family": "Interactive puzzle feeder or snuffle mat",
+      "description": "Flat snuffle mat or multi-level puzzle feeder that hides kibble/treats to encourage foraging behavior. Dishwasher-safe or easy-clean materials sized for small dog servings.",
+      "rationale": "Mental stimulation that slows feeding and increases sniffing/exploration — valuable in an apartment to channel energy and reduce boredom-related behavior for an energetic young dog.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: house_type: apartment",
+        "standard: enrichment best practices for high-energy dogs"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Exercise Equipment",
+      "family": "Flirt pole (long-handled lure toy)",
+      "description": "Collapsible/compact flirt pole with replaceable lure — lightweight pole (3–6 ft) for indoor/outdoor chase-play. Replaceable heads and durable stitching; safe for average chewers and joints.",
+      "rationale": "High-intensity short-burst exercise that’s space-efficient for apartment living. Helps expend energy quickly in small spaces, improves impulse control and recall when used with supervision.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: house_type: apartment",
+        "pet_profile: weight_lb: 15.0"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys",
+      "family": "Durable fetch ball (small size)",
+      "description": "Rubber or polyethylene fetch ball sized for small dogs (approx. 2–2.5 inches), buoyant, moderately durable for average chewers, easy to pick up. Bright color for visibility in small yard/park.",
+      "rationale": "Simple fetch sessions give structured exercise; ideal for daily high-energy play in small yard or on walks. Easy to store in apartment and used to burn off excess energy.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: weight_lb: 15.0",
+        "pet_profile: chew_strength: average"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys",
+      "family": "Tug rope toy (medium)",
+      "description": "Soft-but-durable tug rope with knotted handles sized for small dogs and human hands. Machine-washable or rinseable, non-abrasive for teeth.",
+      "rationale": "Interactive owner-dog play that builds bond and provides energy outlet; good for indoor play when outdoor exercise is limited.",
+      "evidence": [
+        "pet_profile: activity: high",
+        "pet_profile: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Seasonal Comfort",
+      "family": "Cooling mat (self-cooling or gel)",
+      "description": "Self-cooling pad sized for small dogs (compact dimensions suitable for apartment floors). Non-electrical, reactivatable gel or phase-change material, machine-washable cover.",
+      "rationale": "Upcoming warm days (up to ~83°F) increase the need for cool resting surfaces indoors, especially for a breed with skin folding that can trap heat. Cooling mats improve comfort during warmer spells.",
+      "evidence": [
+        "weather_context: daily max_f up to 83.0",
+        "pet_profile: breed: Shar Pei",
+        "pet_profile: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding Enrichment",
+      "family": "Slow-feed bowl (puzzle pattern)",
+      "description": "Plastic or ceramic slow-feed bowl with maze/pattern to slow rapid eaters; small size suitable for kibble portions for a 15 lb dog. Dishwasher-safe and non-slip base.",
+      "rationale": "Slows eating, reduces gulping and potential GI upset; provides mild mental engagement during meals. Useful for active young dogs that may eat quickly.",
+      "evidence": [
+        "pet_profile: age_months: 12",
+        "pet_profile: activity: high",
+        "standard: feeding behavior best practice"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Calming & Enrichment",
+      "family": "Lick mat (silicone) for calming",
+      "description": "Non-slip silicone lick mat sized for small dogs; spreadable-paste foods or wet topper compatible. Dishwasher-safe and freezer-safe for extended licking sessions.",
+      "rationale": "Provides slow oral engagement that calms dogs during noise events or when left alone briefly; good for redirecting anxiety during Halloween/leaf blower disturbances.",
+      "evidence": [
+        "calendar_context: halloween_2025",
+        "calendar_context: leaf_blower_season_2025",
+        "pet_profile: house_type: apartment"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Containment & Yard",
+      "family": "Portable foldable exercise pen (exercise pen/Ex-pen)",
+      "description": "Lightweight, foldable exercise pen sized for small dogs; indoor/outdoor rated, quick set-up panels for temporary containment in apartment or small yard. Rust-resistant metal or heavy-duty plastic panels with secure locking latches.",
+      "rationale": "Provides a safe off-leash area in a small yard or inside when needed for enrichment, play, or when guests are present. Useful in apartment living for controlled free time without full confinement.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: yard: small_yard",
+        "pet_profile: activity: high"
+      ],
+      "priority": "medium",
+      "negatives": []
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training Tools",
+      "family": "Clicker and target stick",
+      "description": "Basic training clicker and a short target stick suitable for shaping behaviors and mental stimulation at home. Small, inexpensive, lightweight.",
+      "rationale": "Facilitates precision training, mental engagement and bond building. Especially useful for a young, active dog to teach impulse control and provide cognitive work indoors.",
+      "evidence": [
+        "pet_profile: age_months: 12",
+        "pet_profile: activity: high",
+        "calendar_context: school_bell_schedule_2025 (routine/training relevance)"
+      ],
+      "priority": "low",
+      "negatives": []
+    }
+  ],
+  "metadata": {
+    "journey_id": "8bd01df6-0e3b-4329-be2b-9ad0bfa92b4e",
+    "pet_id": "eddfbfdb-373a-4f47-9d9c-6d2103f2f4b6",
+    "month_idx": 0,
+    "pet_name": "Tota",
+    "pet_species": "dog",
+    "generated_at": "2025-10-27T20:46:23.145982",
+    "stage": "stage1_structured"
+  }
+}

@@ -4,18 +4,24 @@ Main product recommendation engine that processes LLM slots and returns recommen
 
 import json
 import logging
+import os
 from datetime import datetime
 from typing import Dict, List, Any
 from pathlib import Path
+from dotenv import load_dotenv
+
+load_dotenv()
 
 # Try relative imports first (when imported as module), fall back to absolute (when run directly)
 try:
     from .storage_loader import EmbeddingStorageLoader
     from .vector_search import SpeciesAwareVectorSearch
+    from .qdrant_vector_search_rest import QdrantVectorSearch  # Using REST API for reliability
     from .filters import ProductFilters
 except ImportError:
     from agents.product_recommendations.storage_loader import EmbeddingStorageLoader
     from agents.product_recommendations.vector_search import SpeciesAwareVectorSearch
+    from agents.product_recommendations.qdrant_vector_search_rest import QdrantVectorSearch  # Using REST API for reliability
     from agents.product_recommendations.filters import ProductFilters
 
 logger = logging.getLogger(__name__)
@@ -50,11 +56,37 @@ class ProductRecommendationEngine:
         """
         logger.info("Initializing Product Recommendation Engine...")
         
-        # Load and partition embeddings
-        stats = self.storage_loader.load_and_partition()
+        # Check if we should use Qdrant
+        use_qdrant = os.getenv("USE_QDRANT", "false").lower() == "true"
         
-        # Initialize vector search
-        self.vector_search = SpeciesAwareVectorSearch(self.storage_loader)
+        if use_qdrant:
+            logger.info("🚀 Using Qdrant vector database")
+            self.vector_search = QdrantVectorSearch()
+            
+            # Try to get collection stats from Qdrant using REST API
+            try:
+                response = self.vector_search.session.get(
+                    f"{self.vector_search.qdrant_url}/collections/{self.vector_search.collection_name}"
+                )
+                response.raise_for_status()
+                collection_info = response.json()["result"]
+                total_products = collection_info["points_count"]
+                stats = {
+                    "mode": "qdrant",
+                    "total_products": total_products,
+                    "message": f"Using Qdrant cloud vector database ({total_products:,} products)"
+                }
+            except Exception as e:
+                logger.warning(f"Could not get Qdrant collection stats: {e}")
+                stats = {"mode": "qdrant", "message": "Using Qdrant cloud vector database"}
+        else:
+            logger.info("📁 Using JSONL in-memory vector search")
+            # Load and partition embeddings
+            stats = self.storage_loader.load_and_partition()
+            
+            # Initialize vector search
+            self.vector_search = SpeciesAwareVectorSearch(self.storage_loader)
+            stats["mode"] = "jsonl"
         
         self.is_initialized = True
         logger.info("✅ Product Recommendation Engine ready!")

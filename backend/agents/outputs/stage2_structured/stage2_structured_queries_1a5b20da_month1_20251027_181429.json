@@ -1,0 +1,334 @@
+{
+  "total_queries": 26,
+  "queries": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food/Nutrition",
+      "family": "Dry Kibble",
+      "embedding_query": "Adult dog dry kibble for medium/large breeds (50 lb), chicken-free novel protein formula (fish, lamb or other non-chicken), medium-size kibble for chewing, sold in 12–30 lb bags",
+      "bm25_query": "adult dog dry kibble 50 lb medium size novel protein 12-30 lb bag NOT Chicken",
+      "top_k": 20,
+      "rationale": "Daily staple \u000184 dog must eat a balanced adult diet every day. This Shar Pei has a documented chicken allergy, so a chicken-free kibble is essential to avoid allergic reactions and maintain skin health.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Adult dog filtered pet water fountain, continuous-flow with replaceable carbon filter, 1–2 L capacity, plastic or stainless, keeps water cooler and circulating for apartment use",
+      "bm25_query": "pet water fountain filtered replaceable carbon filter 1-2L continuous flow apartment stainless NOT Chicken",
+      "top_k": 12,
+      "rationale": "Fresh water available at all times is required daily. Current excessive heat warning increases dehydration risk \u000184 a fountain improves intake and keeps water cooler in warm conditions.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Litter/Waste",
+      "family": "Poop Bags",
+      "embedding_query": "Durable, leak-resistant biodegradable compostable poop bags in dispenser rolls, scent-free, standard 9x13 inch size for daily apartment walks",
+      "bm25_query": "biodegradable poop bags leak resistant dispenser roll 9x13 scent-free apartment NOT Chicken",
+      "top_k": 10,
+      "rationale": "Daily excretion disposal is a basic need for an apartment dog. Reliable bags prevent messes and odor buildup in shared building spaces.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Seasonal/Environment",
+      "family": "Cooling/Heating Gear",
+      "embedding_query": "Adult dog non-electric cooling mat sized for a 50 lb dog, pressure-activated or gel cooling surface that stays cool without refrigeration, machine-washable or wipeable cover",
+      "bm25_query": "non-electric cooling mat 50 lb pressure-activated gel machine washable cover apartment NOT Chicken",
+      "top_k": 12,
+      "rationale": "Excessive heat warning in zip 98052 creates immediate heat-risk indoors for an apartment dog. A cooling mat reduces heat-stress quickly and is an immediate safety item.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Treats",
+      "family": "Training Treats",
+      "embedding_query": "Adult dog low-calorie soft training treats or bite-sized freeze-dried treats, single non-chicken protein (e.g., fish or lamb), small resealable packaging for daily reinforcement",
+      "bm25_query": "low calorie training treats soft bite-sized freeze-dried single protein resealable NOT Chicken",
+      "top_k": 15,
+      "rationale": "Daily positive reinforcement helps maintain good apartment manners and allows quick rewards during walks or training. Must be chicken-free to avoid allergen exposure.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Grooming Sprays/Foams/Wipes",
+      "embedding_query": "Adult dog pH-balanced wrinkle and skin-fold cleansing wipes or gentle foam for facial/body folds, alcohol-free and fragrance-free, antibacterial/antifungal, single-wipe format",
+      "bm25_query": "wrinkle wipes skin fold pH-balanced antibacterial antifungal alcohol-free fragrance-free single wipe NOT Chicken",
+      "top_k": 12,
+      "rationale": "Shar Peis have deep skin folds prone to moisture trapping and secondary infections. Regular fold cleaning is preventive care to reduce dermatitis risk.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Powders/Sprays/Wipes",
+      "embedding_query": "Adult dog gentle pH-balanced ear cleaning solution, alcohol-free and hypoallergenic, bottle with nozzle tip for weekly or as-needed cleaning of wrinkled floppy ears",
+      "bm25_query": "ear cleaner pH-balanced alcohol-free hypoallergenic nozzle tip weekly cleaning NOT Chicken",
+      "top_k": 10,
+      "rationale": "Breed\u00019s skin folds and ear conformation can predispose to ear debris/irritation; routine cleaning prevents infections and keeps ears comfortable in apartment living.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "Adult dog padded front-clip walking harness sized for a 50 lb dog, adjustable straps, quick-release buckles, soft comfortable fit to reduce pulling and improve control on apartment/street walks",
+      "bm25_query": "front-clip harness 50 lb padded adjustable quick-release reduce pulling apartment walks NOT Chicken",
+      "top_k": 12,
+      "rationale": "Apartment living relies on efficient, safe walks. A harness provides better control, reduces neck strain, and helps manage unexpected noises (leaf blowers, Halloween doorbells, hunting season).",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Leashes/Collars",
+      "family": "Harness & Leash",
+      "embedding_query": "Adult dog reflective-coated leash or USB-rechargeable LED leash attachment, water-resistant and bright for evening city walks, easy-attach clip or integrated LED strip",
+      "bm25_query": "reflective leash LED leash attachment USB rechargeable water-resistant evening visibility NOT Chicken",
+      "top_k": 12,
+      "rationale": "Hunting season and shorter daylight (Daylight Saving End) plus apartment street-walking increase need for visibility; prevents accident risk during low-light walks.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Bowls & Diners",
+      "embedding_query": "Adult dog weighted non-slip slow-feeder bowl sized for medium/large dogs to slow gulping and promote digestion, dishwasher-safe",
+      "bm25_query": "slow feeder bowl weighted non-slip medium large dishwasher-safe slow eating digestion NOT Chicken",
+      "top_k": 10,
+      "rationale": "Medium activity apartment dogs can eat quickly; slowing intake reduces regurgitation risk and helps digestion.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Feeding/Bowls",
+      "family": "Feeders & Waterers",
+      "embedding_query": "Adult dog elevated stainless steel bowl stand mid-height sized for a 50 lb dog, sturdy construction with stainless bowls for hygiene and easy cleaning",
+      "bm25_query": "elevated stainless steel bowl stand mid-height 50 lb sturdy easy clean NOT Chicken",
+      "top_k": 10,
+      "rationale": "Moderate-size adult dogs sometimes benefit from slightly elevated bowls for ergonomics; helps cleaner feeding area in small apartment.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Health & Wellness",
+      "family": "Dental (VOHC Chews)",
+      "embedding_query": "Adult dog hypoallergenic dental chews for medium/large dogs, chicken-free, low-fat, designed to reduce plaque and tartar, sized for 50 lb dogs",
+      "bm25_query": "hypoallergenic dental chews medium large chicken-free low-fat plaque tartar 50 lb NOT Chicken",
+      "top_k": 15,
+      "rationale": "Dental health is a preventive best practice; chews help reduce plaque accumulation and can be started in adults to preserve oral health.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Adult dog soft rubber curry brush and grooming glove set for short coats, reduces loose hair and stimulates skin, easy to use in apartment",
+      "bm25_query": "rubber curry brush grooming glove short coat reduce loose hair stimulate skin apartment NOT Chicken",
+      "top_k": 10,
+      "rationale": "Regular grooming reduces skin irritation and removes debris from folds; also helps during fall allergy season and indoor living.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming/Hygiene",
+      "family": "Brushes/Combs & Tools",
+      "embedding_query": "Adult dog quiet cordless rotary nail grinder or quality clippers with safety guard, suitable for at-home nail maintenance and low-stress apartment use",
+      "bm25_query": "quiet nail grinder cordless safety guard clippers at-home nail maintenance apartment NOT Chicken",
+      "top_k": 8,
+      "rationale": "Apartment dogs need routine nail upkeep to avoid noise, damage to floors, and discomfort. A grinder reduces clamping and splinter risk.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Cleaning",
+      "family": "Cleaners & Stain Removers",
+      "embedding_query": "Enzyme-based stain and odor remover spray for pet urine and organic stains, safe for fabrics and carpets, formulated for apartment use",
+      "bm25_query": "enzyme odor neutralizer stain remover urine safe fabrics carpets apartment NOT Chicken",
+      "top_k": 10,
+      "rationale": "No-yard apartment living increases reliance on indoor cleanliness. Enzyme cleaners break down odors and reduce repeat marking or odor retention.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Adult dog durable rubber treat-dispensing toy with hollow center, dishwasher-safe, non-toxic, sized for average chewers to hold kibble or small treats",
+      "bm25_query": "rubber treat dispensing toy hollow dishwasher safe non-toxic average chewer hold kibble NOT Chicken",
+      "top_k": 12,
+      "rationale": "Provides mental stimulation and slow-feeding enrichment for indoor apartment time; appropriate for average chewers to extend engagement.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Puzzle & Interactive Toys",
+      "embedding_query": "Adult dog interactive puzzle feeder or snuffle mat to hide kibble and encourage foraging, machine-washable pieces for apartment use",
+      "bm25_query": "puzzle feeder snuffle mat hide kibble foraging machine washable apartment NOT Chicken",
+      "top_k": 12,
+      "rationale": "Indoor enrichment that stimulates natural foraging and reduces boredom, important when outdoor time is limited and during rain season.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Chews (Bones & Bully)",
+      "embedding_query": "Adult dog long-lasting non-edible nylon or composite chew sized for medium/large dogs, durable for average chewers to occupy time without edible ingredients",
+      "bm25_query": "long-lasting nylon composite chew medium large durable average chewer non-edible NOT Chicken",
+      "top_k": 12,
+      "rationale": "Reduces boredom and provides safe outlet for chewing in an apartment; avoids edible chews that may contain chicken.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Adult dog durable tug rope for interactive play, medium thickness for average chew strength, secure knotting and washable fibers",
+      "bm25_query": "tug rope durable medium thickness washable fibers secure knot interactive play NOT Chicken",
+      "top_k": 8,
+      "rationale": "Interactive play builds bond and provides physical exercise indoors when outdoor time is limited, helping manage energy in apartment living.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys/Chews",
+      "family": "Toys (General)",
+      "embedding_query": "Adult dog soft indoor ball or plush fetch toy designed to be noise-reduced and carpet-safe, medium size for a 50 lb dog to avoid furniture damage and neighbor disturbance",
+      "bm25_query": "soft indoor ball plush fetch noise-reduced carpet-safe medium 50 lb apartment NOT Chicken",
+      "top_k": 8,
+      "rationale": "Allows short indoor fetch sessions without disturbing neighbors; useful during rainy days or early/late walks.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Health & Wellness",
+      "family": "Calming (Aids & Refills)",
+      "embedding_query": "Adult dog adjustable calming wrap (thundershirt-style) sized for medium/large dogs to provide gentle pressure during loud events like leaf blowers, hunting season, or Halloween",
+      "bm25_query": "calming wrap thundershirt adjustable medium large gentle pressure loud events NOT Chicken",
+      "top_k": 10,
+      "rationale": "Calendar events (leaf blower, hunting season, Halloween) can cause stress; a calming wrap is a non-medical tool to reduce anxiety during those times.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Gear/Travel",
+      "family": "Beds",
+      "embedding_query": "Adult dog orthopedic memory-foam bed sized for a 50 lb dog with washable cover, low profile for easy access and breathable fabric for warmer months",
+      "bm25_query": "orthopedic memory foam bed 50 lb washable cover low profile breathable fabric NOT Chicken",
+      "top_k": 12,
+      "rationale": "Provides comfortable resting surface for daily naps and joint support; improves sleep quality and offers a dedicated space in small living areas.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Beginner scent-work nose training kit for adult dogs with scent containers, washable scent pads and instruction booklet for short indoor scent games",
+      "bm25_query": "scent work kit beginner scent containers washable pads indoor nose training NOT Chicken",
+      "top_k": 8,
+      "rationale": "Shar Peis benefit from mental stimulation; nose work is low-impact, enriching, and ideal for rainy days or limited outdoor access.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training/Tech",
+      "family": "Training Aids & Treat Pouches",
+      "embedding_query": "Hands-free treat pouch with secure closure and poop-bag dispenser, clip for belt or waistband, sized for carrying small chicken-free treats on walks",
+      "bm25_query": "hands-free treat pouch poop bag dispenser clip belt secure closure walks NOT Chicken",
+      "top_k": 8,
+      "rationale": "Improves convenience for frequent short apartment walks and training reinforcement on the go.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Health & Wellness",
+      "family": "First Aid",
+      "embedding_query": "Pet-safe paw balm to moisturize pads and protect from hot surfaces, small tin or tube for use after hot pavement exposure or indoor dryness",
+      "bm25_query": "paw balm pet-safe moisturize pads protect hot pavement small tin tube NOT Chicken",
+      "top_k": 8,
+      "rationale": "Excessive heat warning increases risk of hot pavement; paw balm provides protection and is a handy apartment-first-aid non-medical product.",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Emergency/Safety",
+      "family": "Collars & ID Tags",
+      "embedding_query": "Compact USB-rechargeable clip-on LED safety light for adult dog collar, water-resistant with multiple flash modes for extra nighttime visibility",
+      "bm25_query": "clip-on LED safety light USB rechargeable water-resistant multiple flash modes collar visibility NOT Chicken",
+      "top_k": 10,
+      "rationale": "Supplemental visibility for late/evening walks during hunting season and shorter daylight; low-cost reassurance in apartment neighborhood.",
+      "negatives": [
+        "Chicken"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "1a5b20da-d5c7-475d-8d1d-fb23a083d895",
+    "pet_id": "f700825b-a692-4bd5-8607-9142bcc43f8d",
+    "month_idx": 1,
+    "pet_name": "Coci",
+    "pet_species": "dog",
+    "generated_at": "2025-10-27T18:14:29.573709",
+    "stage": "stage2_structured",
+    "model": "gpt-5-mini-2025-08-07",
+    "stage1_source": "/Users/dkataria/Desktop/dkataria/AI agents/NPP Testing/backend/agents/outputs/stage1_structured/stage1_structured_1a5b20da_month1_20251027_181248.json",
+    "tokens": {
+      "prompt": 6434,
+      "completion": 6136,
+      "total": 12570
+    },
+    "elapsed_seconds": 0.0
+  }
+}

@@ -46,18 +46,10 @@ class ImageGenerationService:
         prompt = (
             f"Photorealistic portrait of a {age_text} "
             f"{breed_text}{request.species} named {request.name}. "
-            f"{appearance_text}Sitting three-quarter view facing right,but head turned toward viewer, making eye contact."
-            "soft studio lighting, high detail, shallow depth of field, pastel background, 3:2 aspect ratio. "
+            f"{appearance_text}Sitting three-quarter view facing right, but head turned toward viewer, making eye contact. "
+            "Soft studio lighting, high detail, shallow depth of field, pastel background, 3:2 aspect ratio. "
             "No text or watermark."
-
-            f"Photorealistic portrait of a {age_text} "
         )
-        #     f"{breed_text}{request.species} named {request.name}. "
-        #     f"{appearance_text} standing three-quarter view facing right, "
-        #     "but head turned toward viewer, making eye contact. "
-        #     "Soft studio lighting, high detail, shallow depth of field, pastel background, 3:2 aspect ratio. "
-        #     "No text or watermark."
-        # )
         
         return prompt
     
@@ -81,6 +73,8 @@ class ImageGenerationService:
             raise HTTPException(status_code=500, detail="Missing OpenAI API key")
         
         prompt = self._build_prompt(request)
+        print(f"\n🎨 Generating image for {request.species} '{request.name}'...")
+        print(f"🔧 Prompt: {prompt[:100]}...")
         
         try:
             async with httpx.AsyncClient(timeout=60.0) as client:
@@ -100,9 +94,12 @@ class ImageGenerationService:
                 )
             
             if response.status_code != 200:
+                error_detail = f"OpenAI API returned {response.status_code}: {response.text}"
+                print(f"\n❌ IMAGE GENERATION ERROR: {error_detail}")
+                print(f"🔧 Prompt used: {prompt}")
                 raise HTTPException(
                     status_code=502, 
-                    detail=f"Image API failed: {response.text}"
+                    detail=error_detail
                 )
             
             data = response.json()

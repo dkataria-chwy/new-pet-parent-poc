@@ -214,11 +214,13 @@ class OnDemandRecommendationHandler:
                 "pet_species": species
             })
             
-            logger.info(f"✅ Generated {len(products)} recommendations")
+            logger.info(f"✅ Generated {len(final_products)} recommendations")
             return result
             
         except Exception as e:
             logger.error(f"❌ Failed to process recommendation request: {e}")
+            import traceback
+            traceback.print_exc()
             raise
     
     def _fetch_pet_profile(self, journey_id: str, month_idx: int) -> Dict[str, Any]:

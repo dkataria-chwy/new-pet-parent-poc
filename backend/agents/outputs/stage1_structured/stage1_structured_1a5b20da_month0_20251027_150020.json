@@ -1,0 +1,423 @@
+{
+  "total_categories": 26,
+  "needs": [
+    {
+      "bucket": "essentials",
+      "top_family": "Food",
+      "family": "Dry adult dog food (chicken-free)",
+      "description": "Complete adult dry kibble formulated for medium-activity, 50 lb adult dogs. 15–30 lb bag size, balanced protein/fat for maintenance, labeled explicitly 'chicken-free' (uses beef, fish, lamb, or novel protein). Moderate kibble size for medium jaws; suitable for daily feeding.",
+      "rationale": "Daily food is a consumable used every day — must be chicken-free because this Shar Pei has a documented chicken allergy. Providing an appropriate adult formula meets caloric needs for a medium-activity 50 lb dog and prevents accidental exposure.",
+      "evidence": [
+        "pet_profile: age_months: 60",
+        "pet_profile: weight_lb: 50.0",
+        "pet_profile: allergies: [Chicken]",
+        "standard: daily_food_requirement_for_adult_dogs"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Hydration",
+      "family": "Filtered stainless-steel pet water fountain (2+ L capacity)",
+      "description": "Countertop/floor automatic circulating water fountain with replaceable charcoal filter, 2–3 liter capacity, stainless steel bowl, quiet pump. Size appropriate for one medium dog in an apartment; promotes frequent drinking.",
+      "rationale": "Fresh, circulated water encourages hydration every day. With current excessive heat warnings, increased hydration is urgent to reduce heat stress; fountain improves water appeal and reduces heat-related risk.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "weather_context: alerts: [excessive_heat_warning]",
+        "standard: increased_hydration_needed_in_heat"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Hydration / On-the-go",
+      "family": "Portable dog water bottle with integrated collapsible bowl (large capacity ~700–1000 ml)",
+      "description": "Handheld, leak-proof bottle with attached silicone collapsible bowl or flip-down drinking tray, capacity ~700–1000 ml, easy one-handed use, dishwasher-safe parts, medium/large sizing for 50 lb dog.",
+      "rationale": "Apartment with no yard requires walks; during an excessive-heat period the dog needs accessible water on outings to prevent overheating and dehydration. This is immediate safety for outdoor times.",
+      "evidence": [
+        "pet_profile: yard: no_yard",
+        "weather_context: alerts: [excessive_heat_warning]",
+        "standard: portable_hydration_for_walking_in_heat"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Cooling & Heat Safety",
+      "family": "Self-cooling mat (large, durable for medium dogs)",
+      "description": "Pressure-activated or gel-based self-cooling mat sized for a 50 lb dog (approx. 30–36\" long), non-toxic, puncture-resistant surface, non-slip base — no refrigeration required for passive cooling.",
+      "rationale": "Current excessive heat warning creates immediate risk of overheating in an apartment without yard access. A self-cooling mat provides a safe, passive cooling surface indoors right now.",
+      "evidence": [
+        "weather_context: alerts: [excessive_heat_warning]",
+        "pet_profile: breed: Shar Pei",
+        "standard: heat_relief_measures_for_dogs"
+      ],
+      "priority": "critical",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Waste Management",
+      "family": "Waste/poop bags (biodegradable, dispenser-ready)",
+      "description": "Durable, leak-resistant waste bags in bulk (rolls or box), dispenser-ready, 200+ count, medium/large size to handle 50 lb dog's waste on daily walks.",
+      "rationale": "Daily waste pickup on walks is a daily consumable necessity for apartment living without a yard — required every outing and therefore essential now.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "pet_profile: yard: no_yard",
+        "standard: municipal_pet_waste_practices"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "essentials",
+      "top_family": "Safety & Visibility",
+      "family": "High-visibility LED collar or rechargeable LED safety vest (medium)",
+      "description": "Rechargeable LED collar or lighted harness/vest with multiple flash modes, adjustable for medium dogs (neck circumference appropriate for 50 lb), USB-charged, water-resistant, includes reflective strips.",
+      "rationale": "Hunting season and changing daylight (Daylight Saving End upcoming) increase risk of reduced visibility. For apartment-dwelling dogs who walk near roads/trails, a lighted collar/vest is immediate safety to avoid accidents.",
+      "evidence": [
+        "calendar_context: events: [hunting_season_2025]",
+        "calendar_context: events: [daylight_saving_fall_2025]",
+        "pet_profile: activity: medium"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Skin & Fold Care",
+      "family": "Skin-fold cleansing wipes (alcohol-free, antiseptic‑safe)",
+      "description": "Single-use or pack wipes formulated for facial/skin folds: pH-balanced, gentle antiseptic (chlorhexidine or similar-safe alternative), fragrance-free, 50–100 count. Soft cloth size for deep facial folds.",
+      "rationale": "Shar Peis have prominent skin folds that trap moisture and debris, increasing infection risk — routine fold cleaning is a veterinary best practice to prevent dermatitis. Useful now during seasonal allergens and humidity changes.",
+      "evidence": [
+        "pet_profile: breed: Shar Pei",
+        "calendar_context: events: [allergy_season_fall_2025]",
+        "standard: breed_fold_care_guidelines"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming",
+      "family": "Hypoallergenic moisturizing dog shampoo (oatmeal/ceramide, chicken-free)",
+      "description": "Mild, moisturizing shampoo formulated for sensitive or allergy-prone skin, free of chicken-derived ingredients and heavy fragrances, 12–16 oz bottle, suitable for monthly or as-needed baths.",
+      "rationale": "Fall allergy season and breed sensitivity can exacerbate skin irritation; a gentle hypoallergenic shampoo helps reduce itch and soothe skin without introducing chicken-based proteins in topical products.",
+      "evidence": [
+        "calendar_context: events: [allergy_season_fall_2025]",
+        "pet_profile: allergies: [Chicken]",
+        "standard: medicated_or_hypoallergenic_shampoo_for_allergic_dogs"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Ear Care",
+      "family": "Dog ear cleaning solution (alcohol-free, pH-balanced)",
+      "description": "Gentle ear cleanser for dogs prone to otitis: alcohol-free, pH-balanced, 4–8 oz bottle with easy applicator or wipes. Suitable for routine maintenance of floppy or close-set ears.",
+      "rationale": "Shar Peis can be predisposed to ear problems; routine ear cleaning reduces infection risk and aligns with preventive grooming practices.",
+      "evidence": [
+        "pet_profile: breed: Shar Pei",
+        "standard: ear_care_prevention_guidelines"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Dental Care",
+      "family": "Daily dental chews (non-chicken formulation)",
+      "description": "Breed/size-appropriate dental chews or enzymatic daily dental treats sized for a 50 lb dog; designed to reduce plaque/tartar with chewing action, labeled non-chicken ingredients.",
+      "rationale": "Veterinary best practice recommends routine dental maintenance; daily chews reduce plaque buildup and complement brushing, lowering future dental disease risk.",
+      "evidence": [
+        "pet_profile: age_months: 60",
+        "standard: dental_care_recommendations_for_adult_dogs"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Home Environment",
+      "family": "HEPA air purifier sized for apartment (pet/allergen filter)",
+      "description": "Portable HEPA air purifier rated for medium rooms (e.g., up to ~600 sq ft), with activated carbon and pet-specific prefilter to reduce dander, pollen and indoor allergens.",
+      "rationale": "Fall allergy season (through 10/31) and an apartment setting make indoor air quality important for both pet comfort and reducing skin/respiratory allergen load.",
+      "evidence": [
+        "calendar_context: events: [allergy_season_fall_2025]",
+        "pet_profile: house_type: apartment",
+        "standard: HEPA_recommendation_for_pet_allergy_management"
+      ],
+      "priority": "high",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Behavior & Calming",
+      "family": "Calming pheromone diffuser (plug-in)",
+      "description": "Plug-in pheromone diffuser designed for dogs (coverage ~400–700 sq ft) that releases calming pheromones continuously; replaceable refill cartridges.",
+      "rationale": "Leaf blower season, hunting season, and upcoming Halloween door activity can cause situational anxiety; a pheromone diffuser helps reduce stress indoors without medication.",
+      "evidence": [
+        "calendar_context: events: [leaf_blower_season_2025]",
+        "calendar_context: events: [hunting_season_2025]",
+        "standard: non-pharmaceutical_calming_aids_for_dogs"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Behavior & Calming",
+      "family": "Anxiety wrap / snug calming vest",
+      "description": "Adjustable anxiety wrap designed to apply gentle, even pressure across the torso (size medium/large for 50 lb), machine-washable fabric, breathable material for indoor use.",
+      "rationale": "Noise events (leaf blowers, hunting, Halloween) and schedule changes (school calendar) can cause stress; an anxiety wrap is a non-pharmaceutical option to reduce acute anxiety during triggers.",
+      "evidence": [
+        "calendar_context: events: [leaf_blower_season_2025]",
+        "calendar_context: events: [halloween_2025]",
+        "standard: behavioral_threat_management_for_dogs"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Bedding & Comfort",
+      "family": "Elevated orthopedic dog bed (medium/large)",
+      "description": "Orthopedic memory-foam bed or elevated cot sized for a 50 lb dog (approx. 30–36\" length), removable washable cover, bolstered edges optional for head support.",
+      "rationale": "Supports joint health and provides comfortable rest in an apartment setting; proactive comfort reduces stress on joints as the dog ages and improves quality of sleep.",
+      "evidence": [
+        "pet_profile: weight_lb: 50.0",
+        "calendar_context: events: [senior_pet_month_2025]",
+        "standard: orthopedic_support_for_adult_dogs"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Grooming Tools",
+      "family": "Rechargeable low-vibration nail grinder",
+      "description": "Cordless nail grinder with variable speeds, LED light, and safety guard; suitable for medium-sized dog nails and apartment grooming to avoid loud clipping noise.",
+      "rationale": "Regular nail maintenance prevents overgrowth, splitting and discomfort. A grinder is quieter and more controllable for apartment use and dogs sensitive to clippers.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "standard: routine_nail_care_guidelines"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "nice_to_haves",
+      "top_family": "Treats & Training",
+      "family": "High-value non-chicken training treats (soft)",
+      "description": "Soft, small training treats using non-chicken protein (fish, duck, beef, lamb, or plant-based), bite-sized for frequent rewards during short apartment sessions; pack of several hundred.",
+      "rationale": "Positive reinforcement training and daily interactions support behavior and mental engagement. Avoiding chicken prevents allergic reactions.",
+      "evidence": [
+        "pet_profile: allergies: [Chicken]",
+        "pet_profile: activity: medium",
+        "standard: positive_reinforcement_training_principles"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys - Mental Stimulation",
+      "family": "Rubber treat-dispensing puzzle toy (durable, medium-large)",
+      "description": "Durable hollow rubber toy that dispenses kibble/treats when rolled or manipulated; medium-large size for a 50 lb dog, puncture-resistant material for average chewers.",
+      "rationale": "Provides mental stimulation and slows feeding; valuable in an apartment with no yard to keep the dog engaged and reduce boredom-related behavior.",
+      "evidence": [
+        "pet_profile: activity: medium",
+        "pet_profile: chew_strength: average",
+        "calendar_context: events: [pacific_northwest_rain_season_2025]"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys - Foraging",
+      "family": "Snuffle mat (foraging mat)",
+      "description": "Fabric snuffle mat sized for medium dogs where kibble/treats can be hidden to encourage nose work and slow feeding; machine-washable.",
+      "rationale": "Encourages natural foraging instincts and offers low-impact mental exercise indoors, especially useful during upcoming rainy days or when outside time is limited.",
+      "evidence": [
+        "calendar_context: events: [pacific_northwest_rain_season_2025]",
+        "pet_profile: house_type: apartment",
+        "standard: enrichment_for_indoor_dogs"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Feeding Enrichment",
+      "family": "Interactive slow-feeder/puzzle bowl",
+      "description": "Plastic or silicone slow-feeder bowl with maze pattern or multi-chamber puzzle bowl sized for adult meal portions to prolong feeding time and provide enrichment.",
+      "rationale": "Slows rapid eating, adds mental stimulation at meal times, suitable for daily use in an apartment environment.",
+      "evidence": [
+        "pet_profile: age_months: 60",
+        "pet_profile: house_type: apartment",
+        "standard: slow_feeding_benefits"
+      ],
+      "priority": "medium",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys - Chew",
+      "family": "Durable chew toy (rubber/nylon) for average chewers",
+      "description": "Durable chew (rubber or tough nylon) sized for medium dogs, shaped to encourage chewing without small pieces; medium density for average chewers—helps with oral stimulation.",
+      "rationale": "Satisfies chewing needs and redirects destructive chewing; appropriate durability given the dog's average chew strength.",
+      "evidence": [
+        "pet_profile: chew_strength: average",
+        "pet_profile: activity: medium",
+        "standard: chew_toy_selection_guidelines"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys - Indoor Play",
+      "family": "Soft indoor-safe ball (medium)",
+      "description": "Soft, indoor-safe ball for apartment fetch; non-abrasive, quiet on floors, medium size appropriate for a 50 lb dog, washable.",
+      "rationale": "Allows safe indoor play when weather limits outside time; helps maintain activity level without damaging apartment surfaces or causing noise complaints.",
+      "evidence": [
+        "pet_profile: house_type: apartment",
+        "calendar_context: events: [pacific_northwest_rain_season_2025]"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Toys - Interactive",
+      "family": "Tug rope toy (sturdy braided rope)",
+      "description": "Medium-duty braided rope with comfortable handles sized for interactive tug games between owner and dog; not intended for unsupervised chewing.",
+      "rationale": "Interactive play (tug) builds bonding and provides physical exercise in limited-space living conditions.",
+      "evidence": [
+        "pet_profile: activity: medium",
+        "pet_profile: about: Very loving, friendly and quite."
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Training & Scent Work",
+      "family": "Beginner scent-work/nose kit (starter set)",
+      "description": "Starter kit with sample scent containers or hide-and-seek scent toys and simple instructions to teach nose games; compact for apartment use.",
+      "rationale": "Nose work is highly stimulating and low-impact — ideal for keeping a medium-activity dog mentally satisfied indoors or on short walks.",
+      "evidence": [
+        "pet_profile: activity: medium",
+        "pet_profile: house_type: apartment",
+        "standard: mental_enrichment_recommendations_for_dogs"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Apparel & Weather Gear",
+      "family": "Lightweight waterproof raincoat with reflective trim (medium)",
+      "description": "Packable, breathable waterproof raincoat with belly coverage and reflective strips sized for a 50 lb medium dog; easy-on fasteners for quick walks.",
+      "rationale": "Rain season and apartment living mean more walks in wet weather; a raincoat keeps the dog comfortable, reduces indoor mess, and encourages continued outdoor exercise.",
+      "evidence": [
+        "calendar_context: events: [pacific_northwest_rain_season_2025]",
+        "pet_profile: yard: no_yard"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Cleaning & Maintenance",
+      "family": "Paw cleaning kit or absorbent doormat (for wet paws)",
+      "description": "Portable paw wipes (pet-safe saline or mild cleanser) or an absorbent paw-cleaning mat sized for medium dogs to remove mud/water after rainy walks.",
+      "rationale": "Helps keep the apartment clean during rainy season and reduces skin fold moisture transfer from dirty/wet paws — convenience and hygiene improvement.",
+      "evidence": [
+        "calendar_context: events: [pacific_northwest_rain_season_2025]",
+        "pet_profile: house_type: apartment"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    },
+    {
+      "bucket": "enrichment",
+      "top_family": "Cooling & Comfort",
+      "family": "Soakable cooling bandana (evaporative cooling)",
+      "description": "Lightweight fabric bandana that can be soaked and wrung to provide evaporative cooling; size adjustable for medium dogs, machine-washable.",
+      "rationale": "Supplemental cooling for short outdoor excursions during heat waves; complements the cooling mat and portable water to reduce heat discomfort.",
+      "evidence": [
+        "weather_context: alerts: [excessive_heat_warning]",
+        "pet_profile: yard: no_yard"
+      ],
+      "priority": "low",
+      "negatives": [
+        "Chicken"
+      ]
+    }
+  ],
+  "metadata": {
+    "journey_id": "1a5b20da-d5c7-475d-8d1d-fb23a083d895",
+    "pet_id": "f700825b-a692-4bd5-8607-9142bcc43f8d",
+    "month_idx": 0,
+    "pet_name": "Coci",
+    "pet_species": "dog",
+    "generated_at": "2025-10-27T15:00:20.559095",
+    "stage": "stage1_structured"
+  }
+}
